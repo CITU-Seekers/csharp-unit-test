@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortalSequence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9ada92b8fc0ea1d8d52d704c35a1c8275152595")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortalSequence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortalSequence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

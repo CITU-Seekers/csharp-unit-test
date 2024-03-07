@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\bin\Debug\net6.0-windows\PotionBrewingRevamp.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\bin\Debug\net6.0-windows\PotionBrewingRevamp.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\bin\Debug\net6.0-windows\PotionBrewingRevamp.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\bin\Debug\net6.0-windows\PotionBrewingRevamp.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\bin\Debug\net6.0-windows\PotionBrewingRevamp.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\CodeChum.PotionBrewingRevamp.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\refint\PotionBrewingRevamp.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\PotionBrewingRevamp.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PotionBrewingRevamp\obj\Debug\net6.0-windows\ref\PotionBrewingRevamp.dll

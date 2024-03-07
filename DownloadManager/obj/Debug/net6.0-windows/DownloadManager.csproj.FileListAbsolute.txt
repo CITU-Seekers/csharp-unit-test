@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\bin\Debug\net6.0-windows\DownloadManager.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\bin\Debug\net6.0-windows\DownloadManager.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\bin\Debug\net6.0-windows\DownloadManager.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\bin\Debug\net6.0-windows\DownloadManager.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\bin\Debug\net6.0-windows\DownloadManager.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\CodeChum.DownloadManager.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\refint\DownloadManager.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\DownloadManager.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DownloadManager\obj\Debug\net6.0-windows\ref\DownloadManager.dll

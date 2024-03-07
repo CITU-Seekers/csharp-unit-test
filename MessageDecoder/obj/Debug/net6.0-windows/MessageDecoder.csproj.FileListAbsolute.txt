@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\CodeChum.MessageDecoder.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\bin\Debug\net6.0-windows\MessageDecoder.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\bin\Debug\net6.0-windows\MessageDecoder.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\bin\Debug\net6.0-windows\MessageDecoder.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\bin\Debug\net6.0-windows\MessageDecoder.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\bin\Debug\net6.0-windows\MessageDecoder.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\refint\MessageDecoder.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\MessageDecoder.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\MessageDecoder\obj\Debug\net6.0-windows\ref\MessageDecoder.dll

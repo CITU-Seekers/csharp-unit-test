@@ -23,10 +23,28 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AdvancedPersonalCalendar\AdvancedPersonalCalendar.csproj" />
     <ProjectReference Include="..\BlogPost\BlogPost.csproj" />
+    <ProjectReference Include="..\Brightness\Brightness.csproj" />
+    <ProjectReference Include="..\DestinationDecoder\DestinationDecoder.csproj" />
+    <ProjectReference Include="..\DownloadManager\DownloadManager.csproj" />
+    <ProjectReference Include="..\EventCountdown\EventCountdown.csproj" />
+    <ProjectReference Include="..\ExerciseMinutes\ExerciseMinutes.csproj" />
+    <ProjectReference Include="..\FoodMenu\FoodMenu.csproj" />
     <ProjectReference Include="..\Greetings\Greetings.csproj" />
+    <ProjectReference Include="..\MessageDecoder\MessageDecoder.csproj" />
+    <ProjectReference Include="..\MysticMessenger\MysticMessenger.csproj" />
     <ProjectReference Include="..\Orchestra\Orchestra.csproj" />
+    <ProjectReference Include="..\PizzaPlanner\PizzaPlanner.csproj" />
     <ProjectReference Include="..\PortalSequence\PortalSequence.csproj" />
+    <ProjectReference Include="..\PotionBrewingRevamp\PotionBrewingRevamp.csproj" />
+    <ProjectReference Include="..\PotionBrewing\PotionBrewing.csproj" />
+    <ProjectReference Include="..\Reservation\Reservation.csproj" />
+    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+    <ProjectReference Include="..\TaskSchedule\TaskSchedule.csproj" />
+    <ProjectReference Include="..\TemperatureConverter\TemperatureConverter.csproj" />
+    <ProjectReference Include="..\TicketCounter\TicketCounter.csproj" />
+    <ProjectReference Include="..\WorkoutManager\WorkoutManager.csproj" />
   </ItemGroup>
 
 </Project>

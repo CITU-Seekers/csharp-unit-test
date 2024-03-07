@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\bin\Debug\net6.0-windows\ExerciseMinutes.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\bin\Debug\net6.0-windows\ExerciseMinutes.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\bin\Debug\net6.0-windows\ExerciseMinutes.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\bin\Debug\net6.0-windows\ExerciseMinutes.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\bin\Debug\net6.0-windows\ExerciseMinutes.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\CodeChum.ExerciseMinutes.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\refint\ExerciseMinutes.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ExerciseMinutes.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\ExerciseMinutes\obj\Debug\net6.0-windows\ref\ExerciseMinutes.dll

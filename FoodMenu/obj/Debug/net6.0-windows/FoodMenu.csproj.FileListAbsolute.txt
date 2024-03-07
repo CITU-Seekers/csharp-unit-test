@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\bin\Debug\net6.0-windows\FoodMenu.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\bin\Debug\net6.0-windows\FoodMenu.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\bin\Debug\net6.0-windows\FoodMenu.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\bin\Debug\net6.0-windows\FoodMenu.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\bin\Debug\net6.0-windows\FoodMenu.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\CodeChum.FoodMenu.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\refint\FoodMenu.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\FoodMenu.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\FoodMenu\obj\Debug\net6.0-windows\ref\FoodMenu.dll
