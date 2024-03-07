@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\bin\Debug\net6.0-windows\DestinationDecoder.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\bin\Debug\net6.0-windows\DestinationDecoder.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\bin\Debug\net6.0-windows\DestinationDecoder.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\bin\Debug\net6.0-windows\DestinationDecoder.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\bin\Debug\net6.0-windows\DestinationDecoder.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\CodeChum.DestinationDecoder.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\refint\DestinationDecoder.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\DestinationDecoder.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\DestinationDecoder\obj\Debug\net6.0-windows\ref\DestinationDecoder.dll

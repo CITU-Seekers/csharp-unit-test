@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZZZCodeChumTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b56152fc06ce4bc909545abdcded9ebf166f6a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZZZCodeChumTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZZZCodeChumTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,17 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\bin\Debug\net6.0-windows\Brightness.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\bin\Debug\net6.0-windows\Brightness.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\bin\Debug\net6.0-windows\Brightness.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\bin\Debug\net6.0-windows\Brightness.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\bin\Debug\net6.0-windows\Brightness.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\CodeChum.Brightness.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\refint\Brightness.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\Brightness.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\Brightness\obj\Debug\net6.0-windows\ref\Brightness.dll

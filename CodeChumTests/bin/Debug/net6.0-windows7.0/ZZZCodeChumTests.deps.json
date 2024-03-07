@@ -8,9 +8,29 @@
     ".NETCoreApp,Version=v6.0": {
       "ZZZCodeChumTests/1.0.0": {
         "dependencies": {
+          "AdvancedPersonalCalendar": "1.0.0",
           "BlogPost": "1.0.0",
+          "Brightness": "1.0.0",
+          "DestinationDecoder": "1.0.0",
+          "DownloadManager": "1.0.0",
+          "EventCountdown": "1.0.0",
+          "ExerciseMinutes": "1.0.0",
+          "FoodMenu": "1.0.0",
           "Greetings": "1.0.0",
+          "MessageDecoder": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
+          "MysticMessenger": "1.0.0",
+          "Orchestra": "1.0.0",
+          "PizzaPlanner": "1.0.0",
+          "PortalSequence": "1.0.0",
+          "PotionBrewing": "1.0.0",
+          "PotionBrewingRevamp": "1.0.0",
+          "Reservation": "1.0.0",
+          "ShoppingCart": "1.0.0",
+          "TaskSchedule": "1.0.0",
+          "TemperatureConverter": "1.0.0",
+          "TicketCounter": "1.0.0",
+          "WorkoutManager": "1.0.0",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
@@ -1022,14 +1042,114 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
+      "AdvancedPersonalCalendar/1.0.0": {
+        "runtime": {
+          "AdvancedPersonalCalendar.dll": {}
+        }
+      },
       "BlogPost/1.0.0": {
         "runtime": {
           "BlogPost.dll": {}
         }
       },
+      "Brightness/1.0.0": {
+        "runtime": {
+          "Brightness.dll": {}
+        }
+      },
+      "DestinationDecoder/1.0.0": {
+        "runtime": {
+          "DestinationDecoder.dll": {}
+        }
+      },
+      "DownloadManager/1.0.0": {
+        "runtime": {
+          "DownloadManager.dll": {}
+        }
+      },
+      "EventCountdown/1.0.0": {
+        "runtime": {
+          "EventCountdown.dll": {}
+        }
+      },
+      "ExerciseMinutes/1.0.0": {
+        "runtime": {
+          "ExerciseMinutes.dll": {}
+        }
+      },
+      "FoodMenu/1.0.0": {
+        "runtime": {
+          "FoodMenu.dll": {}
+        }
+      },
       "Greetings/1.0.0": {
         "runtime": {
           "Greetings.dll": {}
+        }
+      },
+      "MessageDecoder/1.0.0": {
+        "runtime": {
+          "MessageDecoder.dll": {}
+        }
+      },
+      "MysticMessenger/1.0.0": {
+        "runtime": {
+          "MysticMessenger.dll": {}
+        }
+      },
+      "Orchestra/1.0.0": {
+        "runtime": {
+          "Orchestra.dll": {}
+        }
+      },
+      "PizzaPlanner/1.0.0": {
+        "runtime": {
+          "PizzaPlanner.dll": {}
+        }
+      },
+      "PortalSequence/1.0.0": {
+        "runtime": {
+          "PortalSequence.dll": {}
+        }
+      },
+      "PotionBrewing/1.0.0": {
+        "runtime": {
+          "PotionBrewing.dll": {}
+        }
+      },
+      "PotionBrewingRevamp/1.0.0": {
+        "runtime": {
+          "PotionBrewingRevamp.dll": {}
+        }
+      },
+      "Reservation/1.0.0": {
+        "runtime": {
+          "Reservation.dll": {}
+        }
+      },
+      "ShoppingCart/1.0.0": {
+        "runtime": {
+          "ShoppingCart.dll": {}
+        }
+      },
+      "TaskSchedule/1.0.0": {
+        "runtime": {
+          "TaskSchedule.dll": {}
+        }
+      },
+      "TemperatureConverter/1.0.0": {
+        "runtime": {
+          "TemperatureConverter.dll": {}
+        }
+      },
+      "TicketCounter/1.0.0": {
+        "runtime": {
+          "TicketCounter.dll": {}
+        }
+      },
+      "WorkoutManager/1.0.0": {
+        "runtime": {
+          "WorkoutManager.dll": {}
         }
       }
     }
@@ -1663,12 +1783,112 @@
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
+    "AdvancedPersonalCalendar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BlogPost/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "Brightness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DestinationDecoder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DownloadManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventCountdown/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExerciseMinutes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodMenu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Greetings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessageDecoder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MysticMessenger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Orchestra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PizzaPlanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PortalSequence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PotionBrewing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PotionBrewingRevamp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reservation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskSchedule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TemperatureConverter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketCounter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorkoutManager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
