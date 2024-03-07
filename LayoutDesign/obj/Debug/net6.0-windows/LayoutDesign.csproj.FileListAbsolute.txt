@@ -1,0 +1,7 @@
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\LayoutDesign.csproj.AssemblyReference.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\CodeChum.LayoutDesign.resources
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\LayoutDesign.csproj.GenerateResource.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\LayoutDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\LayoutDesign.AssemblyInfoInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\LayoutDesign.AssemblyInfo.cs
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\LayoutDesign\obj\Debug\net6.0-windows\LayoutDesign.csproj.CoreCompileInputs.cache

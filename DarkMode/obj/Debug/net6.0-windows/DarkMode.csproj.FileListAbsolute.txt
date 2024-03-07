@@ -1,0 +1,17 @@
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\bin\Debug\net6.0-windows\DarkMode.exe
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\bin\Debug\net6.0-windows\DarkMode.deps.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\bin\Debug\net6.0-windows\DarkMode.runtimeconfig.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\bin\Debug\net6.0-windows\DarkMode.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\bin\Debug\net6.0-windows\DarkMode.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.csproj.AssemblyReference.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\CodeChum.DarkMode.resources
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.csproj.GenerateResource.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.AssemblyInfoInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.AssemblyInfo.cs
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.csproj.CoreCompileInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\refint\DarkMode.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\DarkMode.genruntimeconfig.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DarkMode\obj\Debug\net6.0-windows\ref\DarkMode.dll
