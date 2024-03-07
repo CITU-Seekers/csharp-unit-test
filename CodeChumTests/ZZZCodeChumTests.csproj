@@ -25,6 +25,8 @@
   <ItemGroup>
     <ProjectReference Include="..\BlogPost\BlogPost.csproj" />
     <ProjectReference Include="..\Greetings\Greetings.csproj" />
+    <ProjectReference Include="..\Orchestra\Orchestra.csproj" />
+    <ProjectReference Include="..\PortalSequence\PortalSequence.csproj" />
   </ItemGroup>
 
 </Project>

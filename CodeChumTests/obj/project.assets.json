@@ -1738,6 +1738,32 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "Orchestra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Orchestra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orchestra.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PortalSequence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PortalSequence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PortalSequence.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -5542,6 +5568,16 @@
       "type": "project",
       "path": "../Greetings/Greetings.csproj",
       "msbuildProject": "../Greetings/Greetings.csproj"
+    },
+    "Orchestra/1.0.0": {
+      "type": "project",
+      "path": "../Orchestra/Orchestra.csproj",
+      "msbuildProject": "../Orchestra/Orchestra.csproj"
+    },
+    "PortalSequence/1.0.0": {
+      "type": "project",
+      "path": "../PortalSequence/PortalSequence.csproj",
+      "msbuildProject": "../PortalSequence/PortalSequence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5549,6 +5585,8 @@
       "BlogPost >= 1.0.0",
       "Greetings >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "Orchestra >= 1.0.0",
+      "PortalSequence >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5586,6 +5624,12 @@
             },
             "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj"
             }
           }
         }
