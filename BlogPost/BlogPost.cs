@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CodeChum
+{
+    public partial class BlogPost : Form
+    {
+        public BlogPost()
+        {
+            InitializeComponent();
+            InitializeUI();
+        }
+
+        private void Problem1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InitializeUI()
+        {
+            // Add your UI initialization code here if needed
+
+            // Initial setup code
+            ApplyLabelStyles();
+        }
+
+        public void ApplyLabelStyles()
+        {
+            // Style the title label
+            lblTitle.Font = new Font(lblTitle.Font, FontStyle.Bold);
+            lblTitle.Font = new Font(lblTitle.Font.FontFamily, 18, FontStyle.Bold);
+            lblTitle.ForeColor = Color.DarkBlue;
+
+            // Style the author label
+            lblAuthor.Font = new Font(lblAuthor.Font, FontStyle.Italic);
+            lblAuthor.ForeColor = Color.Gray;
+
+            // Style the content label
+            lblContent.Font = new Font(lblContent.Font.FontFamily, 14);
+            // Add additional styling as needed
+        }
+    }
+}

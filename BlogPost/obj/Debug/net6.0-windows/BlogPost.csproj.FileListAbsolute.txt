@@ -1,0 +1,16 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\bin\Debug\net6.0-windows\BlogPost.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\bin\Debug\net6.0-windows\BlogPost.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\bin\Debug\net6.0-windows\BlogPost.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\bin\Debug\net6.0-windows\BlogPost.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\bin\Debug\net6.0-windows\BlogPost.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\refint\BlogPost.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\BlogPost.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\ref\BlogPost.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\BlogPost\obj\Debug\net6.0-windows\CodeChum.BlogPost.resources

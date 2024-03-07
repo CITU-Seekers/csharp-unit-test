@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogPost", "..\BlogPost\BlogPost.csproj", "{711C1132-9584-4D54-BB35-0B2F81B7F8E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogPost", "BlogPost\BlogPost.csproj", "{711C1132-9584-4D54-BB35-0B2F81B7F8E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZZZCodeChumTests", "..\CodeChumTests\ZZZCodeChumTests.csproj", "{31DE4F09-2E52-4FBE-8ECE-E3F0A671FB7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZZZCodeChumTests", "CodeChumTests\ZZZCodeChumTests.csproj", "{31DE4F09-2E52-4FBE-8ECE-E3F0A671FB7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labels", "Labels", "{E861286A-2268-444B-BA20-69FA12475483}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greetings", "..\Greetings\Greetings.csproj", "{ED5CFA51-3F5A-44B2-AF7F-1371ABA6368C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greetings", "Greetings\Greetings.csproj", "{ED5CFA51-3F5A-44B2-AF7F-1371ABA6368C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
