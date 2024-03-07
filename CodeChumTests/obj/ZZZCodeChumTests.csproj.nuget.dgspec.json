@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj": {}
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
-        "projectName": "AdvancedPersonalCalendar",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
+        "projectName": "Orchestra",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj",
-        "projectName": "BlogPost",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
+        "projectName": "PortalSequence",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj",
-        "projectName": "Brightness",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
+        "projectName": "PizzaPlanner",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,14 +178,72 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
+        "projectName": "PotionBrewing",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
         "projectName": "ZZZCodeChumTests",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,71 +260,71 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows7.0",
             "projectReferences": {
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
               },
-              "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj"
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
               }
             }
           }
@@ -322,14 +380,14 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
         "projectName": "DestinationDecoder",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -380,188 +438,14 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj",
-        "projectName": "DownloadManager",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj",
-        "projectName": "EventCountdown",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj",
-        "projectName": "ExerciseMinutes",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
         "projectName": "FoodMenu",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -612,478 +496,14 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj",
-        "projectName": "Greetings",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj",
-        "projectName": "MessageDecoder",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj",
-        "projectName": "MysticMessenger",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj",
-        "projectName": "Orchestra",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj",
-        "projectName": "PizzaPlanner",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj",
-        "projectName": "PortalSequence",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
-        "projectName": "PotionBrewingRevamp",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj",
-        "projectName": "PotionBrewing",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
         "projectName": "Reservation",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1134,72 +554,14 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj",
-        "projectName": "ShoppingCart",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
         "projectName": "TaskSchedule",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1250,14 +612,72 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "projectName": "MysticMessenger",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
         "projectName": "TemperatureConverter",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1308,14 +728,304 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
+        "projectName": "BlogPost",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
+        "projectName": "Greetings",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "projectName": "AdvancedPersonalCalendar",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
+        "projectName": "EventCountdown",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
+        "projectName": "ExerciseMinutes",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
         "projectName": "TicketCounter",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1366,14 +1076,304 @@
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj": {
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj",
-        "projectName": "WorkoutManager",
-        "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj",
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
+        "projectName": "DownloadManager",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\obj\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
+        "projectName": "WorkoutManager",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
+        "projectName": "MessageDecoder",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
+        "projectName": "Brightness",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
+        "projectName": "PotionBrewingRevamp",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
