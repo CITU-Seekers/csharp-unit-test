@@ -1,0 +1,17 @@
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.csproj.AssemblyReference.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\bin\Debug\net6.0-windows\RoboGreeter.exe
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\bin\Debug\net6.0-windows\RoboGreeter.deps.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\bin\Debug\net6.0-windows\RoboGreeter.runtimeconfig.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\bin\Debug\net6.0-windows\RoboGreeter.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\bin\Debug\net6.0-windows\RoboGreeter.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\CodeChum.RoboGreeter.resources
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.csproj.GenerateResource.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.AssemblyInfoInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.AssemblyInfo.cs
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.csproj.CoreCompileInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\refint\RoboGreeter.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\RoboGreeter.genruntimeconfig.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\RoboGreeter\obj\Debug\net6.0-windows\ref\RoboGreeter.dll

@@ -1,0 +1,17 @@
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\bin\Debug\net6.0-windows\ShoppingCart.exe
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\bin\Debug\net6.0-windows\ShoppingCart.deps.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\bin\Debug\net6.0-windows\ShoppingCart.runtimeconfig.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\bin\Debug\net6.0-windows\ShoppingCart.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\bin\Debug\net6.0-windows\ShoppingCart.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.csproj.AssemblyReference.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\CodeChum.ShoppingCart.resources
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.csproj.GenerateResource.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.AssemblyInfoInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.AssemblyInfo.cs
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.csproj.CoreCompileInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\refint\ShoppingCart.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ShoppingCart.genruntimeconfig.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\ShoppingCart\obj\Debug\net6.0-windows\ref\ShoppingCart.dll
