@@ -1738,6 +1738,32 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "MovieCatalogue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MovieCatalogue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieCatalogue.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TaskTracker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskTracker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskTracker.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -5542,6 +5568,16 @@
       "type": "project",
       "path": "../Greetings/Greetings.csproj",
       "msbuildProject": "../Greetings/Greetings.csproj"
+    },
+    "MovieCatalogue/1.0.0": {
+      "type": "project",
+      "path": "../MovieCatalogue/MovieCatalogue.csproj",
+      "msbuildProject": "../MovieCatalogue/MovieCatalogue.csproj"
+    },
+    "TaskTracker/1.0.0": {
+      "type": "project",
+      "path": "../TaskTracker/TaskTracker.csproj",
+      "msbuildProject": "../TaskTracker/TaskTracker.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5549,25 +5585,27 @@
       "BlogPost >= 1.0.0",
       "Greetings >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "MovieCatalogue >= 1.0.0",
+      "TaskTracker >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AzalithenPC\\.nuget\\packages\\": {}
+    "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
+      "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
       "projectName": "ZZZCodeChumTests",
-      "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
-      "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\obj\\",
+      "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
+      "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5581,11 +5619,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows7.0",
           "projectReferences": {
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj"
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj"
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj"
             }
           }
         }
@@ -5637,7 +5681,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
