@@ -65,7 +65,7 @@
         [Fact]
         public void ShouldOpenModal()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));

@@ -1,4 +1,4 @@
-namespace CodeChum
+﻿namespace CodeChum
 {
     internal static class Program
     {

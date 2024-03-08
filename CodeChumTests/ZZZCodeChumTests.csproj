@@ -1,39 +1,39 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0-windows7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
 
-    <IsPackable>false</IsPackable>
-    <IsTestProject>true</IsTestProject>
-  </PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
 
+    <ItemGroup>
+	    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+	    <PackageReference Include="xunit" Version="2.4.2" />
+	    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+		    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		    <PrivateAssets>all</PrivateAssets>
+	    </PackageReference>
+	    <PackageReference Include="coverlet.collector" Version="3.2.0">
+		    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		    <PrivateAssets>all</PrivateAssets>
+	    </PackageReference>
+    </ItemGroup>
+	
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
-    <PackageReference Include="xunit" Version="2.4.2" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="coverlet.collector" Version="3.2.0">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BookInterface\BookInterface.csproj" />
-    <ProjectReference Include="..\BookLibrary\BookLibrary.csproj" />
-    <ProjectReference Include="..\ClassCreation\ClassCreation.csproj" />
+    <ProjectReference Include="..\Buttons\PortalSequence\PortalSequence.csproj" />
+    <ProjectReference Include="..\CheckboxRadioButtonAndGroupBox\PizzaPlanner\PizzaPlanner.csproj" />
+    <ProjectReference Include="..\CheckboxRadioButtonAndGroupBox\PotionBrewing\PotionBrewing.csproj" />
+    <ProjectReference Include="..\Combobox\DestinationDecoder\DestinationDecoder.csproj" />
+    <ProjectReference Include="..\Combobox\FoodMenu\FoodMenu.csproj" />
     <ProjectReference Include="..\CommonDialog\PictureExplorer\PictureExplorer.csproj" />
     <ProjectReference Include="..\CommonDialog\TextFileMerger\TextFileMerger.csproj" />
-    <ProjectReference Include="..\ContactManagement\ContactManagement.csproj" />
-    <ProjectReference Include="..\CopyPasteMenus\CopyPasteMenus.csproj" />
-    <ProjectReference Include="..\DarkMode\DarkMode.csproj" />
-    <ProjectReference Include="..\DragDrop\DragDrop.csproj" />
-    <ProjectReference Include="..\FileExplorer\FileExplorer.csproj" />
-    <ProjectReference Include="..\InventoryManagement\InventoryManagement.csproj" />
+    <ProjectReference Include="..\DateTimePicker\Reservation\Reservation.csproj" />
+    <ProjectReference Include="..\DateTimePicker\TaskSchedule\TaskSchedule.csproj" />
+    <ProjectReference Include="..\EventHandlers\MysticMessenger\MysticMessenger.csproj" />
+    <ProjectReference Include="..\Labels\Greetings\Greetings.csproj" />
     <ProjectReference Include="..\ListboxAndComboBox\MovieCatalogue\MovieCatalogue.csproj" />
     <ProjectReference Include="..\ListboxAndComboBox\TaskTracker\TaskTracker.csproj" />
     <ProjectReference Include="..\ListView\ContactManagement\ContactManagement.csproj" />
@@ -44,19 +44,18 @@
     <ProjectReference Include="..\MessageBoxes\VirtualPet\VirtualPet.csproj" />
     <ProjectReference Include="..\ModalDialog\ClassCreation\ClassCreation.csproj" />
     <ProjectReference Include="..\ModalDialog\InventoryManagement\InventoryManagement.csproj" />
-    <ProjectReference Include="..\MovieCatalogue\MovieCatalogue.csproj" />
+    <ProjectReference Include="..\MonthCalendar\EventCountdown\EventCountdown.csproj" />
+    <ProjectReference Include="..\NumericUpDown\ExerciseMinutes\ExerciseMinutes.csproj" />
     <ProjectReference Include="..\Panels\VendingMachineApp\VendingMachineApp.csproj" />
-    <ProjectReference Include="..\PictureExplorer\PictureExplorer.csproj" />
-    <ProjectReference Include="..\RoboGreeter\RoboGreeter.csproj" />
-    <ProjectReference Include="..\SimpleWordApp\SimpleWordApp.csproj" />
+    <ProjectReference Include="..\ProgressBars\DownloadManager\DownloadManager.csproj" />
     <ProjectReference Include="..\Splitters\BookInterface\BookInterface.csproj" />
     <ProjectReference Include="..\StatusBars\TaskTrackerWithStatus\TaskTrackerWithStatus.csproj" />
     <ProjectReference Include="..\StatusBars\WeatherApp\WeatherApp.csproj" />
-    <ProjectReference Include="..\StudentInfo\StudentInfo.csproj" />
     <ProjectReference Include="..\TabControl\BookLibrary\BookLibrary.csproj" />
-    <ProjectReference Include="..\TaskTrackerWithStatus\TaskTrackerWithStatus.csproj" />
-    <ProjectReference Include="..\TaskTracker\TaskTracker.csproj" />
-    <ProjectReference Include="..\TextFileMerger\TextFileMerger.csproj" />
+    <ProjectReference Include="..\TextBoxControls\MessageDecoder\MessageDecoder.csproj" />
+    <ProjectReference Include="..\TextBoxControls\ShoppingCart\ShoppingCart.csproj" />
+    <ProjectReference Include="..\MonthCalendar\AdvancedPersonalCalendar\AdvancedPersonalCalendar.csproj" />
+    <ProjectReference Include="..\Labels\BlogPost\BlogPost.csproj" />
     <ProjectReference Include="..\Toolbars\DrawingCanvasApp\DrawingCanvasApp.csproj" />
     <ProjectReference Include="..\Toolbars\SimpleWordApp\SimpleWordApp.csproj" />
     <ProjectReference Include="..\TreeViews\DragDrop\DragDrop.csproj" />
@@ -72,9 +71,8 @@
     <ProjectReference Include="..\Labels\Greetings\Greetings.csproj" />
     <ProjectReference Include="..\TextBoxControls\MessageDecoder\MessageDecoder.csproj" />
     <ProjectReference Include="..\EventHandlers\MysticMessenger\MysticMessenger.csproj" />
-    <ProjectReference Include="..\Buttons\\Orchestra\Orchestra.csproj" />
+    <ProjectReference Include="..\Buttons\Orchestra\Orchestra.csproj" />
     <ProjectReference Include="..\CheckboxRadioButtonAndGroupBox\PizzaPlanner\PizzaPlanner.csproj" />
-    <ProjectReference Include="..\Buttons\PortalSequence\PortalSequence.csproj" />
     <ProjectReference Include="..\Trackbar\PotionBrewingRevamp\PotionBrewingRevamp.csproj" />
     <ProjectReference Include="..\CheckboxRadioButtonAndGroupBox\PotionBrewing\PotionBrewing.csproj" />
     <ProjectReference Include="..\DateTimePicker\Reservation\Reservation.csproj" />
@@ -83,6 +81,9 @@
     <ProjectReference Include="..\EventHandlers\TemperatureConverter\TemperatureConverter.csproj" />
     <ProjectReference Include="..\NumericUpDown\TicketCounter\TicketCounter.csproj" />
     <ProjectReference Include="..\ProgressBars\WorkoutManager\WorkoutManager.csproj" />
+    <ProjectReference Include="..\Trackbar\PotionBrewingRevamp\PotionBrewingRevamp.csproj" />
+    <ProjectReference Include="..\TreeViews\DragDrop\DragDrop.csproj" />
+    <ProjectReference Include="..\TreeViews\FileExplorer\FileExplorer.csproj" />
   </ItemGroup>
 
 </Project>

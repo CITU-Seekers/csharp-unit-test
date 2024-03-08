@@ -8,28 +8,50 @@
     ".NETCoreApp,Version=v6.0": {
       "ZZZCodeChumTests/1.0.0": {
         "dependencies": {
+          "AdvancedPersonalCalendar": "1.0.0",
+          "BlogPost": "1.0.0",
           "BookInterface": "1.0.0",
           "BookLibrary": "1.0.0",
+          "Brightness": "1.0.0",
           "ClassCreation": "1.0.0",
           "ContactManagement": "1.0.0",
           "CopyPasteMenus": "1.0.0",
           "DarkMode": "1.0.0",
+          "DestinationDecoder": "1.0.0",
+          "DownloadManager": "1.0.0",
           "DragDrop": "1.0.0",
           "DrawingCanvasApp": "1.0.0",
+          "EventCountdown": "1.0.0",
+          "ExerciseMinutes": "1.0.0",
           "FileExplorer": "1.0.0",
+          "FoodMenu": "1.0.0",
+          "Greetings": "1.0.0",
           "InventoryManagement": "1.0.0",
+          "MessageDecoder": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "MovieCatalogue": "1.0.0",
+          "MysticMessenger": "1.0.0",
+          "Orchestra": "1.0.0",
           "PictureExplorer": "1.0.0",
+          "PizzaPlanner": "1.0.0",
+          "PortalSequence": "1.0.0",
+          "PotionBrewing": "1.0.0",
+          "PotionBrewingRevamp": "1.0.0",
+          "Reservation": "1.0.0",
           "RoboGreeter": "1.0.0",
+          "ShoppingCart": "1.0.0",
           "SimpleWordApp": "1.0.0",
           "StudentInfo": "1.0.0",
+          "TaskSchedule": "1.0.0",
           "TaskTracker": "1.0.0",
           "TaskTrackerWithStatus": "1.0.0",
+          "TemperatureConverter": "1.0.0",
           "TextFileMerger": "1.0.0",
+          "TicketCounter": "1.0.0",
           "VendingMachineApp": "1.0.0",
           "VirtualPet": "1.0.0",
           "WeatherApp": "1.0.0",
+          "WorkoutManager": "1.0.0",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
@@ -1041,9 +1063,39 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
+      "AdvancedPersonalCalendar/1.0.0": {
+        "runtime": {
+          "AdvancedPersonalCalendar.dll": {}
+        }
+      },
+      "BlogPost/1.0.0": {
+        "runtime": {
+          "BlogPost.dll": {}
+        }
+      },
+      "BookInterface/1.0.0": {
+        "runtime": {
+          "BookInterface.dll": {}
+        }
+      },
       "BookLibrary/1.0.0": {
         "runtime": {
           "BookLibrary.dll": {}
+        }
+      },
+      "Brightness/1.0.0": {
+        "runtime": {
+          "Brightness.dll": {}
+        }
+      },
+      "ClassCreation/1.0.0": {
+        "runtime": {
+          "ClassCreation.dll": {}
+        }
+      },
+      "ContactManagement/1.0.0": {
+        "runtime": {
+          "ContactManagement.dll": {}
         }
       },
       "CopyPasteMenus/1.0.0": {
@@ -1051,9 +1103,39 @@
           "CopyPasteMenus.dll": {}
         }
       },
+      "DarkMode/1.0.0": {
+        "runtime": {
+          "DarkMode.dll": {}
+        }
+      },
+      "DestinationDecoder/1.0.0": {
+        "runtime": {
+          "DestinationDecoder.dll": {}
+        }
+      },
+      "DownloadManager/1.0.0": {
+        "runtime": {
+          "DownloadManager.dll": {}
+        }
+      },
+      "DragDrop/1.0.0": {
+        "runtime": {
+          "DragDrop.dll": {}
+        }
+      },
       "DrawingCanvasApp/1.0.0": {
         "runtime": {
           "DrawingCanvasApp.dll": {}
+        }
+      },
+      "EventCountdown/1.0.0": {
+        "runtime": {
+          "EventCountdown.dll": {}
+        }
+      },
+      "ExerciseMinutes/1.0.0": {
+        "runtime": {
+          "ExerciseMinutes.dll": {}
         }
       },
       "FileExplorer/1.0.0": {
@@ -1061,14 +1143,119 @@
           "FileExplorer.dll": {}
         }
       },
+      "FoodMenu/1.0.0": {
+        "runtime": {
+          "FoodMenu.dll": {}
+        }
+      },
+      "Greetings/1.0.0": {
+        "runtime": {
+          "Greetings.dll": {}
+        }
+      },
+      "InventoryManagement/1.0.0": {
+        "runtime": {
+          "InventoryManagement.dll": {}
+        }
+      },
+      "MessageDecoder/1.0.0": {
+        "runtime": {
+          "MessageDecoder.dll": {}
+        }
+      },
+      "MovieCatalogue/1.0.0": {
+        "runtime": {
+          "MovieCatalogue.dll": {}
+        }
+      },
+      "MysticMessenger/1.0.0": {
+        "runtime": {
+          "MysticMessenger.dll": {}
+        }
+      },
+      "Orchestra/1.0.0": {
+        "runtime": {
+          "Orchestra.dll": {}
+        }
+      },
       "PictureExplorer/1.0.0": {
         "runtime": {
           "PictureExplorer.dll": {}
         }
       },
+      "PizzaPlanner/1.0.0": {
+        "runtime": {
+          "PizzaPlanner.dll": {}
+        }
+      },
+      "PortalSequence/1.0.0": {
+        "runtime": {
+          "PortalSequence.dll": {}
+        }
+      },
+      "PotionBrewing/1.0.0": {
+        "runtime": {
+          "PotionBrewing.dll": {}
+        }
+      },
+      "PotionBrewingRevamp/1.0.0": {
+        "runtime": {
+          "PotionBrewingRevamp.dll": {}
+        }
+      },
+      "Reservation/1.0.0": {
+        "runtime": {
+          "Reservation.dll": {}
+        }
+      },
+      "RoboGreeter/1.0.0": {
+        "runtime": {
+          "RoboGreeter.dll": {}
+        }
+      },
+      "ShoppingCart/1.0.0": {
+        "runtime": {
+          "ShoppingCart.dll": {}
+        }
+      },
+      "SimpleWordApp/1.0.0": {
+        "runtime": {
+          "SimpleWordApp.dll": {}
+        }
+      },
+      "StudentInfo/1.0.0": {
+        "runtime": {
+          "StudentInfo.dll": {}
+        }
+      },
+      "TaskSchedule/1.0.0": {
+        "runtime": {
+          "TaskSchedule.dll": {}
+        }
+      },
+      "TaskTracker/1.0.0": {
+        "runtime": {
+          "TaskTracker.dll": {}
+        }
+      },
+      "TaskTrackerWithStatus/1.0.0": {
+        "runtime": {
+          "TaskTrackerWithStatus.dll": {}
+        }
+      },
+      "TemperatureConverter/1.0.0": {
+        "runtime": {
+          "TemperatureConverter.dll": {}
+        }
+      },
       "TextFileMerger/1.0.0": {
         "runtime": {
           "TextFileMerger.dll": {}
+        }
+      },
+      "TicketCounter/1.0.0": {
+        "runtime": {
+          "TicketCounter.dll": {}
         }
       },
       "VendingMachineApp/1.0.0": {
@@ -1084,6 +1271,11 @@
       "WeatherApp/1.0.0": {
         "runtime": {
           "WeatherApp.dll": {}
+        }
+      },
+      "WorkoutManager/1.0.0": {
+        "runtime": {
+          "WorkoutManager.dll": {}
         }
       }
     }
@@ -1717,7 +1909,37 @@
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
+    "AdvancedPersonalCalendar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogPost/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BookLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Brightness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassCreation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContactManagement/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1727,7 +1949,37 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DarkMode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DestinationDecoder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DownloadManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DragDrop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DrawingCanvasApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventCountdown/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExerciseMinutes/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1737,12 +1989,117 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FoodMenu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Greetings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessageDecoder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieCatalogue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MysticMessenger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Orchestra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PictureExplorer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "PizzaPlanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PortalSequence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PotionBrewing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PotionBrewingRevamp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reservation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoboGreeter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleWordApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StudentInfo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskSchedule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskTracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskTrackerWithStatus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TemperatureConverter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TextFileMerger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketCounter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1758,6 +2115,11 @@
       "sha512": ""
     },
     "WeatherApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorkoutManager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
