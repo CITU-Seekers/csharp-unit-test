@@ -1,0 +1,34 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\CodeChum.TicketCounter.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\refint\TicketCounter.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\TicketCounter\obj\Debug\net6.0-windows\ref\TicketCounter.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.exe
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.deps.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.runtimeconfig.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\bin\Debug\net6.0-windows\TicketCounter.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\CodeChum.TicketCounter.resources
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.AssemblyInfo.cs
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.sourcelink.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\refint\TicketCounter.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\TicketCounter.genruntimeconfig.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TicketCounter\obj\Debug\net6.0-windows\ref\TicketCounter.dll

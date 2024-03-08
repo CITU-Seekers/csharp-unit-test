@@ -1,0 +1,34 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\CodeChum.EventCountdown.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\refint\EventCountdown.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\EventCountdown\obj\Debug\net6.0-windows\ref\EventCountdown.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.exe
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.deps.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.runtimeconfig.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\bin\Debug\net6.0-windows\EventCountdown.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\CodeChum.EventCountdown.resources
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.AssemblyInfo.cs
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.sourcelink.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\refint\EventCountdown.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\EventCountdown.genruntimeconfig.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\EventCountdown\obj\Debug\net6.0-windows\ref\EventCountdown.dll

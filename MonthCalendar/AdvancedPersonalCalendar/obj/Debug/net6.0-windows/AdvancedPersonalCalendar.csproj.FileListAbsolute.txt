@@ -1,0 +1,34 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\CodeChum.AdvancedPersonalCalendar.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\refint\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\ref\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.exe
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.deps.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.runtimeconfig.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\bin\Debug\net6.0-windows\AdvancedPersonalCalendar.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\CodeChum.AdvancedPersonalCalendar.resources
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.AssemblyInfo.cs
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.sourcelink.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\refint\AdvancedPersonalCalendar.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\AdvancedPersonalCalendar.genruntimeconfig.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\AdvancedPersonalCalendar\obj\Debug\net6.0-windows\ref\AdvancedPersonalCalendar.dll
