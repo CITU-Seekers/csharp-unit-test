@@ -4,6 +4,7 @@
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +13,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
+        "projectName": "Orchestra",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,6 +73,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -70,6 +82,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookLibrary\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
+        "projectName": "PortalSequence",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,6 +142,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -128,6 +151,74 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ClassCreation\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
+        "projectName": "PizzaPlanner",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
+        "projectName": "PotionBrewing",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,6 +293,7 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows7.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
                 "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj"
               },
@@ -321,6 +413,73 @@
               },
               "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
                 "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj"
+=======
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
+              },
+              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
               }
             }
           }
@@ -376,6 +535,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -384,6 +544,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
+        "projectName": "DestinationDecoder",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -434,6 +604,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -442,6 +613,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
+        "projectName": "FoodMenu",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -492,6 +673,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -500,6 +682,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ContactManagement\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
+        "projectName": "Reservation",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -550,6 +742,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -558,6 +751,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CopyPasteMenus\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
+        "projectName": "TaskSchedule",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -608,6 +811,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DarkMode\\DarkMode.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -616,6 +820,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DarkMode\\DarkMode.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DarkMode\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "projectName": "MysticMessenger",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -666,6 +880,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DragDrop\\DragDrop.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -674,6 +889,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DragDrop\\DragDrop.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DragDrop\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
+        "projectName": "TemperatureConverter",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -724,6 +949,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -732,6 +958,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\FileExplorer\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
+        "projectName": "BlogPost",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -782,6 +1018,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -790,6 +1027,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\InventoryManagement\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
+        "projectName": "Greetings",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -840,6 +1087,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -848,6 +1096,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "projectName": "AdvancedPersonalCalendar",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -898,6 +1156,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -906,6 +1165,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
+        "projectName": "EventCountdown",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -956,6 +1225,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -964,6 +1234,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
+        "projectName": "ExerciseMinutes",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1014,6 +1294,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1022,6 +1303,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
+        "projectName": "TicketCounter",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1072,6 +1363,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1080,6 +1372,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
+        "projectName": "DownloadManager",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1130,6 +1432,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1138,6 +1441,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
+        "projectName": "WorkoutManager",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1188,6 +1501,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1196,6 +1510,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
+        "projectName": "MessageDecoder",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1246,6 +1570,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1254,6 +1579,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1304,6 +1639,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1312,6 +1648,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
+        "projectName": "Brightness",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1362,6 +1708,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -2472,6 +2819,16 @@
         "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj",
         "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\obj\\",
+=======
+    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
+        "projectName": "PotionBrewingRevamp",
+        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
+        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\obj\\",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",

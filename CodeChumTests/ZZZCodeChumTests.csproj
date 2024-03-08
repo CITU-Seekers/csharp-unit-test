@@ -61,8 +61,28 @@
     <ProjectReference Include="..\Toolbars\SimpleWordApp\SimpleWordApp.csproj" />
     <ProjectReference Include="..\TreeViews\DragDrop\DragDrop.csproj" />
     <ProjectReference Include="..\TreeViews\FileExplorer\FileExplorer.csproj" />
-    <ProjectReference Include="..\VirtualPet\VirtualPet.csproj" />
-    <ProjectReference Include="..\WeatherApp\WeatherApp.csproj" />
+    <ProjectReference Include="..\MonthCalendar\AdvancedPersonalCalendar\AdvancedPersonalCalendar.csproj" />
+    <ProjectReference Include="..\Labels\BlogPost\BlogPost.csproj" />
+    <ProjectReference Include="..\Trackbar\Brightness\Brightness.csproj" />
+    <ProjectReference Include="..\Combobox\DestinationDecoder\DestinationDecoder.csproj" />
+    <ProjectReference Include="..\ProgressBars\DownloadManager\DownloadManager.csproj" />
+    <ProjectReference Include="..\MonthCalendar\EventCountdown\EventCountdown.csproj" />
+    <ProjectReference Include="..\NumericUpDown\ExerciseMinutes\ExerciseMinutes.csproj" />
+    <ProjectReference Include="..\Combobox\FoodMenu\FoodMenu.csproj" />
+    <ProjectReference Include="..\Labels\Greetings\Greetings.csproj" />
+    <ProjectReference Include="..\TextBoxControls\MessageDecoder\MessageDecoder.csproj" />
+    <ProjectReference Include="..\EventHandlers\MysticMessenger\MysticMessenger.csproj" />
+    <ProjectReference Include="..\Buttons\\Orchestra\Orchestra.csproj" />
+    <ProjectReference Include="..\CheckboxRadioButtonAndGroupBox\PizzaPlanner\PizzaPlanner.csproj" />
+    <ProjectReference Include="..\Buttons\PortalSequence\PortalSequence.csproj" />
+    <ProjectReference Include="..\Trackbar\PotionBrewingRevamp\PotionBrewingRevamp.csproj" />
+    <ProjectReference Include="..\CheckboxRadioButtonAndGroupBox\PotionBrewing\PotionBrewing.csproj" />
+    <ProjectReference Include="..\DateTimePicker\Reservation\Reservation.csproj" />
+    <ProjectReference Include="..\TextBoxControls\ShoppingCart\ShoppingCart.csproj" />
+    <ProjectReference Include="..\DateTimePicker\TaskSchedule\TaskSchedule.csproj" />
+    <ProjectReference Include="..\EventHandlers\TemperatureConverter\TemperatureConverter.csproj" />
+    <ProjectReference Include="..\NumericUpDown\TicketCounter\TicketCounter.csproj" />
+    <ProjectReference Include="..\ProgressBars\WorkoutManager\WorkoutManager.csproj" />
   </ItemGroup>
 
 </Project>

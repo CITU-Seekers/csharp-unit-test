@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Lw8naYUq6SWyFrHxJF/5qP+FY6WvJUOOVYksKDC5EuSqYQDRPqiG66FeKdHmhl63t8M59WrXG5bq6wS2jOiDow==",
+=======
+  "dgSpecHash": "sQx9ee7B6D0qoJ29uWCv/h/vObMMpaK3rCrDCsa4+55AxQrdhzf2Jde/Eu74EOhlLLlY6r0FLxG3BjutjKogDg==",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
   "success": true,
   "projectFilePath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
   "expectedPackageFiles": [

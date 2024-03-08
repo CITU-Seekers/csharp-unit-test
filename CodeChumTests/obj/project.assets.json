@@ -1713,7 +1713,24 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
+<<<<<<< HEAD
       "BookInterface/1.0.0": {
+=======
+      "AdvancedPersonalCalendar/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AdvancedPersonalCalendar.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdvancedPersonalCalendar.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "BlogPost/1.0.0": {
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
@@ -1726,7 +1743,89 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+<<<<<<< HEAD
       "BookLibrary/1.0.0": {
+=======
+      "Brightness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Brightness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Brightness.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DestinationDecoder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DestinationDecoder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DestinationDecoder.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DownloadManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DownloadManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DownloadManager.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "EventCountdown/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EventCountdown.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventCountdown.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ExerciseMinutes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ExerciseMinutes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExerciseMinutes.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FoodMenu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FoodMenu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodMenu.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Greetings/1.0.0": {
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
@@ -1981,6 +2080,175 @@
         },
         "runtime": {
           "bin/placeholder/WeatherApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MessageDecoder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MessageDecoder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MessageDecoder.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MysticMessenger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MysticMessenger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MysticMessenger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Orchestra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Orchestra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orchestra.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PizzaPlanner/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PizzaPlanner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaPlanner.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PortalSequence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PortalSequence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PortalSequence.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PotionBrewing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PotionBrewing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PotionBrewing.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PotionBrewingRevamp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PotionBrewingRevamp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PotionBrewingRevamp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Reservation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Reservation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reservation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ShoppingCart/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TaskSchedule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskSchedule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskSchedule.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TemperatureConverter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TemperatureConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemperatureConverter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TicketCounter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TicketCounter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketCounter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WorkoutManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WorkoutManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorkoutManager.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -5780,13 +6048,56 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+<<<<<<< HEAD
     "BookInterface/1.0.0": {
       "type": "project",
       "path": "../BookInterface/BookInterface.csproj",
       "msbuildProject": "../BookInterface/BookInterface.csproj"
+=======
+    "AdvancedPersonalCalendar/1.0.0": {
+      "type": "project",
+      "path": "../MonthCalendar/AdvancedPersonalCalendar/AdvancedPersonalCalendar.csproj",
+      "msbuildProject": "../MonthCalendar/AdvancedPersonalCalendar/AdvancedPersonalCalendar.csproj"
+    },
+    "BlogPost/1.0.0": {
+      "type": "project",
+      "path": "../Labels/BlogPost/BlogPost.csproj",
+      "msbuildProject": "../Labels/BlogPost/BlogPost.csproj"
+    },
+    "Brightness/1.0.0": {
+      "type": "project",
+      "path": "../Trackbar/Brightness/Brightness.csproj",
+      "msbuildProject": "../Trackbar/Brightness/Brightness.csproj"
+    },
+    "DestinationDecoder/1.0.0": {
+      "type": "project",
+      "path": "../Combobox/DestinationDecoder/DestinationDecoder.csproj",
+      "msbuildProject": "../Combobox/DestinationDecoder/DestinationDecoder.csproj"
+    },
+    "DownloadManager/1.0.0": {
+      "type": "project",
+      "path": "../ProgressBars/DownloadManager/DownloadManager.csproj",
+      "msbuildProject": "../ProgressBars/DownloadManager/DownloadManager.csproj"
+    },
+    "EventCountdown/1.0.0": {
+      "type": "project",
+      "path": "../MonthCalendar/EventCountdown/EventCountdown.csproj",
+      "msbuildProject": "../MonthCalendar/EventCountdown/EventCountdown.csproj"
+    },
+    "ExerciseMinutes/1.0.0": {
+      "type": "project",
+      "path": "../NumericUpDown/ExerciseMinutes/ExerciseMinutes.csproj",
+      "msbuildProject": "../NumericUpDown/ExerciseMinutes/ExerciseMinutes.csproj"
+    },
+    "FoodMenu/1.0.0": {
+      "type": "project",
+      "path": "../Combobox/FoodMenu/FoodMenu.csproj",
+      "msbuildProject": "../Combobox/FoodMenu/FoodMenu.csproj"
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
     },
     "BookLibrary/1.0.0": {
       "type": "project",
+<<<<<<< HEAD
       "path": "../TabControl/BookLibrary/BookLibrary.csproj",
       "msbuildProject": "../TabControl/BookLibrary/BookLibrary.csproj"
     },
@@ -5884,10 +6195,80 @@
       "type": "project",
       "path": "../StatusBars/WeatherApp/WeatherApp.csproj",
       "msbuildProject": "../StatusBars/WeatherApp/WeatherApp.csproj"
+=======
+      "path": "../Labels/Greetings/Greetings.csproj",
+      "msbuildProject": "../Labels/Greetings/Greetings.csproj"
+    },
+    "MessageDecoder/1.0.0": {
+      "type": "project",
+      "path": "../TextBoxControls/MessageDecoder/MessageDecoder.csproj",
+      "msbuildProject": "../TextBoxControls/MessageDecoder/MessageDecoder.csproj"
+    },
+    "MysticMessenger/1.0.0": {
+      "type": "project",
+      "path": "../EventHandlers/MysticMessenger/MysticMessenger.csproj",
+      "msbuildProject": "../EventHandlers/MysticMessenger/MysticMessenger.csproj"
+    },
+    "Orchestra/1.0.0": {
+      "type": "project",
+      "path": "../Buttons/Orchestra/Orchestra.csproj",
+      "msbuildProject": "../Buttons/Orchestra/Orchestra.csproj"
+    },
+    "PizzaPlanner/1.0.0": {
+      "type": "project",
+      "path": "../CheckboxRadioButtonAndGroupBox/PizzaPlanner/PizzaPlanner.csproj",
+      "msbuildProject": "../CheckboxRadioButtonAndGroupBox/PizzaPlanner/PizzaPlanner.csproj"
+    },
+    "PortalSequence/1.0.0": {
+      "type": "project",
+      "path": "../Buttons/PortalSequence/PortalSequence.csproj",
+      "msbuildProject": "../Buttons/PortalSequence/PortalSequence.csproj"
+    },
+    "PotionBrewing/1.0.0": {
+      "type": "project",
+      "path": "../CheckboxRadioButtonAndGroupBox/PotionBrewing/PotionBrewing.csproj",
+      "msbuildProject": "../CheckboxRadioButtonAndGroupBox/PotionBrewing/PotionBrewing.csproj"
+    },
+    "PotionBrewingRevamp/1.0.0": {
+      "type": "project",
+      "path": "../Trackbar/PotionBrewingRevamp/PotionBrewingRevamp.csproj",
+      "msbuildProject": "../Trackbar/PotionBrewingRevamp/PotionBrewingRevamp.csproj"
+    },
+    "Reservation/1.0.0": {
+      "type": "project",
+      "path": "../DateTimePicker/Reservation/Reservation.csproj",
+      "msbuildProject": "../DateTimePicker/Reservation/Reservation.csproj"
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "path": "../TextBoxControls/ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../TextBoxControls/ShoppingCart/ShoppingCart.csproj"
+    },
+    "TaskSchedule/1.0.0": {
+      "type": "project",
+      "path": "../DateTimePicker/TaskSchedule/TaskSchedule.csproj",
+      "msbuildProject": "../DateTimePicker/TaskSchedule/TaskSchedule.csproj"
+    },
+    "TemperatureConverter/1.0.0": {
+      "type": "project",
+      "path": "../EventHandlers/TemperatureConverter/TemperatureConverter.csproj",
+      "msbuildProject": "../EventHandlers/TemperatureConverter/TemperatureConverter.csproj"
+    },
+    "TicketCounter/1.0.0": {
+      "type": "project",
+      "path": "../NumericUpDown/TicketCounter/TicketCounter.csproj",
+      "msbuildProject": "../NumericUpDown/TicketCounter/TicketCounter.csproj"
+    },
+    "WorkoutManager/1.0.0": {
+      "type": "project",
+      "path": "../ProgressBars/WorkoutManager/WorkoutManager.csproj",
+      "msbuildProject": "../ProgressBars/WorkoutManager/WorkoutManager.csproj"
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+<<<<<<< HEAD
       "BookInterface >= 1.0.0",
       "BookLibrary >= 1.0.0",
       "ClassCreation >= 1.0.0",
@@ -5910,6 +6291,31 @@
       "VendingMachineApp >= 1.0.0",
       "VirtualPet >= 1.0.0",
       "WeatherApp >= 1.0.0",
+=======
+      "AdvancedPersonalCalendar >= 1.0.0",
+      "BlogPost >= 1.0.0",
+      "Brightness >= 1.0.0",
+      "DestinationDecoder >= 1.0.0",
+      "DownloadManager >= 1.0.0",
+      "EventCountdown >= 1.0.0",
+      "ExerciseMinutes >= 1.0.0",
+      "FoodMenu >= 1.0.0",
+      "Greetings >= 1.0.0",
+      "MessageDecoder >= 1.0.0",
+      "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "MysticMessenger >= 1.0.0",
+      "Orchestra >= 1.0.0",
+      "PizzaPlanner >= 1.0.0",
+      "PortalSequence >= 1.0.0",
+      "PotionBrewing >= 1.0.0",
+      "PotionBrewingRevamp >= 1.0.0",
+      "Reservation >= 1.0.0",
+      "ShoppingCart >= 1.0.0",
+      "TaskSchedule >= 1.0.0",
+      "TemperatureConverter >= 1.0.0",
+      "TicketCounter >= 1.0.0",
+      "WorkoutManager >= 1.0.0",
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5942,6 +6348,7 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows7.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj"
             },
@@ -6061,6 +6468,73 @@
             },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj"
+=======
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
+>>>>>>> fbb8529e87fe2afde4b93ff8b4f1652326ae35d2
             }
           }
         }
