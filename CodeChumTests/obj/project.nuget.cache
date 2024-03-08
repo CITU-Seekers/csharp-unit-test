@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xGJYNepIaw10g7yeY/l+nDJpycZeo8+g693Bflt2mXnGTZrEqDHF1Kys27M7LMBFaZpgtm1eRQSz7vS8wiXf3A==",
+  "dgSpecHash": "sQx9ee7B6D0qoJ29uWCv/h/vObMMpaK3rCrDCsa4+55AxQrdhzf2Jde/Eu74EOhlLLlY6r0FLxG3BjutjKogDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
+  "projectFilePath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AzalithenPC\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\AzalithenPC\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

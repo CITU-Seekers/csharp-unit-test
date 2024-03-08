@@ -5795,113 +5795,113 @@
     },
     "AdvancedPersonalCalendar/1.0.0": {
       "type": "project",
-      "path": "../AdvancedPersonalCalendar/AdvancedPersonalCalendar.csproj",
-      "msbuildProject": "../AdvancedPersonalCalendar/AdvancedPersonalCalendar.csproj"
+      "path": "../MonthCalendar/AdvancedPersonalCalendar/AdvancedPersonalCalendar.csproj",
+      "msbuildProject": "../MonthCalendar/AdvancedPersonalCalendar/AdvancedPersonalCalendar.csproj"
     },
     "BlogPost/1.0.0": {
       "type": "project",
-      "path": "../BlogPost/BlogPost.csproj",
-      "msbuildProject": "../BlogPost/BlogPost.csproj"
+      "path": "../Labels/BlogPost/BlogPost.csproj",
+      "msbuildProject": "../Labels/BlogPost/BlogPost.csproj"
     },
     "Brightness/1.0.0": {
       "type": "project",
-      "path": "../Brightness/Brightness.csproj",
-      "msbuildProject": "../Brightness/Brightness.csproj"
+      "path": "../Trackbar/Brightness/Brightness.csproj",
+      "msbuildProject": "../Trackbar/Brightness/Brightness.csproj"
     },
     "DestinationDecoder/1.0.0": {
       "type": "project",
-      "path": "../DestinationDecoder/DestinationDecoder.csproj",
-      "msbuildProject": "../DestinationDecoder/DestinationDecoder.csproj"
+      "path": "../Combobox/DestinationDecoder/DestinationDecoder.csproj",
+      "msbuildProject": "../Combobox/DestinationDecoder/DestinationDecoder.csproj"
     },
     "DownloadManager/1.0.0": {
       "type": "project",
-      "path": "../DownloadManager/DownloadManager.csproj",
-      "msbuildProject": "../DownloadManager/DownloadManager.csproj"
+      "path": "../ProgressBars/DownloadManager/DownloadManager.csproj",
+      "msbuildProject": "../ProgressBars/DownloadManager/DownloadManager.csproj"
     },
     "EventCountdown/1.0.0": {
       "type": "project",
-      "path": "../EventCountdown/EventCountdown.csproj",
-      "msbuildProject": "../EventCountdown/EventCountdown.csproj"
+      "path": "../MonthCalendar/EventCountdown/EventCountdown.csproj",
+      "msbuildProject": "../MonthCalendar/EventCountdown/EventCountdown.csproj"
     },
     "ExerciseMinutes/1.0.0": {
       "type": "project",
-      "path": "../ExerciseMinutes/ExerciseMinutes.csproj",
-      "msbuildProject": "../ExerciseMinutes/ExerciseMinutes.csproj"
+      "path": "../NumericUpDown/ExerciseMinutes/ExerciseMinutes.csproj",
+      "msbuildProject": "../NumericUpDown/ExerciseMinutes/ExerciseMinutes.csproj"
     },
     "FoodMenu/1.0.0": {
       "type": "project",
-      "path": "../FoodMenu/FoodMenu.csproj",
-      "msbuildProject": "../FoodMenu/FoodMenu.csproj"
+      "path": "../Combobox/FoodMenu/FoodMenu.csproj",
+      "msbuildProject": "../Combobox/FoodMenu/FoodMenu.csproj"
     },
     "Greetings/1.0.0": {
       "type": "project",
-      "path": "../Greetings/Greetings.csproj",
-      "msbuildProject": "../Greetings/Greetings.csproj"
+      "path": "../Labels/Greetings/Greetings.csproj",
+      "msbuildProject": "../Labels/Greetings/Greetings.csproj"
     },
     "MessageDecoder/1.0.0": {
       "type": "project",
-      "path": "../MessageDecoder/MessageDecoder.csproj",
-      "msbuildProject": "../MessageDecoder/MessageDecoder.csproj"
+      "path": "../TextBoxControls/MessageDecoder/MessageDecoder.csproj",
+      "msbuildProject": "../TextBoxControls/MessageDecoder/MessageDecoder.csproj"
     },
     "MysticMessenger/1.0.0": {
       "type": "project",
-      "path": "../MysticMessenger/MysticMessenger.csproj",
-      "msbuildProject": "../MysticMessenger/MysticMessenger.csproj"
+      "path": "../EventHandlers/MysticMessenger/MysticMessenger.csproj",
+      "msbuildProject": "../EventHandlers/MysticMessenger/MysticMessenger.csproj"
     },
     "Orchestra/1.0.0": {
       "type": "project",
-      "path": "../Orchestra/Orchestra.csproj",
-      "msbuildProject": "../Orchestra/Orchestra.csproj"
+      "path": "../Buttons/Orchestra/Orchestra.csproj",
+      "msbuildProject": "../Buttons/Orchestra/Orchestra.csproj"
     },
     "PizzaPlanner/1.0.0": {
       "type": "project",
-      "path": "../PizzaPlanner/PizzaPlanner.csproj",
-      "msbuildProject": "../PizzaPlanner/PizzaPlanner.csproj"
+      "path": "../CheckboxRadioButtonAndGroupBox/PizzaPlanner/PizzaPlanner.csproj",
+      "msbuildProject": "../CheckboxRadioButtonAndGroupBox/PizzaPlanner/PizzaPlanner.csproj"
     },
     "PortalSequence/1.0.0": {
       "type": "project",
-      "path": "../PortalSequence/PortalSequence.csproj",
-      "msbuildProject": "../PortalSequence/PortalSequence.csproj"
+      "path": "../Buttons/PortalSequence/PortalSequence.csproj",
+      "msbuildProject": "../Buttons/PortalSequence/PortalSequence.csproj"
     },
     "PotionBrewing/1.0.0": {
       "type": "project",
-      "path": "../PotionBrewing/PotionBrewing.csproj",
-      "msbuildProject": "../PotionBrewing/PotionBrewing.csproj"
+      "path": "../CheckboxRadioButtonAndGroupBox/PotionBrewing/PotionBrewing.csproj",
+      "msbuildProject": "../CheckboxRadioButtonAndGroupBox/PotionBrewing/PotionBrewing.csproj"
     },
     "PotionBrewingRevamp/1.0.0": {
       "type": "project",
-      "path": "../PotionBrewingRevamp/PotionBrewingRevamp.csproj",
-      "msbuildProject": "../PotionBrewingRevamp/PotionBrewingRevamp.csproj"
+      "path": "../Trackbar/PotionBrewingRevamp/PotionBrewingRevamp.csproj",
+      "msbuildProject": "../Trackbar/PotionBrewingRevamp/PotionBrewingRevamp.csproj"
     },
     "Reservation/1.0.0": {
       "type": "project",
-      "path": "../Reservation/Reservation.csproj",
-      "msbuildProject": "../Reservation/Reservation.csproj"
+      "path": "../DateTimePicker/Reservation/Reservation.csproj",
+      "msbuildProject": "../DateTimePicker/Reservation/Reservation.csproj"
     },
     "ShoppingCart/1.0.0": {
       "type": "project",
-      "path": "../ShoppingCart/ShoppingCart.csproj",
-      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
+      "path": "../TextBoxControls/ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../TextBoxControls/ShoppingCart/ShoppingCart.csproj"
     },
     "TaskSchedule/1.0.0": {
       "type": "project",
-      "path": "../TaskSchedule/TaskSchedule.csproj",
-      "msbuildProject": "../TaskSchedule/TaskSchedule.csproj"
+      "path": "../DateTimePicker/TaskSchedule/TaskSchedule.csproj",
+      "msbuildProject": "../DateTimePicker/TaskSchedule/TaskSchedule.csproj"
     },
     "TemperatureConverter/1.0.0": {
       "type": "project",
-      "path": "../TemperatureConverter/TemperatureConverter.csproj",
-      "msbuildProject": "../TemperatureConverter/TemperatureConverter.csproj"
+      "path": "../EventHandlers/TemperatureConverter/TemperatureConverter.csproj",
+      "msbuildProject": "../EventHandlers/TemperatureConverter/TemperatureConverter.csproj"
     },
     "TicketCounter/1.0.0": {
       "type": "project",
-      "path": "../TicketCounter/TicketCounter.csproj",
-      "msbuildProject": "../TicketCounter/TicketCounter.csproj"
+      "path": "../NumericUpDown/TicketCounter/TicketCounter.csproj",
+      "msbuildProject": "../NumericUpDown/TicketCounter/TicketCounter.csproj"
     },
     "WorkoutManager/1.0.0": {
       "type": "project",
-      "path": "../WorkoutManager/WorkoutManager.csproj",
-      "msbuildProject": "../WorkoutManager/WorkoutManager.csproj"
+      "path": "../ProgressBars/WorkoutManager/WorkoutManager.csproj",
+      "msbuildProject": "../ProgressBars/WorkoutManager/WorkoutManager.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5940,11 +5940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
+      "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
       "projectName": "ZZZCodeChumTests",
-      "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\ZZZCodeChumTests.csproj",
+      "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
       "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\CodeChumTests\\obj\\",
+      "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5961,71 +5961,71 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows7.0",
           "projectReferences": {
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\BlogPost\\BlogPost.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Brightness\\Brightness.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DestinationDecoder\\DestinationDecoder.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\DownloadManager\\DownloadManager.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\EventCountdown\\EventCountdown.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ExerciseMinutes\\ExerciseMinutes.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\FoodMenu\\FoodMenu.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Greetings\\Greetings.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MessageDecoder\\MessageDecoder.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\MysticMessenger\\MysticMessenger.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Orchestra\\Orchestra.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PizzaPlanner\\PizzaPlanner.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PortalSequence\\PortalSequence.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\PotionBrewing\\PotionBrewing.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\Reservation\\Reservation.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\ShoppingCart\\ShoppingCart.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TaskSchedule\\TaskSchedule.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TemperatureConverter\\TemperatureConverter.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\TicketCounter\\TicketCounter.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
             },
-            "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj": {
-              "projectPath": "C:\\Users\\AzalithenPC\\source\\repos\\CsharpGUISolutions\\CodeChum\\WorkoutManager\\WorkoutManager.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
             }
           }
         }
