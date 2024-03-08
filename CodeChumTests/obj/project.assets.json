@@ -1739,6 +1739,32 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "BookInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookInterface.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "BookLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Brightness/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1747,6 +1773,58 @@
         },
         "runtime": {
           "bin/placeholder/Brightness.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ClassCreation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassCreation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassCreation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ContactManagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ContactManagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManagement.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "CopyPasteMenus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CopyPasteMenus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CopyPasteMenus.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DarkMode/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DarkMode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DarkMode.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1778,6 +1856,32 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "DragDrop/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DragDrop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DragDrop.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DrawingCanvasApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DrawingCanvasApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DrawingCanvasApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "EventCountdown/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1799,6 +1903,19 @@
         },
         "runtime": {
           "bin/placeholder/ExerciseMinutes.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FileExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FileExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileExplorer.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1830,6 +1947,19 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "InventoryManagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InventoryManagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "MessageDecoder/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1838,6 +1968,19 @@
         },
         "runtime": {
           "bin/placeholder/MessageDecoder.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MovieCatalogue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MovieCatalogue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieCatalogue.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1864,6 +2007,19 @@
         },
         "runtime": {
           "bin/placeholder/Orchestra.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PictureExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PictureExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PictureExplorer.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1934,6 +2090,19 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "RoboGreeter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RoboGreeter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoboGreeter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "ShoppingCart/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1942,6 +2111,32 @@
         },
         "runtime": {
           "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "SimpleWordApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SimpleWordApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleWordApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "StudentInfo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StudentInfo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentInfo.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1960,6 +2155,32 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "TaskTracker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskTracker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskTracker.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TaskTrackerWithStatus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskTrackerWithStatus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskTrackerWithStatus.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "TemperatureConverter/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1973,6 +2194,19 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "TextFileMerger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TextFileMerger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextFileMerger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "TicketCounter/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1981,6 +2215,45 @@
         },
         "runtime": {
           "bin/placeholder/TicketCounter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "VendingMachineApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VendingMachineApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VendingMachineApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "VirtualPet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VirtualPet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VirtualPet.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WeatherApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WeatherApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherApp.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -5803,10 +6076,40 @@
       "path": "../Labels/BlogPost/BlogPost.csproj",
       "msbuildProject": "../Labels/BlogPost/BlogPost.csproj"
     },
+    "BookInterface/1.0.0": {
+      "type": "project",
+      "path": "../Splitters/BookInterface/BookInterface.csproj",
+      "msbuildProject": "../Splitters/BookInterface/BookInterface.csproj"
+    },
+    "BookLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TabControl/BookLibrary/BookLibrary.csproj",
+      "msbuildProject": "../TabControl/BookLibrary/BookLibrary.csproj"
+    },
     "Brightness/1.0.0": {
       "type": "project",
       "path": "../Trackbar/Brightness/Brightness.csproj",
       "msbuildProject": "../Trackbar/Brightness/Brightness.csproj"
+    },
+    "ClassCreation/1.0.0": {
+      "type": "project",
+      "path": "../ModalDialog/ClassCreation/ClassCreation.csproj",
+      "msbuildProject": "../ModalDialog/ClassCreation/ClassCreation.csproj"
+    },
+    "ContactManagement/1.0.0": {
+      "type": "project",
+      "path": "../ListView/ContactManagement/ContactManagement.csproj",
+      "msbuildProject": "../ListView/ContactManagement/ContactManagement.csproj"
+    },
+    "CopyPasteMenus/1.0.0": {
+      "type": "project",
+      "path": "../MainMenus/CopyPasteMenus/CopyPasteMenus.csproj",
+      "msbuildProject": "../MainMenus/CopyPasteMenus/CopyPasteMenus.csproj"
+    },
+    "DarkMode/1.0.0": {
+      "type": "project",
+      "path": "../MainMenus/DarkMode/DarkMode.csproj",
+      "msbuildProject": "../MainMenus/DarkMode/DarkMode.csproj"
     },
     "DestinationDecoder/1.0.0": {
       "type": "project",
@@ -5818,6 +6121,16 @@
       "path": "../ProgressBars/DownloadManager/DownloadManager.csproj",
       "msbuildProject": "../ProgressBars/DownloadManager/DownloadManager.csproj"
     },
+    "DragDrop/1.0.0": {
+      "type": "project",
+      "path": "../TreeViews/DragDrop/DragDrop.csproj",
+      "msbuildProject": "../TreeViews/DragDrop/DragDrop.csproj"
+    },
+    "DrawingCanvasApp/1.0.0": {
+      "type": "project",
+      "path": "../Toolbars/DrawingCanvasApp/DrawingCanvasApp.csproj",
+      "msbuildProject": "../Toolbars/DrawingCanvasApp/DrawingCanvasApp.csproj"
+    },
     "EventCountdown/1.0.0": {
       "type": "project",
       "path": "../MonthCalendar/EventCountdown/EventCountdown.csproj",
@@ -5827,6 +6140,11 @@
       "type": "project",
       "path": "../NumericUpDown/ExerciseMinutes/ExerciseMinutes.csproj",
       "msbuildProject": "../NumericUpDown/ExerciseMinutes/ExerciseMinutes.csproj"
+    },
+    "FileExplorer/1.0.0": {
+      "type": "project",
+      "path": "../TreeViews/FileExplorer/FileExplorer.csproj",
+      "msbuildProject": "../TreeViews/FileExplorer/FileExplorer.csproj"
     },
     "FoodMenu/1.0.0": {
       "type": "project",
@@ -5838,10 +6156,20 @@
       "path": "../Labels/Greetings/Greetings.csproj",
       "msbuildProject": "../Labels/Greetings/Greetings.csproj"
     },
+    "InventoryManagement/1.0.0": {
+      "type": "project",
+      "path": "../ModalDialog/InventoryManagement/InventoryManagement.csproj",
+      "msbuildProject": "../ModalDialog/InventoryManagement/InventoryManagement.csproj"
+    },
     "MessageDecoder/1.0.0": {
       "type": "project",
       "path": "../TextBoxControls/MessageDecoder/MessageDecoder.csproj",
       "msbuildProject": "../TextBoxControls/MessageDecoder/MessageDecoder.csproj"
+    },
+    "MovieCatalogue/1.0.0": {
+      "type": "project",
+      "path": "../ListboxAndComboBox/MovieCatalogue/MovieCatalogue.csproj",
+      "msbuildProject": "../ListboxAndComboBox/MovieCatalogue/MovieCatalogue.csproj"
     },
     "MysticMessenger/1.0.0": {
       "type": "project",
@@ -5852,6 +6180,11 @@
       "type": "project",
       "path": "../Buttons/Orchestra/Orchestra.csproj",
       "msbuildProject": "../Buttons/Orchestra/Orchestra.csproj"
+    },
+    "PictureExplorer/1.0.0": {
+      "type": "project",
+      "path": "../CommonDialog/PictureExplorer/PictureExplorer.csproj",
+      "msbuildProject": "../CommonDialog/PictureExplorer/PictureExplorer.csproj"
     },
     "PizzaPlanner/1.0.0": {
       "type": "project",
@@ -5878,25 +6211,70 @@
       "path": "../DateTimePicker/Reservation/Reservation.csproj",
       "msbuildProject": "../DateTimePicker/Reservation/Reservation.csproj"
     },
+    "RoboGreeter/1.0.0": {
+      "type": "project",
+      "path": "../MessageBoxes/RoboGreeter/RoboGreeter.csproj",
+      "msbuildProject": "../MessageBoxes/RoboGreeter/RoboGreeter.csproj"
+    },
     "ShoppingCart/1.0.0": {
       "type": "project",
       "path": "../TextBoxControls/ShoppingCart/ShoppingCart.csproj",
       "msbuildProject": "../TextBoxControls/ShoppingCart/ShoppingCart.csproj"
+    },
+    "SimpleWordApp/1.0.0": {
+      "type": "project",
+      "path": "../Toolbars/SimpleWordApp/SimpleWordApp.csproj",
+      "msbuildProject": "../Toolbars/SimpleWordApp/SimpleWordApp.csproj"
+    },
+    "StudentInfo/1.0.0": {
+      "type": "project",
+      "path": "../ListView/StudentInfo/StudentInfo.csproj",
+      "msbuildProject": "../ListView/StudentInfo/StudentInfo.csproj"
     },
     "TaskSchedule/1.0.0": {
       "type": "project",
       "path": "../DateTimePicker/TaskSchedule/TaskSchedule.csproj",
       "msbuildProject": "../DateTimePicker/TaskSchedule/TaskSchedule.csproj"
     },
+    "TaskTracker/1.0.0": {
+      "type": "project",
+      "path": "../ListboxAndComboBox/TaskTracker/TaskTracker.csproj",
+      "msbuildProject": "../ListboxAndComboBox/TaskTracker/TaskTracker.csproj"
+    },
+    "TaskTrackerWithStatus/1.0.0": {
+      "type": "project",
+      "path": "../StatusBars/TaskTrackerWithStatus/TaskTrackerWithStatus.csproj",
+      "msbuildProject": "../StatusBars/TaskTrackerWithStatus/TaskTrackerWithStatus.csproj"
+    },
     "TemperatureConverter/1.0.0": {
       "type": "project",
       "path": "../EventHandlers/TemperatureConverter/TemperatureConverter.csproj",
       "msbuildProject": "../EventHandlers/TemperatureConverter/TemperatureConverter.csproj"
     },
+    "TextFileMerger/1.0.0": {
+      "type": "project",
+      "path": "../CommonDialog/TextFileMerger/TextFileMerger.csproj",
+      "msbuildProject": "../CommonDialog/TextFileMerger/TextFileMerger.csproj"
+    },
     "TicketCounter/1.0.0": {
       "type": "project",
       "path": "../NumericUpDown/TicketCounter/TicketCounter.csproj",
       "msbuildProject": "../NumericUpDown/TicketCounter/TicketCounter.csproj"
+    },
+    "VendingMachineApp/1.0.0": {
+      "type": "project",
+      "path": "../Panels/VendingMachineApp/VendingMachineApp.csproj",
+      "msbuildProject": "../Panels/VendingMachineApp/VendingMachineApp.csproj"
+    },
+    "VirtualPet/1.0.0": {
+      "type": "project",
+      "path": "../MessageBoxes/VirtualPet/VirtualPet.csproj",
+      "msbuildProject": "../MessageBoxes/VirtualPet/VirtualPet.csproj"
+    },
+    "WeatherApp/1.0.0": {
+      "type": "project",
+      "path": "../StatusBars/WeatherApp/WeatherApp.csproj",
+      "msbuildProject": "../StatusBars/WeatherApp/WeatherApp.csproj"
     },
     "WorkoutManager/1.0.0": {
       "type": "project",
@@ -5908,26 +6286,47 @@
     "net6.0-windows7.0": [
       "AdvancedPersonalCalendar >= 1.0.0",
       "BlogPost >= 1.0.0",
+      "BookInterface >= 1.0.0",
+      "BookLibrary >= 1.0.0",
       "Brightness >= 1.0.0",
+      "ClassCreation >= 1.0.0",
+      "ContactManagement >= 1.0.0",
+      "CopyPasteMenus >= 1.0.0",
+      "DarkMode >= 1.0.0",
       "DestinationDecoder >= 1.0.0",
       "DownloadManager >= 1.0.0",
+      "DragDrop >= 1.0.0",
+      "DrawingCanvasApp >= 1.0.0",
       "EventCountdown >= 1.0.0",
       "ExerciseMinutes >= 1.0.0",
+      "FileExplorer >= 1.0.0",
       "FoodMenu >= 1.0.0",
       "Greetings >= 1.0.0",
+      "InventoryManagement >= 1.0.0",
       "MessageDecoder >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "MovieCatalogue >= 1.0.0",
       "MysticMessenger >= 1.0.0",
       "Orchestra >= 1.0.0",
+      "PictureExplorer >= 1.0.0",
       "PizzaPlanner >= 1.0.0",
       "PortalSequence >= 1.0.0",
       "PotionBrewing >= 1.0.0",
       "PotionBrewingRevamp >= 1.0.0",
       "Reservation >= 1.0.0",
+      "RoboGreeter >= 1.0.0",
       "ShoppingCart >= 1.0.0",
+      "SimpleWordApp >= 1.0.0",
+      "StudentInfo >= 1.0.0",
       "TaskSchedule >= 1.0.0",
+      "TaskTracker >= 1.0.0",
+      "TaskTrackerWithStatus >= 1.0.0",
       "TemperatureConverter >= 1.0.0",
+      "TextFileMerger >= 1.0.0",
       "TicketCounter >= 1.0.0",
+      "VendingMachineApp >= 1.0.0",
+      "VirtualPet >= 1.0.0",
+      "WeatherApp >= 1.0.0",
       "WorkoutManager >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
@@ -5979,6 +6378,12 @@
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
             },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj"
+            },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
             },
@@ -5997,6 +6402,36 @@
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
             },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj"
+            },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
             },
@@ -6009,11 +6444,26 @@
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
             },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj"
+            },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
             },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj"
             },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
@@ -6021,11 +6471,23 @@
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
             },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj"
+            },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
             },
             "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
               "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj"
             }
           }
         }

@@ -1,0 +1,51 @@
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.exe
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.deps.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.runtimeconfig.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\CodeChum.PizzaPlanner.resources
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.AssemblyInfo.cs
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.sourcelink.json
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\refint\PizzaPlanner.dll
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.pdb
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.genruntimeconfig.cache
+C:\Users\AzalithenPC\source\repos\CsharpGUISolutions\CodeChum\PizzaPlanner\obj\Debug\net6.0-windows\ref\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.exe
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.deps.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.runtimeconfig.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\CodeChum.PizzaPlanner.resources
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.AssemblyInfo.cs
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.sourcelink.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\refint\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.genruntimeconfig.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\PizzaPlanner\obj\Debug\net6.0-windows\ref\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.exe
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.deps.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.runtimeconfig.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\bin\Debug\net6.0-windows\PizzaPlanner.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\CodeChum.PizzaPlanner.resources
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.csproj.GenerateResource.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.AssemblyInfoInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.AssemblyInfo.cs
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.csproj.CoreCompileInputs.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.sourcelink.json
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\refint\PizzaPlanner.dll
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.pdb
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\PizzaPlanner.genruntimeconfig.cache
+C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\CheckboxRadioButtonAndGroupBox\PizzaPlanner\obj\Debug\net6.0-windows\ref\PizzaPlanner.dll
