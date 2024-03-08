@@ -62,6 +62,180 @@
         }
       }
     },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj",
+        "projectName": "BookInterface",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj",
+        "projectName": "BookLibrary",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj",
+        "projectName": "ClassCreation",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -89,14 +263,86 @@
               "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj": {
                 "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj"
               },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj"
+              },
               "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj": {
                 "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj"
               },
               "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj": {
                 "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj"
               },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+              },
               "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj": {
                 "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj"
+              },
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj"
               }
             }
           }
@@ -152,6 +398,412 @@
         }
       }
     },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj",
+        "projectName": "ContactManagement",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj",
+        "projectName": "CopyPasteMenus",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj",
+        "projectName": "DarkMode",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj",
+        "projectName": "DragDrop",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj",
+        "projectName": "DrawingCanvasApp",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj",
+        "projectName": "DrawingCanvasApp",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj",
+        "projectName": "FileExplorer",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -160,6 +812,122 @@
         "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj",
         "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj",
+        "projectName": "InventoryManagement",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj",
+        "projectName": "MessageDecoder",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,6 +1036,412 @@
         }
       }
     },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj",
+        "projectName": "MysticMessenger",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj",
+        "projectName": "PictureExplorer",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj",
+        "projectName": "RoboGreeter",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj",
+        "projectName": "SimpleWordApp",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj",
+        "projectName": "StudentInfo",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj",
+        "projectName": "TaskTrackerWithStatus",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -276,6 +1450,296 @@
         "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj",
         "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj",
+        "projectName": "TemperatureConverter",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj",
+        "projectName": "TextFileMerger",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj",
+        "projectName": "VendingMachineApp",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj",
+        "projectName": "VirtualPet",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj",
+        "projectName": "WeatherApp",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",

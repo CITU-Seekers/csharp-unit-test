@@ -1726,6 +1726,123 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "BookInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookInterface.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "BookLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ClassCreation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassCreation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassCreation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ContactManagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ContactManagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManagement.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "CopyPasteMenus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CopyPasteMenus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CopyPasteMenus.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DarkMode/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DarkMode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DarkMode.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DragDrop/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DragDrop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DragDrop.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "DrawingCanvasApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DrawingCanvasApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DrawingCanvasApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FileExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FileExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileExplorer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Greetings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1734,6 +1851,32 @@
         },
         "runtime": {
           "bin/placeholder/Greetings.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "InventoryManagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InventoryManagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MessageDecoder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MessageDecoder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MessageDecoder.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1752,6 +1895,84 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "MysticMessenger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MysticMessenger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MysticMessenger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "PictureExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PictureExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PictureExplorer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "RoboGreeter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RoboGreeter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoboGreeter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ShoppingCart/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "SimpleWordApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SimpleWordApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleWordApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "StudentInfo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StudentInfo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentInfo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "TaskTracker/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1760,6 +1981,84 @@
         },
         "runtime": {
           "bin/placeholder/TaskTracker.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TaskTrackerWithStatus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskTrackerWithStatus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskTrackerWithStatus.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TemperatureConverter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TemperatureConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemperatureConverter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "TextFileMerger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TextFileMerger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextFileMerger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "VendingMachineApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VendingMachineApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VendingMachineApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "VirtualPet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VirtualPet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VirtualPet.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WeatherApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WeatherApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherApp.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -5564,29 +5863,167 @@
       "path": "../BlogPost/BlogPost.csproj",
       "msbuildProject": "../BlogPost/BlogPost.csproj"
     },
+    "BookInterface/1.0.0": {
+      "type": "project",
+      "path": "../BookInterface/BookInterface.csproj",
+      "msbuildProject": "../BookInterface/BookInterface.csproj"
+    },
+    "BookLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BookLibrary/BookLibrary.csproj",
+      "msbuildProject": "../BookLibrary/BookLibrary.csproj"
+    },
+    "ClassCreation/1.0.0": {
+      "type": "project",
+      "path": "../ClassCreation/ClassCreation.csproj",
+      "msbuildProject": "../ClassCreation/ClassCreation.csproj"
+    },
+    "ContactManagement/1.0.0": {
+      "type": "project",
+      "path": "../ContactManagement/ContactManagement.csproj",
+      "msbuildProject": "../ContactManagement/ContactManagement.csproj"
+    },
+    "CopyPasteMenus/1.0.0": {
+      "type": "project",
+      "path": "../CopyPasteMenus/CopyPasteMenus.csproj",
+      "msbuildProject": "../CopyPasteMenus/CopyPasteMenus.csproj"
+    },
+    "DarkMode/1.0.0": {
+      "type": "project",
+      "path": "../DarkMode/DarkMode.csproj",
+      "msbuildProject": "../DarkMode/DarkMode.csproj"
+    },
+    "DragDrop/1.0.0": {
+      "type": "project",
+      "path": "../DragDrop/DragDrop.csproj",
+      "msbuildProject": "../DragDrop/DragDrop.csproj"
+    },
+    "DrawingCanvasApp/1.0.0": {
+      "type": "project",
+      "path": "../DrawingCanvasAppTest/DrawingCanvasApp.csproj",
+      "msbuildProject": "../DrawingCanvasAppTest/DrawingCanvasApp.csproj"
+    },
+    "FileExplorer/1.0.0": {
+      "type": "project",
+      "path": "../FileExplorer/FileExplorer.csproj",
+      "msbuildProject": "../FileExplorer/FileExplorer.csproj"
+    },
     "Greetings/1.0.0": {
       "type": "project",
       "path": "../Greetings/Greetings.csproj",
       "msbuildProject": "../Greetings/Greetings.csproj"
+    },
+    "InventoryManagement/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement/InventoryManagement.csproj",
+      "msbuildProject": "../InventoryManagement/InventoryManagement.csproj"
+    },
+    "MessageDecoder/1.0.0": {
+      "type": "project",
+      "path": "../MessageDecoder/MessageDecoder.csproj",
+      "msbuildProject": "../MessageDecoder/MessageDecoder.csproj"
     },
     "MovieCatalogue/1.0.0": {
       "type": "project",
       "path": "../MovieCatalogue/MovieCatalogue.csproj",
       "msbuildProject": "../MovieCatalogue/MovieCatalogue.csproj"
     },
+    "MysticMessenger/1.0.0": {
+      "type": "project",
+      "path": "../MysticMessenger/MysticMessenger.csproj",
+      "msbuildProject": "../MysticMessenger/MysticMessenger.csproj"
+    },
+    "PictureExplorer/1.0.0": {
+      "type": "project",
+      "path": "../PictureExplorer/PictureExplorer.csproj",
+      "msbuildProject": "../PictureExplorer/PictureExplorer.csproj"
+    },
+    "RoboGreeter/1.0.0": {
+      "type": "project",
+      "path": "../RoboGreeter/RoboGreeter.csproj",
+      "msbuildProject": "../RoboGreeter/RoboGreeter.csproj"
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
+    },
+    "SimpleWordApp/1.0.0": {
+      "type": "project",
+      "path": "../SimpleWordApp/SimpleWordApp.csproj",
+      "msbuildProject": "../SimpleWordApp/SimpleWordApp.csproj"
+    },
+    "StudentInfo/1.0.0": {
+      "type": "project",
+      "path": "../StudentInfo/StudentInfo.csproj",
+      "msbuildProject": "../StudentInfo/StudentInfo.csproj"
+    },
     "TaskTracker/1.0.0": {
       "type": "project",
       "path": "../TaskTracker/TaskTracker.csproj",
       "msbuildProject": "../TaskTracker/TaskTracker.csproj"
+    },
+    "TaskTrackerWithStatus/1.0.0": {
+      "type": "project",
+      "path": "../TaskTrackerWithStatus/TaskTrackerWithStatus.csproj",
+      "msbuildProject": "../TaskTrackerWithStatus/TaskTrackerWithStatus.csproj"
+    },
+    "TemperatureConverter/1.0.0": {
+      "type": "project",
+      "path": "../TemperatureConverter/TemperatureConverter.csproj",
+      "msbuildProject": "../TemperatureConverter/TemperatureConverter.csproj"
+    },
+    "TextFileMerger/1.0.0": {
+      "type": "project",
+      "path": "../TextFileMerger/TextFileMerger.csproj",
+      "msbuildProject": "../TextFileMerger/TextFileMerger.csproj"
+    },
+    "VendingMachineApp/1.0.0": {
+      "type": "project",
+      "path": "../VendingMachineApp/VendingMachineApp.csproj",
+      "msbuildProject": "../VendingMachineApp/VendingMachineApp.csproj"
+    },
+    "VirtualPet/1.0.0": {
+      "type": "project",
+      "path": "../VirtualPet/VirtualPet.csproj",
+      "msbuildProject": "../VirtualPet/VirtualPet.csproj"
+    },
+    "WeatherApp/1.0.0": {
+      "type": "project",
+      "path": "../WeatherApp/WeatherApp.csproj",
+      "msbuildProject": "../WeatherApp/WeatherApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "BlogPost >= 1.0.0",
+      "BookInterface >= 1.0.0",
+      "BookLibrary >= 1.0.0",
+      "ClassCreation >= 1.0.0",
+      "ContactManagement >= 1.0.0",
+      "CopyPasteMenus >= 1.0.0",
+      "DarkMode >= 1.0.0",
+      "DragDrop >= 1.0.0",
+      "DrawingCanvasApp >= 1.0.0",
+      "FileExplorer >= 1.0.0",
       "Greetings >= 1.0.0",
+      "InventoryManagement >= 1.0.0",
+      "MessageDecoder >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "MovieCatalogue >= 1.0.0",
+      "MysticMessenger >= 1.0.0",
+      "PictureExplorer >= 1.0.0",
+      "RoboGreeter >= 1.0.0",
+      "ShoppingCart >= 1.0.0",
+      "SimpleWordApp >= 1.0.0",
+      "StudentInfo >= 1.0.0",
       "TaskTracker >= 1.0.0",
+      "TaskTrackerWithStatus >= 1.0.0",
+      "TemperatureConverter >= 1.0.0",
+      "TextFileMerger >= 1.0.0",
+      "VendingMachineApp >= 1.0.0",
+      "VirtualPet >= 1.0.0",
+      "WeatherApp >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5622,14 +6059,86 @@
             "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj": {
               "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj"
             },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj"
+            },
             "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj": {
               "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj"
             },
             "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj": {
               "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj"
             },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+            },
             "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj": {
               "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj"
+            },
+            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj"
             }
           }
         }

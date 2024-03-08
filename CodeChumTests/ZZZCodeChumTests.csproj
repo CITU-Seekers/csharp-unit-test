@@ -24,9 +24,33 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlogPost\BlogPost.csproj" />
+    <ProjectReference Include="..\BookInterface\BookInterface.csproj" />
+    <ProjectReference Include="..\BookLibrary\BookLibrary.csproj" />
+    <ProjectReference Include="..\ClassCreation\ClassCreation.csproj" />
+    <ProjectReference Include="..\ContactManagement\ContactManagement.csproj" />
+    <ProjectReference Include="..\CopyPasteMenus\CopyPasteMenus.csproj" />
+    <ProjectReference Include="..\DarkMode\DarkMode.csproj" />
+    <ProjectReference Include="..\DragDrop\DragDrop.csproj" />
+    <ProjectReference Include="..\DrawingCanvasAppTest\DrawingCanvasApp.csproj" />
+    <ProjectReference Include="..\DrawingCanvasApp\DrawingCanvasApp.csproj" />
+    <ProjectReference Include="..\FileExplorer\FileExplorer.csproj" />
     <ProjectReference Include="..\Greetings\Greetings.csproj" />
+    <ProjectReference Include="..\InventoryManagement\InventoryManagement.csproj" />
+    <ProjectReference Include="..\MessageDecoder\MessageDecoder.csproj" />
     <ProjectReference Include="..\MovieCatalogue\MovieCatalogue.csproj" />
+    <ProjectReference Include="..\MysticMessenger\MysticMessenger.csproj" />
+    <ProjectReference Include="..\PictureExplorer\PictureExplorer.csproj" />
+    <ProjectReference Include="..\RoboGreeter\RoboGreeter.csproj" />
+    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+    <ProjectReference Include="..\SimpleWordApp\SimpleWordApp.csproj" />
+    <ProjectReference Include="..\StudentInfo\StudentInfo.csproj" />
+    <ProjectReference Include="..\TaskTrackerWithStatus\TaskTrackerWithStatus.csproj" />
     <ProjectReference Include="..\TaskTracker\TaskTracker.csproj" />
+    <ProjectReference Include="..\TemperatureConverter\TemperatureConverter.csproj" />
+    <ProjectReference Include="..\TextFileMerger\TextFileMerger.csproj" />
+    <ProjectReference Include="..\VendingMachineApp\VendingMachineApp.csproj" />
+    <ProjectReference Include="..\VirtualPet\VirtualPet.csproj" />
+    <ProjectReference Include="..\WeatherApp\WeatherApp.csproj" />
   </ItemGroup>
 
 </Project>

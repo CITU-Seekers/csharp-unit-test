@@ -1,0 +1,17 @@
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\bin\Debug\net6.0-windows\TextFileMerger.exe
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\bin\Debug\net6.0-windows\TextFileMerger.deps.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\bin\Debug\net6.0-windows\TextFileMerger.runtimeconfig.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\bin\Debug\net6.0-windows\TextFileMerger.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\bin\Debug\net6.0-windows\TextFileMerger.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.csproj.AssemblyReference.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\CodeChum.TextFileMerger.resources
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.csproj.GenerateResource.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.AssemblyInfoInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.AssemblyInfo.cs
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.csproj.CoreCompileInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\refint\TextFileMerger.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\TextFileMerger.genruntimeconfig.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextFileMerger\obj\Debug\net6.0-windows\ref\TextFileMerger.dll

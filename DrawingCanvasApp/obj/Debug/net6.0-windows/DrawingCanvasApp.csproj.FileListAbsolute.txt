@@ -1,0 +1,17 @@
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.csproj.AssemblyReference.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\bin\Debug\net6.0-windows\DrawingCanvasApp.exe
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\bin\Debug\net6.0-windows\DrawingCanvasApp.deps.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\bin\Debug\net6.0-windows\DrawingCanvasApp.runtimeconfig.json
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\bin\Debug\net6.0-windows\DrawingCanvasApp.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\bin\Debug\net6.0-windows\DrawingCanvasApp.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\CodeChum.DrawingCanvasApp.resources
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.csproj.GenerateResource.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.AssemblyInfoInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.AssemblyInfo.cs
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.csproj.CoreCompileInputs.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\refint\DrawingCanvasApp.dll
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.pdb
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\DrawingCanvasApp.genruntimeconfig.cache
+C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\DrawingCanvasApp\obj\Debug\net6.0-windows\ref\DrawingCanvasApp.dll
