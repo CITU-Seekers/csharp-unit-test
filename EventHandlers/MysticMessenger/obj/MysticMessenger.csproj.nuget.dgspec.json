@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {}
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
         "projectName": "MysticMessenger",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

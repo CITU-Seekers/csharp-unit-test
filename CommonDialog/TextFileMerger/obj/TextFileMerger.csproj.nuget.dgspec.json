@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {}
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
         "projectName": "TextFileMerger",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

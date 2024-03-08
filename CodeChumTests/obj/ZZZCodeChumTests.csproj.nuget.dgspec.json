@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {}
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
         "projectName": "Orchestra",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\Orchestra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,21 +58,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
         "projectName": "PortalSequence",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\PortalSequence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,21 +116,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
         "projectName": "PizzaPlanner",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,21 +174,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
         "projectName": "PotionBrewing",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,21 +232,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
         "projectName": "ZZZCodeChumTests",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -260,134 +260,134 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows7.0",
             "projectReferences": {
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\Orchestra\\Orchestra.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Buttons\\PortalSequence\\PortalSequence.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PizzaPlanner\\PizzaPlanner.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CheckboxRadioButtonAndGroupBox\\PotionBrewing\\PotionBrewing.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj"
               },
-              "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj": {
-                "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj"
+              "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj": {
+                "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj"
               }
             }
           }
@@ -439,21 +439,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
         "projectName": "DestinationDecoder",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\DestinationDecoder\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\DestinationDecoder\\DestinationDecoder.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\DestinationDecoder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -497,21 +497,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
         "projectName": "FoodMenu",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Combobox\\FoodMenu\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\FoodMenu\\FoodMenu.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Combobox\\FoodMenu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -555,21 +555,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj",
         "projectName": "PictureExplorer",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\PictureExplorer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -613,21 +613,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
         "projectName": "TextFileMerger",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CommonDialog\\TextFileMerger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -671,21 +671,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
         "projectName": "Reservation",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\Reservation\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\Reservation\\Reservation.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\Reservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -729,21 +729,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
         "projectName": "TaskSchedule",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\TaskSchedule.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DateTimePicker\\TaskSchedule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -787,21 +787,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
         "projectName": "MysticMessenger",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\MysticMessenger\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\MysticMessenger.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\MysticMessenger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -845,21 +845,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
         "projectName": "TemperatureConverter",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\TemperatureConverter.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\EventHandlers\\TemperatureConverter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -903,21 +903,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
         "projectName": "BlogPost",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\BlogPost\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\BlogPost\\BlogPost.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\BlogPost\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -961,21 +961,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
         "projectName": "Greetings",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Labels\\Greetings\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\Greetings\\Greetings.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Labels\\Greetings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1019,21 +1019,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj",
         "projectName": "MovieCatalogue",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1077,21 +1077,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj",
         "projectName": "TaskTracker",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1135,21 +1135,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj",
         "projectName": "ContactManagement",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\ContactManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1193,21 +1193,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj",
         "projectName": "StudentInfo",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ListView\\StudentInfo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1251,21 +1251,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj",
         "projectName": "CopyPasteMenus",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1309,21 +1309,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj",
         "projectName": "DarkMode",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MainMenus\\DarkMode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1367,21 +1367,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj",
         "projectName": "RoboGreeter",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1425,21 +1425,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj",
         "projectName": "VirtualPet",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageBoxes\\VirtualPet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1483,21 +1483,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj",
         "projectName": "ClassCreation",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\ClassCreation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1541,21 +1541,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj",
         "projectName": "InventoryManagement",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ModalDialog\\InventoryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1599,21 +1599,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
         "projectName": "AdvancedPersonalCalendar",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\AdvancedPersonalCalendar.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\AdvancedPersonalCalendar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1657,21 +1657,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
         "projectName": "EventCountdown",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MonthCalendar\\EventCountdown\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\EventCountdown\\EventCountdown.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MonthCalendar\\EventCountdown\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1715,21 +1715,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
         "projectName": "ExerciseMinutes",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\ExerciseMinutes.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\ExerciseMinutes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1773,21 +1773,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
         "projectName": "TicketCounter",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\NumericUpDown\\TicketCounter\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\TicketCounter\\TicketCounter.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\NumericUpDown\\TicketCounter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1831,21 +1831,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj",
         "projectName": "VendingMachineApp",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Panels\\VendingMachineApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1889,21 +1889,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
         "projectName": "DownloadManager",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\DownloadManager\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\DownloadManager\\DownloadManager.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\DownloadManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1947,21 +1947,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
         "projectName": "WorkoutManager",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ProgressBars\\WorkoutManager\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\WorkoutManager\\WorkoutManager.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ProgressBars\\WorkoutManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2005,21 +2005,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj",
         "projectName": "BookInterface",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Splitters\\BookInterface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2063,21 +2063,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj",
         "projectName": "TaskTrackerWithStatus",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2121,21 +2121,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StatusBars\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2179,21 +2179,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj",
         "projectName": "BookLibrary",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TabControl\\BookLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2237,21 +2237,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
         "projectName": "MessageDecoder",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\MessageDecoder.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\MessageDecoder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2295,21 +2295,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextBoxControls\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2353,21 +2353,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj",
         "projectName": "DrawingCanvasApp",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2411,21 +2411,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj",
         "projectName": "SimpleWordApp",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Toolbars\\SimpleWordApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2469,21 +2469,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
         "projectName": "Brightness",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\Brightness\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\Brightness\\Brightness.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\Brightness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2527,21 +2527,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
         "projectName": "PotionBrewingRevamp",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\PotionBrewingRevamp.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Trackbar\\PotionBrewingRevamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2585,21 +2585,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj",
         "projectName": "DragDrop",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\DragDrop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2643,21 +2643,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj": {
+    "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj",
         "projectName": "FileExplorer",
-        "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj",
-        "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\obj\\",
+        "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj",
+        "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TreeViews\\FileExplorer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -2701,7 +2701,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

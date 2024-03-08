@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MessageDecoder
-build_property.ProjectDir = C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\TextBoxControls\MessageDecoder\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\TextBoxControls\MessageDecoder\
