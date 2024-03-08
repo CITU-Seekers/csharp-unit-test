@@ -1713,19 +1713,6 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "BlogPost/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BlogPost.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BlogPost.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
       "BookInterface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1843,19 +1830,6 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "Greetings/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Greetings.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Greetings.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
       "InventoryManagement/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1869,19 +1843,6 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "MessageDecoder/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MessageDecoder.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MessageDecoder.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
       "MovieCatalogue/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1890,19 +1851,6 @@
         },
         "runtime": {
           "bin/placeholder/MovieCatalogue.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
-      "MysticMessenger/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MysticMessenger.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MysticMessenger.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1929,19 +1877,6 @@
         },
         "runtime": {
           "bin/placeholder/RoboGreeter.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
-      "ShoppingCart/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ShoppingCart.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShoppingCart.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1994,19 +1929,6 @@
         },
         "runtime": {
           "bin/placeholder/TaskTrackerWithStatus.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
-      "TemperatureConverter/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/TemperatureConverter.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TemperatureConverter.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -5858,11 +5780,6 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "BlogPost/1.0.0": {
-      "type": "project",
-      "path": "../BlogPost/BlogPost.csproj",
-      "msbuildProject": "../BlogPost/BlogPost.csproj"
-    },
     "BookInterface/1.0.0": {
       "type": "project",
       "path": "../BookInterface/BookInterface.csproj",
@@ -5870,8 +5787,8 @@
     },
     "BookLibrary/1.0.0": {
       "type": "project",
-      "path": "../BookLibrary/BookLibrary.csproj",
-      "msbuildProject": "../BookLibrary/BookLibrary.csproj"
+      "path": "../TabControl/BookLibrary/BookLibrary.csproj",
+      "msbuildProject": "../TabControl/BookLibrary/BookLibrary.csproj"
     },
     "ClassCreation/1.0.0": {
       "type": "project",
@@ -5885,8 +5802,8 @@
     },
     "CopyPasteMenus/1.0.0": {
       "type": "project",
-      "path": "../CopyPasteMenus/CopyPasteMenus.csproj",
-      "msbuildProject": "../CopyPasteMenus/CopyPasteMenus.csproj"
+      "path": "../MainMenus/CopyPasteMenus/CopyPasteMenus.csproj",
+      "msbuildProject": "../MainMenus/CopyPasteMenus/CopyPasteMenus.csproj"
     },
     "DarkMode/1.0.0": {
       "type": "project",
@@ -5900,53 +5817,33 @@
     },
     "DrawingCanvasApp/1.0.0": {
       "type": "project",
-      "path": "../DrawingCanvasAppTest/DrawingCanvasApp.csproj",
-      "msbuildProject": "../DrawingCanvasAppTest/DrawingCanvasApp.csproj"
+      "path": "../Toolbars/DrawingCanvasApp/DrawingCanvasApp.csproj",
+      "msbuildProject": "../Toolbars/DrawingCanvasApp/DrawingCanvasApp.csproj"
     },
     "FileExplorer/1.0.0": {
       "type": "project",
-      "path": "../FileExplorer/FileExplorer.csproj",
-      "msbuildProject": "../FileExplorer/FileExplorer.csproj"
-    },
-    "Greetings/1.0.0": {
-      "type": "project",
-      "path": "../Greetings/Greetings.csproj",
-      "msbuildProject": "../Greetings/Greetings.csproj"
+      "path": "../TreeViews/FileExplorer/FileExplorer.csproj",
+      "msbuildProject": "../TreeViews/FileExplorer/FileExplorer.csproj"
     },
     "InventoryManagement/1.0.0": {
       "type": "project",
       "path": "../InventoryManagement/InventoryManagement.csproj",
       "msbuildProject": "../InventoryManagement/InventoryManagement.csproj"
     },
-    "MessageDecoder/1.0.0": {
-      "type": "project",
-      "path": "../MessageDecoder/MessageDecoder.csproj",
-      "msbuildProject": "../MessageDecoder/MessageDecoder.csproj"
-    },
     "MovieCatalogue/1.0.0": {
       "type": "project",
       "path": "../MovieCatalogue/MovieCatalogue.csproj",
       "msbuildProject": "../MovieCatalogue/MovieCatalogue.csproj"
     },
-    "MysticMessenger/1.0.0": {
-      "type": "project",
-      "path": "../MysticMessenger/MysticMessenger.csproj",
-      "msbuildProject": "../MysticMessenger/MysticMessenger.csproj"
-    },
     "PictureExplorer/1.0.0": {
       "type": "project",
-      "path": "../PictureExplorer/PictureExplorer.csproj",
-      "msbuildProject": "../PictureExplorer/PictureExplorer.csproj"
+      "path": "../CommonDialog/PictureExplorer/PictureExplorer.csproj",
+      "msbuildProject": "../CommonDialog/PictureExplorer/PictureExplorer.csproj"
     },
     "RoboGreeter/1.0.0": {
       "type": "project",
       "path": "../RoboGreeter/RoboGreeter.csproj",
       "msbuildProject": "../RoboGreeter/RoboGreeter.csproj"
-    },
-    "ShoppingCart/1.0.0": {
-      "type": "project",
-      "path": "../ShoppingCart/ShoppingCart.csproj",
-      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
     },
     "SimpleWordApp/1.0.0": {
       "type": "project",
@@ -5968,35 +5865,29 @@
       "path": "../TaskTrackerWithStatus/TaskTrackerWithStatus.csproj",
       "msbuildProject": "../TaskTrackerWithStatus/TaskTrackerWithStatus.csproj"
     },
-    "TemperatureConverter/1.0.0": {
-      "type": "project",
-      "path": "../TemperatureConverter/TemperatureConverter.csproj",
-      "msbuildProject": "../TemperatureConverter/TemperatureConverter.csproj"
-    },
     "TextFileMerger/1.0.0": {
       "type": "project",
-      "path": "../TextFileMerger/TextFileMerger.csproj",
-      "msbuildProject": "../TextFileMerger/TextFileMerger.csproj"
+      "path": "../CommonDialog/TextFileMerger/TextFileMerger.csproj",
+      "msbuildProject": "../CommonDialog/TextFileMerger/TextFileMerger.csproj"
     },
     "VendingMachineApp/1.0.0": {
       "type": "project",
-      "path": "../VendingMachineApp/VendingMachineApp.csproj",
-      "msbuildProject": "../VendingMachineApp/VendingMachineApp.csproj"
+      "path": "../Panels/VendingMachineApp/VendingMachineApp.csproj",
+      "msbuildProject": "../Panels/VendingMachineApp/VendingMachineApp.csproj"
     },
     "VirtualPet/1.0.0": {
       "type": "project",
-      "path": "../VirtualPet/VirtualPet.csproj",
-      "msbuildProject": "../VirtualPet/VirtualPet.csproj"
+      "path": "../MessageBoxes/VirtualPet/VirtualPet.csproj",
+      "msbuildProject": "../MessageBoxes/VirtualPet/VirtualPet.csproj"
     },
     "WeatherApp/1.0.0": {
       "type": "project",
-      "path": "../WeatherApp/WeatherApp.csproj",
-      "msbuildProject": "../WeatherApp/WeatherApp.csproj"
+      "path": "../StatusBars/WeatherApp/WeatherApp.csproj",
+      "msbuildProject": "../StatusBars/WeatherApp/WeatherApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "BlogPost >= 1.0.0",
       "BookInterface >= 1.0.0",
       "BookLibrary >= 1.0.0",
       "ClassCreation >= 1.0.0",
@@ -6006,20 +5897,15 @@
       "DragDrop >= 1.0.0",
       "DrawingCanvasApp >= 1.0.0",
       "FileExplorer >= 1.0.0",
-      "Greetings >= 1.0.0",
       "InventoryManagement >= 1.0.0",
-      "MessageDecoder >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "MovieCatalogue >= 1.0.0",
-      "MysticMessenger >= 1.0.0",
       "PictureExplorer >= 1.0.0",
       "RoboGreeter >= 1.0.0",
-      "ShoppingCart >= 1.0.0",
       "SimpleWordApp >= 1.0.0",
       "StudentInfo >= 1.0.0",
       "TaskTracker >= 1.0.0",
       "TaskTrackerWithStatus >= 1.0.0",
-      "TemperatureConverter >= 1.0.0",
       "TextFileMerger >= 1.0.0",
       "VendingMachineApp >= 1.0.0",
       "VirtualPet >= 1.0.0",
@@ -6030,19 +5916,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\": {}
+    "C:\\Users\\AzalithenPC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
+      "projectUniqueName": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
       "projectName": "ZZZCodeChumTests",
-      "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
-      "packagesPath": "C:\\Users\\Jhonray Acojedo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CodeChumTests\\obj\\",
+      "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\ZZZCodeChumTests.csproj",
+      "packagesPath": "C:\\Users\\AzalithenPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CodeChumTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jhonray Acojedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AzalithenPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6056,89 +5942,125 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows7.0",
           "projectReferences": {
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BlogPost\\BlogPost.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookInterface\\BookInterface.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookInterface\\BookInterface.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\BookLibrary\\BookLibrary.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ClassCreation\\ClassCreation.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\PictureExplorer\\PictureExplorer.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CommonDialog\\TextFileMerger\\TextFileMerger.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ContactManagement\\ContactManagement.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DarkMode\\DarkMode.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\CopyPasteMenus\\CopyPasteMenus.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DragDrop\\DragDrop.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DarkMode\\DarkMode.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DarkMode\\DarkMode.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasAppTest\\DrawingCanvasApp.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DragDrop\\DragDrop.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\DragDrop\\DragDrop.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\FileExplorer\\FileExplorer.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\Greetings\\Greetings.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\MovieCatalogue\\MovieCatalogue.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\InventoryManagement\\InventoryManagement.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListboxAndComboBox\\TaskTracker\\TaskTracker.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MessageDecoder\\MessageDecoder.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\ContactManagement\\ContactManagement.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ListView\\StudentInfo\\StudentInfo.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\MysticMessenger\\MysticMessenger.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\CopyPasteMenus\\CopyPasteMenus.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MainMenus\\DarkMode\\DarkMode.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\RoboGreeter\\RoboGreeter.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\ShoppingCart\\ShoppingCart.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MessageBoxes\\VirtualPet\\VirtualPet.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\ClassCreation\\ClassCreation.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\ModalDialog\\InventoryManagement\\InventoryManagement.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\MovieCatalogue\\MovieCatalogue.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Panels\\VendingMachineApp\\VendingMachineApp.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TemperatureConverter\\TemperatureConverter.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\PictureExplorer\\PictureExplorer.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\RoboGreeter\\RoboGreeter.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VendingMachineApp\\VendingMachineApp.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\SimpleWordApp\\SimpleWordApp.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Splitters\\BookInterface\\BookInterface.csproj"
             },
-            "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
-              "projectPath": "C:\\Users\\Jhonray Acojedo\\Jhonray\\CodeChum\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj"
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StatusBars\\WeatherApp\\WeatherApp.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\StudentInfo\\StudentInfo.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TabControl\\BookLibrary\\BookLibrary.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TaskTrackerWithStatus\\TaskTrackerWithStatus.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TaskTracker\\TaskTracker.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TextFileMerger\\TextFileMerger.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\DrawingCanvasApp\\DrawingCanvasApp.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\Toolbars\\SimpleWordApp\\SimpleWordApp.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\DragDrop\\DragDrop.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\TreeViews\\FileExplorer\\FileExplorer.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\VirtualPet\\VirtualPet.csproj"
+            },
+            "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\AzalithenPC\\Documents\\Dev Works\\csharp-unit-test\\WeatherApp\\WeatherApp.csproj"
             }
           }
         }
@@ -6190,7 +6112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

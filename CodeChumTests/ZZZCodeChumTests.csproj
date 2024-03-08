@@ -23,32 +23,44 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlogPost\BlogPost.csproj" />
     <ProjectReference Include="..\BookInterface\BookInterface.csproj" />
     <ProjectReference Include="..\BookLibrary\BookLibrary.csproj" />
     <ProjectReference Include="..\ClassCreation\ClassCreation.csproj" />
+    <ProjectReference Include="..\CommonDialog\PictureExplorer\PictureExplorer.csproj" />
+    <ProjectReference Include="..\CommonDialog\TextFileMerger\TextFileMerger.csproj" />
     <ProjectReference Include="..\ContactManagement\ContactManagement.csproj" />
     <ProjectReference Include="..\CopyPasteMenus\CopyPasteMenus.csproj" />
     <ProjectReference Include="..\DarkMode\DarkMode.csproj" />
     <ProjectReference Include="..\DragDrop\DragDrop.csproj" />
-    <ProjectReference Include="..\DrawingCanvasAppTest\DrawingCanvasApp.csproj" />
-    <ProjectReference Include="..\DrawingCanvasApp\DrawingCanvasApp.csproj" />
     <ProjectReference Include="..\FileExplorer\FileExplorer.csproj" />
-    <ProjectReference Include="..\Greetings\Greetings.csproj" />
     <ProjectReference Include="..\InventoryManagement\InventoryManagement.csproj" />
-    <ProjectReference Include="..\MessageDecoder\MessageDecoder.csproj" />
+    <ProjectReference Include="..\ListboxAndComboBox\MovieCatalogue\MovieCatalogue.csproj" />
+    <ProjectReference Include="..\ListboxAndComboBox\TaskTracker\TaskTracker.csproj" />
+    <ProjectReference Include="..\ListView\ContactManagement\ContactManagement.csproj" />
+    <ProjectReference Include="..\ListView\StudentInfo\StudentInfo.csproj" />
+    <ProjectReference Include="..\MainMenus\CopyPasteMenus\CopyPasteMenus.csproj" />
+    <ProjectReference Include="..\MainMenus\DarkMode\DarkMode.csproj" />
+    <ProjectReference Include="..\MessageBoxes\RoboGreeter\RoboGreeter.csproj" />
+    <ProjectReference Include="..\MessageBoxes\VirtualPet\VirtualPet.csproj" />
+    <ProjectReference Include="..\ModalDialog\ClassCreation\ClassCreation.csproj" />
+    <ProjectReference Include="..\ModalDialog\InventoryManagement\InventoryManagement.csproj" />
     <ProjectReference Include="..\MovieCatalogue\MovieCatalogue.csproj" />
-    <ProjectReference Include="..\MysticMessenger\MysticMessenger.csproj" />
+    <ProjectReference Include="..\Panels\VendingMachineApp\VendingMachineApp.csproj" />
     <ProjectReference Include="..\PictureExplorer\PictureExplorer.csproj" />
     <ProjectReference Include="..\RoboGreeter\RoboGreeter.csproj" />
-    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
     <ProjectReference Include="..\SimpleWordApp\SimpleWordApp.csproj" />
+    <ProjectReference Include="..\Splitters\BookInterface\BookInterface.csproj" />
+    <ProjectReference Include="..\StatusBars\TaskTrackerWithStatus\TaskTrackerWithStatus.csproj" />
+    <ProjectReference Include="..\StatusBars\WeatherApp\WeatherApp.csproj" />
     <ProjectReference Include="..\StudentInfo\StudentInfo.csproj" />
+    <ProjectReference Include="..\TabControl\BookLibrary\BookLibrary.csproj" />
     <ProjectReference Include="..\TaskTrackerWithStatus\TaskTrackerWithStatus.csproj" />
     <ProjectReference Include="..\TaskTracker\TaskTracker.csproj" />
-    <ProjectReference Include="..\TemperatureConverter\TemperatureConverter.csproj" />
     <ProjectReference Include="..\TextFileMerger\TextFileMerger.csproj" />
-    <ProjectReference Include="..\VendingMachineApp\VendingMachineApp.csproj" />
+    <ProjectReference Include="..\Toolbars\DrawingCanvasApp\DrawingCanvasApp.csproj" />
+    <ProjectReference Include="..\Toolbars\SimpleWordApp\SimpleWordApp.csproj" />
+    <ProjectReference Include="..\TreeViews\DragDrop\DragDrop.csproj" />
+    <ProjectReference Include="..\TreeViews\FileExplorer\FileExplorer.csproj" />
     <ProjectReference Include="..\VirtualPet\VirtualPet.csproj" />
     <ProjectReference Include="..\WeatherApp\WeatherApp.csproj" />
   </ItemGroup>

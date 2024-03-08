@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FileExplorer
-build_property.ProjectDir = C:\Users\Jhonray Acojedo\Jhonray\CodeChum\csharp-unit-test\FileExplorer\
+build_property.ProjectDir = C:\Users\AzalithenPC\Documents\Dev Works\csharp-unit-test\FileExplorer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
