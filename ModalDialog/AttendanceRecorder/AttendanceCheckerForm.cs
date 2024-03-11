@@ -19,21 +19,27 @@ namespace CodeChum
 
         private void CheckButton_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(IdTextBox.Text);
+            
+            bool parsable = int.TryParse(IdTextBox.Text, out int id);
 
+            if (!parsable)
+            {
+                MessageBox.Show("Invalid id.", "Invalid");
+                return;
+            }
             if (EmployeeList.checkEmployeeRegistration(id))
             {
                 if (EmployeeList.isEmployeeAttendanceRecorded(id))
-                    MessageBoxWrapper.Show("Employee attendance is already recorded.", "Notice");
+                    MessageBox.Show("Employee attendance is already recorded.", "Notice");
                 else
                 {
                     EmployeeList.recordEmployeeAttendance(id);
-                    MessageBoxWrapper.Show("Employee attendance is successfully recorded.", "Success");
+                    MessageBox.Show("Employee attendance is successfully recorded.", "Success");
                 }
             }
             else
             {
-                MessageBoxWrapper.Show("No employee with the id found.", "Invalid");
+                MessageBox.Show("No employee with the id found.", "Invalid");
             }
         }
 

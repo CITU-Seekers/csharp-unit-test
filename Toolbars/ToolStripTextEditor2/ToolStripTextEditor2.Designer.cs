@@ -1,4 +1,6 @@
-﻿namespace CodeChum
+﻿using ToolStripTextEditor2.Properties;
+
+namespace CodeChum
 {
     partial class ToolStripTextEditor2
     {
@@ -29,240 +31,206 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ToolStripTextEditor2));
-            this.EditorToolStrip = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.FontComboBox = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.FontSizeComboBox = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
-            this.FindTextBox = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
-            this.ReplaceAllTextBox = new System.Windows.Forms.ToolStripTextBox();
-            this.ReplaceAllButton = new System.Windows.Forms.ToolStripButton();
-            this.OpenColorsToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.MainRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.ColorToolStrip = new System.Windows.Forms.ToolStrip();
-            this.BlackButton = new System.Windows.Forms.ToolStripButton();
-            this.BlueButton = new System.Windows.Forms.ToolStripButton();
-            this.GreenButton = new System.Windows.Forms.ToolStripButton();
-            this.RedButton = new System.Windows.Forms.ToolStripButton();
-            this.YellowButton = new System.Windows.Forms.ToolStripButton();
-            this.EditorToolStrip.SuspendLayout();
-            this.ColorToolStrip.SuspendLayout();
-            this.SuspendLayout();
+            EditorToolStrip = new ToolStrip();
+            toolStripLabel1 = new ToolStripLabel();
+            FontComboBox = new ToolStripComboBox();
+            toolStripLabel2 = new ToolStripLabel();
+            FontSizeComboBox = new ToolStripComboBox();
+            toolStripLabel3 = new ToolStripLabel();
+            FindTextBox = new ToolStripTextBox();
+            toolStripLabel4 = new ToolStripLabel();
+            ReplaceAllTextBox = new ToolStripTextBox();
+            ReplaceAllButton = new ToolStripButton();
+            OpenColorsToolStripButton = new ToolStripButton();
+            MainRichTextBox = new RichTextBox();
+            ColorToolStrip = new ToolStrip();
+            BlackButton = new ToolStripButton();
+            BlueButton = new ToolStripButton();
+            GreenButton = new ToolStripButton();
+            RedButton = new ToolStripButton();
+            YellowButton = new ToolStripButton();
+            EditorToolStrip.SuspendLayout();
+            ColorToolStrip.SuspendLayout();
+            SuspendLayout();
             // 
             // EditorToolStrip
             // 
-            this.EditorToolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.EditorToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1,
-            this.FontComboBox,
-            this.toolStripLabel2,
-            this.FontSizeComboBox,
-            this.toolStripLabel3,
-            this.FindTextBox,
-            this.toolStripLabel4,
-            this.ReplaceAllTextBox,
-            this.ReplaceAllButton,
-            this.OpenColorsToolStripButton});
-            this.EditorToolStrip.Location = new System.Drawing.Point(0, 0);
-            this.EditorToolStrip.Name = "EditorToolStrip";
-            this.EditorToolStrip.Size = new System.Drawing.Size(921, 28);
-            this.EditorToolStrip.TabIndex = 0;
-            this.EditorToolStrip.Text = "toolStrip1";
+            EditorToolStrip.ImageScalingSize = new Size(20, 20);
+            EditorToolStrip.Items.AddRange(new ToolStripItem[] { toolStripLabel1, FontComboBox, toolStripLabel2, FontSizeComboBox, toolStripLabel3, FindTextBox, toolStripLabel4, ReplaceAllTextBox, ReplaceAllButton, OpenColorsToolStripButton });
+            EditorToolStrip.Location = new Point(0, 0);
+            EditorToolStrip.Name = "EditorToolStrip";
+            EditorToolStrip.Size = new Size(806, 25);
+            EditorToolStrip.TabIndex = 0;
+            EditorToolStrip.Text = "toolStrip1";
             // 
             // toolStripLabel1
             // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(41, 25);
-            this.toolStripLabel1.Text = "Font:";
+            toolStripLabel1.Name = "toolStripLabel1";
+            toolStripLabel1.Size = new Size(34, 22);
+            toolStripLabel1.Text = "Font:";
             // 
             // FontComboBox
             // 
-            this.FontComboBox.AutoCompleteCustomSource.AddRange(new string[] {
-            "Arial",
-            "Cascadia Code",
-            "Segoe UI",
-            "Tahoma",
-            "Verdana"});
-            this.FontComboBox.Items.AddRange(new object[] {
-            "Arial",
-            "Cascadia Code",
-            "Segoe UI",
-            "Tahoma",
-            "Verdana"});
-            this.FontComboBox.Name = "FontComboBox";
-            this.FontComboBox.Size = new System.Drawing.Size(121, 28);
-            this.FontComboBox.SelectedIndexChanged += new System.EventHandler(this.onComboBoxSelectionChange);
+            FontComboBox.AutoCompleteCustomSource.AddRange(new string[] { "Arial", "Cascadia Code", "Segoe UI", "Tahoma", "Verdana" });
+            FontComboBox.Items.AddRange(new object[] { "Arial", "Cascadia Code", "Segoe UI", "Tahoma", "Verdana" });
+            FontComboBox.Name = "FontComboBox";
+            FontComboBox.Size = new Size(106, 25);
+            FontComboBox.SelectedIndexChanged += onComboBoxSelectionChange;
             // 
             // toolStripLabel2
             // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(72, 25);
-            this.toolStripLabel2.Text = "Font Size:";
+            toolStripLabel2.Name = "toolStripLabel2";
+            toolStripLabel2.Size = new Size(57, 22);
+            toolStripLabel2.Text = "Font Size:";
             // 
             // FontSizeComboBox
             // 
-            this.FontSizeComboBox.AutoCompleteCustomSource.AddRange(new string[] {
-            "8",
-            "10",
-            "12",
-            "14",
-            "16"});
-            this.FontSizeComboBox.Items.AddRange(new object[] {
-            "8",
-            "10",
-            "12",
-            "14",
-            "16"});
-            this.FontSizeComboBox.Name = "FontSizeComboBox";
-            this.FontSizeComboBox.Size = new System.Drawing.Size(121, 28);
-            this.FontSizeComboBox.SelectedIndexChanged += new System.EventHandler(this.onComboBoxSelectionChange);
+            FontSizeComboBox.AutoCompleteCustomSource.AddRange(new string[] { "8", "10", "12", "14", "16" });
+            FontSizeComboBox.Items.AddRange(new object[] { "8", "10", "12", "14", "16" });
+            FontSizeComboBox.Name = "FontSizeComboBox";
+            FontSizeComboBox.Size = new Size(106, 25);
+            FontSizeComboBox.SelectedIndexChanged += onComboBoxSelectionChange;
             // 
             // toolStripLabel3
             // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(40, 25);
-            this.toolStripLabel3.Text = "Find:";
+            toolStripLabel3.Name = "toolStripLabel3";
+            toolStripLabel3.Size = new Size(33, 22);
+            toolStripLabel3.Text = "Find:";
             // 
             // FindTextBox
             // 
-            this.FindTextBox.Name = "FindTextBox";
-            this.FindTextBox.Size = new System.Drawing.Size(100, 28);
+            FindTextBox.Name = "FindTextBox";
+            FindTextBox.Size = new Size(88, 25);
             // 
             // toolStripLabel4
             // 
-            this.toolStripLabel4.Name = "toolStripLabel4";
-            this.toolStripLabel4.Size = new System.Drawing.Size(87, 25);
-            this.toolStripLabel4.Text = "Replace All:";
+            toolStripLabel4.Name = "toolStripLabel4";
+            toolStripLabel4.Size = new Size(68, 22);
+            toolStripLabel4.Text = "Replace All:";
             // 
             // ReplaceAllTextBox
             // 
-            this.ReplaceAllTextBox.Name = "ReplaceAllTextBox";
-            this.ReplaceAllTextBox.Size = new System.Drawing.Size(100, 28);
+            ReplaceAllTextBox.Name = "ReplaceAllTextBox";
+            ReplaceAllTextBox.Size = new Size(88, 25);
             // 
             // ReplaceAllButton
             // 
-            this.ReplaceAllButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.ReplaceAllButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ReplaceAllButton.Name = "ReplaceAllButton";
-            this.ReplaceAllButton.Size = new System.Drawing.Size(88, 25);
-            this.ReplaceAllButton.Text = "Replace All";
-            this.ReplaceAllButton.Click += new System.EventHandler(this.onEditorButtonsClick);
+            ReplaceAllButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            ReplaceAllButton.ImageTransparentColor = Color.Magenta;
+            ReplaceAllButton.Name = "ReplaceAllButton";
+            ReplaceAllButton.Size = new Size(69, 22);
+            ReplaceAllButton.Text = "Replace All";
+            ReplaceAllButton.Click += onEditorButtonsClick;
             // 
             // OpenColorsToolStripButton
             // 
-            this.OpenColorsToolStripButton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.OpenColorsToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.OpenColorsToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("OpenColorsToolStripButton.Image")));
-            this.OpenColorsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.OpenColorsToolStripButton.Margin = new System.Windows.Forms.Padding(50, 1, 0, 2);
-            this.OpenColorsToolStripButton.Name = "OpenColorsToolStripButton";
-            this.OpenColorsToolStripButton.Size = new System.Drawing.Size(55, 25);
-            this.OpenColorsToolStripButton.Text = "Colors";
-            this.OpenColorsToolStripButton.Click += new System.EventHandler(this.onEditorButtonsClick);
+            OpenColorsToolStripButton.BackColor = SystemColors.ButtonHighlight;
+            OpenColorsToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            OpenColorsToolStripButton.Image = (Image)resources.GetObject("OpenColorsToolStripButton.Image");
+            OpenColorsToolStripButton.ImageTransparentColor = Color.Magenta;
+            OpenColorsToolStripButton.Margin = new Padding(50, 1, 0, 2);
+            OpenColorsToolStripButton.Name = "OpenColorsToolStripButton";
+            OpenColorsToolStripButton.Size = new Size(45, 22);
+            OpenColorsToolStripButton.Text = "Colors";
+            OpenColorsToolStripButton.Click += onEditorButtonsClick;
             // 
             // MainRichTextBox
             // 
-            this.MainRichTextBox.Location = new System.Drawing.Point(12, 42);
-            this.MainRichTextBox.Name = "MainRichTextBox";
-            this.MainRichTextBox.Size = new System.Drawing.Size(891, 277);
-            this.MainRichTextBox.TabIndex = 1;
-            this.MainRichTextBox.Text = "";
+            MainRichTextBox.Location = new Point(10, 32);
+            MainRichTextBox.Margin = new Padding(3, 2, 3, 2);
+            MainRichTextBox.Name = "MainRichTextBox";
+            MainRichTextBox.Size = new Size(780, 209);
+            MainRichTextBox.TabIndex = 1;
+            MainRichTextBox.Text = "";
             // 
             // ColorToolStrip
             // 
-            this.ColorToolStrip.Dock = System.Windows.Forms.DockStyle.Right;
-            this.ColorToolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.ColorToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.BlackButton,
-            this.BlueButton,
-            this.GreenButton,
-            this.RedButton,
-            this.YellowButton});
-            this.ColorToolStrip.Location = new System.Drawing.Point(881, 28);
-            this.ColorToolStrip.Name = "ColorToolStrip";
-            this.ColorToolStrip.Size = new System.Drawing.Size(40, 303);
-            this.ColorToolStrip.TabIndex = 2;
-            this.ColorToolStrip.Text = "toolStrip1";
-            this.ColorToolStrip.Visible = false;
+            ColorToolStrip.Dock = DockStyle.Right;
+            ColorToolStrip.ImageScalingSize = new Size(20, 20);
+            ColorToolStrip.Items.AddRange(new ToolStripItem[] { BlackButton, BlueButton, GreenButton, RedButton, YellowButton });
+            ColorToolStrip.Location = new Point(771, 21);
+            ColorToolStrip.Name = "ColorToolStrip";
+            ColorToolStrip.Size = new Size(35, 227);
+            ColorToolStrip.TabIndex = 2;
+            ColorToolStrip.Text = "toolStrip1";
+            ColorToolStrip.Visible = false;
             // 
             // BlackButton
             // 
-            this.BlackButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BlackButton.Image = global::CodeChum.Properties.Resources.black;
-            this.BlackButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BlackButton.Name = "BlackButton";
-            this.BlackButton.Size = new System.Drawing.Size(27, 24);
-            this.BlackButton.Text = "toolStripButton1";
-            this.BlackButton.ToolTipText = "Black";
-            this.BlackButton.Click += new System.EventHandler(this.onColorButtonClick);
+            BlackButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            BlackButton.Image = Resources.black;
+            BlackButton.ImageTransparentColor = Color.Magenta;
+            BlackButton.Name = "BlackButton";
+            BlackButton.Size = new Size(21, 4);
+            BlackButton.Text = "toolStripButton1";
+            BlackButton.ToolTipText = "Black";
+            BlackButton.Click += onColorButtonClick;
             // 
             // BlueButton
             // 
-            this.BlueButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BlueButton.Image = global::CodeChum.Properties.Resources.blue;
-            this.BlueButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BlueButton.Margin = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.BlueButton.Name = "BlueButton";
-            this.BlueButton.Size = new System.Drawing.Size(27, 24);
-            this.BlueButton.Text = "toolStripButton2";
-            this.BlueButton.ToolTipText = "Blue";
-            this.BlueButton.Click += new System.EventHandler(this.onColorButtonClick);
+            BlueButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            BlueButton.Image = Resources.blue;
+            BlueButton.ImageTransparentColor = Color.Magenta;
+            BlueButton.Margin = new Padding(0, 5, 0, 2);
+            BlueButton.Name = "BlueButton";
+            BlueButton.Size = new Size(21, 4);
+            BlueButton.Text = "toolStripButton2";
+            BlueButton.ToolTipText = "Blue";
+            BlueButton.Click += onColorButtonClick;
             // 
             // GreenButton
             // 
-            this.GreenButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.GreenButton.Image = global::CodeChum.Properties.Resources.green;
-            this.GreenButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.GreenButton.Margin = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.GreenButton.Name = "GreenButton";
-            this.GreenButton.Size = new System.Drawing.Size(27, 24);
-            this.GreenButton.Text = "toolStripButton3";
-            this.GreenButton.ToolTipText = "Green";
-            this.GreenButton.Click += new System.EventHandler(this.onColorButtonClick);
+            GreenButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            GreenButton.Image = Resources.green;
+            GreenButton.ImageTransparentColor = Color.Magenta;
+            GreenButton.Margin = new Padding(0, 5, 0, 2);
+            GreenButton.Name = "GreenButton";
+            GreenButton.Size = new Size(21, 4);
+            GreenButton.Text = "toolStripButton3";
+            GreenButton.ToolTipText = "Green";
+            GreenButton.Click += onColorButtonClick;
             // 
             // RedButton
             // 
-            this.RedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.RedButton.Image = global::CodeChum.Properties.Resources.red;
-            this.RedButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.RedButton.Margin = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.RedButton.Name = "RedButton";
-            this.RedButton.Size = new System.Drawing.Size(27, 24);
-            this.RedButton.Text = "toolStripButton4";
-            this.RedButton.ToolTipText = "Red";
-            this.RedButton.Click += new System.EventHandler(this.onColorButtonClick);
+            RedButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            RedButton.Image = Resources.red;
+            RedButton.ImageTransparentColor = Color.Magenta;
+            RedButton.Margin = new Padding(0, 5, 0, 2);
+            RedButton.Name = "RedButton";
+            RedButton.Size = new Size(21, 4);
+            RedButton.Text = "toolStripButton4";
+            RedButton.ToolTipText = "Red";
+            RedButton.Click += onColorButtonClick;
             // 
             // YellowButton
             // 
-            this.YellowButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.YellowButton.Image = global::CodeChum.Properties.Resources.yellow;
-            this.YellowButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.YellowButton.Margin = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.YellowButton.Name = "YellowButton";
-            this.YellowButton.Size = new System.Drawing.Size(27, 24);
-            this.YellowButton.Text = "toolStripButton5";
-            this.YellowButton.ToolTipText = "Yellow";
-            this.YellowButton.Click += new System.EventHandler(this.onColorButtonClick);
+            YellowButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            YellowButton.Image = Resources.yellow;
+            YellowButton.ImageTransparentColor = Color.Magenta;
+            YellowButton.Margin = new Padding(0, 5, 0, 2);
+            YellowButton.Name = "YellowButton";
+            YellowButton.Size = new Size(21, 4);
+            YellowButton.Text = "toolStripButton5";
+            YellowButton.ToolTipText = "Yellow";
+            YellowButton.Click += onColorButtonClick;
             // 
             // ToolStripTextEditor2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(921, 331);
-            this.Controls.Add(this.ColorToolStrip);
-            this.Controls.Add(this.MainRichTextBox);
-            this.Controls.Add(this.EditorToolStrip);
-            this.Name = "ToolStripTextEditor2";
-            this.Text = "Text Editor";
-            this.EditorToolStrip.ResumeLayout(false);
-            this.EditorToolStrip.PerformLayout();
-            this.ColorToolStrip.ResumeLayout(false);
-            this.ColorToolStrip.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(806, 248);
+            Controls.Add(ColorToolStrip);
+            Controls.Add(MainRichTextBox);
+            Controls.Add(EditorToolStrip);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "ToolStripTextEditor2";
+            Text = "Text Editor";
+            EditorToolStrip.ResumeLayout(false);
+            EditorToolStrip.PerformLayout();
+            ColorToolStrip.ResumeLayout(false);
+            ColorToolStrip.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
