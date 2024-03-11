@@ -20,10 +20,10 @@
         [Fact]
         public void ShouldHaveAllControlsForRegistrationFormApp()
         {
-            TestUtils.AssertNotNull(NameLabel, "No NameLabel found.");
-            TestUtils.AssertNotNull(EmailLabel, "No EmailLabel found.");
-            TestUtils.AssertNotNull(OpenRegistrationModalButton, "No OpenRegistrationModalButton found.");
-            TestUtils.AssertNotNull(form.RegisterModal, "No RegisterModal property found.");
+            Assert.NotNull(NameLabel);
+            Assert.NotNull(EmailLabel);
+            Assert.NotNull(OpenRegistrationModalButton);
+            Assert.NotNull(form.RegisterModal);
         }
 
         [Fact]
@@ -36,10 +36,10 @@
             RegisterButton = (Button)TestUtils.GetControlNamed(modal, "RegisterButton", true);
             CancelButton = (Button)TestUtils.GetControlNamed(modal, "CancelButton", true);
 
-            TestUtils.AssertNotNull(NameTextBox, "No NameTextBox found.");
-            TestUtils.AssertNotNull(EmailTextBox, "No EmailTextBox found.");
-            TestUtils.AssertNotNull(RegisterButton, "No RegisterButton found.");
-            TestUtils.AssertNotNull(CancelButton, "No CancelButton found.");
+            Assert.NotNull(NameTextBox);
+            Assert.NotNull(EmailTextBox);
+            Assert.NotNull(RegisterButton);
+            Assert.NotNull(CancelButton);
         }
 
         [Fact]
