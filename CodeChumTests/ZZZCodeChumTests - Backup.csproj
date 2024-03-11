@@ -34,6 +34,8 @@
     <ProjectReference Include="..\DateTimePicker\TaskSchedule\TaskSchedule.csproj" />
     <ProjectReference Include="..\EventHandlers\MysticMessenger\MysticMessenger.csproj" />
     <ProjectReference Include="..\Labels\Greetings\Greetings.csproj" />
+    <ProjectReference Include="..\ListboxAndComboBox\MovieCatalogue\MovieCatalogue.csproj" />
+    <ProjectReference Include="..\ListboxAndComboBox\TaskTracker\TaskTracker.csproj" />
     <ProjectReference Include="..\ListView\ContactManagement\ContactManagement.csproj" />
     <ProjectReference Include="..\ListView\StudentInfo\StudentInfo.csproj" />
     <ProjectReference Include="..\MainMenus\CopyPasteMenus\CopyPasteMenus.csproj" />
@@ -47,11 +49,9 @@
     <ProjectReference Include="..\Panels\VendingMachineApp\VendingMachineApp.csproj" />
     <ProjectReference Include="..\ProgressBars\DownloadManager\DownloadManager.csproj" />
     <ProjectReference Include="..\Splitters\BookInterface\BookInterface.csproj" />
-    <ProjectReference Include="..\Splitters\LayoutDesign\LayoutDesign.csproj" />
     <ProjectReference Include="..\StatusBars\TaskTrackerWithStatus\TaskTrackerWithStatus.csproj" />
     <ProjectReference Include="..\StatusBars\WeatherApp\WeatherApp.csproj" />
     <ProjectReference Include="..\TabControl\BookLibrary\BookLibrary.csproj" />
-    <ProjectReference Include="..\TabControl\PetDetectiveAgency\PetDetectiveAgency.csproj" />
     <ProjectReference Include="..\TextBoxControls\MessageDecoder\MessageDecoder.csproj" />
     <ProjectReference Include="..\TextBoxControls\ShoppingCart\ShoppingCart.csproj" />
     <ProjectReference Include="..\MonthCalendar\AdvancedPersonalCalendar\AdvancedPersonalCalendar.csproj" />
