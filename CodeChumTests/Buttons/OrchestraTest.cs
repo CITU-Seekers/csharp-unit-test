@@ -3,103 +3,89 @@
     public class OrchestraTest
     {
         Orchestra? form;
-        Label? lblMessage;
-        Button? btnViolins;
-        Button? btnCellos;
-        Button? btnTrumpets;
-        Button? btnDrums;
+        Label? messageLabel;
+        Button? violinButton;
+        Button? celloButton;
+        Button? trumpetButton;
+        Button? drumButton;
 
         public OrchestraTest()
         {
             form = new Orchestra();
-            form.Visible = true;
-            lblMessage = (Label) TestUtils.GetControlNamed(form, "lblMessage", true);
-            btnViolins = (Button) TestUtils.GetControlNamed(form, "btnViolins", true);
-            btnCellos = (Button) TestUtils.GetControlNamed(form, "btnCellos", true);
-            btnTrumpets = (Button) TestUtils.GetControlNamed(form, "btnTrumpets", true);
-            btnDrums = (Button) TestUtils.GetControlNamed(form, "btnDrums", true);
+            form.Show();
+            messageLabel = (Label)TestUtils.GetControlNamed(form, "messageLabel", true);
+            violinButton = (Button)TestUtils.GetControlNamed(form, "violinButton", true);
+            celloButton = (Button)TestUtils.GetControlNamed(form, "celloButton", true);
+            trumpetButton = (Button)TestUtils.GetControlNamed(form, "trumpetButton", true);
+            drumButton = (Button)TestUtils.GetControlNamed(form, "drumButton", true);
         }
 
         [Fact]
-        public void HasLabelMessage()
+        // Description: Should have all the controls `messageLabel`, `violinButton`, `celloButton`, `trumpetButton`, and `drumButton`.
+        public void ShouldHaveAllControls()
         {
-            Assert.NotNull(lblMessage);
+            Assert.NotNull(messageLabel);
+            Assert.NotNull(violinButton);
+            Assert.NotNull(celloButton);
+            Assert.NotNull(trumpetButton);
+            Assert.NotNull(drumButton);
         }
 
         [Fact]
-        public void HasButtonViolins()
+        // Description: Should display message "Violins are playing!" in `messageLabel` when the `violinButton` is clicked.
+        public void ShouldDisplayMessageWhenViolinButtonIsClicked()
         {
-            Assert.NotNull(btnViolins);
+            violinButton.PerformClick();
+            Assert.Equal("Violins are playing!", messageLabel.Text);
         }
 
         [Fact]
-        public void HasButtonCellos()
+        // Description: Should display message "Cellos are playing!" in `messageLabel` when the `celloButton` is clicked.
+        public void ShouldDisplayMessageWhenCelloButtonIsClicked()
         {
-            Assert.NotNull(btnCellos);
+            celloButton.PerformClick();
+            Assert.Equal("Cellos are playing!", messageLabel.Text);
         }
 
         [Fact]
-        public void HasButtonTrumpets()
+        // Description: Should display message "Trumpets are playing!" in `messageLabel` when the `trumpetButton` is clicked.
+        public void ShouldDisplayMessageWhenTrumpetButtonIsClicked()
         {
-            Assert.NotNull(btnTrumpets);
+            trumpetButton.PerformClick();
+            Assert.Equal("Trumpets are playing!", messageLabel.Text);
         }
 
         [Fact]
-        public void HasButtonDrums()
+        // Description: Should display message "Drums are playing!" in `messageLabel` when the `drumButton` is clicked.
+        public void ShouldDisplayMessageWhenDrumButtonIsClicked()
         {
-            Assert.NotNull(btnDrums);
+            drumButton.PerformClick();
+            Assert.Equal("Drums are playing!", messageLabel.Text);
         }
 
         [Fact]
-        public void ShouldDisplayMessageWhenViolinsButtonIsClicked()
-        {
-            btnViolins.PerformClick();
-            Assert.Equal("Violins are playing!", lblMessage.Text);
-        }
-
-        [Fact]
-        public void ShouldDisplayMessageWhenCellosButtonIsClicked()
-        {
-            btnCellos.PerformClick();
-            Assert.Equal("Cellos are playing!", lblMessage.Text);
-        }
-
-        [Fact]
-        public void ShouldDisplayMessageWhenTrumpetsButtonIsClicked()
-        {
-            btnTrumpets.PerformClick();
-            Assert.Equal("Trumpets are playing!", lblMessage.Text);
-        }
-
-        [Fact]
-        public void ShouldDisplayMessageWhenDrumsButtonIsClicked()
-        {
-            btnDrums.PerformClick();
-            Assert.Equal("Drums are playing!", lblMessage.Text);
-        }
-
-        [Fact]
+        // Description: Should display only one yellow button when all buttons are clicked.
         public void ShouldDisplayOnlyOneYellowButton()
         {
-            btnViolins.PerformClick();
-            btnCellos.PerformClick();
-            btnTrumpets.PerformClick();
-            btnDrums.PerformClick();
+            violinButton.PerformClick();
+            celloButton.PerformClick();
+            trumpetButton.PerformClick();
+            drumButton.PerformClick();
 
             int yellowCount = 0;
-            if (btnViolins.BackColor == System.Drawing.Color.Yellow)
+            if (violinButton.BackColor == System.Drawing.Color.Yellow)
             {
                 yellowCount++;
             }
-            if (btnCellos.BackColor == System.Drawing.Color.Yellow)
+            if (celloButton.BackColor == System.Drawing.Color.Yellow)
             {
                 yellowCount++;
             }
-            if (btnTrumpets.BackColor == System.Drawing.Color.Yellow)
+            if (trumpetButton.BackColor == System.Drawing.Color.Yellow)
             {
                 yellowCount++;
             }
-            if (btnDrums.BackColor == System.Drawing.Color.Yellow)
+            if (drumButton.BackColor == System.Drawing.Color.Yellow)
             {
                 yellowCount++;
             }

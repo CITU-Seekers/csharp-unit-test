@@ -3,72 +3,79 @@ using System.Drawing;
 
 namespace CodeChum.Tests
 {
-    public class PictureExplorerTest
+    public class PictureExplorerTest : IDisposable
     {
-        PictureExplorer? form;
-        Button? btnOpen;
-        PictureBox? PictureBox;
+        private PictureExplorer form;
+        private Button openButton;
+        private PictureBox pictureBox;
+        private string testImagePath;
 
         public PictureExplorerTest()
         {
             form = new PictureExplorer();
             form.Show();
-            btnOpen = (Button)TestUtils.GetControlNamed(form, "btnOpen", true);
-            PictureBox = (PictureBox)TestUtils.GetControlNamed(form, "PictureBox", true);
+            openButton = (Button)TestUtils.GetControlNamed(form, "openButton", true);
+            pictureBox = (PictureBox)TestUtils.GetControlNamed(form, "pictureBox", true);
+
+            testImagePath = CreateTestImagePath();
         }
 
-        public void createImageFile()
+        private string CreateTestImagePath()
         {
-            string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            string fileName = path + "\\sample_image.png";
+            // Create a unique temporary file for the test
+            string path = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName() + ".png");
+            CreateImageFile(path);
+            return path;
+        }
+
+        private void CreateImageFile(string filePath)
+        {
+            using (var bitmap = new Bitmap(100, 100))
+            {
+                using (var g = Graphics.FromImage(bitmap))
+                {
+                    g.Clear(Color.Red);
+                }
+                bitmap.Save(filePath, ImageFormat.Png);
+            }
+        }
+
+        [Fact]
+        // Description: Should have all controls `openButton` and `pictureBox`.
+        public void ShouldHaveAllControls()
+        {
+            Assert.NotNull(openButton);
+            Assert.NotNull(pictureBox);
+        }
+
+        [Fact]
+        // Description: Should open picture from the file system and display it in `pictureBox`.
+        public void ShouldOpenPicture()
+        {
+            form.OpenPicture(testImagePath);
+            Assert.NotNull(pictureBox.Image);
+        }
+
+        public void Dispose()
+        {
+            if (pictureBox.Image != null)
+            {
+                pictureBox.Image.Dispose();
+                pictureBox.Image = null;
+            }
+
+            // Force a garbage collection to release the file
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
 
             try
             {
-                if (File.Exists(fileName))
-                {
-                    File.Delete(fileName);
-                }
-
-                // Create a simple image (e.g., a white 100x100 pixel image)
-                using (Bitmap bitmap = new Bitmap(100, 100))
-                {
-                    using (Graphics g = Graphics.FromImage(bitmap))
-                    {
-                        g.Clear(Color.Red); // Filling the entire image with red color for simplicity
-                    }
-
-                    // Save the image to the specified file path
-                    bitmap.Save(fileName, ImageFormat.Png);
-                }
+                File.Delete(testImagePath);
             }
-            catch (Exception ex)
+            catch (IOException)
             {
-                Console.WriteLine(ex.ToString());
+                // Ignore exceptions
             }
-        }
-
-        [Fact]
-        public void ShouldHaveAllControls()
-        {
-            Assert.NotNull(btnOpen);
-            Assert.NotNull(PictureBox);
-        }
-
-        [Fact]
-        public void ShouldOpenPicture()
-        {
-            createImageFile();
-
-            string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            string fileName = path + "\\sample_image.png";
-
-            // Set the file name in the OpenFileDialog
-            form.OpenFileDialog.FileName = fileName;
-
-            btnOpen.PerformClick();
-
-            // Check if PictureBox contains the expected image
-            Assert.NotNull(PictureBox.Image);
         }
     }
 }

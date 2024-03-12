@@ -97,6 +97,7 @@ namespace CodeChum.Tests
 
             FontColorToolStripMenuItem?.PerformClick();
 
+
             Assert.Equal(Color.Red, RichTextBox1.ForeColor);
         }
 

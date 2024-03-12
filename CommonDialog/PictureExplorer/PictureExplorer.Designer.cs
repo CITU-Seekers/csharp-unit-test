@@ -28,46 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            PictureBox = new PictureBox();
-            btnOpen = new Button();
-            ((System.ComponentModel.ISupportInitialize)PictureBox).BeginInit();
+            pictureBox = new PictureBox();
+            openButton = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
             SuspendLayout();
             // 
-            // PictureBox
+            // pictureBox
             // 
-            PictureBox.Location = new Point(31, 119);
-            PictureBox.Name = "PictureBox";
-            PictureBox.Size = new Size(415, 216);
-            PictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            PictureBox.TabIndex = 0;
-            PictureBox.TabStop = false;
+            pictureBox.Location = new Point(31, 119);
+            pictureBox.Name = "pictureBox";
+            pictureBox.Size = new Size(415, 216);
+            pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox.TabIndex = 0;
+            pictureBox.TabStop = false;
             // 
-            // btnOpen
+            // openButton
             // 
-            btnOpen.Location = new Point(69, 68);
-            btnOpen.Name = "btnOpen";
-            btnOpen.Size = new Size(75, 23);
-            btnOpen.TabIndex = 1;
-            btnOpen.Text = "Open";
-            btnOpen.UseVisualStyleBackColor = true;
-            btnOpen.Click += btnOpen_Click;
+            openButton.Location = new Point(69, 68);
+            openButton.Name = "openButton";
+            openButton.Size = new Size(75, 23);
+            openButton.TabIndex = 1;
+            openButton.Text = "Open";
+            openButton.UseVisualStyleBackColor = true;
+            openButton.Click += btnOpen_Click;
             // 
             // PictureExplorer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(492, 390);
-            Controls.Add(btnOpen);
-            Controls.Add(PictureBox);
+            Controls.Add(openButton);
+            Controls.Add(pictureBox);
             Name = "PictureExplorer";
             Text = "PictureExplorer";
-            ((System.ComponentModel.ISupportInitialize)PictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox PictureBox;
-        private Button btnOpen;
+        private PictureBox pictureBox;
+        private Button openButton;
     }
 }

@@ -21,29 +21,29 @@ namespace CodeChum
             InitializeComponent();
 
             // Initialize correctSequence in the constructor
-            correctSequence = new Button[] { button2, button1, button3 };
+            correctSequence = new Button[] { sunButton, seaButton, starButton };
 
-            label4.Text = "Press the buttons in the correct order to open the portal.";
+            messageLabel.Text = "Press the buttons in the correct order to open the portal.";
 
             // Assign individual click events to each button
-            button1.Click += Button1_Click;
-            button2.Click += Button2_Click;
-            button3.Click += Button3_Click;
+            seaButton.Click += Button1_Click;
+            sunButton.Click += Button2_Click;
+            starButton.Click += Button3_Click;
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            CheckButtonSequence(button1);
+            CheckButtonSequence(seaButton);
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            CheckButtonSequence(button2);
+            CheckButtonSequence(sunButton);
         }
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            CheckButtonSequence(button3);
+            CheckButtonSequence(starButton);
         }
 
         private void CheckButtonSequence(Button clickedButton)
@@ -55,21 +55,21 @@ namespace CodeChum
                 // Display success message when all steps are completed
                 if (currentStep >= correctSequence.Length)
                 {
-                    label4.Text = "Congratulations! The portal is now open!";
+                    messageLabel.Text = "Congratulations! The portal is now open!";
                     // Optionally, you can add code to change the appearance of the portal.
                 }
                 else
                 {
                     // Update label to show current progress
                     currentStep++;
-                    label4.Text = $"Step {currentStep - 1} of {correctSequence.Length} completed. Keep going!";
+                    messageLabel.Text = $"Step {currentStep - 1} of {correctSequence.Length} completed. Keep going!";
                 }
             }
             else
             {
                 // Incorrect button pressed, reset the sequence
                 currentStep = 1;
-                label4.Text = "Incorrect step. Resetting sequence.";
+                messageLabel.Text = "Incorrect step. Resetting sequence.";
             }
         }
     }

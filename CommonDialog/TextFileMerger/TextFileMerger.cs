@@ -21,19 +21,8 @@ namespace CodeChum
             SaveFileDialog = new SaveFileDialog();
         }
 
-        private void btnMerge_Click(object sender, EventArgs e)
+        public void MergeFiles(string[] fileNames)
         {
-            OpenFileDialog.Multiselect = true;
-
-            //Select multiple files to merge
-            OpenFileDialog.ShowDialog();
-
-            //Get the file names
-            string[] fileNames = OpenFileDialog.FileNames;
-
-            //Get the number of files selected
-            lblFileNum.Text = "Files Merged: " + fileNames.Length.ToString();
-
             //Create a string to hold the contents of the files
             string contents = "";
 
@@ -49,7 +38,12 @@ namespace CodeChum
             }
 
             //Display the contents in the text box
-            TextBox.Text = contents;
+            resultRichTextBox.Text = contents;
+        }
+
+        private void btnMerge_Click(object sender, EventArgs e)
+        {
+            MergeFiles(OpenFileDialog.FileNames);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -64,7 +58,7 @@ namespace CodeChum
             System.IO.StreamWriter sw = new System.IO.StreamWriter(fileName);
 
             //Write the contents of the text box to the file
-            sw.Write(TextBox.Text);
+            sw.Write(resultRichTextBox.Text);
 
             //Close the file
             sw.Close();

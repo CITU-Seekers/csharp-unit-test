@@ -3,9 +3,9 @@
     public class PotionBrewingTest
     {
         PotionBrewing? form;
-        Label? lblDescription;
+        Label? descriptionLabel;
         TextBox? textBox1;
-        Button? btnConcoct;
+        Button? concoctButton;
         GroupBox? groupBox1, groupBox2, groupBox3;
         CheckBox? checkBox1, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6;
         RadioButton? radioButton1, radioButton2, radioButton3;
@@ -13,10 +13,10 @@
         public PotionBrewingTest()
         {
             form = new PotionBrewing();
-            form.Visible = true;
-            lblDescription = (Label)TestUtils.GetControlNamed(form, "lblDescription", true);
+            form.Show();
+            descriptionLabel = (Label)TestUtils.GetControlNamed(form, "descriptionLabel", true);
             textBox1 = (TextBox)TestUtils.GetControlNamed(form, "textBox1", true);
-            btnConcoct = (Button)TestUtils.GetControlNamed(form, "btnConcoct", true);
+            concoctButton = (Button)TestUtils.GetControlNamed(form, "concoctButton", true);
             groupBox1 = (GroupBox)TestUtils.GetControlNamed(form, "groupBox1", true);
             groupBox2 = (GroupBox)TestUtils.GetControlNamed(form, "groupBox2", true);
             groupBox3 = (GroupBox)TestUtils.GetControlNamed(form, "groupBox3", true);
@@ -32,11 +32,12 @@
         }
 
         [Fact]
+        // Description: Should have all controls `descriptionLabel`, `textBox1`, `concoctButton`, `groupBox1`, `groupBox2`, `groupBox3`, `checkBox1`, `checkBox2`, `checkBox3`, `checkBox4`, `checkBox5`, `checkBox6`, `radioButton1`, `radioButton2`, and `radioButton3`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(lblDescription);
+            Assert.NotNull(descriptionLabel);
             Assert.NotNull(textBox1);
-            Assert.NotNull(btnConcoct);
+            Assert.NotNull(concoctButton);
             Assert.NotNull(groupBox1);
             Assert.NotNull(groupBox2);
             Assert.NotNull(groupBox3);
@@ -52,49 +53,53 @@
         }
 
         [Fact]
+        // Description: Should display correct ingredients when `checkBox1`, `checkBox2`, and `checkBox3` are checked and `concoctButton` is clicked.
         public void ShouldDisplayCorrectBaseIngredients()
         {
             checkBox1.Checked = true;
             checkBox2.Checked = true;
             checkBox3.Checked = true;
 
-            btnConcoct.PerformClick();
+            concoctButton.PerformClick();
 
             Assert.Equal(" Base Ingredients: Dragon Scale, Moonlight Essence, Fairy Dust" +
                          "\n together with the enhancements: " +
                          "\n with the effect of: Unknown Effect" +
-                         "\n Potion name: ", lblDescription.Text);
+                         "\n Potion name: ", descriptionLabel.Text);
         }
 
         [Fact]
+        // Description: Should display correct enhancements when `checkBox4`, `checkBox5`, and `checkBox6` are checked and `concoctButton` is clicked.
         public void ShouldDisplayCorrectEnhancements()
         {
             checkBox4.Checked = true;
             checkBox5.Checked = true;
             checkBox6.Checked = true;
 
-            btnConcoct.PerformClick();
+            concoctButton.PerformClick();
 
             Assert.Equal(" Base Ingredients: " +
                          "\n together with the enhancements: Shadowy Secrets, Fae Favors, Whispers of Wonder" +
                          "\n with the effect of: Unknown Effect" +
-                         "\n Potion name: ", lblDescription.Text);
+                         "\n Potion name: ", descriptionLabel.Text);
         }
 
         [Fact]
+        // Description: Should display correct effect when `radioButton1` is checked and `concoctButton` is clicked.
         public void ShouldDisplayCorrectEffect()
         {
             radioButton1.Checked = true;
 
-            btnConcoct.PerformClick();
+            concoctButton.PerformClick();
 
             Assert.Equal(" Base Ingredients: " +
                          "\n together with the enhancements: " +
                          "\n with the effect of: Strengths" +
-                         "\n Potion name: ", lblDescription.Text);
+                         "\n Potion name: ", descriptionLabel.Text);
         }
 
         [Fact]
+        // Description: Should display correct potion name when `textBox1` is set to "Potion of Wonder", `checkBox1`, `checkBox2`, `checkBox3`, `checkBox4`, `checkBox5`, `checkBox6`, and `radioButton1` are checked and `concoctButton` is clicked.
         public void ShouldDisplayCorrectPotionDescription()
         {
             checkBox1.Checked = true;
@@ -106,12 +111,12 @@
             radioButton1.Checked = true;
             textBox1.Text = "Potion of Wonder";
 
-            btnConcoct.PerformClick();
+            concoctButton.PerformClick();
 
             Assert.Equal(" Base Ingredients: Dragon Scale, Moonlight Essence, Fairy Dust" +
                          "\n together with the enhancements: Shadowy Secrets, Fae Favors, Whispers of Wonder" +
                          "\n with the effect of: Strengths" +
-                         "\n Potion name: Potion of Wonder", lblDescription.Text);
+                         "\n Potion name: Potion of Wonder", descriptionLabel.Text);
         }
 
     }

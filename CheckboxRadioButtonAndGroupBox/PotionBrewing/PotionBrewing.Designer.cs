@@ -42,9 +42,9 @@
             groupBox3 = new GroupBox();
             textBox1 = new TextBox();
             label1 = new Label();
-            btnConcoct = new Button();
+            concoctButton = new Button();
             label2 = new Label();
-            lblDescription = new Label();
+            descriptionLabel = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -205,16 +205,16 @@
             label1.TabIndex = 8;
             label1.Text = "Potion Name:";
             // 
-            // btnConcoct
+            // concoctButton
             // 
-            btnConcoct.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnConcoct.Location = new Point(352, 346);
-            btnConcoct.Name = "btnConcoct";
-            btnConcoct.Size = new Size(89, 34);
-            btnConcoct.TabIndex = 10;
-            btnConcoct.Text = "Concoct";
-            btnConcoct.UseVisualStyleBackColor = true;
-            btnConcoct.Click += btnConcoct_Click;
+            concoctButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            concoctButton.Location = new Point(352, 346);
+            concoctButton.Name = "concoctButton";
+            concoctButton.Size = new Size(89, 34);
+            concoctButton.TabIndex = 10;
+            concoctButton.Text = "Concoct";
+            concoctButton.UseVisualStyleBackColor = true;
+            concoctButton.Click += btnConcoct_Click;
             // 
             // label2
             // 
@@ -226,23 +226,23 @@
             label2.TabIndex = 11;
             label2.Text = "Your Potion Description:";
             // 
-            // lblDescription
+            // labelDescription
             // 
-            lblDescription.AutoSize = true;
-            lblDescription.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblDescription.Location = new Point(199, 455);
-            lblDescription.Name = "lblDescription";
-            lblDescription.Size = new Size(0, 20);
-            lblDescription.TabIndex = 12;
+            descriptionLabel.AutoSize = true;
+            descriptionLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            descriptionLabel.Location = new Point(199, 455);
+            descriptionLabel.Name = "descriptionLabel";
+            descriptionLabel.Size = new Size(0, 20);
+            descriptionLabel.TabIndex = 12;
             // 
             // PotionBrewing
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 606);
-            Controls.Add(lblDescription);
+            Controls.Add(descriptionLabel);
             Controls.Add(label2);
-            Controls.Add(btnConcoct);
+            Controls.Add(concoctButton);
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(groupBox3);
@@ -269,9 +269,9 @@
         private GroupBox groupBox3;
         private TextBox textBox1;
         private Label label1;
-        private Button btnConcoct;
+        private Button concoctButton;
         private Label label2;
-        private Label lblDescription;
+        private Label descriptionLabel;
         private CheckBox checkBox1;
         private CheckBox checkBox3;
         private CheckBox checkBox2;
