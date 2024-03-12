@@ -1,6 +1,6 @@
 ﻿namespace CodeChum
 {
-    public class MessageBoxWrapper
+    public class MessageBoxWrapper2
     {
         public static bool IsOpened { get; set; }
         public static string Title { get; set; }

@@ -29,9 +29,9 @@
         [Fact]
         public void ShouldHaveAllControls()
         {
-            TestUtils.AssertNotNull(RegistrationButton, "No RegistrationButton found.");
-            TestUtils.AssertNotNull(CheckerButton, "No CheckerButton found.");
-            TestUtils.AssertNotNull(ExitButton, "No ExitButton found.");
+            Assert.NotNull(RegistrationButton);
+            Assert.NotNull(CheckerButton);
+            Assert.NotNull(ExitButton);
         }
 
         [Fact]
@@ -44,9 +44,9 @@
             CheckButton = (Button)TestUtils.GetControlNamed(checkerModal, "CheckButton", true);
             AttendanceCheckerFormCancelButton = (Button)TestUtils.GetControlNamed(checkerModal, "CancelButton", true);
 
-            TestUtils.AssertNotNull(AttendanceCheckerFormIdTextBox, "No IdTextBox found in AttendanceCheckerForm.");
-            TestUtils.AssertNotNull(CheckButton, "No CheckButton found in AttendanceCheckerForm.");
-            TestUtils.AssertNotNull(AttendanceCheckerFormCancelButton, "No CancelButton found in AttendanceCheckerForm.");
+            Assert.NotNull(AttendanceCheckerFormIdTextBox);
+            Assert.NotNull(CheckButton);
+            Assert.NotNull(AttendanceCheckerFormCancelButton);
         }
 
         [Fact]
@@ -60,10 +60,10 @@
             RegisterButton = (Button)TestUtils.GetControlNamed(registrationModal, "RegisterButton", true);
             EmployeeRegistrationFormCancelButton = (Button)TestUtils.GetControlNamed(registrationModal, "CancelButton", true);
 
-            TestUtils.AssertNotNull(EmployeeRegistrationFormIdTextBox, "No IdTextBox found in EmployeeRegistrationForm.");
-            TestUtils.AssertNotNull(NameTextBox, "No NameTextBox found in EmployeeRegistrationForm.");
-            TestUtils.AssertNotNull(RegisterButton, "No RegisterButton found in EmployeeRegistrationForm.");
-            TestUtils.AssertNotNull(EmployeeRegistrationFormCancelButton, "No CancelButton found in EmployeeRegistrationForm.");
+            Assert.NotNull(EmployeeRegistrationFormIdTextBox);
+            Assert.NotNull(NameTextBox);
+            Assert.NotNull(RegisterButton);
+            Assert.NotNull(EmployeeRegistrationFormCancelButton);
         }
 
         [Fact]
