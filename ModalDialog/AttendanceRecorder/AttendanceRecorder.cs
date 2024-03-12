@@ -24,9 +24,9 @@ namespace CodeChum
         private void onButtonClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            if (button.Name.Equals("RegistrationButton"))
+            if (button.Name.Equals("registrationButton"))
                 this.EmployeeRegistrationForm.ShowDialog();
-            else if (button.Name.Equals("CheckerButton"))
+            else if (button.Name.Equals("checkerButton"))
                 this.AttendanceCheckerForm.ShowDialog();
             else
                 this.Close();

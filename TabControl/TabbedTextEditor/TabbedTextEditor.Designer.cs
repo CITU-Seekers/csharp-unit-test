@@ -28,87 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.EditorTabControl = new System.Windows.Forms.TabControl();
-            this.MainTabPage = new System.Windows.Forms.TabPage();
-            this.MainRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.FileNameTextBox = new System.Windows.Forms.TextBox();
-            this.AddButton = new System.Windows.Forms.Button();
-            this.DeleteButton = new System.Windows.Forms.Button();
-            this.EditorTabControl.SuspendLayout();
-            this.MainTabPage.SuspendLayout();
+            this.editorTabControl = new System.Windows.Forms.TabControl();
+            this.mainTabPage = new System.Windows.Forms.TabPage();
+            this.mainRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.fileNameTextBox = new System.Windows.Forms.TextBox();
+            this.addButton = new System.Windows.Forms.Button();
+            this.deleteButton = new System.Windows.Forms.Button();
+            this.editorTabControl.SuspendLayout();
+            this.mainTabPage.SuspendLayout();
             this.SuspendLayout();
             // 
-            // EditorTabControl
+            // editorTabControl
             // 
-            this.EditorTabControl.Controls.Add(this.MainTabPage);
-            this.EditorTabControl.Location = new System.Drawing.Point(3, 1);
-            this.EditorTabControl.Name = "EditorTabControl";
-            this.EditorTabControl.SelectedIndex = 0;
-            this.EditorTabControl.Size = new System.Drawing.Size(708, 306);
-            this.EditorTabControl.TabIndex = 0;
-            this.EditorTabControl.SelectedIndexChanged += new System.EventHandler(this.EditorTabControl_SelectedIndexChanged);
+            this.editorTabControl.Controls.Add(this.mainTabPage);
+            this.editorTabControl.Location = new System.Drawing.Point(3, 1);
+            this.editorTabControl.Name = "editorTabControl";
+            this.editorTabControl.SelectedIndex = 0;
+            this.editorTabControl.Size = new System.Drawing.Size(708, 306);
+            this.editorTabControl.TabIndex = 0;
+            this.editorTabControl.SelectedIndexChanged += new System.EventHandler(this.EditorTabControl_SelectedIndexChanged);
             // 
-            // MainTabPage
+            // mainTabPage
             // 
-            this.MainTabPage.Controls.Add(this.MainRichTextBox);
-            this.MainTabPage.Location = new System.Drawing.Point(4, 29);
-            this.MainTabPage.Name = "MainTabPage";
-            this.MainTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.MainTabPage.Size = new System.Drawing.Size(700, 273);
-            this.MainTabPage.TabIndex = 0;
-            this.MainTabPage.Text = "Main";
-            this.MainTabPage.UseVisualStyleBackColor = true;
+            this.mainTabPage.Controls.Add(this.mainRichTextBox);
+            this.mainTabPage.Location = new System.Drawing.Point(4, 29);
+            this.mainTabPage.Name = "mainTabPage";
+            this.mainTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.mainTabPage.Size = new System.Drawing.Size(700, 273);
+            this.mainTabPage.TabIndex = 0;
+            this.mainTabPage.Text = "Main";
+            this.mainTabPage.UseVisualStyleBackColor = true;
             // 
-            // MainRichTextBox
+            // mainRichTextBox
             // 
-            this.MainRichTextBox.Location = new System.Drawing.Point(29, 38);
-            this.MainRichTextBox.Name = "MainRichTextBox";
-            this.MainRichTextBox.Size = new System.Drawing.Size(641, 188);
-            this.MainRichTextBox.TabIndex = 0;
-            this.MainRichTextBox.Text = "";
+            this.mainRichTextBox.Location = new System.Drawing.Point(29, 38);
+            this.mainRichTextBox.Name = "mainRichTextBox";
+            this.mainRichTextBox.Size = new System.Drawing.Size(641, 188);
+            this.mainRichTextBox.TabIndex = 0;
+            this.mainRichTextBox.Text = "";
             // 
-            // FileNameTextBox
+            // fileNameTextBox
             // 
-            this.FileNameTextBox.Location = new System.Drawing.Point(36, 312);
-            this.FileNameTextBox.Name = "FileNameTextBox";
-            this.FileNameTextBox.PlaceholderText = "File Name";
-            this.FileNameTextBox.Size = new System.Drawing.Size(221, 27);
-            this.FileNameTextBox.TabIndex = 1;
+            this.fileNameTextBox.Location = new System.Drawing.Point(36, 312);
+            this.fileNameTextBox.Name = "fileNameTextBox";
+            this.fileNameTextBox.PlaceholderText = "File Name";
+            this.fileNameTextBox.Size = new System.Drawing.Size(221, 27);
+            this.fileNameTextBox.TabIndex = 1;
             // 
-            // AddButton
+            // addButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(261, 312);
-            this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(84, 25);
-            this.AddButton.TabIndex = 2;
-            this.AddButton.Text = "Add Tab";
-            this.AddButton.UseVisualStyleBackColor = true;
-            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
+            this.addButton.Location = new System.Drawing.Point(261, 312);
+            this.addButton.Name = "addButton";
+            this.addButton.Size = new System.Drawing.Size(84, 25);
+            this.addButton.TabIndex = 2;
+            this.addButton.Text = "Add Tab";
+            this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
-            // DeleteButton
+            // deleteButton
             // 
-            this.DeleteButton.Enabled = false;
-            this.DeleteButton.Location = new System.Drawing.Point(350, 313);
-            this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(104, 25);
-            this.DeleteButton.TabIndex = 3;
-            this.DeleteButton.Text = "Delete Tab";
-            this.DeleteButton.UseVisualStyleBackColor = true;
-            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
+            this.deleteButton.Enabled = false;
+            this.deleteButton.Location = new System.Drawing.Point(350, 313);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(104, 25);
+            this.deleteButton.TabIndex = 3;
+            this.deleteButton.Text = "Delete Tab";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
             // 
             // TabbedTextEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 391);
-            this.Controls.Add(this.DeleteButton);
-            this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.FileNameTextBox);
-            this.Controls.Add(this.EditorTabControl);
+            this.Controls.Add(this.deleteButton);
+            this.Controls.Add(this.addButton);
+            this.Controls.Add(this.fileNameTextBox);
+            this.Controls.Add(this.editorTabControl);
             this.Name = "TabbedTextEditor";
             this.Text = "Tabbed Text Editor";
-            this.EditorTabControl.ResumeLayout(false);
-            this.MainTabPage.ResumeLayout(false);
+            this.editorTabControl.ResumeLayout(false);
+            this.mainTabPage.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,11 +116,11 @@
 
         #endregion
 
-        private TabControl EditorTabControl;
-        private TabPage MainTabPage;
-        private RichTextBox MainRichTextBox;
-        private TextBox FileNameTextBox;
-        private Button AddButton;
-        private Button DeleteButton;
+        private TabControl editorTabControl;
+        private TabPage mainTabPage;
+        private RichTextBox mainRichTextBox;
+        private TextBox fileNameTextBox;
+        private Button addButton;
+        private Button deleteButton;
     }
 }

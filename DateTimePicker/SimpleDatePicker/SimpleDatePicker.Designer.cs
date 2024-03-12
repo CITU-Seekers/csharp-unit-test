@@ -28,54 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.DateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.DateLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            exactDateTimePicker = new DateTimePicker();
+            dateLabel = new Label();
+            SuspendLayout();
             // 
-            // DateTimePicker
+            // exactDateTimePicker
             // 
-            this.DateTimePicker.Location = new System.Drawing.Point(29, 30);
-            this.DateTimePicker.Name = "DateTimePicker";
-            this.DateTimePicker.Size = new System.Drawing.Size(283, 27);
-            this.DateTimePicker.TabIndex = 0;
-            this.DateTimePicker.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
+            exactDateTimePicker.Location = new Point(25, 22);
+            exactDateTimePicker.Margin = new Padding(3, 2, 3, 2);
+            exactDateTimePicker.Name = "exactDateTimePicker";
+            exactDateTimePicker.Size = new Size(248, 23);
+            exactDateTimePicker.TabIndex = 0;
+            exactDateTimePicker.ValueChanged += DateTimePicker_ValueChanged;
             // 
-            // DateLabel
+            // dateLabel
             // 
-            this.DateLabel.Location = new System.Drawing.Point(29, 69);
-            this.DateLabel.Name = "DateLabel";
-            this.DateLabel.Size = new System.Drawing.Size(283, 29);
-            this.DateLabel.TabIndex = 1;
-            this.DateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(156, 168);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            dateLabel.Location = new Point(25, 52);
+            dateLabel.Name = "dateLabel";
+            dateLabel.Size = new Size(248, 22);
+            dateLabel.TabIndex = 1;
+            dateLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SimpleDatePicker
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 215);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.DateLabel);
-            this.Controls.Add(this.DateTimePicker);
-            this.Name = "SimpleDatePicker";
-            this.Text = "Simple Date Picker";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(296, 161);
+            Controls.Add(dateLabel);
+            Controls.Add(exactDateTimePicker);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "SimpleDatePicker";
+            Text = "Simple Date Picker";
+            ResumeLayout(false);
         }
 
         #endregion
 
-        private DateTimePicker DateTimePicker;
-        private Label DateLabel;
-        private Button button1;
+        private DateTimePicker exactDateTimePicker;
+        private Label dateLabel;
     }
 }

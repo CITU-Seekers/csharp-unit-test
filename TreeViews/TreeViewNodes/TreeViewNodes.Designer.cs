@@ -28,67 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainTreeView = new System.Windows.Forms.TreeView();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.MainNodeCheckBox = new System.Windows.Forms.CheckBox();
-            this.AddNodeButton = new System.Windows.Forms.Button();
-            this.RemoveNodeButton = new System.Windows.Forms.Button();
+            this.mainTreeView = new System.Windows.Forms.TreeView();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.mainNodeCheckBox = new System.Windows.Forms.CheckBox();
+            this.addNodeButton = new System.Windows.Forms.Button();
+            this.removeNodeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // MainTreeView
+            // mainTreeView
             // 
-            this.MainTreeView.Location = new System.Drawing.Point(26, 30);
-            this.MainTreeView.Name = "MainTreeView";
-            this.MainTreeView.Size = new System.Drawing.Size(262, 249);
-            this.MainTreeView.TabIndex = 0;
+            this.mainTreeView.Location = new System.Drawing.Point(26, 30);
+            this.mainTreeView.Name = "mainTreeView";
+            this.mainTreeView.Size = new System.Drawing.Size(262, 249);
+            this.mainTreeView.TabIndex = 0;
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(323, 91);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.PlaceholderText = "Node Name";
-            this.NameTextBox.Size = new System.Drawing.Size(185, 27);
-            this.NameTextBox.TabIndex = 1;
+            this.nameTextBox.Location = new System.Drawing.Point(323, 91);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.PlaceholderText = "Node Name";
+            this.nameTextBox.Size = new System.Drawing.Size(185, 27);
+            this.nameTextBox.TabIndex = 1;
             // 
-            // MainNodeCheckBox
+            // mainNodeCheckBox
             // 
-            this.MainNodeCheckBox.Location = new System.Drawing.Point(323, 138);
-            this.MainNodeCheckBox.Name = "MainNodeCheckBox";
-            this.MainNodeCheckBox.Size = new System.Drawing.Size(184, 30);
-            this.MainNodeCheckBox.TabIndex = 2;
-            this.MainNodeCheckBox.Text = "Create Node at Top?";
-            this.MainNodeCheckBox.UseVisualStyleBackColor = true;
+            this.mainNodeCheckBox.Location = new System.Drawing.Point(323, 138);
+            this.mainNodeCheckBox.Name = "mainNodeCheckBox";
+            this.mainNodeCheckBox.Size = new System.Drawing.Size(184, 30);
+            this.mainNodeCheckBox.TabIndex = 2;
+            this.mainNodeCheckBox.Text = "Create Node at Top?";
+            this.mainNodeCheckBox.UseVisualStyleBackColor = true;
             // 
-            // AddNodeButton
+            // addNodeButton
             // 
-            this.AddNodeButton.Location = new System.Drawing.Point(323, 183);
-            this.AddNodeButton.Name = "AddNodeButton";
-            this.AddNodeButton.Size = new System.Drawing.Size(84, 37);
-            this.AddNodeButton.TabIndex = 3;
-            this.AddNodeButton.Text = "Add";
-            this.AddNodeButton.UseVisualStyleBackColor = true;
-            this.AddNodeButton.Click += new System.EventHandler(this.AddNodeButton_Click);
+            this.addNodeButton.Location = new System.Drawing.Point(323, 183);
+            this.addNodeButton.Name = "addNodeButton";
+            this.addNodeButton.Size = new System.Drawing.Size(84, 37);
+            this.addNodeButton.TabIndex = 3;
+            this.addNodeButton.Text = "Add";
+            this.addNodeButton.UseVisualStyleBackColor = true;
+            this.addNodeButton.Click += new System.EventHandler(this.AddNodeButton_Click);
             // 
-            // RemoveNodeButton
+            // removeNodeButton
             // 
-            this.RemoveNodeButton.Location = new System.Drawing.Point(423, 183);
-            this.RemoveNodeButton.Name = "RemoveNodeButton";
-            this.RemoveNodeButton.Size = new System.Drawing.Size(84, 37);
-            this.RemoveNodeButton.TabIndex = 4;
-            this.RemoveNodeButton.Text = "Remove";
-            this.RemoveNodeButton.UseVisualStyleBackColor = true;
-            this.RemoveNodeButton.Click += new System.EventHandler(this.RemoveNodeButton_Click);
+            this.removeNodeButton.Location = new System.Drawing.Point(423, 183);
+            this.removeNodeButton.Name = "removeNodeButton";
+            this.removeNodeButton.Size = new System.Drawing.Size(84, 37);
+            this.removeNodeButton.TabIndex = 4;
+            this.removeNodeButton.Text = "Remove";
+            this.removeNodeButton.UseVisualStyleBackColor = true;
+            this.removeNodeButton.Click += new System.EventHandler(this.RemoveNodeButton_Click);
             // 
             // TreeViewNodes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 302);
-            this.Controls.Add(this.RemoveNodeButton);
-            this.Controls.Add(this.AddNodeButton);
-            this.Controls.Add(this.MainNodeCheckBox);
-            this.Controls.Add(this.NameTextBox);
-            this.Controls.Add(this.MainTreeView);
+            this.Controls.Add(this.removeNodeButton);
+            this.Controls.Add(this.addNodeButton);
+            this.Controls.Add(this.mainNodeCheckBox);
+            this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.mainTreeView);
             this.Name = "TreeViewNodes";
             this.Text = "Tree View Nodes";
             this.ResumeLayout(false);
@@ -98,10 +98,10 @@
 
         #endregion
 
-        private TreeView MainTreeView;
-        private TextBox NameTextBox;
-        private CheckBox MainNodeCheckBox;
-        private Button AddNodeButton;
-        private Button RemoveNodeButton;
+        private TreeView mainTreeView;
+        private TextBox nameTextBox;
+        private CheckBox mainNodeCheckBox;
+        private Button addNodeButton;
+        private Button removeNodeButton;
     }
 }

@@ -3,33 +3,33 @@
     public class NumberDisplayTests
     {
         NumberDisplay? form;
-        NumericUpDown? NumericUpDown;
-        TextBox? IncrementTextBox;
+        NumericUpDown? intervalNumericUpDown;
+        TextBox? incrementTextBox;
 
         public NumberDisplayTests()
         {
             form = new NumberDisplay();
-            NumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "NumericControl", true);
-            IncrementTextBox = (TextBox)TestUtils.GetControlNamed(form, "IncrementTextBox", true);
+            intervalNumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "intervalNumericUpDown", true);
+            incrementTextBox = (TextBox)TestUtils.GetControlNamed(form, "incrementTextBox", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(NumericUpDown);
-            Assert.NotNull(IncrementTextBox);
+            Assert.NotNull(intervalNumericUpDown);
+            Assert.NotNull(incrementTextBox);
         }
 
         [Fact]
         public void ShouldChangeIncrementOnTextChange()
         {
             string number = "20";
-            IncrementTextBox.Text = number;
-            NumericUpDown.Value = 0;
+            incrementTextBox.Text = number;
+            intervalNumericUpDown.Value = 0;
 
-            NumericUpDown.UpButton();
+            intervalNumericUpDown.UpButton();
 
-            Assert.Equal(Convert.ToInt32(number), (int)(NumericUpDown.Value));
+            Assert.Equal(Convert.ToInt32(number), (int)(intervalNumericUpDown.Value));
         }
 
     }

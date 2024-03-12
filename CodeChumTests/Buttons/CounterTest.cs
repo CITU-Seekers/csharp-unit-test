@@ -3,39 +3,39 @@
     public class CounterTests
     {
         Counter? form;
-        Label? CounterLabel;
-        Button? CounterButton;
+        Label? counterLabel;
+        Button? counterButton;
 
         public CounterTests()
         {
             form = new Counter();
             form.Show();
-            CounterLabel = (Label)TestUtils.GetControlNamed(form, "CounterLabel", true);
-            CounterButton = (Button)TestUtils.GetControlNamed(form, "CounterButton", true);
+            counterLabel = (Label)TestUtils.GetControlNamed(form, "counterLabel", true);
+            counterButton = (Button)TestUtils.GetControlNamed(form, "counterButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(CounterLabel);
-            Assert.NotNull(CounterButton);
+            Assert.NotNull(counterLabel);
+            Assert.NotNull(counterButton);
         }
 
         [Fact]
         public void ShouldHaveCorrectDefaultValue()
         {
-            Assert.Equal("0", CounterLabel.Text);
+            Assert.Equal("0", counterLabel.Text);
         }
 
         [Fact]
         public void ShouldIncrementOnClickCounterButton()
         {
-            CounterLabel.Text = "5";
+            counterLabel.Text = "5";
             string expected = "6";
 
-            CounterButton.PerformClick();
+            counterButton.PerformClick();
 
-            Assert.Equal(expected, CounterLabel.Text);
+            Assert.Equal(expected, counterLabel.Text);
         }
     }
 }

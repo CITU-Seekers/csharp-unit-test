@@ -5,100 +5,100 @@ namespace CodeChum.Tests
     public class CascadeMenuActivityTests
     {
         CascadeMenuActivity? form;
-        MenuStrip? MainMenuStrip;
-        ToolStripMenuItem? FileMenuItem, NewMenuItem, OpenMenuItem, SaveMenuItem,
-            ExitMenuItem, FormatMenuItem, FontColorMenuItem, RedMenuItem, GreenMenuItem,
-            BlueMenuItem;
-        Label? StatusLabel;
+        MenuStrip? mainMenuStrip;
+        ToolStripMenuItem? fileMenuItem, newMenuItem, openMenuItem, saveMenuItem,
+            exitMenuItem, formatMenuItem, fontColorMenuItem, redMenuItem, greenMenuItem,
+            blueMenuItem;
+        Label? statusLabel;
 
         public CascadeMenuActivityTests()
         {
             form = new CascadeMenuActivity();
             form.Show();
 
-            MainMenuStrip = (MenuStrip)TestUtils.GetControlNamed(form, "MainMenuStrip", true);
-            StatusLabel = (Label)TestUtils.GetControlNamed(form, "StatusLabel", true);
+            mainMenuStrip = (MenuStrip)TestUtils.GetControlNamed(form, "mainMenuStrip", true);
+            statusLabel = (Label)TestUtils.GetControlNamed(form, "statusLabel", true);
         }
 
         [Fact]
         public void ShouldHaveMainMenuStripAndLabel()
         {
-            Assert.NotNull(MainMenuStrip);
-            Assert.NotNull(StatusLabel);
+            Assert.NotNull(mainMenuStrip);
+            Assert.NotNull(statusLabel);
         }
 
         [Fact]
         public void ShouldHaveFileMenuItemAndItsMenuItems()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            NewMenuItem = FileMenuItem.DropDownItems["NewMenuItem"] as ToolStripMenuItem;
-            OpenMenuItem = FileMenuItem.DropDownItems["OpenMenuItem"] as ToolStripMenuItem;
-            SaveMenuItem = FileMenuItem.DropDownItems["SaveMenuItem"] as ToolStripMenuItem;
-            ExitMenuItem = FileMenuItem.DropDownItems["ExitMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            newMenuItem = fileMenuItem.DropDownItems["newMenuItem"] as ToolStripMenuItem;
+            openMenuItem = fileMenuItem.DropDownItems["openMenuItem"] as ToolStripMenuItem;
+            saveMenuItem = fileMenuItem.DropDownItems["saveMenuItem"] as ToolStripMenuItem;
+            exitMenuItem = fileMenuItem.DropDownItems["exitMenuItem"] as ToolStripMenuItem;
 
-            Assert.NotNull(FileMenuItem);
-            Assert.NotNull(NewMenuItem);
-            Assert.NotNull(OpenMenuItem);
-            Assert.NotNull(SaveMenuItem);
-            Assert.NotNull(ExitMenuItem);
+            Assert.NotNull(fileMenuItem);
+            Assert.NotNull(newMenuItem);
+            Assert.NotNull(openMenuItem);
+            Assert.NotNull(saveMenuItem);
+            Assert.NotNull(exitMenuItem);
         }
 
         [Fact]
         public void ShouldHaveFormatMenuItemAndItsMenuItems()
         {
-            FormatMenuItem = MainMenuStrip.Items["FormatMenuItem"] as ToolStripMenuItem;
-            FontColorMenuItem = FormatMenuItem.DropDownItems["FontColorMenuItem"] as ToolStripMenuItem;
-            RedMenuItem = FontColorMenuItem.DropDownItems["RedMenuItem"] as ToolStripMenuItem;
-            GreenMenuItem = FontColorMenuItem.DropDownItems["GreenMenuItem"] as ToolStripMenuItem;
-            BlueMenuItem = FontColorMenuItem.DropDownItems["BlueMenuItem"] as ToolStripMenuItem;
+            formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
+            fontColorMenuItem = formatMenuItem.DropDownItems["fontColorMenuItem"] as ToolStripMenuItem;
+            redMenuItem = fontColorMenuItem.DropDownItems["redMenuItem"] as ToolStripMenuItem;
+            greenMenuItem = fontColorMenuItem.DropDownItems["greenMenuItem"] as ToolStripMenuItem;
+            blueMenuItem = fontColorMenuItem.DropDownItems["blueMenuItem"] as ToolStripMenuItem;
 
-            Assert.NotNull(FormatMenuItem);
-            Assert.NotNull(FontColorMenuItem);
-            Assert.NotNull(RedMenuItem);
-            Assert.NotNull(GreenMenuItem);
-            Assert.NotNull(BlueMenuItem);
+            Assert.NotNull(formatMenuItem);
+            Assert.NotNull(fontColorMenuItem);
+            Assert.NotNull(redMenuItem);
+            Assert.NotNull(greenMenuItem);
+            Assert.NotNull(blueMenuItem);
         }
 
         [Fact]
         public void ShouldDisplayCorrectMessageOnNewMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            NewMenuItem = FileMenuItem.DropDownItems["NewMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            newMenuItem = fileMenuItem.DropDownItems["newMenuItem"] as ToolStripMenuItem;
 
-            NewMenuItem.PerformClick();
+            newMenuItem.PerformClick();
 
-            Assert.Equal("Creating new file...", StatusLabel.Text);
+            Assert.Equal("Creating new file...", statusLabel.Text);
         }
 
         [Fact]
         public void ShouldDisplayCorrectMessageOnOpenMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            OpenMenuItem = FileMenuItem.DropDownItems["OpenMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            openMenuItem = fileMenuItem.DropDownItems["openMenuItem"] as ToolStripMenuItem;
 
-            OpenMenuItem.PerformClick();
+            openMenuItem.PerformClick();
 
-            Assert.Equal("Opening file...", StatusLabel.Text);
+            Assert.Equal("Opening file...", statusLabel.Text);
         }
 
         [Fact]
         public void ShouldDisplayCorrectMessageOnSaveMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            SaveMenuItem = FileMenuItem.DropDownItems["SaveMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            saveMenuItem = fileMenuItem.DropDownItems["saveMenuItem"] as ToolStripMenuItem;
 
-            SaveMenuItem.PerformClick();
+            saveMenuItem.PerformClick();
 
-            Assert.Equal("Saving file...", StatusLabel.Text);
+            Assert.Equal("Saving file...", statusLabel.Text);
         }
 
         [Fact]
         public void ShouldExitOnExitMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            ExitMenuItem = FileMenuItem.DropDownItems["ExitMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            exitMenuItem = fileMenuItem.DropDownItems["exitMenuItem"] as ToolStripMenuItem;
 
-            ExitMenuItem.PerformClick();
+            exitMenuItem.PerformClick();
 
             Assert.False(form.Visible, "The form should close when 'Exit' is clicked.");
         }
@@ -106,37 +106,37 @@ namespace CodeChum.Tests
         [Fact]
         public void ShouldChangeColorOnRedMenuClick()
         {
-            FormatMenuItem = MainMenuStrip.Items["FormatMenuItem"] as ToolStripMenuItem;
-            FontColorMenuItem = FormatMenuItem.DropDownItems["FontColorMenuItem"] as ToolStripMenuItem;
-            RedMenuItem = FontColorMenuItem.DropDownItems["RedMenuItem"] as ToolStripMenuItem;
+            formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
+            fontColorMenuItem = formatMenuItem.DropDownItems["fontColorMenuItem"] as ToolStripMenuItem;
+            redMenuItem = fontColorMenuItem.DropDownItems["redMenuItem"] as ToolStripMenuItem;
 
-            RedMenuItem.PerformClick();
+            redMenuItem.PerformClick();
 
-            Assert.Equal(Color.Red, StatusLabel.ForeColor);
+            Assert.Equal(Color.Red, statusLabel.ForeColor);
         }
 
         [Fact]
         public void ShouldChangeColorOnGreenMenuClick()
         {
-            FormatMenuItem = MainMenuStrip.Items["FormatMenuItem"] as ToolStripMenuItem;
-            FontColorMenuItem = FormatMenuItem.DropDownItems["FontColorMenuItem"] as ToolStripMenuItem;
-            GreenMenuItem = FontColorMenuItem.DropDownItems["GreenMenuItem"] as ToolStripMenuItem;
+            formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
+            fontColorMenuItem = formatMenuItem.DropDownItems["fontColorMenuItem"] as ToolStripMenuItem;
+            greenMenuItem = fontColorMenuItem.DropDownItems["greenMenuItem"] as ToolStripMenuItem;
 
-            GreenMenuItem.PerformClick();
+            greenMenuItem.PerformClick();
 
-            Assert.Equal(Color.Green, StatusLabel.ForeColor);
+            Assert.Equal(Color.Green, statusLabel.ForeColor);
         }
 
         [Fact]
         public void ShouldChangeColorOnBlueMenuClick()
         {
-            FormatMenuItem = MainMenuStrip.Items["FormatMenuItem"] as ToolStripMenuItem;
-            FontColorMenuItem = FormatMenuItem.DropDownItems["FontColorMenuItem"] as ToolStripMenuItem;
-            BlueMenuItem = FontColorMenuItem.DropDownItems["BlueMenuItem"] as ToolStripMenuItem;
+            formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
+            fontColorMenuItem = formatMenuItem.DropDownItems["fontColorMenuItem"] as ToolStripMenuItem;
+            blueMenuItem = fontColorMenuItem.DropDownItems["blueMenuItem"] as ToolStripMenuItem;
 
-            BlueMenuItem.PerformClick();
+            blueMenuItem.PerformClick();
 
-            Assert.Equal(Color.Blue, StatusLabel.ForeColor);
+            Assert.Equal(Color.Blue, statusLabel.ForeColor);
         }
     }
 }

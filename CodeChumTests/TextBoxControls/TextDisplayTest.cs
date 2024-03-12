@@ -3,31 +3,31 @@
     public class TextDisplayTests
     {
         TextDisplay? form;
-        Label? Label;
-        TextBox? TextBox;
-        Button? DisplayTextButton;
+        Label? displayLabel;
+        TextBox? inputTextBox;
+        Button? displayTextButton;
 
         public TextDisplayTests()
         {
             form = new TextDisplay();
             form.Show();
-            Label = (Label)TestUtils.GetControlNamed(form, "Label", true);
-            TextBox = (TextBox)TestUtils.GetControlNamed(form, "TextBox", true);
-            DisplayTextButton = (Button)TestUtils.GetControlNamed(form, "DisplayTextButton", true);
+            displayLabel = (Label)TestUtils.GetControlNamed(form, "displayLabel", true);
+            inputTextBox = (TextBox)TestUtils.GetControlNamed(form, "inputTextBox", true);
+            displayTextButton = (Button)TestUtils.GetControlNamed(form, "displayTextButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(Label);
-            Assert.NotNull(TextBox);
-            Assert.NotNull(DisplayTextButton);
+            Assert.NotNull(displayLabel);
+            Assert.NotNull(inputTextBox);
+            Assert.NotNull(displayTextButton);
         }
 
         [Fact]
         public void ShouldHaveEmptyDefaultValue()
         {
-            Assert.Equal("", Label.Text);
+            Assert.Equal("", displayLabel.Text);
         }
 
         [Fact]
@@ -35,10 +35,10 @@
         {
             string expected = "Hello World!";
 
-            TextBox.Text = expected;
-            DisplayTextButton.PerformClick();
+            inputTextBox.Text = expected;
+            displayTextButton.PerformClick();
 
-            Assert.Equal(expected, Label.Text);
+            Assert.Equal(expected, displayLabel.Text);
         }
     }
 }

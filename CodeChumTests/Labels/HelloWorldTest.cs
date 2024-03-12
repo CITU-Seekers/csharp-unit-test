@@ -3,26 +3,26 @@
     public class HelloWorldTests
     {
         HelloWorld? form;
-        Label? TextDisplayLabel;
+        Label? textDisplayLabel;
 
         public HelloWorldTests()
         {
             form = new HelloWorld();
-            TextDisplayLabel = (Label)TestUtils.GetControlNamed(form, "TextDisplayLabel", true);
+            textDisplayLabel = (Label)TestUtils.GetControlNamed(form, "textDisplayLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(TextDisplayLabel);
+            Assert.NotNull(textDisplayLabel);
         }
 
         [Fact]
-        public void ShouldHaveCorrectTextOnTextDisplayLabel()
+        public void ShouldHaveCorrectTextOntextDisplayLabel()
         {
             string expected = "Hello World!";
 
-            Assert.Equal(expected, TextDisplayLabel.Text);
+            Assert.Equal(expected, textDisplayLabel.Text);
         }
     }
 }

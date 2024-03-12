@@ -3,29 +3,29 @@
     public class SplitterActivityTests
     {
         SplitterActivity? form;
-        Splitter? MainSplitter;
-        TextBox? NormalTextBox, CapitalizedTextBox;
+        Splitter? mainSplitter;
+        TextBox? normalTextBox, capitalizedTextBox;
 
         public SplitterActivityTests()
         {
             form = new SplitterActivity();
-            MainSplitter = (Splitter)TestUtils.GetControlNamed(form, "MainSplitter", true);
-            NormalTextBox = (TextBox)TestUtils.GetControlNamed(form, "NormalTextBox", true);
-            CapitalizedTextBox = (TextBox)TestUtils.GetControlNamed(form, "CapitalizedTextBox", true);
+            mainSplitter = (Splitter)TestUtils.GetControlNamed(form, "mainSplitter", true);
+            normalTextBox = (TextBox)TestUtils.GetControlNamed(form, "normalTextBox", true);
+            capitalizedTextBox = (TextBox)TestUtils.GetControlNamed(form, "capitalizedTextBox", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MainSplitter);
-            Assert.NotNull(NormalTextBox);
-            Assert.NotNull(CapitalizedTextBox);
+            Assert.NotNull(mainSplitter);
+            Assert.NotNull(normalTextBox);
+            Assert.NotNull(capitalizedTextBox);
         }
 
         [Fact]
         public void ShouldDockTheMainSplitterCorrectly()
         {
-            Assert.Equal(DockStyle.Left, MainSplitter.Dock);
+            Assert.Equal(DockStyle.Left, mainSplitter.Dock);
         }
 
         [Fact]
@@ -34,9 +34,9 @@
             string test = "abcdef";
             string expected = test.ToUpper();
 
-            NormalTextBox.Text = test;
+            normalTextBox.Text = test;
 
-            Assert.Equal(expected, CapitalizedTextBox.Text);
+            Assert.Equal(expected, capitalizedTextBox.Text);
         }
     }
 }

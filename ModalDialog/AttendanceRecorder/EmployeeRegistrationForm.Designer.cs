@@ -28,59 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.IdTextBox = new System.Windows.Forms.TextBox();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.RegisterButton = new System.Windows.Forms.Button();
-            this.CancelButton = new System.Windows.Forms.Button();
+            this.idTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.registerButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // IdTextBox
+            // idTextBox
             // 
-            this.IdTextBox.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdTextBox.Location = new System.Drawing.Point(40, 31);
-            this.IdTextBox.Name = "IdTextBox";
-            this.IdTextBox.PlaceholderText = "Id";
-            this.IdTextBox.Size = new System.Drawing.Size(375, 31);
-            this.IdTextBox.TabIndex = 0;
+            this.idTextBox.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.idTextBox.Location = new System.Drawing.Point(40, 31);
+            this.idTextBox.Name = "idTextBox";
+            this.idTextBox.PlaceholderText = "Id";
+            this.idTextBox.Size = new System.Drawing.Size(375, 31);
+            this.idTextBox.TabIndex = 0;
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NameTextBox.Location = new System.Drawing.Point(40, 80);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.PlaceholderText = "Name";
-            this.NameTextBox.Size = new System.Drawing.Size(375, 31);
-            this.NameTextBox.TabIndex = 1;
+            this.nameTextBox.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nameTextBox.Location = new System.Drawing.Point(40, 80);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.PlaceholderText = "Name";
+            this.nameTextBox.Size = new System.Drawing.Size(375, 31);
+            this.nameTextBox.TabIndex = 1;
             // 
-            // RegisterButton
+            // registerButton
             // 
-            this.RegisterButton.Location = new System.Drawing.Point(73, 130);
-            this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(136, 36);
-            this.RegisterButton.TabIndex = 2;
-            this.RegisterButton.Text = "Register";
-            this.RegisterButton.UseVisualStyleBackColor = true;
-            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
+            this.registerButton.Location = new System.Drawing.Point(73, 130);
+            this.registerButton.Name = "registerButton";
+            this.registerButton.Size = new System.Drawing.Size(136, 36);
+            this.registerButton.TabIndex = 2;
+            this.registerButton.Text = "Register";
+            this.registerButton.UseVisualStyleBackColor = true;
+            this.registerButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
-            // CancelButton
+            // cancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(240, 130);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(136, 36);
-            this.CancelButton.TabIndex = 3;
-            this.CancelButton.Text = "Cancel";
-            this.CancelButton.UseVisualStyleBackColor = true;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            this.cancelButton.Location = new System.Drawing.Point(240, 130);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(136, 36);
+            this.cancelButton.TabIndex = 3;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // EmployeeRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 189);
-            this.Controls.Add(this.CancelButton);
-            this.Controls.Add(this.RegisterButton);
-            this.Controls.Add(this.NameTextBox);
-            this.Controls.Add(this.IdTextBox);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.registerButton);
+            this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.idTextBox);
             this.Name = "EmployeeRegistrationForm";
             this.Text = "Registration Form";
             this.ResumeLayout(false);
@@ -90,9 +90,9 @@
 
         #endregion
 
-        private TextBox IdTextBox;
-        private TextBox NameTextBox;
-        private Button RegisterButton;
-        private Button CancelButton;
+        private TextBox idTextBox;
+        private TextBox nameTextBox;
+        private Button registerButton;
+        private Button cancelButton;
     }
 }

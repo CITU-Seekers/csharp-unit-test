@@ -28,72 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            NameTextBox = new TextBox();
-            EmailTextBox = new TextBox();
-            SatisfactionNumericControl = new NumericUpDown();
-            YesRadioButton = new RadioButton();
-            NoRadioButton = new RadioButton();
-            SubmitButton = new Button();
+            nameTextBox = new TextBox();
+            emailTextBox = new TextBox();
+            satisfactionNumericControl = new NumericUpDown();
+            yesRadioButton = new RadioButton();
+            noRadioButton = new RadioButton();
+            submitButton = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            ((System.ComponentModel.ISupportInitialize)SatisfactionNumericControl).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)satisfactionNumericControl).BeginInit();
             SuspendLayout();
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            NameTextBox.Location = new Point(39, 24);
-            NameTextBox.Name = "NameTextBox";
-            NameTextBox.PlaceholderText = "Name";
-            NameTextBox.Size = new Size(292, 27);
-            NameTextBox.TabIndex = 0;
+            nameTextBox.Location = new Point(39, 24);
+            nameTextBox.Name = "nameTextBox";
+            nameTextBox.PlaceholderText = "Name";
+            nameTextBox.Size = new Size(292, 27);
+            nameTextBox.TabIndex = 0;
             // 
-            // EmailTextBox
+            // emailTextBox
             // 
-            EmailTextBox.Location = new Point(39, 56);
-            EmailTextBox.Name = "EmailTextBox";
-            EmailTextBox.PlaceholderText = "Email";
-            EmailTextBox.Size = new Size(292, 27);
-            EmailTextBox.TabIndex = 1;
+            emailTextBox.Location = new Point(39, 56);
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.PlaceholderText = "Email";
+            emailTextBox.Size = new Size(292, 27);
+            emailTextBox.TabIndex = 1;
             // 
-            // SatisfactionNumericControl
+            // satisfactionNumericControl
             // 
-            SatisfactionNumericControl.Location = new Point(39, 119);
-            SatisfactionNumericControl.Name = "SatisfactionNumericControl";
-            SatisfactionNumericControl.Size = new Size(292, 27);
-            SatisfactionNumericControl.TabIndex = 2;
+            satisfactionNumericControl.Location = new Point(39, 119);
+            satisfactionNumericControl.Name = "satisfactionNumericControl";
+            satisfactionNumericControl.Size = new Size(292, 27);
+            satisfactionNumericControl.TabIndex = 2;
             // 
-            // YesRadioButton
+            // yesRadioButton
             // 
-            YesRadioButton.AutoSize = true;
-            YesRadioButton.Location = new Point(108, 188);
-            YesRadioButton.Name = "YesRadioButton";
-            YesRadioButton.Size = new Size(51, 24);
-            YesRadioButton.TabIndex = 3;
-            YesRadioButton.TabStop = true;
-            YesRadioButton.Text = "Yes";
-            YesRadioButton.UseVisualStyleBackColor = true;
+            yesRadioButton.AutoSize = true;
+            yesRadioButton.Location = new Point(108, 188);
+            yesRadioButton.Name = "yesRadioButton";
+            yesRadioButton.Size = new Size(51, 24);
+            yesRadioButton.TabIndex = 3;
+            yesRadioButton.TabStop = true;
+            yesRadioButton.Text = "Yes";
+            yesRadioButton.UseVisualStyleBackColor = true;
             // 
-            // NoRadioButton
+            // noRadioButton
             // 
-            NoRadioButton.AutoSize = true;
-            NoRadioButton.Location = new Point(175, 186);
-            NoRadioButton.Name = "NoRadioButton";
-            NoRadioButton.Size = new Size(50, 24);
-            NoRadioButton.TabIndex = 4;
-            NoRadioButton.TabStop = true;
-            NoRadioButton.Text = "No";
-            NoRadioButton.UseVisualStyleBackColor = true;
+            noRadioButton.AutoSize = true;
+            noRadioButton.Location = new Point(175, 186);
+            noRadioButton.Name = "noRadioButton";
+            noRadioButton.Size = new Size(50, 24);
+            noRadioButton.TabIndex = 4;
+            noRadioButton.TabStop = true;
+            noRadioButton.Text = "No";
+            noRadioButton.UseVisualStyleBackColor = true;
             // 
-            // SubmitButton
+            // submitButton
             // 
-            SubmitButton.Location = new Point(234, 221);
-            SubmitButton.Name = "SubmitButton";
-            SubmitButton.Size = new Size(97, 35);
-            SubmitButton.TabIndex = 5;
-            SubmitButton.Text = "Submit";
-            SubmitButton.UseVisualStyleBackColor = true;
-            SubmitButton.Click += SubmitButton_Click;
+            submitButton.Location = new Point(234, 221);
+            submitButton.Name = "submitButton";
+            submitButton.Size = new Size(97, 35);
+            submitButton.TabIndex = 5;
+            submitButton.Text = "Submit";
+            submitButton.UseVisualStyleBackColor = true;
+            submitButton.Click += SubmitButton_Click;
             // 
             // label1
             // 
@@ -130,28 +130,28 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(SubmitButton);
-            Controls.Add(NoRadioButton);
-            Controls.Add(YesRadioButton);
-            Controls.Add(SatisfactionNumericControl);
-            Controls.Add(EmailTextBox);
-            Controls.Add(NameTextBox);
+            Controls.Add(submitButton);
+            Controls.Add(noRadioButton);
+            Controls.Add(yesRadioButton);
+            Controls.Add(satisfactionNumericControl);
+            Controls.Add(emailTextBox);
+            Controls.Add(nameTextBox);
             Name = "SurveyForm";
             Text = "Survey Form";
             Load += SurveyForm_Load;
-            ((System.ComponentModel.ISupportInitialize)SatisfactionNumericControl).EndInit();
+            ((System.ComponentModel.ISupportInitialize)satisfactionNumericControl).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox NameTextBox;
-        private TextBox EmailTextBox;
-        private NumericUpDown SatisfactionNumericControl;
-        private RadioButton YesRadioButton;
-        private RadioButton NoRadioButton;
-        private Button SubmitButton;
+        private TextBox nameTextBox;
+        private TextBox emailTextBox;
+        private NumericUpDown satisfactionNumericControl;
+        private RadioButton yesRadioButton;
+        private RadioButton noRadioButton;
+        private Button submitButton;
         private Label label1;
         private Label label2;
         private Label label3;

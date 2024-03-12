@@ -28,54 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.InputTextBox = new System.Windows.Forms.TextBox();
-            this.NumberTextBox = new System.Windows.Forms.TextBox();
-            this.DisplayTextButton = new System.Windows.Forms.Button();
-            this.ResultTextBox = new System.Windows.Forms.TextBox();
+            this.inputTextBox = new System.Windows.Forms.TextBox();
+            this.numberTextBox = new System.Windows.Forms.TextBox();
+            this.displayTextButton = new System.Windows.Forms.Button();
+            this.resultTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // InputTextBox
+            // inputTextBox
             // 
-            this.InputTextBox.Location = new System.Drawing.Point(203, 92);
-            this.InputTextBox.Name = "InputTextBox";
-            this.InputTextBox.PlaceholderText = "Text";
-            this.InputTextBox.Size = new System.Drawing.Size(170, 30);
-            this.InputTextBox.TabIndex = 0;
+            this.inputTextBox.Location = new System.Drawing.Point(203, 92);
+            this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.PlaceholderText = "Text";
+            this.inputTextBox.Size = new System.Drawing.Size(170, 30);
+            this.inputTextBox.TabIndex = 0;
             // 
-            // NumberTextBox
+            // numberTextBox
             // 
-            this.NumberTextBox.Location = new System.Drawing.Point(379, 92);
-            this.NumberTextBox.Name = "NumberTextBox";
-            this.NumberTextBox.PlaceholderText = "Number";
-            this.NumberTextBox.Size = new System.Drawing.Size(80, 30);
-            this.NumberTextBox.TabIndex = 1;
+            this.numberTextBox.Location = new System.Drawing.Point(379, 92);
+            this.numberTextBox.Name = "numberTextBox";
+            this.numberTextBox.PlaceholderText = "Number";
+            this.numberTextBox.Size = new System.Drawing.Size(80, 30);
+            this.numberTextBox.TabIndex = 1;
             // 
-            // DisplayTextButton
+            // displayTextButton
             // 
-            this.DisplayTextButton.Location = new System.Drawing.Point(464, 92);
-            this.DisplayTextButton.Name = "DisplayTextButton";
-            this.DisplayTextButton.Size = new System.Drawing.Size(94, 30);
-            this.DisplayTextButton.TabIndex = 2;
-            this.DisplayTextButton.Text = "Display";
-            this.DisplayTextButton.UseVisualStyleBackColor = true;
-            this.DisplayTextButton.Click += new System.EventHandler(this.DisplayTextButton_Click);
+            this.displayTextButton.Location = new System.Drawing.Point(464, 92);
+            this.displayTextButton.Name = "displayTextButton";
+            this.displayTextButton.Size = new System.Drawing.Size(94, 30);
+            this.displayTextButton.TabIndex = 2;
+            this.displayTextButton.Text = "Display";
+            this.displayTextButton.UseVisualStyleBackColor = true;
+            this.displayTextButton.Click += new System.EventHandler(this.DisplayTextButton_Click);
             // 
-            // ResultTextBox
+            // resultTextBox
             // 
-            this.ResultTextBox.Location = new System.Drawing.Point(49, 39);
-            this.ResultTextBox.Name = "ResultTextBox";
-            this.ResultTextBox.Size = new System.Drawing.Size(509, 30);
-            this.ResultTextBox.TabIndex = 3;
+            this.resultTextBox.Location = new System.Drawing.Point(49, 39);
+            this.resultTextBox.Name = "resultTextBox";
+            this.resultTextBox.Size = new System.Drawing.Size(509, 30);
+            this.resultTextBox.TabIndex = 3;
             // 
             // TextRepeater
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 159);
-            this.Controls.Add(this.ResultTextBox);
-            this.Controls.Add(this.DisplayTextButton);
-            this.Controls.Add(this.NumberTextBox);
-            this.Controls.Add(this.InputTextBox);
+            this.Controls.Add(this.resultTextBox);
+            this.Controls.Add(this.displayTextButton);
+            this.Controls.Add(this.numberTextBox);
+            this.Controls.Add(this.inputTextBox);
             this.Name = "TextRepeater";
             this.Text = "TextRepeater";
             this.ResumeLayout(false);
@@ -85,9 +85,9 @@
 
         #endregion
 
-        private TextBox InputTextBox;
-        private TextBox NumberTextBox;
-        private Button DisplayTextButton;
-        private TextBox ResultTextBox;
+        private TextBox inputTextBox;
+        private TextBox numberTextBox;
+        private Button displayTextButton;
+        private TextBox resultTextBox;
     }
 }

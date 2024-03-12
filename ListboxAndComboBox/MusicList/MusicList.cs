@@ -19,15 +19,15 @@ namespace CodeChum
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            if (!MusicTextBox.Text.Equals(""))
+            if (!musicTextBox.Text.Equals(""))
             {
-                MusicListBox.Items.Add(MusicTextBox.Text);
+                musicListBox.Items.Add(musicTextBox.Text);
             }
         }
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
-            MusicListBox.Items.RemoveAt(MusicListBox.SelectedIndex);
+            musicListBox.Items.RemoveAt(musicListBox.SelectedIndex);
         }
     }
 }

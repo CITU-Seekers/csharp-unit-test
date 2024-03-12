@@ -7,31 +7,31 @@
         EmployeeRegistrationForm? registrationModal;
 
         // AttendanceRecorded controls
-        Button? RegistrationButton, CheckerButton, ExitButton;
+        Button? registrationButton, checkerButton, exitButton;
 
         // AttendanceCheckerForm controls;
-        TextBox? AttendanceCheckerFormIdTextBox;
-        Button? CheckButton, AttendanceCheckerFormCancelButton;
+        TextBox? attendanceCheckerFormIdTextBox;
+        Button? checkButton, attendanceCheckerFormCancelButton;
 
         // EmployeeRegistrationForm controls;
-        TextBox? EmployeeRegistrationFormIdTextBox, NameTextBox;
-        Button? RegisterButton, EmployeeRegistrationFormCancelButton;
+        TextBox? employeeRegistrationFormIdTextBox, nameTextBox;
+        Button? registerButton, employeeRegistrationFormCancelButton;
 
         public AttendanceCheckerTests()
         {
             form = new AttendanceRecorder();
             form.Show();
-            RegistrationButton = (Button)TestUtils.GetControlNamed(form, "RegistrationButton", true);
-            CheckerButton = (Button)TestUtils.GetControlNamed(form, "CheckerButton", true);
-            ExitButton = (Button)TestUtils.GetControlNamed(form, "ExitButton", true);
+            registrationButton = (Button)TestUtils.GetControlNamed(form, "registrationButton", true);
+            checkerButton = (Button)TestUtils.GetControlNamed(form, "checkerButton", true);
+            exitButton = (Button)TestUtils.GetControlNamed(form, "exitButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(RegistrationButton);
-            Assert.NotNull(CheckerButton);
-            Assert.NotNull(ExitButton);
+            Assert.NotNull(registrationButton);
+            Assert.NotNull(checkerButton);
+            Assert.NotNull(exitButton);
         }
 
         [Fact]
@@ -40,13 +40,13 @@
             checkerModal = new AttendanceCheckerForm();
             checkerModal.Show();
 
-            AttendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "IdTextBox", true);
-            CheckButton = (Button)TestUtils.GetControlNamed(checkerModal, "CheckButton", true);
-            AttendanceCheckerFormCancelButton = (Button)TestUtils.GetControlNamed(checkerModal, "CancelButton", true);
+            attendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "idTextBox", true);
+            checkButton = (Button)TestUtils.GetControlNamed(checkerModal, "checkButton", true);
+            attendanceCheckerFormCancelButton = (Button)TestUtils.GetControlNamed(checkerModal, "cancelButton", true);
 
-            Assert.NotNull(AttendanceCheckerFormIdTextBox);
-            Assert.NotNull(CheckButton);
-            Assert.NotNull(AttendanceCheckerFormCancelButton);
+            Assert.NotNull(attendanceCheckerFormIdTextBox);
+            Assert.NotNull(checkButton);
+            Assert.NotNull(attendanceCheckerFormCancelButton);
         }
 
         [Fact]
@@ -55,15 +55,15 @@
             registrationModal = new EmployeeRegistrationForm();
             registrationModal.Show();
 
-            EmployeeRegistrationFormIdTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "IdTextBox", true);
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "NameTextBox", true);
-            RegisterButton = (Button)TestUtils.GetControlNamed(registrationModal, "RegisterButton", true);
-            EmployeeRegistrationFormCancelButton = (Button)TestUtils.GetControlNamed(registrationModal, "CancelButton", true);
+            employeeRegistrationFormIdTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "idTextBox", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "nameTextBox", true);
+            registerButton = (Button)TestUtils.GetControlNamed(registrationModal, "registerButton", true);
+            employeeRegistrationFormCancelButton = (Button)TestUtils.GetControlNamed(registrationModal, "cancelButton", true);
 
-            Assert.NotNull(EmployeeRegistrationFormIdTextBox);
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(RegisterButton);
-            Assert.NotNull(EmployeeRegistrationFormCancelButton);
+            Assert.NotNull(employeeRegistrationFormIdTextBox);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(registerButton);
+            Assert.NotNull(employeeRegistrationFormCancelButton);
         }
 
         [Fact]
@@ -77,7 +77,7 @@
                 form.AttendanceCheckerForm.Close();
             });
 
-            CheckerButton.PerformClick();
+            checkerButton.PerformClick();
 
             registerTask.Wait();
 
@@ -95,7 +95,7 @@
                 form.EmployeeRegistrationForm.Close();
             });
 
-            RegistrationButton.PerformClick();
+            registrationButton.PerformClick();
 
             registerTask.Wait();
 
@@ -109,15 +109,15 @@
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                AttendanceCheckerFormCancelButton = (Button)TestUtils.GetControlNamed(form.AttendanceCheckerForm, "CancelButton", true);
+                attendanceCheckerFormCancelButton = (Button)TestUtils.GetControlNamed(form.AttendanceCheckerForm, "cancelButton", true);
 
-                AttendanceCheckerFormCancelButton.PerformClick();
+                attendanceCheckerFormCancelButton.PerformClick();
                 await Task.Delay(TimeSpan.FromSeconds(3));
 
                 isModalShown = form.AttendanceCheckerForm.Visible;
             });
 
-            CheckerButton.PerformClick();
+            checkerButton.PerformClick();
 
             registerTask.Wait();
 
@@ -131,15 +131,15 @@
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                EmployeeRegistrationFormCancelButton = (Button)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "CancelButton", true);
+                employeeRegistrationFormCancelButton = (Button)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "cancelButton", true);
 
-                EmployeeRegistrationFormCancelButton.PerformClick();
+                employeeRegistrationFormCancelButton.PerformClick();
                 await Task.Delay(TimeSpan.FromSeconds(3));
 
                 isModalShown = form.EmployeeRegistrationForm.Visible;
             });
 
-            RegistrationButton.PerformClick();
+            registrationButton.PerformClick();
 
             registerTask.Wait();
 
@@ -152,14 +152,14 @@
             registrationModal = new EmployeeRegistrationForm();
             registrationModal.Show();
 
-            EmployeeRegistrationFormIdTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "IdTextBox", true);
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "NameTextBox", true);
-            RegisterButton = (Button)TestUtils.GetControlNamed(registrationModal, "RegisterButton", true);
+            employeeRegistrationFormIdTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "idTextBox", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(registrationModal, "nameTextBox", true);
+            registerButton = (Button)TestUtils.GetControlNamed(registrationModal, "registerButton", true);
 
-            EmployeeRegistrationFormIdTextBox.Text = "1";
-            NameTextBox.Text = "John Doe";
+            employeeRegistrationFormIdTextBox.Text = "1";
+            nameTextBox.Text = "John Doe";
 
-            RegisterButton.PerformClick();
+            registerButton.PerformClick();
 
             Employee emp;
             Assert.True(EmployeeList.Employees.TryGetValue(1, out emp), "The employee `1 - John Doe` should have been saved to the list.");
@@ -173,12 +173,12 @@
             checkerModal = new AttendanceCheckerForm();
             checkerModal.Show();
 
-            AttendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "IdTextBox", true);
-            CheckButton = (Button)TestUtils.GetControlNamed(checkerModal, "CheckButton", true);
+            attendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "idTextBox", true);
+            checkButton = (Button)TestUtils.GetControlNamed(checkerModal, "checkButton", true);
 
-            AttendanceCheckerFormIdTextBox.Text = "2";
+            attendanceCheckerFormIdTextBox.Text = "2";
 
-            CheckButton.PerformClick();
+            checkButton.PerformClick();
 
             Assert.True(MessageBoxWrapper.IsOpened, "The message box should show");
             Assert.Equal("Success", MessageBoxWrapper.Title);
@@ -192,13 +192,13 @@
             checkerModal = new AttendanceCheckerForm();
             checkerModal.Show();
 
-            AttendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "IdTextBox", true);
-            CheckButton = (Button)TestUtils.GetControlNamed(checkerModal, "CheckButton", true);
+            attendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "idTextBox", true);
+            checkButton = (Button)TestUtils.GetControlNamed(checkerModal, "checkButton", true);
 
-            AttendanceCheckerFormIdTextBox.Text = "3";
+            attendanceCheckerFormIdTextBox.Text = "3";
 
-            CheckButton.PerformClick();
-            CheckButton.PerformClick();
+            checkButton.PerformClick();
+            checkButton.PerformClick();
 
             Assert.True(MessageBoxWrapper.IsOpened, "The message box should show");
             Assert.Equal("Notice", MessageBoxWrapper.Title);
@@ -210,12 +210,12 @@
             checkerModal = new AttendanceCheckerForm();
             checkerModal.Show();
 
-            AttendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "IdTextBox", true);
-            CheckButton = (Button)TestUtils.GetControlNamed(checkerModal, "CheckButton", true);
+            attendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(checkerModal, "idTextBox", true);
+            checkButton = (Button)TestUtils.GetControlNamed(checkerModal, "checkButton", true);
 
-            AttendanceCheckerFormIdTextBox.Text = "4";
+            attendanceCheckerFormIdTextBox.Text = "4";
 
-            CheckButton.PerformClick();
+            checkButton.PerformClick();
 
             Assert.True(MessageBoxWrapper.IsOpened, "The message box should show");
             Assert.Equal("Invalid", MessageBoxWrapper.Title);
@@ -227,38 +227,38 @@
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                EmployeeRegistrationFormIdTextBox = (TextBox)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "IdTextBox", true);
-                NameTextBox = (TextBox)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "NameTextBox", true);
-                RegisterButton = (Button)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "RegisterButton", true);
+                employeeRegistrationFormIdTextBox = (TextBox)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "idTextBox", true);
+                nameTextBox = (TextBox)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "nameTextBox", true);
+                registerButton = (Button)TestUtils.GetControlNamed(form.EmployeeRegistrationForm, "registerButton", true);
 
-                EmployeeRegistrationFormIdTextBox.Text = "6";
-                NameTextBox.Text = "Cody";
+                employeeRegistrationFormIdTextBox.Text = "6";
+                nameTextBox.Text = "Cody";
 
-                RegisterButton.PerformClick();
+                registerButton.PerformClick();
 
                 await Task.Delay(TimeSpan.FromSeconds(3));
                 form.EmployeeRegistrationForm.Close();
             });
 
-            RegistrationButton.PerformClick();
+            registrationButton.PerformClick();
 
             registerTask.Wait();
 
             var checkerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                AttendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(form.AttendanceCheckerForm, "IdTextBox", true);
-                CheckButton = (Button)TestUtils.GetControlNamed(form.AttendanceCheckerForm, "CheckButton", true);
+                attendanceCheckerFormIdTextBox = (TextBox)TestUtils.GetControlNamed(form.AttendanceCheckerForm, "idTextBox", true);
+                checkButton = (Button)TestUtils.GetControlNamed(form.AttendanceCheckerForm, "checkButton", true);
 
-                AttendanceCheckerFormIdTextBox.Text = "6";
+                attendanceCheckerFormIdTextBox.Text = "6";
 
-                CheckButton.PerformClick();
+                checkButton.PerformClick();
 
                 await Task.Delay(TimeSpan.FromSeconds(3));
                 form.AttendanceCheckerForm.Close();
             });
 
-            CheckerButton.PerformClick();
+            checkerButton.PerformClick();
 
             checkerTask.Wait();
 
@@ -269,7 +269,7 @@
         [Fact]
         public void ShouldBeAbleToCloseFormOnExitButtonClick()
         {
-            ExitButton.PerformClick();
+            exitButton.PerformClick();
 
             Assert.False(form.Visible, "The main form should be closed on exit button click.");
         }

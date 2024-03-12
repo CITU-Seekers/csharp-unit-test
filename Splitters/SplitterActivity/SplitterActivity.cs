@@ -19,10 +19,15 @@ namespace CodeChum
 
         private void EditableTextBox_TextChanged(object sender, EventArgs e)
         {
-            CapitalizedTextBox.Text = NormalTextBox.Text.ToUpper();
+            capitalizedTextBox.Text = normalTextBox.Text.ToUpper();
         }
 
         private void S(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CapitalizedTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }

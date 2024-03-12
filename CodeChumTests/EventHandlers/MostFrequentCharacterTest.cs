@@ -3,21 +3,21 @@
     public class MostFrequentCharTests
     {
         MostFrequentCharacter? form;
-        TextBox? TextBoxControl;
-        Label? FrequentCharLabel;
+        TextBox? inputTextBox;
+        Label? frequentCharLabel;
 
         public MostFrequentCharTests()
         {
             form = new MostFrequentCharacter();
             form.Show();
 
-            TextBoxControl = (TextBox)TestUtils.GetControlNamed(form, "TextBox", true);
-            FrequentCharLabel = (Label)TestUtils.GetControlNamed(form, "FrequentCharLabel", true);
+            inputTextBox = (TextBox)TestUtils.GetControlNamed(form, "inputTextBox", true);
+            frequentCharLabel = (Label)TestUtils.GetControlNamed(form, "frequentCharLabel", true);
         }
 
         public void assertMostFrequent(String expectedCharacter, String failedMessage)
         {
-            bool isLetterCorrect = FrequentCharLabel.Text.ToLower().Equals(expectedCharacter);
+            bool isLetterCorrect = frequentCharLabel.Text.ToLower().Equals(expectedCharacter);
 
             Assert.True(isLetterCorrect, failedMessage);
         }
@@ -25,37 +25,37 @@
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(TextBoxControl);
-            Assert.NotNull(FrequentCharLabel);
+            Assert.NotNull(inputTextBox);
+            Assert.NotNull(frequentCharLabel);
         }
 
         [Fact]
         public void ShouldDisplayCorrectFrequentCharacter()
         {
-            TextBoxControl.Text = "N";
+            inputTextBox.Text = "N";
             assertMostFrequent("n", "The displayed text should be 'N' or 'n'");
 
-            TextBoxControl.Text = "Neve";
+            inputTextBox.Text = "Neve";
             assertMostFrequent("e", "The displayed text should be 'E' or 'e'");
         }
 
         [Fact]
         public void ShouldDisplayCorrectFrequentCharacterWithSpaces()
         {
-            TextBoxControl.Text = "I";
+            inputTextBox.Text = "I";
             assertMostFrequent("i", "The displayed text should be 'I' or 'i'");
 
-            TextBoxControl.Text = "I ";
+            inputTextBox.Text = "I ";
             assertMostFrequent("i", "The displayed text should be 'I' or 'i' and not a white space.");
 
-            TextBoxControl.Text = "I a ";
+            inputTextBox.Text = "I a ";
 
-            bool isLetterCorrect = FrequentCharLabel.Text.ToLower().Equals("i") ||
-                FrequentCharLabel.Text.ToLower().Equals("a");
+            bool isLetterCorrect = frequentCharLabel.Text.ToLower().Equals("i") ||
+                frequentCharLabel.Text.ToLower().Equals("a");
 
             Assert.True(isLetterCorrect, "The displayed text should be 'A', 'I', 'a', or 'i'");
 
-            TextBoxControl.Text = "I a A ";
+            inputTextBox.Text = "I a A ";
             assertMostFrequent("a", "The displayed text should be 'A' or 'a'.");
         }
     }

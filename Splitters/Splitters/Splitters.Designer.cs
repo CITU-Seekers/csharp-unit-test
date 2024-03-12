@@ -28,128 +28,128 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TopPanel = new System.Windows.Forms.Panel();
-            this.TopSplitter = new System.Windows.Forms.Splitter();
-            this.BottomPanel = new System.Windows.Forms.Panel();
-            this.BottomSplitter = new System.Windows.Forms.Splitter();
-            this.LeftSplitter = new System.Windows.Forms.Splitter();
-            this.LeftPanel = new System.Windows.Forms.Panel();
-            this.RightPanel = new System.Windows.Forms.Panel();
-            this.RightSplitter = new System.Windows.Forms.Splitter();
-            this.CenterPanel = new System.Windows.Forms.Panel();
-            this.TopPanel.SuspendLayout();
-            this.BottomPanel.SuspendLayout();
-            this.RightPanel.SuspendLayout();
+            this.topPanel = new System.Windows.Forms.Panel();
+            this.topSplitter = new System.Windows.Forms.Splitter();
+            this.bottomPanel = new System.Windows.Forms.Panel();
+            this.bottomSplitter = new System.Windows.Forms.Splitter();
+            this.leftSplitter = new System.Windows.Forms.Splitter();
+            this.leftPanel = new System.Windows.Forms.Panel();
+            this.rightPanel = new System.Windows.Forms.Panel();
+            this.rightSplitter = new System.Windows.Forms.Splitter();
+            this.centerPanel = new System.Windows.Forms.Panel();
+            this.topPanel.SuspendLayout();
+            this.bottomPanel.SuspendLayout();
+            this.rightPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // TopPanel
+            // topPanel
             // 
-            this.TopPanel.Controls.Add(this.TopSplitter);
-            this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TopPanel.Location = new System.Drawing.Point(0, 0);
-            this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Size = new System.Drawing.Size(800, 125);
-            this.TopPanel.TabIndex = 0;
+            this.topPanel.Controls.Add(this.topSplitter);
+            this.topPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.topPanel.Location = new System.Drawing.Point(0, 0);
+            this.topPanel.Name = "topPanel";
+            this.topPanel.Size = new System.Drawing.Size(800, 125);
+            this.topPanel.TabIndex = 0;
             // 
-            // TopSplitter
+            // topSplitter
             // 
-            this.TopSplitter.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TopSplitter.Location = new System.Drawing.Point(0, 0);
-            this.TopSplitter.Name = "TopSplitter";
-            this.TopSplitter.Size = new System.Drawing.Size(800, 4);
-            this.TopSplitter.TabIndex = 0;
-            this.TopSplitter.TabStop = false;
+            this.topSplitter.Dock = System.Windows.Forms.DockStyle.Top;
+            this.topSplitter.Location = new System.Drawing.Point(0, 0);
+            this.topSplitter.Name = "topSplitter";
+            this.topSplitter.Size = new System.Drawing.Size(800, 4);
+            this.topSplitter.TabIndex = 0;
+            this.topSplitter.TabStop = false;
             // 
-            // BottomPanel
+            // bottomPanel
             // 
-            this.BottomPanel.Controls.Add(this.BottomSplitter);
-            this.BottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BottomPanel.Location = new System.Drawing.Point(0, 325);
-            this.BottomPanel.Name = "BottomPanel";
-            this.BottomPanel.Size = new System.Drawing.Size(800, 125);
-            this.BottomPanel.TabIndex = 1;
+            this.bottomPanel.Controls.Add(this.bottomSplitter);
+            this.bottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bottomPanel.Location = new System.Drawing.Point(0, 325);
+            this.bottomPanel.Name = "bottomPanel";
+            this.bottomPanel.Size = new System.Drawing.Size(800, 125);
+            this.bottomPanel.TabIndex = 1;
             // 
-            // BottomSplitter
+            // bottomSplitter
             // 
-            this.BottomSplitter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BottomSplitter.Location = new System.Drawing.Point(0, 121);
-            this.BottomSplitter.Name = "BottomSplitter";
-            this.BottomSplitter.Size = new System.Drawing.Size(800, 4);
-            this.BottomSplitter.TabIndex = 0;
-            this.BottomSplitter.TabStop = false;
+            this.bottomSplitter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bottomSplitter.Location = new System.Drawing.Point(0, 121);
+            this.bottomSplitter.Name = "bottomSplitter";
+            this.bottomSplitter.Size = new System.Drawing.Size(800, 4);
+            this.bottomSplitter.TabIndex = 0;
+            this.bottomSplitter.TabStop = false;
             // 
-            // LeftSplitter
+            // leftSplitter
             // 
-            this.LeftSplitter.Location = new System.Drawing.Point(0, 125);
-            this.LeftSplitter.Name = "LeftSplitter";
-            this.LeftSplitter.Size = new System.Drawing.Size(4, 200);
-            this.LeftSplitter.TabIndex = 2;
-            this.LeftSplitter.TabStop = false;
+            this.leftSplitter.Location = new System.Drawing.Point(0, 125);
+            this.leftSplitter.Name = "leftSplitter";
+            this.leftSplitter.Size = new System.Drawing.Size(4, 200);
+            this.leftSplitter.TabIndex = 2;
+            this.leftSplitter.TabStop = false;
             // 
-            // LeftPanel
+            // leftPanel
             // 
-            this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftPanel.Location = new System.Drawing.Point(4, 125);
-            this.LeftPanel.Name = "LeftPanel";
-            this.LeftPanel.Size = new System.Drawing.Size(250, 200);
-            this.LeftPanel.TabIndex = 3;
-            this.LeftPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LeftPanel_Paint);
+            this.leftPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.leftPanel.Location = new System.Drawing.Point(4, 125);
+            this.leftPanel.Name = "leftPanel";
+            this.leftPanel.Size = new System.Drawing.Size(250, 200);
+            this.leftPanel.TabIndex = 3;
+            this.leftPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LeftPanel_Paint);
             // 
-            // RightPanel
+            // rightPanel
             // 
-            this.RightPanel.Controls.Add(this.RightSplitter);
-            this.RightPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.RightPanel.Location = new System.Drawing.Point(550, 125);
-            this.RightPanel.Name = "RightPanel";
-            this.RightPanel.Size = new System.Drawing.Size(250, 200);
-            this.RightPanel.TabIndex = 4;
+            this.rightPanel.Controls.Add(this.rightSplitter);
+            this.rightPanel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rightPanel.Location = new System.Drawing.Point(550, 125);
+            this.rightPanel.Name = "rightPanel";
+            this.rightPanel.Size = new System.Drawing.Size(250, 200);
+            this.rightPanel.TabIndex = 4;
             // 
-            // RightSplitter
+            // rightSplitter
             // 
-            this.RightSplitter.Location = new System.Drawing.Point(0, 0);
-            this.RightSplitter.Name = "RightSplitter";
-            this.RightSplitter.Size = new System.Drawing.Size(4, 200);
-            this.RightSplitter.TabIndex = 0;
-            this.RightSplitter.TabStop = false;
+            this.rightSplitter.Location = new System.Drawing.Point(0, 0);
+            this.rightSplitter.Name = "rightSplitter";
+            this.rightSplitter.Size = new System.Drawing.Size(4, 200);
+            this.rightSplitter.TabIndex = 0;
+            this.rightSplitter.TabStop = false;
             // 
-            // CenterPanel
+            // centerPanel
             // 
-            this.CenterPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CenterPanel.Location = new System.Drawing.Point(254, 125);
-            this.CenterPanel.Name = "CenterPanel";
-            this.CenterPanel.Size = new System.Drawing.Size(296, 200);
-            this.CenterPanel.TabIndex = 5;
+            this.centerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.centerPanel.Location = new System.Drawing.Point(254, 125);
+            this.centerPanel.Name = "centerPanel";
+            this.centerPanel.Size = new System.Drawing.Size(296, 200);
+            this.centerPanel.TabIndex = 5;
             // 
             // Splitters
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.CenterPanel);
-            this.Controls.Add(this.RightPanel);
-            this.Controls.Add(this.LeftPanel);
-            this.Controls.Add(this.LeftSplitter);
-            this.Controls.Add(this.BottomPanel);
-            this.Controls.Add(this.TopPanel);
+            this.Controls.Add(this.centerPanel);
+            this.Controls.Add(this.rightPanel);
+            this.Controls.Add(this.leftPanel);
+            this.Controls.Add(this.leftSplitter);
+            this.Controls.Add(this.bottomPanel);
+            this.Controls.Add(this.topPanel);
             this.Name = "Splitters";
             this.Text = "Splitters";
-            this.TopPanel.ResumeLayout(false);
-            this.BottomPanel.ResumeLayout(false);
-            this.RightPanel.ResumeLayout(false);
+            this.topPanel.ResumeLayout(false);
+            this.bottomPanel.ResumeLayout(false);
+            this.rightPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Panel TopPanel;
-        private Splitter TopSplitter;
-        private Panel BottomPanel;
-        private Splitter BottomSplitter;
-        private Splitter LeftSplitter;
-        private Panel LeftPanel;
-        private Panel RightPanel;
-        private Splitter RightSplitter;
-        private Panel CenterPanel;
+        private Panel topPanel;
+        private Splitter topSplitter;
+        private Panel bottomPanel;
+        private Splitter bottomSplitter;
+        private Splitter leftSplitter;
+        private Panel leftPanel;
+        private Panel rightPanel;
+        private Splitter rightSplitter;
+        private Panel centerPanel;
     }
 }

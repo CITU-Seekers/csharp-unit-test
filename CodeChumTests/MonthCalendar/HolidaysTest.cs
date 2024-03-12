@@ -3,25 +3,25 @@
     public class HolidaysTests
     {
         Holidays? form;
-        MonthCalendar? MonthCalendar;
-        Button? DisplayHolidaysButton;
-        Label? HolidaysLabel;
+        MonthCalendar? holidaysMonthCalendar;
+        Button? displayHolidaysButton;
+        Label? holidaysLabel;
 
         public HolidaysTests()
         {
             form = new Holidays();
             form.Show();
-            MonthCalendar = (MonthCalendar)TestUtils.GetControlNamed(form, "MonthCalendar", true);
-            DisplayHolidaysButton = (Button)TestUtils.GetControlNamed(form, "DisplayHolidaysButton", true);
-            HolidaysLabel = (Label)TestUtils.GetControlNamed(form, "HolidaysLabel", true);
+            holidaysMonthCalendar = (MonthCalendar)TestUtils.GetControlNamed(form, "holidaysMonthCalendar", true);
+            displayHolidaysButton = (Button)TestUtils.GetControlNamed(form, "displayHolidaysButton", true);
+            holidaysLabel = (Label)TestUtils.GetControlNamed(form, "holidaysLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MonthCalendar);
-            Assert.NotNull(DisplayHolidaysButton);
-            Assert.NotNull(HolidaysLabel);
+            Assert.NotNull(holidaysMonthCalendar);
+            Assert.NotNull(displayHolidaysButton);
+            Assert.NotNull(holidaysLabel);
         }
 
         [Fact]
@@ -34,31 +34,31 @@
 
             DateTime[] holidays = new DateTime[] { christmas, rizal, newYear, lunarNewYear };
 
-            Assert.True(Enumerable.SequenceEqual(holidays, MonthCalendar.BoldedDates));
+            Assert.True(Enumerable.SequenceEqual(holidays, holidaysMonthCalendar.BoldedDates));
         }
 
         [Fact]
         public void ShouldShowHolidaysOnDecember()
         {
-            MonthCalendar.SelectionStart = DateTime.ParseExact("01/12/2022", "dd/MM/yyyy", null);
+            holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("01/12/2022", "dd/MM/yyyy", null);
             string textToCompare = "December 25, 2022 - Christmas\nDecember 30, 2022 - Rizal Day";
 
-            DisplayHolidaysButton.Select();
-            DisplayHolidaysButton.PerformClick();
+            displayHolidaysButton.Select();
+            displayHolidaysButton.PerformClick();
 
-            Assert.Equal(textToCompare, HolidaysLabel.Text);
+            Assert.Equal(textToCompare, holidaysLabel.Text);
         }
 
         [Fact]
         public void ShouldShowHolidaysOnJanuary()
         {
-            MonthCalendar.SelectionStart = DateTime.ParseExact("30/01/2023", "dd/MM/yyyy", null);
+            holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("30/01/2023", "dd/MM/yyyy", null);
             string textToCompare = "January 1, 2023 - New Year's Day\nJanuary 22, 2023 - Lunar New Year";
 
-            DisplayHolidaysButton.Select();
-            DisplayHolidaysButton.PerformClick();
+            displayHolidaysButton.Select();
+            displayHolidaysButton.PerformClick();
 
-            Assert.Equal(textToCompare, HolidaysLabel.Text);
+            Assert.Equal(textToCompare, holidaysLabel.Text);
         }
     }
 }

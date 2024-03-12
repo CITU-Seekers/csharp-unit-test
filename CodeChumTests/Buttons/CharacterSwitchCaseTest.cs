@@ -3,32 +3,32 @@
     public class CharacterSwitchCaseTests
     {
         CharacterSwitchCase? form;
-        Label? Label;
-        Button? SwitchCaseVowelsButton, SwitchCaseConsonantsButton, SwitchCaseAllButton;
+        Label? textLabel;
+        Button? switchCaseVowelsButton, switchCaseConsonantsButton, switchCaseAllButton;
 
         public CharacterSwitchCaseTests()
         {
             form = new CharacterSwitchCase();
             form.Show();
-            Label = (Label)TestUtils.GetControlNamed(form, "Label", true);
-            SwitchCaseVowelsButton = (Button)TestUtils.GetControlNamed(form, "SwitchCaseVowelsButton", true);
-            SwitchCaseConsonantsButton = (Button)TestUtils.GetControlNamed(form, "SwitchCaseConsonantsButton", true);
-            SwitchCaseAllButton = (Button)TestUtils.GetControlNamed(form, "SwitchCaseAllButton", true);
+            textLabel = (Label)TestUtils.GetControlNamed(form, "textLabel", true);
+            switchCaseVowelsButton = (Button)TestUtils.GetControlNamed(form, "switchCaseVowelsButton", true);
+            switchCaseConsonantsButton = (Button)TestUtils.GetControlNamed(form, "switchCaseConsonantsButton", true);
+            switchCaseAllButton = (Button)TestUtils.GetControlNamed(form, "switchCaseAllButton", true);
         }
 
         [Fact]
         public void ShouldHaveLabel()
         {
-            Assert.NotNull(Label);
-            Assert.Equal("I love programming!", Label.Text);
+            Assert.NotNull(textLabel);
+            Assert.Equal("I love programming!", textLabel.Text);
         }
 
         [Fact]
         public void ShouldHaveAllButtonControls()
         {
-            Assert.NotNull(SwitchCaseVowelsButton);
-            Assert.NotNull(SwitchCaseConsonantsButton);
-            Assert.NotNull(SwitchCaseAllButton);
+            Assert.NotNull(switchCaseVowelsButton);
+            Assert.NotNull(switchCaseConsonantsButton);
+            Assert.NotNull(switchCaseAllButton);
         }
 
         [Fact]
@@ -36,9 +36,9 @@
         {
             string expected = "i lOvE prOgrAmmIng!";
 
-            SwitchCaseVowelsButton.PerformClick();
+            switchCaseVowelsButton.PerformClick();
 
-            Assert.Equal(expected, Label.Text);
+            Assert.Equal(expected, textLabel.Text);
         }
 
         [Fact]
@@ -46,9 +46,9 @@
         {
             string expected = "I LoVe PRoGRaMMiNG!";
 
-            SwitchCaseConsonantsButton.PerformClick();
+            switchCaseConsonantsButton.PerformClick();
 
-            Assert.Equal(expected, Label.Text);
+            Assert.Equal(expected, textLabel.Text);
         }
 
         [Fact]
@@ -56,9 +56,9 @@
         {
             string expected = "i LOVE PROGRAMMING!";
 
-            SwitchCaseAllButton.PerformClick();
+            switchCaseAllButton.PerformClick();
 
-            Assert.Equal(expected, Label.Text);
+            Assert.Equal(expected, textLabel.Text);
         }
 
         [Fact]
@@ -66,14 +66,14 @@
         {
             string expected = "I love programming!";
 
-            SwitchCaseAllButton.PerformClick();
-            SwitchCaseAllButton.PerformClick();
-            SwitchCaseConsonantsButton.PerformClick();
-            SwitchCaseConsonantsButton.PerformClick();
-            SwitchCaseVowelsButton.PerformClick();
-            SwitchCaseVowelsButton.PerformClick();
+            switchCaseAllButton.PerformClick();
+            switchCaseAllButton.PerformClick();
+            switchCaseConsonantsButton.PerformClick();
+            switchCaseConsonantsButton.PerformClick();
+            switchCaseVowelsButton.PerformClick();
+            switchCaseVowelsButton.PerformClick();
 
-            Assert.Equal(expected, Label.Text);
+            Assert.Equal(expected, textLabel.Text);
         }
     }
 }

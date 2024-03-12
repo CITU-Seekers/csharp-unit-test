@@ -20,18 +20,18 @@ namespace CodeChum
         private void displayText(Object sender, EventArgs e)
         {
             ToolStripMenuItem menuItem = sender as ToolStripMenuItem;
-            
+
             if (menuItem.Text.Equals("New"))
             {
-                StatusLabel.Text = "Creating new file...";
+                statusLabel.Text = "Creating new file...";
             }
             else if (menuItem.Text.Equals("Open"))
             {
-                StatusLabel.Text = "Opening file...";
+                statusLabel.Text = "Opening file...";
             }
             else if (menuItem.Text.Equals("Save"))
             {
-                StatusLabel.Text = "Saving file...";
+                statusLabel.Text = "Saving file...";
             }
             else if (menuItem.Text.Equals("Exit"))
             {
@@ -45,16 +45,21 @@ namespace CodeChum
 
             if (menuItem.Text.Equals("Red"))
             {
-                StatusLabel.ForeColor = Color.Red;
+                statusLabel.ForeColor = Color.Red;
             }
             else if (menuItem.Text.Equals("Green"))
             {
-                StatusLabel.ForeColor = Color.Green;
+                statusLabel.ForeColor = Color.Green;
             }
             else if (menuItem.Text.Equals("Blue"))
             {
-                StatusLabel.ForeColor = Color.Blue;
+                statusLabel.ForeColor = Color.Blue;
             }
+        }
+
+        private void formatMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -3,34 +3,34 @@
     public class LibraryListTests
     {
         LibraryList? form;
-        ListView? BookListView;
-        TextBox? AuthorTextBox, TitleTextBox, IsbnTextBox;
-        DateTimePicker? DatePublishedDateTimePicker;
-        Button? AddButton, RemoveButton;
+        ListView? bookListView;
+        TextBox? authorTextBox, titleTextBox, isbnTextBox;
+        DateTimePicker? datePublishedDateTimePicker;
+        Button? addButton, removeButton;
 
         public LibraryListTests()
         {
             form = new LibraryList();
             form.Show();
-            BookListView = (ListView)TestUtils.GetControlNamed(form, "BookListView", true);
-            AuthorTextBox = (TextBox)TestUtils.GetControlNamed(form, "AuthorTextBox", true);
-            TitleTextBox = (TextBox)TestUtils.GetControlNamed(form, "TitleTextBox", true);
-            IsbnTextBox = (TextBox)TestUtils.GetControlNamed(form, "IsbnTextBox", true);
-            DatePublishedDateTimePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "DatePublishedDateTimePicker", true);
-            AddButton = (Button)TestUtils.GetControlNamed(form, "AddButton", true);
-            RemoveButton = (Button)TestUtils.GetControlNamed(form, "RemoveButton", true);
+            bookListView = (ListView)TestUtils.GetControlNamed(form, "bookListView", true);
+            authorTextBox = (TextBox)TestUtils.GetControlNamed(form, "authorTextBox", true);
+            titleTextBox = (TextBox)TestUtils.GetControlNamed(form, "titleTextBox", true);
+            isbnTextBox = (TextBox)TestUtils.GetControlNamed(form, "isbnTextBox", true);
+            datePublishedDateTimePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "datePublishedDateTimePicker", true);
+            addButton = (Button)TestUtils.GetControlNamed(form, "addButton", true);
+            removeButton = (Button)TestUtils.GetControlNamed(form, "removeButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(BookListView);
-            Assert.NotNull(AuthorTextBox);
-            Assert.NotNull(TitleTextBox);
-            Assert.NotNull(IsbnTextBox);
-            Assert.NotNull(DatePublishedDateTimePicker);
-            Assert.NotNull(AddButton);
-            Assert.NotNull(RemoveButton);
+            Assert.NotNull(bookListView);
+            Assert.NotNull(authorTextBox);
+            Assert.NotNull(titleTextBox);
+            Assert.NotNull(isbnTextBox);
+            Assert.NotNull(datePublishedDateTimePicker);
+            Assert.NotNull(addButton);
+            Assert.NotNull(removeButton);
         }
 
         [Fact]
@@ -40,15 +40,15 @@
             string title = "TestTitle";
             string isbn = "TestISBN";
             DateTime date = DateTime.Now;
-            AuthorTextBox.Text = author;
-            TitleTextBox.Text = title;
-            IsbnTextBox.Text = isbn;
-            DatePublishedDateTimePicker.Value = date;
+            authorTextBox.Text = author;
+            titleTextBox.Text = title;
+            isbnTextBox.Text = isbn;
+            datePublishedDateTimePicker.Value = date;
 
             List<string> expected = new List<string>() { isbn, title, author, date.ToString() };
-            AddButton.PerformClick();
+            addButton.PerformClick();
             List<string> output = new List<string>();
-            var row = BookListView.Items[0];
+            var row = bookListView.Items[0];
             for (int i = 0; i < row.SubItems.Count; i++)
             {
                 output.Add(row.SubItems[i].Text);
@@ -64,17 +64,17 @@
             string title = "TestTitle";
             string isbn = "TestISBN";
             DateTime date = DateTime.Now;
-            AuthorTextBox.Text = author;
-            TitleTextBox.Text = title;
-            IsbnTextBox.Text = isbn;
-            DatePublishedDateTimePicker.Value = date;
+            authorTextBox.Text = author;
+            titleTextBox.Text = title;
+            isbnTextBox.Text = isbn;
+            datePublishedDateTimePicker.Value = date;
 
             string[] row = { isbn, title, author, date.ToString() };
-            BookListView.Items.Add(new ListViewItem(row));
-            BookListView.Items[0].Selected = true;
-            RemoveButton.PerformClick();
+            bookListView.Items.Add(new ListViewItem(row));
+            bookListView.Items[0].Selected = true;
+            removeButton.PerformClick();
 
-            Assert.Empty(BookListView.Items);
+            Assert.Empty(bookListView.Items);
         }
     }
 }

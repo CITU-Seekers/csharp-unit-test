@@ -3,27 +3,27 @@
     public class FindTheSpyTests
     {
         FindTheSpy? form;
-        Button? FirstButton, SecondButton, ThirdButton, FourthButton, FifthButton,
-            SixthButton, SeventhButton, EighthButton, NinthButton, TenthButton;
+        Button? firstButton, secondButton, thirdButton, fourthButton, fifthButton,
+            sixthButton, seventhButton, eighthButton, ninthButton, tenthButton;
         Button[] buttons;
 
         public FindTheSpyTests()
         {
             form = new FindTheSpy();
             form.Show();
-            FirstButton = (Button)TestUtils.GetControlNamed(form, "FirstButton", true);
-            SecondButton = (Button)TestUtils.GetControlNamed(form, "SecondButton", true);
-            ThirdButton = (Button)TestUtils.GetControlNamed(form, "ThirdButton", true);
-            FourthButton = (Button)TestUtils.GetControlNamed(form, "FourthButton", true);
-            FifthButton = (Button)TestUtils.GetControlNamed(form, "FifthButton", true);
-            SixthButton = (Button)TestUtils.GetControlNamed(form, "SixthButton", true);
-            SeventhButton = (Button)TestUtils.GetControlNamed(form, "SeventhButton", true);
-            EighthButton = (Button)TestUtils.GetControlNamed(form, "EighthButton", true);
-            NinthButton = (Button)TestUtils.GetControlNamed(form, "NinthButton", true);
-            TenthButton = (Button)TestUtils.GetControlNamed(form, "TenthButton", true);
+            firstButton = (Button)TestUtils.GetControlNamed(form, "firstButton", true);
+            secondButton = (Button)TestUtils.GetControlNamed(form, "secondButton", true);
+            thirdButton = (Button)TestUtils.GetControlNamed(form, "thirdButton", true);
+            fourthButton = (Button)TestUtils.GetControlNamed(form, "fourthButton", true);
+            fifthButton = (Button)TestUtils.GetControlNamed(form, "fifthButton", true);
+            sixthButton = (Button)TestUtils.GetControlNamed(form, "sixthButton", true);
+            seventhButton = (Button)TestUtils.GetControlNamed(form, "seventhButton", true);
+            eighthButton = (Button)TestUtils.GetControlNamed(form, "eighthButton", true);
+            ninthButton = (Button)TestUtils.GetControlNamed(form, "ninthButton", true);
+            tenthButton = (Button)TestUtils.GetControlNamed(form, "tenthButton", true);
             buttons = new Button[] {
-                FirstButton, SecondButton, ThirdButton, FourthButton, FifthButton,
-                SixthButton, SeventhButton, EighthButton, NinthButton, TenthButton
+                firstButton, secondButton, thirdButton, fourthButton, fifthButton,
+                sixthButton, seventhButton, eighthButton, ninthButton, tenthButton
             };
         }
 

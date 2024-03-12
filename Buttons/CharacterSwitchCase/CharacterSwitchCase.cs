@@ -20,7 +20,7 @@ namespace CodeChum
 
         private void SwitchCaseVowelsButton_Click(object sender, EventArgs e)
         {
-            StringBuilder sb = new StringBuilder(Label.Text);
+            StringBuilder sb = new StringBuilder(textLabel.Text);
 
             for (int i = 0; i < sb.Length; i++)
             {
@@ -39,12 +39,12 @@ namespace CodeChum
                 }
             }
 
-            Label.Text = sb.ToString();
+            textLabel.Text = sb.ToString();
         }
 
         private void SwitchCaseConsonantsButton_Click(object sender, EventArgs e)
         {
-            StringBuilder sb = new StringBuilder(Label.Text);
+            StringBuilder sb = new StringBuilder(textLabel.Text);
 
             for (int i = 0; i < sb.Length; i++)
             {
@@ -63,12 +63,12 @@ namespace CodeChum
                 }
             }
 
-            Label.Text = sb.ToString();
+            textLabel.Text = sb.ToString();
         }
 
         private void SwitchCaseAllButton_Click(object sender, EventArgs e)
         {
-            StringBuilder sb = new StringBuilder(Label.Text);
+            StringBuilder sb = new StringBuilder(textLabel.Text);
 
             for (int i = 0; i < sb.Length; i++)
             {
@@ -85,7 +85,7 @@ namespace CodeChum
                 
             }
 
-            Label.Text = sb.ToString();
+            textLabel.Text = sb.ToString();
         }
     }
 }

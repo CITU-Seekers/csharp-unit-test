@@ -3,111 +3,111 @@
     public class PersonalInformationFormTests
     {
         PersonalInformationForm? form;
-        ProgressBar? ProgressBar;
-        TextBox? NameTextBox, AddressTextBox, QuoteTextBox;
-        GroupBox? ProgrammingLanguageGroupBox;
-        CheckBox? ProgrammingLanguageCheckBox1, ProgrammingLanguageCheckBox2;
+        ProgressBar? formProgressBar;
+        TextBox? nameTextBox, addressTextBox, quoteTextBox;
+        GroupBox? programmingLanguageGroupBox;
+        CheckBox? programmingLanguageCheckBox1, programmingLanguageCheckBox2;
 
         public PersonalInformationFormTests()
         {
             form = new PersonalInformationForm();
-            ProgressBar = (ProgressBar)TestUtils.GetControlNamed(form, "ProgressBar", true);
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(form, "NameTextBox", true);
-            AddressTextBox = (TextBox)TestUtils.GetControlNamed(form, "AddressTextBox", true);
-            QuoteTextBox = (TextBox)TestUtils.GetControlNamed(form, "QuoteTextBox", true);
-            ProgrammingLanguageGroupBox = (GroupBox)TestUtils.GetControlNamed(form, "ProgrammingLanguageGroupBox", true);
-            ProgrammingLanguageCheckBox1 = (CheckBox)TestUtils.GetControlNamed(form, "ProgrammingLanguageCheckBox1", true);
-            ProgrammingLanguageCheckBox2 = (CheckBox)TestUtils.GetControlNamed(form, "ProgrammingLanguageCheckBox2", true);
+            formProgressBar = (ProgressBar)TestUtils.GetControlNamed(form, "formProgressBar", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(form, "nameTextBox", true);
+            addressTextBox = (TextBox)TestUtils.GetControlNamed(form, "addressTextBox", true);
+            quoteTextBox = (TextBox)TestUtils.GetControlNamed(form, "quoteTextBox", true);
+            programmingLanguageGroupBox = (GroupBox)TestUtils.GetControlNamed(form, "programmingLanguageGroupBox", true);
+            programmingLanguageCheckBox1 = (CheckBox)TestUtils.GetControlNamed(form, "programmingLanguageCheckBox1", true);
+            programmingLanguageCheckBox2 = (CheckBox)TestUtils.GetControlNamed(form, "programmingLanguageCheckBox2", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(ProgressBar);
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(AddressTextBox);
-            Assert.NotNull(QuoteTextBox);
-            Assert.NotNull(ProgrammingLanguageGroupBox);
-            Assert.NotNull(ProgrammingLanguageCheckBox1);
-            Assert.NotNull(ProgrammingLanguageCheckBox2);
+            Assert.NotNull(formProgressBar);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(addressTextBox);
+            Assert.NotNull(quoteTextBox);
+            Assert.NotNull(programmingLanguageGroupBox);
+            Assert.NotNull(programmingLanguageCheckBox1);
+            Assert.NotNull(programmingLanguageCheckBox2);
         }
 
         [Fact]
         public void ShouldIncreaseProgressOnTextChangeNameTextBox()
         {
-            NameTextBox.Text = "Test";
+            nameTextBox.Text = "Test";
 
-            Assert.NotEqual(0, ProgressBar.Value);
+            Assert.NotEqual(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldIncreaseProgressOnTextChangeAddressTextBox()
         {
-            AddressTextBox.Text = "Test";
+            addressTextBox.Text = "Test";
 
-            Assert.NotEqual(0, ProgressBar.Value);
+            Assert.NotEqual(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldIncreaseProgressOnTextChangeQuoteTextBox()
         {
-            QuoteTextBox.Text = "Test";
+            quoteTextBox.Text = "Test";
 
-            Assert.NotEqual(0, ProgressBar.Value);
+            Assert.NotEqual(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldIncreaseProgressOnCheckBoxCheck()
         {
-            ProgrammingLanguageCheckBox1.Checked = true;
+            programmingLanguageCheckBox1.Checked = true;
 
-            Assert.NotEqual(0, ProgressBar.Value);
+            Assert.NotEqual(0, formProgressBar.Value);
 
-            ProgrammingLanguageCheckBox1.Checked = false;
-            ProgrammingLanguageCheckBox2.Checked = true;
+            programmingLanguageCheckBox1.Checked = false;
+            programmingLanguageCheckBox2.Checked = true;
 
-            Assert.NotEqual(0, ProgressBar.Value);
+            Assert.NotEqual(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldDecreaseProgressOnTextChangeNameTextBoxEmpty()
         {
-            NameTextBox.Text = "Test";
-            NameTextBox.Text = "";
+            nameTextBox.Text = "Test";
+            nameTextBox.Text = "";
 
-            Assert.Equal(0, ProgressBar.Value);
+            Assert.Equal(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldDecreaseProgressOnTextChangeAddressTextBoxEmpty()
         {
-            AddressTextBox.Text = "Test";
-            AddressTextBox.Text = "";
+            addressTextBox.Text = "Test";
+            addressTextBox.Text = "";
 
-            Assert.Equal(0, ProgressBar.Value);
+            Assert.Equal(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldDecreaseProgressOnTextChangeQuoteTextBoxEmpty()
         {
-            QuoteTextBox.Text = "Test";
-            QuoteTextBox.Text = "";
+            quoteTextBox.Text = "Test";
+            quoteTextBox.Text = "";
 
-            Assert.Equal(0, ProgressBar.Value);
+            Assert.Equal(0, formProgressBar.Value);
         }
 
         [Fact]
         public void ShouldDecreaseProgressOnCheckBoxUnselect()
         {
-            ProgrammingLanguageCheckBox1.Checked = true;
-            ProgrammingLanguageCheckBox1.Checked = false;
+            programmingLanguageCheckBox1.Checked = true;
+            programmingLanguageCheckBox1.Checked = false;
 
-            Assert.Equal(0, ProgressBar.Value);
+            Assert.Equal(0, formProgressBar.Value);
 
-            ProgrammingLanguageCheckBox2.Checked = true;
-            ProgrammingLanguageCheckBox2.Checked = false;
+            programmingLanguageCheckBox2.Checked = true;
+            programmingLanguageCheckBox2.Checked = false;
 
-            Assert.Equal(0, ProgressBar.Value);
+            Assert.Equal(0, formProgressBar.Value);
         }
     }
 }

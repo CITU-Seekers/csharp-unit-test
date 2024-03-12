@@ -21,11 +21,11 @@ namespace CodeChum
         {
             try
             {
-                double number1 = Convert.ToDouble(TextNumber1.Text);
-                double number2 = Convert.ToDouble(TextNumber2.Text);
+                double number1 = Convert.ToDouble(number1TextBox.Text);
+                double number2 = Convert.ToDouble(number2TextBox.Text);
                 double result;
 
-                string operation = (string)OperationsComboBox.SelectedItem;
+                string operation = (string)operationsComboBox.SelectedItem;
 
                 switch (operation)
                 {
@@ -45,7 +45,7 @@ namespace CodeChum
                         return;
                 }
 
-                ResultLabel.Text = result.ToString("F");
+                resultLabel.Text = result.ToString("F");
             }
             catch (Exception ex)
             {

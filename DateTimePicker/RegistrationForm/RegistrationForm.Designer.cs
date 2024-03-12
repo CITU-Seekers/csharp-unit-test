@@ -28,62 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.EmailTextBox = new System.Windows.Forms.TextBox();
-            this.AddressTextBox = new System.Windows.Forms.TextBox();
-            this.BirthDatePicker = new System.Windows.Forms.DateTimePicker();
-            this.RegisterButton = new System.Windows.Forms.Button();
-            this.RegistrationLabel = new System.Windows.Forms.Label();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
+            this.addressTextBox = new System.Windows.Forms.TextBox();
+            this.birthDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.registerButton = new System.Windows.Forms.Button();
+            this.registrationLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(25, 27);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.PlaceholderText = "Name";
-            this.NameTextBox.Size = new System.Drawing.Size(291, 27);
-            this.NameTextBox.TabIndex = 0;
+            this.nameTextBox.Location = new System.Drawing.Point(25, 27);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.PlaceholderText = "Name";
+            this.nameTextBox.Size = new System.Drawing.Size(291, 27);
+            this.nameTextBox.TabIndex = 0;
             // 
-            // EmailTextBox
+            // emailTextBox
             // 
-            this.EmailTextBox.Location = new System.Drawing.Point(25, 69);
-            this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.PlaceholderText = "Email";
-            this.EmailTextBox.Size = new System.Drawing.Size(291, 27);
-            this.EmailTextBox.TabIndex = 1;
+            this.emailTextBox.Location = new System.Drawing.Point(25, 69);
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.PlaceholderText = "Email";
+            this.emailTextBox.Size = new System.Drawing.Size(291, 27);
+            this.emailTextBox.TabIndex = 1;
             // 
-            // AddressTextBox
+            // addressTextBox
             // 
-            this.AddressTextBox.Location = new System.Drawing.Point(25, 115);
-            this.AddressTextBox.Name = "AddressTextBox";
-            this.AddressTextBox.PlaceholderText = "Address";
-            this.AddressTextBox.Size = new System.Drawing.Size(291, 27);
-            this.AddressTextBox.TabIndex = 2;
+            this.addressTextBox.Location = new System.Drawing.Point(25, 115);
+            this.addressTextBox.Name = "addressTextBox";
+            this.addressTextBox.PlaceholderText = "Address";
+            this.addressTextBox.Size = new System.Drawing.Size(291, 27);
+            this.addressTextBox.TabIndex = 2;
             // 
-            // BirthDatePicker
+            // birthDatePicker
             // 
-            this.BirthDatePicker.Location = new System.Drawing.Point(26, 191);
-            this.BirthDatePicker.Name = "BirthDatePicker";
-            this.BirthDatePicker.Size = new System.Drawing.Size(290, 27);
-            this.BirthDatePicker.TabIndex = 3;
+            this.birthDatePicker.Location = new System.Drawing.Point(26, 191);
+            this.birthDatePicker.Name = "birthDatePicker";
+            this.birthDatePicker.Size = new System.Drawing.Size(290, 27);
+            this.birthDatePicker.TabIndex = 3;
             // 
-            // RegisterButton
+            // registerButton
             // 
-            this.RegisterButton.Location = new System.Drawing.Point(26, 238);
-            this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(290, 30);
-            this.RegisterButton.TabIndex = 4;
-            this.RegisterButton.Text = "RegisterTabPage";
-            this.RegisterButton.UseVisualStyleBackColor = true;
-            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
+            this.registerButton.Location = new System.Drawing.Point(26, 238);
+            this.registerButton.Name = "registerButton";
+            this.registerButton.Size = new System.Drawing.Size(290, 30);
+            this.registerButton.TabIndex = 4;
+            this.registerButton.Text = "RegisterTabPage";
+            this.registerButton.UseVisualStyleBackColor = true;
+            this.registerButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
-            // RegistrationLabel
+            // registrationLabel
             // 
-            this.RegistrationLabel.Location = new System.Drawing.Point(33, 293);
-            this.RegistrationLabel.Name = "RegistrationLabel";
-            this.RegistrationLabel.Size = new System.Drawing.Size(283, 134);
-            this.RegistrationLabel.TabIndex = 5;
+            this.registrationLabel.Location = new System.Drawing.Point(33, 293);
+            this.registrationLabel.Name = "registrationLabel";
+            this.registrationLabel.Size = new System.Drawing.Size(283, 134);
+            this.registrationLabel.TabIndex = 5;
             // 
             // label1
             // 
@@ -101,12 +101,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 455);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.RegistrationLabel);
-            this.Controls.Add(this.RegisterButton);
-            this.Controls.Add(this.BirthDatePicker);
-            this.Controls.Add(this.AddressTextBox);
-            this.Controls.Add(this.EmailTextBox);
-            this.Controls.Add(this.NameTextBox);
+            this.Controls.Add(this.registrationLabel);
+            this.Controls.Add(this.registerButton);
+            this.Controls.Add(this.birthDatePicker);
+            this.Controls.Add(this.addressTextBox);
+            this.Controls.Add(this.emailTextBox);
+            this.Controls.Add(this.nameTextBox);
             this.Name = "RegistrationForm";
             this.Text = "Registration Form";
             this.ResumeLayout(false);
@@ -116,12 +116,12 @@
 
         #endregion
 
-        private TextBox NameTextBox;
-        private TextBox EmailTextBox;
-        private TextBox AddressTextBox;
-        private DateTimePicker BirthDatePicker;
-        private Button RegisterButton;
-        private Label RegistrationLabel;
+        private TextBox nameTextBox;
+        private TextBox emailTextBox;
+        private TextBox addressTextBox;
+        private DateTimePicker birthDatePicker;
+        private Button registerButton;
+        private Label registrationLabel;
         private Label label1;
     }
 }

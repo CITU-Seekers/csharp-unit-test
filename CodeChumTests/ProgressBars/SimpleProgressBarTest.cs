@@ -5,30 +5,30 @@ namespace CodeChum.Tests
     public class SimpleProgressBarTests
     {
         SimpleProgressBar? form;
-        ProgressBar? ProgressBar;
-        Button? StartButton;
+        ProgressBar? timedProgressBar;
+        Button? startButton;
         public SimpleProgressBarTests()
         {
             form = new SimpleProgressBar();
             form.Show();
-            ProgressBar = (ProgressBar)TestUtils.GetControlNamed(form, "ProgressBar", true);
-            StartButton = (Button)TestUtils.GetControlNamed(form, "StartButton", true);
+            timedProgressBar = (ProgressBar)TestUtils.GetControlNamed(form, "timedProgressBar", true);
+            startButton = (Button)TestUtils.GetControlNamed(form, "startButton", true);
         }
 
         [Fact]
         public void HasAllControls()
         {
-            Assert.NotNull(ProgressBar);
-            Assert.NotNull(StartButton);
+            Assert.NotNull(timedProgressBar);
+            Assert.NotNull(startButton);
         }
 
         [Fact]
         public void ShouldStartOnButtonClick()
         {
-            StartButton.PerformClick();
+            startButton.PerformClick();
             wait(5000);
 
-            Assert.NotEqual(0, ProgressBar.Value);
+            Assert.NotEqual(0, timedProgressBar.Value);
         }
 
         public void wait(int milliseconds)

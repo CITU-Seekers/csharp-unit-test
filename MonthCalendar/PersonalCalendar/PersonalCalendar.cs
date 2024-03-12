@@ -22,26 +22,26 @@ namespace CodeChum
 
         private void AddEventButton_Click(object sender, EventArgs e)
         {
-            if (EventNameTextBox.Text.Length != 0)
+            if (eventNameTextBox.Text.Length != 0)
             {
-                DateTime date = DateTime.ParseExact(MonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
+                DateTime date = DateTime.ParseExact(personalMonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
              
                 
                 string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month) 
                     + " " + date.Day + ", " + date.Year;
                 
-                events.AddEvent(dateString, EventNameTextBox.Text);
-                EventLabel.Text = events.RetrieveEvent(dateString);
+                events.AddEvent(dateString, eventNameTextBox.Text);
+                eventLabel.Text = events.RetrieveEvent(dateString);
             }
         }
 
         private void RetrieveEventButton_Click(object sender, EventArgs e)
         {
-            DateTime date = DateTime.ParseExact(MonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
+            DateTime date = DateTime.ParseExact(personalMonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
             string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month)
                    + " " + date.Day + ", " + date.Year;
 
-            EventLabel.Text = events.RetrieveEvent(dateString);
+            eventLabel.Text = events.RetrieveEvent(dateString);
         }
     }
 }

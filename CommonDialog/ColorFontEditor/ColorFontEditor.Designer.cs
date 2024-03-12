@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.ColorButton = new System.Windows.Forms.Button();
-            this.FontButton = new System.Windows.Forms.Button();
+            this.mainRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.colorButton = new System.Windows.Forms.Button();
+            this.fontButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // MainRichTextBox
+            // mainRichTextBox
             // 
-            this.MainRichTextBox.Location = new System.Drawing.Point(12, 87);
-            this.MainRichTextBox.Name = "MainRichTextBox";
-            this.MainRichTextBox.Size = new System.Drawing.Size(440, 199);
-            this.MainRichTextBox.TabIndex = 0;
-            this.MainRichTextBox.Text = "";
+            this.mainRichTextBox.Location = new System.Drawing.Point(12, 87);
+            this.mainRichTextBox.Name = "mainRichTextBox";
+            this.mainRichTextBox.Size = new System.Drawing.Size(440, 199);
+            this.mainRichTextBox.TabIndex = 0;
+            this.mainRichTextBox.Text = "";
             // 
-            // ColorButton
+            // colorButton
             // 
-            this.ColorButton.Location = new System.Drawing.Point(53, 26);
-            this.ColorButton.Name = "OpenFileButton";
-            this.ColorButton.Size = new System.Drawing.Size(116, 37);
-            this.ColorButton.TabIndex = 1;
-            this.ColorButton.Text = "Color";
-            this.ColorButton.UseVisualStyleBackColor = true;
-            this.ColorButton.Click += new System.EventHandler(this.ColorButton_Click);
+            this.colorButton.Location = new System.Drawing.Point(53, 26);
+            this.colorButton.Name = "OpenFileButton";
+            this.colorButton.Size = new System.Drawing.Size(116, 37);
+            this.colorButton.TabIndex = 1;
+            this.colorButton.Text = "Color";
+            this.colorButton.UseVisualStyleBackColor = true;
+            this.colorButton.Click += new System.EventHandler(this.ColorButton_Click);
             // 
-            // FontButton
+            // fontButton
             // 
-            this.FontButton.Location = new System.Drawing.Point(287, 26);
-            this.FontButton.Name = "SaveFileButton";
-            this.FontButton.Size = new System.Drawing.Size(116, 37);
-            this.FontButton.TabIndex = 2;
-            this.FontButton.Text = "Font";
-            this.FontButton.UseVisualStyleBackColor = true;
-            this.FontButton.Click += new System.EventHandler(this.FontButton_Click);
+            this.fontButton.Location = new System.Drawing.Point(287, 26);
+            this.fontButton.Name = "SaveFileButton";
+            this.fontButton.Size = new System.Drawing.Size(116, 37);
+            this.fontButton.TabIndex = 2;
+            this.fontButton.Text = "Font";
+            this.fontButton.UseVisualStyleBackColor = true;
+            this.fontButton.Click += new System.EventHandler(this.FontButton_Click);
             // 
             // ColorFontEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 298);
-            this.Controls.Add(this.FontButton);
-            this.Controls.Add(this.ColorButton);
-            this.Controls.Add(this.MainRichTextBox);
+            this.Controls.Add(this.fontButton);
+            this.Controls.Add(this.colorButton);
+            this.Controls.Add(this.mainRichTextBox);
             this.Name = "ColorFontEditor";
             this.Text = "Color & Font Editor";
             this.ResumeLayout(false);
@@ -77,8 +77,8 @@
 
         #endregion
 
-        private RichTextBox MainRichTextBox;
-        private Button ColorButton;
-        private Button FontButton;
+        private RichTextBox mainRichTextBox;
+        private Button colorButton;
+        private Button fontButton;
     }
 }

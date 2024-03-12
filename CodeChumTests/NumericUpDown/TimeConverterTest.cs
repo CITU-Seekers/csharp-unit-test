@@ -3,23 +3,23 @@
     public class TimeConverterTests
     {
         TimeConverter? form;
-        NumericUpDown? HourNumericControl, MinuteNumericControl;
-        Label? TwelveHourLabel;
+        NumericUpDown? hourNumericUpDown, minuteNumericUpDown;
+        Label? twelveHourLabel;
 
         public TimeConverterTests()
         {
             form = new TimeConverter();
-            HourNumericControl = (NumericUpDown)TestUtils.GetControlNamed(form, "HourNumericControl", true);
-            MinuteNumericControl = (NumericUpDown)TestUtils.GetControlNamed(form, "MinuteNumericControl", true);
-            TwelveHourLabel = (Label)TestUtils.GetControlNamed(form, "TwelveHourLabel", true);
+            hourNumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "hourNumericUpDown", true);
+            minuteNumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "minuteNumericUpDown", true);
+            twelveHourLabel = (Label)TestUtils.GetControlNamed(form, "twelveHourLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(HourNumericControl);
-            Assert.NotNull(MinuteNumericControl);
-            Assert.NotNull(TwelveHourLabel);
+            Assert.NotNull(hourNumericUpDown);
+            Assert.NotNull(minuteNumericUpDown);
+            Assert.NotNull(twelveHourLabel);
         }
 
         [Fact]
@@ -28,8 +28,8 @@
             int hourMax = 23;
             int hourMin = 0;
 
-            Assert.Equal(HourNumericControl.Maximum, hourMax);
-            Assert.Equal(HourNumericControl.Minimum, hourMin);
+            Assert.Equal(hourNumericUpDown.Maximum, hourMax);
+            Assert.Equal(hourNumericUpDown.Minimum, hourMin);
         }
 
         [Fact]
@@ -38,8 +38,8 @@
             int minuteMax = 59;
             int minuteMin = 0;
 
-            Assert.Equal(MinuteNumericControl.Maximum, minuteMax);
-            Assert.Equal(MinuteNumericControl.Minimum, minuteMin);
+            Assert.Equal(minuteNumericUpDown.Maximum, minuteMax);
+            Assert.Equal(minuteNumericUpDown.Minimum, minuteMin);
         }
 
         [Fact]
@@ -49,10 +49,10 @@
             int minute = 50;
             string time = "6:50 AM";
 
-            HourNumericControl.Value = hour;
-            MinuteNumericControl.Value = minute;
+            hourNumericUpDown.Value = hour;
+            minuteNumericUpDown.Value = minute;
 
-            Assert.Equal(time, TwelveHourLabel.Text);
+            Assert.Equal(time, twelveHourLabel.Text);
         }
 
         [Fact]
@@ -62,10 +62,10 @@
             int minute = 5;
             string time = "3:05 PM";
 
-            HourNumericControl.Value = hour;
-            MinuteNumericControl.Value = minute;
+            hourNumericUpDown.Value = hour;
+            minuteNumericUpDown.Value = minute;
 
-            Assert.Equal(time, TwelveHourLabel.Text);
+            Assert.Equal(time, twelveHourLabel.Text);
         }
     }
 }

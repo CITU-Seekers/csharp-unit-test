@@ -19,55 +19,55 @@ namespace CodeChum
 
         private void NoRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if (NoRadioButton.Checked)
+            if (noRadioButton.Checked)
             {
-                if (RespondentNameTextBox.TextLength > 0)
+                if (respondentNameTextBox.TextLength > 0)
                 {
-                    SubmitButton.Enabled = true;
-                    PetDetailsPanel.Visible = false;
+                    submitButton.Enabled = true;
+                    petDetailsPanel.Visible = false;
                 }
                 else 
                 {
-                    SubmitButton.Enabled = false;
+                    submitButton.Enabled = false;
                 }
             }
         }
 
         private void YesRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if (YesRadioButton.Checked)
+            if (yesRadioButton.Checked)
             {
-                PetDetailsPanel.Visible = true;
-                if (RespondentNameTextBox.TextLength > 0 && 
-                    PetNameTextBox.TextLength > 0 &&
-                    PetTypeTextBox.TextLength > 0)
+                petDetailsPanel.Visible = true;
+                if (respondentNameTextBox.TextLength > 0 && 
+                    petNameTextBox.TextLength > 0 &&
+                    petTypeTextBox.TextLength > 0)
                 {
-                    SubmitButton.Enabled = true;
+                    submitButton.Enabled = true;
                 }
                 else
                 {
-                    SubmitButton.Enabled = false;
+                    submitButton.Enabled = false;
                 }
             }
         }
 
         private bool CheckAllIfNonEmpty()
         {
-            return RespondentNameTextBox.TextLength > 0 && PetNameTextBox.TextLength > 0 && PetTypeTextBox.TextLength > 0;
+            return respondentNameTextBox.TextLength > 0 && petNameTextBox.TextLength > 0 && petTypeTextBox.TextLength > 0;
         }
         private void RespondentNameTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (YesRadioButton.Checked && CheckAllIfNonEmpty())
+            if (yesRadioButton.Checked && CheckAllIfNonEmpty())
             {
-                SubmitButton.Enabled = true;
+                submitButton.Enabled = true;
             }
-            else if (NoRadioButton.Checked && RespondentNameTextBox.TextLength > 0)
+            else if (noRadioButton.Checked && respondentNameTextBox.TextLength > 0)
             {
-                SubmitButton.Enabled = true;
+                submitButton.Enabled = true;
             }
             else
             {
-                SubmitButton.Enabled = false;
+                submitButton.Enabled = false;
             }
         }
 
@@ -75,11 +75,11 @@ namespace CodeChum
         {
             if (CheckAllIfNonEmpty())
             {
-                SubmitButton.Enabled = true;
+                submitButton.Enabled = true;
             }
             else
             {
-                SubmitButton.Enabled = false;
+                submitButton.Enabled = false;
             }
         }
 
@@ -87,11 +87,11 @@ namespace CodeChum
         {
             if (CheckAllIfNonEmpty())
             {
-                SubmitButton.Enabled = true;
+                submitButton.Enabled = true;
             }
             else
             {
-                SubmitButton.Enabled = false;
+                submitButton.Enabled = false;
             }
         }
 

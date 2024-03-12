@@ -3,26 +3,26 @@
     public class TextRepeaterTests
     {
         TextRepeater? form;
-        TextBox? InputTextBox, NumberTextBox, ResultTextBox;
-        Button? DisplayTextButton;
+        TextBox? inputTextBox, numberTextBox, resultTextBox;
+        Button? displayTextButton;
 
         public TextRepeaterTests()
         {
             form = new TextRepeater();
             form.Show();
-            InputTextBox = (TextBox)TestUtils.GetControlNamed(form, "InputTextBox", true);
-            NumberTextBox = (TextBox)TestUtils.GetControlNamed(form, "NumberTextBox", true);
-            ResultTextBox = (TextBox)TestUtils.GetControlNamed(form, "ResultTextBox", true);
-            DisplayTextButton = (Button)TestUtils.GetControlNamed(form, "DisplayTextButton", true);
+            inputTextBox = (TextBox)TestUtils.GetControlNamed(form, "inputTextBox", true);
+            numberTextBox = (TextBox)TestUtils.GetControlNamed(form, "numberTextBox", true);
+            resultTextBox = (TextBox)TestUtils.GetControlNamed(form, "resultTextBox", true);
+            displayTextButton = (Button)TestUtils.GetControlNamed(form, "displayTextButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(InputTextBox);
-            Assert.NotNull(NumberTextBox);
-            Assert.NotNull(ResultTextBox);
-            Assert.NotNull(DisplayTextButton);
+            Assert.NotNull(inputTextBox);
+            Assert.NotNull(numberTextBox);
+            Assert.NotNull(resultTextBox);
+            Assert.NotNull(displayTextButton);
         }
 
         [Fact]
@@ -32,11 +32,11 @@
             string codechum = "CodeChum";
             int count = 3;
 
-            InputTextBox.Text = codechum;
-            NumberTextBox.Text = count.ToString();
-            DisplayTextButton.PerformClick();
+            inputTextBox.Text = codechum;
+            numberTextBox.Text = count.ToString();
+            displayTextButton.PerformClick();
 
-            Assert.Equal(ResultTextBox.Text, expected);
+            Assert.Equal(resultTextBox.Text, expected);
         }
     }
 }

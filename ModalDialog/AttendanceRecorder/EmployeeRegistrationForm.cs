@@ -19,7 +19,7 @@ namespace CodeChum
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            Employee newEmployee = new Employee(int.Parse(IdTextBox.Text), NameTextBox.Text);
+            Employee newEmployee = new Employee(int.Parse(idTextBox.Text), nameTextBox.Text);
             EmployeeList.addEmployee(newEmployee);
             this.Close();
         }

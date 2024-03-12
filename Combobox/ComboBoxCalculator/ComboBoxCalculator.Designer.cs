@@ -28,59 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TextNumber1 = new System.Windows.Forms.TextBox();
-            this.TextNumber2 = new System.Windows.Forms.TextBox();
-            this.OperationsComboBox = new System.Windows.Forms.ComboBox();
-            this.ComputeButton = new System.Windows.Forms.Button();
-            this.ResultLabel = new System.Windows.Forms.Label();
+            this.number1TextBox = new System.Windows.Forms.TextBox();
+            this.number2TextBox = new System.Windows.Forms.TextBox();
+            this.operationsComboBox = new System.Windows.Forms.ComboBox();
+            this.computeButton = new System.Windows.Forms.Button();
+            this.resultLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // TextNumber1
+            // number1TextBox
             // 
-            this.TextNumber1.Location = new System.Drawing.Point(29, 37);
-            this.TextNumber1.Name = "TextNumber1";
-            this.TextNumber1.Size = new System.Drawing.Size(74, 27);
-            this.TextNumber1.TabIndex = 0;
+            this.number1TextBox.Location = new System.Drawing.Point(29, 37);
+            this.number1TextBox.Name = "number1TextBox";
+            this.number1TextBox.Size = new System.Drawing.Size(74, 27);
+            this.number1TextBox.TabIndex = 0;
             // 
-            // TextNumber2
+            // number2TextBox
             // 
-            this.TextNumber2.Location = new System.Drawing.Point(218, 36);
-            this.TextNumber2.Name = "TextNumber2";
-            this.TextNumber2.Size = new System.Drawing.Size(63, 27);
-            this.TextNumber2.TabIndex = 1;
+            this.number2TextBox.Location = new System.Drawing.Point(218, 36);
+            this.number2TextBox.Name = "number2TextBox";
+            this.number2TextBox.Size = new System.Drawing.Size(63, 27);
+            this.number2TextBox.TabIndex = 1;
             // 
-            // OperationsComboBox
+            // operationsComboBox
             // 
-            this.OperationsComboBox.FormattingEnabled = true;
-            this.OperationsComboBox.Items.AddRange(new object[] {
+            this.operationsComboBox.FormattingEnabled = true;
+            this.operationsComboBox.Items.AddRange(new object[] {
             "+",
             "-",
             "*",
             "/"});
-            this.OperationsComboBox.Location = new System.Drawing.Point(127, 36);
-            this.OperationsComboBox.Name = "OperationsComboBox";
-            this.OperationsComboBox.Size = new System.Drawing.Size(70, 28);
-            this.OperationsComboBox.TabIndex = 2;
+            this.operationsComboBox.Location = new System.Drawing.Point(127, 36);
+            this.operationsComboBox.Name = "operationsComboBox";
+            this.operationsComboBox.Size = new System.Drawing.Size(70, 28);
+            this.operationsComboBox.TabIndex = 2;
             // 
-            // ComputeButton
+            // computeButton
             // 
-            this.ComputeButton.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ComputeButton.Location = new System.Drawing.Point(143, 99);
-            this.ComputeButton.Name = "ComputeButton";
-            this.ComputeButton.Size = new System.Drawing.Size(150, 36);
-            this.ComputeButton.TabIndex = 3;
-            this.ComputeButton.Text = "Calculate";
-            this.ComputeButton.UseVisualStyleBackColor = true;
-            this.ComputeButton.Click += new System.EventHandler(this.ComputeButton_Click);
+            this.computeButton.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.computeButton.Location = new System.Drawing.Point(143, 99);
+            this.computeButton.Name = "computeButton";
+            this.computeButton.Size = new System.Drawing.Size(150, 36);
+            this.computeButton.TabIndex = 3;
+            this.computeButton.Text = "Calculate";
+            this.computeButton.UseVisualStyleBackColor = true;
+            this.computeButton.Click += new System.EventHandler(this.ComputeButton_Click);
             // 
-            // ResultLabel
+            // resultLabel
             // 
-            this.ResultLabel.AutoSize = true;
-            this.ResultLabel.Location = new System.Drawing.Point(331, 39);
-            this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(0, 20);
-            this.ResultLabel.TabIndex = 4;
+            this.resultLabel.AutoSize = true;
+            this.resultLabel.Location = new System.Drawing.Point(331, 39);
+            this.resultLabel.Name = "resultLabel";
+            this.resultLabel.Size = new System.Drawing.Size(0, 20);
+            this.resultLabel.TabIndex = 4;
             // 
             // label1
             // 
@@ -97,11 +97,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(443, 160);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ResultLabel);
-            this.Controls.Add(this.ComputeButton);
-            this.Controls.Add(this.OperationsComboBox);
-            this.Controls.Add(this.TextNumber2);
-            this.Controls.Add(this.TextNumber1);
+            this.Controls.Add(this.resultLabel);
+            this.Controls.Add(this.computeButton);
+            this.Controls.Add(this.operationsComboBox);
+            this.Controls.Add(this.number2TextBox);
+            this.Controls.Add(this.number1TextBox);
             this.Name = "ComboBoxCalculator";
             this.Text = "Combo Box Calculator";
             this.ResumeLayout(false);
@@ -111,11 +111,11 @@
 
         #endregion
 
-        private TextBox TextNumber1;
-        private TextBox TextNumber2;
-        private System.Windows.Forms.ComboBox OperationsComboBox;
-        private Button ComputeButton;
-        private Label ResultLabel;
+        private TextBox number1TextBox;
+        private TextBox number2TextBox;
+        private System.Windows.Forms.ComboBox operationsComboBox;
+        private Button computeButton;
+        private Label resultLabel;
         private Label label1;
     }
 }

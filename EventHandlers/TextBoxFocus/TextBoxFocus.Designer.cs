@@ -28,108 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.FirstTextBox = new System.Windows.Forms.TextBox();
-            this.SecondTextBox = new System.Windows.Forms.TextBox();
-            this.ThirdTextBox = new System.Windows.Forms.TextBox();
-            this.MessageLabel = new System.Windows.Forms.Label();
-            this.FirstTextBoxFocusButton = new System.Windows.Forms.Button();
-            this.SecondTextBoxFocusButton = new System.Windows.Forms.Button();
-            this.ThirdTextBoxFocusButton = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            firstTextBox = new TextBox();
+            secondTextBox = new TextBox();
+            thirdTextBox = new TextBox();
+            messageLabel = new Label();
+            firstTextBoxFocusButton = new Button();
+            secondTextBoxFocusButton = new Button();
+            thirdTextBoxFocusButton = new Button();
+            SuspendLayout();
             // 
-            // FirstTextBox
+            // firstTextBox
             // 
-            this.FirstTextBox.Location = new System.Drawing.Point(22, 78);
-            this.FirstTextBox.Name = "FirstTextBox";
-            this.FirstTextBox.PlaceholderText = "First Text Box";
-            this.FirstTextBox.Size = new System.Drawing.Size(370, 27);
-            this.FirstTextBox.TabIndex = 0;
-            this.FirstTextBox.Enter += new System.EventHandler(this.FirstTextBox_Enter);
+            firstTextBox.Location = new Point(19, 58);
+            firstTextBox.Margin = new Padding(3, 2, 3, 2);
+            firstTextBox.Name = "firstTextBox";
+            firstTextBox.PlaceholderText = "First Text Box";
+            firstTextBox.Size = new Size(324, 23);
+            firstTextBox.TabIndex = 0;
+            firstTextBox.Enter += FirstTextBox_Enter;
             // 
-            // SecondTextBox
+            // secondTextBox
             // 
-            this.SecondTextBox.Location = new System.Drawing.Point(22, 117);
-            this.SecondTextBox.Name = "SecondTextBox";
-            this.SecondTextBox.PlaceholderText = "Second Text Box";
-            this.SecondTextBox.Size = new System.Drawing.Size(370, 27);
-            this.SecondTextBox.TabIndex = 1;
-            this.SecondTextBox.Enter += new System.EventHandler(this.SecondTextBox_Enter);
+            secondTextBox.Location = new Point(19, 88);
+            secondTextBox.Margin = new Padding(3, 2, 3, 2);
+            secondTextBox.Name = "secondTextBox";
+            secondTextBox.PlaceholderText = "Second Text Box";
+            secondTextBox.Size = new Size(324, 23);
+            secondTextBox.TabIndex = 1;
+            secondTextBox.Enter += SecondTextBox_Enter;
             // 
-            // ThirdTextBox
+            // thirdTextBox
             // 
-            this.ThirdTextBox.Location = new System.Drawing.Point(22, 159);
-            this.ThirdTextBox.Name = "ThirdTextBox";
-            this.ThirdTextBox.PlaceholderText = "Third Text Box";
-            this.ThirdTextBox.Size = new System.Drawing.Size(370, 27);
-            this.ThirdTextBox.TabIndex = 2;
-            this.ThirdTextBox.Enter += new System.EventHandler(this.ThirdTextBox_Enter);
+            thirdTextBox.Location = new Point(19, 119);
+            thirdTextBox.Margin = new Padding(3, 2, 3, 2);
+            thirdTextBox.Name = "thirdTextBox";
+            thirdTextBox.PlaceholderText = "Third Text Box";
+            thirdTextBox.Size = new Size(324, 23);
+            thirdTextBox.TabIndex = 2;
+            thirdTextBox.Enter += ThirdTextBox_Enter;
             // 
-            // MessageLabel
+            // messageLabel
             // 
-            this.MessageLabel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MessageLabel.Location = new System.Drawing.Point(95, 31);
-            this.MessageLabel.Name = "MessageLabel";
-            this.MessageLabel.Size = new System.Drawing.Size(237, 30);
-            this.MessageLabel.TabIndex = 3;
-            this.MessageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            messageLabel.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            messageLabel.Location = new Point(83, 23);
+            messageLabel.Name = "messageLabel";
+            messageLabel.Size = new Size(207, 22);
+            messageLabel.TabIndex = 3;
+            messageLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // FirstTextBoxFocusButton
+            // firstTextBoxFocusButton
             // 
-            this.FirstTextBoxFocusButton.Location = new System.Drawing.Point(25, 215);
-            this.FirstTextBoxFocusButton.Name = "FirstTextBoxFocusButton";
-            this.FirstTextBoxFocusButton.Size = new System.Drawing.Size(94, 29);
-            this.FirstTextBoxFocusButton.TabIndex = 4;
-            this.FirstTextBoxFocusButton.Text = "1";
-            this.FirstTextBoxFocusButton.UseVisualStyleBackColor = true;
-            this.FirstTextBoxFocusButton.Click += new System.EventHandler(this.FocusOnTextBox);
+            firstTextBoxFocusButton.Location = new Point(31, 161);
+            firstTextBoxFocusButton.Margin = new Padding(3, 2, 3, 2);
+            firstTextBoxFocusButton.Name = "firstTextBoxFocusButton";
+            firstTextBoxFocusButton.Size = new Size(82, 22);
+            firstTextBoxFocusButton.TabIndex = 4;
+            firstTextBoxFocusButton.Text = "1";
+            firstTextBoxFocusButton.UseVisualStyleBackColor = true;
+            firstTextBoxFocusButton.Click += FocusOnTextBox;
             // 
-            // SecondTextBoxFocusButton
+            // secondTextBoxFocusButton
             // 
-            this.SecondTextBoxFocusButton.Location = new System.Drawing.Point(166, 215);
-            this.SecondTextBoxFocusButton.Name = "SecondTextBoxFocusButton";
-            this.SecondTextBoxFocusButton.Size = new System.Drawing.Size(94, 29);
-            this.SecondTextBoxFocusButton.TabIndex = 5;
-            this.SecondTextBoxFocusButton.Text = "2";
-            this.SecondTextBoxFocusButton.UseVisualStyleBackColor = true;
-            this.SecondTextBoxFocusButton.Click += new System.EventHandler(this.FocusOnTextBox);
+            secondTextBoxFocusButton.Location = new Point(145, 161);
+            secondTextBoxFocusButton.Margin = new Padding(3, 2, 3, 2);
+            secondTextBoxFocusButton.Name = "secondTextBoxFocusButton";
+            secondTextBoxFocusButton.Size = new Size(82, 22);
+            secondTextBoxFocusButton.TabIndex = 5;
+            secondTextBoxFocusButton.Text = "2";
+            secondTextBoxFocusButton.UseVisualStyleBackColor = true;
+            secondTextBoxFocusButton.Click += FocusOnTextBox;
             // 
-            // ThirdTextBoxFocusButton
+            // thirdTextBoxFocusButton
             // 
-            this.ThirdTextBoxFocusButton.Location = new System.Drawing.Point(298, 215);
-            this.ThirdTextBoxFocusButton.Name = "ThirdTextBoxFocusButton";
-            this.ThirdTextBoxFocusButton.Size = new System.Drawing.Size(94, 29);
-            this.ThirdTextBoxFocusButton.TabIndex = 6;
-            this.ThirdTextBoxFocusButton.Text = "3";
-            this.ThirdTextBoxFocusButton.UseVisualStyleBackColor = true;
-            this.ThirdTextBoxFocusButton.Click += new System.EventHandler(this.FocusOnTextBox);
+            thirdTextBoxFocusButton.Location = new Point(261, 161);
+            thirdTextBoxFocusButton.Margin = new Padding(3, 2, 3, 2);
+            thirdTextBoxFocusButton.Name = "thirdTextBoxFocusButton";
+            thirdTextBoxFocusButton.Size = new Size(82, 22);
+            thirdTextBoxFocusButton.TabIndex = 6;
+            thirdTextBoxFocusButton.Text = "3";
+            thirdTextBoxFocusButton.UseVisualStyleBackColor = true;
+            thirdTextBoxFocusButton.Click += FocusOnTextBox;
             // 
             // TextBoxFocus
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 272);
-            this.Controls.Add(this.ThirdTextBoxFocusButton);
-            this.Controls.Add(this.SecondTextBoxFocusButton);
-            this.Controls.Add(this.FirstTextBoxFocusButton);
-            this.Controls.Add(this.MessageLabel);
-            this.Controls.Add(this.ThirdTextBox);
-            this.Controls.Add(this.SecondTextBox);
-            this.Controls.Add(this.FirstTextBox);
-            this.Name = "TextBoxFocus";
-            this.Text = "Focusing on TextBoxes";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(360, 204);
+            Controls.Add(thirdTextBoxFocusButton);
+            Controls.Add(secondTextBoxFocusButton);
+            Controls.Add(firstTextBoxFocusButton);
+            Controls.Add(messageLabel);
+            Controls.Add(thirdTextBox);
+            Controls.Add(secondTextBox);
+            Controls.Add(firstTextBox);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "TextBoxFocus";
+            Text = "Focusing on TextBoxes";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TextBox FirstTextBox;
-        private TextBox SecondTextBox;
-        private TextBox ThirdTextBox;
-        private Label MessageLabel;
-        private Button FirstTextBoxFocusButton;
-        private Button SecondTextBoxFocusButton;
-        private Button ThirdTextBoxFocusButton;
+        private TextBox firstTextBox;
+        private TextBox secondTextBox;
+        private TextBox thirdTextBox;
+        private Label messageLabel;
+        private Button firstTextBoxFocusButton;
+        private Button secondTextBoxFocusButton;
+        private Button thirdTextBoxFocusButton;
     }
 }

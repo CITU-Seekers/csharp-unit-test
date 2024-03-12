@@ -3,56 +3,56 @@
     public class SimpleLabelsTests
     {
         SimpleLabels? form;
-        Label? Label1, Label2, Label3, Label4;
+        Label? helloWorldLabel, programmingLabel, codechumLabel, csharpLabel;
 
         public SimpleLabelsTests()
         {
             form = new SimpleLabels();
-            Label1 = (Label)TestUtils.GetControlNamed(form, "Label1", true);
-            Label2 = (Label)TestUtils.GetControlNamed(form, "Label2", true);
-            Label3 = (Label)TestUtils.GetControlNamed(form, "Label3", true);
-            Label4 = (Label)TestUtils.GetControlNamed(form, "Label4", true);
+            helloWorldLabel = (Label)TestUtils.GetControlNamed(form, "helloWorldLabel", true);
+            programmingLabel = (Label)TestUtils.GetControlNamed(form, "programmingLabel", true);
+            codechumLabel = (Label)TestUtils.GetControlNamed(form, "codechumLabel", true);
+            csharpLabel = (Label)TestUtils.GetControlNamed(form, "csharpLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(Label1);
-            Assert.NotNull(Label2);
-            Assert.NotNull(Label3);
-            Assert.NotNull(Label4);
+            Assert.NotNull(helloWorldLabel);
+            Assert.NotNull(programmingLabel);
+            Assert.NotNull(codechumLabel);
+            Assert.NotNull(csharpLabel);
         }
 
         [Fact]
-        public void ShouldHaveCorrectValueInLabel1()
+        public void ShouldHaveCorrectValueInhelloWorldLabel()
         {
             string label1 = "Hello World!";
 
-            Assert.Equal(label1, Label1.Text);
+            Assert.Equal(label1, helloWorldLabel.Text);
         }
 
         [Fact]
-        public void ShouldHaveCorrectValueInLabel2()
+        public void ShouldHaveCorrectValueInprogrammingLabel()
         {
             string label2 = "I love programming";
 
-            Assert.Equal(label2, Label2.Text);
+            Assert.Equal(label2, programmingLabel.Text);
         }
 
         [Fact]
-        public void ShouldHaveCorrectValueInLabel3()
+        public void ShouldHaveCorrectValueIncodechumLabel()
         {
             string label3 = "I love CodeChum";
 
-            Assert.Equal(label3, Label3.Text);
+            Assert.Equal(label3, codechumLabel.Text);
         }
 
         [Fact]
-        public void ShouldHaveCorrectValueInLabel4()
+        public void ShouldHaveCorrectValueIncsharpLabel()
         {
             string label4 = "I love C#";
 
-            Assert.Equal(label4, Label4.Text);
+            Assert.Equal(label4, csharpLabel.Text);
         }
     }
 }

@@ -19,7 +19,7 @@ namespace CodeChum
 
         private void DisplayTextButton_Click(object sender, EventArgs e)
         {
-            Label.Text = TextBox.Text;
+            displayLabel.Text = inputTextBox.Text;
         }
     }
 }

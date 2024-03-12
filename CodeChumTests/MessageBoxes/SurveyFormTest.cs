@@ -3,39 +3,39 @@
     public class SurveyFormTests
     {
         SurveyForm? form;
-        TextBox? NameTextBox, EmailTextBox;
-        NumericUpDown? SatisfactionNumericControl;
-        RadioButton? YesRadioButton, NoRadioButton;
-        Button? SubmitButton;
+        TextBox? nameTextBox, emailTextBox;
+        NumericUpDown? satisfactionNumericControl;
+        RadioButton? yesRadioButton, noRadioButton;
+        Button? submitButton;
 
         public SurveyFormTests()
         {
             form = new SurveyForm();
             form.Show();
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(form, "NameTextBox", true);
-            EmailTextBox = (TextBox)TestUtils.GetControlNamed(form, "EmailTextBox", true);
-            SatisfactionNumericControl = (NumericUpDown)TestUtils.GetControlNamed(form, "SatisfactionNumericControl", true);
-            YesRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "YesRadioButton", true);
-            NoRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "NoRadioButton", true);
-            SubmitButton = (Button)TestUtils.GetControlNamed(form, "SubmitButton", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(form, "nameTextBox", true);
+            emailTextBox = (TextBox)TestUtils.GetControlNamed(form, "emailTextBox", true);
+            satisfactionNumericControl = (NumericUpDown)TestUtils.GetControlNamed(form, "satisfactionNumericControl", true);
+            yesRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "yesRadioButton", true);
+            noRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "noRadioButton", true);
+            submitButton = (Button)TestUtils.GetControlNamed(form, "submitButton", true);
             MessageBoxWrapper.IsOpened = false;
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(EmailTextBox);
-            Assert.NotNull(SatisfactionNumericControl);
-            Assert.NotNull(YesRadioButton);
-            Assert.NotNull(NoRadioButton);
-            Assert.NotNull(SubmitButton);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(emailTextBox);
+            Assert.NotNull(satisfactionNumericControl);
+            Assert.NotNull(yesRadioButton);
+            Assert.NotNull(noRadioButton);
+            Assert.NotNull(submitButton);
         }
 
         [Fact]
         public void ShouldShowInvalidMessageBoxOnClickSubmitButtonWithEmptyTextBox()
         {
-            SubmitButton.PerformClick();
+            submitButton.PerformClick();
 
             Assert.True(MessageBoxWrapper.IsOpened, "The `Invalid` message box should appear.");
             Assert.Equal("Invalid", MessageBoxWrapper.Title);
@@ -46,14 +46,14 @@
         [Fact]
         public void ShouldShowSuccessMessageOnClickSubmitButtonThenYes()
         {
-            NameTextBox.Text = "Test";
-            EmailTextBox.Text = "Test@test.com";
-            SatisfactionNumericControl.Value = 5;
-            YesRadioButton.Checked = true;
+            nameTextBox.Text = "Test";
+            emailTextBox.Text = "Test@test.com";
+            satisfactionNumericControl.Value = 5;
+            yesRadioButton.Checked = true;
 
             Task.Factory.StartNew(() =>
             {
-                SubmitButton.PerformClick();
+                submitButton.PerformClick();
                 Assert.True(MessageBoxWrapper.IsOpened, "The `Success` message box should appear.");
                 Assert.Equal("Success", MessageBoxWrapper.Title);
                 Assert.Equal(MessageBoxButtons.OK, MessageBoxWrapper.MessageBoxButtons);

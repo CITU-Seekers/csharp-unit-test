@@ -28,7 +28,7 @@ namespace CodeChum
                 EditorFontDialog.ShowDialog();
             });
 
-            MainRichTextBox.Font = EditorFontDialog.Font;
+            mainRichTextBox.Font = EditorFontDialog.Font;
         }
 
         private void ColorButton_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace CodeChum
                 EditorColorDialog.ShowDialog();
             });
 
-            MainRichTextBox.ForeColor = EditorColorDialog.Color;
+            mainRichTextBox.ForeColor = EditorColorDialog.Color;
 
         }
     }

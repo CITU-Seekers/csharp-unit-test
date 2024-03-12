@@ -5,21 +5,21 @@ namespace CodeChum.Tests
     public class SimpleDatePickerTests
     {
         SimpleDatePicker? form;
-        DateTimePicker? DateTimePicker;
-        Label? DateLabel;
+        DateTimePicker? exactDateTimePicker;
+        Label? dateLabel;
 
         public SimpleDatePickerTests()
         {
             form = new SimpleDatePicker();
-            DateTimePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "DateTimePicker", true);
-            DateLabel = (Label)TestUtils.GetControlNamed(form, "DateLabel", true);
+            exactDateTimePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "exactDateTimePicker", true);
+            dateLabel = (Label)TestUtils.GetControlNamed(form, "dateLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(DateTimePicker);
-            Assert.NotNull(DateLabel);
+            Assert.NotNull(exactDateTimePicker);
+            Assert.NotNull(dateLabel);
         }
 
         [Fact]
@@ -29,9 +29,9 @@ namespace CodeChum.Tests
             string expected = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month) + " " +
                 date.Day + ", " + date.Year;
 
-            DateTimePicker.Value = date;
+            exactDateTimePicker.Value = date;
 
-            Assert.Equal(expected, DateLabel.Text);
+            Assert.Equal(expected, dateLabel.Text);
         }
     }
 }

@@ -10,15 +10,15 @@ namespace CodeChum
         {
             bookList = new BookList();
             InitializeComponent();
-            checkboxes = new CheckBox[] { ActionCheckBox, AdventureCheckBox, FantasyCheckBox, HorrorCheckBox, RomanceCheckBox, SciFiCheckBox, TragedyCheckBox };
+            checkboxes = new CheckBox[] { actionCheckBox, adventureCheckBox, fantasyCheckBox, horrorCheckBox, romanceCheckBox, sciFiCheckBox, tragedyCheckBox };
         }
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            string author = AuthorTextBox.Text;
-            string title = TitleTextBox.Text;
-            string isbn = IsbnTextBox.Text;
-            float rating = (float)RatingNumericControl.Value;
+            string author = authorTextBox.Text;
+            string title = titleTextBox.Text;
+            string isbn = isbnTextBox.Text;
+            float rating = (float)ratingNumericControl.Value;
             string genre = "";
 
             foreach (var x in checkboxes)
@@ -29,50 +29,50 @@ namespace CodeChum
                 }
             }
             
-            DateTime date = DatePublishedDateTimePicker.Value;
+            DateTime date = datePublishedDateTimePicker.Value;
             Book book = new Book(isbn, title, author, genre, rating, date);
             bookList.AddBook(book);
             string[] row = { isbn, title, author, genre.Split(",")[0], rating.ToString("0.0"), date.ToString() };
-            BookListView.Items.Add(new ListViewItem(row));
+            bookListView.Items.Add(new ListViewItem(row));
         }
 
         private void BookListView_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
         {
-            Book book = bookList.RetrieveBook(BookListView.SelectedItems[0].SubItems[0].Text);
+            Book book = bookList.RetrieveBook(bookListView.SelectedItems[0].SubItems[0].Text);
 
-            IsbnTextBox.Text = book.Isbn;
-            AuthorTextBox.Text = book.Author;
-            TitleTextBox.Text = book.Title;
-            RatingNumericControl.Value = (decimal)book.Rating;
-            DatePublishedDateTimePicker.Value = book.DatePublished;
+            isbnTextBox.Text = book.Isbn;
+            authorTextBox.Text = book.Author;
+            titleTextBox.Text = book.Title;
+            ratingNumericControl.Value = (decimal)book.Rating;
+            datePublishedDateTimePicker.Value = book.DatePublished;
         }
 
         private void BookListView_ItemActivate(object sender, EventArgs e)
         {
-            Book book = bookList.RetrieveBook(BookListView.SelectedItems[0].SubItems[0].Text);
+            Book book = bookList.RetrieveBook(bookListView.SelectedItems[0].SubItems[0].Text);
 
-            IsbnTextBox.Text = book.Isbn;
-            AuthorTextBox.Text = book.Author;
-            TitleTextBox.Text = book.Title;
-            RatingNumericControl.Value = (decimal)book.Rating;
-            DatePublishedDateTimePicker.Value = book.DatePublished;
+            isbnTextBox.Text = book.Isbn;
+            authorTextBox.Text = book.Author;
+            titleTextBox.Text = book.Title;
+            ratingNumericControl.Value = (decimal)book.Rating;
+            datePublishedDateTimePicker.Value = book.DatePublished;
         }
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem item in BookListView.SelectedItems)
+            foreach (ListViewItem item in bookListView.SelectedItems)
             {
                 bookList.RemoveBook(item.SubItems[0].Text);
-                BookListView.Items.Remove(item);
+                bookListView.Items.Remove(item);
             }
         }
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            string author = AuthorTextBox.Text;
-            string title = TitleTextBox.Text;
-            string isbn = IsbnTextBox.Text;
-            float rating = (float)RatingNumericControl.Value;
+            string author = authorTextBox.Text;
+            string title = titleTextBox.Text;
+            string isbn = isbnTextBox.Text;
+            float rating = (float)ratingNumericControl.Value;
             string genre = "";
 
             foreach (var x in checkboxes)
@@ -82,34 +82,34 @@ namespace CodeChum
                     genre += x.Text + ",";
                 }
             }
-            DateTime date = DatePublishedDateTimePicker.Value;
+            DateTime date = datePublishedDateTimePicker.Value;
             Book book = new Book(isbn, title, author, genre, rating, date);
 
             bookList.UpdateBook(book);
             string[] row = { isbn, title, author, genre.Split(",")[0], rating.ToString("0.0"), date.ToString() };
 
-            foreach (ListViewItem item in BookListView.Items)
+            foreach (ListViewItem item in bookListView.Items)
             {
                 if (item.SubItems[0].Text.Equals(isbn))
                 {
-                    BookListView.Items[item.Index] = new ListViewItem(row);
+                    bookListView.Items[item.Index] = new ListViewItem(row);
                 }
             }
         }
 
         private void BookListView_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (BookListView.SelectedIndices.Count <= 0)
+            if (bookListView.SelectedIndices.Count <= 0)
             {
                 return;
             }
-            Book book = bookList.RetrieveBook(BookListView.SelectedItems[0].SubItems[0].Text);
+            Book book = bookList.RetrieveBook(bookListView.SelectedItems[0].SubItems[0].Text);
 
-            IsbnTextBox.Text = book.Isbn;
-            AuthorTextBox.Text = book.Author;
-            TitleTextBox.Text = book.Title;
-            RatingNumericControl.Value = (decimal)book.Rating;
-            DatePublishedDateTimePicker.Value = book.DatePublished;
+            isbnTextBox.Text = book.Isbn;
+            authorTextBox.Text = book.Author;
+            titleTextBox.Text = book.Title;
+            ratingNumericControl.Value = (decimal)book.Rating;
+            datePublishedDateTimePicker.Value = book.DatePublished;
 
             String[] genres = book.Genre.Split(",");
 

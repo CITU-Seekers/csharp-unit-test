@@ -5,16 +5,16 @@ namespace CodeChum.Tests
     public class TextFileEditorTests
     {
         TextFileEditor? form;
-        RichTextBox? MainRichTextBox;
-        Button? OpenFileButton, SaveFileButton;
+        RichTextBox? mainRichTextBox;
+        Button? openFileButton, saveFileButton;
 
         public TextFileEditorTests()
         {
             form = new TextFileEditor();
             form.Show();
-            MainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "MainRichTextBox", true);
-            OpenFileButton = (Button)TestUtils.GetControlNamed(form, "OpenFileButton", true);
-            SaveFileButton = (Button)TestUtils.GetControlNamed(form, "SaveFileButton", true);
+            mainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "mainRichTextBox", true);
+            openFileButton = (Button)TestUtils.GetControlNamed(form, "openFileButton", true);
+            saveFileButton = (Button)TestUtils.GetControlNamed(form, "saveFileButton", true);
         }
 
         public void createFile()
@@ -44,9 +44,9 @@ namespace CodeChum.Tests
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MainRichTextBox);
-            Assert.NotNull(OpenFileButton);
-            Assert.NotNull(SaveFileButton);
+            Assert.NotNull(mainRichTextBox);
+            Assert.NotNull(openFileButton);
+            Assert.NotNull(saveFileButton);
         }
 
         [Fact]
@@ -56,9 +56,9 @@ namespace CodeChum.Tests
             string expectedFileName = path + "\\sample_create.txt";
 
             form.EditorSaveFileDialog.FileName = expectedFileName;
-            MainRichTextBox.Text = "Hello World";
+            mainRichTextBox.Text = "Hello World";
 
-            SaveFileButton.PerformClick();
+            saveFileButton.PerformClick();
 
             Assert.True(File.Exists(expectedFileName), "The file named `sample_create.txt` should be created at the root folder.");
 
@@ -84,9 +84,9 @@ namespace CodeChum.Tests
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
             form.EditorOpenFileDialog.FileName = path + "\\sample_open.txt";
 
-            OpenFileButton.PerformClick();
+            openFileButton.PerformClick();
 
-            Assert.Equal("Hello World", MainRichTextBox.Text);
+            Assert.Equal("Hello World", mainRichTextBox.Text);
 
             File.Delete(form.EditorOpenFileDialog.FileName);
         }

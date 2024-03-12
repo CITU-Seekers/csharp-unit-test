@@ -3,36 +3,36 @@
     public class FoodKioskTests
     {
         FoodKiosk? form;
-        CheckBox? PizzaCheckBox, BurgerCheckBox, TeaCheckBox;
-        RadioButton? NoneRadioButton, FiveRadioButton, TenRadioButton;
-        Button? OrderButton;
-        Label? TotalCostLabel;
+        CheckBox? pizzaCheckBox, burgerCheckBox, teaCheckBox;
+        RadioButton? noneRadioButton, fiveRadioButton, tenRadioButton;
+        Button? orderButton;
+        Label? totalCostLabel;
         double pizzaPrice = 100, burgerPrice = 80, teaPrice = 50;
         public FoodKioskTests()
         {
             form = new FoodKiosk();
             form.Show();
-            PizzaCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "PizzaCheckBox", true);
-            BurgerCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "BurgerCheckBox", true);
-            TeaCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "TeaCheckBox", true);
-            NoneRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "NoneRadioButton", true);
-            FiveRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "FiveRadioButton", true);
-            TenRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "TenRadioButton", true);
-            OrderButton = (Button)TestUtils.GetControlNamed(form, "OrderButton", true);
-            TotalCostLabel = (Label)TestUtils.GetControlNamed(form, "TotalCostLabel", true);
+            pizzaCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "pizzaCheckBox", true);
+            burgerCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "burgerCheckBox", true);
+            teaCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "teaCheckBox", true);
+            noneRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "noneRadioButton", true);
+            fiveRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "fiveRadioButton", true);
+            tenRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "tenRadioButton", true);
+            orderButton = (Button)TestUtils.GetControlNamed(form, "orderButton", true);
+            totalCostLabel = (Label)TestUtils.GetControlNamed(form, "totalCostLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(PizzaCheckBox);
-            Assert.NotNull(BurgerCheckBox);
-            Assert.NotNull(TeaCheckBox);
-            Assert.NotNull(NoneRadioButton);
-            Assert.NotNull(FiveRadioButton);
-            Assert.NotNull(TenRadioButton);
-            Assert.NotNull(OrderButton);
-            Assert.NotNull(TotalCostLabel);
+            Assert.NotNull(pizzaCheckBox);
+            Assert.NotNull(burgerCheckBox);
+            Assert.NotNull(teaCheckBox);
+            Assert.NotNull(noneRadioButton);
+            Assert.NotNull(fiveRadioButton);
+            Assert.NotNull(tenRadioButton);
+            Assert.NotNull(orderButton);
+            Assert.NotNull(totalCostLabel);
         }
 
         [Fact]
@@ -40,14 +40,14 @@
         {
             double total = pizzaPrice + burgerPrice + teaPrice;
             string expected = "Total: Php " + total.ToString("F");
-            PizzaCheckBox.Checked = true;
-            BurgerCheckBox.Checked = true;
-            TeaCheckBox.Checked = true;
-            NoneRadioButton.PerformClick();
+            pizzaCheckBox.Checked = true;
+            burgerCheckBox.Checked = true;
+            teaCheckBox.Checked = true;
+            noneRadioButton.PerformClick();
 
-            OrderButton.PerformClick();
+            orderButton.PerformClick();
 
-            Assert.Equal(expected, TotalCostLabel.Text);
+            Assert.Equal(expected, totalCostLabel.Text);
         }
 
         [Fact]
@@ -55,13 +55,13 @@
         {
             double total = (pizzaPrice + burgerPrice) * 0.95;
             string expected = "Total: Php " + total.ToString("F");
-            PizzaCheckBox.Checked = true;
-            BurgerCheckBox.Checked = true;
-            FiveRadioButton.PerformClick();
+            pizzaCheckBox.Checked = true;
+            burgerCheckBox.Checked = true;
+            fiveRadioButton.PerformClick();
 
-            OrderButton.PerformClick();
+            orderButton.PerformClick();
 
-            Assert.Equal(expected, TotalCostLabel.Text);
+            Assert.Equal(expected, totalCostLabel.Text);
         }
 
         [Fact]
@@ -69,13 +69,13 @@
         {
             double total = (pizzaPrice + teaPrice) * 0.9;
             string expected = "Total: Php " + total.ToString("F");
-            PizzaCheckBox.Checked = true;
-            TeaCheckBox.Checked = true;
-            TenRadioButton.PerformClick();
+            pizzaCheckBox.Checked = true;
+            teaCheckBox.Checked = true;
+            tenRadioButton.PerformClick();
 
-            OrderButton.PerformClick();
+            orderButton.PerformClick();
 
-            Assert.Equal(expected, TotalCostLabel.Text);
+            Assert.Equal(expected, totalCostLabel.Text);
         }
     }
 }

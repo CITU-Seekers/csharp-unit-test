@@ -28,110 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.RedTrackBar = new System.Windows.Forms.TrackBar();
-            this.GreenTrackBar = new System.Windows.Forms.TrackBar();
-            this.BlueTrackBar = new System.Windows.Forms.TrackBar();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.ColorLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.RedTrackBar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GreenTrackBar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BlueTrackBar)).BeginInit();
-            this.SuspendLayout();
+            redTrackBar = new TrackBar();
+            greenTrackBar = new TrackBar();
+            blueTrackBar = new TrackBar();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            colorLabel = new Label();
+            ((System.ComponentModel.ISupportInitialize)redTrackBar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)greenTrackBar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)blueTrackBar).BeginInit();
+            SuspendLayout();
             // 
-            // RedTrackBar
+            // redTrackBar
             // 
-            this.RedTrackBar.Location = new System.Drawing.Point(152, 122);
-            this.RedTrackBar.Maximum = 255;
-            this.RedTrackBar.Name = "RedTrackBar";
-            this.RedTrackBar.Size = new System.Drawing.Size(228, 56);
-            this.RedTrackBar.TabIndex = 0;
-            this.RedTrackBar.ValueChanged += new System.EventHandler(this.RedTrackBar_ValueChanged);
+            redTrackBar.Location = new Point(133, 92);
+            redTrackBar.Margin = new Padding(3, 2, 3, 2);
+            redTrackBar.Maximum = 255;
+            redTrackBar.Name = "redTrackBar";
+            redTrackBar.Size = new Size(200, 45);
+            redTrackBar.TabIndex = 0;
+            redTrackBar.ValueChanged += RedTrackBar_ValueChanged;
             // 
-            // GreenTrackBar
+            // greenTrackBar
             // 
-            this.GreenTrackBar.Location = new System.Drawing.Point(152, 176);
-            this.GreenTrackBar.Maximum = 255;
-            this.GreenTrackBar.Name = "GreenTrackBar";
-            this.GreenTrackBar.Size = new System.Drawing.Size(228, 56);
-            this.GreenTrackBar.TabIndex = 1;
-            this.GreenTrackBar.ValueChanged += new System.EventHandler(this.GreenTrackBar_ValueChanged);
+            greenTrackBar.Location = new Point(133, 132);
+            greenTrackBar.Margin = new Padding(3, 2, 3, 2);
+            greenTrackBar.Maximum = 255;
+            greenTrackBar.Name = "greenTrackBar";
+            greenTrackBar.Size = new Size(200, 45);
+            greenTrackBar.TabIndex = 1;
+            greenTrackBar.ValueChanged += GreenTrackBar_ValueChanged;
             // 
-            // BlueTrackBar
+            // blueTrackBar
             // 
-            this.BlueTrackBar.Location = new System.Drawing.Point(152, 230);
-            this.BlueTrackBar.Maximum = 255;
-            this.BlueTrackBar.Name = "BlueTrackBar";
-            this.BlueTrackBar.Size = new System.Drawing.Size(228, 56);
-            this.BlueTrackBar.TabIndex = 2;
-            this.BlueTrackBar.ValueChanged += new System.EventHandler(this.BlueTrackBar_ValueChanged);
+            blueTrackBar.Location = new Point(133, 172);
+            blueTrackBar.Margin = new Padding(3, 2, 3, 2);
+            blueTrackBar.Maximum = 255;
+            blueTrackBar.Name = "blueTrackBar";
+            blueTrackBar.Size = new Size(200, 45);
+            blueTrackBar.TabIndex = 2;
+            blueTrackBar.ValueChanged += BlueTrackBar_ValueChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 122);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Red";
+            label1.AutoSize = true;
+            label1.Location = new Point(73, 92);
+            label1.Name = "label1";
+            label1.Size = new Size(27, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Red";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(68, 176);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Green";
+            label2.AutoSize = true;
+            label2.Location = new Point(60, 132);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Green";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(79, 230);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 20);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Blue";
+            label3.AutoSize = true;
+            label3.Location = new Point(69, 172);
+            label3.Name = "label3";
+            label3.Size = new Size(30, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Blue";
             // 
-            // ColorLabel
+            // colorLabel
             // 
-            this.ColorLabel.BackColor = System.Drawing.Color.Black;
-            this.ColorLabel.Location = new System.Drawing.Point(68, 37);
-            this.ColorLabel.Name = "ColorLabel";
-            this.ColorLabel.Size = new System.Drawing.Size(360, 48);
-            this.ColorLabel.TabIndex = 6;
+            colorLabel.BackColor = Color.Black;
+            colorLabel.Location = new Point(60, 28);
+            colorLabel.Name = "colorLabel";
+            colorLabel.Size = new Size(315, 36);
+            colorLabel.TabIndex = 6;
+            colorLabel.Click += ColorLabel_Click;
             // 
             // ColorPicker
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(508, 322);
-            this.Controls.Add(this.ColorLabel);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.BlueTrackBar);
-            this.Controls.Add(this.GreenTrackBar);
-            this.Controls.Add(this.RedTrackBar);
-            this.Name = "ColorPicker";
-            this.Text = "Color Picker";
-            ((System.ComponentModel.ISupportInitialize)(this.RedTrackBar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GreenTrackBar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BlueTrackBar)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(444, 242);
+            Controls.Add(colorLabel);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(blueTrackBar);
+            Controls.Add(greenTrackBar);
+            Controls.Add(redTrackBar);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "ColorPicker";
+            Text = "Color Picker";
+            ((System.ComponentModel.ISupportInitialize)redTrackBar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)greenTrackBar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)blueTrackBar).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TrackBar RedTrackBar;
-        private TrackBar GreenTrackBar;
-        private TrackBar BlueTrackBar;
+        private TrackBar redTrackBar;
+        private TrackBar greenTrackBar;
+        private TrackBar blueTrackBar;
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label ColorLabel;
+        private Label colorLabel;
     }
 }

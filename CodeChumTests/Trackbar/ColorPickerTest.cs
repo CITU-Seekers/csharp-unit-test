@@ -3,25 +3,25 @@
     public class ColorPickerTests
     {
         ColorPicker? form;
-        TrackBar? RedTrackBar, GreenTrackBar, BlueTrackBar;
-        Label? ColorLabel;
+        TrackBar? redTrackBar, greenTrackBar, blueTrackBar;
+        Label? colorLabel;
 
         public ColorPickerTests()
         {
             form = new ColorPicker();
-            RedTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "RedTrackBar", true);
-            GreenTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "GreenTrackBar", true);
-            BlueTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "BlueTrackBar", true);
-            ColorLabel = (Label)TestUtils.GetControlNamed(form, "ColorLabel", true);
+            redTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "redTrackBar", true);
+            greenTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "greenTrackBar", true);
+            blueTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "blueTrackBar", true);
+            colorLabel = (Label)TestUtils.GetControlNamed(form, "colorLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(RedTrackBar);
-            Assert.NotNull(GreenTrackBar);
-            Assert.NotNull(BlueTrackBar);
-            Assert.NotNull(ColorLabel);
+            Assert.NotNull(redTrackBar);
+            Assert.NotNull(greenTrackBar);
+            Assert.NotNull(blueTrackBar);
+            Assert.NotNull(colorLabel);
         }
 
         [Fact]
@@ -30,35 +30,35 @@
             int min = 0;
             int max = 255;
 
-            Assert.Equal(min, RedTrackBar.Minimum);
-            Assert.Equal(min, GreenTrackBar.Minimum);
-            Assert.Equal(min, BlueTrackBar.Minimum);
-            Assert.Equal(max, RedTrackBar.Maximum);
-            Assert.Equal(max, GreenTrackBar.Maximum);
-            Assert.Equal(max, BlueTrackBar.Maximum);
+            Assert.Equal(min, redTrackBar.Minimum);
+            Assert.Equal(min, greenTrackBar.Minimum);
+            Assert.Equal(min, blueTrackBar.Minimum);
+            Assert.Equal(max, redTrackBar.Maximum);
+            Assert.Equal(max, greenTrackBar.Maximum);
+            Assert.Equal(max, blueTrackBar.Maximum);
         }
         [Fact]
         public void ShouldChangeColorOnRedTrackBarChange()
         {
-            RedTrackBar.Value = 20;
+            redTrackBar.Value = 20;
 
-            Assert.Equal(ColorLabel.BackColor.R, RedTrackBar.Value);
+            Assert.Equal(colorLabel.BackColor.R, redTrackBar.Value);
         }
 
         [Fact]
         public void ShouldChangeColorOnGreenTrackBarChange()
         {
-            GreenTrackBar.Value = 20;
+            greenTrackBar.Value = 20;
 
-            Assert.Equal(ColorLabel.BackColor.G, GreenTrackBar.Value);
+            Assert.Equal(colorLabel.BackColor.G, greenTrackBar.Value);
         }
 
         [Fact]
         public void ShouldChangeColorOnBlueTrackBarChange()
         {
-            RedTrackBar.Value = 20;
+            redTrackBar.Value = 20;
 
-            Assert.Equal(ColorLabel.BackColor.B, BlueTrackBar.Value);
+            Assert.Equal(colorLabel.BackColor.B, blueTrackBar.Value);
         }
     }
 }

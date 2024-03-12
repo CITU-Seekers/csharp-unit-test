@@ -21,13 +21,18 @@ namespace CodeChum
         {
             try
             {
-                NumericControl.Increment = Convert.ToInt32(IncrementTextBox.Text);
+                intervalNumericUpDown.Increment = Convert.ToInt32(incrementTextBox.Text);
             }
             catch (Exception ex)
             {
-                NumericControl.Increment = 1;
+                intervalNumericUpDown.Increment = 1;
             }
-            
+
+        }
+
+        private void NumericControl_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

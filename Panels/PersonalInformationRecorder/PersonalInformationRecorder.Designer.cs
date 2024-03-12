@@ -28,37 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.FirstPanel = new System.Windows.Forms.Panel();
+            this.firstPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.AgeTextBox = new System.Windows.Forms.TextBox();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.SecondPanel = new System.Windows.Forms.Panel();
+            this.ageTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.secondPanel = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.QuoteRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.ThirdPanel = new System.Windows.Forms.Panel();
+            this.quoteRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.thirdPanel = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.QuoteDisplayRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.AgeLabel = new System.Windows.Forms.Label();
-            this.NameLabel = new System.Windows.Forms.Label();
-            this.PrevButton = new System.Windows.Forms.Button();
-            this.NextButton = new System.Windows.Forms.Button();
-            this.FirstPanel.SuspendLayout();
-            this.SecondPanel.SuspendLayout();
-            this.ThirdPanel.SuspendLayout();
+            this.quoteDisplayRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.ageLabel = new System.Windows.Forms.Label();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.prevButton = new System.Windows.Forms.Button();
+            this.nextButton = new System.Windows.Forms.Button();
+            this.firstPanel.SuspendLayout();
+            this.secondPanel.SuspendLayout();
+            this.thirdPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // FirstPanel
+            // firstPanel
             // 
-            this.FirstPanel.Controls.Add(this.label2);
-            this.FirstPanel.Controls.Add(this.label1);
-            this.FirstPanel.Controls.Add(this.AgeTextBox);
-            this.FirstPanel.Controls.Add(this.NameTextBox);
-            this.FirstPanel.Location = new System.Drawing.Point(103, 21);
-            this.FirstPanel.Name = "FirstPanel";
-            this.FirstPanel.Size = new System.Drawing.Size(222, 157);
-            this.FirstPanel.TabIndex = 0;
+            this.firstPanel.Controls.Add(this.label2);
+            this.firstPanel.Controls.Add(this.label1);
+            this.firstPanel.Controls.Add(this.ageTextBox);
+            this.firstPanel.Controls.Add(this.nameTextBox);
+            this.firstPanel.Location = new System.Drawing.Point(103, 21);
+            this.firstPanel.Name = "firstPanel";
+            this.firstPanel.Size = new System.Drawing.Size(222, 157);
+            this.firstPanel.TabIndex = 0;
             // 
             // label2
             // 
@@ -78,31 +78,31 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Name";
             // 
-            // AgeTextBox
+            // ageTextBox
             // 
-            this.AgeTextBox.Location = new System.Drawing.Point(20, 101);
-            this.AgeTextBox.Name = "AgeTextBox";
-            this.AgeTextBox.Size = new System.Drawing.Size(178, 27);
-            this.AgeTextBox.TabIndex = 1;
-            this.AgeTextBox.TextChanged += new System.EventHandler(this.AgeTextBox_TextChanged);
+            this.ageTextBox.Location = new System.Drawing.Point(20, 101);
+            this.ageTextBox.Name = "ageTextBox";
+            this.ageTextBox.Size = new System.Drawing.Size(178, 27);
+            this.ageTextBox.TabIndex = 1;
+            this.ageTextBox.TextChanged += new System.EventHandler(this.AgeTextBox_TextChanged);
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(19, 36);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(178, 27);
-            this.NameTextBox.TabIndex = 0;
-            this.NameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
+            this.nameTextBox.Location = new System.Drawing.Point(19, 36);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(178, 27);
+            this.nameTextBox.TabIndex = 0;
+            this.nameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
             // 
-            // SecondPanel
+            // secondPanel
             // 
-            this.SecondPanel.Controls.Add(this.label3);
-            this.SecondPanel.Controls.Add(this.QuoteRichTextBox);
-            this.SecondPanel.Location = new System.Drawing.Point(100, 18);
-            this.SecondPanel.Name = "SecondPanel";
-            this.SecondPanel.Size = new System.Drawing.Size(222, 157);
-            this.SecondPanel.TabIndex = 1;
-            this.SecondPanel.Visible = false;
+            this.secondPanel.Controls.Add(this.label3);
+            this.secondPanel.Controls.Add(this.quoteRichTextBox);
+            this.secondPanel.Location = new System.Drawing.Point(100, 18);
+            this.secondPanel.Name = "secondPanel";
+            this.secondPanel.Size = new System.Drawing.Size(222, 157);
+            this.secondPanel.TabIndex = 1;
+            this.secondPanel.Visible = false;
             // 
             // label3
             // 
@@ -113,27 +113,27 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Quote";
             // 
-            // QuoteRichTextBox
+            // quoteRichTextBox
             // 
-            this.QuoteRichTextBox.Location = new System.Drawing.Point(19, 36);
-            this.QuoteRichTextBox.Name = "QuoteRichTextBox";
-            this.QuoteRichTextBox.Size = new System.Drawing.Size(183, 110);
-            this.QuoteRichTextBox.TabIndex = 0;
-            this.QuoteRichTextBox.Text = "";
-            this.QuoteRichTextBox.TextChanged += new System.EventHandler(this.QuoteRichTextBox_TextChanged);
+            this.quoteRichTextBox.Location = new System.Drawing.Point(19, 36);
+            this.quoteRichTextBox.Name = "quoteRichTextBox";
+            this.quoteRichTextBox.Size = new System.Drawing.Size(183, 110);
+            this.quoteRichTextBox.TabIndex = 0;
+            this.quoteRichTextBox.Text = "";
+            this.quoteRichTextBox.TextChanged += new System.EventHandler(this.QuoteRichTextBox_TextChanged);
             // 
-            // ThirdPanel
+            // thirdPanel
             // 
-            this.ThirdPanel.Controls.Add(this.label5);
-            this.ThirdPanel.Controls.Add(this.label4);
-            this.ThirdPanel.Controls.Add(this.QuoteDisplayRichTextBox);
-            this.ThirdPanel.Controls.Add(this.AgeLabel);
-            this.ThirdPanel.Controls.Add(this.NameLabel);
-            this.ThirdPanel.Location = new System.Drawing.Point(91, 18);
-            this.ThirdPanel.Name = "ThirdPanel";
-            this.ThirdPanel.Size = new System.Drawing.Size(234, 196);
-            this.ThirdPanel.TabIndex = 2;
-            this.ThirdPanel.Visible = false;
+            this.thirdPanel.Controls.Add(this.label5);
+            this.thirdPanel.Controls.Add(this.label4);
+            this.thirdPanel.Controls.Add(this.quoteDisplayRichTextBox);
+            this.thirdPanel.Controls.Add(this.ageLabel);
+            this.thirdPanel.Controls.Add(this.nameLabel);
+            this.thirdPanel.Location = new System.Drawing.Point(91, 18);
+            this.thirdPanel.Name = "thirdPanel";
+            this.thirdPanel.Size = new System.Drawing.Size(234, 196);
+            this.thirdPanel.TabIndex = 2;
+            this.thirdPanel.Visible = false;
             // 
             // label5
             // 
@@ -153,85 +153,85 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Name:";
             // 
-            // QuoteDisplayRichTextBox
+            // quoteDisplayRichTextBox
             // 
-            this.QuoteDisplayRichTextBox.Location = new System.Drawing.Point(20, 111);
-            this.QuoteDisplayRichTextBox.Name = "QuoteDisplayRichTextBox";
-            this.QuoteDisplayRichTextBox.ReadOnly = true;
-            this.QuoteDisplayRichTextBox.Size = new System.Drawing.Size(183, 69);
-            this.QuoteDisplayRichTextBox.TabIndex = 1;
-            this.QuoteDisplayRichTextBox.Text = "";
+            this.quoteDisplayRichTextBox.Location = new System.Drawing.Point(20, 111);
+            this.quoteDisplayRichTextBox.Name = "quoteDisplayRichTextBox";
+            this.quoteDisplayRichTextBox.ReadOnly = true;
+            this.quoteDisplayRichTextBox.Size = new System.Drawing.Size(183, 69);
+            this.quoteDisplayRichTextBox.TabIndex = 1;
+            this.quoteDisplayRichTextBox.Text = "";
             // 
-            // AgeLabel
+            // ageLabel
             // 
-            this.AgeLabel.Location = new System.Drawing.Point(66, 66);
-            this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(145, 25);
-            this.AgeLabel.TabIndex = 1;
+            this.ageLabel.Location = new System.Drawing.Point(66, 66);
+            this.ageLabel.Name = "ageLabel";
+            this.ageLabel.Size = new System.Drawing.Size(145, 25);
+            this.ageLabel.TabIndex = 1;
             // 
-            // NameLabel
+            // nameLabel
             // 
-            this.NameLabel.Location = new System.Drawing.Point(75, 16);
-            this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(145, 25);
-            this.NameLabel.TabIndex = 0;
+            this.nameLabel.Location = new System.Drawing.Point(75, 16);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(145, 25);
+            this.nameLabel.TabIndex = 0;
             // 
-            // PrevButton
+            // prevButton
             // 
-            this.PrevButton.Enabled = false;
-            this.PrevButton.Location = new System.Drawing.Point(103, 235);
-            this.PrevButton.Name = "PrevButton";
-            this.PrevButton.Size = new System.Drawing.Size(84, 25);
-            this.PrevButton.TabIndex = 3;
-            this.PrevButton.Text = "Previous";
-            this.PrevButton.UseVisualStyleBackColor = true;
-            this.PrevButton.Click += new System.EventHandler(this.PrevButton_Click);
+            this.prevButton.Enabled = false;
+            this.prevButton.Location = new System.Drawing.Point(103, 235);
+            this.prevButton.Name = "prevButton";
+            this.prevButton.Size = new System.Drawing.Size(84, 25);
+            this.prevButton.TabIndex = 3;
+            this.prevButton.Text = "Previous";
+            this.prevButton.UseVisualStyleBackColor = true;
+            this.prevButton.Click += new System.EventHandler(this.PrevButton_Click);
             // 
-            // NextButton
+            // nextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(238, 235);
-            this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(84, 25);
-            this.NextButton.TabIndex = 4;
-            this.NextButton.Text = "Next";
-            this.NextButton.UseVisualStyleBackColor = true;
-            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
+            this.nextButton.Location = new System.Drawing.Point(238, 235);
+            this.nextButton.Name = "nextButton";
+            this.nextButton.Size = new System.Drawing.Size(84, 25);
+            this.nextButton.TabIndex = 4;
+            this.nextButton.Text = "Next";
+            this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // MultipagePersonalInformationRecorder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 289);
-            this.Controls.Add(this.NextButton);
-            this.Controls.Add(this.ThirdPanel);
-            this.Controls.Add(this.SecondPanel);
-            this.Controls.Add(this.PrevButton);
-            this.Controls.Add(this.FirstPanel);
+            this.Controls.Add(this.nextButton);
+            this.Controls.Add(this.thirdPanel);
+            this.Controls.Add(this.secondPanel);
+            this.Controls.Add(this.prevButton);
+            this.Controls.Add(this.firstPanel);
             this.Name = "MultipagePersonalInformationRecorder";
             this.Text = "Personal Information Recorder";
-            this.FirstPanel.ResumeLayout(false);
-            this.FirstPanel.PerformLayout();
-            this.SecondPanel.ResumeLayout(false);
-            this.SecondPanel.PerformLayout();
-            this.ThirdPanel.ResumeLayout(false);
-            this.ThirdPanel.PerformLayout();
+            this.firstPanel.ResumeLayout(false);
+            this.firstPanel.PerformLayout();
+            this.secondPanel.ResumeLayout(false);
+            this.secondPanel.PerformLayout();
+            this.thirdPanel.ResumeLayout(false);
+            this.thirdPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Panel FirstPanel;
-        private TextBox AgeTextBox;
-        private TextBox NameTextBox;
-        private Panel SecondPanel;
-        private RichTextBox QuoteRichTextBox;
-        private Panel ThirdPanel;
-        private RichTextBox QuoteDisplayRichTextBox;
-        private Label AgeLabel;
-        private Label NameLabel;
-        private Button PrevButton;
-        private Button NextButton;
+        private Panel firstPanel;
+        private TextBox ageTextBox;
+        private TextBox nameTextBox;
+        private Panel secondPanel;
+        private RichTextBox quoteRichTextBox;
+        private Panel thirdPanel;
+        private RichTextBox quoteDisplayRichTextBox;
+        private Label ageLabel;
+        private Label nameLabel;
+        private Button prevButton;
+        private Button nextButton;
         private Label label2;
         private Label label1;
         private Label label3;

@@ -4,25 +4,25 @@
     {
         RegistrationFormApp? form;
         RegistrationModal? modal;
-        Label? NameLabel, EmailLabel;
-        TextBox? NameTextBox, EmailTextBox;
-        Button? OpenRegistrationModalButton, RegisterButton, CancelButton;
+        Label? nameLabel, emailLabel;
+        TextBox? nameTextBox, emailTextBox;
+        Button? openRegistrationModalButton, registerButton, cancelButton;
 
         public RegistrationModalTests()
         {
             form = new RegistrationFormApp();
             form.Show();
-            NameLabel = (Label)TestUtils.GetControlNamed(form, "NameLabel", true);
-            EmailLabel = (Label)TestUtils.GetControlNamed(form, "EmailLabel", true);
-            OpenRegistrationModalButton = (Button)TestUtils.GetControlNamed(form, "OpenRegistrationModalButton", true);
+            nameLabel = (Label)TestUtils.GetControlNamed(form, "nameLabel", true);
+            emailLabel = (Label)TestUtils.GetControlNamed(form, "emailLabel", true);
+            openRegistrationModalButton = (Button)TestUtils.GetControlNamed(form, "openRegistrationModalButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControlsForRegistrationFormApp()
         {
-            Assert.NotNull(NameLabel);
-            Assert.NotNull(EmailLabel);
-            Assert.NotNull(OpenRegistrationModalButton);
+            Assert.NotNull(nameLabel);
+            Assert.NotNull(emailLabel);
+            Assert.NotNull(openRegistrationModalButton);
             Assert.NotNull(form.RegisterModal);
         }
 
@@ -31,15 +31,15 @@
         {
             modal = new RegistrationModal();
             modal.Show();
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(modal, "NameTextBox", true);
-            EmailTextBox = (TextBox)TestUtils.GetControlNamed(modal, "EmailTextBox", true);
-            RegisterButton = (Button)TestUtils.GetControlNamed(modal, "RegisterButton", true);
-            CancelButton = (Button)TestUtils.GetControlNamed(modal, "CancelButton", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(modal, "nameTextBox", true);
+            emailTextBox = (TextBox)TestUtils.GetControlNamed(modal, "emailTextBox", true);
+            registerButton = (Button)TestUtils.GetControlNamed(modal, "registerButton", true);
+            cancelButton = (Button)TestUtils.GetControlNamed(modal, "cancelButton", true);
 
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(EmailTextBox);
-            Assert.NotNull(RegisterButton);
-            Assert.NotNull(CancelButton);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(emailTextBox);
+            Assert.NotNull(registerButton);
+            Assert.NotNull(cancelButton);
         }
 
         [Fact]
@@ -53,7 +53,7 @@
                 form.RegisterModal.Close();
             });
 
-            OpenRegistrationModalButton.PerformClick();
+            openRegistrationModalButton.PerformClick();
 
             registerTask.Wait();
 
@@ -67,15 +67,15 @@
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(5));
-                CancelButton = (Button)TestUtils.GetControlNamed(form.RegisterModal, "CancelButton", true);
+                cancelButton = (Button)TestUtils.GetControlNamed(form.RegisterModal, "cancelButton", true);
 
-                CancelButton.PerformClick();
+                cancelButton.PerformClick();
                 await Task.Delay(TimeSpan.FromSeconds(3));
 
                 isRegisterModalShown = form.RegisterModal.Visible;
             });
 
-            OpenRegistrationModalButton.PerformClick();
+            openRegistrationModalButton.PerformClick();
 
             registerTask.Wait();
 
@@ -88,21 +88,21 @@
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(5));
-                NameTextBox = (TextBox)TestUtils.GetControlNamed(form.RegisterModal, "NameTextBox", true);
-                EmailTextBox = (TextBox)TestUtils.GetControlNamed(form.RegisterModal, "EmailTextBox", true);
-                RegisterButton = (Button)TestUtils.GetControlNamed(form.RegisterModal, "RegisterButton", true);
+                nameTextBox = (TextBox)TestUtils.GetControlNamed(form.RegisterModal, "nameTextBox", true);
+                emailTextBox = (TextBox)TestUtils.GetControlNamed(form.RegisterModal, "emailTextBox", true);
+                registerButton = (Button)TestUtils.GetControlNamed(form.RegisterModal, "registerButton", true);
 
-                NameTextBox.Text = "John Doe";
-                EmailTextBox.Text = "johndoe@email.com";
-                RegisterButton.PerformClick();
+                nameTextBox.Text = "John Doe";
+                emailTextBox.Text = "johndoe@email.com";
+                registerButton.PerformClick();
             });
 
-            OpenRegistrationModalButton.PerformClick();
+            openRegistrationModalButton.PerformClick();
 
             registerTask.Wait();
 
-            Assert.Equal(NameTextBox.Text, NameLabel.Text);
-            Assert.Equal(EmailTextBox.Text, EmailLabel.Text);
+            Assert.Equal(nameTextBox.Text, nameLabel.Text);
+            Assert.Equal(emailTextBox.Text, emailLabel.Text);
         }
     }
 }

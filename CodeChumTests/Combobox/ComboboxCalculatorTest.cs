@@ -3,39 +3,39 @@
     public class ComboBoxCalculatorTests
     {
         ComboBoxCalculator? form;
-        TextBox? TextNumber1, TextNumber2;
-        ComboBox? OperationsComboBox;
-        Button? ComputeButton;
-        Label? ResultLabel;
+        TextBox? number1TextBox, number2TextBox;
+        ComboBox? operationsComboBox;
+        Button? computeButton;
+        Label? resultLabel;
 
         public ComboBoxCalculatorTests()
         {
             form = new ComboBoxCalculator();
             form.Show();
-            TextNumber1 = (TextBox)TestUtils.GetControlNamed(form, "TextNumber1", true);
-            TextNumber2 = (TextBox)TestUtils.GetControlNamed(form, "TextNumber2", true);
-            OperationsComboBox = (ComboBox)TestUtils.GetControlNamed(form, "OperationsComboBox", true);
-            ComputeButton = (Button)TestUtils.GetControlNamed(form, "ComputeButton", true);
-            ResultLabel = (Label)TestUtils.GetControlNamed(form, "ResultLabel", true);
+            number1TextBox = (TextBox)TestUtils.GetControlNamed(form, "number1TextBox", true);
+            number2TextBox = (TextBox)TestUtils.GetControlNamed(form, "number2TextBox", true);
+            operationsComboBox = (ComboBox)TestUtils.GetControlNamed(form, "operationsComboBox", true);
+            computeButton = (Button)TestUtils.GetControlNamed(form, "computeButton", true);
+            resultLabel = (Label)TestUtils.GetControlNamed(form, "resultLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(TextNumber1);
-            Assert.NotNull(TextNumber2);
-            Assert.NotNull(OperationsComboBox);
-            Assert.NotNull(ComputeButton);
-            Assert.NotNull(ResultLabel);
+            Assert.NotNull(number1TextBox);
+            Assert.NotNull(number2TextBox);
+            Assert.NotNull(operationsComboBox);
+            Assert.NotNull(computeButton);
+            Assert.NotNull(resultLabel);
         }
 
         [Fact]
         public void ShouldHaveAllOperationsInstructed()
         {
-            Assert.True(OperationsComboBox.Items.Contains("+"));
-            Assert.True(OperationsComboBox.Items.Contains("-"));
-            Assert.True(OperationsComboBox.Items.Contains("*"));
-            Assert.True(OperationsComboBox.Items.Contains("/"));
+            Assert.True(operationsComboBox.Items.Contains("+"));
+            Assert.True(operationsComboBox.Items.Contains("-"));
+            Assert.True(operationsComboBox.Items.Contains("*"));
+            Assert.True(operationsComboBox.Items.Contains("/"));
         }
 
         [Fact]
@@ -44,13 +44,13 @@
             double number1 = 10;
             double number2 = 20;
             string total = (number1 + number2).ToString("F");
-            TextNumber1.Text = number1.ToString();
-            TextNumber2.Text = number2.ToString();
-            OperationsComboBox.SelectedIndex = OperationsComboBox.Items.IndexOf("+");
+            number1TextBox.Text = number1.ToString();
+            number2TextBox.Text = number2.ToString();
+            operationsComboBox.SelectedIndex = operationsComboBox.Items.IndexOf("+");
 
-            ComputeButton.PerformClick();
+            computeButton.PerformClick();
 
-            Assert.Equal(total, ResultLabel.Text);
+            Assert.Equal(total, resultLabel.Text);
         }
 
         [Fact]
@@ -59,13 +59,13 @@
             double number1 = 10;
             double number2 = 20;
             string total = (number1 - number2).ToString("F");
-            TextNumber1.Text = number1.ToString();
-            TextNumber2.Text = number2.ToString();
-            OperationsComboBox.SelectedIndex = OperationsComboBox.Items.IndexOf("-");
+            number1TextBox.Text = number1.ToString();
+            number2TextBox.Text = number2.ToString();
+            operationsComboBox.SelectedIndex = operationsComboBox.Items.IndexOf("-");
 
-            ComputeButton.PerformClick();
+            computeButton.PerformClick();
 
-            Assert.Equal(total, ResultLabel.Text);
+            Assert.Equal(total, resultLabel.Text);
         }
 
         [Fact]
@@ -74,13 +74,13 @@
             double number1 = 10;
             double number2 = 20;
             string total = (number1 * number2).ToString("F");
-            TextNumber1.Text = number1.ToString();
-            TextNumber2.Text = number2.ToString();
-            OperationsComboBox.SelectedIndex = OperationsComboBox.Items.IndexOf("*");
+            number1TextBox.Text = number1.ToString();
+            number2TextBox.Text = number2.ToString();
+            operationsComboBox.SelectedIndex = operationsComboBox.Items.IndexOf("*");
 
-            ComputeButton.PerformClick();
+            computeButton.PerformClick();
 
-            Assert.Equal(total, ResultLabel.Text);
+            Assert.Equal(total, resultLabel.Text);
         }
 
         [Fact]
@@ -89,13 +89,13 @@
             double number1 = 10;
             double number2 = 20;
             string total = (number1 / number2).ToString("F");
-            TextNumber1.Text = number1.ToString();
-            TextNumber2.Text = number2.ToString();
-            OperationsComboBox.SelectedIndex = OperationsComboBox.Items.IndexOf("/");
+            number1TextBox.Text = number1.ToString();
+            number2TextBox.Text = number2.ToString();
+            operationsComboBox.SelectedIndex = operationsComboBox.Items.IndexOf("/");
 
-            ComputeButton.PerformClick();
+            computeButton.PerformClick();
 
-            Assert.Equal(total, ResultLabel.Text);
+            Assert.Equal(total, resultLabel.Text);
         }
     }
 }

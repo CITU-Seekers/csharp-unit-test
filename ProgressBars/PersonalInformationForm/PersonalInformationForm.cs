@@ -21,23 +21,23 @@ namespace CodeChum
 
         private void IncreaseProgress()
         {
-            if (ProgressBar.Value != ProgressBar.Maximum)
+            if (formProgressBar.Value != formProgressBar.Maximum)
             {
-                ProgressBar.Value += 1;
+                formProgressBar.Value += 1;
             }
             
         }
         private void DecreaseProgress()
         {
-            if (ProgressBar.Value != ProgressBar.Minimum)
+            if (formProgressBar.Value != formProgressBar.Minimum)
             {
-                ProgressBar.Value -= 1;
+                formProgressBar.Value -= 1;
             }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (ProgrammingLanguageCheckBox1.Checked || ProgrammingLanguageCheckBox2.Checked)
+            if (programmingLanguageCheckBox1.Checked || programmingLanguageCheckBox2.Checked)
             {
                 if (checkBoxEmpty)
                 {
@@ -45,7 +45,7 @@ namespace CodeChum
                     IncreaseProgress();
                 }
             } 
-            else if (!ProgrammingLanguageCheckBox1.Checked && !ProgrammingLanguageCheckBox2.Checked)
+            else if (!programmingLanguageCheckBox1.Checked && !programmingLanguageCheckBox2.Checked)
             {
                 checkBoxEmpty = true;
                 DecreaseProgress();
@@ -64,7 +64,7 @@ namespace CodeChum
 
         private void NameTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (NameTextBox.Text.Length == 0)
+            if (nameTextBox.Text.Length == 0)
             {
                 DecreaseProgress();
                 nameEmpty = true;
@@ -81,7 +81,7 @@ namespace CodeChum
 
         private void AddressTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (AddressTextBox.Text.Length == 0)
+            if (addressTextBox.Text.Length == 0)
             {
                 DecreaseProgress();
                 addressEmpty = true;
@@ -98,7 +98,7 @@ namespace CodeChum
 
         private void QuoteTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (QuoteTextBox.Text.Length == 0)
+            if (quoteTextBox.Text.Length == 0)
             {
                 DecreaseProgress();
                 quoteEmpty = true;

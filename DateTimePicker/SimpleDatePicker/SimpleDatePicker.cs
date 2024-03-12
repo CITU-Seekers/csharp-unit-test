@@ -20,8 +20,8 @@ namespace CodeChum
 
         private void DateTimePicker_ValueChanged(object sender, EventArgs e)
         {
-            DateTime date = DateTimePicker.Value;
-            DateLabel.Text = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month) + " " + 
+            DateTime date = exactDateTimePicker.Value;
+            dateLabel.Text = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month) + " " +
                 date.Day + ", " + date.Year;
 
         }

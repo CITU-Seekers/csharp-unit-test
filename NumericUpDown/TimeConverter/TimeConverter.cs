@@ -18,7 +18,7 @@ namespace CodeChum
         }
         private void SetTime()
         {
-            int hour = (int) HourNumericControl.Value;
+            int hour = (int)hourNumericUpDown.Value;
             string dayOrNight = hour < 12 ? "AM" : "PM";
 
             if (hour == 0)
@@ -30,9 +30,9 @@ namespace CodeChum
                 hour -= 12;
             }
 
-            int minute = (int)MinuteNumericControl.Value;
+            int minute = (int)minuteNumericUpDown.Value;
 
-            TwelveHourLabel.Text = hour + ":" + minute.ToString("00") + " " + dayOrNight;
+            twelveHourLabel.Text = hour + ":" + minute.ToString("00") + " " + dayOrNight;
         }
         private void HourNumericControl_ValueChanged(object sender, EventArgs e)
         {

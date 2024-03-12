@@ -3,42 +3,42 @@
     public class TabbedTextEditorTests
     {
         TabbedTextEditor? form;
-        TabControl? EditorTabControl;
-        TabPage? MainTabPage;
-        RichTextBox? MainRichTextBox;
-        TextBox? FileNameTextBox;
-        Button? AddButton, DeleteButton;
+        TabControl? editorTabControl;
+        TabPage? mainTabPage;
+        RichTextBox? mainRichTextBox;
+        TextBox? fileNameTextBox;
+        Button? addButton, deleteButton;
 
         public TabbedTextEditorTests()
         {
             form = new TabbedTextEditor();
             form.Show();
-            EditorTabControl = (TabControl)TestUtils.GetControlNamed(form, "EditorTabControl", true);
-            MainTabPage = (TabPage)TestUtils.GetControlNamed(EditorTabControl, "MainTabPage", true);
-            MainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(MainTabPage, "MainRichTextBox", true);
-            FileNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "FileNameTextBox", true);
-            AddButton = (Button)TestUtils.GetControlNamed(form, "AddButton", true);
-            DeleteButton = (Button)TestUtils.GetControlNamed(form, "DeleteButton", true);
+            editorTabControl = (TabControl)TestUtils.GetControlNamed(form, "editorTabControl", true);
+            mainTabPage = (TabPage)TestUtils.GetControlNamed(editorTabControl, "mainTabPage", true);
+            mainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(mainTabPage, "mainRichTextBox", true);
+            fileNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "fileNameTextBox", true);
+            addButton = (Button)TestUtils.GetControlNamed(form, "addButton", true);
+            deleteButton = (Button)TestUtils.GetControlNamed(form, "deleteButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllDefaultControls()
         {
-            Assert.NotNull(EditorTabControl);
-            Assert.NotNull(MainTabPage);
-            Assert.NotNull(MainRichTextBox);
-            Assert.NotNull(FileNameTextBox);
-            Assert.NotNull(AddButton);
-            Assert.NotNull(DeleteButton);
+            Assert.NotNull(editorTabControl);
+            Assert.NotNull(mainTabPage);
+            Assert.NotNull(mainRichTextBox);
+            Assert.NotNull(fileNameTextBox);
+            Assert.NotNull(addButton);
+            Assert.NotNull(deleteButton);
         }
 
         [Fact]
         public void ShouldAddTabPageOnAddButtonClick()
         {
-            FileNameTextBox.Text = "Test";
-            AddButton.PerformClick();
+            fileNameTextBox.Text = "Test";
+            addButton.PerformClick();
 
-            TabPage newTabPage = (TabPage)TestUtils.GetControlNamed(EditorTabControl, "TestTabPage", true);
+            TabPage newTabPage = (TabPage)TestUtils.GetControlNamed(editorTabControl, "TestTabPage", true);
 
             Assert.NotNull(newTabPage);
             Assert.Equal("TestTabPage", newTabPage.Name);
@@ -47,10 +47,10 @@
         [Fact]
         public void ShouldCreateRichTextBoxOnNewTabPage()
         {
-            FileNameTextBox.Text = "Test";
-            AddButton.PerformClick();
+            fileNameTextBox.Text = "Test";
+            addButton.PerformClick();
 
-            TabPage newTabPage = (TabPage)TestUtils.GetControlNamed(EditorTabControl, "TestTabPage", true);
+            TabPage newTabPage = (TabPage)TestUtils.GetControlNamed(editorTabControl, "TestTabPage", true);
 
             Assert.NotNull(newTabPage);
 
@@ -63,16 +63,16 @@
         [Fact]
         public void ShouldDeleteTabAndMoveLeftOnDeleteButtonClick()
         {
-            FileNameTextBox.Text = "Test0";
-            AddButton.PerformClick();
-            FileNameTextBox.Text = "Test1";
-            AddButton.PerformClick();
+            fileNameTextBox.Text = "Test0";
+            addButton.PerformClick();
+            fileNameTextBox.Text = "Test1";
+            addButton.PerformClick();
 
-            EditorTabControl.SelectedIndex = 2;
-            DeleteButton.PerformClick();
+            editorTabControl.SelectedIndex = 2;
+            deleteButton.PerformClick();
 
-            Assert.Equal(1, EditorTabControl.SelectedIndex);
-            Assert.Equal("Test0TabPage", EditorTabControl.SelectedTab.Name);
+            Assert.Equal(1, editorTabControl.SelectedIndex);
+            Assert.Equal("Test0TabPage", editorTabControl.SelectedTab.Name);
         }
     }
 }

@@ -3,29 +3,29 @@
     public class FontSizeResizerTests
     {
         FontSizeResizer? form;
-        TrackBar? ResizeTrackBar;
-        Label? Label;
+        TrackBar? resizeTrackBar;
+        Label? fontSizeLabel;
 
         public FontSizeResizerTests()
         {
             form = new FontSizeResizer();
-            ResizeTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "ResizeTrackBar", true);
-            Label = (Label)TestUtils.GetControlNamed(form, "Label", true);
+            resizeTrackBar = (TrackBar)TestUtils.GetControlNamed(form, "resizeTrackBar", true);
+            fontSizeLabel = (Label)TestUtils.GetControlNamed(form, "fontSizeLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(ResizeTrackBar);
-            Assert.NotNull(Label);
+            Assert.NotNull(resizeTrackBar);
+            Assert.NotNull(fontSizeLabel);
         }
 
         [Fact]
         public void ShouldChangeFontSizeOnTrackBarValueChange()
         {
-            ResizeTrackBar.Value = ResizeTrackBar.Maximum;
+            resizeTrackBar.Value = resizeTrackBar.Maximum;
 
-            Assert.Equal(ResizeTrackBar.Value, Label.Font.Size);
+            Assert.Equal(resizeTrackBar.Value, fontSizeLabel.Font.Size);
         }
     }
 }

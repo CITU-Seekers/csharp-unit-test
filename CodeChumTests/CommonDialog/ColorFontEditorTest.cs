@@ -5,33 +5,33 @@ namespace CodeChum.Tests
     public class ColorAndFontEditorTests
     {
         ColorFontEditor? form;
-        RichTextBox? MainRichTextBox;
-        Button? ColorButton, FontButton;
+        RichTextBox? mainRichTextBox;
+        Button? colorButton, fontButton;
 
         public ColorAndFontEditorTests()
         {
             form = new ColorFontEditor();
             form.Show();
-            MainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "MainRichTextBox", true);
-            ColorButton = (Button)TestUtils.GetControlNamed(form, "ColorButton", true);
-            FontButton = (Button)TestUtils.GetControlNamed(form, "FontButton", true);
+            mainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "mainRichTextBox", true);
+            colorButton = (Button)TestUtils.GetControlNamed(form, "colorButton", true);
+            fontButton = (Button)TestUtils.GetControlNamed(form, "fontButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MainRichTextBox);
-            Assert.NotNull(ColorButton);
-            Assert.NotNull(FontButton);
+            Assert.NotNull(mainRichTextBox);
+            Assert.NotNull(colorButton);
+            Assert.NotNull(fontButton);
         }
 
         [Fact]
         public void ShouldChangeTextColorOnColorButtonClickAndColorDialogSelect()
         {
             form.EditorColorDialog.Color = Color.Red;
-            ColorButton.PerformClick();
+            colorButton.PerformClick();
 
-            Assert.Equal(Color.Red, MainRichTextBox.ForeColor);
+            Assert.Equal(Color.Red, mainRichTextBox.ForeColor);
         }
 
         [Fact]
@@ -40,9 +40,9 @@ namespace CodeChum.Tests
             Font expectedFont = new Font(new FontFamily("Arial"), 34, FontStyle.Bold);
 
             form.EditorFontDialog.Font = expectedFont;
-            FontButton.PerformClick();
+            fontButton.PerformClick();
 
-            Assert.Equal(expectedFont, MainRichTextBox.Font);
+            Assert.Equal(expectedFont, mainRichTextBox.Font);
         }
     }
 }

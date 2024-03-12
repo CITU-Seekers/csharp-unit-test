@@ -3,84 +3,84 @@
     public class MenuStripActivityTest
     {
         MenuStripActivity? form;
-        MenuStrip? MainMenuStrip;
-        ToolStripMenuItem? FileMenuItem, NewMenuItem, OpenMenuItem, SaveMenuItem, ExitMenuItem;
-        Label? StatusLabel;
+        MenuStrip? mainMenuStrip;
+        ToolStripMenuItem? fileMenuItem, newMenuItem, openMenuItem, saveMenuItem, exitMenuItem;
+        Label? statusLabel;
 
         public MenuStripActivityTest()
         {
             form = new MenuStripActivity();
             form.Show();
 
-            MainMenuStrip = (MenuStrip)TestUtils.GetControlNamed(form, "MainMenuStrip", true);
-            StatusLabel = (Label)TestUtils.GetControlNamed(form, "StatusLabel", true);
+            mainMenuStrip = (MenuStrip)TestUtils.GetControlNamed(form, "mainMenuStrip", true);
+            statusLabel = (Label)TestUtils.GetControlNamed(form, "statusLabel", true);
         }
 
         [Fact]
         public void ShouldHaveMainMenuStripAndItsMenuItems()
         {
-            Assert.NotNull(MainMenuStrip);
+            Assert.NotNull(mainMenuStrip);
 
 
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            NewMenuItem = FileMenuItem.DropDownItems["NewMenuItem"] as ToolStripMenuItem;
-            OpenMenuItem = FileMenuItem.DropDownItems["OpenMenuItem"] as ToolStripMenuItem;
-            SaveMenuItem = FileMenuItem.DropDownItems["SaveMenuItem"] as ToolStripMenuItem;
-            ExitMenuItem = FileMenuItem.DropDownItems["ExitMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            newMenuItem = fileMenuItem.DropDownItems["newMenuItem"] as ToolStripMenuItem;
+            openMenuItem = fileMenuItem.DropDownItems["openMenuItem"] as ToolStripMenuItem;
+            saveMenuItem = fileMenuItem.DropDownItems["saveMenuItem"] as ToolStripMenuItem;
+            exitMenuItem = fileMenuItem.DropDownItems["exitMenuItem"] as ToolStripMenuItem;
 
-            Assert.NotNull(FileMenuItem);
-            Assert.NotNull(NewMenuItem);
-            Assert.NotNull(OpenMenuItem);
-            Assert.NotNull(SaveMenuItem);
-            Assert.NotNull(ExitMenuItem);
+            Assert.NotNull(fileMenuItem);
+            Assert.NotNull(newMenuItem);
+            Assert.NotNull(openMenuItem);
+            Assert.NotNull(saveMenuItem);
+            Assert.NotNull(exitMenuItem);
         }
 
         [Fact]
         public void ShouldHaveStatusLabel()
         {
-            Assert.NotNull(StatusLabel);
+            Assert.NotNull(statusLabel);
         }
 
         [Fact]
         public void ShouldDisplayCorrectMessageOnNewMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            NewMenuItem = FileMenuItem.DropDownItems["NewMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            newMenuItem = fileMenuItem.DropDownItems["newMenuItem"] as ToolStripMenuItem;
 
-            NewMenuItem.PerformClick();
+            newMenuItem.PerformClick();
 
-            Assert.Equal("Creating new file...", StatusLabel.Text);
+            Assert.Equal("Creating new file...", statusLabel.Text);
         }
 
         [Fact]
         public void ShouldDisplayCorrectMessageOnOpenMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            OpenMenuItem = FileMenuItem.DropDownItems["OpenMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            openMenuItem = fileMenuItem.DropDownItems["openMenuItem"] as ToolStripMenuItem;
 
-            OpenMenuItem.PerformClick();
+            openMenuItem.PerformClick();
 
-            Assert.Equal("Opening file...", StatusLabel.Text);
+            Assert.Equal("Opening file...", statusLabel.Text);
         }
 
         [Fact]
         public void ShouldDisplayCorrectMessageOnSaveMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            SaveMenuItem = FileMenuItem.DropDownItems["SaveMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            saveMenuItem = fileMenuItem.DropDownItems["saveMenuItem"] as ToolStripMenuItem;
 
-            SaveMenuItem.PerformClick();
+            saveMenuItem.PerformClick();
 
-            Assert.Equal("Saving file...", StatusLabel.Text);
+            Assert.Equal("Saving file...", statusLabel.Text);
         }
 
         [Fact]
         public void ShouldExitOnExitMenuClick()
         {
-            FileMenuItem = MainMenuStrip.Items["FileMenuItem"] as ToolStripMenuItem;
-            ExitMenuItem = FileMenuItem.DropDownItems["ExitMenuItem"] as ToolStripMenuItem;
+            fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
+            exitMenuItem = fileMenuItem.DropDownItems["exitMenuItem"] as ToolStripMenuItem;
 
-            ExitMenuItem.PerformClick();
+            exitMenuItem.PerformClick();
 
             Assert.False(form.Visible, "The form should close when 'Exit' is clicked.");
         }

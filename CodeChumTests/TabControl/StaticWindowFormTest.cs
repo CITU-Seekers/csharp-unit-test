@@ -3,57 +3,57 @@
     public class StaticWindowsFormTests
     {
         StaticWindowForm? form;
-        TabControl? TabControl;
-        TabPage? HomeTabPage, RegisterTabPage, AboutTabPage;
-        Label? CompanyNameLabel, SloganLabel, AboutLabel;
-        TextBox? NameTextBox, EmailTextBox, PasswordTextBox;
-        Button? RegisterButton;
+        TabControl? mainTabControl;
+        TabPage? homeTabPage, registerTabPage, aboutTabPage;
+        Label? companyNameLabel, sloganLabel, aboutLabel;
+        TextBox? nameTextBox, emailTextBox, passwordTextBox;
+        Button? registerButton;
 
         public StaticWindowsFormTests()
         {
             form = new StaticWindowForm();
-            TabControl = (TabControl)TestUtils.GetControlNamed(form, "TabControl", true);
-            HomeTabPage = (TabPage)TestUtils.GetControlNamed(TabControl, "HomeTabPage", true);
-            RegisterTabPage = (TabPage)TestUtils.GetControlNamed(TabControl, "RegisterTabPage", true);
-            AboutTabPage = (TabPage)TestUtils.GetControlNamed(TabControl, "AboutTabPage", true);
-            CompanyNameLabel = (Label)TestUtils.GetControlNamed(HomeTabPage, "CompanyNameLabel", true);
-            SloganLabel = (Label)TestUtils.GetControlNamed(HomeTabPage, "SloganLabel", true);
-            AboutLabel = (Label)TestUtils.GetControlNamed(AboutTabPage, "AboutLabel", true);
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(RegisterTabPage, "NameTextBox", true);
-            EmailTextBox = (TextBox)TestUtils.GetControlNamed(RegisterTabPage, "EmailTextBox", true);
-            PasswordTextBox = (TextBox)TestUtils.GetControlNamed(RegisterTabPage, "PasswordTextBox", true);
-            RegisterButton = (Button)TestUtils.GetControlNamed(RegisterTabPage, "RegisterButton", true);
+            mainTabControl = (TabControl)TestUtils.GetControlNamed(form, "mainTabControl", true);
+            homeTabPage = (TabPage)TestUtils.GetControlNamed(mainTabControl, "homeTabPage", true);
+            registerTabPage = (TabPage)TestUtils.GetControlNamed(mainTabControl, "registerTabPage", true);
+            aboutTabPage = (TabPage)TestUtils.GetControlNamed(mainTabControl, "aboutTabPage", true);
+            companyNameLabel = (Label)TestUtils.GetControlNamed(homeTabPage, "companyNameLabel", true);
+            sloganLabel = (Label)TestUtils.GetControlNamed(homeTabPage, "sloganLabel", true);
+            aboutLabel = (Label)TestUtils.GetControlNamed(aboutTabPage, "aboutLabel", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(registerTabPage, "nameTextBox", true);
+            emailTextBox = (TextBox)TestUtils.GetControlNamed(registerTabPage, "emailTextBox", true);
+            passwordTextBox = (TextBox)TestUtils.GetControlNamed(registerTabPage, "passwordTextBox", true);
+            registerButton = (Button)TestUtils.GetControlNamed(registerTabPage, "registerButton", true);
         }
 
         [Fact]
         public void ShouldHaveTabControlAndAllItsPages()
         {
-            Assert.NotNull(TabControl);
-            Assert.NotNull(HomeTabPage);
-            Assert.NotNull(RegisterTabPage);
-            Assert.NotNull(AboutTabPage);
+            Assert.NotNull(mainTabControl);
+            Assert.NotNull(homeTabPage);
+            Assert.NotNull(registerTabPage);
+            Assert.NotNull(aboutTabPage);
         }
 
         [Fact]
         public void ShouldHaveAllControlsInHomeTabPage()
         {
-            Assert.NotNull(CompanyNameLabel);
-            Assert.NotNull(SloganLabel);
+            Assert.NotNull(companyNameLabel);
+            Assert.NotNull(sloganLabel);
         }
 
         [Fact]
         public void ShouldHaveAllControlsInRegisterTabPage()
         {
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(EmailTextBox);
-            Assert.NotNull(PasswordTextBox);
-            Assert.NotNull(RegisterButton);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(emailTextBox);
+            Assert.NotNull(passwordTextBox);
+            Assert.NotNull(registerButton);
         }
 
         [Fact]
         public void ShouldHaveAllControlsInAboutTabPage()
         {
-            Assert.NotNull(AboutLabel);
+            Assert.NotNull(aboutLabel);
         }
 
         [Fact]
@@ -61,8 +61,8 @@
         {
             string expectedHome = "Company X";
 
-            Assert.Equal(expectedHome, CompanyNameLabel.Text);
-            Assert.True(SloganLabel.Text.Length > 0, "There should be a slogan.");
+            Assert.Equal(expectedHome, companyNameLabel.Text);
+            Assert.True(sloganLabel.Text.Length > 0, "There should be a slogan.");
         }
 
         [Fact]
@@ -71,7 +71,7 @@
             string expectedAbout = "Company X is a company dedicated in helping " +
                 "our clients be connected.";
 
-            Assert.Equal(expectedAbout, AboutLabel.Text);
+            Assert.Equal(expectedAbout, aboutLabel.Text);
         }
     }
 }

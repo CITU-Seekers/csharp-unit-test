@@ -6,47 +6,47 @@ namespace CodeChum.Tests
     {
         PersonalCalendar? form;
         Events events;
-        MonthCalendar? MonthCalendar;
-        Label? EventLabel;
-        TextBox? EventNameTextBox;
-        Button? AddEventButton, RetrieveEventButton;
+        MonthCalendar? personalMonthCalendar;
+        Label? eventLabel;
+        TextBox? eventNameTextBox;
+        Button? addEventButton, retrieveEventButton;
 
         public PersonalCalendarTests()
         {
             form = new PersonalCalendar();
             form.Show();
             events = new Events();
-            MonthCalendar = (MonthCalendar)TestUtils.GetControlNamed(form, "MonthCalendar", true);
-            EventLabel = (Label)TestUtils.GetControlNamed(form, "EventLabel", true);
-            EventNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "EventNameTextBox", true);
-            AddEventButton = (Button)TestUtils.GetControlNamed(form, "AddEventButton", true);
-            RetrieveEventButton = (Button)TestUtils.GetControlNamed(form, "RetrieveEventButton", true);
+            personalMonthCalendar = (MonthCalendar)TestUtils.GetControlNamed(form, "personalMonthCalendar", true);
+            eventLabel = (Label)TestUtils.GetControlNamed(form, "eventLabel", true);
+            eventNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "eventNameTextBox", true);
+            addEventButton = (Button)TestUtils.GetControlNamed(form, "addEventButton", true);
+            retrieveEventButton = (Button)TestUtils.GetControlNamed(form, "retrieveEventButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MonthCalendar);
-            Assert.NotNull(EventLabel);
-            Assert.NotNull(EventNameTextBox);
-            Assert.NotNull(AddEventButton);
-            Assert.NotNull(RetrieveEventButton);
+            Assert.NotNull(personalMonthCalendar);
+            Assert.NotNull(eventLabel);
+            Assert.NotNull(eventNameTextBox);
+            Assert.NotNull(addEventButton);
+            Assert.NotNull(retrieveEventButton);
         }
 
         [Fact]
         public void ShouldShowOnLabelWhenAddedAsHoliday()
         {
 
-            EventNameTextBox.Text = "Christmas";
+            eventNameTextBox.Text = "Christmas";
             DateTime christmas = new DateTime(2022, 12, 25);
             string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(christmas.Month)
                    + " " + christmas.Day + ", " + christmas.Year;
-            MonthCalendar.SetDate(christmas);
-            events.AddEvent(dateString, EventNameTextBox.Text);
+            personalMonthCalendar.SetDate(christmas);
+            events.AddEvent(dateString, eventNameTextBox.Text);
 
-            AddEventButton.PerformClick();
+            addEventButton.PerformClick();
 
-            Assert.Equal(events.RetrieveEvent(dateString), EventLabel.Text);
+            Assert.Equal(events.RetrieveEvent(dateString), eventLabel.Text);
         }
 
         [Fact]
@@ -54,12 +54,12 @@ namespace CodeChum.Tests
         {
             string expected = "December 1, 2022";
             DateTime date = new DateTime(2022, 12, 1);
-            MonthCalendar.SetDate(date);
+            personalMonthCalendar.SetDate(date);
 
-            AddEventButton.PerformClick();
-            RetrieveEventButton.PerformClick();
+            addEventButton.PerformClick();
+            retrieveEventButton.PerformClick();
 
-            Assert.Equal(events.RetrieveEvent(expected), EventLabel.Text);
+            Assert.Equal(events.RetrieveEvent(expected), eventLabel.Text);
         }
     }
 }

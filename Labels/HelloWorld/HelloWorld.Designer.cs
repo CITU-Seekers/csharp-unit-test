@@ -28,34 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TextDisplayLabel = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            textDisplayLabel = new Label();
+            SuspendLayout();
             // 
-            // TextDisplayLabel
+            // textDisplayLabel
             // 
-            this.TextDisplayLabel.AutoSize = true;
-            this.TextDisplayLabel.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.TextDisplayLabel.Location = new System.Drawing.Point(96, 70);
-            this.TextDisplayLabel.Name = "TextDisplayLabel";
-            this.TextDisplayLabel.Size = new System.Drawing.Size(224, 46);
-            this.TextDisplayLabel.TabIndex = 0;
-            this.TextDisplayLabel.Text = "Hello World!";
+            textDisplayLabel.AutoSize = true;
+            textDisplayLabel.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold, GraphicsUnit.Point);
+            textDisplayLabel.Location = new Point(75, 46);
+            textDisplayLabel.Margin = new Padding(2, 0, 2, 0);
+            textDisplayLabel.Name = "textDisplayLabel";
+            textDisplayLabel.Size = new Size(181, 37);
+            textDisplayLabel.TabIndex = 0;
+            textDisplayLabel.Text = "Hello World!";
             // 
             // HelloWorld
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 190);
-            this.Controls.Add(this.TextDisplayLabel);
-            this.Name = "HelloWorld";
-            this.Text = "HelloWorld";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(315, 124);
+            Controls.Add(textDisplayLabel);
+            Margin = new Padding(2);
+            Name = "HelloWorld";
+            Text = "HelloWorld";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Label TextDisplayLabel;
+        private Label textDisplayLabel;
     }
 }

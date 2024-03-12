@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.RespondentPanel = new System.Windows.Forms.Panel();
+            this.respondentPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.NoRadioButton = new System.Windows.Forms.RadioButton();
-            this.YesRadioButton = new System.Windows.Forms.RadioButton();
-            this.RespondentNameTextBox = new System.Windows.Forms.TextBox();
-            this.PetDetailsPanel = new System.Windows.Forms.Panel();
-            this.HappyLevelsNumericControl = new System.Windows.Forms.NumericUpDown();
-            this.PetTypeTextBox = new System.Windows.Forms.TextBox();
-            this.PetNameTextBox = new System.Windows.Forms.TextBox();
-            this.SubmitButton = new System.Windows.Forms.Button();
-            this.RespondentPanel.SuspendLayout();
-            this.PetDetailsPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HappyLevelsNumericControl)).BeginInit();
+            this.noRadioButton = new System.Windows.Forms.RadioButton();
+            this.yesRadioButton = new System.Windows.Forms.RadioButton();
+            this.respondentNameTextBox = new System.Windows.Forms.TextBox();
+            this.petDetailsPanel = new System.Windows.Forms.Panel();
+            this.happyLevelsNumericControl = new System.Windows.Forms.NumericUpDown();
+            this.petTypeTextBox = new System.Windows.Forms.TextBox();
+            this.petNameTextBox = new System.Windows.Forms.TextBox();
+            this.submitButton = new System.Windows.Forms.Button();
+            this.respondentPanel.SuspendLayout();
+            this.petDetailsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.happyLevelsNumericControl)).BeginInit();
             this.SuspendLayout();
             // 
-            // RespondentPanel
+            // respondentPanel
             // 
-            this.RespondentPanel.Controls.Add(this.label1);
-            this.RespondentPanel.Controls.Add(this.NoRadioButton);
-            this.RespondentPanel.Controls.Add(this.YesRadioButton);
-            this.RespondentPanel.Controls.Add(this.RespondentNameTextBox);
-            this.RespondentPanel.Location = new System.Drawing.Point(24, 21);
-            this.RespondentPanel.Name = "RespondentPanel";
-            this.RespondentPanel.Size = new System.Drawing.Size(240, 137);
-            this.RespondentPanel.TabIndex = 0;
+            this.respondentPanel.Controls.Add(this.label1);
+            this.respondentPanel.Controls.Add(this.noRadioButton);
+            this.respondentPanel.Controls.Add(this.yesRadioButton);
+            this.respondentPanel.Controls.Add(this.respondentNameTextBox);
+            this.respondentPanel.Location = new System.Drawing.Point(24, 21);
+            this.respondentPanel.Name = "respondentPanel";
+            this.respondentPanel.Size = new System.Drawing.Size(240, 137);
+            this.respondentPanel.TabIndex = 0;
             // 
             // label1
             // 
@@ -63,131 +63,131 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Do you own a pet?";
             // 
-            // NoRadioButton
+            // noRadioButton
             // 
-            this.NoRadioButton.AutoSize = true;
-            this.NoRadioButton.Location = new System.Drawing.Point(80, 96);
-            this.NoRadioButton.Name = "NoRadioButton";
-            this.NoRadioButton.Size = new System.Drawing.Size(50, 24);
-            this.NoRadioButton.TabIndex = 2;
-            this.NoRadioButton.TabStop = true;
-            this.NoRadioButton.Text = "No";
-            this.NoRadioButton.UseVisualStyleBackColor = true;
-            this.NoRadioButton.CheckedChanged += new System.EventHandler(this.NoRadioButton_CheckedChanged);
+            this.noRadioButton.AutoSize = true;
+            this.noRadioButton.Location = new System.Drawing.Point(80, 96);
+            this.noRadioButton.Name = "noRadioButton";
+            this.noRadioButton.Size = new System.Drawing.Size(50, 24);
+            this.noRadioButton.TabIndex = 2;
+            this.noRadioButton.TabStop = true;
+            this.noRadioButton.Text = "No";
+            this.noRadioButton.UseVisualStyleBackColor = true;
+            this.noRadioButton.CheckedChanged += new System.EventHandler(this.NoRadioButton_CheckedChanged);
             // 
-            // YesRadioButton
+            // yesRadioButton
             // 
-            this.YesRadioButton.AutoSize = true;
-            this.YesRadioButton.Location = new System.Drawing.Point(15, 96);
-            this.YesRadioButton.Name = "YesRadioButton";
-            this.YesRadioButton.Size = new System.Drawing.Size(51, 24);
-            this.YesRadioButton.TabIndex = 1;
-            this.YesRadioButton.TabStop = true;
-            this.YesRadioButton.Text = "Yes";
-            this.YesRadioButton.UseVisualStyleBackColor = true;
-            this.YesRadioButton.CheckedChanged += new System.EventHandler(this.YesRadioButton_CheckedChanged);
+            this.yesRadioButton.AutoSize = true;
+            this.yesRadioButton.Location = new System.Drawing.Point(15, 96);
+            this.yesRadioButton.Name = "yesRadioButton";
+            this.yesRadioButton.Size = new System.Drawing.Size(51, 24);
+            this.yesRadioButton.TabIndex = 1;
+            this.yesRadioButton.TabStop = true;
+            this.yesRadioButton.Text = "Yes";
+            this.yesRadioButton.UseVisualStyleBackColor = true;
+            this.yesRadioButton.CheckedChanged += new System.EventHandler(this.YesRadioButton_CheckedChanged);
             // 
-            // RespondentNameTextBox
+            // respondentNameTextBox
             // 
-            this.RespondentNameTextBox.Location = new System.Drawing.Point(15, 22);
-            this.RespondentNameTextBox.Name = "RespondentNameTextBox";
-            this.RespondentNameTextBox.PlaceholderText = "Pet Owner Name";
-            this.RespondentNameTextBox.Size = new System.Drawing.Size(215, 27);
-            this.RespondentNameTextBox.TabIndex = 0;
-            this.RespondentNameTextBox.TextChanged += new System.EventHandler(this.RespondentNameTextBox_TextChanged);
+            this.respondentNameTextBox.Location = new System.Drawing.Point(15, 22);
+            this.respondentNameTextBox.Name = "respondentNameTextBox";
+            this.respondentNameTextBox.PlaceholderText = "Pet Owner Name";
+            this.respondentNameTextBox.Size = new System.Drawing.Size(215, 27);
+            this.respondentNameTextBox.TabIndex = 0;
+            this.respondentNameTextBox.TextChanged += new System.EventHandler(this.RespondentNameTextBox_TextChanged);
             // 
-            // PetDetailsPanel
+            // petDetailsPanel
             // 
-            this.PetDetailsPanel.Controls.Add(this.HappyLevelsNumericControl);
-            this.PetDetailsPanel.Controls.Add(this.PetTypeTextBox);
-            this.PetDetailsPanel.Controls.Add(this.PetNameTextBox);
-            this.PetDetailsPanel.Location = new System.Drawing.Point(281, 21);
-            this.PetDetailsPanel.Name = "PetDetailsPanel";
-            this.PetDetailsPanel.Size = new System.Drawing.Size(222, 137);
-            this.PetDetailsPanel.TabIndex = 1;
-            this.PetDetailsPanel.Visible = false;
+            this.petDetailsPanel.Controls.Add(this.happyLevelsNumericControl);
+            this.petDetailsPanel.Controls.Add(this.petTypeTextBox);
+            this.petDetailsPanel.Controls.Add(this.petNameTextBox);
+            this.petDetailsPanel.Location = new System.Drawing.Point(281, 21);
+            this.petDetailsPanel.Name = "petDetailsPanel";
+            this.petDetailsPanel.Size = new System.Drawing.Size(222, 137);
+            this.petDetailsPanel.TabIndex = 1;
+            this.petDetailsPanel.Visible = false;
             // 
-            // HappyLevelsNumericControl
+            // happyLevelsNumericControl
             // 
-            this.HappyLevelsNumericControl.Location = new System.Drawing.Point(20, 84);
-            this.HappyLevelsNumericControl.Maximum = new decimal(new int[] {
+            this.happyLevelsNumericControl.Location = new System.Drawing.Point(20, 84);
+            this.happyLevelsNumericControl.Maximum = new decimal(new int[] {
             5,
             0,
             0,
             0});
-            this.HappyLevelsNumericControl.Minimum = new decimal(new int[] {
+            this.happyLevelsNumericControl.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.HappyLevelsNumericControl.Name = "HappyLevelsNumericControl";
-            this.HappyLevelsNumericControl.Size = new System.Drawing.Size(175, 27);
-            this.HappyLevelsNumericControl.TabIndex = 2;
-            this.HappyLevelsNumericControl.Value = new decimal(new int[] {
+            this.happyLevelsNumericControl.Name = "happyLevelsNumericControl";
+            this.happyLevelsNumericControl.Size = new System.Drawing.Size(175, 27);
+            this.happyLevelsNumericControl.TabIndex = 2;
+            this.happyLevelsNumericControl.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
-            // PetTypeTextBox
+            // petTypeTextBox
             // 
-            this.PetTypeTextBox.Location = new System.Drawing.Point(20, 53);
-            this.PetTypeTextBox.Name = "PetTypeTextBox";
-            this.PetTypeTextBox.PlaceholderText = "Pet Type";
-            this.PetTypeTextBox.Size = new System.Drawing.Size(176, 27);
-            this.PetTypeTextBox.TabIndex = 1;
-            this.PetTypeTextBox.TextChanged += new System.EventHandler(this.PetTypeTextBox_TextChanged);
+            this.petTypeTextBox.Location = new System.Drawing.Point(20, 53);
+            this.petTypeTextBox.Name = "petTypeTextBox";
+            this.petTypeTextBox.PlaceholderText = "Pet Type";
+            this.petTypeTextBox.Size = new System.Drawing.Size(176, 27);
+            this.petTypeTextBox.TabIndex = 1;
+            this.petTypeTextBox.TextChanged += new System.EventHandler(this.PetTypeTextBox_TextChanged);
             // 
-            // PetNameTextBox
+            // petNameTextBox
             // 
-            this.PetNameTextBox.Location = new System.Drawing.Point(20, 22);
-            this.PetNameTextBox.Name = "PetNameTextBox";
-            this.PetNameTextBox.PlaceholderText = "Pet Name";
-            this.PetNameTextBox.Size = new System.Drawing.Size(176, 27);
-            this.PetNameTextBox.TabIndex = 0;
-            this.PetNameTextBox.TextChanged += new System.EventHandler(this.PetNameTextBox_TextChanged);
+            this.petNameTextBox.Location = new System.Drawing.Point(20, 22);
+            this.petNameTextBox.Name = "petNameTextBox";
+            this.petNameTextBox.PlaceholderText = "Pet Name";
+            this.petNameTextBox.Size = new System.Drawing.Size(176, 27);
+            this.petNameTextBox.TabIndex = 0;
+            this.petNameTextBox.TextChanged += new System.EventHandler(this.PetNameTextBox_TextChanged);
             // 
-            // SubmitButton
+            // submitButton
             // 
-            this.SubmitButton.Enabled = false;
-            this.SubmitButton.Location = new System.Drawing.Point(420, 163);
-            this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(84, 25);
-            this.SubmitButton.TabIndex = 2;
-            this.SubmitButton.Text = "Submit";
-            this.SubmitButton.UseVisualStyleBackColor = true;
-            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
+            this.submitButton.Enabled = false;
+            this.submitButton.Location = new System.Drawing.Point(420, 163);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(84, 25);
+            this.submitButton.TabIndex = 2;
+            this.submitButton.Text = "Submit";
+            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
             // CommunitySurveyForOwningPets
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 208);
-            this.Controls.Add(this.SubmitButton);
-            this.Controls.Add(this.PetDetailsPanel);
-            this.Controls.Add(this.RespondentPanel);
+            this.Controls.Add(this.submitButton);
+            this.Controls.Add(this.petDetailsPanel);
+            this.Controls.Add(this.respondentPanel);
             this.Name = "CommunitySurveyForOwningPets";
             this.Text = "Community Survey for Owning Pets";
-            this.RespondentPanel.ResumeLayout(false);
-            this.RespondentPanel.PerformLayout();
-            this.PetDetailsPanel.ResumeLayout(false);
-            this.PetDetailsPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HappyLevelsNumericControl)).EndInit();
+            this.respondentPanel.ResumeLayout(false);
+            this.respondentPanel.PerformLayout();
+            this.petDetailsPanel.ResumeLayout(false);
+            this.petDetailsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.happyLevelsNumericControl)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Panel RespondentPanel;
+        private Panel respondentPanel;
         private Label label1;
-        private RadioButton NoRadioButton;
-        private RadioButton YesRadioButton;
-        private TextBox RespondentNameTextBox;
-        private Panel PetDetailsPanel;
-        private NumericUpDown HappyLevelsNumericControl;
-        private TextBox PetTypeTextBox;
-        private TextBox PetNameTextBox;
-        private Button SubmitButton;
+        private RadioButton noRadioButton;
+        private RadioButton yesRadioButton;
+        private TextBox respondentNameTextBox;
+        private Panel petDetailsPanel;
+        private NumericUpDown happyLevelsNumericControl;
+        private TextBox petTypeTextBox;
+        private TextBox petNameTextBox;
+        private Button submitButton;
     }
 }

@@ -19,9 +19,9 @@ namespace CodeChum
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            if (NameTextBox.TextLength == 0 ||
-                EmailTextBox.TextLength == 0 ||
-                (!YesRadioButton.Checked && !NoRadioButton.Checked))
+            if (nameTextBox.TextLength == 0 ||
+                emailTextBox.TextLength == 0 ||
+                (!yesRadioButton.Checked && !noRadioButton.Checked))
             {
                 MessageBoxWrapper2.Show("You need to fill up all fields", "Invalid", MessageBoxButtons.OK);
             }

@@ -19,7 +19,7 @@ namespace CodeChum
 
         public void SetLabelColor()
         {
-            ColorLabel.BackColor = Color.FromArgb(RedTrackBar.Value, GreenTrackBar.Value, BlueTrackBar.Value);
+            colorLabel.BackColor = Color.FromArgb(redTrackBar.Value, greenTrackBar.Value, blueTrackBar.Value);
         }
         private void RedTrackBar_ValueChanged(object sender, EventArgs e)
         {
@@ -32,6 +32,11 @@ namespace CodeChum
         private void BlueTrackBar_ValueChanged(object sender, EventArgs e)
         {
             SetLabelColor();
+        }
+
+        private void ColorLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

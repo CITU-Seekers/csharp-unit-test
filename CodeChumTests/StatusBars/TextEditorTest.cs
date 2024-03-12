@@ -3,105 +3,105 @@
     public class TextEditorTests
     {
         TextEditor? form;
-        RichTextBox? MainRichTextBox;
-        Button? ToStartButton, ToEndButton;
-        StatusStrip? EditorStatusStrip;
-        ToolStripProgressBar? TextLengthProgressBar;
-        ToolStripStatusLabel? CaretPositionStatusLabel;
+        RichTextBox? mainRichTextBox;
+        Button? toStartButton, toEndButton;
+        StatusStrip? editorStatusStrip;
+        ToolStripProgressBar? textLengthProgressBar;
+        ToolStripStatusLabel? caretPositionStatusLabel;
 
         public TextEditorTests()
         {
             form = new TextEditor();
             form.Show();
-            MainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "MainRichTextBox", true);
-            ToStartButton = (Button)TestUtils.GetControlNamed(form, "ToStartButton", true);
-            ToEndButton = (Button)TestUtils.GetControlNamed(form, "ToEndButton", true);
-            EditorStatusStrip = (StatusStrip)TestUtils.GetControlNamed(form, "EditorStatusStrip", true);
+            mainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "mainRichTextBox", true);
+            toStartButton = (Button)TestUtils.GetControlNamed(form, "toStartButton", true);
+            toEndButton = (Button)TestUtils.GetControlNamed(form, "toEndButton", true);
+            editorStatusStrip = (StatusStrip)TestUtils.GetControlNamed(form, "editorStatusStrip", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MainRichTextBox);
-            Assert.NotNull(ToStartButton);
-            Assert.NotNull(ToEndButton);
+            Assert.NotNull(mainRichTextBox);
+            Assert.NotNull(toStartButton);
+            Assert.NotNull(toEndButton);
         }
 
         [Fact]
         public void ShouldHaveStatusStripAndAllStatusStripItems()
         {
-            Assert.NotNull(EditorStatusStrip);
+            Assert.NotNull(editorStatusStrip);
 
-            TextLengthProgressBar = EditorStatusStrip.Items["TextLengthProgressBar"] as ToolStripProgressBar;
-            Assert.NotNull(TextLengthProgressBar);
+            textLengthProgressBar = editorStatusStrip.Items["textLengthProgressBar"] as ToolStripProgressBar;
+            Assert.NotNull(textLengthProgressBar);
 
-            CaretPositionStatusLabel = EditorStatusStrip.Items["CaretPositionStatusLabel"] as ToolStripStatusLabel;
-            Assert.NotNull(CaretPositionStatusLabel);
+            caretPositionStatusLabel = editorStatusStrip.Items["caretPositionStatusLabel"] as ToolStripStatusLabel;
+            Assert.NotNull(caretPositionStatusLabel);
         }
 
         [Fact]
         public void ShouldHaveCorrectStartingValuesForStatusStrip()
         {
-            Assert.NotNull(EditorStatusStrip);
+            Assert.NotNull(editorStatusStrip);
 
-            CaretPositionStatusLabel = EditorStatusStrip.Items["CaretPositionStatusLabel"] as ToolStripStatusLabel;
-            Assert.Equal("Ln: 1, Col: 1", CaretPositionStatusLabel.Text);
+            caretPositionStatusLabel = editorStatusStrip.Items["caretPositionStatusLabel"] as ToolStripStatusLabel;
+            Assert.Equal("Ln: 1, Col: 1", caretPositionStatusLabel.Text);
 
-            TextLengthProgressBar = EditorStatusStrip.Items["TextLengthProgressBar"] as ToolStripProgressBar;
-            Assert.Equal(0, TextLengthProgressBar.Value);
+            textLengthProgressBar = editorStatusStrip.Items["textLengthProgressBar"] as ToolStripProgressBar;
+            Assert.Equal(0, textLengthProgressBar.Value);
         }
 
         [Fact]
         public void ShouldUpdateCaretPositionAsSelectionChanges()
         {
-            Assert.NotNull(EditorStatusStrip);
-            CaretPositionStatusLabel = EditorStatusStrip.Items["CaretPositionStatusLabel"] as ToolStripStatusLabel;
+            Assert.NotNull(editorStatusStrip);
+            caretPositionStatusLabel = editorStatusStrip.Items["caretPositionStatusLabel"] as ToolStripStatusLabel;
 
-            MainRichTextBox.Text = "Lorem Ipsum";
-            MainRichTextBox.SelectionStart = MainRichTextBox.Text.Length;
-            Assert.Equal("Ln: 1, Col: 12", CaretPositionStatusLabel.Text);
+            mainRichTextBox.Text = "Lorem Ipsum";
+            mainRichTextBox.SelectionStart = mainRichTextBox.Text.Length;
+            Assert.Equal("Ln: 1, Col: 12", caretPositionStatusLabel.Text);
 
-            MainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing \nelit.";
-            MainRichTextBox.SelectionStart = MainRichTextBox.Text.Length;
+            mainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing \nelit.";
+            mainRichTextBox.SelectionStart = mainRichTextBox.Text.Length;
 
-            Assert.Equal("Ln: 3, Col: 6", CaretPositionStatusLabel.Text);
+            Assert.Equal("Ln: 3, Col: 6", caretPositionStatusLabel.Text);
         }
 
         [Fact]
         public void ShouldBeAbleToSetCaretBackToTheStartAndUpdateStatus()
         {
-            Assert.NotNull(EditorStatusStrip);
-            CaretPositionStatusLabel = EditorStatusStrip.Items["CaretPositionStatusLabel"] as ToolStripStatusLabel;
+            Assert.NotNull(editorStatusStrip);
+            caretPositionStatusLabel = editorStatusStrip.Items["caretPositionStatusLabel"] as ToolStripStatusLabel;
 
-            MainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing \nelit.";
-            ToStartButton.PerformClick();
+            mainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing \nelit.";
+            toStartButton.PerformClick();
 
-            Assert.Equal("Ln: 1, Col: 1", CaretPositionStatusLabel.Text);
+            Assert.Equal("Ln: 1, Col: 1", caretPositionStatusLabel.Text);
         }
 
         [Fact]
         public void ShouldBeAbleToSetCaretToTheEndAndUpdateStatus()
         {
-            Assert.NotNull(EditorStatusStrip);
-            CaretPositionStatusLabel = EditorStatusStrip.Items["CaretPositionStatusLabel"] as ToolStripStatusLabel;
+            Assert.NotNull(editorStatusStrip);
+            caretPositionStatusLabel = editorStatusStrip.Items["caretPositionStatusLabel"] as ToolStripStatusLabel;
 
-            MainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing";
-            ToEndButton.PerformClick();
+            mainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing";
+            toEndButton.PerformClick();
 
-            Assert.Equal("Ln: 2, Col: 29", CaretPositionStatusLabel.Text);
+            Assert.Equal("Ln: 2, Col: 29", caretPositionStatusLabel.Text);
         }
 
         [Fact]
         public void ShouldUpdateProgressBarAsUserTypes()
         {
-            Assert.NotNull(EditorStatusStrip);
-            TextLengthProgressBar = EditorStatusStrip.Items["TextLengthProgressBar"] as ToolStripProgressBar;
+            Assert.NotNull(editorStatusStrip);
+            textLengthProgressBar = editorStatusStrip.Items["textLengthProgressBar"] as ToolStripProgressBar;
 
-            MainRichTextBox.Text = "Lorem ipsum dolor sit \namet";
-            Assert.Equal(MainRichTextBox.Text.Length, TextLengthProgressBar.Value);
+            mainRichTextBox.Text = "Lorem ipsum dolor sit \namet";
+            Assert.Equal(mainRichTextBox.Text.Length, textLengthProgressBar.Value);
 
-            MainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing";
-            Assert.Equal(MainRichTextBox.Text.Length, TextLengthProgressBar.Value);
+            mainRichTextBox.Text = "Lorem ipsum dolor sit \namet, consectetur adipiscing";
+            Assert.Equal(mainRichTextBox.Text.Length, textLengthProgressBar.Value);
         }
     }
 }

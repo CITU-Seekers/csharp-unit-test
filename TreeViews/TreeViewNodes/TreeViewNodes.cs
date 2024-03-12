@@ -20,15 +20,15 @@ namespace CodeChum
 
         private void AddNodeButton_Click(object sender, EventArgs e)
         {
-            if (MainNodeCheckBox.Checked || MainTreeView.Nodes.Count == 0)
+            if (mainNodeCheckBox.Checked || mainTreeView.Nodes.Count == 0)
             {
-                MainTreeView.Nodes.Insert(0, NameTextBox.Text);
+                mainTreeView.Nodes.Insert(0, nameTextBox.Text);
             }
             else
             {
                 try
                 {
-                    MainTreeView.SelectedNode.Nodes.Add(NameTextBox.Text);
+                    mainTreeView.SelectedNode.Nodes.Add(nameTextBox.Text);
                 }
                 catch (NullReferenceException ex)
                 {
@@ -41,7 +41,7 @@ namespace CodeChum
         {
             try
             {
-                MainTreeView.Nodes.Remove(MainTreeView.SelectedNode);
+                mainTreeView.Nodes.Remove(mainTreeView.SelectedNode);
             }
             catch (Exception ex)
             {

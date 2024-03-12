@@ -3,56 +3,56 @@
     public class CommunitySurveyForOwningPetsTests
     {
         CommunitySurveyForOwningPets? form;
-        Panel? RespondentPanel, PetDetailsPanel;
-        TextBox? RespondentNameTextBox, PetNameTextBox, PetTypeTextBox;
-        RadioButton? YesRadioButton, NoRadioButton;
-        NumericUpDown? HappyLevelsNumericControl;
-        Button? SubmitButton;
+        Panel? respondentPanel, petDetailsPanel;
+        TextBox? respondentNameTextBox, petNameTextBox, petTypeTextBox;
+        RadioButton? yesRadioButton, noRadioButton;
+        NumericUpDown? happyLevelsNumericControl;
+        Button? submitButton;
 
         public CommunitySurveyForOwningPetsTests()
         {
             form = new CommunitySurveyForOwningPets();
             form.Show();
-            RespondentPanel = (Panel)TestUtils.GetControlNamed(form, "RespondentPanel", true);
-            PetDetailsPanel = (Panel)TestUtils.GetControlNamed(form, "PetDetailsPanel", true);
-            RespondentNameTextBox = (TextBox)TestUtils.GetControlNamed(RespondentPanel, "RespondentNameTextBox", true);
-            PetNameTextBox = (TextBox)TestUtils.GetControlNamed(PetDetailsPanel, "PetNameTextBox", true);
-            PetTypeTextBox = (TextBox)TestUtils.GetControlNamed(PetDetailsPanel, "PetTypeTextBox", true);
-            YesRadioButton = (RadioButton)TestUtils.GetControlNamed(RespondentPanel, "YesRadioButton", true);
-            NoRadioButton = (RadioButton)TestUtils.GetControlNamed(RespondentPanel, "NoRadioButton", true);
-            HappyLevelsNumericControl = (NumericUpDown)TestUtils.GetControlNamed(PetDetailsPanel, "HappyLevelsNumericControl", true);
-            SubmitButton = (Button)TestUtils.GetControlNamed(form, "SubmitButton", true);
+            respondentPanel = (Panel)TestUtils.GetControlNamed(form, "respondentPanel", true);
+            petDetailsPanel = (Panel)TestUtils.GetControlNamed(form, "petDetailsPanel", true);
+            respondentNameTextBox = (TextBox)TestUtils.GetControlNamed(respondentPanel, "respondentNameTextBox", true);
+            petNameTextBox = (TextBox)TestUtils.GetControlNamed(petDetailsPanel, "petNameTextBox", true);
+            petTypeTextBox = (TextBox)TestUtils.GetControlNamed(petDetailsPanel, "petTypeTextBox", true);
+            yesRadioButton = (RadioButton)TestUtils.GetControlNamed(respondentPanel, "yesRadioButton", true);
+            noRadioButton = (RadioButton)TestUtils.GetControlNamed(respondentPanel, "noRadioButton", true);
+            happyLevelsNumericControl = (NumericUpDown)TestUtils.GetControlNamed(petDetailsPanel, "happyLevelsNumericControl", true);
+            submitButton = (Button)TestUtils.GetControlNamed(form, "submitButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(RespondentPanel);
-            Assert.NotNull(PetDetailsPanel);
-            Assert.NotNull(RespondentNameTextBox);
-            Assert.NotNull(PetNameTextBox);
-            Assert.NotNull(PetTypeTextBox);
-            Assert.NotNull(YesRadioButton);
-            Assert.NotNull(NoRadioButton);
-            Assert.NotNull(HappyLevelsNumericControl);
-            Assert.NotNull(SubmitButton);
+            Assert.NotNull(respondentPanel);
+            Assert.NotNull(petDetailsPanel);
+            Assert.NotNull(respondentNameTextBox);
+            Assert.NotNull(petNameTextBox);
+            Assert.NotNull(petTypeTextBox);
+            Assert.NotNull(yesRadioButton);
+            Assert.NotNull(noRadioButton);
+            Assert.NotNull(happyLevelsNumericControl);
+            Assert.NotNull(submitButton);
         }
 
         [Fact]
         public void ShouldOnlyShowPetDetailsPanelOnYesRadioButton()
         {
-            bool beforeState = PetDetailsPanel.Visible;
+            bool beforeState = petDetailsPanel.Visible;
 
-            YesRadioButton.Checked = true;
+            yesRadioButton.Checked = true;
 
             Assert.False(beforeState);
-            Assert.True(PetDetailsPanel.Visible);
+            Assert.True(petDetailsPanel.Visible);
         }
 
         [Fact]
         public void ShouldDisableButtonOnEmptyTextBox()
         {
-            Assert.False(SubmitButton.Enabled, "The submit button should be disabled.");
+            Assert.False(submitButton.Enabled, "The submit button should be disabled.");
         }
 
         [Fact]
@@ -60,10 +60,10 @@
         {
             string test = "Test";
 
-            RespondentNameTextBox.Text = test;
-            NoRadioButton.Checked = true;
+            respondentNameTextBox.Text = test;
+            noRadioButton.Checked = true;
 
-            Assert.True(SubmitButton.Enabled, "The submit button should be enabled.");
+            Assert.True(submitButton.Enabled, "The submit button should be enabled.");
         }
 
         [Fact]
@@ -71,17 +71,17 @@
         {
             string test = "Test";
 
-            RespondentNameTextBox.Text = test;
-            YesRadioButton.Checked = true;
+            respondentNameTextBox.Text = test;
+            yesRadioButton.Checked = true;
 
-            Assert.False(SubmitButton.Enabled, "The submit button should be disabled.");
+            Assert.False(submitButton.Enabled, "The submit button should be disabled.");
         }
 
         [Fact]
         public void ShouldHaveCorrectMinAndMaxHappyLevels()
         {
-            Assert.Equal(1, HappyLevelsNumericControl.Minimum);
-            Assert.Equal(5, HappyLevelsNumericControl.Maximum);
+            Assert.Equal(1, happyLevelsNumericControl.Minimum);
+            Assert.Equal(5, happyLevelsNumericControl.Maximum);
         }
 
         [Fact]
@@ -89,13 +89,13 @@
         {
             string test = "Test";
 
-            RespondentNameTextBox.Text = test;
-            YesRadioButton.Checked = true;
-            PetNameTextBox.Text = test;
-            PetTypeTextBox.Text = test;
-            HappyLevelsNumericControl.Value = 4;
+            respondentNameTextBox.Text = test;
+            yesRadioButton.Checked = true;
+            petNameTextBox.Text = test;
+            petTypeTextBox.Text = test;
+            happyLevelsNumericControl.Value = 4;
 
-            Assert.True(SubmitButton.Enabled, "The submit button should be enabled.");
+            Assert.True(submitButton.Enabled, "The submit button should be enabled.");
         }
 
         [Fact]
@@ -103,9 +103,9 @@
         {
             string test = "Test";
 
-            RespondentNameTextBox.Text = test;
-            NoRadioButton.Checked = true;
-            SubmitButton.PerformClick();
+            respondentNameTextBox.Text = test;
+            noRadioButton.Checked = true;
+            submitButton.PerformClick();
 
             Assert.True(MessageBoxWrapper.IsOpened, "The message box should be opened.");
         }

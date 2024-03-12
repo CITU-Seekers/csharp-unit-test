@@ -3,99 +3,99 @@
     public class MultipagePersonalInformationRecorderTests
     {
         PersonalInformationRecorder? form;
-        Panel? FirstPanel, SecondPanel, ThirdPanel;
-        TextBox? NameTextBox, AgeTextBox;
-        Label? NameLabel, AgeLabel;
-        RichTextBox? QuoteRichTextBox, QuoteDisplayRichTextBox;
-        Button? PrevButton, NextButton;
+        Panel? firstPanel, secondPanel, thirdPanel;
+        TextBox? nameTextBox, ageTextBox;
+        Label? nameLabel, ageLabel;
+        RichTextBox? quoteRichTextBox, quoteDisplayRichTextBox;
+        Button? prevButton, nextButton;
 
         public MultipagePersonalInformationRecorderTests()
         {
             form = new PersonalInformationRecorder();
             form.Show();
-            FirstPanel = (Panel)TestUtils.GetControlNamed(form, "FirstPanel", true);
-            SecondPanel = (Panel)TestUtils.GetControlNamed(form, "SecondPanel", true);
-            ThirdPanel = (Panel)TestUtils.GetControlNamed(form, "ThirdPanel", true);
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(FirstPanel, "NameTextBox", true);
-            AgeTextBox = (TextBox)TestUtils.GetControlNamed(FirstPanel, "AgeTextBox", true);
-            NameLabel = (Label)TestUtils.GetControlNamed(ThirdPanel, "NameLabel", true);
-            AgeLabel = (Label)TestUtils.GetControlNamed(ThirdPanel, "AgeLabel", true);
-            QuoteRichTextBox = (RichTextBox)TestUtils.GetControlNamed(SecondPanel, "QuoteRichTextBox", true);
-            QuoteDisplayRichTextBox = (RichTextBox)TestUtils.GetControlNamed(ThirdPanel, "QuoteDisplayRichTextBox", true);
-            PrevButton = (Button)TestUtils.GetControlNamed(form, "PrevButton", true);
-            NextButton = (Button)TestUtils.GetControlNamed(form, "NextButton", true);
+            firstPanel = (Panel)TestUtils.GetControlNamed(form, "firstPanel", true);
+            secondPanel = (Panel)TestUtils.GetControlNamed(form, "secondPanel", true);
+            thirdPanel = (Panel)TestUtils.GetControlNamed(form, "thirdPanel", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(firstPanel, "nameTextBox", true);
+            ageTextBox = (TextBox)TestUtils.GetControlNamed(firstPanel, "ageTextBox", true);
+            nameLabel = (Label)TestUtils.GetControlNamed(thirdPanel, "nameLabel", true);
+            ageLabel = (Label)TestUtils.GetControlNamed(thirdPanel, "ageLabel", true);
+            quoteRichTextBox = (RichTextBox)TestUtils.GetControlNamed(secondPanel, "quoteRichTextBox", true);
+            quoteDisplayRichTextBox = (RichTextBox)TestUtils.GetControlNamed(thirdPanel, "quoteDisplayRichTextBox", true);
+            prevButton = (Button)TestUtils.GetControlNamed(form, "prevButton", true);
+            nextButton = (Button)TestUtils.GetControlNamed(form, "nextButton", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(FirstPanel);
-            Assert.NotNull(SecondPanel);
-            Assert.NotNull(ThirdPanel);
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(AgeTextBox);
-            Assert.NotNull(NameLabel);
-            Assert.NotNull(AgeLabel);
-            Assert.NotNull(QuoteRichTextBox);
-            Assert.NotNull(QuoteDisplayRichTextBox);
-            Assert.NotNull(PrevButton);
-            Assert.NotNull(NextButton);
+            Assert.NotNull(firstPanel);
+            Assert.NotNull(secondPanel);
+            Assert.NotNull(thirdPanel);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(ageTextBox);
+            Assert.NotNull(nameLabel);
+            Assert.NotNull(ageLabel);
+            Assert.NotNull(quoteRichTextBox);
+            Assert.NotNull(quoteDisplayRichTextBox);
+            Assert.NotNull(prevButton);
+            Assert.NotNull(nextButton);
         }
 
         [Fact]
         public void ShouldHaveProperStartingVisibilityPanelsAndEnabledButtons()
         {
-            Assert.True(FirstPanel.Visible);
-            Assert.False(SecondPanel.Visible);
-            Assert.False(ThirdPanel.Visible);
-            Assert.False(PrevButton.Enabled);
+            Assert.True(firstPanel.Visible);
+            Assert.False(secondPanel.Visible);
+            Assert.False(thirdPanel.Visible);
+            Assert.False(prevButton.Enabled);
         }
 
         [Fact]
         public void ShouldProperlyEnableDisableButtonsAndDisplayPanels()
         {
-            NextButton.PerformClick();
-            Assert.True(PrevButton.Enabled);
-            Assert.True(NextButton.Enabled);
-            Assert.True(SecondPanel.Visible);
-            Assert.False(FirstPanel.Visible);
-            Assert.False(ThirdPanel.Visible);
+            nextButton.PerformClick();
+            Assert.True(prevButton.Enabled);
+            Assert.True(nextButton.Enabled);
+            Assert.True(secondPanel.Visible);
+            Assert.False(firstPanel.Visible);
+            Assert.False(thirdPanel.Visible);
 
-            NextButton.PerformClick();
-            Assert.True(PrevButton.Enabled);
-            Assert.False(NextButton.Enabled);
-            Assert.True(ThirdPanel.Visible);
-            Assert.False(FirstPanel.Visible);
-            Assert.False(SecondPanel.Visible);
+            nextButton.PerformClick();
+            Assert.True(prevButton.Enabled);
+            Assert.False(nextButton.Enabled);
+            Assert.True(thirdPanel.Visible);
+            Assert.False(firstPanel.Visible);
+            Assert.False(secondPanel.Visible);
 
-            PrevButton.PerformClick();
-            Assert.True(PrevButton.Enabled);
-            Assert.True(NextButton.Enabled);
-            Assert.True(SecondPanel.Visible);
-            Assert.False(FirstPanel.Visible);
-            Assert.False(ThirdPanel.Visible);
+            prevButton.PerformClick();
+            Assert.True(prevButton.Enabled);
+            Assert.True(nextButton.Enabled);
+            Assert.True(secondPanel.Visible);
+            Assert.False(firstPanel.Visible);
+            Assert.False(thirdPanel.Visible);
 
-            PrevButton.PerformClick();
-            Assert.False(PrevButton.Enabled);
-            Assert.True(NextButton.Enabled);
-            Assert.True(FirstPanel.Visible);
-            Assert.False(SecondPanel.Visible);
-            Assert.False(ThirdPanel.Visible);
+            prevButton.PerformClick();
+            Assert.False(prevButton.Enabled);
+            Assert.True(nextButton.Enabled);
+            Assert.True(firstPanel.Visible);
+            Assert.False(secondPanel.Visible);
+            Assert.False(thirdPanel.Visible);
         }
 
         [Fact]
         public void ShouldShowTextOnLastPanel()
         {
-            NameTextBox.Text = "Test";
-            AgeTextBox.Text = "Test";
-            NextButton.PerformClick();
-            QuoteRichTextBox.Text = "Test";
+            nameTextBox.Text = "Test";
+            ageTextBox.Text = "Test";
+            nextButton.PerformClick();
+            quoteRichTextBox.Text = "Test";
 
-            NextButton.PerformClick();
+            nextButton.PerformClick();
 
-            Assert.Equal(NameTextBox.Text, NameLabel.Text);
-            Assert.Equal(AgeTextBox.Text, AgeLabel.Text);
-            Assert.Equal(QuoteRichTextBox.Text, QuoteDisplayRichTextBox.Text);
+            Assert.Equal(nameTextBox.Text, nameLabel.Text);
+            Assert.Equal(ageTextBox.Text, ageLabel.Text);
+            Assert.Equal(quoteRichTextBox.Text, quoteDisplayRichTextBox.Text);
         }
     }
 }

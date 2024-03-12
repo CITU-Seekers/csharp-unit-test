@@ -3,35 +3,35 @@
     public class TreeViewNodesCRUDTests
     {
         TreeViewNodesCRUD? form;
-        TreeView? MainTreeView;
-        TextBox? NameTextBox;
-        CheckBox? MainNodeCheckBox;
-        Button? AddNodeButton, RemoveNodeButton, UpdateNodeButton;
-        Label? PathLabel;
+        TreeView? mainTreeView;
+        TextBox? nameTextBox;
+        CheckBox? mainNodeCheckBox;
+        Button? addNodeButton, removeNodeButton, updateNodeButton;
+        Label? pathLabel;
 
         public TreeViewNodesCRUDTests()
         {
             form = new TreeViewNodesCRUD();
             form.Show();
-            MainTreeView = (TreeView)TestUtils.GetControlNamed(form, "MainTreeView", true);
-            NameTextBox = (TextBox)TestUtils.GetControlNamed(form, "NameTextBox", true);
-            MainNodeCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "MainNodeCheckBox", true);
-            AddNodeButton = (Button)TestUtils.GetControlNamed(form, "AddNodeButton", true);
-            RemoveNodeButton = (Button)TestUtils.GetControlNamed(form, "RemoveNodeButton", true);
-            UpdateNodeButton = (Button)TestUtils.GetControlNamed(form, "UpdateNodeButton", true);
-            PathLabel = (Label)TestUtils.GetControlNamed(form, "PathLabel", true);
+            mainTreeView = (TreeView)TestUtils.GetControlNamed(form, "mainTreeView", true);
+            nameTextBox = (TextBox)TestUtils.GetControlNamed(form, "nameTextBox", true);
+            mainNodeCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "mainNodeCheckBox", true);
+            addNodeButton = (Button)TestUtils.GetControlNamed(form, "addNodeButton", true);
+            removeNodeButton = (Button)TestUtils.GetControlNamed(form, "removeNodeButton", true);
+            updateNodeButton = (Button)TestUtils.GetControlNamed(form, "updateNodeButton", true);
+            pathLabel = (Label)TestUtils.GetControlNamed(form, "pathLabel", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MainTreeView);
-            Assert.NotNull(NameTextBox);
-            Assert.NotNull(MainNodeCheckBox);
-            Assert.NotNull(AddNodeButton);
-            Assert.NotNull(RemoveNodeButton);
-            Assert.NotNull(UpdateNodeButton);
-            Assert.NotNull(PathLabel);
+            Assert.NotNull(mainTreeView);
+            Assert.NotNull(nameTextBox);
+            Assert.NotNull(mainNodeCheckBox);
+            Assert.NotNull(addNodeButton);
+            Assert.NotNull(removeNodeButton);
+            Assert.NotNull(updateNodeButton);
+            Assert.NotNull(pathLabel);
         }
 
         [Fact]
@@ -39,10 +39,10 @@
         {
             string test = "test";
 
-            NameTextBox.Text = test;
-            AddNodeButton.PerformClick();
+            nameTextBox.Text = test;
+            addNodeButton.PerformClick();
 
-            Assert.Equal(test, MainTreeView.Nodes[0].Text);
+            Assert.Equal(test, mainTreeView.Nodes[0].Text);
         }
 
         [Fact]
@@ -51,13 +51,13 @@
             string test = "test";
             string test0 = "test0";
 
-            NameTextBox.Text = test;
-            AddNodeButton.PerformClick();
-            MainNodeCheckBox.Checked = true;
-            NameTextBox.Text = test0;
-            AddNodeButton.PerformClick();
+            nameTextBox.Text = test;
+            addNodeButton.PerformClick();
+            mainNodeCheckBox.Checked = true;
+            nameTextBox.Text = test0;
+            addNodeButton.PerformClick();
 
-            Assert.Equal(test0, MainTreeView.Nodes[0].Text);
+            Assert.Equal(test0, mainTreeView.Nodes[0].Text);
         }
 
         [Fact]
@@ -66,13 +66,13 @@
             string test = "test";
             string test0 = "test0";
 
-            NameTextBox.Text = test;
-            AddNodeButton.PerformClick();
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0];
-            NameTextBox.Text = test0;
-            AddNodeButton.PerformClick();
+            nameTextBox.Text = test;
+            addNodeButton.PerformClick();
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0];
+            nameTextBox.Text = test0;
+            addNodeButton.PerformClick();
 
-            Assert.Equal(test0, MainTreeView.Nodes[0].Nodes[0].Text);
+            Assert.Equal(test0, mainTreeView.Nodes[0].Nodes[0].Text);
         }
 
         [Fact]
@@ -80,12 +80,12 @@
         {
             string test = "test";
 
-            NameTextBox.Text = test;
-            AddNodeButton.PerformClick();
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0];
-            RemoveNodeButton.PerformClick();
+            nameTextBox.Text = test;
+            addNodeButton.PerformClick();
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0];
+            removeNodeButton.PerformClick();
 
-            Assert.Empty(MainTreeView.Nodes);
+            Assert.Empty(mainTreeView.Nodes);
         }
 
         [Fact]
@@ -94,13 +94,13 @@
             string test = "test";
             string test0 = "test0";
 
-            MainTreeView.Nodes.Add(test);
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0];
-            MainTreeView.SelectedNode.Nodes.Add(test);
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0].Nodes[0];
-            RemoveNodeButton.PerformClick();
+            mainTreeView.Nodes.Add(test);
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0];
+            mainTreeView.SelectedNode.Nodes.Add(test);
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0].Nodes[0];
+            removeNodeButton.PerformClick();
 
-            Assert.True(MainTreeView.Nodes[0].Nodes.Count == 0, "The child node should have been deleted.");
+            Assert.True(mainTreeView.Nodes[0].Nodes.Count == 0, "The child node should have been deleted.");
         }
 
         [Fact]
@@ -109,13 +109,13 @@
             string test = "test";
             string test0 = "test0";
 
-            NameTextBox.Text = test;
-            AddNodeButton.PerformClick();
-            NameTextBox.Text = test0;
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0];
-            UpdateNodeButton.PerformClick();
+            nameTextBox.Text = test;
+            addNodeButton.PerformClick();
+            nameTextBox.Text = test0;
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0];
+            updateNodeButton.PerformClick();
 
-            Assert.Equal(test0, MainTreeView.Nodes[0].Text);
+            Assert.Equal(test0, mainTreeView.Nodes[0].Text);
         }
 
         [Fact]
@@ -123,10 +123,10 @@
         {
             string test = "test";
 
-            MainTreeView.Nodes.Add(test);
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0];
+            mainTreeView.Nodes.Add(test);
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0];
 
-            Assert.Equal(test, PathLabel.Text);
+            Assert.Equal(test, pathLabel.Text);
         }
 
         [Fact]
@@ -135,12 +135,12 @@
             string test = "test";
             string expectedPath = "test\\test";
 
-            MainTreeView.Nodes.Add(test);
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0];
-            MainTreeView.SelectedNode.Nodes.Add(test);
-            MainTreeView.SelectedNode = MainTreeView.Nodes[0].Nodes[0];
+            mainTreeView.Nodes.Add(test);
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0];
+            mainTreeView.SelectedNode.Nodes.Add(test);
+            mainTreeView.SelectedNode = mainTreeView.Nodes[0].Nodes[0];
 
-            Assert.Equal(expectedPath, PathLabel.Text);
+            Assert.Equal(expectedPath, pathLabel.Text);
         }
     }
 }

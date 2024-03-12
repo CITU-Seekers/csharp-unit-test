@@ -28,84 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.AddressTextBox = new System.Windows.Forms.TextBox();
-            this.QuoteTextBox = new System.Windows.Forms.TextBox();
-            this.ProgrammingLanguageGroupBox = new System.Windows.Forms.GroupBox();
-            this.ProgrammingLanguageCheckBox2 = new System.Windows.Forms.CheckBox();
-            this.ProgrammingLanguageCheckBox1 = new System.Windows.Forms.CheckBox();
-            this.ProgressBar = new System.Windows.Forms.ProgressBar();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.addressTextBox = new System.Windows.Forms.TextBox();
+            this.quoteTextBox = new System.Windows.Forms.TextBox();
+            this.programmingLanguageGroupBox = new System.Windows.Forms.GroupBox();
+            this.programmingLanguageCheckBox2 = new System.Windows.Forms.CheckBox();
+            this.programmingLanguageCheckBox1 = new System.Windows.Forms.CheckBox();
+            this.formProgressBar = new System.Windows.Forms.ProgressBar();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.ProgrammingLanguageGroupBox.SuspendLayout();
+            this.programmingLanguageGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(192, 78);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(238, 27);
-            this.NameTextBox.TabIndex = 0;
-            this.NameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
+            this.nameTextBox.Location = new System.Drawing.Point(192, 78);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(238, 27);
+            this.nameTextBox.TabIndex = 0;
+            this.nameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
             // 
-            // AddressTextBox
+            // addressTextBox
             // 
-            this.AddressTextBox.Location = new System.Drawing.Point(192, 125);
-            this.AddressTextBox.Name = "AddressTextBox";
-            this.AddressTextBox.Size = new System.Drawing.Size(238, 27);
-            this.AddressTextBox.TabIndex = 1;
-            this.AddressTextBox.TextChanged += new System.EventHandler(this.AddressTextBox_TextChanged);
+            this.addressTextBox.Location = new System.Drawing.Point(192, 125);
+            this.addressTextBox.Name = "addressTextBox";
+            this.addressTextBox.Size = new System.Drawing.Size(238, 27);
+            this.addressTextBox.TabIndex = 1;
+            this.addressTextBox.TextChanged += new System.EventHandler(this.AddressTextBox_TextChanged);
             // 
-            // QuoteTextBox
+            // quoteTextBox
             // 
-            this.QuoteTextBox.Location = new System.Drawing.Point(192, 170);
-            this.QuoteTextBox.Name = "QuoteTextBox";
-            this.QuoteTextBox.Size = new System.Drawing.Size(238, 27);
-            this.QuoteTextBox.TabIndex = 2;
-            this.QuoteTextBox.TextChanged += new System.EventHandler(this.QuoteTextBox_TextChanged);
+            this.quoteTextBox.Location = new System.Drawing.Point(192, 170);
+            this.quoteTextBox.Name = "quoteTextBox";
+            this.quoteTextBox.Size = new System.Drawing.Size(238, 27);
+            this.quoteTextBox.TabIndex = 2;
+            this.quoteTextBox.TextChanged += new System.EventHandler(this.QuoteTextBox_TextChanged);
             // 
-            // ProgrammingLanguageGroupBox
+            // programmingLanguageGroupBox
             // 
-            this.ProgrammingLanguageGroupBox.Controls.Add(this.ProgrammingLanguageCheckBox2);
-            this.ProgrammingLanguageGroupBox.Controls.Add(this.ProgrammingLanguageCheckBox1);
-            this.ProgrammingLanguageGroupBox.Location = new System.Drawing.Point(163, 241);
-            this.ProgrammingLanguageGroupBox.Name = "ProgrammingLanguageGroupBox";
-            this.ProgrammingLanguageGroupBox.Size = new System.Drawing.Size(145, 95);
-            this.ProgrammingLanguageGroupBox.TabIndex = 3;
-            this.ProgrammingLanguageGroupBox.TabStop = false;
+            this.programmingLanguageGroupBox.Controls.Add(this.programmingLanguageCheckBox2);
+            this.programmingLanguageGroupBox.Controls.Add(this.programmingLanguageCheckBox1);
+            this.programmingLanguageGroupBox.Location = new System.Drawing.Point(163, 241);
+            this.programmingLanguageGroupBox.Name = "programmingLanguageGroupBox";
+            this.programmingLanguageGroupBox.Size = new System.Drawing.Size(145, 95);
+            this.programmingLanguageGroupBox.TabIndex = 3;
+            this.programmingLanguageGroupBox.TabStop = false;
             // 
-            // ProgrammingLanguageCheckBox2
+            // programmingLanguageCheckBox2
             // 
-            this.ProgrammingLanguageCheckBox2.AutoSize = true;
-            this.ProgrammingLanguageCheckBox2.Location = new System.Drawing.Point(16, 62);
-            this.ProgrammingLanguageCheckBox2.Name = "ProgrammingLanguageCheckBox2";
-            this.ProgrammingLanguageCheckBox2.Size = new System.Drawing.Size(49, 24);
-            this.ProgrammingLanguageCheckBox2.TabIndex = 1;
-            this.ProgrammingLanguageCheckBox2.Text = "C#";
-            this.ProgrammingLanguageCheckBox2.UseVisualStyleBackColor = true;
-            this.ProgrammingLanguageCheckBox2.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.programmingLanguageCheckBox2.AutoSize = true;
+            this.programmingLanguageCheckBox2.Location = new System.Drawing.Point(16, 62);
+            this.programmingLanguageCheckBox2.Name = "programmingLanguageCheckBox2";
+            this.programmingLanguageCheckBox2.Size = new System.Drawing.Size(49, 24);
+            this.programmingLanguageCheckBox2.TabIndex = 1;
+            this.programmingLanguageCheckBox2.Text = "C#";
+            this.programmingLanguageCheckBox2.UseVisualStyleBackColor = true;
+            this.programmingLanguageCheckBox2.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // ProgrammingLanguageCheckBox1
+            // programmingLanguageCheckBox1
             // 
-            this.ProgrammingLanguageCheckBox1.AutoSize = true;
-            this.ProgrammingLanguageCheckBox1.Location = new System.Drawing.Point(16, 25);
-            this.ProgrammingLanguageCheckBox1.Name = "ProgrammingLanguageCheckBox1";
-            this.ProgrammingLanguageCheckBox1.Size = new System.Drawing.Size(59, 24);
-            this.ProgrammingLanguageCheckBox1.TabIndex = 0;
-            this.ProgrammingLanguageCheckBox1.Text = "Java";
-            this.ProgrammingLanguageCheckBox1.UseVisualStyleBackColor = true;
-            this.ProgrammingLanguageCheckBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.programmingLanguageCheckBox1.AutoSize = true;
+            this.programmingLanguageCheckBox1.Location = new System.Drawing.Point(16, 25);
+            this.programmingLanguageCheckBox1.Name = "programmingLanguageCheckBox1";
+            this.programmingLanguageCheckBox1.Size = new System.Drawing.Size(59, 24);
+            this.programmingLanguageCheckBox1.TabIndex = 0;
+            this.programmingLanguageCheckBox1.Text = "Java";
+            this.programmingLanguageCheckBox1.UseVisualStyleBackColor = true;
+            this.programmingLanguageCheckBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // ProgressBar
+            // formProgressBar
             // 
-            this.ProgressBar.Location = new System.Drawing.Point(1, 0);
-            this.ProgressBar.Maximum = 4;
-            this.ProgressBar.Name = "ProgressBar";
-            this.ProgressBar.Size = new System.Drawing.Size(489, 35);
-            this.ProgressBar.Step = 1;
-            this.ProgressBar.TabIndex = 4;
+            this.formProgressBar.Location = new System.Drawing.Point(1, 0);
+            this.formProgressBar.Maximum = 4;
+            this.formProgressBar.Name = "formProgressBar";
+            this.formProgressBar.Size = new System.Drawing.Size(489, 35);
+            this.formProgressBar.Step = 1;
+            this.formProgressBar.TabIndex = 4;
             // 
             // label2
             // 
@@ -157,15 +157,15 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.ProgressBar);
-            this.Controls.Add(this.ProgrammingLanguageGroupBox);
-            this.Controls.Add(this.QuoteTextBox);
-            this.Controls.Add(this.AddressTextBox);
-            this.Controls.Add(this.NameTextBox);
+            this.Controls.Add(this.formProgressBar);
+            this.Controls.Add(this.programmingLanguageGroupBox);
+            this.Controls.Add(this.quoteTextBox);
+            this.Controls.Add(this.addressTextBox);
+            this.Controls.Add(this.nameTextBox);
             this.Name = "PersonalInformationForm";
             this.Text = "Personal Information Form";
-            this.ProgrammingLanguageGroupBox.ResumeLayout(false);
-            this.ProgrammingLanguageGroupBox.PerformLayout();
+            this.programmingLanguageGroupBox.ResumeLayout(false);
+            this.programmingLanguageGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,13 +173,13 @@
 
         #endregion
 
-        private TextBox NameTextBox;
-        private TextBox AddressTextBox;
-        private TextBox QuoteTextBox;
-        private GroupBox ProgrammingLanguageGroupBox;
-        private CheckBox ProgrammingLanguageCheckBox2;
-        private CheckBox ProgrammingLanguageCheckBox1;
-        private System.Windows.Forms.ProgressBar ProgressBar;
+        private TextBox nameTextBox;
+        private TextBox addressTextBox;
+        private TextBox quoteTextBox;
+        private GroupBox programmingLanguageGroupBox;
+        private CheckBox programmingLanguageCheckBox2;
+        private CheckBox programmingLanguageCheckBox1;
+        private System.Windows.Forms.ProgressBar formProgressBar;
         private Label label2;
         private Label label1;
         private Label label3;

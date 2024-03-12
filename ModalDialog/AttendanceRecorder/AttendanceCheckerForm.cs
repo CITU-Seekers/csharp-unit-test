@@ -20,7 +20,7 @@ namespace CodeChum
         private void CheckButton_Click(object sender, EventArgs e)
         {
             
-            bool parsable = int.TryParse(IdTextBox.Text, out int id);
+            bool parsable = int.TryParse(idTextBox.Text, out int id);
 
             if (!parsable)
             {

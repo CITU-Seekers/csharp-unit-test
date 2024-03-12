@@ -32,7 +32,7 @@ namespace CodeChum
         }
         private void FirstButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(FirstButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(firstButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -40,7 +40,7 @@ namespace CodeChum
 
         private void SecondButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(SecondButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(secondButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -48,7 +48,7 @@ namespace CodeChum
 
         private void ThirdButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(ThirdButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(thirdButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -56,7 +56,7 @@ namespace CodeChum
 
         private void FourthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(FourthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(fourthButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -64,7 +64,7 @@ namespace CodeChum
 
         private void FifthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(FifthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(fifthButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
 
@@ -73,7 +73,7 @@ namespace CodeChum
 
         private void SixthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(SixthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(sixthButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -81,7 +81,7 @@ namespace CodeChum
 
         private void SeventhButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(SeventhButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(seventhButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -89,7 +89,7 @@ namespace CodeChum
 
         private void EighthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(EighthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(eighthButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -97,7 +97,7 @@ namespace CodeChum
 
         private void NinthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(NinthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(ninthButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }
@@ -105,7 +105,7 @@ namespace CodeChum
 
         private void TenthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(TenthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(tenthButton.Text)))
             {
                 MessageBoxWrapper.Show("Spy found!");
             }

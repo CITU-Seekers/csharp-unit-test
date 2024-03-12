@@ -30,29 +30,29 @@ namespace CodeChum
         /// </summary>
         private void InitializeComponent()
         {
-            EditorToolStrip = new ToolStrip();
+            editorToolStrip = new ToolStrip();
             toolStripLabel1 = new ToolStripLabel();
-            FontComboBox = new ToolStripComboBox();
+            fontComboBox = new ToolStripComboBox();
             toolStripSeparator1 = new ToolStripSeparator();
             toolStripLabel2 = new ToolStripLabel();
-            FontSizeComboBox = new ToolStripComboBox();
+            fontSizeComboBox = new ToolStripComboBox();
             toolStripSeparator2 = new ToolStripSeparator();
-            UnderlineButton = new ToolStripButton();
-            BoldButton = new ToolStripButton();
-            ItalicButton = new ToolStripButton();
-            MainRichTextBox = new RichTextBox();
-            EditorToolStrip.SuspendLayout();
+            underlineButton = new ToolStripButton();
+            boldButton = new ToolStripButton();
+            italicButton = new ToolStripButton();
+            mainRichTextBox = new RichTextBox();
+            editorToolStrip.SuspendLayout();
             SuspendLayout();
             // 
-            // EditorToolStrip
+            // editorToolStrip
             // 
-            EditorToolStrip.ImageScalingSize = new Size(20, 20);
-            EditorToolStrip.Items.AddRange(new ToolStripItem[] { toolStripLabel1, FontComboBox, toolStripSeparator1, toolStripLabel2, FontSizeComboBox, toolStripSeparator2, UnderlineButton, BoldButton, ItalicButton });
-            EditorToolStrip.Location = new Point(0, 0);
-            EditorToolStrip.Name = "EditorToolStrip";
-            EditorToolStrip.Size = new Size(511, 27);
-            EditorToolStrip.TabIndex = 0;
-            EditorToolStrip.Text = "toolStrip1";
+            editorToolStrip.ImageScalingSize = new Size(20, 20);
+            editorToolStrip.Items.AddRange(new ToolStripItem[] { toolStripLabel1, fontComboBox, toolStripSeparator1, toolStripLabel2, fontSizeComboBox, toolStripSeparator2, underlineButton, boldButton, italicButton });
+            editorToolStrip.Location = new Point(0, 0);
+            editorToolStrip.Name = "editorToolStrip";
+            editorToolStrip.Size = new Size(511, 27);
+            editorToolStrip.TabIndex = 0;
+            editorToolStrip.Text = "toolStrip1";
             // 
             // toolStripLabel1
             // 
@@ -60,12 +60,13 @@ namespace CodeChum
             toolStripLabel1.Size = new Size(34, 24);
             toolStripLabel1.Text = "Font:";
             // 
-            // FontComboBox
+            // fontComboBox
             // 
-            FontComboBox.Items.AddRange(new object[] { "Arial", "Cascadia Code", "Segoe UI", "Tahoma", "Verdana" });
-            FontComboBox.Name = "FontComboBox";
-            FontComboBox.Size = new Size(106, 27);
-            FontComboBox.SelectedIndexChanged += fontPropertySelectedIndexChanged;
+            fontComboBox.Items.AddRange(new object[] { "Arial", "Cascadia Code", "Segoe UI", "Tahoma", "Verdana" });
+            fontComboBox.Name = "fontComboBox";
+            fontComboBox.Size = new Size(106, 27);
+            fontComboBox.SelectedIndexChanged += fontPropertySelectedIndexChanged;
+            fontComboBox.Click += FontComboBox_Click;
             // 
             // toolStripSeparator1
             // 
@@ -78,85 +79,85 @@ namespace CodeChum
             toolStripLabel2.Size = new Size(57, 24);
             toolStripLabel2.Text = "Font Size:";
             // 
-            // FontSizeComboBox
+            // fontSizeComboBox
             // 
-            FontSizeComboBox.Items.AddRange(new object[] { "8", "10", "12", "14", "16" });
-            FontSizeComboBox.Name = "FontSizeComboBox";
-            FontSizeComboBox.Size = new Size(106, 27);
-            FontSizeComboBox.SelectedIndexChanged += fontPropertySelectedIndexChanged;
+            fontSizeComboBox.Items.AddRange(new object[] { "8", "10", "12", "14", "16" });
+            fontSizeComboBox.Name = "fontSizeComboBox";
+            fontSizeComboBox.Size = new Size(106, 27);
+            fontSizeComboBox.SelectedIndexChanged += fontPropertySelectedIndexChanged;
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
             toolStripSeparator2.Size = new Size(6, 27);
             // 
-            // UnderlineButton
+            // underlineButton
             // 
-            UnderlineButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            UnderlineButton.Image = Resources.underline;
-            UnderlineButton.ImageTransparentColor = Color.Magenta;
-            UnderlineButton.Name = "UnderlineButton";
-            UnderlineButton.Size = new Size(24, 24);
-            UnderlineButton.Text = "Underline";
-            UnderlineButton.Click += buttonClick;
+            underlineButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            underlineButton.Image = Resources.underline;
+            underlineButton.ImageTransparentColor = Color.Magenta;
+            underlineButton.Name = "underlineButton";
+            underlineButton.Size = new Size(24, 24);
+            underlineButton.Text = "Underline";
+            underlineButton.Click += buttonClick;
             // 
-            // BoldButton
+            // boldButton
             // 
-            BoldButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            BoldButton.Image = Resources.bold;
-            BoldButton.ImageTransparentColor = Color.Magenta;
-            BoldButton.Name = "BoldButton";
-            BoldButton.Size = new Size(23, 24);
-            BoldButton.Text = "Bold";
-            BoldButton.Click += buttonClick;
+            boldButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            boldButton.Image = Resources.bold;
+            boldButton.ImageTransparentColor = Color.Magenta;
+            boldButton.Name = "boldButton";
+            boldButton.Size = new Size(24, 24);
+            boldButton.Text = "Bold";
+            boldButton.Click += buttonClick;
             // 
-            // ItalicButton
+            // italicButton
             // 
-            ItalicButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            ItalicButton.Image = Resources.italic;
-            ItalicButton.ImageTransparentColor = Color.Magenta;
-            ItalicButton.Name = "ItalicButton";
-            ItalicButton.Size = new Size(23, 24);
-            ItalicButton.Text = "Italic";
-            ItalicButton.Click += buttonClick;
+            italicButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            italicButton.Image = Resources.italic;
+            italicButton.ImageTransparentColor = Color.Magenta;
+            italicButton.Name = "italicButton";
+            italicButton.Size = new Size(24, 24);
+            italicButton.Text = "Italic";
+            italicButton.Click += buttonClick;
             // 
-            // MainRichTextBox
+            // mainRichTextBox
             // 
-            MainRichTextBox.Location = new Point(27, 36);
-            MainRichTextBox.Margin = new Padding(3, 2, 3, 2);
-            MainRichTextBox.Name = "MainRichTextBox";
-            MainRichTextBox.Size = new Size(460, 162);
-            MainRichTextBox.TabIndex = 1;
-            MainRichTextBox.Text = "";
+            mainRichTextBox.Location = new Point(27, 36);
+            mainRichTextBox.Margin = new Padding(3, 2, 3, 2);
+            mainRichTextBox.Name = "mainRichTextBox";
+            mainRichTextBox.Size = new Size(460, 162);
+            mainRichTextBox.TabIndex = 1;
+            mainRichTextBox.Text = "";
             // 
             // ToolStripTextEditor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(511, 219);
-            Controls.Add(MainRichTextBox);
-            Controls.Add(EditorToolStrip);
+            Controls.Add(mainRichTextBox);
+            Controls.Add(editorToolStrip);
             Margin = new Padding(3, 2, 3, 2);
             Name = "ToolStripTextEditor";
             Text = "ToolStrip Activity";
-            EditorToolStrip.ResumeLayout(false);
-            EditorToolStrip.PerformLayout();
+            editorToolStrip.ResumeLayout(false);
+            editorToolStrip.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private ToolStrip EditorToolStrip;
+        private ToolStrip editorToolStrip;
         private ToolStripLabel toolStripLabel1;
-        private ToolStripComboBox FontComboBox;
+        private ToolStripComboBox fontComboBox;
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripLabel toolStripLabel2;
-        private ToolStripComboBox FontSizeComboBox;
+        private ToolStripComboBox fontSizeComboBox;
         private ToolStripSeparator toolStripSeparator2;
-        private ToolStripButton UnderlineButton;
-        private ToolStripButton BoldButton;
-        private ToolStripButton ItalicButton;
-        private RichTextBox MainRichTextBox;
+        private ToolStripButton underlineButton;
+        private ToolStripButton boldButton;
+        private ToolStripButton italicButton;
+        private RichTextBox mainRichTextBox;
     }
 }

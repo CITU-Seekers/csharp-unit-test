@@ -3,52 +3,52 @@
     public class SplittersTests
     {
         Splitters? form;
-        Panel? TopPanel, BottomPanel, LeftPanel, RightPanel, CenterPanel;
-        Splitter? TopSplitter, BottomSplitter, LeftSplitter, RightSplitter, CenterSplitter;
+        Panel? topPanel, bottomPanel, leftPanel, rightPanel, centerPanel;
+        Splitter? topSplitter, bottomSplitter, leftSplitter, rightSplitter, centerSplitter;
 
         public SplittersTests()
         {
             form = new Splitters();
-            TopPanel = (Panel)TestUtils.GetControlNamed(form, "TopPanel", true);
-            BottomPanel = (Panel)TestUtils.GetControlNamed(form, "BottomPanel", true);
-            LeftPanel = (Panel)TestUtils.GetControlNamed(form, "LeftPanel", true);
-            RightPanel = (Panel)TestUtils.GetControlNamed(form, "RightPanel", true);
-            CenterPanel = (Panel)TestUtils.GetControlNamed(form, "CenterPanel", true);
-            TopSplitter = (Splitter)TestUtils.GetControlNamed(form, "TopSplitter", true);
-            BottomSplitter = (Splitter)TestUtils.GetControlNamed(form, "BottomSplitter", true);
-            LeftSplitter = (Splitter)TestUtils.GetControlNamed(form, "LeftSplitter", true);
-            RightSplitter = (Splitter)TestUtils.GetControlNamed(form, "RightSplitter", true);
-            CenterSplitter = (Splitter)TestUtils.GetControlNamed(form, "CenterSplitter", true);
+            topPanel = (Panel)TestUtils.GetControlNamed(form, "topPanel", true);
+            bottomPanel = (Panel)TestUtils.GetControlNamed(form, "bottomPanel", true);
+            leftPanel = (Panel)TestUtils.GetControlNamed(form, "leftPanel", true);
+            rightPanel = (Panel)TestUtils.GetControlNamed(form, "rightPanel", true);
+            centerPanel = (Panel)TestUtils.GetControlNamed(form, "centerPanel", true);
+            topSplitter = (Splitter)TestUtils.GetControlNamed(form, "topSplitter", true);
+            bottomSplitter = (Splitter)TestUtils.GetControlNamed(form, "bottomSplitter", true);
+            leftSplitter = (Splitter)TestUtils.GetControlNamed(form, "leftSplitter", true);
+            rightSplitter = (Splitter)TestUtils.GetControlNamed(form, "rightSplitter", true);
+            centerSplitter = (Splitter)TestUtils.GetControlNamed(form, "centerSplitter", true);
         }
 
         [Fact]
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(TopPanel);
-            Assert.NotNull(BottomPanel);
-            Assert.NotNull(LeftPanel);
-            Assert.NotNull(RightPanel);
-            Assert.NotNull(CenterPanel);
-            Assert.NotNull(TopSplitter);
-            Assert.NotNull(BottomSplitter);
-            Assert.NotNull(LeftSplitter);
-            Assert.NotNull(RightSplitter);
-            Assert.NotNull(CenterSplitter);
+            Assert.NotNull(topPanel);
+            Assert.NotNull(bottomPanel);
+            Assert.NotNull(leftPanel);
+            Assert.NotNull(rightPanel);
+            Assert.NotNull(centerPanel);
+            Assert.NotNull(topSplitter);
+            Assert.NotNull(bottomSplitter);
+            Assert.NotNull(leftSplitter);
+            Assert.NotNull(rightSplitter);
+            Assert.NotNull(centerSplitter);
         }
 
         [Fact]
         public void ShouldBeDockedProperly()
         {
-            Assert.Equal(DockStyle.Top, TopPanel.Dock);
-            Assert.Equal(DockStyle.Top, TopSplitter.Dock);
-            Assert.Equal(DockStyle.Bottom, BottomPanel.Dock);
-            Assert.Equal(DockStyle.Bottom, BottomSplitter.Dock);
-            Assert.Equal(DockStyle.Left, LeftPanel.Dock);
-            Assert.Equal(DockStyle.Left, LeftSplitter.Dock);
-            Assert.Equal(DockStyle.Right, RightPanel.Dock);
-            Assert.Equal(DockStyle.Right, RightSplitter.Dock);
-            Assert.Equal(DockStyle.Fill, CenterPanel.Dock);
-            Assert.Equal(DockStyle.Fill, CenterPanel.Dock);
+            Assert.Equal(DockStyle.Top, topPanel.Dock);
+            Assert.Equal(DockStyle.Top, topSplitter.Dock);
+            Assert.Equal(DockStyle.Bottom, bottomPanel.Dock);
+            Assert.Equal(DockStyle.Bottom, bottomSplitter.Dock);
+            Assert.Equal(DockStyle.Left, leftPanel.Dock);
+            Assert.Equal(DockStyle.Left, leftSplitter.Dock);
+            Assert.Equal(DockStyle.Right, rightPanel.Dock);
+            Assert.Equal(DockStyle.Right, rightSplitter.Dock);
+            Assert.Equal(DockStyle.Fill, centerPanel.Dock);
+            Assert.Equal(DockStyle.Fill, centerPanel.Dock);
         }
     }
 }

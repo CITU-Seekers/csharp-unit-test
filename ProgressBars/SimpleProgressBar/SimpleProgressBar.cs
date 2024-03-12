@@ -19,18 +19,18 @@ namespace CodeChum
 
         private void StartButton_Click(object sender, EventArgs e)
         {
-            ProgressTimer.Start();
+            progressTimer.Start();
         }
 
         private void ProgressTimer_Tick(object sender, EventArgs e)
         {
-            if (ProgressBar.Value + 1 <= ProgressBar.Maximum)
+            if (timedProgressBar.Value + 1 <= timedProgressBar.Maximum)
             {
-                ProgressBar.Value += 1;
+                timedProgressBar.Value += 1;
             }
             else
             {
-                ProgressTimer.Stop();
+                progressTimer.Stop();
             }
             
         }
