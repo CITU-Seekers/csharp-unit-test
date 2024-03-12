@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            messageTextBox = new TextBox();
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            label2 = new Label();
-            lblMessage = new Label();
+            windButton = new Button();
+            moonglowButton = new Button();
+            twilightButton = new Button();
+            translatedMessageLabel = new Label();
+            messageLabel = new Label();
             SuspendLayout();
             // 
-            // textBox1
+            // messageTextBox
             // 
-            textBox1.Location = new Point(158, 109);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(448, 45);
-            textBox1.TabIndex = 0;
+            messageTextBox.Location = new Point(158, 109);
+            messageTextBox.Multiline = true;
+            messageTextBox.Name = "messageTextBox";
+            messageTextBox.Size = new Size(448, 45);
+            messageTextBox.TabIndex = 0;
             // 
             // label1
             // 
@@ -55,73 +55,73 @@
             label1.TabIndex = 1;
             label1.Text = "Enter Message:";
             // 
-            // button1
+            // windButton
             // 
-            button1.BackColor = Color.Chartreuse;
-            button1.Location = new Point(158, 196);
-            button1.Name = "button1";
-            button1.Size = new Size(104, 40);
-            button1.TabIndex = 2;
-            button1.Text = "Whisper to the Wind";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            windButton.BackColor = Color.Chartreuse;
+            windButton.Location = new Point(158, 196);
+            windButton.Name = "windButton";
+            windButton.Size = new Size(104, 40);
+            windButton.TabIndex = 2;
+            windButton.Text = "Whisper to the Wind";
+            windButton.UseVisualStyleBackColor = false;
+            windButton.Click += button1_Click;
             // 
-            // button2
+            // moonglowButton
             // 
-            button2.BackColor = Color.LightSkyBlue;
-            button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(332, 196);
-            button2.Name = "button2";
-            button2.Size = new Size(91, 40);
-            button2.TabIndex = 3;
-            button2.Text = "Invoke the Moonglow";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            moonglowButton.BackColor = Color.LightSkyBlue;
+            moonglowButton.ForeColor = SystemColors.ActiveCaptionText;
+            moonglowButton.Location = new Point(332, 196);
+            moonglowButton.Name = "moonglowButton";
+            moonglowButton.Size = new Size(91, 40);
+            moonglowButton.TabIndex = 3;
+            moonglowButton.Text = "Invoke the Moonglow";
+            moonglowButton.UseVisualStyleBackColor = false;
+            moonglowButton.Click += button2_Click;
             // 
-            // button3
+            // twilightButton
             // 
-            button3.BackColor = Color.MediumPurple;
-            button3.ForeColor = SystemColors.ButtonFace;
-            button3.Location = new Point(497, 196);
-            button3.Name = "button3";
-            button3.Size = new Size(97, 40);
-            button3.TabIndex = 4;
-            button3.Text = "Embrace the Twilight";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            twilightButton.BackColor = Color.MediumPurple;
+            twilightButton.ForeColor = SystemColors.ButtonFace;
+            twilightButton.Location = new Point(497, 196);
+            twilightButton.Name = "twilightButton";
+            twilightButton.Size = new Size(97, 40);
+            twilightButton.TabIndex = 4;
+            twilightButton.Text = "Embrace the Twilight";
+            twilightButton.UseVisualStyleBackColor = false;
+            twilightButton.Click += button3_Click;
             // 
-            // label2
+            // translatedMessageLabel
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(158, 298);
-            label2.Name = "label2";
-            label2.Size = new Size(149, 21);
-            label2.TabIndex = 5;
-            label2.Text = "Translated Message:";
+            translatedMessageLabel.AutoSize = true;
+            translatedMessageLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            translatedMessageLabel.Location = new Point(158, 298);
+            translatedMessageLabel.Name = "translatedMessageLabel";
+            translatedMessageLabel.Size = new Size(149, 21);
+            translatedMessageLabel.TabIndex = 5;
+            translatedMessageLabel.Text = "Translated Message:";
             // 
-            // lblMessage
+            // messageLabel
             // 
-            lblMessage.AutoSize = true;
-            lblMessage.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblMessage.Location = new Point(158, 340);
-            lblMessage.Name = "lblMessage";
-            lblMessage.Size = new Size(226, 21);
-            lblMessage.TabIndex = 6;
-            lblMessage.Text = "Input Message to be translated.";
+            messageLabel.AutoSize = true;
+            messageLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            messageLabel.Location = new Point(158, 340);
+            messageLabel.Name = "messageLabel";
+            messageLabel.Size = new Size(226, 21);
+            messageLabel.TabIndex = 6;
+            messageLabel.Text = "Input Message to be translated.";
             // 
             // MysticMessenger
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(774, 485);
-            Controls.Add(lblMessage);
-            Controls.Add(label2);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(messageLabel);
+            Controls.Add(translatedMessageLabel);
+            Controls.Add(twilightButton);
+            Controls.Add(moonglowButton);
+            Controls.Add(windButton);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(messageTextBox);
             Name = "MysticMessenger";
             Text = "MysticMessenger";
             ResumeLayout(false);
@@ -130,12 +130,12 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox messageTextBox;
         private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Label label2;
-        private Label lblMessage;
+        private Button windButton;
+        private Button moonglowButton;
+        private Button twilightButton;
+        private Label translatedMessageLabel;
+        private Label messageLabel;
     }
 }

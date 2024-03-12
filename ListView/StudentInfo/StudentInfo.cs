@@ -19,20 +19,20 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string id = StudentID.Text;
-            string name = StudentName.Text;
-            string dob = BirthDatePicker.Value.ToShortDateString();
-            string courseYear = cboCourse.SelectedItem.ToString() + " - " + cboYear.SelectedItem.ToString();
+            string id = studentIDTextBox.Text;
+            string name = studentNameTextBox.Text;
+            string dob = birthDayDateTimePicker.Value.ToShortDateString();
+            string courseYear = courseComboBox.SelectedItem.ToString() + " - " + yearComboBox.SelectedItem.ToString();
 
             string[] row = { id, name, dob, courseYear };
-            StudentDB.Items.Add(new ListViewItem(row));
+            studentListView.Items.Add(new ListViewItem(row));
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem item in StudentDB.SelectedItems)
+            foreach (ListViewItem item in studentListView.SelectedItems)
             {
-                StudentDB.Items.Remove(item);
+                studentListView.Items.Remove(item);
             }
         }
     }

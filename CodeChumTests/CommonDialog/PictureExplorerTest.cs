@@ -49,7 +49,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
-        // Description: Should open picture from the file system and display it in `pictureBox`.
+        // Description: Should open picture using the method `OpenPicture` and display the picture in `pictureBox`.
         public void ShouldOpenPicture()
         {
             form.OpenPicture(testImagePath);

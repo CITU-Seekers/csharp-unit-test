@@ -26,14 +26,28 @@
         }
 
         [Fact]
-        // Description: Should display destination "Machu Picchu, Peru" when `traitComboBox` is set to "Adventurous" and `revealButton` is clicked.
+        // Description: Should have all traits "Adventurer", "Explorer", "Beach Bum", "History Buff", "Foodie", and "Nature Lover" in `traitComboBox`.
+        public void ShouldHaveAllTraits()
+        {
+            var traitComboBoxItems = traitComboBox.Items.Cast<string>().ToList();
+
+            Assert.Equal(6, traitComboBox.Items.Count);
+            Assert.Contains("Adventurer", traitComboBoxItems);
+            Assert.Contains("Explorer", traitComboBoxItems);
+            Assert.Contains("Beach Bum", traitComboBoxItems);
+            Assert.Contains("History Buff", traitComboBoxItems);
+            Assert.Contains("Foodie", traitComboBoxItems);
+            Assert.Contains("Nature Lover", traitComboBoxItems);
+        }
+
+        [Fact]
+        // Description: Should display destination "Machu Picchu, Peru" when `traitComboBox` is set to "Adventurer" and `revealButton` is clicked.
         public void ShouldDisplayDestinationWhenRevealClicked()
         {
             traitComboBox.SelectedIndex = 0;
             revealButton.PerformClick();
             Assert.Equal("Machu Picchu, Peru", destinationLabel.Text);
         }
-        // traitComboBox.Items.AddRange(new object[] { "Adventurer", "Explorer", "Beach Bum", "History Buff", "Foodie", "Nature Lover" });
 
         [Fact]
         // Description: Should display destination "The Great Barrier Reef, Australia" when `traitComboBox` is set to "Explorer" and `revealButton` is clicked.

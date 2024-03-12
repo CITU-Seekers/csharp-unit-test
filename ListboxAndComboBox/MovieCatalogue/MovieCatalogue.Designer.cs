@@ -28,69 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ComedyList = new System.Windows.Forms.ListBox();
-            HorrorList = new System.Windows.Forms.ListBox();
-            ActionList = new System.Windows.Forms.ListBox();
-            MovieName = new TextBox();
-            cboGenre = new System.Windows.Forms.ComboBox();
-            btnAdd = new Button();
+            comedyListBox = new ListBox();
+            horrorListBox = new ListBox();
+            actionListBox = new ListBox();
+            movieNameTextBox = new TextBox();
+            genreComboBox = new ComboBox();
+            addMovieButton = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             SuspendLayout();
             // 
-            // ComedyList
+            // comedyListBox
             // 
-            ComedyList.FormattingEnabled = true;
-            ComedyList.ItemHeight = 15;
-            ComedyList.Location = new Point(94, 64);
-            ComedyList.Name = "ComedyList";
-            ComedyList.Size = new Size(168, 169);
-            ComedyList.TabIndex = 0;
+            comedyListBox.FormattingEnabled = true;
+            comedyListBox.ItemHeight = 15;
+            comedyListBox.Location = new Point(94, 64);
+            comedyListBox.Name = "comedyListBox";
+            comedyListBox.Size = new Size(168, 169);
+            comedyListBox.TabIndex = 0;
             // 
-            // HorrorList
+            // horrorListBox
             // 
-            HorrorList.FormattingEnabled = true;
-            HorrorList.ItemHeight = 15;
-            HorrorList.Location = new Point(293, 64);
-            HorrorList.Name = "HorrorList";
-            HorrorList.Size = new Size(168, 169);
-            HorrorList.TabIndex = 1;
+            horrorListBox.FormattingEnabled = true;
+            horrorListBox.ItemHeight = 15;
+            horrorListBox.Location = new Point(293, 64);
+            horrorListBox.Name = "horrorListBox";
+            horrorListBox.Size = new Size(168, 169);
+            horrorListBox.TabIndex = 1;
             // 
-            // ActionList
+            // actionListBox
             // 
-            ActionList.FormattingEnabled = true;
-            ActionList.ItemHeight = 15;
-            ActionList.Location = new Point(496, 64);
-            ActionList.Name = "ActionList";
-            ActionList.Size = new Size(168, 169);
-            ActionList.TabIndex = 2;
+            actionListBox.FormattingEnabled = true;
+            actionListBox.ItemHeight = 15;
+            actionListBox.Location = new Point(496, 64);
+            actionListBox.Name = "actionListBox";
+            actionListBox.Size = new Size(168, 169);
+            actionListBox.TabIndex = 2;
             // 
-            // MovieName
+            // movieNameTextBox
             // 
-            MovieName.Location = new Point(171, 265);
-            MovieName.Name = "MovieName";
-            MovieName.Size = new Size(270, 23);
-            MovieName.TabIndex = 3;
+            movieNameTextBox.Location = new Point(171, 265);
+            movieNameTextBox.Name = "movieNameTextBox";
+            movieNameTextBox.Size = new Size(270, 23);
+            movieNameTextBox.TabIndex = 3;
             // 
-            // cboGenre
+            // genreComboBox
             // 
-            cboGenre.FormattingEnabled = true;
-            cboGenre.Items.AddRange(new object[] { "Comedy", "Horror", "Action" });
-            cboGenre.Location = new Point(468, 265);
-            cboGenre.Name = "cboGenre";
-            cboGenre.Size = new Size(121, 23);
-            cboGenre.TabIndex = 4;
+            genreComboBox.FormattingEnabled = true;
+            genreComboBox.Items.AddRange(new object[] { "Comedy", "Horror", "Action" });
+            genreComboBox.Location = new Point(468, 265);
+            genreComboBox.Name = "genreComboBox";
+            genreComboBox.Size = new Size(121, 23);
+            genreComboBox.TabIndex = 4;
             // 
-            // btnAdd
+            // addMovieButton
             // 
-            btnAdd.Location = new Point(351, 319);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
-            btnAdd.TabIndex = 5;
-            btnAdd.Text = "Add Movie";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addMovieButton.Location = new Point(351, 319);
+            addMovieButton.Name = "addMovieButton";
+            addMovieButton.Size = new Size(75, 23);
+            addMovieButton.TabIndex = 5;
+            addMovieButton.Text = "Add Movie";
+            addMovieButton.UseVisualStyleBackColor = true;
+            addMovieButton.Click += btnAdd_Click;
             // 
             // label1
             // 
@@ -127,12 +127,12 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(btnAdd);
-            Controls.Add(cboGenre);
-            Controls.Add(MovieName);
-            Controls.Add(ActionList);
-            Controls.Add(HorrorList);
-            Controls.Add(ComedyList);
+            Controls.Add(addMovieButton);
+            Controls.Add(genreComboBox);
+            Controls.Add(movieNameTextBox);
+            Controls.Add(actionListBox);
+            Controls.Add(horrorListBox);
+            Controls.Add(comedyListBox);
             Name = "MovieCatalogue";
             Text = "MovieCatalogue";
             ResumeLayout(false);
@@ -141,12 +141,12 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox ComedyList;
-        private System.Windows.Forms.ListBox HorrorList;
-        private System.Windows.Forms.ListBox ActionList;
-        private TextBox MovieName;
-        private System.Windows.Forms.ComboBox cboGenre;
-        private Button btnAdd;
+        private System.Windows.Forms.ListBox comedyListBox;
+        private System.Windows.Forms.ListBox horrorListBox;
+        private System.Windows.Forms.ListBox actionListBox;
+        private TextBox movieNameTextBox;
+        private System.Windows.Forms.ComboBox genreComboBox;
+        private Button addMovieButton;
         private Label label1;
         private Label label2;
         private Label label3;

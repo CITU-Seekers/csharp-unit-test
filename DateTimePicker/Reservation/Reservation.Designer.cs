@@ -35,7 +35,7 @@
             eventNameTextBox = new TextBox();
             label3 = new Label();
             reserveButton = new Button();
-            ReservationSummary = new Label();
+            reservationSummaryLabel = new Label();
             SuspendLayout();
             // 
             // dateTimePicker
@@ -103,19 +103,19 @@
             // 
             // ReservationSummary
             // 
-            ReservationSummary.AutoSize = true;
-            ReservationSummary.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            ReservationSummary.Location = new Point(74, 265);
-            ReservationSummary.Name = "ReservationSummary";
-            ReservationSummary.Size = new Size(0, 20);
-            ReservationSummary.TabIndex = 7;
+            reservationSummaryLabel.AutoSize = true;
+            reservationSummaryLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            reservationSummaryLabel.Location = new Point(74, 265);
+            reservationSummaryLabel.Name = "reservationSummaryLabel";
+            reservationSummaryLabel.Size = new Size(0, 20);
+            reservationSummaryLabel.TabIndex = 7;
             // 
             // Reservation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(558, 391);
-            Controls.Add(ReservationSummary);
+            Controls.Add(reservationSummaryLabel);
             Controls.Add(reserveButton);
             Controls.Add(label3);
             Controls.Add(eventNameTextBox);
@@ -138,6 +138,6 @@
         private TextBox eventNameTextBox;
         private Label label3;
         private Button reserveButton;
-        private Label ReservationSummary;
+        private Label reservationSummaryLabel;
     }
 }

@@ -27,7 +27,7 @@ namespace CodeChum
 
             // Display the date and time in the label
 
-            ReservationSummary.Text = "Your reservation for " + eventNameTextBox.Text + "\nis on " + date.ToLongDateString() + "\nat " + time;
+            reservationSummaryLabel.Text = "Your reservation for " + eventNameTextBox.Text + "\nis on " + date.ToLongDateString() + "\nat " + time;
         }
     }
 }

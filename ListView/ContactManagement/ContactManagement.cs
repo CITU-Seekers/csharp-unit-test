@@ -19,29 +19,29 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string[] row = { ContactName.Text, ContactEmail.Text, ContactNum.Text, cboTelecom.SelectedItem.ToString() };
+            string[] row = { nameTextBox.Text, emailTextBox.Text, phoneNumberTextBox.Text, telecomComboBox.SelectedItem.ToString() };
 
-            ContactList.Items.Add(new ListViewItem(row));
+            contactListView.Items.Add(new ListViewItem(row));
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             // Check if there is a selected item
-            if (ContactList.SelectedItems.Count > 0)
+            if (contactListView.SelectedItems.Count > 0)
             {
                 // Update the selected item
-                ContactList.SelectedItems[0].SubItems[0].Text = ContactName.Text;
-                ContactList.SelectedItems[0].SubItems[1].Text = ContactEmail.Text;
-                ContactList.SelectedItems[0].SubItems[2].Text = ContactNum.Text;
-                ContactList.SelectedItems[0].SubItems[3].Text = cboTelecom.SelectedItem.ToString();
+                contactListView.SelectedItems[0].SubItems[0].Text = nameTextBox.Text;
+                contactListView.SelectedItems[0].SubItems[1].Text = emailTextBox.Text;
+                contactListView.SelectedItems[0].SubItems[2].Text = phoneNumberTextBox.Text;
+                contactListView.SelectedItems[0].SubItems[3].Text = telecomComboBox.SelectedItem.ToString();
             }
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem item in ContactList.SelectedItems)
+            foreach (ListViewItem item in contactListView.SelectedItems)
             {
-                ContactList.Items.Remove(item);
+                contactListView.Items.Remove(item);
             }
         }
     }

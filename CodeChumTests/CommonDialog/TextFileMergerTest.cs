@@ -37,7 +37,7 @@
         }
 
         [Fact]
-        // Description: Should merge files "file1.txt", "file2.txt", and "file3.txt" and display the result "file1file2file3" in `resultRichTextBox`.
+        // Description: Should merge files "file1.txt", "file2.txt", and "file3.txt" using the method `MergeFiles` and display the result in `resultRichTextBox`.
         public void ShouldMergeFiles()
         {
             // Arrange

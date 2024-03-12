@@ -5,55 +5,59 @@ namespace CodeChum.Tests
     public class BlogPostTest
     {
         BlogPost? form;
-        Label? lblTitle;
-        Label? lblAuthor;
-        Label? lblContent;
+        Label? titleLabel;
+        Label? authorLabel;
+        Label? contentLabel;
 
         public BlogPostTest()
         {
             form = new BlogPost();
             form.Show();
-            lblTitle = (Label)TestUtils.GetControlNamed(form, "lblTitle", true);
-            lblAuthor = (Label)TestUtils.GetControlNamed(form, "lblAuthor", true);
-            lblContent = (Label)TestUtils.GetControlNamed(form, "lblContent", true);   
+            titleLabel = (Label)TestUtils.GetControlNamed(form, "titleLabel", true);
+            authorLabel = (Label)TestUtils.GetControlNamed(form, "authorLabel", true);
+            contentLabel = (Label)TestUtils.GetControlNamed(form, "contentLabel", true);   
         }
 
         [Fact]
+        // Description: Should have all controls `titleLabel`, `authorLabel`, and `contentLabel`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(lblTitle);
-            Assert.NotNull(lblAuthor);
-            Assert.NotNull(lblContent);
+            Assert.NotNull(titleLabel);
+            Assert.NotNull(authorLabel);
+            Assert.NotNull(contentLabel);
         }
 
         [Fact]
+        // Description: Should have `titleLabel` with text "Title" and style bold and dark blue color.
         public void ShouldStyleTitleLabel()
         {
-            Label lblTitle = (Label)TestUtils.GetControlNamed(form, "lblTitle", true);
-            Assert.NotNull(lblTitle);
-            Assert.Equal("Title", lblTitle.Text);
-            Assert.Equal(new Font(lblTitle.Font, FontStyle.Bold), lblTitle.Font);
-            Assert.Equal(new Font(lblTitle.Font.FontFamily, 18, FontStyle.Bold), lblTitle.Font);
-            Assert.Equal(Color.DarkBlue, lblTitle.ForeColor);
+            Label titleLabel = (Label)TestUtils.GetControlNamed(form, "titleLabel", true);
+            Assert.NotNull(titleLabel);
+            Assert.Equal("Title", titleLabel.Text);
+            Assert.Equal(new Font(titleLabel.Font, FontStyle.Bold), titleLabel.Font);
+            Assert.Equal(new Font(titleLabel.Font.FontFamily, 18, FontStyle.Bold), titleLabel.Font);
+            Assert.Equal(Color.DarkBlue, titleLabel.ForeColor);
         }
 
         [Fact]
+        // Description: Should have `authorLabel` with text "Author" and style italic and gray color.
         public void ShouldStyleAuthorLabel()
         {
-            Label lblAuthor = (Label)TestUtils.GetControlNamed(form, "lblAuthor", true);
-            Assert.NotNull(lblAuthor);
-            Assert.Equal("Author", lblAuthor.Text);
-            Assert.Equal(new Font(lblAuthor.Font, FontStyle.Italic), lblAuthor.Font);
-            Assert.Equal(Color.Gray, lblAuthor.ForeColor);
+            Label authorLabel = (Label)TestUtils.GetControlNamed(form, "authorLabel", true);
+            Assert.NotNull(authorLabel);
+            Assert.Equal("Author", authorLabel.Text);
+            Assert.Equal(new Font(authorLabel.Font, FontStyle.Italic), authorLabel.Font);
+            Assert.Equal(Color.Gray, authorLabel.ForeColor);
         }
 
         [Fact]
+        // Description: Should have `contentLabel` with text "Content" and style font size 14.
         public void ShouldStyleContentLabel()
         {
-            Label lblContent = (Label)TestUtils.GetControlNamed(form, "lblContent", true);
-            Assert.NotNull(lblContent);
-            Assert.Equal("Content", lblContent.Text);
-            Assert.Equal(new Font(lblContent.Font.FontFamily, 14), lblContent.Font);
+            Label contentLabel = (Label)TestUtils.GetControlNamed(form, "contentLabel", true);
+            Assert.NotNull(contentLabel);
+            Assert.Equal("Content", contentLabel.Text);
+            Assert.Equal(new Font(contentLabel.Font.FontFamily, 14), contentLabel.Font);
         }
     }
 }

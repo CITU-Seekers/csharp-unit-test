@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTitle = new Label();
-            lblAuthor = new Label();
-            lblContent = new Label();
+            titleLabel = new Label();
+            authorLabel = new Label();
+            contentLabel = new Label();
             SuspendLayout();
             // 
-            // lblTitle
+            // titleLabel
             // 
-            lblTitle.AutoSize = true;
-            lblTitle.Location = new Point(359, 137);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(29, 15);
-            lblTitle.TabIndex = 0;
-            lblTitle.Text = "Title";
+            titleLabel.AutoSize = true;
+            titleLabel.Location = new Point(359, 137);
+            titleLabel.Name = "titleLabel";
+            titleLabel.Size = new Size(29, 15);
+            titleLabel.TabIndex = 0;
+            titleLabel.Text = "Title";
             // 
-            // lblAuthor
+            // authorLabel
             // 
-            lblAuthor.AutoSize = true;
-            lblAuthor.Location = new Point(359, 173);
-            lblAuthor.Name = "lblAuthor";
-            lblAuthor.Size = new Size(44, 15);
-            lblAuthor.TabIndex = 1;
-            lblAuthor.Text = "Author";
+            authorLabel.AutoSize = true;
+            authorLabel.Location = new Point(359, 173);
+            authorLabel.Name = "authorLabel";
+            authorLabel.Size = new Size(44, 15);
+            authorLabel.TabIndex = 1;
+            authorLabel.Text = "Author";
             // 
-            // lblContent
+            // contentLabel
             // 
-            lblContent.AutoSize = true;
-            lblContent.Location = new Point(359, 212);
-            lblContent.Name = "lblContent";
-            lblContent.Size = new Size(50, 15);
-            lblContent.TabIndex = 2;
-            lblContent.Text = "Content";
+            contentLabel.AutoSize = true;
+            contentLabel.Location = new Point(359, 212);
+            contentLabel.Name = "contentLabel";
+            contentLabel.Size = new Size(50, 15);
+            contentLabel.TabIndex = 2;
+            contentLabel.Text = "Content";
             // 
-            // Problem1
+            // BlogPost
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(lblContent);
-            Controls.Add(lblAuthor);
-            Controls.Add(lblTitle);
-            Name = "Problem1";
+            Controls.Add(contentLabel);
+            Controls.Add(authorLabel);
+            Controls.Add(titleLabel);
+            Name = "BlogPost";
             Text = "Form1";
             Load += Problem1_Load;
             ResumeLayout(false);
@@ -77,8 +77,8 @@
 
         #endregion
 
-        private Label lblTitle;
-        private Label lblAuthor;
-        private Label lblContent;
+        private Label titleLabel;
+        private Label authorLabel;
+        private Label contentLabel;
     }
 }
