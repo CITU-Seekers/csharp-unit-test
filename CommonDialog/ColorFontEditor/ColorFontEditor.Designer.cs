@@ -44,7 +44,7 @@
             // colorButton
             // 
             this.colorButton.Location = new System.Drawing.Point(53, 26);
-            this.colorButton.Name = "OpenFileButton";
+            this.colorButton.Name = "colorButton";
             this.colorButton.Size = new System.Drawing.Size(116, 37);
             this.colorButton.TabIndex = 1;
             this.colorButton.Text = "Color";
@@ -54,7 +54,7 @@
             // fontButton
             // 
             this.fontButton.Location = new System.Drawing.Point(287, 26);
-            this.fontButton.Name = "SaveFileButton";
+            this.fontButton.Name = "fontButton";
             this.fontButton.Size = new System.Drawing.Size(116, 37);
             this.fontButton.TabIndex = 2;
             this.fontButton.Text = "Font";

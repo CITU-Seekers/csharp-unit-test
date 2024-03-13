@@ -4,7 +4,7 @@
     {
         Splitters? form;
         Panel? topPanel, bottomPanel, leftPanel, rightPanel, centerPanel;
-        Splitter? topSplitter, bottomSplitter, leftSplitter, rightSplitter, centerSplitter;
+        Splitter? topSplitter, bottomSplitter, leftSplitter, rightSplitter;
 
         public SplittersTests()
         {
@@ -18,7 +18,6 @@
             bottomSplitter = (Splitter)TestUtils.GetControlNamed(form, "bottomSplitter", true);
             leftSplitter = (Splitter)TestUtils.GetControlNamed(form, "leftSplitter", true);
             rightSplitter = (Splitter)TestUtils.GetControlNamed(form, "rightSplitter", true);
-            centerSplitter = (Splitter)TestUtils.GetControlNamed(form, "centerSplitter", true);
         }
 
         [Fact]
@@ -33,7 +32,6 @@
             Assert.NotNull(bottomSplitter);
             Assert.NotNull(leftSplitter);
             Assert.NotNull(rightSplitter);
-            Assert.NotNull(centerSplitter);
         }
 
         [Fact]

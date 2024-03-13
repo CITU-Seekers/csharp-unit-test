@@ -4,7 +4,7 @@ namespace CodeChum.Tests
 {
     public class ToolStripTextEditor2Tests
     {
-        ToolStripTextEditor? form;
+        ToolStripTextEditor2? form;
         RichTextBox? mainRichTextBox;
         ToolStrip? editorToolStrip, colorToolStrip;
         ToolStripComboBox? fontComboBox, fontSizeComboBox;
@@ -13,7 +13,7 @@ namespace CodeChum.Tests
 
         public ToolStripTextEditor2Tests()
         {
-            form = new ToolStripTextEditor();
+            form = new ToolStripTextEditor2();
             form.Show();
 
             editorToolStrip = (ToolStrip)TestUtils.GetControlNamed(form, "editorToolStrip", true);

@@ -4,9 +4,9 @@ namespace CodeChum.Tests
 {
     public class ColorAndFontEditorTests
     {
-        ColorFontEditor? form;
-        RichTextBox? mainRichTextBox;
-        Button? colorButton, fontButton;
+        ColorFontEditor form;
+        RichTextBox mainRichTextBox;
+        Button colorButton, fontButton;
 
         public ColorAndFontEditorTests()
         {

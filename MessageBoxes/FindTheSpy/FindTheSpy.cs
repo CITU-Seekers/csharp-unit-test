@@ -34,7 +34,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(firstButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -42,7 +42,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(secondButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -50,7 +50,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(thirdButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -58,7 +58,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(fourthButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -66,7 +66,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(fifthButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
 
             }
         }
@@ -75,7 +75,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(sixthButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -83,7 +83,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(seventhButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -91,7 +91,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(eighthButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -99,7 +99,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(ninthButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
 
@@ -107,7 +107,7 @@ namespace CodeChum
         {
             if (IsSpyNumber(Convert.ToInt32(tenthButton.Text)))
             {
-                MessageBoxWrapper.Show("Spy found!");
+                MessageBoxWrapper3.Show("Spy found!");
             }
         }
     }
