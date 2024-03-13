@@ -21,6 +21,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `formProgressBar`, `nameTextBox`, `addressTextBox`, `quoteTextBox`, `programmingLanguageGroupBox`, `programmingLanguageCheckBox1` and `programmingLanguageCheckBox2`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(formProgressBar);
@@ -33,6 +34,7 @@
         }
 
         [Fact]
+        // Description: Should increase the progress bar `formProgressBar` on `nameTextBox` text change.
         public void ShouldIncreaseProgressOnTextChangeNameTextBox()
         {
             nameTextBox.Text = "Test";
@@ -41,6 +43,7 @@
         }
 
         [Fact]
+        // Description: Should increase the progress bar `formProgressBar` on `addressTextBox` text change.
         public void ShouldIncreaseProgressOnTextChangeAddressTextBox()
         {
             addressTextBox.Text = "Test";
@@ -49,6 +52,7 @@
         }
 
         [Fact]
+        // Description: Should increase the progress bar `formProgressBar` on `quoteTextBox` text change.
         public void ShouldIncreaseProgressOnTextChangeQuoteTextBox()
         {
             quoteTextBox.Text = "Test";
@@ -57,6 +61,7 @@
         }
 
         [Fact]
+        // Description: Should increase the progress bar `formProgressBar` on `programmingLanguageCheckBox1` and `programmingLanguageCheckBox2` check.
         public void ShouldIncreaseProgressOnCheckBoxCheck()
         {
             programmingLanguageCheckBox1.Checked = true;
@@ -70,6 +75,7 @@
         }
 
         [Fact]
+        // Description: Should decrease the progress bar `formProgressBar` on `nameTextBox` text change to empty.
         public void ShouldDecreaseProgressOnTextChangeNameTextBoxEmpty()
         {
             nameTextBox.Text = "Test";
@@ -79,6 +85,7 @@
         }
 
         [Fact]
+        // Description: Should decrease the progress bar `formProgressBar` on `addressTextBox` text change to empty.
         public void ShouldDecreaseProgressOnTextChangeAddressTextBoxEmpty()
         {
             addressTextBox.Text = "Test";
@@ -88,6 +95,7 @@
         }
 
         [Fact]
+        // Description: Should decrease the progress bar `formProgressBar` on `quoteTextBox` text change to empty.
         public void ShouldDecreaseProgressOnTextChangeQuoteTextBoxEmpty()
         {
             quoteTextBox.Text = "Test";
@@ -97,6 +105,7 @@
         }
 
         [Fact]
+        // Description: Should decrease the progress bar `formProgressBar` on `programmingLanguageCheckBox1` and `programmingLanguageCheckBox2` uncheck.
         public void ShouldDecreaseProgressOnCheckBoxUnselect()
         {
             programmingLanguageCheckBox1.Checked = true;

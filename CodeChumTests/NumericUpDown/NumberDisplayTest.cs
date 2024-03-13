@@ -14,6 +14,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `intervalNumericUpDown` and `incrementTextBox`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(intervalNumericUpDown);
@@ -21,6 +22,7 @@
         }
 
         [Fact]
+        // Description: Should change increment value of `intervalNumericUpDown` according to the number in the `incrementTextBox`.
         public void ShouldChangeIncrementOnTextChange()
         {
             string number = "20";

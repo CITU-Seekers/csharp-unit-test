@@ -23,6 +23,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `inputTextBox` and `frequentCharLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(inputTextBox);
@@ -30,6 +31,7 @@
         }
 
         [Fact]
+        // Description: Should display the most frequent character in `inputTextBox` in `frequentCharLabel`.
         public void ShouldDisplayCorrectFrequentCharacter()
         {
             inputTextBox.Text = "N";
@@ -40,6 +42,7 @@
         }
 
         [Fact]
+        // Description: Should display the most frequent character in `inputTextBox` in `frequentCharLabel` with spaces.
         public void ShouldDisplayCorrectFrequentCharacterWithSpaces()
         {
             inputTextBox.Text = "I";

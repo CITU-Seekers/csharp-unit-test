@@ -24,6 +24,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `personalMonthCalendar`, `eventLabel`, `eventNameTextBox`, `addEventButton`, and `retrieveEventButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(personalMonthCalendar);
@@ -34,6 +35,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should show newly added event in `eventLabel` on `addEventButton` click.
         public void ShouldShowOnLabelWhenAddedAsHoliday()
         {
 
@@ -50,6 +52,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should retrieve event saved in a date and show it in `eventLabel` on `retrieveEventButton` click.
         public void ShouldShowOnLabelWhenAdded()
         {
             string expected = "December 1, 2022";

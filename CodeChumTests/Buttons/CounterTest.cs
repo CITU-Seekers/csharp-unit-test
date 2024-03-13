@@ -15,6 +15,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `counterLabel` and `counterButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(counterLabel);
@@ -22,12 +23,14 @@
         }
 
         [Fact]
+        // Description: Should have a default value of "0" in `counterLabel`.
         public void ShouldHaveCorrectDefaultValue()
         {
             Assert.Equal("0", counterLabel.Text);
         }
 
         [Fact]
+        // Description: Should increment the value of `counterLabel` by 1 on click of `counterButton`.
         public void ShouldIncrementOnClickCounterButton()
         {
             counterLabel.Text = "5";

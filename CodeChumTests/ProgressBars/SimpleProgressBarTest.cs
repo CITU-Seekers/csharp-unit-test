@@ -16,13 +16,15 @@ namespace CodeChum.Tests
         }
 
         [Fact]
-        public void HasAllControls()
+        // Description: Should have all the controls `timedProgressBar` and `startButton`.
+        public void ShouldHaveAllControls()
         {
             Assert.NotNull(timedProgressBar);
             Assert.NotNull(startButton);
         }
 
         [Fact]
+        // Description: Should start the progress bar `timedProgressBar` on `startButton` click.
         public void ShouldStartOnButtonClick()
         {
             startButton.PerformClick();

@@ -23,6 +23,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `pizzaCheckBox`, `burgerCheckBox`, `teaCheckBox`, `noneRadioButton`, `fiveRadioButton`, `tenRadioButton`, `orderButton` and `totalCostLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(pizzaCheckBox);
@@ -36,6 +37,7 @@
         }
 
         [Fact]
+        // Description: Should compute correct total when no discount is selected and display it on `totalCostLabel` on click of `orderButton`.
         public void ShouldComputeCorrectTotalNoDiscount()
         {
             double total = pizzaPrice + burgerPrice + teaPrice;
@@ -51,6 +53,7 @@
         }
 
         [Fact]
+        // Description: Should compute correct total when 5% discount is selected and display it on `totalCostLabel` on click of `orderButton`.
         public void ShouldComputeCorrectTotalFiveDiscount()
         {
             double total = (pizzaPrice + burgerPrice) * 0.95;
@@ -65,6 +68,7 @@
         }
 
         [Fact]
+        // Description: Should compute correct total when 10% discount is selected and display it on `totalCostLabel` on click of `orderButton`.
         public void ShouldComputeCorrectTotalTenDiscount()
         {
             double total = (pizzaPrice + teaPrice) * 0.9;

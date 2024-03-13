@@ -20,6 +20,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `charRadioButton`, `intRadioButton`, `booleanRadioButton`, `stringRadioButton`, `resultLabel` and `checkButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(charRadioButton);
@@ -30,6 +31,7 @@
             Assert.NotNull(checkButton);
         }
         [Fact]
+        // Description: Should display "Incorrect" in `resultLabel` when wrong radio button is selected and `checkButton` is clicked.
         public void ShouldBeIncorrectOnNotStringRadioButton()
         {
             string incorrect = "Incorrect";
@@ -44,6 +46,7 @@
         }
 
         [Fact]
+        // Description: Should display "Correct" in `resultLabel` when correct radio button is selected and `checkButton` is clicked.
         public void ShouldBeCorrectOnStringRadioButton()
         {
             stringRadioButton.Checked = true;

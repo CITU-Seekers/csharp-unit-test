@@ -21,6 +21,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `messageLabel`, `firstTextBox`, `secondTextBox`, `thirdTextBox`, `firstTextBoxFocusButton`, `secondTextBoxFocusButton` and `thirdTextBoxFocusButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(messageLabel);
@@ -33,54 +34,60 @@
         }
 
         [Fact]
+        // Description: Should display "FirstTextBox is in focus." on `firstTextBox` focus.
         public void ShouldDisplayCorrectTextOnFirstTextBoxFocus()
         {
-            string expected = "firstTextBox is in focus.";
+            string expected = "FirstTextBox is in focus.";
             firstTextBox.Focus();
 
             Assert.Equal(expected, messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should display "SecondTextBox is in focus." on `secondTextBox` focus.
         public void ShouldDisplayCorrectTextOnSecondTextBoxFocus()
         {
-            string expected = "secondTextBox is in focus.";
+            string expected = "SecondTextBox is in focus.";
             secondTextBox.Focus();
 
             Assert.Equal(expected, messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should display "ThirdTextBox is in focus." on `thirdTextBox` focus.
         public void ShouldDisplayCorrectTextOnThirdTextBoxFocus()
         {
-            string expected = "thirdTextBox is in focus.";
+            string expected = "ThirdTextBox is in focus.";
             thirdTextBox.Focus();
 
             Assert.Equal(expected, messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should display "FirstTextBox is in focus." on clicking `firstTextBoxFocusButton`.
         public void ShouldDisplayCorrectTextOnFirstButtonClick()
         {
-            string expected = "firstTextBox is in focus.";
+            string expected = "FirstTextBox is in focus.";
             firstTextBoxFocusButton.PerformClick();
 
             Assert.Equal(expected, messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should display "SecondTextBox is in focus." on clicking `secondTextBoxFocusButton`.
         public void ShouldDisplayCorrectTextOnSecondButtonClick()
         {
-            string expected = "secondTextBox is in focus.";
+            string expected = "SecondTextBox is in focus.";
             secondTextBoxFocusButton.PerformClick();
 
             Assert.Equal(expected, messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should display "ThirdTextBox is in focus." on clicking `thirdTextBoxFocusButton`.
         public void ShouldDisplayCorrectTextOnThirdButtonClick()
         {
-            string expected = "thirdTextBox is in focus.";
+            string expected = "ThirdTextBox is in focus.";
             thirdTextBoxFocusButton.PerformClick();
 
             Assert.Equal(expected, messageLabel.Text);

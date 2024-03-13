@@ -25,6 +25,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `shoesCheckBox`, `pantsCheckBox`, `shirtCheckBox`, `paymentMethodComboBox`, `defaultRadioButton`, `specialRadioButton`, `generateButton` and `receiptLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(shoesCheckBox);
@@ -38,6 +39,7 @@
         }
 
         [Fact]
+        // Description: Should have all payment methods `Cash`, `Credit Card` and `Debit Card` in `paymentMethodComboBox`.
         public void ShouldHaveAllInstructedPaymentMethods()
         {
             Assert.True(paymentMethodComboBox.Items.Contains("Cash"));
@@ -46,6 +48,7 @@
         }
 
         [Fact]
+        // Description: Should display the receipt with the correct total and items in `receiptLabel` when `generateButton` is clicked with no discount.
         public void ShouldHaveCorrectTotalAndItemsWithNoDiscount()
         {
             shirtCheckBox.Checked = true;
@@ -64,6 +67,7 @@
         }
 
         [Fact]
+        // Description: Should display the receipt with the correct total and items in `receiptLabel` when `generateButton` is clicked with default discount.
         public void ShouldHaveCorrectTotalAndItemsWithDefaultDiscount()
         {
             shoesCheckBox.Checked = true;
@@ -81,6 +85,7 @@
         }
 
         [Fact]
+        // Description: Should display the receipt with the correct total and items in `receiptLabel` when `generateButton` is clicked with special discount.
         public void ShouldHaveCorrectTotalAndItemsWithSpecialDiscount()
         {
             shirtCheckBox.Checked = true;

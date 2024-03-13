@@ -16,6 +16,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `redTrackBar`, `greenTrackBar`, `blueTrackBar` and `colorLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(redTrackBar);
@@ -25,6 +26,7 @@
         }
 
         [Fact]
+        // Description: Should have correct max and min values for `redTrackBar`, `greenTrackBar` and `blueTrackBar`.
         public void ShouldHaveCorrectMaxMinOnTrackBars()
         {
             int min = 0;
@@ -38,6 +40,7 @@
             Assert.Equal(max, blueTrackBar.Maximum);
         }
         [Fact]
+        // Description: Should change the panel's background according to the `redTrackBar` value.
         public void ShouldChangeColorOnRedTrackBarChange()
         {
             redTrackBar.Value = 20;
@@ -46,6 +49,7 @@
         }
 
         [Fact]
+        // Description: Should change the panel's background according to the `greenTrackBar` value.
         public void ShouldChangeColorOnGreenTrackBarChange()
         {
             greenTrackBar.Value = 20;
@@ -54,9 +58,10 @@
         }
 
         [Fact]
+        // Description: Should change the panel's background according to the `blueTrackBar` value.
         public void ShouldChangeColorOnBlueTrackBarChange()
         {
-            redTrackBar.Value = 20;
+            blueTrackBar.Value = 20;
 
             Assert.Equal(colorLabel.BackColor.B, blueTrackBar.Value);
         }

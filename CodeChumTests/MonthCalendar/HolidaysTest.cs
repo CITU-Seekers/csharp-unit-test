@@ -17,6 +17,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `holidaysMonthCalendar`, `displayHolidaysButton`, and `holidaysLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(holidaysMonthCalendar);
@@ -25,6 +26,7 @@
         }
 
         [Fact]
+        // Description: Should have all holidays in the `holidaysMonthCalendar` indicated as bold.
         public void ShouldHaveAllHolidaysIndicatedBold()
         {
             DateTime christmas = new DateTime(2022, 12, 25);
@@ -38,6 +40,7 @@
         }
 
         [Fact]
+        // Description: Should show holidays for the month of December in `holidaysLabel` on `displayHolidaysButton` click.
         public void ShouldShowHolidaysOnDecember()
         {
             holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("01/12/2022", "dd/MM/yyyy", null);
@@ -50,6 +53,7 @@
         }
 
         [Fact]
+        // Description: Should show holidays for the month of January in `holidaysLabel` on `displayHolidaysButton` click.
         public void ShouldShowHolidaysOnJanuary()
         {
             holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("30/01/2023", "dd/MM/yyyy", null);

@@ -20,6 +20,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `number1TextBox`, `number2TextBox`, `operationsComboBox`, `computeButton` and `resultLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(number1TextBox);
@@ -30,6 +31,7 @@
         }
 
         [Fact]
+        // Description: Should have all operations `+`, `-`, `*` and `/` in `operationsComboBox`.
         public void ShouldHaveAllOperationsInstructed()
         {
             Assert.True(operationsComboBox.Items.Contains("+"));
@@ -39,6 +41,7 @@
         }
 
         [Fact]
+        // Description: Should display the result of the add operation in `resultLabel` when `computeButton` is clicked.
         public void ShouldComputeCorrectlyOnAdd()
         {
             double number1 = 10;
@@ -54,6 +57,7 @@
         }
 
         [Fact]
+        // Description: Should display the result of the subtract operation in `resultLabel` when `computeButton` is clicked.
         public void ShouldComputeCorrectlyOnSubtract()
         {
             double number1 = 10;
@@ -69,6 +73,7 @@
         }
 
         [Fact]
+        // Description: Should display the result of the multiply operation in `resultLabel` when `computeButton` is clicked.
         public void ShouldComputeCorrectlyOnMultiply()
         {
             double number1 = 10;
@@ -84,6 +89,7 @@
         }
 
         [Fact]
+        // Description: Should display the result of the divide operation in `resultLabel` when `computeButton` is clicked.
         public void ShouldComputeCorrectlyOnDivide()
         {
             double number1 = 10;

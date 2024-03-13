@@ -19,17 +19,17 @@ namespace CodeChum
 
         private void FirstTextBox_Enter(object sender, EventArgs e)
         {
-            messageLabel.Text = "firstTextBox is in focus.";
+            messageLabel.Text = "FirstTextBox is in focus.";
         }
 
         private void SecondTextBox_Enter(object sender, EventArgs e)
         {
-            messageLabel.Text = "secondTextBox is in focus.";
+            messageLabel.Text = "SecondTextBox is in focus.";
         }
 
         private void ThirdTextBox_Enter(object sender, EventArgs e)
         {
-            messageLabel.Text = "thirdTextBox is in focus.";
+            messageLabel.Text = "ThirdTextBox is in focus.";
         }
 
         private void FocusOnTextBox(object sender, EventArgs e)

@@ -17,6 +17,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `inputTextBox`, `numberTextBox`, `resultTextBox` and `displayTextButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(inputTextBox);
@@ -26,6 +27,7 @@
         }
 
         [Fact]
+        // Description: Should display the text in `inputTextBox` n times entered in `numberTextBox` in `resultTextBox` on clicking `displayTextButton`.
         public void ShouldRepeatTextCorrectOnClickDisplayTextButton()
         {
             string expected = "CodeChum CodeChum CodeChum";

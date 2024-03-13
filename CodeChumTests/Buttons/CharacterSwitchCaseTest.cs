@@ -17,6 +17,7 @@
         }
 
         [Fact]
+        // Description: Should have a label `textLabel` with the text "I love programming!".
         public void ShouldHaveLabel()
         {
             Assert.NotNull(textLabel);
@@ -24,6 +25,7 @@
         }
 
         [Fact]
+        // Description: Should have all the button controls `switchCaseVowelsButton`, `switchCaseConsonantsButton` and `switchCaseAllButton`.
         public void ShouldHaveAllButtonControls()
         {
             Assert.NotNull(switchCaseVowelsButton);
@@ -32,6 +34,7 @@
         }
 
         [Fact]
+        // Description: Should switch the case of vowel letters in the `textLabel` on click of `switchCaseVowelsButton`.
         public void ShouldSwitchCaseOfVowelLetters()
         {
             string expected = "i lOvE prOgrAmmIng!";
@@ -42,6 +45,7 @@
         }
 
         [Fact]
+        // Description: Should switch the case of consonant letters in the `textLabel` on click of `switchCaseConsonantsButton`.
         public void ShouldSwitchCaseOfConsonantLetters()
         {
             string expected = "I LoVe PRoGRaMMiNG!";
@@ -52,6 +56,7 @@
         }
 
         [Fact]
+        // Description: Should switch the case of all letters in the `textLabel` on click of `switchCaseAllButton`.
         public void ShouldSwitchCaseOfAllLetters()
         {
             string expected = "i LOVE PROGRAMMING!";
@@ -62,6 +67,7 @@
         }
 
         [Fact]
+        // Description: Should properly switch the cases of letters when different buttons are clicked in succession.
         public void ShouldSwitchCaseProperlyWhenAllButtonsAreClicked()
         {
             string expected = "I love programming!";

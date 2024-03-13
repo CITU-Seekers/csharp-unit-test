@@ -14,6 +14,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `resizeTrackBar` and `fontSizeLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(resizeTrackBar);
@@ -21,6 +22,7 @@
         }
 
         [Fact]
+        // Description: Should change the font size of `fontSizeLabel` according to the `resizeTrackBar` value.
         public void ShouldChangeFontSizeOnTrackBarValueChange()
         {
             resizeTrackBar.Value = resizeTrackBar.Maximum;

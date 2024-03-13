@@ -17,6 +17,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `displayLabel`, `inputTextBox` and `displayTextButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(displayLabel);
@@ -25,12 +26,14 @@
         }
 
         [Fact]
+        // Description: Should have an empty default value in `displayLabel`.
         public void ShouldHaveEmptyDefaultValue()
         {
             Assert.Equal("", displayLabel.Text);
         }
 
         [Fact]
+        // Description: Should display `inputTextBox` text to `displayLabel` on click of `displayTextButton`.
         public void ShouldDisplayTextBoxTextToLabelOnClickDisplayTextButton()
         {
             string expected = "Hello World!";

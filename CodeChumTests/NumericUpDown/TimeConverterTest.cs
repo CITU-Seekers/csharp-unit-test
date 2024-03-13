@@ -15,6 +15,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `hourNumericUpDown`, `minuteNumericUpDown` and `twelveHourLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(hourNumericUpDown);
@@ -23,6 +24,7 @@
         }
 
         [Fact]
+        // Description: Should have correct max and min values for `hourNumericUpDown`.
         public void ShouldHaveCorrectMaxMinValuesForHourNumericControl()
         {
             int hourMax = 23;
@@ -33,6 +35,7 @@
         }
 
         [Fact]
+        // Description: Should have correct max and min values for `minuteNumericUpDown`.
         public void ShouldHaveCorrectMaxMinValuesForMinuteNumericControl()
         {
             int minuteMax = 59;
@@ -43,6 +46,7 @@
         }
 
         [Fact]
+        // Description: Should change time correctly for AM and display it in `twelveHourLabel`.
         public void ShouldChangeTimeCorrectlyForAnteMeridiem()
         {
             int hour = 6;
@@ -56,6 +60,7 @@
         }
 
         [Fact]
+        // Description: Should change time correctly for PM and display it in `twelveHourLabel`.
         public void ShouldChangeTimeCorrectlyForPostMeridiem()
         {
             int hour = 15;

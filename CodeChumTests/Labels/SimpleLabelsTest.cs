@@ -15,6 +15,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `helloWorldLabel`, `programmingLabel`, `codechumLabel`, and `csharpLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(helloWorldLabel);
@@ -24,6 +25,7 @@
         }
 
         [Fact]
+        // Description: Should have a text value of "Hello World!" in `helloWorldLabel`.
         public void ShouldHaveCorrectValueInhelloWorldLabel()
         {
             string label1 = "Hello World!";
@@ -32,6 +34,7 @@
         }
 
         [Fact]
+        // Description: Should have a text value of "I love programming" in `programmingLabel`.
         public void ShouldHaveCorrectValueInprogrammingLabel()
         {
             string label2 = "I love programming";
@@ -40,6 +43,7 @@
         }
 
         [Fact]
+        // Description: Should have a text value of "I love CodeChum" in `codechumLabel`.
         public void ShouldHaveCorrectValueIncodechumLabel()
         {
             string label3 = "I love CodeChum";
@@ -48,6 +52,7 @@
         }
 
         [Fact]
+        // Description: Should have a text value of "I love C#" in `csharpLabel`.
         public void ShouldHaveCorrectValueIncsharpLabel()
         {
             string label4 = "I love C#";
