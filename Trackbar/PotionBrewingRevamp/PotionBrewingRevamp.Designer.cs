@@ -34,9 +34,9 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            PotencyLevel = new Label();
-            Duration = new Label();
-            IntensityLevel = new Label();
+            potencyLabel = new Label();
+            durationLabel = new Label();
+            intensityLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)potencyTrackBar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)durationTrackBar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)intensityTrackBar).BeginInit();
@@ -93,51 +93,51 @@
             label3.TabIndex = 5;
             label3.Text = "Intensity";
             // 
-            // PotencyLevel
+            // potencyLabel
             // 
-            PotencyLevel.AutoSize = true;
-            PotencyLevel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            PotencyLevel.Location = new Point(144, 366);
-            PotencyLevel.Name = "PotencyLevel";
-            PotencyLevel.Size = new Size(60, 20);
-            PotencyLevel.TabIndex = 6;
-            PotencyLevel.Text = "Potency";
+            potencyLabel.AutoSize = true;
+            potencyLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            potencyLabel.Location = new Point(144, 366);
+            potencyLabel.Name = "potencyLabel";
+            potencyLabel.Size = new Size(60, 20);
+            potencyLabel.TabIndex = 6;
+            potencyLabel.Text = "Potency";
             // 
-            // Duration
+            // durationLabel
             // 
-            Duration.AutoSize = true;
-            Duration.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            Duration.Location = new Point(144, 396);
-            Duration.Name = "Duration";
-            Duration.Size = new Size(67, 20);
-            Duration.TabIndex = 7;
-            Duration.Text = "Duration";
+            durationLabel.AutoSize = true;
+            durationLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            durationLabel.Location = new Point(144, 396);
+            durationLabel.Name = "durationLabel";
+            durationLabel.Size = new Size(67, 20);
+            durationLabel.TabIndex = 7;
+            durationLabel.Text = "Duration";
             // 
-            // IntensityLevel
+            // intensityLabel
             // 
-            IntensityLevel.AutoSize = true;
-            IntensityLevel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            IntensityLevel.Location = new Point(147, 427);
-            IntensityLevel.Name = "IntensityLevel";
-            IntensityLevel.Size = new Size(64, 20);
-            IntensityLevel.TabIndex = 8;
-            IntensityLevel.Text = "Intensity";
+            intensityLabel.AutoSize = true;
+            intensityLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            intensityLabel.Location = new Point(147, 427);
+            intensityLabel.Name = "intensityLabel";
+            intensityLabel.Size = new Size(64, 20);
+            intensityLabel.TabIndex = 8;
+            intensityLabel.Text = "Intensity";
             // 
-            // PotionBrewing
+            // PotionBrewingRevamp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 527);
-            Controls.Add(IntensityLevel);
-            Controls.Add(Duration);
-            Controls.Add(PotencyLevel);
+            Controls.Add(intensityLabel);
+            Controls.Add(durationLabel);
+            Controls.Add(potencyLabel);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(intensityTrackBar);
             Controls.Add(durationTrackBar);
             Controls.Add(potencyTrackBar);
-            Name = "PotionBrewing";
+            Name = "PotionBrewingRevamp";
             Text = "PotionBrewing";
             ((System.ComponentModel.ISupportInitialize)potencyTrackBar).EndInit();
             ((System.ComponentModel.ISupportInitialize)durationTrackBar).EndInit();
@@ -154,8 +154,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label PotencyLevel;
-        private Label Duration;
-        private Label IntensityLevel;
+        private Label potencyLabel;
+        private Label durationLabel;
+        private Label intensityLabel;
     }
 }

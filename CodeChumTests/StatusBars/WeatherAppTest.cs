@@ -3,34 +3,36 @@
     public class WeatherAppTest
     {
         WeatherApp? form;
-        Button? btnGenerate;
-        StatusStrip? StatusStrip;
-        ToolStripStatusLabel? WeatherStatus;
+        Button? generateButton;
+        StatusStrip? statusStrip;
+        ToolStripStatusLabel? weatherStatusLabel;
 
         public WeatherAppTest()
         {
             form = new WeatherApp();
             form.Show();
-            btnGenerate = (Button)TestUtils.GetControlNamed(form, "btnGenerate", true);
-            StatusStrip = (StatusStrip)TestUtils.GetControlNamed(form, "StatusStrip", true);
+            generateButton = (Button)TestUtils.GetControlNamed(form, "generateButton", true);
+            statusStrip = (StatusStrip)TestUtils.GetControlNamed(form, "statusStrip", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `generateButton` and `statusStrip`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(btnGenerate);
-            Assert.NotNull(StatusStrip);
+            Assert.NotNull(generateButton);
+            Assert.NotNull(statusStrip);
         }
 
         [Fact]
+        // Description: Should display text that contains "Temperature: " and "°F, Condition: " in `weatherStatusLabel` when the `generateButton` is clicked.
         public void ShouldDisplayWeatherStatus()
         {
-            WeatherStatus = StatusStrip.Items["WeatherStatus"] as ToolStripStatusLabel;
+            weatherStatusLabel = statusStrip.Items["weatherStatusLabel"] as ToolStripStatusLabel;
 
-            btnGenerate.PerformClick();
+            generateButton.PerformClick();
 
-            Assert.Contains("Temperature: ", WeatherStatus.Text);
-            Assert.Contains("°F, Condition: ", WeatherStatus.Text);
+            Assert.Contains("Temperature: ", weatherStatusLabel.Text);
+            Assert.Contains("°F, Condition: ", weatherStatusLabel.Text);
         }
     }
 }

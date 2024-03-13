@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ContactList = new ListView();
-            Name = new ColumnHeader();
+            contactListView = new ListView();
+            NameColumn = new ColumnHeader();
             Email = new ColumnHeader();
             PhoneNum = new ColumnHeader();
             Telecom = new ColumnHeader();
-            ContactName = new TextBox();
-            ContactEmail = new TextBox();
-            ContactNum = new TextBox();
-            cboTelecom = new System.Windows.Forms.ComboBox();
-            btnAdd = new Button();
-            btnUpdate = new Button();
-            btnRemove = new Button();
+            nameTextBox = new TextBox();
+            emailTextBox = new TextBox();
+            phoneNumberTextBox = new TextBox();
+            telecomComboBox = new ComboBox();
+            addButton = new Button();
+            updateButton = new Button();
+            removeButton = new Button();
             SuspendLayout();
             // 
-            // ContactList
+            // contactListView
             // 
-            ContactList.Columns.AddRange(new ColumnHeader[] { Name, Email, PhoneNum, Telecom });
-            ContactList.Location = new Point(64, 32);
-            ContactList.Name = "ContactList";
-            ContactList.Size = new Size(541, 176);
-            ContactList.TabIndex = 0;
-            ContactList.UseCompatibleStateImageBehavior = false;
-            ContactList.View = View.Details;
+            contactListView.Columns.AddRange(new ColumnHeader[] { NameColumn, Email, PhoneNum, Telecom });
+            contactListView.Location = new Point(64, 32);
+            contactListView.Name = "contactListView";
+            contactListView.Size = new Size(541, 176);
+            contactListView.TabIndex = 0;
+            contactListView.UseCompatibleStateImageBehavior = false;
+            contactListView.View = View.Details;
             // 
             // Name
             // 
-            Name.Text = "Name";
-            Name.Width = 150;
+            NameColumn.Text = "Name";
+            NameColumn.Width = 150;
             // 
             // Email
             // 
@@ -72,83 +72,83 @@
             Telecom.Text = "Telecom";
             Telecom.Width = 100;
             // 
-            // ContactName
+            // nameTextBox
             // 
-            ContactName.Location = new Point(64, 235);
-            ContactName.Name = "ContactName";
-            ContactName.PlaceholderText = "Name";
-            ContactName.Size = new Size(541, 23);
-            ContactName.TabIndex = 1;
+            nameTextBox.Location = new Point(64, 235);
+            nameTextBox.Name = "nameTextBox";
+            nameTextBox.PlaceholderText = "Name";
+            nameTextBox.Size = new Size(541, 23);
+            nameTextBox.TabIndex = 1;
             // 
-            // ContactEmail
+            // emailTextBox
             // 
-            ContactEmail.Location = new Point(64, 273);
-            ContactEmail.Name = "ContactEmail";
-            ContactEmail.PlaceholderText = "Email";
-            ContactEmail.Size = new Size(541, 23);
-            ContactEmail.TabIndex = 2;
+            emailTextBox.Location = new Point(64, 273);
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.PlaceholderText = "Email";
+            emailTextBox.Size = new Size(541, 23);
+            emailTextBox.TabIndex = 2;
             // 
-            // ContactNum
+            // phoneNumberTextBox
             // 
-            ContactNum.Location = new Point(64, 312);
-            ContactNum.Name = "ContactNum";
-            ContactNum.PlaceholderText = "Phone Number";
-            ContactNum.Size = new Size(294, 23);
-            ContactNum.TabIndex = 3;
+            phoneNumberTextBox.Location = new Point(64, 312);
+            phoneNumberTextBox.Name = "phoneNumberTextBox";
+            phoneNumberTextBox.PlaceholderText = "Phone Number";
+            phoneNumberTextBox.Size = new Size(294, 23);
+            phoneNumberTextBox.TabIndex = 3;
             // 
-            // cboTelecom
+            // telecomComboBox
             // 
-            cboTelecom.FormattingEnabled = true;
-            cboTelecom.Items.AddRange(new object[] { "SMART", "Sun", "TNT", "Globe", "TM", "DITO" });
-            cboTelecom.Location = new Point(443, 312);
-            cboTelecom.Name = "cboTelecom";
-            cboTelecom.Size = new Size(162, 23);
-            cboTelecom.TabIndex = 4;
+            telecomComboBox.FormattingEnabled = true;
+            telecomComboBox.Items.AddRange(new object[] { "Smart", "Sun", "TNT", "Globe", "TM", "DITO" });
+            telecomComboBox.Location = new Point(443, 312);
+            telecomComboBox.Name = "telecomComboBox";
+            telecomComboBox.Size = new Size(162, 23);
+            telecomComboBox.TabIndex = 4;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Location = new Point(114, 366);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
-            btnAdd.TabIndex = 5;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Location = new Point(114, 366);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(75, 23);
+            addButton.TabIndex = 5;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
-            // btnUpdate
+            // updateButton
             // 
-            btnUpdate.Location = new Point(297, 366);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(75, 23);
-            btnUpdate.TabIndex = 6;
-            btnUpdate.Text = "Update";
-            btnUpdate.UseVisualStyleBackColor = true;
-            btnUpdate.Click += btnUpdate_Click;
+            updateButton.Location = new Point(297, 366);
+            updateButton.Name = "updateButton";
+            updateButton.Size = new Size(75, 23);
+            updateButton.TabIndex = 6;
+            updateButton.Text = "Update";
+            updateButton.UseVisualStyleBackColor = true;
+            updateButton.Click += btnUpdate_Click;
             // 
-            // btnRemove
+            // removeButton
             // 
-            btnRemove.Location = new Point(482, 366);
-            btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(75, 23);
-            btnRemove.TabIndex = 7;
-            btnRemove.Text = "Remove";
-            btnRemove.UseVisualStyleBackColor = true;
-            btnRemove.Click += btnRemove_Click;
+            removeButton.Location = new Point(482, 366);
+            removeButton.Name = "removeButton";
+            removeButton.Size = new Size(75, 23);
+            removeButton.TabIndex = 7;
+            removeButton.Text = "Remove";
+            removeButton.UseVisualStyleBackColor = true;
+            removeButton.Click += btnRemove_Click;
             // 
-            // ContactMangement
+            // ContactManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(680, 450);
-            Controls.Add(btnRemove);
-            Controls.Add(btnUpdate);
-            Controls.Add(btnAdd);
-            Controls.Add(cboTelecom);
-            Controls.Add(ContactNum);
-            Controls.Add(ContactEmail);
-            Controls.Add(ContactName);
-            Controls.Add(ContactList);
-            //Name = "ContactMangement";
+            Controls.Add(removeButton);
+            Controls.Add(updateButton);
+            Controls.Add(addButton);
+            Controls.Add(telecomComboBox);
+            Controls.Add(phoneNumberTextBox);
+            Controls.Add(emailTextBox);
+            Controls.Add(nameTextBox);
+            Controls.Add(contactListView);
+            Name = "ContactManagement";
             Text = "ContactMangement";
             ResumeLayout(false);
             PerformLayout();
@@ -156,17 +156,17 @@
 
         #endregion
 
-        private ListView ContactList;
-        private ColumnHeader Name;
+        private ListView contactListView;
+        private ColumnHeader NameColumn;
         private ColumnHeader Email;
         private ColumnHeader PhoneNum;
         private ColumnHeader Telecom;
-        private TextBox ContactName;
-        private TextBox ContactEmail;
-        private TextBox ContactNum;
-        private System.Windows.Forms.ComboBox cboTelecom;
-        private Button btnAdd;
-        private Button btnUpdate;
-        private Button btnRemove;
+        private TextBox nameTextBox;
+        private TextBox emailTextBox;
+        private TextBox phoneNumberTextBox;
+        private System.Windows.Forms.ComboBox telecomComboBox;
+        private Button addButton;
+        private Button updateButton;
+        private Button removeButton;
     }
 }

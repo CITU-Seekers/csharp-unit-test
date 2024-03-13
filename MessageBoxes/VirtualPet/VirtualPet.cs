@@ -20,25 +20,25 @@ namespace CodeChum
 
         private void btnFeed_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Yum! That was delicious! I'm feeling full and happy!", "Feed", MessageBoxButtons.OK);
+            MessageBoxWrapper.Show("Yum! That was delicious! I'm feeling full and happy!", "Feed", MessageBoxButtons.OK);
             isMessageBoxClosed = true;
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("That was so much fun! I'm feeling happy and energized!", "Play", MessageBoxButtons.OK);
+            MessageBoxWrapper.Show("That was so much fun! I'm feeling happy and energized!", "Play", MessageBoxButtons.OK);
             isMessageBoxClosed = true;
         }
 
         private void btnPet_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Purr... rubs against you I love your cuddles!", "Pet", MessageBoxButtons.OK);
+            MessageBoxWrapper.Show("Purr... rubs against you I love your cuddles!", "Pet", MessageBoxButtons.OK);
             isMessageBoxClosed = true;
         }
 
         private void btnCheckMood_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I'm feeling content and loved, thanks to you!", "Check Mood", MessageBoxButtons.OK);
+            MessageBoxWrapper.Show("I'm feeling content and loved, thanks to you!", "Check Mood", MessageBoxButtons.OK);
             isMessageBoxClosed = true;
         }
     }

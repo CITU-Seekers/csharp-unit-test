@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            StudentDB = new ListView();
+            studentListView = new ListView();
             studID = new ColumnHeader();
             studName = new ColumnHeader();
             studDOB = new ColumnHeader();
             CourseYear = new ColumnHeader();
-            btnRemove = new Button();
-            btnAdd = new Button();
-            BirthDatePicker = new System.Windows.Forms.DateTimePicker();
-            StudentName = new TextBox();
-            StudentID = new TextBox();
-            cboCourse = new System.Windows.Forms.ComboBox();
-            cboYear = new System.Windows.Forms.ComboBox();
+            removeButton = new Button();
+            addButton = new Button();
+            birthDayDateTimePicker = new DateTimePicker();
+            studentNameTextBox = new TextBox();
+            studentIDTextBox = new TextBox();
+            courseComboBox = new ComboBox();
+            yearComboBox = new ComboBox();
             SuspendLayout();
             // 
-            // StudentDB
+            // studentListView
             // 
-            StudentDB.Columns.AddRange(new ColumnHeader[] { studID, studName, studDOB, CourseYear });
-            StudentDB.Location = new Point(38, 26);
-            StudentDB.Name = "StudentDB";
-            StudentDB.Size = new Size(425, 142);
-            StudentDB.TabIndex = 7;
-            StudentDB.UseCompatibleStateImageBehavior = false;
-            StudentDB.View = View.Details;
+            studentListView.Columns.AddRange(new ColumnHeader[] { studID, studName, studDOB, CourseYear });
+            studentListView.Location = new Point(38, 26);
+            studentListView.Name = "studentListView";
+            studentListView.Size = new Size(425, 142);
+            studentListView.TabIndex = 7;
+            studentListView.UseCompatibleStateImageBehavior = false;
+            studentListView.View = View.Details;
             // 
             // studID
             // 
@@ -72,85 +72,85 @@
             CourseYear.Text = "Course & Year";
             CourseYear.Width = 100;
             // 
-            // btnRemove
+            // removeButton
             // 
-            btnRemove.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnRemove.Location = new Point(318, 367);
-            btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(75, 30);
-            btnRemove.TabIndex = 13;
-            btnRemove.Text = "Remove";
-            btnRemove.UseVisualStyleBackColor = true;
-            btnRemove.Click += btnRemove_Click;
+            removeButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            removeButton.Location = new Point(318, 367);
+            removeButton.Name = "removeButton";
+            removeButton.Size = new Size(75, 30);
+            removeButton.TabIndex = 13;
+            removeButton.Text = "Remove";
+            removeButton.UseVisualStyleBackColor = true;
+            removeButton.Click += btnRemove_Click;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAdd.Location = new Point(108, 367);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 30);
-            btnAdd.TabIndex = 12;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            addButton.Location = new Point(108, 367);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(75, 30);
+            addButton.TabIndex = 12;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
-            // BirthDatePicker
+            // birthDayDateTimePicker
             // 
-            BirthDatePicker.Location = new Point(38, 277);
-            BirthDatePicker.Name = "BirthDatePicker";
-            BirthDatePicker.Size = new Size(425, 23);
-            BirthDatePicker.TabIndex = 10;
+            birthDayDateTimePicker.Location = new Point(38, 277);
+            birthDayDateTimePicker.Name = "birthDayDateTimePicker";
+            birthDayDateTimePicker.Size = new Size(425, 23);
+            birthDayDateTimePicker.TabIndex = 10;
             // 
-            // StudentName
+            // studentNameTextBox
             // 
-            StudentName.Location = new Point(38, 239);
-            StudentName.Name = "StudentName";
-            StudentName.PlaceholderText = "Name";
-            StudentName.Size = new Size(425, 23);
-            StudentName.TabIndex = 9;
+            studentNameTextBox.Location = new Point(38, 239);
+            studentNameTextBox.Name = "studentNameTextBox";
+            studentNameTextBox.PlaceholderText = "Name";
+            studentNameTextBox.Size = new Size(425, 23);
+            studentNameTextBox.TabIndex = 9;
             // 
-            // StudentID
+            // studentIDTextBox
             // 
-            StudentID.Location = new Point(38, 201);
-            StudentID.Name = "StudentID";
-            StudentID.PlaceholderText = "ID";
-            StudentID.Size = new Size(425, 23);
-            StudentID.TabIndex = 8;
+            studentIDTextBox.Location = new Point(38, 201);
+            studentIDTextBox.Name = "studentIDTextBox";
+            studentIDTextBox.PlaceholderText = "ID";
+            studentIDTextBox.Size = new Size(425, 23);
+            studentIDTextBox.TabIndex = 8;
             // 
-            // cboCourse
+            // courseComboBox
             // 
-            cboCourse.FormattingEnabled = true;
-            cboCourse.Items.AddRange(new object[] { "BSCS", "BSBA", "BSIT", "BMMA", "BSCE", "BSME", "BSTM", "BSHRM" });
-            cboCourse.Location = new Point(38, 315);
-            cboCourse.Name = "cboCourse";
-            cboCourse.Size = new Size(234, 23);
-            cboCourse.TabIndex = 14;
-            cboCourse.Text = "Course";
+            courseComboBox.FormattingEnabled = true;
+            courseComboBox.Items.AddRange(new object[] { "BSCS", "BSBA", "BSIT", "BMMA", "BSCE", "BSME", "BSTM", "BSHRM" });
+            courseComboBox.Location = new Point(38, 315);
+            courseComboBox.Name = "courseComboBox";
+            courseComboBox.Size = new Size(234, 23);
+            courseComboBox.TabIndex = 14;
+            courseComboBox.Text = "Course";
             // 
-            // cboYear
+            // yearComboBox
             // 
-            cboYear.FormattingEnabled = true;
-            cboYear.Items.AddRange(new object[] { "1st Year", "2nd Year", "3rd Year", "4th Year" });
-            cboYear.Location = new Point(318, 315);
-            cboYear.Name = "cboYear";
-            cboYear.RightToLeft = RightToLeft.No;
-            cboYear.Size = new Size(113, 23);
-            cboYear.TabIndex = 15;
-            cboYear.Text = "Year";
+            yearComboBox.FormattingEnabled = true;
+            yearComboBox.Items.AddRange(new object[] { "1st Year", "2nd Year", "3rd Year", "4th Year" });
+            yearComboBox.Location = new Point(318, 315);
+            yearComboBox.Name = "yearComboBox";
+            yearComboBox.RightToLeft = RightToLeft.No;
+            yearComboBox.Size = new Size(113, 23);
+            yearComboBox.TabIndex = 15;
+            yearComboBox.Text = "Year";
             // 
             // StudentInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(513, 450);
-            Controls.Add(cboYear);
-            Controls.Add(cboCourse);
-            Controls.Add(StudentDB);
-            Controls.Add(btnRemove);
-            Controls.Add(btnAdd);
-            Controls.Add(BirthDatePicker);
-            Controls.Add(StudentName);
-            Controls.Add(StudentID);
+            Controls.Add(yearComboBox);
+            Controls.Add(courseComboBox);
+            Controls.Add(studentListView);
+            Controls.Add(removeButton);
+            Controls.Add(addButton);
+            Controls.Add(birthDayDateTimePicker);
+            Controls.Add(studentNameTextBox);
+            Controls.Add(studentIDTextBox);
             Name = "StudentInfo";
             Text = "StudentInfo";
             ResumeLayout(false);
@@ -159,17 +159,17 @@
 
         #endregion
 
-        private ListView StudentDB;
+        private ListView studentListView;
         private ColumnHeader studID;
         private ColumnHeader studName;
         private ColumnHeader studDOB;
-        private Button btnRemove;
-        private Button btnAdd;
-        private System.Windows.Forms.DateTimePicker BirthDatePicker;
-        private TextBox StudentName;
-        private TextBox StudentID;
-        private System.Windows.Forms.ComboBox cboCourse;
-        private System.Windows.Forms.ComboBox cboYear;
+        private Button removeButton;
+        private Button addButton;
+        private System.Windows.Forms.DateTimePicker birthDayDateTimePicker;
+        private TextBox studentNameTextBox;
+        private TextBox studentIDTextBox;
+        private System.Windows.Forms.ComboBox courseComboBox;
+        private System.Windows.Forms.ComboBox yearComboBox;
         private ColumnHeader CourseYear;
     }
 }

@@ -15,7 +15,7 @@ namespace CodeChum
         public FoodMenu()
         {
             InitializeComponent();
-            lblOrderSummary.Font = new Font("Segoe UI", 11);
+            orderSummaryLabel.Font = new Font("Segoe UI", 11);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -46,27 +46,27 @@ namespace CodeChum
 
                 if (int.TryParse(textBox1.Text, out quantity) && quantity > 0)
                 {
-                    lblError.Text = string.Empty;
+                    errorLabel.Text = string.Empty;
                     string itemDescription = $"{selectedItem} x {quantity}";
 
-                    if (string.IsNullOrEmpty(lblOrderSummary.Text))
+                    if (string.IsNullOrEmpty(orderSummaryLabel.Text))
                     {
-                        lblOrderSummary.Text = itemDescription;
+                        orderSummaryLabel.Text = itemDescription;
                     }
                     else
                     {
                         // Append the new item to the existing label text
-                        lblOrderSummary.Text += Environment.NewLine + itemDescription;
+                        orderSummaryLabel.Text += Environment.NewLine + itemDescription;
                     }
                 }
                 else
                 {
-                    lblError.Text = "Please enter a valid quantity (a positive integer)";
+                    errorLabel.Text = "Please enter a valid quantity (a positive integer)";
                 }
             }
             else
             {
-                lblError.Text = "Please select an item using the radio buttons.";
+                errorLabel.Text = "Please select an item using the radio buttons.";
             }
         }
 

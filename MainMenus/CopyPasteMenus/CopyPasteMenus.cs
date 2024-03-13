@@ -22,6 +22,18 @@ namespace CodeChum
             FormatFontDialog = new FontDialog();
         }
 
+        public void ChangeFontColor(Color color)
+        {
+            richTextBox1.ForeColor = color;
+            richTextBox2.ForeColor = color;
+        }
+
+        public void ChangeFontStyle(Font font)
+        {
+            richTextBox1.Font = font;
+            richTextBox2.Font = font;
+        }
+
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Copy everything in richtextbox1 without using clipboard
@@ -48,9 +60,8 @@ namespace CodeChum
         {
             FormatColorDialog.ShowDialog();
 
-            //Set color of richtextbox1 to selected color
-            richTextBox1.ForeColor = FormatColorDialog.Color;
-            richTextBox2.ForeColor = FormatColorDialog.Color;
+            //Set font color of richtextbox1 to selected color
+            ChangeFontColor(FormatColorDialog.Color);
         }
 
         private void fontStyleToolStripMenuItem_Click(object sender, EventArgs e)
@@ -58,8 +69,7 @@ namespace CodeChum
             FormatFontDialog.ShowDialog();
 
             //Set font of richtextbox1 to selected font
-            richTextBox1.Font = FormatFontDialog.Font;
-            richTextBox2.Font = FormatFontDialog.Font;
+            ChangeFontStyle(FormatFontDialog.Font);
         }
     }
 }

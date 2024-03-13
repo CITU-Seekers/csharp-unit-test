@@ -3,61 +3,56 @@
     public class PortalSequenceTest
     {
         PortalSequence? form;
-        Label? labelMessage;
-        Button? button1;
-        Button? button2;
-        Button? button3;
+        Label? messageLabel;
+        Button? seaButton;
+        Button? sunButton;
+        Button? starButton;
 
         public PortalSequenceTest()
         {
             form = new PortalSequence();
-            form.Visible = true;
-            labelMessage = (Label) TestUtils.GetControlNamed(form, "label4", true);
-            button1 = (Button) TestUtils.GetControlNamed(form, "button1", true);
-            button2 = (Button) TestUtils.GetControlNamed(form, "button2", true);
-            button3 = (Button) TestUtils.GetControlNamed(form, "button3", true);
+            form.Show();
+            messageLabel = (Label)TestUtils.GetControlNamed(form, "messageLabel", true);
+            seaButton = (Button)TestUtils.GetControlNamed(form, "seaButton", true);
+            sunButton = (Button)TestUtils.GetControlNamed(form, "sunButton", true);
+            starButton = (Button)TestUtils.GetControlNamed(form, "starButton", true);
         }
 
         [Fact]
-        public void HasLabelMessage()
+        // Description: Should have all the controls `messageLabel`, `seaButton`, `sunButton`, and `starButton`.
+        public void ShouldHaveAllControls()
         {
-            Assert.NotNull(labelMessage);
+            Assert.NotNull(messageLabel);
+            Assert.NotNull(seaButton);
+            Assert.NotNull(sunButton);
+            Assert.NotNull(starButton);
         }
 
         [Fact]
-        public void HasButton1()
-        {
-            Assert.NotNull(button1);
-        }
-
-        [Fact]
-        public void HasButton2()
-        {
-            Assert.NotNull(button2);
-        }
-
-        [Fact]
-        public void HasButton3()
-        {
-            Assert.NotNull(button3);
-        }
-
-        [Fact]
+        // Description: Should display message "Congratulations! The portal is now open!" in `messageLabel` when all the buttons are clicked in the correct order.
         public void ShouldDisplaySuccessMessageWhenAllStepsAreCompleted()
         {
-            button2.PerformClick();
-            button1.PerformClick();
-            button3.PerformClick();
-            Assert.Equal("Congratulations! The portal is now open!", labelMessage.Text);
+            sunButton.PerformClick();
+            seaButton.PerformClick();
+            starButton.PerformClick();
+            Assert.Equal("Congratulations! The portal is now open!", messageLabel.Text);
         }
 
         [Fact]
-        public void ShouldDisplayProgressMessageWhenStepsAreCompleted()
+        // Description: Should display message "Step 1 of 3 completed. Keep going!" in `messageLabel` when the `sunButton` is clicked.
+        public void ShouldDisplayProgressMessageWhenStep1IsCompleted()
         {
-            button2.PerformClick();
-            Assert.Equal("Step 1 of 3 completed. Keep going!", labelMessage.Text);
-            button1.PerformClick();
-            Assert.Equal("Step 2 of 3 completed. Keep going!", labelMessage.Text);
+            sunButton.PerformClick();
+            Assert.Equal("Step 1 of 3 completed. Keep going!", messageLabel.Text);
+        }
+
+        [Fact]
+        // Description: Should display message "Step 2 of 3 completed. Keep going!" in `messageLabel` when the `seaButton` is clicked after the `sunButton`.
+        public void ShouldDisplayProgressMessageWhenStep2IsCompleted()
+        {
+            sunButton.PerformClick();
+            seaButton.PerformClick();
+            Assert.Equal("Step 2 of 3 completed. Keep going!", messageLabel.Text);
         }
     }
 }

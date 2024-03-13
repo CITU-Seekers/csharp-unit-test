@@ -3,79 +3,73 @@
     public class MysticMessengerTest
     {
         MysticMessenger? form;
-        TextBox? textBox1;
-        Label? lblMessage;
-        Button? button1;
-        Button? button2;
-        Button? button3;
+        TextBox? messageTextBox;
+        Label? messageLabel;
+        Button? windButton;
+        Button? moonglowButton;
+        Button? twilightButton;
 
         public MysticMessengerTest()
         {
             form = new MysticMessenger();
             form.Visible = true;
-            textBox1 = (TextBox)TestUtils.GetControlNamed(form, "textBox1", true);
-            lblMessage = (Label)TestUtils.GetControlNamed(form, "lblMessage", true);
-            button1 = (Button)TestUtils.GetControlNamed(form, "button1", true);
-            button2 = (Button)TestUtils.GetControlNamed(form, "button2", true);
-            button3 = (Button)TestUtils.GetControlNamed(form, "button3", true);
+            messageTextBox = (TextBox)TestUtils.GetControlNamed(form, "messageTextBox", true);
+            messageLabel = (Label)TestUtils.GetControlNamed(form, "messageLabel", true);
+            windButton = (Button)TestUtils.GetControlNamed(form, "windButton", true);
+            moonglowButton = (Button)TestUtils.GetControlNamed(form, "moonglowButton", true);
+            twilightButton = (Button)TestUtils.GetControlNamed(form, "twilightButton", true);
         }
 
         [Fact]
+        // Description: Should have all controls `messageTextBox`, `messageLabel`, `windButton`, `moonglowButton`, and `twilightButton`.
+        public void ShouldHaveAllControls()
+        {
+            Assert.NotNull(messageTextBox);
+            Assert.NotNull(messageLabel);
+            Assert.NotNull(windButton);
+            Assert.NotNull(moonglowButton);
+            Assert.NotNull(twilightButton);
+        }
+
+        [Fact]
+        // Description: Should reverse the message "Hello" in `messageTextBox` to "olleH" in `messageLabel` when `windButton` is clicked.
         public void ShouldReverseMessage()
         {
-            textBox1.Text = "Hello";
-            button1.PerformClick();
-            Assert.Equal("olleH", lblMessage.Text);
+            messageTextBox.Text = "Hello";
+            windButton.PerformClick();
+            Assert.Equal("olleH", messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should translate the vowels in the message "Hello" in `messageTextBox` to "0ll3H" in `messageLabel` when `moonglowButton` is clicked.
         public void ShouldTranslateTheVowels()
         {
-            textBox1.Text = "Hello";
-            button1.PerformClick();
-            button2.PerformClick();
-            Assert.Equal("0ll3H", lblMessage.Text);
+            messageTextBox.Text = "Hello";
+            windButton.PerformClick();
+            moonglowButton.PerformClick();
+            Assert.Equal("0ll3H", messageLabel.Text);
         }
 
         [Fact]
+        // Description: Should translate the message "Hello" in `messageTextBox` to "0LL3H" in `messageLabel` when `twilightButton` is clicked.
         public void ShouldTranslateToUppercaseMessage ()
         {
-            textBox1.Text = "Hello";
-            button1.PerformClick();
-            button2.PerformClick();
-            button3.PerformClick();
-            Assert.Equal("0LL3H", lblMessage.Text);
+            messageTextBox.Text = "Hello";
+            windButton.PerformClick();
+            moonglowButton.PerformClick();
+            twilightButton.PerformClick();
+            Assert.Equal("0LL3H", messageLabel.Text);
         }
 
         [Fact]
-        public void HasTextBox()
+        // Description: Should translate the message in `messageTextBox` properly in `messageLabel` when all buttons are clicked.
+        public void ShouldTranslateProperlyWhenButtonsAreAllClicked ()
         {
-            Assert.NotNull(textBox1);
+            messageTextBox.Text = "Hello";
+            windButton.PerformClick();
+            moonglowButton.PerformClick();
+            twilightButton.PerformClick();
+            Assert.Equal("0LL3H", messageLabel.Text);
         }
-
-        [Fact]
-        public void HasLabelMessage()
-        {
-            Assert.NotNull(lblMessage);
-        }
-
-        [Fact]
-        public void HasButton1()
-        {
-            Assert.NotNull(button1);
-        }
-
-        [Fact]
-        public void HasButton2()
-        {
-            Assert.NotNull(button2);
-        }
-
-        [Fact]
-        public void HasButton3()
-        {
-            Assert.NotNull(button3);
-        }
-
     }
 }

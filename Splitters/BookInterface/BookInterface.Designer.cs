@@ -28,63 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            MainSplitter = new Splitter();
-            cboBooks = new System.Windows.Forms.ComboBox();
-            ChapterBox = new TextBox();
-            BookList = new System.Windows.Forms.ListBox();
-            panel1 = new Panel();
-            panel1.SuspendLayout();
+            mainSplitter = new Splitter();
+            booksComboBox = new ComboBox();
+            chapterTextBox = new TextBox();
+            bookListBox = new ListBox();
+            panel = new Panel();
+            panel.SuspendLayout();
             SuspendLayout();
             // 
-            // MainSplitter
+            // mainSplitter
             // 
-            MainSplitter.BackColor = Color.Gray;
-            MainSplitter.Location = new Point(0, 0);
-            MainSplitter.Name = "MainSplitter";
-            MainSplitter.Size = new Size(402, 450);
-            MainSplitter.TabIndex = 0;
-            MainSplitter.TabStop = false;
+            mainSplitter.BackColor = Color.Gray;
+            mainSplitter.Location = new Point(0, 0);
+            mainSplitter.Name = "mainSplitter";
+            mainSplitter.Size = new Size(402, 450);
+            mainSplitter.TabIndex = 0;
+            mainSplitter.TabStop = false;
             // 
-            // cboBooks
+            // booksComboBox
             // 
-            cboBooks.FormattingEnabled = true;
-            cboBooks.Items.AddRange(new object[] { "Harry Potter", "Magnus Chase", "Percy Jackson", "The Maze Runner", "The Hunger Games" });
-            cboBooks.Location = new Point(94, 39);
-            cboBooks.Name = "cboBooks";
-            cboBooks.Size = new Size(177, 23);
-            cboBooks.TabIndex = 1;
-            cboBooks.SelectedIndexChanged += cboBooks_SelectedIndexChanged;
+            booksComboBox.FormattingEnabled = true;
+            booksComboBox.Items.AddRange(new object[] { "Harry Potter", "Magnus Chase", "Percy Jackson", "The Maze Runner", "The Hunger Games" });
+            booksComboBox.Location = new Point(94, 39);
+            booksComboBox.Name = "booksComboBox";
+            booksComboBox.Size = new Size(177, 23);
+            booksComboBox.TabIndex = 1;
+            booksComboBox.SelectedIndexChanged += cboBooks_SelectedIndexChanged;
             // 
-            // ChapterBox
+            // chapterTextBox
             // 
-            ChapterBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            ChapterBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            ChapterBox.Location = new Point(54, 37);
-            ChapterBox.Multiline = true;
-            ChapterBox.Name = "ChapterBox";
-            ChapterBox.ScrollBars = ScrollBars.Vertical;
-            ChapterBox.Size = new Size(319, 362);
-            ChapterBox.TabIndex = 2;
+            chapterTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            chapterTextBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            chapterTextBox.Location = new Point(54, 37);
+            chapterTextBox.Multiline = true;
+            chapterTextBox.Name = "chapterTextBox";
+            chapterTextBox.ScrollBars = ScrollBars.Vertical;
+            chapterTextBox.Size = new Size(319, 362);
+            chapterTextBox.TabIndex = 2;
             // 
-            // BookList
+            // bookListBox
             // 
-            BookList.FormattingEnabled = true;
-            BookList.ItemHeight = 15;
-            BookList.Location = new Point(58, 104);
-            BookList.Name = "BookList";
-            BookList.Size = new Size(260, 244);
-            BookList.TabIndex = 3;
-            BookList.SelectedIndexChanged += BookList_SelectedIndexChanged;
+            bookListBox.FormattingEnabled = true;
+            bookListBox.ItemHeight = 15;
+            bookListBox.Location = new Point(58, 104);
+            bookListBox.Name = "bookListBox";
+            bookListBox.Size = new Size(260, 244);
+            bookListBox.TabIndex = 3;
+            bookListBox.SelectedIndexChanged += BookList_SelectedIndexChanged;
             // 
-            // panel1
+            // panel
             // 
-            panel1.BackColor = Color.Brown;
-            panel1.Controls.Add(ChapterBox);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(402, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(398, 450);
-            panel1.TabIndex = 4;
+            panel.BackColor = Color.Brown;
+            panel.Controls.Add(chapterTextBox);
+            panel.Dock = DockStyle.Fill;
+            panel.Location = new Point(402, 0);
+            panel.Name = "panel";
+            panel.Size = new Size(398, 450);
+            panel.TabIndex = 4;
             // 
             // BookInterface
             // 
@@ -92,23 +92,23 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Brown;
             ClientSize = new Size(800, 450);
-            Controls.Add(panel1);
-            Controls.Add(BookList);
-            Controls.Add(cboBooks);
-            Controls.Add(MainSplitter);
+            Controls.Add(panel);
+            Controls.Add(bookListBox);
+            Controls.Add(booksComboBox);
+            Controls.Add(mainSplitter);
             Name = "BookInterface";
             Text = "BookInterface";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            panel.ResumeLayout(false);
+            panel.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Splitter MainSplitter;
-        private System.Windows.Forms.ComboBox cboBooks;
-        private TextBox ChapterBox;
-        private System.Windows.Forms.ListBox BookList;
-        private Panel panel1;
+        private Splitter mainSplitter;
+        private System.Windows.Forms.ComboBox booksComboBox;
+        private TextBox chapterTextBox;
+        private System.Windows.Forms.ListBox bookListBox;
+        private Panel panel;
     }
 }

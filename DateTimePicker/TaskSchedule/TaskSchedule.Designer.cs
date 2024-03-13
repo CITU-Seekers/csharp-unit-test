@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            DatePicker = new System.Windows.Forms.DateTimePicker();
-            ReservationSummary = new Label();
-            btnAdd = new Button();
+            dateTimePicker = new DateTimePicker();
+            taskSummaryLabel = new Label();
+            addButton = new Button();
             label3 = new Label();
-            TaskName = new TextBox();
+            taskTextBox = new TextBox();
             label2 = new Label();
-            lblToDoList = new Label();
+            toDoListLabel = new Label();
             SuspendLayout();
             // 
             // label1
@@ -48,32 +48,32 @@
             label1.TabIndex = 5;
             label1.Text = "Date";
             // 
-            // DatePicker
+            // dateTimePicker
             // 
-            DatePicker.Location = new Point(73, 88);
-            DatePicker.Name = "DatePicker";
-            DatePicker.Size = new Size(200, 23);
-            DatePicker.TabIndex = 4;
+            dateTimePicker.Location = new Point(73, 88);
+            dateTimePicker.Name = "dateTimePicker";
+            dateTimePicker.Size = new Size(200, 23);
+            dateTimePicker.TabIndex = 4;
             // 
             // ReservationSummary
             // 
-            ReservationSummary.AutoSize = true;
-            ReservationSummary.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            ReservationSummary.Location = new Point(73, 259);
-            ReservationSummary.Name = "ReservationSummary";
-            ReservationSummary.Size = new Size(0, 20);
-            ReservationSummary.TabIndex = 11;
+            taskSummaryLabel.AutoSize = true;
+            taskSummaryLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            taskSummaryLabel.Location = new Point(73, 259);
+            taskSummaryLabel.Name = "taskSummaryLabel";
+            taskSummaryLabel.Size = new Size(0, 20);
+            taskSummaryLabel.TabIndex = 11;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAdd.Location = new Point(73, 212);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(80, 31);
-            btnAdd.TabIndex = 10;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            addButton.Location = new Point(73, 212);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(80, 31);
+            addButton.TabIndex = 10;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
             // label3
             // 
@@ -85,12 +85,12 @@
             label3.TabIndex = 9;
             label3.Text = "Task Name";
             // 
-            // TaskName
+            // taskTextBox
             // 
-            TaskName.Location = new Point(73, 162);
-            TaskName.Name = "TaskName";
-            TaskName.Size = new Size(200, 23);
-            TaskName.TabIndex = 8;
+            taskTextBox.Location = new Point(73, 162);
+            taskTextBox.Name = "taskTextBox";
+            taskTextBox.Size = new Size(200, 23);
+            taskTextBox.TabIndex = 8;
             // 
             // label2
             // 
@@ -104,26 +104,26 @@
             // 
             // lblToDoList
             // 
-            lblToDoList.AutoSize = true;
-            lblToDoList.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblToDoList.Location = new Point(372, 80);
-            lblToDoList.Name = "lblToDoList";
-            lblToDoList.Size = new Size(0, 20);
-            lblToDoList.TabIndex = 13;
+            toDoListLabel.AutoSize = true;
+            toDoListLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            toDoListLabel.Location = new Point(372, 80);
+            toDoListLabel.Name = "toDoListLabel";
+            toDoListLabel.Size = new Size(0, 20);
+            toDoListLabel.TabIndex = 13;
             // 
             // TaskSchedule
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(lblToDoList);
+            Controls.Add(toDoListLabel);
             Controls.Add(label2);
-            Controls.Add(ReservationSummary);
-            Controls.Add(btnAdd);
+            Controls.Add(taskSummaryLabel);
+            Controls.Add(addButton);
             Controls.Add(label3);
-            Controls.Add(TaskName);
+            Controls.Add(taskTextBox);
             Controls.Add(label1);
-            Controls.Add(DatePicker);
+            Controls.Add(dateTimePicker);
             Name = "TaskSchedule";
             Text = "TaskScheduler";
             ResumeLayout(false);
@@ -132,12 +132,12 @@
 
         #endregion
         private Label label1;
-        private System.Windows.Forms.DateTimePicker DatePicker;
-        private Label ReservationSummary;
-        private Button btnAdd;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
+        private Label taskSummaryLabel;
+        private Button addButton;
         private Label label3;
-        private TextBox TaskName;
+        private TextBox taskTextBox;
         private Label label2;
-        private Label lblToDoList;
+        private Label toDoListLabel;
     }
 }

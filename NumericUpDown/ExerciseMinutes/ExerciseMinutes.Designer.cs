@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTotal = new Label();
+            totalLabel = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            numericUpDownCycling = new NumericUpDown();
-            numericUpDownRunning = new NumericUpDown();
-            numericUpDownWalking = new NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownCycling).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownRunning).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownWalking).BeginInit();
+            cyclingNumericUpDown = new NumericUpDown();
+            runningNumericUpDown = new NumericUpDown();
+            walkingNumericUpDown = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)cyclingNumericUpDown).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)runningNumericUpDown).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)walkingNumericUpDown).BeginInit();
             SuspendLayout();
             // 
             // lblTotal
             // 
-            lblTotal.AutoSize = true;
-            lblTotal.Location = new Point(133, 170);
-            lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(0, 15);
-            lblTotal.TabIndex = 13;
+            totalLabel.AutoSize = true;
+            totalLabel.Location = new Point(133, 170);
+            totalLabel.Name = "totalLabel";
+            totalLabel.Size = new Size(0, 15);
+            totalLabel.TabIndex = 13;
             // 
             // label3
             // 
@@ -78,56 +78,56 @@
             label1.TabIndex = 10;
             label1.Text = "Walking";
             // 
-            // numericUpDownCycling
+            // cyclingNumericUpDown
             // 
-            numericUpDownCycling.Location = new Point(171, 121);
-            numericUpDownCycling.Name = "numericUpDownCycling";
-            numericUpDownCycling.Size = new Size(120, 23);
-            numericUpDownCycling.TabIndex = 9;
+            cyclingNumericUpDown.Location = new Point(171, 121);
+            cyclingNumericUpDown.Name = "cyclingNumericUpDown";
+            cyclingNumericUpDown.Size = new Size(120, 23);
+            cyclingNumericUpDown.TabIndex = 9;
             // 
-            // numericUpDownRunning
+            // runningNumericUpDown
             // 
-            numericUpDownRunning.Location = new Point(171, 79);
-            numericUpDownRunning.Name = "numericUpDownRunning";
-            numericUpDownRunning.Size = new Size(120, 23);
-            numericUpDownRunning.TabIndex = 8;
+            runningNumericUpDown.Location = new Point(171, 79);
+            runningNumericUpDown.Name = "runningNumericUpDown";
+            runningNumericUpDown.Size = new Size(120, 23);
+            runningNumericUpDown.TabIndex = 8;
             // 
-            // numericUpDownWalking
+            // walkingNumericUpDown
             // 
-            numericUpDownWalking.Location = new Point(171, 37);
-            numericUpDownWalking.Name = "numericUpDownWalking";
-            numericUpDownWalking.Size = new Size(120, 23);
-            numericUpDownWalking.TabIndex = 7;
+            walkingNumericUpDown.Location = new Point(171, 37);
+            walkingNumericUpDown.Name = "walkingNumericUpDown";
+            walkingNumericUpDown.Size = new Size(120, 23);
+            walkingNumericUpDown.TabIndex = 7;
             // 
             // ExerciseMinutes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(391, 247);
-            Controls.Add(lblTotal);
+            Controls.Add(totalLabel);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(numericUpDownCycling);
-            Controls.Add(numericUpDownRunning);
-            Controls.Add(numericUpDownWalking);
+            Controls.Add(cyclingNumericUpDown);
+            Controls.Add(runningNumericUpDown);
+            Controls.Add(walkingNumericUpDown);
             Name = "ExerciseMinutes";
             Text = "ExerciseMinutes";
-            ((System.ComponentModel.ISupportInitialize)numericUpDownCycling).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownRunning).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownWalking).EndInit();
+            ((System.ComponentModel.ISupportInitialize)cyclingNumericUpDown).EndInit();
+            ((System.ComponentModel.ISupportInitialize)runningNumericUpDown).EndInit();
+            ((System.ComponentModel.ISupportInitialize)walkingNumericUpDown).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label lblTotal;
+        private Label totalLabel;
         private Label label3;
         private Label label2;
         private Label label1;
-        private NumericUpDown numericUpDownCycling;
-        private NumericUpDown numericUpDownRunning;
-        private NumericUpDown numericUpDownWalking;
+        private NumericUpDown cyclingNumericUpDown;
+        private NumericUpDown runningNumericUpDown;
+        private NumericUpDown walkingNumericUpDown;
     }
 }

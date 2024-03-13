@@ -28,53 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TextBox = new RichTextBox();
-            btnMerge = new Button();
-            lblFileNum = new Label();
-            btnSave = new Button();
+            resultRichTextBox = new RichTextBox();
+            mergeButton = new Button();
+            fileMergedCounterLabel = new Label();
+            saveButton = new Button();
             openFileDialog1 = new OpenFileDialog();
             saveFileDialog1 = new SaveFileDialog();
             SuspendLayout();
             // 
-            // TextBox
+            // resultRichTextBox
             // 
-            TextBox.Location = new Point(32, 59);
-            TextBox.Name = "TextBox";
-            TextBox.Size = new Size(387, 237);
-            TextBox.TabIndex = 1;
-            TextBox.Text = "";
+            resultRichTextBox.Location = new Point(32, 59);
+            resultRichTextBox.Name = "resultRichTextBox";
+            resultRichTextBox.Size = new Size(387, 237);
+            resultRichTextBox.TabIndex = 1;
+            resultRichTextBox.Text = "";
             // 
-            // btnMerge
+            // mergeButton
             // 
-            btnMerge.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnMerge.Location = new Point(32, 317);
-            btnMerge.Name = "btnMerge";
-            btnMerge.Size = new Size(102, 35);
-            btnMerge.TabIndex = 2;
-            btnMerge.Text = "Merge Files";
-            btnMerge.UseVisualStyleBackColor = true;
-            btnMerge.Click += btnMerge_Click;
+            mergeButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            mergeButton.Location = new Point(32, 317);
+            mergeButton.Name = "mergeButton";
+            mergeButton.Size = new Size(102, 35);
+            mergeButton.TabIndex = 2;
+            mergeButton.Text = "Merge Files";
+            mergeButton.UseVisualStyleBackColor = true;
+            mergeButton.Click += btnMerge_Click;
             // 
-            // lblFileNum
+            // fileMergedCounterLabel
             // 
-            lblFileNum.AutoSize = true;
-            lblFileNum.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblFileNum.Location = new Point(32, 29);
-            lblFileNum.Name = "lblFileNum";
-            lblFileNum.Size = new Size(97, 20);
-            lblFileNum.TabIndex = 3;
-            lblFileNum.Text = "Files Merged:";
+            fileMergedCounterLabel.AutoSize = true;
+            fileMergedCounterLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            fileMergedCounterLabel.Location = new Point(32, 29);
+            fileMergedCounterLabel.Name = "fileMergedCounterLabel";
+            fileMergedCounterLabel.Size = new Size(97, 20);
+            fileMergedCounterLabel.TabIndex = 3;
+            fileMergedCounterLabel.Text = "Files Merged:";
             // 
-            // btnSave
+            // saveButton
             // 
-            btnSave.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSave.Location = new Point(317, 317);
-            btnSave.Name = "btnSave";
-            btnSave.Size = new Size(102, 35);
-            btnSave.TabIndex = 4;
-            btnSave.Text = "Save File";
-            btnSave.UseVisualStyleBackColor = true;
-            btnSave.Click += btnSave_Click;
+            saveButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            saveButton.Location = new Point(317, 317);
+            saveButton.Name = "saveButton";
+            saveButton.Size = new Size(102, 35);
+            saveButton.TabIndex = 4;
+            saveButton.Text = "Save File";
+            saveButton.UseVisualStyleBackColor = true;
+            saveButton.Click += btnSave_Click;
             // 
             // openFileDialog1
             // 
@@ -85,10 +85,10 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(469, 399);
-            Controls.Add(btnSave);
-            Controls.Add(lblFileNum);
-            Controls.Add(btnMerge);
-            Controls.Add(TextBox);
+            Controls.Add(saveButton);
+            Controls.Add(fileMergedCounterLabel);
+            Controls.Add(mergeButton);
+            Controls.Add(resultRichTextBox);
             Name = "TextFileMerger";
             Text = "TextFileMerger";
             ResumeLayout(false);
@@ -96,10 +96,10 @@
         }
 
         #endregion
-        private RichTextBox TextBox;
-        private Button btnMerge;
-        private Label lblFileNum;
-        private Button btnSave;
+        private RichTextBox resultRichTextBox;
+        private Button mergeButton;
+        private Label fileMergedCounterLabel;
+        private Button saveButton;
         public OpenFileDialog openFileDialog1;
         public SaveFileDialog saveFileDialog1;
     }

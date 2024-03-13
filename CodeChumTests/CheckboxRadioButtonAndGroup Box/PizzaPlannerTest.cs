@@ -3,120 +3,107 @@
     public class PizzaPlannerTest
     {
         PizzaPlanner? form;
-        CheckBox? PepperoniCheckBox;
-        CheckBox? MushroomCheckBox;
-        CheckBox? OnionCheckBox;
-        CheckBox? BaconCheckBox;
-        CheckBox? ExtraCheeseCheckBox;
-        RadioButton? ThinCrustRadioButton;
-        RadioButton? HandTossedRadioButton;
-        RadioButton? DeepDishRadioButton;
-        Button? btnOrder;
-        Label? lblTotal;
-        TextBox? PizzaNum;
+        CheckBox? pepperoniCheckBox;
+        CheckBox? mushroomCheckBox;
+        CheckBox? onionCheckBox;
+        CheckBox? baconCheckBox;
+        CheckBox? extraCheeseCheckBox;
+        RadioButton? thinCrustRadioButton;
+        RadioButton? handTossedRadioButton;
+        RadioButton? deepDishRadioButton;
+        Button? orderButton;
+        Label? totalLabel;
+        TextBox? pizzaTextBox;
 
         public PizzaPlannerTest()
         {
             form = new PizzaPlanner();
-            form.Visible = true;
-            PepperoniCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "PepperoniCheckBox", true);
-            MushroomCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "MushroomCheckBox", true);
-            OnionCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "OnionCheckBox", true);
-            BaconCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "BaconCheckBox", true);
-            ExtraCheeseCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "ExtraCheeseCheckBox", true);
-            ThinCrustRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "ThinCrustRadioButton", true);
-            HandTossedRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "HandTossedRadioButton", true);
-            DeepDishRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "DeepDishRadioButton", true);
-            PizzaNum = (TextBox)TestUtils.GetControlNamed(form, "PizzaNum", true);
-            btnOrder = (Button)TestUtils.GetControlNamed(form, "btnOrder", true);
-            lblTotal = (Label)TestUtils.GetControlNamed(form, "lblTotal", true);
+            form.Show();
+            pepperoniCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "pepperoniCheckBox", true);
+            mushroomCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "mushroomCheckBox", true);
+            onionCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "onionCheckBox", true);
+            baconCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "baconCheckBox", true);
+            extraCheeseCheckBox = (CheckBox)TestUtils.GetControlNamed(form, "extraCheeseCheckBox", true);
+            thinCrustRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "thinCrustRadioButton", true);
+            handTossedRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "handTossedRadioButton", true);
+            deepDishRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "deepDishRadioButton", true);
+            pizzaTextBox = (TextBox)TestUtils.GetControlNamed(form, "pizzaTextBox", true);
+            orderButton = (Button)TestUtils.GetControlNamed(form, "orderButton", true);
+            totalLabel = (Label)TestUtils.GetControlNamed(form, "totalLabel", true);
         }
 
         [Fact]
+        // Description: Should have all controls `pepperoniCheckBox`, `mushroomCheckBox`, `onionCheckBox`, `baconCheckBox`, `extraCheeseCheckBox`, `thinCrustRadioButton`, `handTossedRadioButton`, `deepDishRadioButton`, `orderButton`, `totalLabel`, and `pizzaTextBox`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(PepperoniCheckBox);
-            Assert.NotNull(MushroomCheckBox);
-            Assert.NotNull(OnionCheckBox);
-            Assert.NotNull(BaconCheckBox);
-            Assert.NotNull(ExtraCheeseCheckBox);
-            Assert.NotNull(ThinCrustRadioButton);
-            Assert.NotNull(HandTossedRadioButton);
-            Assert.NotNull(DeepDishRadioButton);
-            Assert.NotNull(btnOrder);
-            Assert.NotNull(lblTotal);
-            Assert.NotNull(PizzaNum);
+            Assert.NotNull(pepperoniCheckBox);
+            Assert.NotNull(mushroomCheckBox);
+            Assert.NotNull(onionCheckBox);
+            Assert.NotNull(baconCheckBox);
+            Assert.NotNull(extraCheeseCheckBox);
+            Assert.NotNull(thinCrustRadioButton);
+            Assert.NotNull(handTossedRadioButton);
+            Assert.NotNull(deepDishRadioButton);
+            Assert.NotNull(orderButton);
+            Assert.NotNull(totalLabel);
+            Assert.NotNull(pizzaTextBox);
         }
 
         [Fact]
+        // Description: Should show "Total Cost: $675.00" when `pepperoniCheckBox`, `extraCheeseCheckBox`, `thinCrustRadioButton`, and `pizzaTextBox` are checked and `orderButton` is clicked.
         public void ShouldCalculateTotalPrice()
-        {   
-            PepperoniCheckBox.Checked = true;
-            ExtraCheeseCheckBox.Checked = true;
-            ThinCrustRadioButton.Checked = true;
-            PizzaNum.Text = "3";
-            btnOrder.PerformClick();
-
+        {
             double expectedTotalPrice = 675;
 
-            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", lblTotal.Text);
+            pepperoniCheckBox.Checked = true;
+            extraCheeseCheckBox.Checked = true;
+            thinCrustRadioButton.Checked = true;
+            pizzaTextBox.Text = "3";
+            orderButton.PerformClick();
+
+            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", totalLabel.Text);
         }
 
         [Fact]
+        // Description: Should show "Total Cost: $300.00" when `thinCrustRadioButton` is checked, `pizzaTextBox` is set to 3 and `orderButton` is clicked.
         public void ShouldCalculateTotalPriceWithNoToppings()
         {
-            // Arrange
-            double expectedTotalPrice = 0;
+            double expectedTotalPrice = 300;
 
-            // Act
-            ThinCrustRadioButton.Checked = true;
-            expectedTotalPrice += 100;
-            PizzaNum.Text = "3";
-            expectedTotalPrice *= 3;
-            btnOrder.PerformClick();
+            thinCrustRadioButton.Checked = true;
+            pizzaTextBox.Text = "3";
+            orderButton.PerformClick();
 
-            // Assert
-            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", lblTotal.Text);
+            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", totalLabel.Text);
         }
 
         [Fact]
+        // Description: Should show "Total Cost: $600.00" when `pepperoniCheckBox`, `mushroomCheckBox`, `onionCheckBox`, `baconCheckBox`, `extraCheeseCheckBox` are checked and `pizzaTextBox` is set to 2 and `orderButton` is clicked.
         public void ShouldCalculateTotalPriceWithNoCrust()
         {
-            // Arrange
-            double expectedTotalPrice = 0;
+            double expectedTotalPrice = 600;
 
-            // Act
-            PepperoniCheckBox.Checked = true;
-            expectedTotalPrice += 100;
-            MushroomCheckBox.Checked = true;
-            expectedTotalPrice += 50;
-            OnionCheckBox.Checked = true;
-            expectedTotalPrice += 50;
-            BaconCheckBox.Checked = true;
-            expectedTotalPrice += 75;
-            ExtraCheeseCheckBox.Checked = true;
-            expectedTotalPrice += 25;
-            PizzaNum.Text = "2";
-            expectedTotalPrice *= 2;
-            btnOrder.PerformClick();
+            pepperoniCheckBox.Checked = true;
+            mushroomCheckBox.Checked = true;
+            onionCheckBox.Checked = true;
+            baconCheckBox.Checked = true;
+            extraCheeseCheckBox.Checked = true;
+            pizzaTextBox.Text = "2";
+            orderButton.PerformClick();
 
-
-            // Assert
-            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", lblTotal.Text);
+            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", totalLabel.Text);
         }
 
         [Fact]
+        // Description: Should show "Total Cost: $0.00" when `pizzaTextBox` is set to 2 and `orderButton` is clicked.
         public void ShouldCalculateTotalPriceWithNoToppingsAndNoCrust()
         {
-            // Arrange
-            PizzaNum.Text = "2";
             double expectedTotalPrice = 0;
+            
+            pizzaTextBox.Text = "2";
+            orderButton.PerformClick();
 
-            // Act
-            btnOrder.PerformClick();
-
-            // Assert
-            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", lblTotal.Text);
+            Assert.Equal($"Total Cost: {expectedTotalPrice:C}", totalLabel.Text);
         }
     }
 }

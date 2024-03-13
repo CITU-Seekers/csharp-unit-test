@@ -20,20 +20,20 @@ namespace CodeChum
         {
             InitializeComponent();
             // Attach event handlers
-            btnAdd.Click += btnAdd_Click;
-            MonthCalendar.DateSelected += MonthCalendar_DateSelected;
+            addButton.Click += btnAdd_Click;
+            monthCalendar.DateSelected += MonthCalendar_DateSelected;
 
-            CountdownTimer.Interval = 1000; // Update every 1 second
-            CountdownTimer.Tick += CountdownTimer_Tick;
+            countdownTimer.Interval = 1000; // Update every 1 second
+            countdownTimer.Tick += CountdownTimer_Tick;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             // Get the selected date from the MonthCalendar control
-            DateTime selectedDate = MonthCalendar.SelectionStart;
+            DateTime selectedDate = monthCalendar.SelectionStart;
 
             // Get the event name from the TextBox
-            string eventName = EventName.Text;
+            string eventName = eventNameTextBox.Text;
 
             AddEvent(selectedDate, eventName);
 
@@ -41,7 +41,7 @@ namespace CodeChum
             UpdateCountdownForSelectedDate();
 
             // Start or restart the countdown timer
-            CountdownTimer.Start();
+            countdownTimer.Start();
         }
 
         private void AddEvent(DateTime date, string eventName)
@@ -56,22 +56,22 @@ namespace CodeChum
         private void UpdateCalendarHighlights()
         {
             // Clear previous highlights
-            MonthCalendar.RemoveAllBoldedDates();
+            monthCalendar.RemoveAllBoldedDates();
 
             // Highlight dates with scheduled events
             foreach (var date in events.Keys)
             {
-                MonthCalendar.AddBoldedDate(date);
+                monthCalendar.AddBoldedDate(date);
             }
 
             // Update the display
-            MonthCalendar.UpdateBoldedDates();
+            monthCalendar.UpdateBoldedDates();
         }
 
         private void MonthCalendar_DateSelected(object sender, DateRangeEventArgs e)
         {
             // Get the selected date
-            DateTime selectedDate = MonthCalendar.SelectionStart;
+            DateTime selectedDate = monthCalendar.SelectionStart;
 
             // Find the nearest upcoming event date before the selected date
             var nearestEventDate = GetNearestEventDate(selectedDate);
@@ -84,7 +84,7 @@ namespace CodeChum
                 selectedEventDate = nearestEventDate.Value;
 
                 // Display the event name in the TextBox
-                EventName.Text = selectedEventName;
+                eventNameTextBox.Text = selectedEventName;
 
                 // Update countdown for the selected date
                 UpdateCountdownForSelectedDate();
@@ -92,8 +92,8 @@ namespace CodeChum
             else
             {
                 // Clear the event name and countdown
-                EventName.Clear();
-                lblCountdown.Text = "No Event";
+                eventNameTextBox.Clear();
+                countdownLabel.Text = "No Event";
             }
         }
 
@@ -117,7 +117,7 @@ namespace CodeChum
         {
             // Find all upcoming events after the selected date
             var upcomingEventDates = events.Keys
-                .Where(date => date > MonthCalendar.SelectionStart)
+                .Where(date => date > monthCalendar.SelectionStart)
                 .OrderBy(date => date)
                 .ToList();
 
@@ -127,15 +127,15 @@ namespace CodeChum
                 StringBuilder countdownText = new StringBuilder();
                 foreach (var eventDate in upcomingEventDates)
                 {
-                    var countdown = eventDate - MonthCalendar.SelectionStart;
+                    var countdown = eventDate - monthCalendar.SelectionStart;
                     countdownText.AppendLine($"{events[eventDate]}: {countdown.Days} days");
                 }
 
-                lblCountdown.Text = "Countdown to: \n" + countdownText.ToString();
+                countdownLabel.Text = "Countdown to: \n" + countdownText.ToString();
             }
             else
             {
-                lblCountdown.Text = "No upcoming events";
+                countdownLabel.Text = "No upcoming events";
             }
         }
 

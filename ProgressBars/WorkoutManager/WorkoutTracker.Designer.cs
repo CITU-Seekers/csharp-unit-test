@@ -29,57 +29,57 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            comboBox1 = new System.Windows.Forms.ComboBox();
-            numericUpDown1 = new NumericUpDown();
-            btnStart = new Button();
-            btnFinish = new Button();
-            progressBar1 = new ProgressBar();
+            workoutComboBox = new ComboBox();
+            durationNumericUpDown = new NumericUpDown();
+            startButton = new Button();
+            finishButton = new Button();
+            progressBar = new ProgressBar();
             progressTimer = new System.Windows.Forms.Timer(components);
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)durationNumericUpDown).BeginInit();
             SuspendLayout();
             // 
-            // comboBox1
+            // workoutComboBox
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Jumping jacks", "High knees", "Burpees", "Jump rope", "Squats", "Push-ups" });
-            comboBox1.Location = new Point(39, 93);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 0;
+            workoutComboBox.FormattingEnabled = true;
+            workoutComboBox.Items.AddRange(new object[] { "Jumping jacks", "High knees", "Burpees", "Jump rope", "Squats", "Push-ups" });
+            workoutComboBox.Location = new Point(39, 93);
+            workoutComboBox.Name = "workoutComboBox";
+            workoutComboBox.Size = new Size(121, 23);
+            workoutComboBox.TabIndex = 0;
             // 
-            // numericUpDown1
+            // durationNumericUpDown
             // 
-            numericUpDown1.Location = new Point(229, 93);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(120, 23);
-            numericUpDown1.TabIndex = 1;
+            durationNumericUpDown.Location = new Point(229, 93);
+            durationNumericUpDown.Name = "durationNumericUpDown";
+            durationNumericUpDown.Size = new Size(120, 23);
+            durationNumericUpDown.TabIndex = 1;
             // 
-            // btnStart
+            // startButton
             // 
-            btnStart.Location = new Point(97, 161);
-            btnStart.Name = "btnStart";
-            btnStart.Size = new Size(75, 23);
-            btnStart.TabIndex = 2;
-            btnStart.Text = "Start";
-            btnStart.UseVisualStyleBackColor = true;
-            btnStart.Click += btnStart_Click;
+            startButton.Location = new Point(97, 161);
+            startButton.Name = "startButton";
+            startButton.Size = new Size(75, 23);
+            startButton.TabIndex = 2;
+            startButton.Text = "Start";
+            startButton.UseVisualStyleBackColor = true;
+            startButton.Click += btnStart_Click;
             // 
-            // btnFinish
+            // finishButton
             // 
-            btnFinish.Location = new Point(219, 164);
-            btnFinish.Name = "btnFinish";
-            btnFinish.Size = new Size(75, 23);
-            btnFinish.TabIndex = 3;
-            btnFinish.Text = "Finish";
-            btnFinish.UseVisualStyleBackColor = true;
-            btnFinish.Click += btnFinish_Click;
+            finishButton.Location = new Point(219, 164);
+            finishButton.Name = "finishButton";
+            finishButton.Size = new Size(75, 23);
+            finishButton.TabIndex = 3;
+            finishButton.Text = "Finish";
+            finishButton.UseVisualStyleBackColor = true;
+            finishButton.Click += btnFinish_Click;
             // 
-            // progressBar1
+            // progressBar
             // 
-            progressBar1.Location = new Point(39, 28);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(310, 23);
-            progressBar1.TabIndex = 4;
+            progressBar.Location = new Point(39, 28);
+            progressBar.Name = "progressBar";
+            progressBar.Size = new Size(310, 23);
+            progressBar.TabIndex = 4;
             // 
             // progressTimer
             // 
@@ -91,24 +91,24 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(418, 262);
-            Controls.Add(progressBar1);
-            Controls.Add(btnFinish);
-            Controls.Add(btnStart);
-            Controls.Add(numericUpDown1);
-            Controls.Add(comboBox1);
+            Controls.Add(progressBar);
+            Controls.Add(finishButton);
+            Controls.Add(startButton);
+            Controls.Add(durationNumericUpDown);
+            Controls.Add(workoutComboBox);
             Name = "WorkoutTracker";
             Text = "WorkoutTracker";
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)durationNumericUpDown).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private NumericUpDown numericUpDown1;
-        private Button btnStart;
-        private Button btnFinish;
-        private ProgressBar progressBar1;
+        private System.Windows.Forms.ComboBox workoutComboBox;
+        private NumericUpDown durationNumericUpDown;
+        private Button startButton;
+        private Button finishButton;
+        private ProgressBar progressBar;
         private System.Windows.Forms.Timer progressTimer;
     }
 }

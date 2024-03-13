@@ -23,13 +23,13 @@ namespace CodeChum
                 EmailTextBox.TextLength == 0 || 
                 (!YesRadioButton.Checked && !NoRadioButton.Checked))
             {
-                MessageBoxWrapper.Show("You need to fill up all fields", "Invalid", MessageBoxButtons.OK);
+                MessageBox.Show("You need to fill up all fields", "Invalid", MessageBoxButtons.OK);
             }
             else
             {
                 if (DialogResult.Yes == MessageBox.Show("Once you press 'Yes' your response will be recorded. Continue?", "Are you sure?", MessageBoxButtons.YesNo))
                 {
-                    MessageBoxWrapper.Show("Response Recorded", "Success", MessageBoxButtons.OK);
+                    MessageBox.Show("Response Recorded", "Success", MessageBoxButtons.OK);
                 }
                 else
                 {

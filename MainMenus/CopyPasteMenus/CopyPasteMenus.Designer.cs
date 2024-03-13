@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            MainMenuStrip = new MenuStrip();
+            mainMenuStrip = new MenuStrip();
             editToolStripMenuItem = new ToolStripMenuItem();
             copyToolStripMenuItem = new ToolStripMenuItem();
             pasteToolStripMenuItem = new ToolStripMenuItem();
@@ -40,17 +40,17 @@
             colorDialog1 = new ColorDialog();
             richTextBox1 = new RichTextBox();
             richTextBox2 = new RichTextBox();
-            MainMenuStrip.SuspendLayout();
+            mainMenuStrip.SuspendLayout();
             SuspendLayout();
             // 
-            // MainMenuStrip
+            // mainMenuStrip
             // 
-            MainMenuStrip.Items.AddRange(new ToolStripItem[] { editToolStripMenuItem, formatToolStripMenuItem });
-            MainMenuStrip.Location = new Point(0, 0);
-            MainMenuStrip.Name = "MainMenuStrip";
-            MainMenuStrip.Size = new Size(800, 24);
-            MainMenuStrip.TabIndex = 0;
-            MainMenuStrip.Text = "menuStrip1";
+            mainMenuStrip.Items.AddRange(new ToolStripItem[] { editToolStripMenuItem, formatToolStripMenuItem });
+            mainMenuStrip.Location = new Point(0, 0);
+            mainMenuStrip.Name = "mainMenuStrip";
+            mainMenuStrip.Size = new Size(800, 24);
+            mainMenuStrip.TabIndex = 0;
+            mainMenuStrip.Text = "menuStrip1";
             // 
             // editToolStripMenuItem
             // 
@@ -124,19 +124,18 @@
             ClientSize = new Size(800, 450);
             Controls.Add(richTextBox2);
             Controls.Add(richTextBox1);
-            Controls.Add(MainMenuStrip);
-            MainMenuStrip = MainMenuStrip;
+            Controls.Add(mainMenuStrip);
             Name = "CopyPasteMenus";
             Text = "CopyPasteMenus";
-            MainMenuStrip.ResumeLayout(false);
-            MainMenuStrip.PerformLayout();
+            mainMenuStrip.ResumeLayout(false);
+            mainMenuStrip.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private MenuStrip MainMenuStrip;
+        private MenuStrip mainMenuStrip;
         private ToolStripMenuItem editToolStripMenuItem;
         private ToolStripMenuItem copyToolStripMenuItem;
         private ToolStripMenuItem pasteToolStripMenuItem;

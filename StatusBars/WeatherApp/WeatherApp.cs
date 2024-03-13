@@ -44,7 +44,7 @@ namespace CodeChum
             }
 
             // Display the weather status
-            WeatherStatus.Text = $"Temperature: {tempIndex}°F, Condition: {weatherCondition}";
+            weatherStatusLabel.Text = $"Temperature: {tempIndex}°F, Condition: {weatherCondition}";
 
         }
     }

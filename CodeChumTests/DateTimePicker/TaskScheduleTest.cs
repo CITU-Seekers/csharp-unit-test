@@ -3,50 +3,53 @@
     public class TaskScheduleTest
     {
         TaskSchedule? form;
-        Button? btnAdd;
-        TextBox? TaskName;
-        DateTimePicker? DatePicker;
-        Label? lblToDoList;
+        Button? addButton;
+        TextBox? taskTextBox;
+        DateTimePicker? dateTimePicker;
+        Label? toDoListLabel;
 
         public TaskScheduleTest()
         {
             form = new TaskSchedule();
             form.Show();
-            btnAdd = (Button)TestUtils.GetControlNamed(form, "btnAdd", true);
-            TaskName = (TextBox)TestUtils.GetControlNamed(form, "TaskName", true);
-            DatePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "DatePicker", true);
-            lblToDoList = (Label)TestUtils.GetControlNamed(form, "lblToDoList", true);
+            addButton = (Button)TestUtils.GetControlNamed(form, "addButton", true);
+            taskTextBox = (TextBox)TestUtils.GetControlNamed(form, "taskTextBox", true);
+            dateTimePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "dateTimePicker", true);
+            toDoListLabel = (Label)TestUtils.GetControlNamed(form, "toDoListLabel", true);
         }
 
         [Fact]
+        // Description: Should have all controls `addButton`, `taskTextBox`, `dateTimePicker`, and `toDoListLabel`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(btnAdd);
-            Assert.NotNull(TaskName);
-            Assert.NotNull(DatePicker);
-            Assert.NotNull(lblToDoList);
+            Assert.NotNull(addButton);
+            Assert.NotNull(taskTextBox);
+            Assert.NotNull(dateTimePicker);
+            Assert.NotNull(toDoListLabel);
         }
 
         [Fact]
+        // Description: Should add task "Test Task" with date "Friday, January 1, 2021" when `taskTextBox` is set to "Test Task" and `dateTimePicker` is set to "1/1/2021" and `addButton` is clicked.
         public void ShouldAddTask()
         {
-            TaskName.Text = "Test Task";
-            DatePicker.Value = new DateTime(2021, 1, 1);
-            btnAdd.PerformClick();
-            Assert.Contains("Friday, January 1, 2021", lblToDoList.Text);
+            taskTextBox.Text = "Test Task";
+            dateTimePicker.Value = new DateTime(2021, 1, 1);
+            addButton.PerformClick();
+            Assert.Contains("Friday, January 1, 2021", toDoListLabel.Text);
         }
 
         [Fact]
+        // Description: Should add tasks "Test Task" with date "Friday, January 1, 2021" and "Test Task 2" with date "Saturday, January 2, 2021" when `taskTextBox` is set to "Test Task" and `dateTimePicker` is set to "1/1/2021" and `addButton` is clicked and `taskTextBox` is set to "Test Task 2" and `dateTimePicker` is set to "1/2/2021" and `addButton` is clicked.
         public void ShouldAddMultipleTasks()
         {
-            TaskName.Text = "Test Task";
-            DatePicker.Value = new DateTime(2021, 1, 1);
-            btnAdd.PerformClick();
-            TaskName.Text = "Test Task 2";
-            DatePicker.Value = new DateTime(2021, 1, 2);
-            btnAdd.PerformClick();
-            Assert.Contains("Friday, January 1, 2021", lblToDoList.Text);
-            Assert.Contains("Saturday, January 2, 2021", lblToDoList.Text);
+            taskTextBox.Text = "Test Task";
+            dateTimePicker.Value = new DateTime(2021, 1, 1);
+            addButton.PerformClick();
+            taskTextBox.Text = "Test Task 2";
+            dateTimePicker.Value = new DateTime(2021, 1, 2);
+            addButton.PerformClick();
+            Assert.Contains("Friday, January 1, 2021", toDoListLabel.Text);
+            Assert.Contains("Saturday, January 2, 2021", toDoListLabel.Text);
         }
     }
 }

@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DatePicker = new System.Windows.Forms.DateTimePicker();
+            dateTimePicker = new DateTimePicker();
             label1 = new Label();
-            cboTime = new System.Windows.Forms.ComboBox();
+            timeComboBox = new ComboBox();
             label2 = new Label();
-            EventName = new TextBox();
+            eventNameTextBox = new TextBox();
             label3 = new Label();
-            btnReserve = new Button();
-            ReservationSummary = new Label();
+            reserveButton = new Button();
+            reservationSummaryLabel = new Label();
             SuspendLayout();
             // 
-            // DatePicker
+            // dateTimePicker
             // 
-            DatePicker.Location = new Point(74, 84);
-            DatePicker.Name = "DatePicker";
-            DatePicker.Size = new Size(200, 23);
-            DatePicker.TabIndex = 0;
+            dateTimePicker.Location = new Point(74, 84);
+            dateTimePicker.Name = "dateTimePicker";
+            dateTimePicker.Size = new Size(200, 23);
+            dateTimePicker.TabIndex = 0;
             // 
             // label1
             // 
@@ -55,14 +55,14 @@
             label1.TabIndex = 1;
             label1.Text = "Date";
             // 
-            // cboTime
+            // timeComboBox
             // 
-            cboTime.FormattingEnabled = true;
-            cboTime.Items.AddRange(new object[] { "8:00 AM", "12:00 PM", "4:00 PM", "8:00 PM" });
-            cboTime.Location = new Point(330, 84);
-            cboTime.Name = "cboTime";
-            cboTime.Size = new Size(121, 23);
-            cboTime.TabIndex = 2;
+            timeComboBox.FormattingEnabled = true;
+            timeComboBox.Items.AddRange(new object[] { "8:00 AM", "12:00 PM", "4:00 PM", "8:00 PM" });
+            timeComboBox.Location = new Point(330, 84);
+            timeComboBox.Name = "timeComboBox";
+            timeComboBox.Size = new Size(121, 23);
+            timeComboBox.TabIndex = 2;
             // 
             // label2
             // 
@@ -74,12 +74,12 @@
             label2.TabIndex = 3;
             label2.Text = "Time";
             // 
-            // EventName
+            // eventNameTextBox
             // 
-            EventName.Location = new Point(74, 168);
-            EventName.Name = "EventName";
-            EventName.Size = new Size(377, 23);
-            EventName.TabIndex = 4;
+            eventNameTextBox.Location = new Point(74, 168);
+            eventNameTextBox.Name = "eventNameTextBox";
+            eventNameTextBox.Size = new Size(377, 23);
+            eventNameTextBox.TabIndex = 4;
             // 
             // label3
             // 
@@ -91,38 +91,38 @@
             label3.TabIndex = 5;
             label3.Text = "Event Name";
             // 
-            // btnReserve
+            // reserveButton
             // 
-            btnReserve.Location = new Point(222, 221);
-            btnReserve.Name = "btnReserve";
-            btnReserve.Size = new Size(75, 23);
-            btnReserve.TabIndex = 6;
-            btnReserve.Text = "Reserve";
-            btnReserve.UseVisualStyleBackColor = true;
-            btnReserve.Click += btnReserve_Click;
+            reserveButton.Location = new Point(222, 221);
+            reserveButton.Name = "reserveButton";
+            reserveButton.Size = new Size(75, 23);
+            reserveButton.TabIndex = 6;
+            reserveButton.Text = "Reserve";
+            reserveButton.UseVisualStyleBackColor = true;
+            reserveButton.Click += btnReserve_Click;
             // 
             // ReservationSummary
             // 
-            ReservationSummary.AutoSize = true;
-            ReservationSummary.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            ReservationSummary.Location = new Point(74, 265);
-            ReservationSummary.Name = "ReservationSummary";
-            ReservationSummary.Size = new Size(0, 20);
-            ReservationSummary.TabIndex = 7;
+            reservationSummaryLabel.AutoSize = true;
+            reservationSummaryLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            reservationSummaryLabel.Location = new Point(74, 265);
+            reservationSummaryLabel.Name = "reservationSummaryLabel";
+            reservationSummaryLabel.Size = new Size(0, 20);
+            reservationSummaryLabel.TabIndex = 7;
             // 
             // Reservation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(558, 391);
-            Controls.Add(ReservationSummary);
-            Controls.Add(btnReserve);
+            Controls.Add(reservationSummaryLabel);
+            Controls.Add(reserveButton);
             Controls.Add(label3);
-            Controls.Add(EventName);
+            Controls.Add(eventNameTextBox);
             Controls.Add(label2);
-            Controls.Add(cboTime);
+            Controls.Add(timeComboBox);
             Controls.Add(label1);
-            Controls.Add(DatePicker);
+            Controls.Add(dateTimePicker);
             Name = "Reservation";
             Text = "Reservation";
             ResumeLayout(false);
@@ -131,13 +131,13 @@
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker DatePicker;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
         private Label label1;
-        private System.Windows.Forms.ComboBox cboTime;
+        private System.Windows.Forms.ComboBox timeComboBox;
         private Label label2;
-        private TextBox EventName;
+        private TextBox eventNameTextBox;
         private Label label3;
-        private Button btnReserve;
-        private Label ReservationSummary;
+        private Button reserveButton;
+        private Label reservationSummaryLabel;
     }
 }

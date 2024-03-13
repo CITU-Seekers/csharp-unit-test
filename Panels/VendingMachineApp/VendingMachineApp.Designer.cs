@@ -28,79 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Panel1 = new Panel();
-            TotalLabel = new Label();
-            ToPanel2Button = new Button();
+            panel1 = new Panel();
+            totalLabel = new Label();
+            toPanel2Button = new Button();
             label2 = new Label();
-            QuantityUpDown = new NumericUpDown();
-            BevRadioButton = new RadioButton();
-            ItemList = new System.Windows.Forms.ListBox();
-            FoodRadioButton = new RadioButton();
-            Panel2 = new Panel();
-            BackToPanel1Button = new Button();
-            ToPanel3Button = new Button();
-            CardRadioButton = new RadioButton();
-            CashRadioButton = new RadioButton();
+            quantityNumericUpDown = new NumericUpDown();
+            beverageRadioButton = new RadioButton();
+            itemListBox = new ListBox();
+            foodRadioButton = new RadioButton();
+            panel2 = new Panel();
+            backToPanel1Button = new Button();
+            toPanel3Button = new Button();
+            cardRadioButton = new RadioButton();
+            cashRadioButton = new RadioButton();
             label1 = new Label();
-            Panel4 = new Panel();
+            panel4 = new Panel();
             label5 = new Label();
-            ExitButton = new Button();
+            exitButton = new Button();
             label7 = new Label();
             label = new Label();
-            Panel3Card = new Panel();
-            BackToPanel2Button2 = new Button();
-            txtCVC = new TextBox();
-            txtExpiryDate = new TextBox();
-            ToPanel4Button2 = new Button();
-            txtCardNum = new TextBox();
+            cardPanel3 = new Panel();
+            cardBackToPanel2Button = new Button();
+            cvcTextBox = new TextBox();
+            expiryDateTextBox = new TextBox();
+            cardToPanel4Button = new Button();
+            cardNumberTextBox = new TextBox();
             label4 = new Label();
-            Panel3Cash = new Panel();
-            ErrorLabel = new Label();
-            BackToPanel2Button1 = new Button();
-            ToPanel4Button1 = new Button();
-            CashTextBox = new TextBox();
+            cashPanel3 = new Panel();
+            errorLabel = new Label();
+            cashBackToPanel2Button = new Button();
+            cashToPanel4Button = new Button();
+            cashTextBox = new TextBox();
             label3 = new Label();
-            Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)QuantityUpDown).BeginInit();
-            Panel2.SuspendLayout();
-            Panel4.SuspendLayout();
-            Panel3Card.SuspendLayout();
-            Panel3Cash.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)quantityNumericUpDown).BeginInit();
+            panel2.SuspendLayout();
+            panel4.SuspendLayout();
+            cardPanel3.SuspendLayout();
+            cashPanel3.SuspendLayout();
             SuspendLayout();
             // 
-            // Panel1
+            // panel1
             // 
-            Panel1.Controls.Add(TotalLabel);
-            Panel1.Controls.Add(ToPanel2Button);
-            Panel1.Controls.Add(label2);
-            Panel1.Controls.Add(QuantityUpDown);
-            Panel1.Controls.Add(BevRadioButton);
-            Panel1.Controls.Add(ItemList);
-            Panel1.Controls.Add(FoodRadioButton);
-            Panel1.Location = new Point(26, 12);
-            Panel1.Name = "Panel1";
-            Panel1.Size = new Size(368, 329);
-            Panel1.TabIndex = 0;
+            panel1.Controls.Add(totalLabel);
+            panel1.Controls.Add(toPanel2Button);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(quantityNumericUpDown);
+            panel1.Controls.Add(beverageRadioButton);
+            panel1.Controls.Add(itemListBox);
+            panel1.Controls.Add(foodRadioButton);
+            panel1.Location = new Point(26, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(368, 329);
+            panel1.TabIndex = 0;
             // 
-            // TotalLabel
+            // totalLabel
             // 
-            TotalLabel.AutoSize = true;
-            TotalLabel.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            TotalLabel.Location = new Point(140, 244);
-            TotalLabel.Name = "TotalLabel";
-            TotalLabel.Size = new Size(45, 19);
-            TotalLabel.TabIndex = 8;
-            TotalLabel.Text = "Total: ";
+            totalLabel.AutoSize = true;
+            totalLabel.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            totalLabel.Location = new Point(140, 244);
+            totalLabel.Name = "totalLabel";
+            totalLabel.Size = new Size(45, 19);
+            totalLabel.TabIndex = 8;
+            totalLabel.Text = "Total: ";
             // 
-            // ToPanel2Button
+            // toPanel2Button
             // 
-            ToPanel2Button.Location = new Point(128, 291);
-            ToPanel2Button.Name = "ToPanel2Button";
-            ToPanel2Button.Size = new Size(75, 23);
-            ToPanel2Button.TabIndex = 7;
-            ToPanel2Button.Text = "Next";
-            ToPanel2Button.UseVisualStyleBackColor = true;
-            ToPanel2Button.Click += ToPanel2Button_Click;
+            toPanel2Button.Location = new Point(128, 291);
+            toPanel2Button.Name = "toPanel2Button";
+            toPanel2Button.Size = new Size(75, 23);
+            toPanel2Button.TabIndex = 7;
+            toPanel2Button.Text = "Next";
+            toPanel2Button.UseVisualStyleBackColor = true;
+            toPanel2Button.Click += ToPanel2Button_Click;
             // 
             // label2
             // 
@@ -112,104 +112,104 @@
             label2.TabIndex = 6;
             label2.Text = "Quantity";
             // 
-            // QuantityUpDown
+            // quantityNumericUpDown
             // 
-            QuantityUpDown.Location = new Point(209, 205);
-            QuantityUpDown.Name = "QuantityUpDown";
-            QuantityUpDown.Size = new Size(120, 23);
-            QuantityUpDown.TabIndex = 3;
-            QuantityUpDown.ValueChanged += QuantityUpDown_ValueChanged;
+            quantityNumericUpDown.Location = new Point(209, 205);
+            quantityNumericUpDown.Name = "quantityNumericUpDown";
+            quantityNumericUpDown.Size = new Size(120, 23);
+            quantityNumericUpDown.TabIndex = 3;
+            quantityNumericUpDown.ValueChanged += QuantityUpDown_ValueChanged;
             // 
-            // BevRadioButton
+            // beverageRadioButton
             // 
-            BevRadioButton.AutoSize = true;
-            BevRadioButton.Location = new Point(31, 119);
-            BevRadioButton.Name = "BevRadioButton";
-            BevRadioButton.Size = new Size(73, 19);
-            BevRadioButton.TabIndex = 2;
-            BevRadioButton.TabStop = true;
-            BevRadioButton.Text = "Beverage";
-            BevRadioButton.UseVisualStyleBackColor = true;
-            BevRadioButton.CheckedChanged += BevRadioButton_CheckedChanged;
+            beverageRadioButton.AutoSize = true;
+            beverageRadioButton.Location = new Point(31, 119);
+            beverageRadioButton.Name = "beverageRadioButton";
+            beverageRadioButton.Size = new Size(73, 19);
+            beverageRadioButton.TabIndex = 2;
+            beverageRadioButton.TabStop = true;
+            beverageRadioButton.Text = "Beverage";
+            beverageRadioButton.UseVisualStyleBackColor = true;
+            beverageRadioButton.CheckedChanged += BevRadioButton_CheckedChanged;
             // 
-            // ItemList
+            // itemListBox
             // 
-            ItemList.FormattingEnabled = true;
-            ItemList.ItemHeight = 15;
-            ItemList.Location = new Point(138, 15);
-            ItemList.Name = "ItemList";
-            ItemList.Size = new Size(201, 184);
-            ItemList.TabIndex = 1;
-            ItemList.SelectedIndexChanged += ItemList_SelectedIndexChanged;
+            itemListBox.FormattingEnabled = true;
+            itemListBox.ItemHeight = 15;
+            itemListBox.Location = new Point(138, 15);
+            itemListBox.Name = "itemListBox";
+            itemListBox.Size = new Size(201, 184);
+            itemListBox.TabIndex = 1;
+            itemListBox.SelectedIndexChanged += ItemList_SelectedIndexChanged;
             // 
-            // FoodRadioButton
+            // foodRadioButton
             // 
-            FoodRadioButton.AutoSize = true;
-            FoodRadioButton.Location = new Point(31, 78);
-            FoodRadioButton.Name = "FoodRadioButton";
-            FoodRadioButton.Size = new Size(52, 19);
-            FoodRadioButton.TabIndex = 0;
-            FoodRadioButton.TabStop = true;
-            FoodRadioButton.Text = "Food";
-            FoodRadioButton.UseVisualStyleBackColor = true;
-            FoodRadioButton.CheckedChanged += FoodRadioButton_CheckedChanged;
+            foodRadioButton.AutoSize = true;
+            foodRadioButton.Location = new Point(31, 78);
+            foodRadioButton.Name = "foodRadioButton";
+            foodRadioButton.Size = new Size(52, 19);
+            foodRadioButton.TabIndex = 0;
+            foodRadioButton.TabStop = true;
+            foodRadioButton.Text = "Food";
+            foodRadioButton.UseVisualStyleBackColor = true;
+            foodRadioButton.CheckedChanged += FoodRadioButton_CheckedChanged;
             // 
-            // Panel2
+            // panel2
             // 
-            Panel2.Controls.Add(BackToPanel1Button);
-            Panel2.Controls.Add(ToPanel3Button);
-            Panel2.Controls.Add(CardRadioButton);
-            Panel2.Controls.Add(CashRadioButton);
-            Panel2.Controls.Add(label1);
-            Panel2.Location = new Point(401, 13);
-            Panel2.Name = "Panel2";
-            Panel2.Size = new Size(262, 190);
-            Panel2.TabIndex = 1;
-            Panel2.Visible = false;
+            panel2.Controls.Add(backToPanel1Button);
+            panel2.Controls.Add(toPanel3Button);
+            panel2.Controls.Add(cardRadioButton);
+            panel2.Controls.Add(cashRadioButton);
+            panel2.Controls.Add(label1);
+            panel2.Location = new Point(401, 13);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(262, 190);
+            panel2.TabIndex = 1;
+            panel2.Visible = false;
             // 
-            // BackToPanel1Button
+            // backToPanel1Button
             // 
-            BackToPanel1Button.Location = new Point(89, 160);
-            BackToPanel1Button.Name = "BackToPanel1Button";
-            BackToPanel1Button.Size = new Size(75, 23);
-            BackToPanel1Button.TabIndex = 9;
-            BackToPanel1Button.Text = "Back";
-            BackToPanel1Button.UseVisualStyleBackColor = true;
-            BackToPanel1Button.Click += BackToPanel1Button_Click;
+            backToPanel1Button.Location = new Point(89, 160);
+            backToPanel1Button.Name = "backToPanel1Button";
+            backToPanel1Button.Size = new Size(75, 23);
+            backToPanel1Button.TabIndex = 9;
+            backToPanel1Button.Text = "Back";
+            backToPanel1Button.UseVisualStyleBackColor = true;
+            backToPanel1Button.Click += BackToPanel1Button_Click;
             // 
-            // ToPanel3Button
+            // toPanel3Button
             // 
-            ToPanel3Button.Location = new Point(89, 131);
-            ToPanel3Button.Name = "ToPanel3Button";
-            ToPanel3Button.Size = new Size(75, 23);
-            ToPanel3Button.TabIndex = 8;
-            ToPanel3Button.Text = "Next";
-            ToPanel3Button.UseVisualStyleBackColor = true;
-            ToPanel3Button.Click += ToPanel3Button_Click;
+            toPanel3Button.Location = new Point(89, 131);
+            toPanel3Button.Name = "toPanel3Button";
+            toPanel3Button.Size = new Size(75, 23);
+            toPanel3Button.TabIndex = 8;
+            toPanel3Button.Text = "Next";
+            toPanel3Button.UseVisualStyleBackColor = true;
+            toPanel3Button.Click += ToPanel3Button_Click;
             // 
-            // CardRadioButton
+            // cardRadioButton
             // 
-            CardRadioButton.AutoSize = true;
-            CardRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            CardRadioButton.Location = new Point(72, 87);
-            CardRadioButton.Name = "CardRadioButton";
-            CardRadioButton.Size = new Size(135, 23);
-            CardRadioButton.TabIndex = 4;
-            CardRadioButton.TabStop = true;
-            CardRadioButton.Text = "Credit/Debit Card";
-            CardRadioButton.UseVisualStyleBackColor = true;
+            cardRadioButton.AutoSize = true;
+            cardRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            cardRadioButton.Location = new Point(72, 87);
+            cardRadioButton.Name = "cardRadioButton";
+            cardRadioButton.Size = new Size(135, 23);
+            cardRadioButton.TabIndex = 4;
+            cardRadioButton.TabStop = true;
+            cardRadioButton.Text = "Credit/Debit Card";
+            cardRadioButton.UseVisualStyleBackColor = true;
             // 
-            // CashRadioButton
+            // cashRadioButton
             // 
-            CashRadioButton.AutoSize = true;
-            CashRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            CashRadioButton.Location = new Point(72, 58);
-            CashRadioButton.Name = "CashRadioButton";
-            CashRadioButton.Size = new Size(57, 23);
-            CashRadioButton.TabIndex = 3;
-            CashRadioButton.TabStop = true;
-            CashRadioButton.Text = "Cash";
-            CashRadioButton.UseVisualStyleBackColor = true;
+            cashRadioButton.AutoSize = true;
+            cashRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            cashRadioButton.Location = new Point(72, 58);
+            cashRadioButton.Name = "cashRadioButton";
+            cashRadioButton.Size = new Size(57, 23);
+            cashRadioButton.TabIndex = 3;
+            cashRadioButton.TabStop = true;
+            cashRadioButton.Text = "Cash";
+            cashRadioButton.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -221,17 +221,17 @@
             label1.TabIndex = 0;
             label1.Text = "Mode of Payment";
             // 
-            // Panel4
+            // panel4
             // 
-            Panel4.Controls.Add(label5);
-            Panel4.Controls.Add(ExitButton);
-            Panel4.Controls.Add(label7);
-            Panel4.Controls.Add(label);
-            Panel4.Location = new Point(677, 208);
-            Panel4.Name = "Panel4";
-            Panel4.Size = new Size(270, 185);
-            Panel4.TabIndex = 4;
-            Panel4.Visible = false;
+            panel4.Controls.Add(label5);
+            panel4.Controls.Add(exitButton);
+            panel4.Controls.Add(label7);
+            panel4.Controls.Add(label);
+            panel4.Location = new Point(677, 208);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(270, 185);
+            panel4.TabIndex = 4;
+            panel4.Visible = false;
             // 
             // label5
             // 
@@ -243,15 +243,15 @@
             label5.TabIndex = 1;
             label5.Text = "Payment has been received.";
             // 
-            // ExitButton
+            // exitButton
             // 
-            ExitButton.Location = new Point(101, 149);
-            ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(75, 23);
-            ExitButton.TabIndex = 12;
-            ExitButton.Text = "Exit";
-            ExitButton.UseVisualStyleBackColor = true;
-            ExitButton.Click += ExitButton_Click;
+            exitButton.Location = new Point(101, 149);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(75, 23);
+            exitButton.TabIndex = 12;
+            exitButton.Text = "Exit";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += ExitButton_Click;
             // 
             // label7
             // 
@@ -273,63 +273,63 @@
             label.TabIndex = 2;
             label.Text = "You may now get your order.";
             // 
-            // Panel3Card
+            // cardPanel3
             // 
-            Panel3Card.Controls.Add(BackToPanel2Button2);
-            Panel3Card.Controls.Add(txtCVC);
-            Panel3Card.Controls.Add(txtExpiryDate);
-            Panel3Card.Controls.Add(ToPanel4Button2);
-            Panel3Card.Controls.Add(txtCardNum);
-            Panel3Card.Controls.Add(label4);
-            Panel3Card.Location = new Point(677, 12);
-            Panel3Card.Name = "Panel3Card";
-            Panel3Card.Size = new Size(260, 190);
-            Panel3Card.TabIndex = 3;
-            Panel3Card.Visible = false;
+            cardPanel3.Controls.Add(cardBackToPanel2Button);
+            cardPanel3.Controls.Add(cvcTextBox);
+            cardPanel3.Controls.Add(expiryDateTextBox);
+            cardPanel3.Controls.Add(cardToPanel4Button);
+            cardPanel3.Controls.Add(cardNumberTextBox);
+            cardPanel3.Controls.Add(label4);
+            cardPanel3.Location = new Point(677, 12);
+            cardPanel3.Name = "cardPanel3";
+            cardPanel3.Size = new Size(260, 190);
+            cardPanel3.TabIndex = 3;
+            cardPanel3.Visible = false;
             // 
-            // BackToPanel2Button2
+            // cardBackToPanel2Button2
             // 
-            BackToPanel2Button2.Location = new Point(96, 157);
-            BackToPanel2Button2.Name = "BackToPanel2Button2";
-            BackToPanel2Button2.Size = new Size(75, 23);
-            BackToPanel2Button2.TabIndex = 11;
-            BackToPanel2Button2.Text = "Back";
-            BackToPanel2Button2.UseVisualStyleBackColor = true;
-            BackToPanel2Button2.Click += BackToPanel2Button2_Click;
+            cardBackToPanel2Button.Location = new Point(96, 157);
+            cardBackToPanel2Button.Name = "cardBackToPanel2Button";
+            cardBackToPanel2Button.Size = new Size(75, 23);
+            cardBackToPanel2Button.TabIndex = 11;
+            cardBackToPanel2Button.Text = "Back";
+            cardBackToPanel2Button.UseVisualStyleBackColor = true;
+            cardBackToPanel2Button.Click += BackToPanel2Button2_Click;
             // 
-            // txtCVC
+            // cvcTextBox
             // 
-            txtCVC.Location = new Point(136, 78);
-            txtCVC.Name = "txtCVC";
-            txtCVC.PlaceholderText = "CVC";
-            txtCVC.Size = new Size(88, 23);
-            txtCVC.TabIndex = 11;
+            cvcTextBox.Location = new Point(136, 78);
+            cvcTextBox.Name = "cvcTextBox";
+            cvcTextBox.PlaceholderText = "CVC";
+            cvcTextBox.Size = new Size(88, 23);
+            cvcTextBox.TabIndex = 11;
             // 
-            // txtExpiryDate
+            // expiryDateTextBox
             // 
-            txtExpiryDate.Location = new Point(42, 78);
-            txtExpiryDate.Name = "txtExpiryDate";
-            txtExpiryDate.PlaceholderText = "Expiry Date";
-            txtExpiryDate.Size = new Size(88, 23);
-            txtExpiryDate.TabIndex = 10;
+            expiryDateTextBox.Location = new Point(42, 78);
+            expiryDateTextBox.Name = "expiryDateTextBox";
+            expiryDateTextBox.PlaceholderText = "Expiry Date";
+            expiryDateTextBox.Size = new Size(88, 23);
+            expiryDateTextBox.TabIndex = 10;
             // 
-            // ToPanel4Button2
+            // cardToPanel4Button
             // 
-            ToPanel4Button2.Location = new Point(96, 131);
-            ToPanel4Button2.Name = "ToPanel4Button2";
-            ToPanel4Button2.Size = new Size(75, 23);
-            ToPanel4Button2.TabIndex = 9;
-            ToPanel4Button2.Text = "Next";
-            ToPanel4Button2.UseVisualStyleBackColor = true;
-            ToPanel4Button2.Click += ToPanel4Button2_Click;
+            cardToPanel4Button.Location = new Point(96, 131);
+            cardToPanel4Button.Name = "cardToPanel4Button";
+            cardToPanel4Button.Size = new Size(75, 23);
+            cardToPanel4Button.TabIndex = 9;
+            cardToPanel4Button.Text = "Next";
+            cardToPanel4Button.UseVisualStyleBackColor = true;
+            cardToPanel4Button.Click += ToPanel4Button2_Click;
             // 
-            // txtCardNum
+            // cardNumberTextBox
             // 
-            txtCardNum.Location = new Point(42, 48);
-            txtCardNum.Name = "txtCardNum";
-            txtCardNum.PlaceholderText = "Card Number";
-            txtCardNum.Size = new Size(184, 23);
-            txtCardNum.TabIndex = 8;
+            cardNumberTextBox.Location = new Point(42, 48);
+            cardNumberTextBox.Name = "cardNumberTextBox";
+            cardNumberTextBox.PlaceholderText = "Card Number";
+            cardNumberTextBox.Size = new Size(184, 23);
+            cardNumberTextBox.TabIndex = 8;
             // 
             // label4
             // 
@@ -341,56 +341,56 @@
             label4.TabIndex = 7;
             label4.Text = "Credit/Debit Card";
             // 
-            // Panel3Cash
+            // cashPanel3
             // 
-            Panel3Cash.Controls.Add(ErrorLabel);
-            Panel3Cash.Controls.Add(BackToPanel2Button1);
-            Panel3Cash.Controls.Add(ToPanel4Button1);
-            Panel3Cash.Controls.Add(CashTextBox);
-            Panel3Cash.Controls.Add(label3);
-            Panel3Cash.Location = new Point(403, 209);
-            Panel3Cash.Name = "Panel3Cash";
-            Panel3Cash.Size = new Size(260, 154);
-            Panel3Cash.TabIndex = 2;
-            Panel3Cash.Visible = false;
+            cashPanel3.Controls.Add(errorLabel);
+            cashPanel3.Controls.Add(cashBackToPanel2Button);
+            cashPanel3.Controls.Add(cashToPanel4Button);
+            cashPanel3.Controls.Add(cashTextBox);
+            cashPanel3.Controls.Add(label3);
+            cashPanel3.Location = new Point(403, 209);
+            cashPanel3.Name = "cashPanel3";
+            cashPanel3.Size = new Size(260, 154);
+            cashPanel3.TabIndex = 2;
+            cashPanel3.Visible = false;
             // 
-            // ErrorLabel
+            // errorLabel
             // 
-            ErrorLabel.AutoSize = true;
-            ErrorLabel.Font = new Font("Segoe UI", 7F, FontStyle.Regular, GraphicsUnit.Point);
-            ErrorLabel.ForeColor = Color.Red;
-            ErrorLabel.Location = new Point(59, 65);
-            ErrorLabel.Name = "ErrorLabel";
-            ErrorLabel.Size = new Size(0, 12);
-            ErrorLabel.TabIndex = 11;
+            errorLabel.AutoSize = true;
+            errorLabel.Font = new Font("Segoe UI", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            errorLabel.ForeColor = Color.Red;
+            errorLabel.Location = new Point(59, 65);
+            errorLabel.Name = "errorLabel";
+            errorLabel.Size = new Size(0, 12);
+            errorLabel.TabIndex = 11;
             // 
-            // BackToPanel2Button1
+            // cashBackToPanel2Button
             // 
-            BackToPanel2Button1.Location = new Point(87, 125);
-            BackToPanel2Button1.Name = "BackToPanel2Button1";
-            BackToPanel2Button1.Size = new Size(75, 23);
-            BackToPanel2Button1.TabIndex = 10;
-            BackToPanel2Button1.Text = "Back";
-            BackToPanel2Button1.UseVisualStyleBackColor = true;
-            BackToPanel2Button1.Click += BackToPanel2Button1_Click;
+            cashBackToPanel2Button.Location = new Point(87, 125);
+            cashBackToPanel2Button.Name = "cashBackToPanel2Button";
+            cashBackToPanel2Button.Size = new Size(75, 23);
+            cashBackToPanel2Button.TabIndex = 10;
+            cashBackToPanel2Button.Text = "Back";
+            cashBackToPanel2Button.UseVisualStyleBackColor = true;
+            cashBackToPanel2Button.Click += BackToPanel2Button1_Click;
             // 
-            // ToPanel4Button1
+            // cashToPanel4Button
             // 
-            ToPanel4Button1.Location = new Point(87, 96);
-            ToPanel4Button1.Name = "ToPanel4Button1";
-            ToPanel4Button1.Size = new Size(75, 23);
-            ToPanel4Button1.TabIndex = 9;
-            ToPanel4Button1.Text = "Next";
-            ToPanel4Button1.UseVisualStyleBackColor = true;
-            ToPanel4Button1.Click += ToPanel4Button1_Click;
+            cashToPanel4Button.Location = new Point(87, 96);
+            cashToPanel4Button.Name = "cashToPanel4Button";
+            cashToPanel4Button.Size = new Size(75, 23);
+            cashToPanel4Button.TabIndex = 9;
+            cashToPanel4Button.Text = "Next";
+            cashToPanel4Button.UseVisualStyleBackColor = true;
+            cashToPanel4Button.Click += ToPanel4Button1_Click;
             // 
-            // CashTextBox
+            // cashTextBox
             // 
-            CashTextBox.Location = new Point(59, 39);
-            CashTextBox.Name = "CashTextBox";
-            CashTextBox.PlaceholderText = "Enter Cash Amount";
-            CashTextBox.Size = new Size(155, 23);
-            CashTextBox.TabIndex = 8;
+            cashTextBox.Location = new Point(59, 39);
+            cashTextBox.Name = "cashTextBox";
+            cashTextBox.PlaceholderText = "Enter Cash Amount";
+            cashTextBox.Size = new Size(155, 23);
+            cashTextBox.TabIndex = 8;
             // 
             // label3
             // 
@@ -406,62 +406,62 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(401, 352);
-            Controls.Add(Panel4);
-            Controls.Add(Panel2);
-            Controls.Add(Panel3Cash);
-            Controls.Add(Panel1);
-            Controls.Add(Panel3Card);
+            ClientSize = new Size(401, 368);
+            Controls.Add(panel4);
+            Controls.Add(panel2);
+            Controls.Add(cashPanel3);
+            Controls.Add(panel1);
+            Controls.Add(cardPanel3);
             Name = "VendingMachineApp";
             Text = "VendingMachineApp";
-            Panel1.ResumeLayout(false);
-            Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)QuantityUpDown).EndInit();
-            Panel2.ResumeLayout(false);
-            Panel2.PerformLayout();
-            Panel4.ResumeLayout(false);
-            Panel4.PerformLayout();
-            Panel3Card.ResumeLayout(false);
-            Panel3Card.PerformLayout();
-            Panel3Cash.ResumeLayout(false);
-            Panel3Cash.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)quantityNumericUpDown).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            cardPanel3.ResumeLayout(false);
+            cardPanel3.PerformLayout();
+            cashPanel3.ResumeLayout(false);
+            cashPanel3.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel Panel1;
-        private System.Windows.Forms.ListBox ItemList;
-        private RadioButton FoodRadioButton;
-        private NumericUpDown QuantityUpDown;
-        private RadioButton BevRadioButton;
-        private Button ToPanel2Button;
-        private Panel Panel2;
+        private Panel panel1;
+        private System.Windows.Forms.ListBox itemListBox;
+        private RadioButton foodRadioButton;
+        private NumericUpDown quantityNumericUpDown;
+        private RadioButton beverageRadioButton;
+        private Button toPanel2Button;
+        private Panel panel2;
         private Label label1;
         private RadioButton radioButton3;
-        private RadioButton CardRadioButton;
-        private RadioButton CashRadioButton;
-        private Button ToPanel3Button;
-        private Panel Panel3Cash;
+        private RadioButton cardRadioButton;
+        private RadioButton cashRadioButton;
+        private Button toPanel3Button;
+        private Panel cashPanel3;
         private Label label3;
-        private TextBox CashTextBox;
-        private Button ToPanel4Button1;
-        private Panel Panel3Card;
-        private Button ToPanel4Button2;
-        private TextBox txtCardNum;
+        private TextBox cashTextBox;
+        private Button cashToPanel4Button;
+        private Panel cardPanel3;
+        private Button cardToPanel4Button;
+        private TextBox cardNumberTextBox;
         private Label label4;
-        private TextBox txtCVC;
-        private TextBox txtExpiryDate;
-        private Button BackToPanel1Button;
-        private Button BackToPanel2Button1;
-        private Button BackToPanel2Button2;
-        private Panel Panel4;
+        private TextBox cvcTextBox;
+        private TextBox expiryDateTextBox;
+        private Button backToPanel1Button;
+        private Button cashBackToPanel2Button;
+        private Button cardBackToPanel2Button;
+        private Panel panel4;
         private Label label5;
-        private Button ExitButton;
+        private Button exitButton;
         private Label label7;
         private Label label;
-        private Label TotalLabel;
+        private Label totalLabel;
         private Label label2;
-        private Label ErrorLabel;
+        private Label errorLabel;
     }
 }

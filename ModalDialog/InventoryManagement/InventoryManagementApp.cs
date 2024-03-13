@@ -23,14 +23,14 @@ namespace CodeChum
 
         private void btnUpdateItem_Click(object sender, EventArgs e)
         {
-            if (ItemList.SelectedItems.Count > 0)
+            if (itemsListView.SelectedItems.Count > 0)
             {
                 // Retrieve selected item details
-                string selectedItemType = ItemList.SelectedItems[0].SubItems[0].Text;
-                string selectedItemID = ItemList.SelectedItems[0].SubItems[1].Text;
-                string selectedItemName = ItemList.SelectedItems[0].SubItems[2].Text;
-                string selectedItemStock = ItemList.SelectedItems[0].SubItems[3].Text;
-                string selectedItemPrice = ItemList.SelectedItems[0].SubItems[4].Text;
+                string selectedItemType = itemsListView.SelectedItems[0].SubItems[0].Text;
+                string selectedItemID = itemsListView.SelectedItems[0].SubItems[1].Text;
+                string selectedItemName = itemsListView.SelectedItems[0].SubItems[2].Text;
+                string selectedItemStock = itemsListView.SelectedItems[0].SubItems[3].Text;
+                string selectedItemPrice = itemsListView.SelectedItems[0].SubItems[4].Text;
 
                 //InventoryManagementFormUpdate updateForm = new InventoryManagementFormUpdate();
 
@@ -48,11 +48,11 @@ namespace CodeChum
                 updateForm.ShowDialog();
 
                 // Update the ItemList with the modified details
-                ItemList.SelectedItems[0].SubItems[0].Text = updateForm.Update_ItemType;
-                ItemList.SelectedItems[0].SubItems[1].Text = updateForm.Update_ItemID;
-                ItemList.SelectedItems[0].SubItems[2].Text = updateForm.Update_ItemName;
-                ItemList.SelectedItems[0].SubItems[3].Text = updateForm.Update_ItemStock;
-                ItemList.SelectedItems[0].SubItems[4].Text = updateForm.Update_ItemPrice;
+                itemsListView.SelectedItems[0].SubItems[0].Text = updateForm.Update_ItemType;
+                itemsListView.SelectedItems[0].SubItems[1].Text = updateForm.Update_ItemID;
+                itemsListView.SelectedItems[0].SubItems[2].Text = updateForm.Update_ItemName;
+                itemsListView.SelectedItems[0].SubItems[3].Text = updateForm.Update_ItemStock;
+                itemsListView.SelectedItems[0].SubItems[4].Text = updateForm.Update_ItemPrice;
             }
         }
 
@@ -63,15 +63,15 @@ namespace CodeChum
             if (addForm.ShowDialog() == DialogResult.OK)
             {
                 string[] item = { addForm.Add_ItemType, addForm.Add_ItemID, addForm.Add_ItemName, addForm.Add_ItemStock, addForm.Add_ItemPrice };
-                ItemList.Items.Add(new ListViewItem(item));
+                itemsListView.Items.Add(new ListViewItem(item));
             }
         }
 
         private void btnDeleteItem_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem item in ItemList.SelectedItems)
+            foreach (ListViewItem item in itemsListView.SelectedItems)
             {
-                ItemList.Items.Remove(item);
+                itemsListView.Items.Remove(item);
             }
         }
     }
