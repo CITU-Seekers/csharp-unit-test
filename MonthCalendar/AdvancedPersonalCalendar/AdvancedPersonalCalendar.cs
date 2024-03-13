@@ -17,25 +17,25 @@ namespace CodeChum
         public AdvancedPersonalCalendar()
         {
             InitializeComponent();
-            cboFrequency.SelectedIndex = 0;
+            frequencyComboBox.SelectedIndex = 0;
 
-            lblEvent.Text = "No Event";
+            eventLabel.Text = "No Event";
 
             // Attach the event handler for the Add button
-            btnAdd.Click += btnAdd_Click;
-            MonthCalendar.DateSelected += MonthCalendar_DateSelected;
+            addButton.Click += btnAdd_Click;
+            monthCalendar.DateSelected += MonthCalendar_DateSelected;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             // Get the selected date from the MonthCalendar control
-            DateTime selectedDate = MonthCalendar.SelectionStart;
+            DateTime selectedDate = monthCalendar.SelectionStart;
 
             // Get the event name from the TextBox
-            string eventName = EventName.Text;
+            string eventName = eventNameTextBox.Text;
 
             // Get the selected recurrence frequency index
-            int selectedIndex = cboFrequency.SelectedIndex;
+            int selectedIndex = frequencyComboBox.SelectedIndex;
 
             // Add events based on the selected recurrence frequency
             switch (selectedIndex)
@@ -109,13 +109,13 @@ namespace CodeChum
 
             // How to get the selected recurrence frequency text
             
-            if(cboFrequency.SelectedItem == "None")
+            if(frequencyComboBox.SelectedItem == "None")
             {
-                lblEvent.Text = eventName;
+                eventLabel.Text = eventName;
             }
             else
             {
-                lblEvent.Text = cboFrequency.SelectedItem.ToString() + " - " + eventName;
+                eventLabel.Text = frequencyComboBox.SelectedItem.ToString() + " - " + eventName;
             }
             
             
@@ -133,42 +133,42 @@ namespace CodeChum
         private void UpdateCalendarHighlights()
         {
             // Clear previous highlights
-            MonthCalendar.RemoveAllBoldedDates();
+            monthCalendar.RemoveAllBoldedDates();
 
             // Highlight dates with scheduled events
             foreach (var date in recurringEvents.Keys)
             {
-                MonthCalendar.AddBoldedDate(date);
+                monthCalendar.AddBoldedDate(date);
             }
 
             // Update the display
-            MonthCalendar.UpdateBoldedDates();
+            monthCalendar.UpdateBoldedDates();
         }
 
         //When the user clicks on a date, display the event name in the TextBox
         private void MonthCalendar_DateSelected(object sender, DateRangeEventArgs e)
         {
-            EventName.Text = "";
+            eventNameTextBox.Text = "";
             // Get the selected date
-            DateTime selectedDate = MonthCalendar.SelectionStart;
+            DateTime selectedDate = monthCalendar.SelectionStart;
 
             // Check if the date has an event
             if (recurringEvents.ContainsKey(selectedDate))
             {
                 // Display the event name
-                lblEvent.Text = recurringEvents[selectedDate];
+                eventLabel.Text = recurringEvents[selectedDate];
             }
             else
             {
                 // Clear the event name
-                lblEvent.Text = "No Event";
+                eventLabel.Text = "No Event";
             }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
             //Delete the event from the selected date
-            DateTime selectedDate = MonthCalendar.SelectionStart;
+            DateTime selectedDate = monthCalendar.SelectionStart;
             if (recurringEvents.ContainsKey(selectedDate))
             {
                 recurringEvents.Remove(selectedDate);

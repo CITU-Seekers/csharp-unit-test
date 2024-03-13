@@ -29,90 +29,90 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VirtualPet));
-            pictureBox1 = new PictureBox();
-            btnFeed = new Button();
-            btnPlay = new Button();
-            btnPet = new Button();
-            btnCheckMood = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            petPictureBox = new PictureBox();
+            feedButton = new Button();
+            playButton = new Button();
+            petButton = new Button();
+            checkMoodButton = new Button();
+            ((System.ComponentModel.ISupportInitialize)petPictureBox).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // petPictureBox
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(57, 25);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(274, 273);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            petPictureBox.Image = (Image)resources.GetObject("petPictureBox.Image");
+            petPictureBox.Location = new Point(57, 25);
+            petPictureBox.Name = "petPictureBox";
+            petPictureBox.Size = new Size(274, 273);
+            petPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            petPictureBox.TabIndex = 0;
+            petPictureBox.TabStop = false;
             // 
-            // btnFeed
+            // feedButton
             // 
-            btnFeed.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnFeed.Location = new Point(79, 328);
-            btnFeed.Name = "btnFeed";
-            btnFeed.Size = new Size(84, 43);
-            btnFeed.TabIndex = 1;
-            btnFeed.Text = "Feed";
-            btnFeed.UseVisualStyleBackColor = true;
-            btnFeed.Click += btnFeed_Click;
+            feedButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            feedButton.Location = new Point(79, 328);
+            feedButton.Name = "feedButton";
+            feedButton.Size = new Size(84, 43);
+            feedButton.TabIndex = 1;
+            feedButton.Text = "Feed";
+            feedButton.UseVisualStyleBackColor = true;
+            feedButton.Click += btnFeed_Click;
             // 
-            // btnPlay
+            // playButton
             // 
-            btnPlay.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPlay.Location = new Point(220, 328);
-            btnPlay.Name = "btnPlay";
-            btnPlay.Size = new Size(84, 43);
-            btnPlay.TabIndex = 2;
-            btnPlay.Text = "Play";
-            btnPlay.UseVisualStyleBackColor = true;
-            btnPlay.Click += btnPlay_Click;
+            playButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            playButton.Location = new Point(220, 328);
+            playButton.Name = "playButton";
+            playButton.Size = new Size(84, 43);
+            playButton.TabIndex = 2;
+            playButton.Text = "Play";
+            playButton.UseVisualStyleBackColor = true;
+            playButton.Click += btnPlay_Click;
             // 
-            // btnPet
+            // petButton
             // 
-            btnPet.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPet.Location = new Point(79, 390);
-            btnPet.Name = "btnPet";
-            btnPet.Size = new Size(84, 48);
-            btnPet.TabIndex = 3;
-            btnPet.Text = "Pet";
-            btnPet.UseVisualStyleBackColor = true;
-            btnPet.Click += btnPet_Click;
+            petButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            petButton.Location = new Point(79, 390);
+            petButton.Name = "petButton";
+            petButton.Size = new Size(84, 48);
+            petButton.TabIndex = 3;
+            petButton.Text = "Pet";
+            petButton.UseVisualStyleBackColor = true;
+            petButton.Click += btnPet_Click;
             // 
-            // btnCheckMood
+            // checkMoodButton
             // 
-            btnCheckMood.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCheckMood.Location = new Point(220, 390);
-            btnCheckMood.Name = "btnCheckMood";
-            btnCheckMood.Size = new Size(84, 48);
-            btnCheckMood.TabIndex = 4;
-            btnCheckMood.Text = "Check Mood";
-            btnCheckMood.UseVisualStyleBackColor = true;
-            btnCheckMood.Click += btnCheckMood_Click;
+            checkMoodButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            checkMoodButton.Location = new Point(220, 390);
+            checkMoodButton.Name = "checkMoodButton";
+            checkMoodButton.Size = new Size(84, 48);
+            checkMoodButton.TabIndex = 4;
+            checkMoodButton.Text = "Check Mood";
+            checkMoodButton.UseVisualStyleBackColor = true;
+            checkMoodButton.Click += btnCheckMood_Click;
             // 
             // VirtualPet
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(398, 561);
-            Controls.Add(btnCheckMood);
-            Controls.Add(btnPet);
-            Controls.Add(btnPlay);
-            Controls.Add(btnFeed);
-            Controls.Add(pictureBox1);
+            Controls.Add(checkMoodButton);
+            Controls.Add(petButton);
+            Controls.Add(playButton);
+            Controls.Add(feedButton);
+            Controls.Add(petPictureBox);
             Name = "VirtualPet";
             Text = "VirtualPet";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)petPictureBox).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private Button btnFeed;
-        private Button btnPlay;
-        private Button btnPet;
-        private Button btnCheckMood;
+        private PictureBox petPictureBox;
+        private Button feedButton;
+        private Button playButton;
+        private Button petButton;
+        private Button checkMoodButton;
     }
 }

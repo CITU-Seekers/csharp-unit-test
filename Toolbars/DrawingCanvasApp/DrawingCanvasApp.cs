@@ -23,50 +23,50 @@ namespace CodeChum
         {
             InitializeComponent();
             InitializeToolbar();
-            ColorComboBox.SelectedIndex = 0;
-            CanvasBox.Paint += CanvasBox_Paint;
+            colorToolStripComboBox.SelectedIndex = 0;
+            pictureBox.Paint += CanvasBox_Paint;
         }
 
         private void InitializeToolbar()
         {
             // Attach event handlers
-            PencilButton.Click += (sender, e) => { currentTool = DrawingTool.Pencil; };
-            LineButton.Click += (sender, e) => { currentTool = DrawingTool.Line; };
-            RectangleButton.Click += (sender, e) => { currentTool = DrawingTool.Rectangle; };
-            EllipseButton.Click += (sender, e) => { currentTool = DrawingTool.Ellipse; };
-            ColorComboBox.SelectedIndexChanged += SelectColor;
-            ClearButton.Click += ClearCanvas;
+            pencilToolStripButton.Click += (sender, e) => { currentTool = DrawingTool.Pencil; };
+            lineToolStripButton.Click += (sender, e) => { currentTool = DrawingTool.Line; };
+            rectangleToolStripButton.Click += (sender, e) => { currentTool = DrawingTool.Rectangle; };
+            ellipseToolStripButton.Click += (sender, e) => { currentTool = DrawingTool.Ellipse; };
+            colorToolStripComboBox.SelectedIndexChanged += SelectColor;
+            clearToolStripButton.Click += ClearCanvas;
         }
 
         private void SelectColor(object sender, EventArgs e)
         {
             currentPen.Dispose(); // Dispose the old pen before creating a new one
 
-            if (ColorComboBox.SelectedItem.ToString() == "Red")
+            if (colorToolStripComboBox.SelectedItem.ToString() == "Red")
             {
                 currentPen = new Pen(Color.Red, 2);
             }
-            else if (ColorComboBox.SelectedItem.ToString() == "Blue")
+            else if (colorToolStripComboBox.SelectedItem.ToString() == "Blue")
             {
                 currentPen = new Pen(Color.Blue, 2);
             }
-            else if (ColorComboBox.SelectedItem.ToString() == "Orange")
+            else if (colorToolStripComboBox.SelectedItem.ToString() == "Orange")
             {
                 currentPen = new Pen(Color.Orange, 2);
             }
-            else if (ColorComboBox.SelectedItem.ToString() == "Green")
+            else if (colorToolStripComboBox.SelectedItem.ToString() == "Green")
             {
                 currentPen = new Pen(Color.Green, 2);
             }
-            else if (ColorComboBox.SelectedItem.ToString() == "Yellow")
+            else if (colorToolStripComboBox.SelectedItem.ToString() == "Yellow")
             {
                 currentPen = new Pen(Color.Yellow, 2);
             }
-            else if (ColorComboBox.SelectedItem.ToString() == "Black")
+            else if (colorToolStripComboBox.SelectedItem.ToString() == "Black")
             {
                 currentPen = new Pen(Color.Black, 2);
             }
-            else if (ColorComboBox.SelectedItem.ToString() == "White")
+            else if (colorToolStripComboBox.SelectedItem.ToString() == "White")
             {
                 currentPen = new Pen(Color.White, 2);
             }
@@ -82,7 +82,7 @@ namespace CodeChum
             paths.Clear();
 
             // Clear the canvas
-            using (Graphics g = CanvasBox.CreateGraphics())
+            using (Graphics g = pictureBox.CreateGraphics())
             {
                 g.Clear(Color.White);
             }
@@ -116,7 +116,7 @@ namespace CodeChum
                 }
 
                 // Redraw the canvas
-                CanvasBox.Invalidate();
+                pictureBox.Invalidate();
             }
         }
 

@@ -7,98 +7,95 @@
         InventoryManagementFormUpdate? updateModal;
 
         //Inventory Management Form
-        ListView? ItemList;
-        Button? btnAddItem;
-        Button? btnUpdateItem;
-        Button? btnDeleteItem;
+        ListView? itemsListView;
+        Button? addItemButton;
+        Button? updateItemButton;
+        Button? deleteItemButton;
 
         //Add Item Form
-        TextBox? txtItemName;
-        ComboBox? cboItemType;
-        TextBox? txtItemID;
-        NumericUpDown? numericItemStock;
-        TextBox? txtItemPrice;
-        Button? btnAdd;
-        Button? btnCancel;
+        TextBox? itemNameTextBoxAdd;
+        ComboBox? itemTypeComboBoxAdd;
+        TextBox? itemIDTextBoxAdd;
+        NumericUpDown? itemStockNumericUpDownAdd;
+        TextBox? itemPriceTextBoxAdd;
+        Button? addButton;
+        Button? cancelButtonAdd;
 
         //Update Item Form
-        TextBox? txtItemNameUpdate;
-        ComboBox? cboItemTypeUpdate;
-        TextBox? txtItemIDUpdate;
-        NumericUpDown? numericItemStockUpdate;
-        TextBox? txtItemPriceUpdate;
-        Button? btnUpdate;
-        Button? btnCancelUpdate;
+        TextBox? itemNameTextBoxUpdate;
+        ComboBox? itemTypeComboBoxUpdate;
+        TextBox? itemIDTextBoxUpdate;
+        NumericUpDown? itemStockNumericUpDownUpdate;
+        TextBox? itemPriceTextBoxUpdate;
+        Button? updateButton;
+        Button? cancelButtonUpdate;
 
         public InventoryManagementTest()
         {
             form = new InventoryManagementApp();
             form.Show();
-            ItemList = (ListView)TestUtils.GetControlNamed(form, "ItemList", true);
-            btnAddItem = (Button)TestUtils.GetControlNamed(form, "btnAddItem", true);
-            btnUpdateItem = (Button)TestUtils.GetControlNamed(form, "btnUpdateItem", true);
-            btnDeleteItem = (Button)TestUtils.GetControlNamed(form, "btnDeleteItem", true);
+            itemsListView = (ListView)TestUtils.GetControlNamed(form, "itemsListView", true);
+            addItemButton = (Button)TestUtils.GetControlNamed(form, "addItemButton", true);
+            updateItemButton = (Button)TestUtils.GetControlNamed(form, "updateItemButton", true);
+            deleteItemButton = (Button)TestUtils.GetControlNamed(form, "deleteItemButton", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `itemsListView`, `addItemButton`, `updateItemButton`, and `deleteItemButton`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(ItemList);
-            Assert.NotNull(btnAddItem);
-            Assert.NotNull(btnUpdateItem);
-            Assert.NotNull(btnDeleteItem);
+            Assert.NotNull(itemsListView);
+            Assert.NotNull(addItemButton);
+            Assert.NotNull(updateItemButton);
+            Assert.NotNull(deleteItemButton);
         }
 
         [Fact]
+        // Description: Should have all the controls `itemNameTextBox`, `itemTypeComboBox`, `itemIDTextBox`, `itemStockNumericUpDown`, `itemPriceTextBox`, `addButton`, and `cancelButton` in add modal.
         public void ShouldHaveAllControlsInAddModal()
         {
             addModal = new InventoryManagementForm();
             addModal.Show();
 
-            txtItemName = (TextBox)TestUtils.GetControlNamed(addModal, "txtItemName", true);
-            cboItemType = (ComboBox)TestUtils.GetControlNamed(addModal, "cboItemType", true);
-            txtItemID = (TextBox)TestUtils.GetControlNamed(addModal, "txtItemID", true);
-            numericItemStock = (NumericUpDown)TestUtils.GetControlNamed(addModal, "numericItemStock", true);
-            txtItemPrice = (TextBox)TestUtils.GetControlNamed(addModal, "txtItemPrice", true);
-            btnAdd = (Button)TestUtils.GetControlNamed(addModal, "btnAdd", true);
-            btnCancel = (Button)TestUtils.GetControlNamed(addModal, "btnCancel", true);
+            itemNameTextBoxAdd = (TextBox)TestUtils.GetControlNamed(addModal, "itemNameTextBox", true);
+            itemTypeComboBoxAdd = (ComboBox)TestUtils.GetControlNamed(addModal, "itemTypeComboBox", true);
+            itemIDTextBoxAdd = (TextBox)TestUtils.GetControlNamed(addModal, "itemIDTextBox", true);
+            itemStockNumericUpDownAdd = (NumericUpDown)TestUtils.GetControlNamed(addModal, "itemStockNumericUpDown", true);
+            itemPriceTextBoxAdd = (TextBox)TestUtils.GetControlNamed(addModal, "itemPriceTextBox", true);
+            addButton = (Button)TestUtils.GetControlNamed(addModal, "addButton", true);
+            cancelButtonAdd = (Button)TestUtils.GetControlNamed(addModal, "cancelButton", true);
 
-            Assert.NotNull(txtItemName);
-            Assert.NotNull(cboItemType);
-            Assert.NotNull(txtItemID);
-            Assert.NotNull(numericItemStock);
-            Assert.NotNull(txtItemPrice);
-            Assert.NotNull(btnAdd);
-            Assert.NotNull(btnCancel);
+            Assert.NotNull(itemNameTextBoxAdd);
+            Assert.NotNull(itemTypeComboBoxAdd);
+            Assert.NotNull(itemIDTextBoxAdd);
+            Assert.NotNull(itemStockNumericUpDownAdd);
+            Assert.NotNull(itemPriceTextBoxAdd);
+            Assert.NotNull(addButton);
+            Assert.NotNull(cancelButtonAdd);
         }
 
         [Fact]
+        // Description: Should have all the controls `itemNameTextBox`, `itemTypeComboBox`, `itemIDTextBox`, `itemStockNumericUpDown`, `itemPriceTextBox`, `updateButton`, and `cancelButton` in update modal.
         public void ShouldHaveAllControlsInUpdateModal()
         {
             updateModal = new InventoryManagementFormUpdate();
             updateModal.Show();
 
-            txtItemNameUpdate = (TextBox)TestUtils.GetControlNamed(updateModal, "txtItemName", true);
-            cboItemTypeUpdate = (ComboBox)TestUtils.GetControlNamed(updateModal, "cboItemType", true);
-            txtItemIDUpdate = (TextBox)TestUtils.GetControlNamed(updateModal, "txtItemID", true);
-            numericItemStockUpdate = (NumericUpDown)TestUtils.GetControlNamed(updateModal, "numericItemStock", true);
-            txtItemPriceUpdate = (TextBox)TestUtils.GetControlNamed(updateModal, "txtItemPrice", true);
-            btnUpdate = (Button)TestUtils.GetControlNamed(updateModal, "btnUpdate", true);
-            btnCancelUpdate = (Button)TestUtils.GetControlNamed(updateModal, "btnCancel", true);
+            itemNameTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(updateModal, "itemNameTextBox", true);
+            itemTypeComboBoxUpdate = (ComboBox)TestUtils.GetControlNamed(updateModal, "itemTypeComboBox", true);
+            itemIDTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(updateModal, "itemIDTextBox", true);
+            itemStockNumericUpDownUpdate = (NumericUpDown)TestUtils.GetControlNamed(updateModal, "itemStockNumericUpDown", true);
+            itemPriceTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(updateModal, "itemPriceTextBox", true);
+            updateButton = (Button)TestUtils.GetControlNamed(updateModal, "updateButton", true);
+            cancelButtonUpdate = (Button)TestUtils.GetControlNamed(updateModal, "cancelButton", true);
 
-            Assert.NotNull(txtItemNameUpdate);
-            Assert.NotNull(cboItemTypeUpdate);
-            Assert.NotNull(txtItemIDUpdate);
-            Assert.NotNull(numericItemStockUpdate);
-            Assert.NotNull(txtItemPriceUpdate);
-            Assert.NotNull(btnUpdate);
-            Assert.NotNull(btnCancelUpdate);
         }
 
         [Fact]
+        // Description: Should open add modal when `addItemButton` is clicked.
         public void ShouldOpenAddModal()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -106,33 +103,35 @@
                 form.addForm.Close();
             });
 
-            btnAddItem.PerformClick();
+            addItemButton.PerformClick();
             registerTask.Wait();
             Assert.True(isModalShown);
         }
 
         [Fact]
+        // Description: Should close add modal when `cancelButton` is clicked.
         public void ShouldCloseAddModal()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                btnCancel = (Button)TestUtils.GetControlNamed(form.addForm, "btnCancel", true);
-                btnCancel.PerformClick();
+                cancelButtonAdd = (Button)TestUtils.GetControlNamed(form.addForm, "cancelButton", true);
+                cancelButtonAdd.PerformClick();
                 await Task.Delay(TimeSpan.FromSeconds(3));
                 isModalShown = form.addForm.Visible;
             });
 
-            btnAddItem.PerformClick();
+            addItemButton.PerformClick();
             registerTask.Wait();
             Assert.False(isModalShown);
         }
 
         [Fact]
+        // Description: Should open update modal when `updateItemButton` is clicked.
         public void ShouldOpenUpdateModal()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(5));
@@ -141,147 +140,155 @@
             });
 
             string[] sampleItem = { "Food", "001", "FunChum", "10", "10.50" };
-            ItemList.Items.Add(new ListViewItem(sampleItem));
+            itemsListView.Items.Add(new ListViewItem(sampleItem));
 
-            ItemList.Items[0].Selected = true;
+            itemsListView.Items[0].Selected = true;
 
-            btnUpdateItem.PerformClick();
+            updateItemButton.PerformClick();
             registerTask.Wait();
             Assert.True(isModalShown);
         }
 
         [Fact]
+        // Description: Should close update modal when `cancelButton` is clicked.
         public void ShouldCloseUpdateModal()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                btnCancelUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "btnCancel", true);
-                btnCancelUpdate.PerformClick();
+                cancelButtonUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "cancelButton", true);
+                cancelButtonUpdate.PerformClick();
                 await Task.Delay(TimeSpan.FromSeconds(3));
                 isModalShown = form.updateForm.Visible;
             });
 
             string[] sampleItem = { "Food", "001", "FunChum", "10", "10.50" };
-            ItemList.Items.Add(new ListViewItem(sampleItem));
+            itemsListView.Items.Add(new ListViewItem(sampleItem));
 
-            ItemList.Items[0].Selected = true;
+            itemsListView.Items[0].Selected = true;
 
-            btnUpdateItem.PerformClick();
+            updateItemButton.PerformClick();
             registerTask.Wait();
             Assert.False(isModalShown);
         }
 
         [Fact]
+        // Description: Should add item with name "Test Item", type "Food", ID "123456", stock "10", and price "100" when `addButton` is clicked.
         public void ShouldAddItem()
         {
             var registerTask = Task.Factory.StartNew(async () =>
             {
-                await Task.Delay(TimeSpan.FromSeconds(5));
-                txtItemName = (TextBox)TestUtils.GetControlNamed(form.addForm, "txtItemName", true);
-                cboItemType = (ComboBox)TestUtils.GetControlNamed(form.addForm, "cboItemType", true);
-                txtItemID = (TextBox)TestUtils.GetControlNamed(form.addForm, "txtItemID", true);
-                numericItemStock = (NumericUpDown)TestUtils.GetControlNamed(form.addForm, "numericItemStock", true);
-                txtItemPrice = (TextBox)TestUtils.GetControlNamed(form.addForm, "txtItemPrice", true);
-                btnAdd = (Button)TestUtils.GetControlNamed(form.addForm, "btnAdd", true);
-                btnCancel = (Button)TestUtils.GetControlNamed(form.addForm, "btnCancel", true);
+                await Task.Delay(TimeSpan.FromSeconds(10));
+                itemNameTextBoxAdd = (TextBox)TestUtils.GetControlNamed(form.addForm, "itemNameTextBox", true);
+                itemTypeComboBoxAdd = (ComboBox)TestUtils.GetControlNamed(form.addForm, "itemTypeComboBox", true);
+                itemIDTextBoxAdd = (TextBox)TestUtils.GetControlNamed(form.addForm, "itemIDTextBox", true);
+                itemStockNumericUpDownAdd = (NumericUpDown)TestUtils.GetControlNamed(form.addForm, "itemStockNumericUpDown", true);
+                itemPriceTextBoxAdd = (TextBox)TestUtils.GetControlNamed(form.addForm, "itemPriceTextBox", true);
+                addButton = (Button)TestUtils.GetControlNamed(form.addForm, "addButton", true);
+                cancelButtonAdd = (Button)TestUtils.GetControlNamed(form.addForm, "cancelButton", true);
 
-                txtItemName.Text = "Test Item";
-                cboItemType.SelectedIndex = 0;
-                txtItemID.Text = "123456";
-                numericItemStock.Value = 10;
-                txtItemPrice.Text = "100";    
-                
-                btnAdd.PerformClick();
+                itemNameTextBoxAdd.Text = "Test Item";
+                itemTypeComboBoxAdd.SelectedIndex = 0;
+                itemIDTextBoxAdd.Text = "123456";
+                itemStockNumericUpDownAdd.Value = 10;
+                itemPriceTextBoxAdd.Text = "100";
+
+                addButton.PerformClick();
+
+                form.addForm.Close();
             });
 
-            btnAddItem.PerformClick();
+            addItemButton.PerformClick();
             registerTask.Wait();
-            Assert.Equal(1, ItemList.Items.Count);
+            Assert.Equal(1, itemsListView.Items.Count);
         }
 
         [Fact]
+        // Description: Should show "Food" in `itemTypeComboBox`, "001" in `itemIDTextBox`, "FunChum" in `itemNameTextBox`, "10" in `itemStockNumericUpDown`, and "10.50" in `itemPriceTextBox` when click `updateItemButton`.
         public void ShouldShowItemDetailsWhenClickUpdateButton()
         {
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                txtItemNameUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "txtItemName", true);
-                cboItemTypeUpdate = (ComboBox)TestUtils.GetControlNamed(form.updateForm, "cboItemType", true);
-                txtItemIDUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "txtItemID", true);
-                numericItemStockUpdate = (NumericUpDown)TestUtils.GetControlNamed(form.updateForm, "numericItemStock", true);
-                txtItemPriceUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "txtItemPrice", true);
-                btnUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "btnUpdate", true);
-                btnCancelUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "btnCancel", true);
+                itemNameTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "itemNameTextBox", true);
+                itemTypeComboBoxUpdate = (ComboBox)TestUtils.GetControlNamed(form.updateForm, "itemTypeComboBox", true);
+                itemIDTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "itemIDTextBox", true);
+                itemStockNumericUpDownUpdate = (NumericUpDown)TestUtils.GetControlNamed(form.updateForm, "itemStockNumericUpDown", true);
+                itemPriceTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "itemPriceTextBox", true);
+                updateButton = (Button)TestUtils.GetControlNamed(form.updateForm, "updateButton", true);
+                cancelButtonUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "cancelButton", true);
 
                 form.updateForm.Close();
             });
 
             string[] sampleItem = { "Food", "001", "FunChum", "10", "10.50" };
-            ItemList.Items.Add(new ListViewItem(sampleItem));
+            itemsListView.Items.Add(new ListViewItem(sampleItem));
 
-            ItemList.Items[0].Selected = true;
+            itemsListView.Items[0].Selected = true;
 
-            btnUpdateItem.PerformClick();
+            updateItemButton.PerformClick();
 
             registerTask.Wait();
-            Assert.Equal("Food", cboItemTypeUpdate.SelectedItem.ToString());
-            Assert.Equal("001", txtItemIDUpdate.Text);
-            Assert.Equal("FunChum", txtItemNameUpdate.Text);
-            Assert.Equal("10", numericItemStockUpdate.Value.ToString());
-            Assert.Equal("10.50", txtItemPriceUpdate.Text);
+            Assert.Equal("Food", itemTypeComboBoxUpdate.SelectedItem.ToString());
+            Assert.Equal("001", itemIDTextBoxUpdate.Text);
+            Assert.Equal("FunChum", itemNameTextBoxUpdate.Text);
+            Assert.Equal(10, itemStockNumericUpDownUpdate.Value);
+            Assert.Equal("10.50", itemPriceTextBoxUpdate.Text);
         }
 
         [Fact]
+        // Description: Should update item with name "Test Item", type "Food", ID "123456", stock "10", and price "100" when `updateButton` is clicked.
         public void ShouldUpdateItem()
         {
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(5));
-                txtItemNameUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "txtItemName", true);
-                cboItemTypeUpdate = (ComboBox)TestUtils.GetControlNamed(form.updateForm, "cboItemType", true);
-                txtItemIDUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "txtItemID", true);
-                numericItemStockUpdate = (NumericUpDown)TestUtils.GetControlNamed(form.updateForm, "numericItemStock", true);
-                txtItemPriceUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "txtItemPrice", true);
-                btnUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "btnUpdate", true);
-                btnCancelUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "btnCancel", true);
+                itemNameTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "itemNameTextBox", true);
+                itemTypeComboBoxUpdate = (ComboBox)TestUtils.GetControlNamed(form.updateForm, "itemTypeComboBox", true);
+                itemIDTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "itemIDTextBox", true);
+                itemStockNumericUpDownUpdate = (NumericUpDown)TestUtils.GetControlNamed(form.updateForm, "itemStockNumericUpDown", true);
+                itemPriceTextBoxUpdate = (TextBox)TestUtils.GetControlNamed(form.updateForm, "itemPriceTextBox", true);
+                updateButton = (Button)TestUtils.GetControlNamed(form.updateForm, "updateButton", true);
+                cancelButtonUpdate = (Button)TestUtils.GetControlNamed(form.updateForm, "cancelButton", true);
+  
+                itemIDTextBoxUpdate.Text = "123456";
+                itemNameTextBoxUpdate.Text = "Test Item";
+                itemStockNumericUpDownUpdate.Value = 10;
+                itemPriceTextBoxUpdate.Text = "100";
 
-                cboItemTypeUpdate.SelectedIndex = 0;
-                txtItemIDUpdate.Text = "123456";
-                txtItemNameUpdate.Text = "Test Item";
-                numericItemStockUpdate.Value = 10;
-                txtItemPriceUpdate.Text = "100";
+                updateButton.PerformClick();
 
-                btnUpdate.PerformClick();
+                form.updateForm.Close();
             });
 
             string[] sampleItem = { "Food", "001", "FunChum", "10", "10.50" };
-            ItemList.Items.Add(new ListViewItem(sampleItem));
+            itemsListView.Items.Add(new ListViewItem(sampleItem));
 
-            ItemList.Items[0].Selected = true;
+            itemsListView.Items[0].Selected = true;
 
-            btnUpdateItem.PerformClick();
+            updateItemButton.PerformClick();
             registerTask.Wait();
 
-            Assert.Equal("Food", ItemList.Items[0].SubItems[0].Text);
-            Assert.Equal("123456", ItemList.Items[0].SubItems[1].Text);
-            Assert.Equal("Test Item", ItemList.Items[0].SubItems[2].Text);
-            Assert.Equal("10", ItemList.Items[0].SubItems[3].Text);
-            Assert.Equal("100", ItemList.Items[0].SubItems[4].Text);
+            Assert.Equal("Food", itemsListView.Items[0].SubItems[0].Text);
+            Assert.Equal("123456", itemsListView.Items[0].SubItems[1].Text);
+            Assert.Equal("Test Item", itemsListView.Items[0].SubItems[2].Text);
+            Assert.Equal("10", itemsListView.Items[0].SubItems[3].Text);
+            Assert.Equal("100", itemsListView.Items[0].SubItems[4].Text);
         }
 
         [Fact]
+        // Description: Should delete item when `deleteItemButton` is clicked.
         public void ShouldDeleteItem()
         {
             string[] sampleItem = { "Food", "001", "FunChum", "10", "10.50" };
-            ItemList.Items.Add(new ListViewItem(sampleItem));
+            itemsListView.Items.Add(new ListViewItem(sampleItem));
 
-            ItemList.Items[0].Selected = true;
+            itemsListView.Items[0].Selected = true;
 
-            btnDeleteItem.PerformClick();
+            deleteItemButton.PerformClick();
 
-            Assert.Equal(0, ItemList.Items.Count);
+            Assert.Equal(0, itemsListView.Items.Count);
         }
     }
 }

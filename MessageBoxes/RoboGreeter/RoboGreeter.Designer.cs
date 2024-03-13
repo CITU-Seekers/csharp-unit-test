@@ -29,72 +29,72 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RoboGreeter));
-            pictureBox1 = new PictureBox();
-            btnFarewell = new Button();
-            btnGreet = new Button();
-            GreeterName = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            robotPictureBox = new PictureBox();
+            farewellButton = new Button();
+            greetButton = new Button();
+            greeterNameTextBox = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)robotPictureBox).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // robotPictureBox
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(102, 46);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(200, 146);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 7;
-            pictureBox1.TabStop = false;
+            robotPictureBox.Image = (Image)resources.GetObject("robotPictureBox.Image");
+            robotPictureBox.Location = new Point(102, 46);
+            robotPictureBox.Name = "robotPictureBox";
+            robotPictureBox.Size = new Size(200, 146);
+            robotPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            robotPictureBox.TabIndex = 7;
+            robotPictureBox.TabStop = false;
             // 
-            // btnFarewell
+            // farewellButton
             // 
-            btnFarewell.Location = new Point(253, 267);
-            btnFarewell.Name = "btnFarewell";
-            btnFarewell.Size = new Size(75, 23);
-            btnFarewell.TabIndex = 6;
-            btnFarewell.Text = "Farewell";
-            btnFarewell.UseVisualStyleBackColor = true;
-            btnFarewell.Click += btnFarewell_Click;
+            farewellButton.Location = new Point(253, 267);
+            farewellButton.Name = "farewellButton";
+            farewellButton.Size = new Size(75, 23);
+            farewellButton.TabIndex = 6;
+            farewellButton.Text = "Farewell";
+            farewellButton.UseVisualStyleBackColor = true;
+            farewellButton.Click += btnFarewell_Click;
             // 
-            // btnGreet
+            // greetButton
             // 
-            btnGreet.Location = new Point(73, 267);
-            btnGreet.Name = "btnGreet";
-            btnGreet.Size = new Size(75, 23);
-            btnGreet.TabIndex = 5;
-            btnGreet.Text = "Greet";
-            btnGreet.UseVisualStyleBackColor = true;
-            btnGreet.Click += btnGreet_Click;
+            greetButton.Location = new Point(73, 267);
+            greetButton.Name = "greetButton";
+            greetButton.Size = new Size(75, 23);
+            greetButton.TabIndex = 5;
+            greetButton.Text = "Greet";
+            greetButton.UseVisualStyleBackColor = true;
+            greetButton.Click += btnGreet_Click;
             // 
-            // GreeterName
+            // greeterNameTextBox
             // 
-            GreeterName.Location = new Point(56, 217);
-            GreeterName.Name = "GreeterName";
-            GreeterName.PlaceholderText = "Name";
-            GreeterName.Size = new Size(292, 23);
-            GreeterName.TabIndex = 4;
+            greeterNameTextBox.Location = new Point(56, 217);
+            greeterNameTextBox.Name = "greeterNameTextBox";
+            greeterNameTextBox.PlaceholderText = "Name";
+            greeterNameTextBox.Size = new Size(292, 23);
+            greeterNameTextBox.TabIndex = 4;
             // 
             // RoboGreeter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(403, 349);
-            Controls.Add(pictureBox1);
-            Controls.Add(btnFarewell);
-            Controls.Add(btnGreet);
-            Controls.Add(GreeterName);
+            Controls.Add(robotPictureBox);
+            Controls.Add(farewellButton);
+            Controls.Add(greetButton);
+            Controls.Add(greeterNameTextBox);
             Name = "RoboGreeter";
             Text = "RoboGreeter";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)robotPictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private Button btnFarewell;
-        private Button btnGreet;
-        private TextBox GreeterName;
+        private PictureBox robotPictureBox;
+        private Button farewellButton;
+        private Button greetButton;
+        private TextBox greeterNameTextBox;
     }
 }

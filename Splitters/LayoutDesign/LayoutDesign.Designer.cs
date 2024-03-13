@@ -30,16 +30,16 @@ namespace CodeChum
         /// </summary>
         private void InitializeComponent()
         {
-            ListViewItem listViewItem1 = new ListViewItem(new string[] { "18-0142-382", "John Doe", "Cebu Institute of Technology" }, -1);
-            ListViewItem listViewItem2 = new ListViewItem(new string[] { "18-0382-282", "Jane Doesnt", "Mapua University" }, -1);
+            ListViewItem listViewItem3 = new ListViewItem(new string[] { "18-0142-382", "John Doe", "Cebu Institute of Technology" }, -1);
+            ListViewItem listViewItem4 = new ListViewItem(new string[] { "18-0382-282", "Jane Doesnt", "Mapua University" }, -1);
             splitContainer1 = new SplitContainer();
             splitContainer2 = new SplitContainer();
-            textBox1 = new TextBox();
-            pictureBox1 = new PictureBox();
-            listView1 = new ListView();
+            textBox = new TextBox();
+            studentListView = new ListView();
             ID = new ColumnHeader();
-            Name = new ColumnHeader();
+            StudentName = new ColumnHeader();
             University = new ColumnHeader();
+            pictureBox = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -48,7 +48,7 @@ namespace CodeChum
             splitContainer2.Panel1.SuspendLayout();
             splitContainer2.Panel2.SuspendLayout();
             splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -65,7 +65,7 @@ namespace CodeChum
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.Orange;
-            splitContainer1.Panel2.Controls.Add(pictureBox1);
+            splitContainer1.Panel2.Controls.Add(pictureBox);
             splitContainer1.Size = new Size(875, 654);
             splitContainer1.SplitterDistance = 429;
             splitContainer1.TabIndex = 0;
@@ -81,60 +81,60 @@ namespace CodeChum
             // splitContainer2.Panel1
             // 
             splitContainer2.Panel1.BackColor = Color.Red;
-            splitContainer2.Panel1.Controls.Add(textBox1);
+            splitContainer2.Panel1.Controls.Add(textBox);
             // 
             // splitContainer2.Panel2
             // 
             splitContainer2.Panel2.BackColor = SystemColors.ActiveCaption;
-            splitContainer2.Panel2.Controls.Add(listView1);
+            splitContainer2.Panel2.Controls.Add(studentListView);
             splitContainer2.Size = new Size(429, 654);
             splitContainer2.SplitterDistance = 366;
             splitContainer2.TabIndex = 0;
             // 
-            // textBox1
+            // textBox
             // 
-            textBox1.Font = new Font("Viner Hand ITC", 12F, FontStyle.Italic, GraphicsUnit.Point);
-            textBox1.Location = new Point(37, 88);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(333, 156);
-            textBox1.TabIndex = 0;
+            textBox.Font = new Font("Viner Hand ITC", 12F, FontStyle.Italic, GraphicsUnit.Point);
+            textBox.Location = new Point(37, 88);
+            textBox.Multiline = true;
+            textBox.Name = "textBox";
+            textBox.Size = new Size(333, 156);
+            textBox.TabIndex = 0;
             // 
-            // pictureBox1
+            // studentListView
             // 
-            pictureBox1.Image = Resources.CodeChum2;
-            pictureBox1.Location = new Point(42, 188);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(356, 258);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // listView1
-            // 
-            listView1.Columns.AddRange(new ColumnHeader[] { ID, Name, University });
-            listView1.Items.AddRange(new ListViewItem[] { listViewItem1, listViewItem2 });
-            listView1.Location = new Point(12, 29);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(394, 221);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
-            listView1.View = View.Details;
+            studentListView.Columns.AddRange(new ColumnHeader[] { ID, StudentName, University });
+            studentListView.Items.AddRange(new ListViewItem[] { listViewItem3, listViewItem4 });
+            studentListView.Location = new Point(12, 29);
+            studentListView.Name = "studentListView";
+            studentListView.Size = new Size(394, 221);
+            studentListView.TabIndex = 0;
+            studentListView.UseCompatibleStateImageBehavior = false;
+            studentListView.View = View.Details;
             // 
             // ID
             // 
             ID.Text = "ID";
             ID.Width = 100;
             // 
-            // Name
+            // StudentName
             // 
-            Name.Text = "Name";
-            Name.Width = 120;
+            StudentName.Text = "Name";
+            StudentName.Width = 120;
             // 
             // University
             // 
             University.Text = "University";
             University.Width = 170;
+            // 
+            // pictureBox
+            // 
+            pictureBox.Image = Resources.CodeChum2;
+            pictureBox.Location = new Point(42, 188);
+            pictureBox.Name = "pictureBox";
+            pictureBox.Size = new Size(356, 258);
+            pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox.TabIndex = 0;
+            pictureBox.TabStop = false;
             // 
             // LayoutDesign
             // 
@@ -142,7 +142,7 @@ namespace CodeChum
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(875, 654);
             Controls.Add(splitContainer1);
-            //Name = "LayoutDesign";
+            Name = "LayoutDesign";
             Text = "LayoutDesign";
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
@@ -153,7 +153,7 @@ namespace CodeChum
             splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
             splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
         }
 
@@ -161,11 +161,11 @@ namespace CodeChum
 
         private SplitContainer splitContainer1;
         private SplitContainer splitContainer2;
-        private TextBox textBox1;
-        private PictureBox pictureBox1;
-        private ListView listView1;
+        private TextBox textBox;
+        private PictureBox pictureBox;
+        private ListView studentListView;
         private ColumnHeader ID;
-        private ColumnHeader Name;
+        private ColumnHeader StudentName;
         private ColumnHeader University;
     }
 }

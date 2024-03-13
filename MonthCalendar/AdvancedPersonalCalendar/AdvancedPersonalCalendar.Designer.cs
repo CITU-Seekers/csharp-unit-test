@@ -28,76 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            MonthCalendar = new MonthCalendar();
-            EventName = new TextBox();
-            cboFrequency = new System.Windows.Forms.ComboBox();
-            btnAdd = new Button();
-            lblEvent = new Label();
-            btnDelete = new Button();
+            monthCalendar = new MonthCalendar();
+            eventNameTextBox = new TextBox();
+            frequencyComboBox = new ComboBox();
+            addButton = new Button();
+            eventLabel = new Label();
+            deleteButton = new Button();
             SuspendLayout();
             // 
-            // MonthCalendar
+            // monthCalendar
             // 
-            MonthCalendar.Location = new Point(74, 33);
-            MonthCalendar.Name = "MonthCalendar";
-            MonthCalendar.TabIndex = 0;
+            monthCalendar.Location = new Point(74, 33);
+            monthCalendar.Name = "monthCalendar";
+            monthCalendar.TabIndex = 0;
             // 
-            // EventName
+            // eventNameTextBox
             // 
-            EventName.Location = new Point(74, 207);
-            EventName.Multiline = true;
-            EventName.Name = "EventName";
-            EventName.Size = new Size(227, 23);
-            EventName.TabIndex = 1;
+            eventNameTextBox.Location = new Point(74, 207);
+            eventNameTextBox.Multiline = true;
+            eventNameTextBox.Name = "eventNameTextBox";
+            eventNameTextBox.Size = new Size(227, 23);
+            eventNameTextBox.TabIndex = 1;
             // 
-            // cboFrequency
+            // frequencyComboBox
             // 
-            cboFrequency.FormattingEnabled = true;
-            cboFrequency.Items.AddRange(new object[] { "None", "Daily", "Every Weekdays", "Every Weekends", "Every Week", "Every Month", "Every Year" });
-            cboFrequency.Location = new Point(74, 236);
-            cboFrequency.Name = "cboFrequency";
-            cboFrequency.Size = new Size(121, 23);
-            cboFrequency.TabIndex = 2;
+            frequencyComboBox.FormattingEnabled = true;
+            frequencyComboBox.Items.AddRange(new object[] { "None", "Daily", "Every Weekdays", "Every Weekends", "Every Week", "Every Month", "Every Year" });
+            frequencyComboBox.Location = new Point(74, 236);
+            frequencyComboBox.Name = "frequencyComboBox";
+            frequencyComboBox.Size = new Size(121, 23);
+            frequencyComboBox.TabIndex = 2;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Location = new Point(226, 236);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
-            btnAdd.TabIndex = 3;
-            btnAdd.Text = "Add Event";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Location = new Point(226, 236);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(75, 23);
+            addButton.TabIndex = 3;
+            addButton.Text = "Add Event";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
-            // lblEvent
+            // eventLabel
             // 
-            lblEvent.AutoSize = true;
-            lblEvent.Location = new Point(74, 271);
-            lblEvent.Name = "lblEvent";
-            lblEvent.Size = new Size(0, 15);
-            lblEvent.TabIndex = 4;
+            eventLabel.AutoSize = true;
+            eventLabel.Location = new Point(74, 271);
+            eventLabel.Name = "eventLabel";
+            eventLabel.Size = new Size(0, 15);
+            eventLabel.TabIndex = 4;
             // 
-            // btnDelete
+            // deleteButton
             // 
-            btnDelete.Location = new Point(226, 267);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(75, 23);
-            btnDelete.TabIndex = 5;
-            btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = true;
-            btnDelete.Click += btnDelete_Click;
+            deleteButton.Location = new Point(226, 267);
+            deleteButton.Name = "deleteButton";
+            deleteButton.Size = new Size(75, 23);
+            deleteButton.TabIndex = 5;
+            deleteButton.Text = "Delete";
+            deleteButton.UseVisualStyleBackColor = true;
+            deleteButton.Click += btnDelete_Click;
             // 
             // AdvancedPersonalCalendar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(390, 321);
-            Controls.Add(btnDelete);
-            Controls.Add(lblEvent);
-            Controls.Add(btnAdd);
-            Controls.Add(cboFrequency);
-            Controls.Add(EventName);
-            Controls.Add(MonthCalendar);
+            Controls.Add(deleteButton);
+            Controls.Add(eventLabel);
+            Controls.Add(addButton);
+            Controls.Add(frequencyComboBox);
+            Controls.Add(eventNameTextBox);
+            Controls.Add(monthCalendar);
             Name = "AdvancedPersonalCalendar";
             Text = "AdvancedPersonalCalendar";
             ResumeLayout(false);
@@ -106,11 +106,11 @@
 
         #endregion
 
-        private MonthCalendar MonthCalendar;
-        private TextBox EventName;
-        private System.Windows.Forms.ComboBox cboFrequency;
-        private Button btnAdd;
-        private Label lblEvent;
-        private Button btnDelete;
+        private MonthCalendar monthCalendar;
+        private TextBox eventNameTextBox;
+        private System.Windows.Forms.ComboBox frequencyComboBox;
+        private Button addButton;
+        private Label eventLabel;
+        private Button deleteButton;
     }
 }

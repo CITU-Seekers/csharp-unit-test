@@ -3,166 +3,189 @@
     public class AdvancedPersonalCalendarTest
     {
         AdvancedPersonalCalendar? form;
-        MonthCalendar? calendar;
-        TextBox? eventName;
-        ComboBox? frequency;
-        Button? add, delete;
-        Label? lblEvent;
+        MonthCalendar? monthCalendar;
+        TextBox? eventNameTextBox;
+        ComboBox? frequencyComboBox;
+        Button? addButton, deleteButton;
+        Label? eventLabel;
 
         public AdvancedPersonalCalendarTest()
         {
             form = new AdvancedPersonalCalendar();
             form.Visible = true;
-            calendar = (MonthCalendar)TestUtils.GetControlNamed(form, "MonthCalendar", true);
-            eventName = (TextBox)TestUtils.GetControlNamed(form, "EventName", true);
-            frequency = (ComboBox)TestUtils.GetControlNamed(form, "cboFrequency", true);
-            add = (Button)TestUtils.GetControlNamed(form, "btnAdd", true);
-            delete = (Button)TestUtils.GetControlNamed(form, "btnDelete", true);
-            lblEvent = (Label)TestUtils.GetControlNamed(form, "lblEvent", true);
+            monthCalendar = (MonthCalendar)TestUtils.GetControlNamed(form, "monthCalendar", true);
+            eventNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "eventNameTextBox", true);
+            frequencyComboBox = (ComboBox)TestUtils.GetControlNamed(form, "frequencyComboBox", true);
+            addButton = (Button)TestUtils.GetControlNamed(form, "addButton", true);
+            deleteButton = (Button)TestUtils.GetControlNamed(form, "deleteButton", true);
+            eventLabel = (Label)TestUtils.GetControlNamed(form, "eventLabel", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `monthCalendar`, `eventNameTextBox`, `frequencyComboBox`, `addButton`, `deleteButton`, and `eventLabel`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(calendar);
-            Assert.NotNull(eventName);
-            Assert.NotNull(frequency);
-            Assert.NotNull(add);
-            Assert.NotNull(delete);
-            Assert.NotNull(lblEvent);
+            Assert.NotNull(monthCalendar);
+            Assert.NotNull(eventNameTextBox);
+            Assert.NotNull(frequencyComboBox);
+            Assert.NotNull(addButton);
+            Assert.NotNull(deleteButton);
+            Assert.NotNull(eventLabel);
         }
 
         [Fact]
+        // Description: Should have values "None", "Daily", "Every Weekdays", "Every Weekends", "Every Week", "Every Month", and "Every Year" in `frequencyComboBox`.
+        public void ShouldHaveFrequencyComboBoxValues()
+        {
+            Assert.Equal("None", frequencyComboBox!.Items[0]);
+            Assert.Equal("Daily", frequencyComboBox!.Items[1]);
+            Assert.Equal("Every Weekdays", frequencyComboBox!.Items[2]);
+            Assert.Equal("Every Weekends", frequencyComboBox!.Items[3]);
+            Assert.Equal("Every Week", frequencyComboBox!.Items[4]);
+            Assert.Equal("Every Month", frequencyComboBox!.Items[5]);
+            Assert.Equal("Every Year", frequencyComboBox!.Items[6]);
+        }
+
+        [Fact]
+        // Description: Should have initial values for `monthCalendar`, `eventNameTextBox`, `frequencyComboBox`, and `eventLabel`.
         public void ShouldHaveInitialValues()
         {
-            Assert.Equal(DateTime.Today, calendar!.SelectionStart);
-            Assert.Equal("", eventName!.Text);
-            Assert.Equal(0, frequency!.SelectedIndex);
-            Assert.Equal("No Event", lblEvent!.Text);
+            Assert.Equal(DateTime.Today, monthCalendar!.SelectionStart);
+            Assert.Equal("", eventNameTextBox!.Text);
+            Assert.Equal(0, frequencyComboBox!.SelectedIndex);
+            Assert.Equal("No Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add one-time event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddOneTimeEvent()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 0;
-            add!.PerformClick();
-            Assert.Equal("Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 0;
+            addButton!.PerformClick();
+            Assert.Equal("Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add daily event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddDailyEvents()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 1;
-            add!.PerformClick();
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(1);
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(2);
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(3);
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(4);
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(5);
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(6);
-            Assert.Equal("Daily - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 1;
+            addButton!.PerformClick();
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(1);
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(2);
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(3);
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(4);
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(5);
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(6);
+            Assert.Equal("Daily - Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add every weekday event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddEveryWeekdayEvents()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 2;
-            add!.PerformClick();
-            Assert.Equal("Every Weekdays - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(1);
-            Assert.Equal("Every Weekdays - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(2);
-            Assert.Equal("Every Weekdays - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(3);
-            Assert.Equal("Every Weekdays - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(4);
-            Assert.Equal("Every Weekdays - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 2;
+            addButton!.PerformClick();
+            Assert.Equal("Every Weekdays - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(1);
+            Assert.Equal("Every Weekdays - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(2);
+            Assert.Equal("Every Weekdays - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(3);
+            Assert.Equal("Every Weekdays - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(4);
+            Assert.Equal("Every Weekdays - Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add every weekend event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddEveryWeekendEvents()
         {
             DateTime weekendDate = new DateTime(2023, 12, 23);
-            calendar!.SelectionStart = weekendDate;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 3; // Assuming index 3 corresponds to "Every Weekends"
-            add!.PerformClick();
-            Assert.Equal("Every Weekends - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = weekendDate;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 3; // Assuming index 3 corresponds to "Every Weekends"
+            addButton!.PerformClick();
+            Assert.Equal("Every Weekends - Test Event", eventLabel!.Text);
 
             // Move to the next day (which should still be a weekend)
-            calendar!.SelectionStart = weekendDate.AddDays(1);
-            Assert.Equal("Every Weekends - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = weekendDate.AddDays(1);
+            Assert.Equal("Every Weekends - Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add weekly event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddWeeklyEvents()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 4;
-            add!.PerformClick();
-            Assert.Equal("Every Week - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(7);
-            Assert.Equal("Every Week - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(14);
-            Assert.Equal("Every Week - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(21);
-            Assert.Equal("Every Week - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 4;
+            addButton!.PerformClick();
+            Assert.Equal("Every Week - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(7);
+            Assert.Equal("Every Week - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(14);
+            Assert.Equal("Every Week - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(21);
+            Assert.Equal("Every Week - Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add monthly event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddMonthlyEvents()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 5;
-            add!.PerformClick();
-            Assert.Equal("Every Month - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(14);
-            Assert.Equal("Every Month - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(28);
-            Assert.Equal("Every Month - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(42);
-            Assert.Equal("Every Month - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 5;
+            addButton!.PerformClick();
+            Assert.Equal("Every Month - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(14);
+            Assert.Equal("Every Month - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(28);
+            Assert.Equal("Every Month - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(42);
+            Assert.Equal("Every Month - Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should add yearly event "Test Event" in `eventLabel` when the `addButton` is clicked.
         public void ShouldAddYearlyEvents()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 6;
-            add!.PerformClick();
-            Assert.Equal("Every Year - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(365);
-            Assert.Equal("Every Year - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(730);
-            Assert.Equal("Every Year - Test Event", lblEvent!.Text);
-            calendar!.SelectionStart = DateTime.Today.AddDays(1095);
-            Assert.Equal("Every Year - Test Event", lblEvent!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 6;
+            addButton!.PerformClick();
+            Assert.Equal("Every Year - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(365);
+            Assert.Equal("Every Year - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(730);
+            Assert.Equal("Every Year - Test Event", eventLabel!.Text);
+            monthCalendar!.SelectionStart = DateTime.Today.AddDays(1095);
+            Assert.Equal("Every Year - Test Event", eventLabel!.Text);
         }
 
         [Fact]
+        // Description: Should delete event "Test Event" in `eventLabel` when the `deleteButton` is clicked.
         public void ShouldDeleteEvent()
         {
-            calendar!.SelectionStart = DateTime.Today;
-            eventName!.Text = "Test Event";
-            frequency!.SelectedIndex = 0;
-            add!.PerformClick();
-            Assert.Equal("Test Event", lblEvent!.Text);
-            delete!.PerformClick();
+            monthCalendar!.SelectionStart = DateTime.Today;
+            eventNameTextBox!.Text = "Test Event";
+            frequencyComboBox!.SelectedIndex = 0;
+            addButton!.PerformClick();
+            Assert.Equal("Test Event", eventLabel!.Text);
+            deleteButton!.PerformClick();
         }
     }
 }

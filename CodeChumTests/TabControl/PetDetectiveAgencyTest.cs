@@ -3,69 +3,72 @@
     public class PetDetectiveAgencyTest
     {
         PetDetectiveAgency? form;
-        TextBox? txtPetName, txtPetType, txtClues, txtStatements;
-        Button? CreateButton;
-        TabControl? MainTabControl;
+        TextBox? petNameTextBox, petTypeTextBox, cluesTextBox, statementsTextBox;
+        Button? createButton;
+        TabControl? mainTabControl;
 
         public PetDetectiveAgencyTest()
         {
             form = new PetDetectiveAgency();
             form.Show();
-            txtPetName = (TextBox)TestUtils.GetControlNamed(form, "txtPetName", true);
-            txtPetType = (TextBox)TestUtils.GetControlNamed(form, "txtPetType", true);
-            txtClues = (TextBox)TestUtils.GetControlNamed(form, "txtClues", true);
-            txtStatements = (TextBox)TestUtils.GetControlNamed(form, "txtStatements", true);
-            CreateButton = (Button)TestUtils.GetControlNamed(form, "CreateButton", true);
-            MainTabControl = (TabControl)TestUtils.GetControlNamed(form, "MainTabControl", true);
+            petNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "petNameTextBox", true);
+            petTypeTextBox = (TextBox)TestUtils.GetControlNamed(form, "petTypeTextBox", true);
+            cluesTextBox = (TextBox)TestUtils.GetControlNamed(form, "cluesTextBox", true);
+            statementsTextBox = (TextBox)TestUtils.GetControlNamed(form, "statementsTextBox", true);
+            createButton = (Button)TestUtils.GetControlNamed(form, "createButton", true);
+            mainTabControl = (TabControl)TestUtils.GetControlNamed(form, "mainTabControl", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `petNameTextBox`, `petTypeTextBox`, `cluesTextBox`, `statementsTextBox`, `createButton`, and `mainTabControl`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(txtPetName);
-            Assert.NotNull(txtPetType);
-            Assert.NotNull(txtClues);
-            Assert.NotNull(txtStatements);
-            Assert.NotNull(CreateButton);
-            Assert.NotNull(MainTabControl);
+            Assert.NotNull(petNameTextBox);
+            Assert.NotNull(petTypeTextBox);
+            Assert.NotNull(cluesTextBox);
+            Assert.NotNull(statementsTextBox);
+            Assert.NotNull(createButton);
+            Assert.NotNull(mainTabControl);
         }
 
         [Fact]
+        // Description: Should create a new tab with all the information when the `createButton` is clicked.
         public void ShouldCreateNewTabWithAllInformation()
         {
-            txtPetName.Text = "Test";
-            txtPetType.Text = "Test";
-            txtClues.Text = "Test";
-            txtStatements.Text = "Test";
-            CreateButton.PerformClick();
+            petNameTextBox.Text = "Test";
+            petTypeTextBox.Text = "Test";
+            cluesTextBox.Text = "Test";
+            statementsTextBox.Text = "Test";
+            createButton.PerformClick();
 
-            Assert.Equal(2, MainTabControl.TabCount);
-            Assert.Equal("Test", MainTabControl.TabPages[1].Text);
-            Assert.NotNull((Label)TestUtils.GetControlNamed(MainTabControl.TabPages[1], "PetNameLabel", true));
-            Assert.NotNull((Label)TestUtils.GetControlNamed(MainTabControl.TabPages[1], "PetTypeLabel", true));
-            Assert.NotNull((Label)TestUtils.GetControlNamed(MainTabControl.TabPages[1], "CluesLabel", true));
-            Assert.NotNull((Label)TestUtils.GetControlNamed(MainTabControl.TabPages[1], "StatementsLabel", true));
+            Assert.Equal(2, mainTabControl.TabCount);
+            Assert.Equal("Test", mainTabControl.TabPages[1].Text);
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "PetNameLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "PetTypeLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "CluesLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "StatementsLabel", true));
         }
 
         [Fact]
+        // Description: Should close the tab when the `caseSolvedButton` is clicked.
         public void ShouldCloseTabUsingCaseSolvedButton()
         {
-            txtPetName.Text = "Test";
-            txtPetType.Text = "Test";
-            txtClues.Text = "Test";
-            txtStatements.Text = "Test";
-            CreateButton.PerformClick();
+            petNameTextBox.Text = "Test";
+            petTypeTextBox.Text = "Test";
+            cluesTextBox.Text = "Test";
+            statementsTextBox.Text = "Test";
+            createButton.PerformClick();
 
-            Assert.Equal(2, MainTabControl.TabCount);
-            Assert.Equal("Test", MainTabControl.TabPages[1].Text);
+            Assert.Equal(2, mainTabControl.TabCount);
+            Assert.Equal("Test", mainTabControl.TabPages[1].Text);
 
             //Navigate to the new tab
-            MainTabControl.SelectedIndex = 1;
-            Button CaseSolvedButton = (Button)TestUtils.GetControlNamed(MainTabControl.TabPages[1], "CaseSolvedButton", true);
-            CaseSolvedButton.PerformClick();
+            mainTabControl.SelectedIndex = 1;
+            Button caseSolvedButton = (Button)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "caseSolvedButton", true);
+            caseSolvedButton.PerformClick();
 
             Task.Delay(TimeSpan.FromSeconds(3)).Wait();
-            Assert.Equal(1, MainTabControl.TabCount);
+            Assert.Equal(1, mainTabControl.TabCount);
         }
 
 

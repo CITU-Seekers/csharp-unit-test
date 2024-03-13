@@ -44,9 +44,9 @@ namespace CodeChum
             int duration = durationTrackBar.Value;
             int intensity = intensityTrackBar.Value;
 
-            PotencyLevel.Text = $"Potency: {potency}%";
-            Duration.Text = $"Duration: {duration} seconds";
-            IntensityLevel.Text = $"Intensity: {intensity}%";
+            potencyLabel.Text = $"Potency: {potency}%";
+            durationLabel.Text = $"Duration: {duration} seconds";
+            intensityLabel.Text = $"Intensity: {intensity}%";
 
             // You can add additional logic to update visuals based on the potion settings
             UpdateVisuals(potencyTrackBar, potency);

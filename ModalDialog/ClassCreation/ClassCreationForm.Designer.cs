@@ -28,78 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtClassName = new TextBox();
-            cboSched = new System.Windows.Forms.ComboBox();
-            txtClassCode = new TextBox();
-            txtClassDesc = new RichTextBox();
-            btnCreateClass = new Button();
-            btnCancel = new Button();
+            classNameTextBox = new TextBox();
+            scheduleComboBox = new ComboBox();
+            classCodeTextBox = new TextBox();
+            classDescriptionRichTextBox = new RichTextBox();
+            createClassButton = new Button();
+            cancelButton = new Button();
             SuspendLayout();
             // 
-            // txtClassName
+            // classNameTextBox
             // 
-            txtClassName.Location = new Point(57, 51);
-            txtClassName.Name = "txtClassName";
-            txtClassName.PlaceholderText = "Class Name";
-            txtClassName.Size = new Size(331, 23);
-            txtClassName.TabIndex = 0;
+            classNameTextBox.Location = new Point(57, 51);
+            classNameTextBox.Name = "classNameTextBox";
+            classNameTextBox.PlaceholderText = "Class Name";
+            classNameTextBox.Size = new Size(331, 23);
+            classNameTextBox.TabIndex = 0;
             // 
-            // cboSched
+            // scheduleComboBox
             // 
-            cboSched.FormattingEnabled = true;
-            cboSched.Items.AddRange(new object[] { "7:30 AM - 9:30 AM", "9:30 AM - 11:30 AM", "1:00 PM - 3:00 PM", "3:00 PM - 5:00 PM", "5:00 PM - 7:00 PM", "7:00 PM - 9:00 PM" });
-            cboSched.Location = new Point(57, 96);
-            cboSched.Name = "cboSched";
-            cboSched.Size = new Size(173, 23);
-            cboSched.TabIndex = 1;
+            scheduleComboBox.FormattingEnabled = true;
+            scheduleComboBox.Items.AddRange(new object[] { "7:30 AM - 9:30 AM", "9:30 AM - 11:30 AM", "1:00 PM - 3:00 PM", "3:00 PM - 5:00 PM", "5:00 PM - 7:00 PM", "7:00 PM - 9:00 PM" });
+            scheduleComboBox.Location = new Point(57, 96);
+            scheduleComboBox.Name = "scheduleComboBox";
+            scheduleComboBox.Size = new Size(173, 23);
+            scheduleComboBox.TabIndex = 1;
             // 
-            // txtClassCode
+            // classCodeTextBox
             // 
-            txtClassCode.Location = new Point(257, 96);
-            txtClassCode.Name = "txtClassCode";
-            txtClassCode.PlaceholderText = "Class Code";
-            txtClassCode.Size = new Size(131, 23);
-            txtClassCode.TabIndex = 2;
+            classCodeTextBox.Location = new Point(257, 96);
+            classCodeTextBox.Name = "classCodeTextBox";
+            classCodeTextBox.PlaceholderText = "Class Code";
+            classCodeTextBox.Size = new Size(131, 23);
+            classCodeTextBox.TabIndex = 2;
             // 
-            // txtClassDesc
+            // classDescriptionRichTextBox
             // 
-            txtClassDesc.Location = new Point(57, 140);
-            txtClassDesc.Name = "txtClassDesc";
-            txtClassDesc.Size = new Size(331, 144);
-            txtClassDesc.TabIndex = 3;
-            txtClassDesc.Text = "";
+            classDescriptionRichTextBox.Location = new Point(57, 140);
+            classDescriptionRichTextBox.Name = "classDescriptionRichTextBox";
+            classDescriptionRichTextBox.Size = new Size(331, 144);
+            classDescriptionRichTextBox.TabIndex = 3;
+            classDescriptionRichTextBox.Text = "";
             // 
-            // btnCreateClass
+            // createClassButton
             // 
-            btnCreateClass.Location = new Point(97, 307);
-            btnCreateClass.Name = "btnCreateClass";
-            btnCreateClass.Size = new Size(75, 23);
-            btnCreateClass.TabIndex = 4;
-            btnCreateClass.Text = "Create";
-            btnCreateClass.UseVisualStyleBackColor = true;
-            btnCreateClass.Click += btnCreate_Click;
+            createClassButton.Location = new Point(97, 307);
+            createClassButton.Name = "createClassButton";
+            createClassButton.Size = new Size(75, 23);
+            createClassButton.TabIndex = 4;
+            createClassButton.Text = "Create";
+            createClassButton.UseVisualStyleBackColor = true;
+            createClassButton.Click += btnCreate_Click;
             // 
-            // btnCancel
+            // cancelButton
             // 
-            btnCancel.Location = new Point(267, 307);
-            btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(75, 23);
-            btnCancel.TabIndex = 5;
-            btnCancel.Text = "Cancel";
-            btnCancel.UseVisualStyleBackColor = true;
-            btnCancel.Click += btnCancel_Click;
+            cancelButton.Location = new Point(267, 307);
+            cancelButton.Name = "cancelButton";
+            cancelButton.Size = new Size(75, 23);
+            cancelButton.TabIndex = 5;
+            cancelButton.Text = "Cancel";
+            cancelButton.UseVisualStyleBackColor = true;
+            cancelButton.Click += btnCancel_Click;
             // 
             // ClassCreationForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(467, 352);
-            Controls.Add(btnCancel);
-            Controls.Add(btnCreateClass);
-            Controls.Add(txtClassDesc);
-            Controls.Add(txtClassCode);
-            Controls.Add(cboSched);
-            Controls.Add(txtClassName);
+            Controls.Add(cancelButton);
+            Controls.Add(createClassButton);
+            Controls.Add(classDescriptionRichTextBox);
+            Controls.Add(classCodeTextBox);
+            Controls.Add(scheduleComboBox);
+            Controls.Add(classNameTextBox);
             Name = "ClassCreationForm";
             Text = "ClassCreationForm";
             ResumeLayout(false);
@@ -107,11 +107,11 @@
         }
 
         #endregion
-        public TextBox txtClassName;
-        public RichTextBox txtClassDesc;
-        public System.Windows.Forms.ComboBox cboSched;
-        public TextBox txtClassCode;
-        private Button btnCreateClass;
-        private Button btnCancel;
+        public TextBox classNameTextBox;
+        public RichTextBox classDescriptionRichTextBox;
+        public System.Windows.Forms.ComboBox scheduleComboBox;
+        public TextBox classCodeTextBox;
+        private Button createClassButton;
+        private Button cancelButton;
     }
 }

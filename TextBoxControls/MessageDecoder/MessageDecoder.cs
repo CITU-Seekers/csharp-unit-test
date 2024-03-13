@@ -19,9 +19,9 @@ namespace CodeChum
 
         private void btnDecode_Click(object sender, EventArgs e)
         {
-            string encodedMessage = textBox1.Text;
+            string encodedMessage = encodeTextBox.Text;
             string decodedMessage = DecodeSecretMessage(encodedMessage);
-            DisplayMessage.Text = decodedMessage;
+            displayMessageLabel.Text = decodedMessage;
         }
 
         private string DecodeSecretMessage(string encodedMessage)

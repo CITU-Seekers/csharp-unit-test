@@ -16,17 +16,17 @@ namespace CodeChum
         public WorkoutTracker()
         {
             InitializeComponent();
-            progressBar1.Minimum = 0;
+            progressBar.Minimum = 0;
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
             // Disable the start button to prevent multiple starts
-            btnStart.Enabled = false;
+            startButton.Enabled = false;
 
             // Start the workout asynchronously
             currentProgress = 0;
-            progressBar1.Maximum = (int)numericUpDown1.Value;
+            progressBar.Maximum = (int)durationNumericUpDown.Value;
             progressTimer.Start();
         }
 
@@ -36,18 +36,18 @@ namespace CodeChum
         {
             // Reset the progress bar and label
             progressTimer.Stop();
-            progressBar1.Value = 0;
+            progressBar.Value = 0;
 
             // Enable the start button
-            btnStart.Enabled = true;
+            startButton.Enabled = true;
         }
 
         private void progressTimer_Tick(object sender, EventArgs e)
         {
-            if (currentProgress + 1 <= progressBar1.Maximum)
+            if (currentProgress + 1 <= progressBar.Maximum)
             {
                 currentProgress += 1;
-                progressBar1.Value = currentProgress;
+                progressBar.Value = currentProgress;
             }
             else
             {

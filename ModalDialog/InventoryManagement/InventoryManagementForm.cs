@@ -26,11 +26,11 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Add_ItemType = cboItemType.SelectedItem.ToString();
-            Add_ItemID = txtItemID.Text;
-            Add_ItemName = txtItemName.Text;
-            Add_ItemStock = numericItemStock.Value.ToString();
-            Add_ItemPrice = txtItemPrice.Text;
+            Add_ItemType = itemTypeComboBox.SelectedItem.ToString();
+            Add_ItemID = itemIDTextBox.Text;
+            Add_ItemName = itemNameTextBox.Text;
+            Add_ItemStock = itemStockNumericUpDown.Value.ToString();
+            Add_ItemPrice = itemPriceTextBox.Text;
 
             this.DialogResult = DialogResult.OK; // Set DialogResult to OK before closing
             this.Close();
@@ -44,11 +44,11 @@ namespace CodeChum
         public void ResetProperties()
         {
             //Reset all components to empty
-            cboItemType.SelectedIndex = -1;
-            txtItemID.Text = "";
-            txtItemName.Text = "";
-            numericItemStock.Value = 0;
-            txtItemPrice.Text = "";
+            itemTypeComboBox.SelectedIndex = -1;
+            itemIDTextBox.Text = "";
+            itemNameTextBox.Text = "";
+            itemStockNumericUpDown.Value = 0;
+            itemPriceTextBox.Text = "";
         }
     }
 }
