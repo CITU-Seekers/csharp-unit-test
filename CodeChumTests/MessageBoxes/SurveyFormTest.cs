@@ -18,7 +18,7 @@
             yesRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "yesRadioButton", true);
             noRadioButton = (RadioButton)TestUtils.GetControlNamed(form, "noRadioButton", true);
             submitButton = (Button)TestUtils.GetControlNamed(form, "submitButton", true);
-            MessageBoxWrapper2.IsOpened = false;
+            MessageBoxWrapper.IsOpened = false;
         }
 
         [Fact]
@@ -37,10 +37,10 @@
         {
             submitButton.PerformClick();
 
-            Assert.True(MessageBoxWrapper2.IsOpened, "The `Invalid` message box should appear.");
-            Assert.Equal("Invalid", MessageBoxWrapper2.Title);
-            Assert.Equal(MessageBoxButtons.OK, MessageBoxWrapper2.MessageBoxButtons);
-            Assert.True(MessageBoxWrapper2.Message.Length > 0, "There should be a proper message.");
+            Assert.True(MessageBoxWrapper.IsOpened, "The `Invalid` message box should appear.");
+            Assert.Equal("Invalid", MessageBoxWrapper.Title);
+            Assert.Equal(MessageBoxButtons.OK, MessageBoxWrapper.MessageBoxButtons);
+            Assert.True(MessageBoxWrapper.Message.Length > 0, "There should be a proper message.");
         }
 
         [Fact]
@@ -54,10 +54,10 @@
             Task.Factory.StartNew(() =>
             {
                 submitButton.PerformClick();
-                Assert.True(MessageBoxWrapper2.IsOpened, "The `Success` message box should appear.");
-                Assert.Equal("Success", MessageBoxWrapper2.Title);
-                Assert.Equal(MessageBoxButtons.OK, MessageBoxWrapper2.MessageBoxButtons);
-                Assert.True(MessageBoxWrapper2.Message.Length > 0, "There should be a proper message.");
+                Assert.True(MessageBoxWrapper.IsOpened, "The `Success` message box should appear.");
+                Assert.Equal("Success", MessageBoxWrapper.Title);
+                Assert.Equal(MessageBoxButtons.OK, MessageBoxWrapper.MessageBoxButtons);
+                Assert.True(MessageBoxWrapper.Message.Length > 0, "There should be a proper message.");
             });
         }
     }

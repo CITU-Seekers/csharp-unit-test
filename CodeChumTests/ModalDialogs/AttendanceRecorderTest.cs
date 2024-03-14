@@ -69,7 +69,7 @@
         [Fact]
         public void ShouldBeAbleToOpenAttendanceCheckerForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -87,7 +87,7 @@
         [Fact]
         public void ShouldBeAbleToOpenEmployeeRegistrationForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -105,7 +105,7 @@
         [Fact]
         public void ShouldBeAbleToCloseAttendanceCheckerForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -127,7 +127,7 @@
         [Fact]
         public void ShouldBeAbleToCloseEmployeeRegistrationForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
