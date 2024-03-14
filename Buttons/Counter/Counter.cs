@@ -20,7 +20,7 @@ namespace CodeChum
 
         private void CounterButton_Click(object sender, EventArgs e)
         {
-            CounterLabel.Text = (Convert.ToInt32(CounterLabel.Text) + 1).ToString();
+            counterLabel.Text = (Convert.ToInt32(counterLabel.Text) + 1).ToString();
         }
     }
 }

@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.OpenFileButton = new System.Windows.Forms.Button();
-            this.SaveFileButton = new System.Windows.Forms.Button();
+            this.mainRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.openFileButton = new System.Windows.Forms.Button();
+            this.saveFileButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // MainRichTextBox
+            // mainRichTextBox
             // 
-            this.MainRichTextBox.Location = new System.Drawing.Point(12, 87);
-            this.MainRichTextBox.Name = "MainRichTextBox";
-            this.MainRichTextBox.Size = new System.Drawing.Size(440, 199);
-            this.MainRichTextBox.TabIndex = 0;
-            this.MainRichTextBox.Text = "";
+            this.mainRichTextBox.Location = new System.Drawing.Point(12, 87);
+            this.mainRichTextBox.Name = "mainRichTextBox";
+            this.mainRichTextBox.Size = new System.Drawing.Size(440, 199);
+            this.mainRichTextBox.TabIndex = 0;
+            this.mainRichTextBox.Text = "";
             // 
-            // OpenFileButton
+            // openFileButton
             // 
-            this.OpenFileButton.Location = new System.Drawing.Point(53, 26);
-            this.OpenFileButton.Name = "OpenFileButton";
-            this.OpenFileButton.Size = new System.Drawing.Size(116, 37);
-            this.OpenFileButton.TabIndex = 1;
-            this.OpenFileButton.Text = "Open";
-            this.OpenFileButton.UseVisualStyleBackColor = true;
-            this.OpenFileButton.Click += new System.EventHandler(this.OpenFileButton_Click);
+            this.openFileButton.Location = new System.Drawing.Point(53, 26);
+            this.openFileButton.Name = "openFileButton";
+            this.openFileButton.Size = new System.Drawing.Size(116, 37);
+            this.openFileButton.TabIndex = 1;
+            this.openFileButton.Text = "Open";
+            this.openFileButton.UseVisualStyleBackColor = true;
+            this.openFileButton.Click += new System.EventHandler(this.OpenFileButton_Click);
             // 
-            // SaveFileButton
+            // saveFileButton
             // 
-            this.SaveFileButton.Location = new System.Drawing.Point(287, 26);
-            this.SaveFileButton.Name = "SaveFileButton";
-            this.SaveFileButton.Size = new System.Drawing.Size(116, 37);
-            this.SaveFileButton.TabIndex = 2;
-            this.SaveFileButton.Text = "Save";
-            this.SaveFileButton.UseVisualStyleBackColor = true;
-            this.SaveFileButton.Click += new System.EventHandler(this.SaveFileButton_Click);
+            this.saveFileButton.Location = new System.Drawing.Point(287, 26);
+            this.saveFileButton.Name = "saveFileButton";
+            this.saveFileButton.Size = new System.Drawing.Size(116, 37);
+            this.saveFileButton.TabIndex = 2;
+            this.saveFileButton.Text = "Save";
+            this.saveFileButton.UseVisualStyleBackColor = true;
+            this.saveFileButton.Click += new System.EventHandler(this.SaveFileButton_Click);
             // 
             // TextFileEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 298);
-            this.Controls.Add(this.SaveFileButton);
-            this.Controls.Add(this.OpenFileButton);
-            this.Controls.Add(this.MainRichTextBox);
+            this.Controls.Add(this.saveFileButton);
+            this.Controls.Add(this.openFileButton);
+            this.Controls.Add(this.mainRichTextBox);
             this.Name = "TextFileEditor";
             this.Text = "Text File Editor";
             this.ResumeLayout(false);
@@ -77,8 +77,8 @@
 
         #endregion
 
-        private RichTextBox MainRichTextBox;
-        private Button OpenFileButton;
-        private Button SaveFileButton;
+        private RichTextBox mainRichTextBox;
+        private Button openFileButton;
+        private Button saveFileButton;
     }
 }

@@ -20,24 +20,29 @@ namespace CodeChum
         private void displayText(Object sender, EventArgs e)
         {
             ToolStripMenuItem menuItem = sender as ToolStripMenuItem;
-            
+
             if (menuItem.Text.Equals("New"))
             {
-                StatusLabel.Text = "Creating new file...";
+                statusLabel.Text = "Creating new file...";
             }
             else if (menuItem.Text.Equals("Open"))
             {
-                StatusLabel.Text = "Opening file...";
+                statusLabel.Text = "Opening file...";
             }
             else if (menuItem.Text.Equals("Save"))
             {
-                StatusLabel.Text = "Saving file...";
+                statusLabel.Text = "Saving file...";
             }
             else if (menuItem.Text.Equals("Exit"))
             {
-                // StatusLabel.Text = "Closing app...";
+                // statusLabel.Text = "Closing app...";
                 this.Close();
             }
+        }
+
+        private void fileMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

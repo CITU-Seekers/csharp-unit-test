@@ -28,83 +28,83 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.EditorStatusStrip = new System.Windows.Forms.StatusStrip();
-            this.CaretPositionStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.TextLengthProgressBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.mainRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.editorStatusStrip = new System.Windows.Forms.StatusStrip();
+            this.caretPositionStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.textLengthProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.ToStartButton = new System.Windows.Forms.Button();
-            this.ToEndButton = new System.Windows.Forms.Button();
-            this.EditorStatusStrip.SuspendLayout();
+            this.toStartButton = new System.Windows.Forms.Button();
+            this.toEndButton = new System.Windows.Forms.Button();
+            this.editorStatusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
-            // MainRichTextBox
+            // mainRichTextBox
             // 
-            this.MainRichTextBox.Location = new System.Drawing.Point(31, 40);
-            this.MainRichTextBox.MaxLength = 200;
-            this.MainRichTextBox.Name = "MainRichTextBox";
-            this.MainRichTextBox.Size = new System.Drawing.Size(654, 216);
-            this.MainRichTextBox.TabIndex = 0;
-            this.MainRichTextBox.Text = "";
-            this.MainRichTextBox.SelectionChanged += new System.EventHandler(this.MainRichTextBox_SelectionChanged);
-            this.MainRichTextBox.TextChanged += new System.EventHandler(this.MainRichTextBox_TextChanged);
+            this.mainRichTextBox.Location = new System.Drawing.Point(31, 40);
+            this.mainRichTextBox.MaxLength = 200;
+            this.mainRichTextBox.Name = "mainRichTextBox";
+            this.mainRichTextBox.Size = new System.Drawing.Size(654, 216);
+            this.mainRichTextBox.TabIndex = 0;
+            this.mainRichTextBox.Text = "";
+            this.mainRichTextBox.SelectionChanged += new System.EventHandler(this.MainRichTextBox_SelectionChanged);
+            this.mainRichTextBox.TextChanged += new System.EventHandler(this.MainRichTextBox_TextChanged);
             // 
-            // EditorStatusStrip
+            // editorStatusStrip
             // 
-            this.EditorStatusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.EditorStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CaretPositionStatusLabel,
-            this.TextLengthProgressBar});
-            this.EditorStatusStrip.Location = new System.Drawing.Point(0, 306);
-            this.EditorStatusStrip.Name = "EditorStatusStrip";
-            this.EditorStatusStrip.Size = new System.Drawing.Size(720, 26);
-            this.EditorStatusStrip.TabIndex = 1;
+            this.editorStatusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.editorStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.caretPositionStatusLabel,
+            this.textLengthProgressBar});
+            this.editorStatusStrip.Location = new System.Drawing.Point(0, 306);
+            this.editorStatusStrip.Name = "editorStatusStrip";
+            this.editorStatusStrip.Size = new System.Drawing.Size(720, 26);
+            this.editorStatusStrip.TabIndex = 1;
             // 
-            // CaretPositionStatusLabel
+            // caretPositionStatusLabel
             // 
-            this.CaretPositionStatusLabel.Name = "CaretPositionStatusLabel";
-            this.CaretPositionStatusLabel.Size = new System.Drawing.Size(83, 20);
-            this.CaretPositionStatusLabel.Text = "Ln: 1, Col: 1";
+            this.caretPositionStatusLabel.Name = "caretPositionStatusLabel";
+            this.caretPositionStatusLabel.Size = new System.Drawing.Size(83, 20);
+            this.caretPositionStatusLabel.Text = "Ln: 1, Col: 1";
             // 
-            // TextLengthProgressBar
+            // textLengthProgressBar
             // 
-            this.TextLengthProgressBar.Maximum = 200;
-            this.TextLengthProgressBar.Name = "TextLengthProgressBar";
-            this.TextLengthProgressBar.Size = new System.Drawing.Size(100, 18);
+            this.textLengthProgressBar.Maximum = 200;
+            this.textLengthProgressBar.Name = "textLengthProgressBar";
+            this.textLengthProgressBar.Size = new System.Drawing.Size(100, 18);
             // 
-            // ToStartButton
+            // toStartButton
             // 
-            this.ToStartButton.Location = new System.Drawing.Point(211, 262);
-            this.ToStartButton.Name = "ToStartButton";
-            this.ToStartButton.Size = new System.Drawing.Size(108, 29);
-            this.ToStartButton.TabIndex = 2;
-            this.ToStartButton.Text = "To Start";
-            this.ToStartButton.UseVisualStyleBackColor = true;
-            this.ToStartButton.Click += new System.EventHandler(this.ToStartButton_Click);
+            this.toStartButton.Location = new System.Drawing.Point(211, 262);
+            this.toStartButton.Name = "toStartButton";
+            this.toStartButton.Size = new System.Drawing.Size(108, 29);
+            this.toStartButton.TabIndex = 2;
+            this.toStartButton.Text = "To Start";
+            this.toStartButton.UseVisualStyleBackColor = true;
+            this.toStartButton.Click += new System.EventHandler(this.ToStartButton_Click);
             // 
-            // ToEndButton
+            // toEndButton
             // 
-            this.ToEndButton.Location = new System.Drawing.Point(384, 262);
-            this.ToEndButton.Name = "ToEndButton";
-            this.ToEndButton.Size = new System.Drawing.Size(108, 29);
-            this.ToEndButton.TabIndex = 3;
-            this.ToEndButton.Text = "To End";
-            this.ToEndButton.UseVisualStyleBackColor = true;
-            this.ToEndButton.Click += new System.EventHandler(this.ToEndButton_Click);
+            this.toEndButton.Location = new System.Drawing.Point(384, 262);
+            this.toEndButton.Name = "toEndButton";
+            this.toEndButton.Size = new System.Drawing.Size(108, 29);
+            this.toEndButton.TabIndex = 3;
+            this.toEndButton.Text = "To End";
+            this.toEndButton.UseVisualStyleBackColor = true;
+            this.toEndButton.Click += new System.EventHandler(this.ToEndButton_Click);
             // 
             // TextEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 332);
-            this.Controls.Add(this.ToEndButton);
-            this.Controls.Add(this.ToStartButton);
-            this.Controls.Add(this.EditorStatusStrip);
-            this.Controls.Add(this.MainRichTextBox);
+            this.Controls.Add(this.toEndButton);
+            this.Controls.Add(this.toStartButton);
+            this.Controls.Add(this.editorStatusStrip);
+            this.Controls.Add(this.mainRichTextBox);
             this.Name = "TextEditor";
             this.Text = "Text Editor";
-            this.EditorStatusStrip.ResumeLayout(false);
-            this.EditorStatusStrip.PerformLayout();
+            this.editorStatusStrip.ResumeLayout(false);
+            this.editorStatusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,12 +112,12 @@
 
         #endregion
 
-        private RichTextBox MainRichTextBox;
-        private System.Windows.Forms.StatusStrip EditorStatusStrip;
-        private ToolStripStatusLabel CaretPositionStatusLabel;
+        private RichTextBox mainRichTextBox;
+        private System.Windows.Forms.StatusStrip editorStatusStrip;
+        private ToolStripStatusLabel caretPositionStatusLabel;
         private FontDialog fontDialog1;
-        private Button ToStartButton;
-        private Button ToEndButton;
-        private ToolStripProgressBar TextLengthProgressBar;
+        private Button toStartButton;
+        private Button toEndButton;
+        private ToolStripProgressBar textLengthProgressBar;
     }
 }

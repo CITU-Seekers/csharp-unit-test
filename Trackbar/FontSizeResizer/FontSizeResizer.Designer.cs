@@ -28,51 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ResizeTrackBar = new System.Windows.Forms.TrackBar();
-            this.Label = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.ResizeTrackBar)).BeginInit();
-            this.SuspendLayout();
+            resizeTrackBar = new TrackBar();
+            fontSizeLabel = new Label();
+            ((System.ComponentModel.ISupportInitialize)resizeTrackBar).BeginInit();
+            SuspendLayout();
             // 
-            // ResizeTrackBar
+            // resizeTrackBar
             // 
-            this.ResizeTrackBar.Location = new System.Drawing.Point(89, 60);
-            this.ResizeTrackBar.Maximum = 20;
-            this.ResizeTrackBar.Minimum = 1;
-            this.ResizeTrackBar.Name = "ResizeTrackBar";
-            this.ResizeTrackBar.Size = new System.Drawing.Size(329, 56);
-            this.ResizeTrackBar.TabIndex = 0;
-            this.ResizeTrackBar.Value = 1;
-            this.ResizeTrackBar.ValueChanged += new System.EventHandler(this.ResizeTrackBar_ValueChanged);
+            resizeTrackBar.Location = new Point(69, 39);
+            resizeTrackBar.Margin = new Padding(2, 2, 2, 2);
+            resizeTrackBar.Maximum = 20;
+            resizeTrackBar.Minimum = 1;
+            resizeTrackBar.Name = "resizeTrackBar";
+            resizeTrackBar.Size = new Size(256, 45);
+            resizeTrackBar.TabIndex = 0;
+            resizeTrackBar.Value = 1;
+            resizeTrackBar.Scroll += ResizeTrackBar_Scroll;
+            resizeTrackBar.ValueChanged += ResizeTrackBar_ValueChanged;
             // 
-            // Label
+            // fontSizeLabel
             // 
-            this.Label.AutoSize = true;
-            this.Label.Font = new System.Drawing.Font("Segoe UI", 1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Label.Location = new System.Drawing.Point(224, 141);
-            this.Label.Name = "Label";
-            this.Label.Size = new System.Drawing.Size(6, 3);
-            this.Label.TabIndex = 1;
-            this.Label.Text = "Test";
-            this.Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            fontSizeLabel.AutoSize = true;
+            fontSizeLabel.Font = new Font("Segoe UI", 1F, FontStyle.Bold, GraphicsUnit.Point);
+            fontSizeLabel.Location = new Point(174, 92);
+            fontSizeLabel.Margin = new Padding(2, 0, 2, 0);
+            fontSizeLabel.Name = "fontSizeLabel";
+            fontSizeLabel.Size = new Size(6, 3);
+            fontSizeLabel.TabIndex = 1;
+            fontSizeLabel.Text = "Test";
+            fontSizeLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // FontSizeSlider
+            // FontSizeResizer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 252);
-            this.Controls.Add(this.Label);
-            this.Controls.Add(this.ResizeTrackBar);
-            this.Name = "FontSizeSlider";
-            this.Text = "FontSizeSlider";
-            ((System.ComponentModel.ISupportInitialize)(this.ResizeTrackBar)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(403, 164);
+            Controls.Add(fontSizeLabel);
+            Controls.Add(resizeTrackBar);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "FontSizeResizer";
+            Text = "FontSizeSlider";
+            ((System.ComponentModel.ISupportInitialize)resizeTrackBar).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TrackBar ResizeTrackBar;
-        private Label Label;
+        private TrackBar resizeTrackBar;
+        private Label fontSizeLabel;
     }
 }

@@ -28,89 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.RemoveNodeButton = new System.Windows.Forms.Button();
-            this.AddNodeButton = new System.Windows.Forms.Button();
-            this.MainNodeCheckBox = new System.Windows.Forms.CheckBox();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.MainTreeView = new System.Windows.Forms.TreeView();
-            this.UpdateNodeButton = new System.Windows.Forms.Button();
-            this.PathLabel = new System.Windows.Forms.Label();
+            this.removeNodeButton = new System.Windows.Forms.Button();
+            this.addNodeButton = new System.Windows.Forms.Button();
+            this.mainNodeCheckBox = new System.Windows.Forms.CheckBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.mainTreeView = new System.Windows.Forms.TreeView();
+            this.updateNodeButton = new System.Windows.Forms.Button();
+            this.pathLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // RemoveNodeButton
+            // removeNodeButton
             // 
-            this.RemoveNodeButton.Location = new System.Drawing.Point(343, 144);
-            this.RemoveNodeButton.Name = "RemoveNodeButton";
-            this.RemoveNodeButton.Size = new System.Drawing.Size(184, 33);
-            this.RemoveNodeButton.TabIndex = 9;
-            this.RemoveNodeButton.Text = "Remove";
-            this.RemoveNodeButton.UseVisualStyleBackColor = true;
-            this.RemoveNodeButton.Click += new System.EventHandler(this.RemoveNodeButton_Click);
+            this.removeNodeButton.Location = new System.Drawing.Point(343, 144);
+            this.removeNodeButton.Name = "removeNodeButton";
+            this.removeNodeButton.Size = new System.Drawing.Size(184, 33);
+            this.removeNodeButton.TabIndex = 9;
+            this.removeNodeButton.Text = "Remove";
+            this.removeNodeButton.UseVisualStyleBackColor = true;
+            this.removeNodeButton.Click += new System.EventHandler(this.RemoveNodeButton_Click);
             // 
-            // AddNodeButton
+            // addNodeButton
             // 
-            this.AddNodeButton.Location = new System.Drawing.Point(343, 105);
-            this.AddNodeButton.Name = "AddNodeButton";
-            this.AddNodeButton.Size = new System.Drawing.Size(184, 33);
-            this.AddNodeButton.TabIndex = 8;
-            this.AddNodeButton.Text = "Add";
-            this.AddNodeButton.UseVisualStyleBackColor = true;
-            this.AddNodeButton.Click += new System.EventHandler(this.AddNodeButton_Click);
+            this.addNodeButton.Location = new System.Drawing.Point(343, 105);
+            this.addNodeButton.Name = "addNodeButton";
+            this.addNodeButton.Size = new System.Drawing.Size(184, 33);
+            this.addNodeButton.TabIndex = 8;
+            this.addNodeButton.Text = "Add";
+            this.addNodeButton.UseVisualStyleBackColor = true;
+            this.addNodeButton.Click += new System.EventHandler(this.AddNodeButton_Click);
             // 
-            // MainNodeCheckBox
+            // mainNodeCheckBox
             // 
-            this.MainNodeCheckBox.Location = new System.Drawing.Point(343, 69);
-            this.MainNodeCheckBox.Name = "MainNodeCheckBox";
-            this.MainNodeCheckBox.Size = new System.Drawing.Size(184, 30);
-            this.MainNodeCheckBox.TabIndex = 7;
-            this.MainNodeCheckBox.Text = "Create Node at Top?";
-            this.MainNodeCheckBox.UseVisualStyleBackColor = true;
+            this.mainNodeCheckBox.Location = new System.Drawing.Point(343, 69);
+            this.mainNodeCheckBox.Name = "mainNodeCheckBox";
+            this.mainNodeCheckBox.Size = new System.Drawing.Size(184, 30);
+            this.mainNodeCheckBox.TabIndex = 7;
+            this.mainNodeCheckBox.Text = "Create Node at Top?";
+            this.mainNodeCheckBox.UseVisualStyleBackColor = true;
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(344, 36);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.PlaceholderText = "Node Name";
-            this.NameTextBox.Size = new System.Drawing.Size(184, 27);
-            this.NameTextBox.TabIndex = 6;
+            this.nameTextBox.Location = new System.Drawing.Point(344, 36);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.PlaceholderText = "Node Name";
+            this.nameTextBox.Size = new System.Drawing.Size(184, 27);
+            this.nameTextBox.TabIndex = 6;
             // 
-            // MainTreeView
+            // mainTreeView
             // 
-            this.MainTreeView.Location = new System.Drawing.Point(46, 27);
-            this.MainTreeView.Name = "MainTreeView";
-            this.MainTreeView.Size = new System.Drawing.Size(262, 249);
-            this.MainTreeView.TabIndex = 5;
-            this.MainTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.MainTreeView_AfterSelect);
+            this.mainTreeView.Location = new System.Drawing.Point(46, 27);
+            this.mainTreeView.Name = "mainTreeView";
+            this.mainTreeView.Size = new System.Drawing.Size(262, 249);
+            this.mainTreeView.TabIndex = 5;
+            this.mainTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.MainTreeView_AfterSelect);
             // 
-            // UpdateNodeButton
+            // updateNodeButton
             // 
-            this.UpdateNodeButton.Location = new System.Drawing.Point(343, 183);
-            this.UpdateNodeButton.Name = "UpdateNodeButton";
-            this.UpdateNodeButton.Size = new System.Drawing.Size(184, 33);
-            this.UpdateNodeButton.TabIndex = 10;
-            this.UpdateNodeButton.Text = "Update";
-            this.UpdateNodeButton.UseVisualStyleBackColor = true;
-            this.UpdateNodeButton.Click += new System.EventHandler(this.UpdateNodeButton_Click);
+            this.updateNodeButton.Location = new System.Drawing.Point(343, 183);
+            this.updateNodeButton.Name = "updateNodeButton";
+            this.updateNodeButton.Size = new System.Drawing.Size(184, 33);
+            this.updateNodeButton.TabIndex = 10;
+            this.updateNodeButton.Text = "Update";
+            this.updateNodeButton.UseVisualStyleBackColor = true;
+            this.updateNodeButton.Click += new System.EventHandler(this.UpdateNodeButton_Click);
             // 
-            // PathLabel
+            // pathLabel
             // 
-            this.PathLabel.Location = new System.Drawing.Point(344, 251);
-            this.PathLabel.Name = "PathLabel";
-            this.PathLabel.Size = new System.Drawing.Size(183, 25);
-            this.PathLabel.TabIndex = 11;
+            this.pathLabel.Location = new System.Drawing.Point(344, 251);
+            this.pathLabel.Name = "pathLabel";
+            this.pathLabel.Size = new System.Drawing.Size(183, 25);
+            this.pathLabel.TabIndex = 11;
             // 
             // TreeViewNodesCRUD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 314);
-            this.Controls.Add(this.PathLabel);
-            this.Controls.Add(this.UpdateNodeButton);
-            this.Controls.Add(this.RemoveNodeButton);
-            this.Controls.Add(this.AddNodeButton);
-            this.Controls.Add(this.MainNodeCheckBox);
-            this.Controls.Add(this.NameTextBox);
-            this.Controls.Add(this.MainTreeView);
+            this.Controls.Add(this.pathLabel);
+            this.Controls.Add(this.updateNodeButton);
+            this.Controls.Add(this.removeNodeButton);
+            this.Controls.Add(this.addNodeButton);
+            this.Controls.Add(this.mainNodeCheckBox);
+            this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.mainTreeView);
             this.Name = "TreeViewNodesCRUD";
             this.Text = "Tree View Nodes CRUD";
             this.ResumeLayout(false);
@@ -120,12 +120,12 @@
 
         #endregion
 
-        private Button RemoveNodeButton;
-        private Button AddNodeButton;
-        private CheckBox MainNodeCheckBox;
-        private TextBox NameTextBox;
-        private TreeView MainTreeView;
-        private Button UpdateNodeButton;
-        private Label PathLabel;
+        private Button removeNodeButton;
+        private Button addNodeButton;
+        private CheckBox mainNodeCheckBox;
+        private TextBox nameTextBox;
+        private TreeView mainTreeView;
+        private Button updateNodeButton;
+        private Label pathLabel;
     }
 }

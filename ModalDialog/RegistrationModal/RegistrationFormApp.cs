@@ -24,8 +24,8 @@ namespace CodeChum
         {
             RegisterModal.ShowDialog();
 
-            NameLabel.Text = RegisterModal.RegisteredName;
-            EmailLabel.Text = RegisterModal.RegisteredEmail;
+            nameLabel.Text = RegisterModal.RegisteredName;
+            emailLabel.Text = RegisterModal.RegisteredEmail;
         }
     }
 }

@@ -28,76 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CheckButton = new System.Windows.Forms.Button();
-            this.CharRadioButton = new System.Windows.Forms.RadioButton();
-            this.IntRadioButton = new System.Windows.Forms.RadioButton();
-            this.BooleanRadioButton = new System.Windows.Forms.RadioButton();
-            this.StringRadioButton = new System.Windows.Forms.RadioButton();
-            this.ResultLabel = new System.Windows.Forms.Label();
+            this.checkButton = new System.Windows.Forms.Button();
+            this.charRadioButton = new System.Windows.Forms.RadioButton();
+            this.intRadioButton = new System.Windows.Forms.RadioButton();
+            this.booleanRadioButton = new System.Windows.Forms.RadioButton();
+            this.stringRadioButton = new System.Windows.Forms.RadioButton();
+            this.resultLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // CheckButton
+            // checkButton
             // 
-            this.CheckButton.Location = new System.Drawing.Point(166, 193);
-            this.CheckButton.Name = "CheckButton";
-            this.CheckButton.Size = new System.Drawing.Size(84, 25);
-            this.CheckButton.TabIndex = 0;
-            this.CheckButton.Text = "Check";
-            this.CheckButton.UseVisualStyleBackColor = true;
-            this.CheckButton.Click += new System.EventHandler(this.btnCheck_Click);
+            this.checkButton.Location = new System.Drawing.Point(166, 193);
+            this.checkButton.Name = "checkButton";
+            this.checkButton.Size = new System.Drawing.Size(84, 25);
+            this.checkButton.TabIndex = 0;
+            this.checkButton.Text = "Check";
+            this.checkButton.UseVisualStyleBackColor = true;
+            this.checkButton.Click += new System.EventHandler(this.btnCheck_Click);
             // 
-            // CharRadioButton
+            // charRadioButton
             // 
-            this.CharRadioButton.AutoSize = true;
-            this.CharRadioButton.Checked = true;
-            this.CharRadioButton.Location = new System.Drawing.Point(91, 62);
-            this.CharRadioButton.Name = "CharRadioButton";
-            this.CharRadioButton.Size = new System.Drawing.Size(93, 24);
-            this.CharRadioButton.TabIndex = 1;
-            this.CharRadioButton.TabStop = true;
-            this.CharRadioButton.Text = "Character";
-            this.CharRadioButton.UseVisualStyleBackColor = true;
+            this.charRadioButton.AutoSize = true;
+            this.charRadioButton.Checked = true;
+            this.charRadioButton.Location = new System.Drawing.Point(91, 62);
+            this.charRadioButton.Name = "charRadioButton";
+            this.charRadioButton.Size = new System.Drawing.Size(93, 24);
+            this.charRadioButton.TabIndex = 1;
+            this.charRadioButton.TabStop = true;
+            this.charRadioButton.Text = "Character";
+            this.charRadioButton.UseVisualStyleBackColor = true;
             // 
-            // IntRadioButton
+            // intRadioButton
             // 
-            this.IntRadioButton.AutoSize = true;
-            this.IntRadioButton.Location = new System.Drawing.Point(91, 92);
-            this.IntRadioButton.Name = "IntRadioButton";
-            this.IntRadioButton.Size = new System.Drawing.Size(77, 24);
-            this.IntRadioButton.TabIndex = 2;
-            this.IntRadioButton.Text = "Integer";
-            this.IntRadioButton.UseVisualStyleBackColor = true;
+            this.intRadioButton.AutoSize = true;
+            this.intRadioButton.Location = new System.Drawing.Point(91, 92);
+            this.intRadioButton.Name = "intRadioButton";
+            this.intRadioButton.Size = new System.Drawing.Size(77, 24);
+            this.intRadioButton.TabIndex = 2;
+            this.intRadioButton.Text = "Integer";
+            this.intRadioButton.UseVisualStyleBackColor = true;
             // 
-            // BooleanRadioButton
+            // booleanRadioButton
             // 
-            this.BooleanRadioButton.AutoSize = true;
-            this.BooleanRadioButton.Location = new System.Drawing.Point(91, 122);
-            this.BooleanRadioButton.Name = "BooleanRadioButton";
-            this.BooleanRadioButton.Size = new System.Drawing.Size(85, 24);
-            this.BooleanRadioButton.TabIndex = 3;
-            this.BooleanRadioButton.Text = "Boolean";
-            this.BooleanRadioButton.UseVisualStyleBackColor = true;
+            this.booleanRadioButton.AutoSize = true;
+            this.booleanRadioButton.Location = new System.Drawing.Point(91, 122);
+            this.booleanRadioButton.Name = "booleanRadioButton";
+            this.booleanRadioButton.Size = new System.Drawing.Size(85, 24);
+            this.booleanRadioButton.TabIndex = 3;
+            this.booleanRadioButton.Text = "Boolean";
+            this.booleanRadioButton.UseVisualStyleBackColor = true;
             // 
-            // StringRadioButton
+            // stringRadioButton
             // 
-            this.StringRadioButton.AutoSize = true;
-            this.StringRadioButton.Location = new System.Drawing.Point(91, 152);
-            this.StringRadioButton.Name = "StringRadioButton";
-            this.StringRadioButton.Size = new System.Drawing.Size(69, 24);
-            this.StringRadioButton.TabIndex = 4;
-            this.StringRadioButton.Text = "String";
-            this.StringRadioButton.UseVisualStyleBackColor = true;
+            this.stringRadioButton.AutoSize = true;
+            this.stringRadioButton.Location = new System.Drawing.Point(91, 152);
+            this.stringRadioButton.Name = "stringRadioButton";
+            this.stringRadioButton.Size = new System.Drawing.Size(69, 24);
+            this.stringRadioButton.TabIndex = 4;
+            this.stringRadioButton.Text = "String";
+            this.stringRadioButton.UseVisualStyleBackColor = true;
             // 
-            // ResultLabel
+            // resultLabel
             // 
-            this.ResultLabel.AutoSize = true;
-            this.ResultLabel.Location = new System.Drawing.Point(180, 233);
-            this.ResultLabel.MinimumSize = new System.Drawing.Size(60, 20);
-            this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(60, 20);
-            this.ResultLabel.TabIndex = 5;
+            this.resultLabel.AutoSize = true;
+            this.resultLabel.Location = new System.Drawing.Point(180, 233);
+            this.resultLabel.MinimumSize = new System.Drawing.Size(60, 20);
+            this.resultLabel.Name = "resultLabel";
+            this.resultLabel.Size = new System.Drawing.Size(60, 20);
+            this.resultLabel.TabIndex = 5;
             // 
             // label1
             // 
@@ -126,12 +126,12 @@
             this.ClientSize = new System.Drawing.Size(411, 271);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ResultLabel);
-            this.Controls.Add(this.StringRadioButton);
-            this.Controls.Add(this.BooleanRadioButton);
-            this.Controls.Add(this.IntRadioButton);
-            this.Controls.Add(this.CharRadioButton);
-            this.Controls.Add(this.CheckButton);
+            this.Controls.Add(this.resultLabel);
+            this.Controls.Add(this.stringRadioButton);
+            this.Controls.Add(this.booleanRadioButton);
+            this.Controls.Add(this.intRadioButton);
+            this.Controls.Add(this.charRadioButton);
+            this.Controls.Add(this.checkButton);
             this.Name = "SimpleQuestionnaire";
             this.Text = "Simple Questionnaire";
             this.ResumeLayout(false);
@@ -141,12 +141,12 @@
 
         #endregion
 
-        private Button CheckButton;
-        private RadioButton CharRadioButton;
-        private RadioButton IntRadioButton;
-        private RadioButton BooleanRadioButton;
-        private RadioButton StringRadioButton;
-        private Label ResultLabel;
+        private Button checkButton;
+        private RadioButton charRadioButton;
+        private RadioButton intRadioButton;
+        private RadioButton booleanRadioButton;
+        private RadioButton stringRadioButton;
+        private Label resultLabel;
         private Label label1;
         private Label label2;
     }

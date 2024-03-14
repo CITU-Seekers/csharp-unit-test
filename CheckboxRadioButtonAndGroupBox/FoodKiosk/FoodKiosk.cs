@@ -52,14 +52,14 @@ namespace CodeChum
         private void OrderButton_Click(object sender, EventArgs e)
         {
             double total = 0;
-            if (PizzaCheckBox.Checked) { total += pizzaPrice; }
-            if (BurgerCheckBox.Checked) { total += burgerPrice; }
-            if (TeaCheckBox.Checked) { total += teaPrice; }
+            if (pizzaCheckBox.Checked) { total += pizzaPrice; }
+            if (burgerCheckBox.Checked) { total += burgerPrice; }
+            if (teaCheckBox.Checked) { total += teaPrice; }
 
-            if (FiveRadioButton.Checked) { total *= 0.95; }
-            else if (TenRadioButton.Checked) { total *= 0.9; }
+            if (fiveRadioButton.Checked) { total *= 0.95; }
+            else if (tenRadioButton.Checked) { total *= 0.9; }
 
-            TotalCostLabel.Text = "Total: " + "Php " + total.ToString("F");
+            totalCostLabel.Text = "Total: " + "Php " + total.ToString("F");
         }
     }
 }

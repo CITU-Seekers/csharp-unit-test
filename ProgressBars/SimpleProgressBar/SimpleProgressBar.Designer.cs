@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.ProgressBar = new System.Windows.Forms.ProgressBar();
-            this.StartButton = new System.Windows.Forms.Button();
-            this.ProgressTimer = new System.Windows.Forms.Timer(this.components);
+            this.timedProgressBar = new System.Windows.Forms.ProgressBar();
+            this.startButton = new System.Windows.Forms.Button();
+            this.progressTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // ProgressBar
+            // timedProgressBar
             // 
-            this.ProgressBar.Location = new System.Drawing.Point(44, 69);
-            this.ProgressBar.Name = "ProgressBar";
-            this.ProgressBar.Size = new System.Drawing.Size(275, 25);
-            this.ProgressBar.Step = 1;
-            this.ProgressBar.TabIndex = 0;
+            this.timedProgressBar.Location = new System.Drawing.Point(44, 69);
+            this.timedProgressBar.Name = "timedProgressBar";
+            this.timedProgressBar.Size = new System.Drawing.Size(275, 25);
+            this.timedProgressBar.Step = 1;
+            this.timedProgressBar.TabIndex = 0;
             // 
-            // StartButton
+            // startButton
             // 
-            this.StartButton.Location = new System.Drawing.Point(138, 130);
-            this.StartButton.Name = "StartButton";
-            this.StartButton.Size = new System.Drawing.Size(84, 25);
-            this.StartButton.TabIndex = 1;
-            this.StartButton.Text = "Start";
-            this.StartButton.UseVisualStyleBackColor = true;
-            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
+            this.startButton.Location = new System.Drawing.Point(138, 130);
+            this.startButton.Name = "startButton";
+            this.startButton.Size = new System.Drawing.Size(84, 25);
+            this.startButton.TabIndex = 1;
+            this.startButton.Text = "Start";
+            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
-            // ProgressTimer
+            // progressTimer
             // 
-            this.ProgressTimer.Interval = 1000;
-            this.ProgressTimer.Tick += new System.EventHandler(this.ProgressTimer_Tick);
+            this.progressTimer.Interval = 1000;
+            this.progressTimer.Tick += new System.EventHandler(this.ProgressTimer_Tick);
             // 
             // SimpleProgressBar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 197);
-            this.Controls.Add(this.StartButton);
-            this.Controls.Add(this.ProgressBar);
+            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.timedProgressBar);
             this.Name = "SimpleProgressBar";
             this.Text = "Simple Progress Bar";
             this.ResumeLayout(false);
@@ -72,8 +72,8 @@
 
         #endregion
 
-        private System.Windows.Forms.ProgressBar ProgressBar;
-        private Button StartButton;
-        private System.Windows.Forms.Timer ProgressTimer;
+        private System.Windows.Forms.ProgressBar timedProgressBar;
+        private Button startButton;
+        private System.Windows.Forms.Timer progressTimer;
     }
 }

@@ -32,9 +32,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.OpenRegistrationModalButton = new System.Windows.Forms.Button();
-            this.NameLabel = new System.Windows.Forms.Label();
-            this.EmailLabel = new System.Windows.Forms.Label();
+            this.openRegistrationModalButton = new System.Windows.Forms.Button();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.emailLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,8 +50,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.EmailLabel);
-            this.panel1.Controls.Add(this.NameLabel);
+            this.panel1.Controls.Add(this.emailLabel);
+            this.panel1.Controls.Add(this.nameLabel);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(25, 65);
@@ -79,42 +79,42 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Email:";
             // 
-            // OpenRegistrationModalButton
+            // openRegistrationModalButton
             // 
-            this.OpenRegistrationModalButton.Location = new System.Drawing.Point(164, 186);
-            this.OpenRegistrationModalButton.Name = "OpenRegistrationModalButton";
-            this.OpenRegistrationModalButton.Size = new System.Drawing.Size(148, 40);
-            this.OpenRegistrationModalButton.TabIndex = 2;
-            this.OpenRegistrationModalButton.Text = "Register";
-            this.OpenRegistrationModalButton.UseVisualStyleBackColor = true;
-            this.OpenRegistrationModalButton.Click += new System.EventHandler(this.OpenRegistrationModalButton_Click);
+            this.openRegistrationModalButton.Location = new System.Drawing.Point(164, 186);
+            this.openRegistrationModalButton.Name = "openRegistrationModalButton";
+            this.openRegistrationModalButton.Size = new System.Drawing.Size(148, 40);
+            this.openRegistrationModalButton.TabIndex = 2;
+            this.openRegistrationModalButton.Text = "Register";
+            this.openRegistrationModalButton.UseVisualStyleBackColor = true;
+            this.openRegistrationModalButton.Click += new System.EventHandler(this.OpenRegistrationModalButton_Click);
             // 
-            // NameLabel
+            // nameLabel
             // 
-            this.NameLabel.AutoSize = true;
-            this.NameLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NameLabel.Location = new System.Drawing.Point(89, 15);
-            this.NameLabel.MinimumSize = new System.Drawing.Size(200, 0);
-            this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(200, 28);
-            this.NameLabel.TabIndex = 4;
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nameLabel.Location = new System.Drawing.Point(89, 15);
+            this.nameLabel.MinimumSize = new System.Drawing.Size(200, 0);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(200, 28);
+            this.nameLabel.TabIndex = 4;
             // 
-            // EmailLabel
+            // emailLabel
             // 
-            this.EmailLabel.AutoSize = true;
-            this.EmailLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel.Location = new System.Drawing.Point(89, 55);
-            this.EmailLabel.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel.Name = "EmailLabel";
-            this.EmailLabel.Size = new System.Drawing.Size(200, 28);
-            this.EmailLabel.TabIndex = 5;
+            this.emailLabel.AutoSize = true;
+            this.emailLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.emailLabel.Location = new System.Drawing.Point(89, 55);
+            this.emailLabel.MinimumSize = new System.Drawing.Size(200, 0);
+            this.emailLabel.Name = "emailLabel";
+            this.emailLabel.Size = new System.Drawing.Size(200, 28);
+            this.emailLabel.TabIndex = 5;
             // 
             // RegistrationFormApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 251);
-            this.Controls.Add(this.OpenRegistrationModalButton);
+            this.Controls.Add(this.openRegistrationModalButton);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "RegistrationFormApp";
@@ -132,8 +132,8 @@
         private Panel panel1;
         private Label label3;
         private Label label2;
-        private Button OpenRegistrationModalButton;
-        private Label EmailLabel;
-        private Label NameLabel;
+        private Button openRegistrationModalButton;
+        private Label emailLabel;
+        private Label nameLabel;
     }
 }

@@ -38,7 +38,7 @@ namespace CodeChum
                 {
                     using (Stream fs = EditorSaveFileDialog.OpenFile())
                     {
-                        Byte[] helloWorld = new UTF8Encoding(true).GetBytes(MainRichTextBox.Text);
+                        Byte[] helloWorld = new UTF8Encoding(true).GetBytes(mainRichTextBox.Text);
                         fs.Write(helloWorld, 0, helloWorld.Length);
                     }
                 }
@@ -57,7 +57,7 @@ namespace CodeChum
             if (EditorOpenFileDialog.FileName.Length > 0)
             {
                 String fileName = EditorOpenFileDialog.FileName;
-                MainRichTextBox.Text = System.IO.File.ReadAllText(fileName);
+                mainRichTextBox.Text = System.IO.File.ReadAllText(fileName);
             }
         }
     }

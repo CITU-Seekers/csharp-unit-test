@@ -24,15 +24,15 @@ namespace CodeChum
             pageNumber--;
             if (pageNumber == 1)
             {
-                FirstPanel.Visible = true;
-                SecondPanel.Visible = false;
-                PrevButton.Enabled = false;
+                firstPanel.Visible = true;
+                secondPanel.Visible = false;
+                prevButton.Enabled = false;
             }
             else if (pageNumber == 2)
             {
-                SecondPanel.Visible = true;
-                ThirdPanel.Visible = false;
-                NextButton.Enabled = true;
+                secondPanel.Visible = true;
+                thirdPanel.Visible = false;
+                nextButton.Enabled = true;
             }
         }
 
@@ -42,33 +42,33 @@ namespace CodeChum
             if (pageNumber == 2)
             {
                 Debug.WriteLine("DDD");
-                SecondPanel.Visible = true;
-                FirstPanel.Visible = false;
-                PrevButton.Enabled = true;
+                secondPanel.Visible = true;
+                firstPanel.Visible = false;
+                prevButton.Enabled = true;
             }
             else if (pageNumber == 3)
             {
-                ThirdPanel.Visible = true;
-                SecondPanel.Visible = false;
-                NextButton.Enabled = false;
+                thirdPanel.Visible = true;
+                secondPanel.Visible = false;
+                nextButton.Enabled = false;
             }
             Debug.WriteLine(pageNumber);
-            Debug.WriteLine(SecondPanel.Visible);
+            Debug.WriteLine(secondPanel.Visible);
         }
 
         private void NameTextBox_TextChanged(object sender, EventArgs e)
         {
-            NameLabel.Text = NameTextBox.Text;
+            nameLabel.Text = nameTextBox.Text;
         }
 
         private void AgeTextBox_TextChanged(object sender, EventArgs e)
         {
-            AgeLabel.Text = AgeTextBox.Text;
+            ageLabel.Text = ageTextBox.Text;
         }
 
         private void QuoteRichTextBox_TextChanged(object sender, EventArgs e)
         {
-            QuoteDisplayRichTextBox.Text = QuoteRichTextBox.Text;
+            quoteDisplayRichTextBox.Text = quoteRichTextBox.Text;
         }
     }
 }

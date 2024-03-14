@@ -28,65 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MonthCalendar = new System.Windows.Forms.MonthCalendar();
-            this.EventLabel = new System.Windows.Forms.Label();
-            this.EventNameTextBox = new System.Windows.Forms.TextBox();
-            this.AddEventButton = new System.Windows.Forms.Button();
-            this.RetrieveEventButton = new System.Windows.Forms.Button();
+            this.personalMonthCalendar = new System.Windows.Forms.MonthCalendar();
+            this.eventLabel = new System.Windows.Forms.Label();
+            this.eventNameTextBox = new System.Windows.Forms.TextBox();
+            this.addEventButton = new System.Windows.Forms.Button();
+            this.retrieveEventButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // MonthCalendar
+            // personalMonthCalendar
             // 
-            this.MonthCalendar.Location = new System.Drawing.Point(34, 41);
-            this.MonthCalendar.Margin = new System.Windows.Forms.Padding(8);
-            this.MonthCalendar.MaxSelectionCount = 1;
-            this.MonthCalendar.Name = "MonthCalendar";
-            this.MonthCalendar.TabIndex = 0;
+            this.personalMonthCalendar.Location = new System.Drawing.Point(34, 41);
+            this.personalMonthCalendar.Margin = new System.Windows.Forms.Padding(8);
+            this.personalMonthCalendar.MaxSelectionCount = 1;
+            this.personalMonthCalendar.Name = "personalMonthCalendar";
+            this.personalMonthCalendar.TabIndex = 0;
             // 
-            // EventLabel
+            // eventLabel
             // 
-            this.EventLabel.Location = new System.Drawing.Point(41, 299);
-            this.EventLabel.Name = "EventLabel";
-            this.EventLabel.Size = new System.Drawing.Size(137, 49);
-            this.EventLabel.TabIndex = 1;
+            this.eventLabel.Location = new System.Drawing.Point(41, 299);
+            this.eventLabel.Name = "eventLabel";
+            this.eventLabel.Size = new System.Drawing.Size(137, 49);
+            this.eventLabel.TabIndex = 1;
             // 
-            // EventNameTextBox
+            // eventNameTextBox
             // 
-            this.EventNameTextBox.Location = new System.Drawing.Point(41, 259);
-            this.EventNameTextBox.Name = "EventNameTextBox";
-            this.EventNameTextBox.Size = new System.Drawing.Size(137, 27);
-            this.EventNameTextBox.TabIndex = 2;
+            this.eventNameTextBox.Location = new System.Drawing.Point(41, 259);
+            this.eventNameTextBox.Name = "eventNameTextBox";
+            this.eventNameTextBox.Size = new System.Drawing.Size(137, 27);
+            this.eventNameTextBox.TabIndex = 2;
             // 
-            // AddEventButton
+            // addEventButton
             // 
-            this.AddEventButton.Location = new System.Drawing.Point(183, 259);
-            this.AddEventButton.Name = "AddEventButton";
-            this.AddEventButton.Size = new System.Drawing.Size(91, 25);
-            this.AddEventButton.TabIndex = 3;
-            this.AddEventButton.Text = "Add Event";
-            this.AddEventButton.UseVisualStyleBackColor = true;
-            this.AddEventButton.Click += new System.EventHandler(this.AddEventButton_Click);
+            this.addEventButton.Location = new System.Drawing.Point(183, 259);
+            this.addEventButton.Name = "addEventButton";
+            this.addEventButton.Size = new System.Drawing.Size(91, 25);
+            this.addEventButton.TabIndex = 3;
+            this.addEventButton.Text = "Add Event";
+            this.addEventButton.UseVisualStyleBackColor = true;
+            this.addEventButton.Click += new System.EventHandler(this.AddEventButton_Click);
             // 
-            // RetrieveEventButton
+            // retrieveEventButton
             // 
-            this.RetrieveEventButton.Location = new System.Drawing.Point(183, 299);
-            this.RetrieveEventButton.Name = "RetrieveEventButton";
-            this.RetrieveEventButton.Size = new System.Drawing.Size(91, 49);
-            this.RetrieveEventButton.TabIndex = 4;
-            this.RetrieveEventButton.Text = "Retrieve Event";
-            this.RetrieveEventButton.UseVisualStyleBackColor = true;
-            this.RetrieveEventButton.Click += new System.EventHandler(this.RetrieveEventButton_Click);
+            this.retrieveEventButton.Location = new System.Drawing.Point(183, 299);
+            this.retrieveEventButton.Name = "retrieveEventButton";
+            this.retrieveEventButton.Size = new System.Drawing.Size(91, 49);
+            this.retrieveEventButton.TabIndex = 4;
+            this.retrieveEventButton.Text = "Retrieve Event";
+            this.retrieveEventButton.UseVisualStyleBackColor = true;
+            this.retrieveEventButton.Click += new System.EventHandler(this.RetrieveEventButton_Click);
             // 
             // PersonalCalendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(335, 375);
-            this.Controls.Add(this.RetrieveEventButton);
-            this.Controls.Add(this.AddEventButton);
-            this.Controls.Add(this.EventNameTextBox);
-            this.Controls.Add(this.EventLabel);
-            this.Controls.Add(this.MonthCalendar);
+            this.Controls.Add(this.retrieveEventButton);
+            this.Controls.Add(this.addEventButton);
+            this.Controls.Add(this.eventNameTextBox);
+            this.Controls.Add(this.eventLabel);
+            this.Controls.Add(this.personalMonthCalendar);
             this.Name = "PersonalCalendar";
             this.Text = "Personal Calendar";
             this.ResumeLayout(false);
@@ -96,10 +96,10 @@
 
         #endregion
 
-        private System.Windows.Forms.MonthCalendar MonthCalendar;
-        private Label EventLabel;
-        private TextBox EventNameTextBox;
-        private Button AddEventButton;
-        private Button RetrieveEventButton;
+        private System.Windows.Forms.MonthCalendar personalMonthCalendar;
+        private Label eventLabel;
+        private TextBox eventNameTextBox;
+        private Button addEventButton;
+        private Button retrieveEventButton;
     }
 }

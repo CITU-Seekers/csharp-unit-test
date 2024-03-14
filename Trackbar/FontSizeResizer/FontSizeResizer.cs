@@ -19,7 +19,12 @@ namespace CodeChum
 
         private void ResizeTrackBar_ValueChanged(object sender, EventArgs e)
         {
-            Label.Font = new Font(Label.Font.Name.ToString(), ResizeTrackBar.Value, FontStyle.Bold);
+            fontSizeLabel.Font = new Font(fontSizeLabel.Font.Name.ToString(), resizeTrackBar.Value, FontStyle.Bold);
+        }
+
+        private void ResizeTrackBar_Scroll(object sender, EventArgs e)
+        {
+
         }
     }
 }

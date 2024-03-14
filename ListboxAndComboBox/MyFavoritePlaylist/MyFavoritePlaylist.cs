@@ -19,26 +19,26 @@ namespace CodeChum
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            if (MusicTextBox.Text.Length != 0)
+            if (musicTextBox.Text.Length != 0)
             {
-                RegularListBox.Items.Add(MusicTextBox.Text);
+                regularListBox.Items.Add(musicTextBox.Text);
             }
         }
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
-            if (RegularListBox.SelectedIndex != -1)
+            if (regularListBox.SelectedIndex != -1)
             {
-                FavoritesListBox.Items.Remove(RegularListBox.Items[RegularListBox.SelectedIndex]);
-                RegularListBox.Items.RemoveAt(RegularListBox.SelectedIndex);
+                favoritesListBox.Items.Remove(regularListBox.Items[regularListBox.SelectedIndex]);
+                regularListBox.Items.RemoveAt(regularListBox.SelectedIndex);
             }
         }
 
         private void TransferButton_Click(object sender, EventArgs e)
         {
-            if (RegularListBox.SelectedIndex != -1)
+            if (regularListBox.SelectedIndex != -1)
             {
-                FavoritesListBox.Items.Add(RegularListBox.Items[RegularListBox.SelectedIndex]);
+                favoritesListBox.Items.Add(regularListBox.Items[regularListBox.SelectedIndex]);
             }
         }
     }

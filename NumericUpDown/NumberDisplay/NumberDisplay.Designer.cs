@@ -28,58 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.NumericControl = new System.Windows.Forms.NumericUpDown();
-            this.IncrementTextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.NumericControl)).BeginInit();
-            this.SuspendLayout();
+            intervalNumericUpDown = new NumericUpDown();
+            incrementTextBox = new TextBox();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)intervalNumericUpDown).BeginInit();
+            SuspendLayout();
             // 
-            // NumericControl
+            // intervalNumericUpDown
             // 
-            this.NumericControl.Location = new System.Drawing.Point(96, 51);
-            this.NumericControl.Name = "NumericControl";
-            this.NumericControl.Size = new System.Drawing.Size(143, 27);
-            this.NumericControl.TabIndex = 0;
+            intervalNumericUpDown.Location = new Point(84, 38);
+            intervalNumericUpDown.Margin = new Padding(3, 2, 3, 2);
+            intervalNumericUpDown.Name = "intervalNumericUpDown";
+            intervalNumericUpDown.Size = new Size(125, 23);
+            intervalNumericUpDown.TabIndex = 0;
+            intervalNumericUpDown.ValueChanged += NumericControl_ValueChanged;
             // 
-            // IncrementTextBox
+            // incrementTextBox
             // 
-            this.IncrementTextBox.Location = new System.Drawing.Point(169, 95);
-            this.IncrementTextBox.Name = "IncrementTextBox";
-            this.IncrementTextBox.Size = new System.Drawing.Size(58, 27);
-            this.IncrementTextBox.TabIndex = 1;
-            this.IncrementTextBox.Text = "1";
-            this.IncrementTextBox.TextChanged += new System.EventHandler(this.IncrementTextBox_TextChanged);
+            incrementTextBox.Location = new Point(148, 71);
+            incrementTextBox.Margin = new Padding(3, 2, 3, 2);
+            incrementTextBox.Name = "incrementTextBox";
+            incrementTextBox.Size = new Size(51, 23);
+            incrementTextBox.TabIndex = 1;
+            incrementTextBox.Text = "1";
+            incrementTextBox.TextChanged += IncrementTextBox_TextChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(96, 99);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Interval";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(84, 74);
+            label1.Name = "label1";
+            label1.Size = new Size(55, 19);
+            label1.TabIndex = 2;
+            label1.Text = "Interval";
             // 
             // NumberDisplay
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 178);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.IncrementTextBox);
-            this.Controls.Add(this.NumericControl);
-            this.Name = "NumberDisplay";
-            this.Text = "Number Display";
-            ((System.ComponentModel.ISupportInitialize)(this.NumericControl)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(290, 134);
+            Controls.Add(label1);
+            Controls.Add(incrementTextBox);
+            Controls.Add(intervalNumericUpDown);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "NumberDisplay";
+            Text = "Number Display";
+            ((System.ComponentModel.ISupportInitialize)intervalNumericUpDown).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown NumericControl;
-        private TextBox IncrementTextBox;
+        private System.Windows.Forms.NumericUpDown intervalNumericUpDown;
+        private TextBox incrementTextBox;
         private Label label1;
     }
 }

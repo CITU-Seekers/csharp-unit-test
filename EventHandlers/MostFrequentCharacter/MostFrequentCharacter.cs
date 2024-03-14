@@ -39,8 +39,8 @@ namespace CodeChum
 
         private void TextBox_TextChanged(object sender, EventArgs e)
         {
-            String mostFreq = Char.ToString(GetMostFreqChar(TextBox.Text));
-            FrequentCharLabel.Text = mostFreq;
+            String mostFreq = Char.ToString(GetMostFreqChar(inputTextBox.Text));
+            frequentCharLabel.Text = mostFreq;
         }
     }
 }

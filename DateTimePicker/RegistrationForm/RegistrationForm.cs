@@ -19,17 +19,17 @@ namespace CodeChum
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            if (NameTextBox.Text.Length != 0 && 
-                EmailTextBox.Text.Length != 0 &&
-                AddressTextBox.Text.Length != 0)
+            if (nameTextBox.Text.Length != 0 && 
+                emailTextBox.Text.Length != 0 &&
+                addressTextBox.Text.Length != 0)
             {
-                string name = NameTextBox.Text;
-                string email = EmailTextBox.Text;
-                string address = AddressTextBox.Text;
-                string birthdate = BirthDatePicker.Value.ToString("MMMM dd, yyyy");
-                string age = ((int)(DateTime.Now - BirthDatePicker.Value).TotalDays / 365).ToString();
+                string name = nameTextBox.Text;
+                string email = emailTextBox.Text;
+                string address = addressTextBox.Text;
+                string birthdate = birthDatePicker.Value.ToString("MMMM dd, yyyy");
+                string age = ((int)(DateTime.Now - birthDatePicker.Value).TotalDays / 365).ToString();
 
-                RegistrationLabel.Text = $"Name: {name}\nEmail: {email}\nAddress: {address}\n" +
+                registrationLabel.Text = $"Name: {name}\nEmail: {email}\nAddress: {address}\n" +
                     $"Birth Date: {birthdate}\nAge: {age}";
             }
           

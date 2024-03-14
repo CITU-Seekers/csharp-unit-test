@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TextBox = new System.Windows.Forms.TextBox();
+            this.inputTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.FrequentCharLabel = new System.Windows.Forms.Label();
+            this.frequentCharLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // TextBox
+            // inputTextBox
             // 
-            this.TextBox.Location = new System.Drawing.Point(31, 32);
-            this.TextBox.Name = "TextBox";
-            this.TextBox.Size = new System.Drawing.Size(441, 27);
-            this.TextBox.TabIndex = 0;
-            this.TextBox.TextChanged += new System.EventHandler(this.TextBox_TextChanged);
+            this.inputTextBox.Location = new System.Drawing.Point(31, 32);
+            this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.Size = new System.Drawing.Size(441, 27);
+            this.inputTextBox.TabIndex = 0;
+            this.inputTextBox.TextChanged += new System.EventHandler(this.TextBox_TextChanged);
             // 
             // label1
             // 
@@ -51,27 +51,27 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "The most frequent character is";
             // 
-            // FrequentCharLabel
+            // frequentCharLabel
             // 
-            this.FrequentCharLabel.AutoSize = true;
-            this.FrequentCharLabel.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.FrequentCharLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FrequentCharLabel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FrequentCharLabel.Location = new System.Drawing.Point(329, 80);
-            this.FrequentCharLabel.MaximumSize = new System.Drawing.Size(50, 0);
-            this.FrequentCharLabel.MinimumSize = new System.Drawing.Size(50, 0);
-            this.FrequentCharLabel.Name = "FrequentCharLabel";
-            this.FrequentCharLabel.Size = new System.Drawing.Size(50, 27);
-            this.FrequentCharLabel.TabIndex = 2;
+            this.frequentCharLabel.AutoSize = true;
+            this.frequentCharLabel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.frequentCharLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.frequentCharLabel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.frequentCharLabel.Location = new System.Drawing.Point(329, 80);
+            this.frequentCharLabel.MaximumSize = new System.Drawing.Size(50, 0);
+            this.frequentCharLabel.MinimumSize = new System.Drawing.Size(50, 0);
+            this.frequentCharLabel.Name = "frequentCharLabel";
+            this.frequentCharLabel.Size = new System.Drawing.Size(50, 27);
+            this.frequentCharLabel.TabIndex = 2;
             // 
             // MostFrequentCharacter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 132);
-            this.Controls.Add(this.FrequentCharLabel);
+            this.Controls.Add(this.frequentCharLabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TextBox);
+            this.Controls.Add(this.inputTextBox);
             this.Name = "MostFrequentCharacter";
             this.Text = "Most Frequent Character";
             this.ResumeLayout(false);
@@ -81,8 +81,8 @@
 
         #endregion
 
-        private TextBox TextBox;
+        private TextBox inputTextBox;
         private Label label1;
-        private Label FrequentCharLabel;
+        private Label frequentCharLabel;
     }
 }

@@ -20,27 +20,27 @@ namespace CodeChum
 
         private void MainRichTextBox_SelectionChanged(object sender, EventArgs e)
         {
-            int index = MainRichTextBox.SelectionStart;
-            int line = MainRichTextBox.GetLineFromCharIndex(index) ;
-            int col = MainRichTextBox.SelectionStart - MainRichTextBox.GetFirstCharIndexFromLine(line);
-            CaretPositionStatusLabel.Text = "Ln: " + (line + 1).ToString() + ", Col: " + (col + 1).ToString();
+            int index = mainRichTextBox.SelectionStart;
+            int line = mainRichTextBox.GetLineFromCharIndex(index) ;
+            int col = mainRichTextBox.SelectionStart - mainRichTextBox.GetFirstCharIndexFromLine(line);
+            caretPositionStatusLabel.Text = "Ln: " + (line + 1).ToString() + ", Col: " + (col + 1).ToString();
         }
 
         private void ToStartButton_Click(object sender, EventArgs e)
         {
-            MainRichTextBox.SelectionStart = 0;
-            MainRichTextBox.Focus();
+            mainRichTextBox.SelectionStart = 0;
+            mainRichTextBox.Focus();
         }
 
         private void ToEndButton_Click(object sender, EventArgs e)
         {
-            MainRichTextBox.SelectionStart = MainRichTextBox.Text.Length;
-            MainRichTextBox.Focus();
+            mainRichTextBox.SelectionStart = mainRichTextBox.Text.Length;
+            mainRichTextBox.Focus();
         }
 
         private void MainRichTextBox_TextChanged(object sender, EventArgs e)
         {
-            TextLengthProgressBar.Value = MainRichTextBox.Text.Length;
+            textLengthProgressBar.Value = mainRichTextBox.Text.Length;
         }
     }
 }

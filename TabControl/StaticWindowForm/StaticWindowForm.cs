@@ -16,5 +16,10 @@ namespace CodeChum
         {
             InitializeComponent();
         }
+
+        private void HomeTabPage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

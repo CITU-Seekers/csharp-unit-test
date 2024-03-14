@@ -19,13 +19,13 @@ namespace CodeChum
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            if (StringRadioButton.Checked == true)
+            if (stringRadioButton.Checked == true)
             {
-                ResultLabel.Text = "Correct";
+                resultLabel.Text = "Correct";
             } 
             else
             {
-                ResultLabel.Text = "Incorrect";
+                resultLabel.Text = "Incorrect";
             }
            
         }

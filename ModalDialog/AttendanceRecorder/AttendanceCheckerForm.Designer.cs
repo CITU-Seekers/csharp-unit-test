@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.IdTextBox = new System.Windows.Forms.TextBox();
-            this.CheckButton = new System.Windows.Forms.Button();
-            this.CancelButton = new System.Windows.Forms.Button();
+            this.idTextBox = new System.Windows.Forms.TextBox();
+            this.checkButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // IdTextBox
+            // idTextBox
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(52, 31);
-            this.IdTextBox.Name = "IdTextBox";
-            this.IdTextBox.PlaceholderText = "Id";
-            this.IdTextBox.Size = new System.Drawing.Size(314, 27);
-            this.IdTextBox.TabIndex = 0;
+            this.idTextBox.Location = new System.Drawing.Point(52, 31);
+            this.idTextBox.Name = "idTextBox";
+            this.idTextBox.PlaceholderText = "Id";
+            this.idTextBox.Size = new System.Drawing.Size(314, 27);
+            this.idTextBox.TabIndex = 0;
             // 
-            // CheckButton
+            // checkButton
             // 
-            this.CheckButton.Location = new System.Drawing.Point(75, 77);
-            this.CheckButton.Name = "CheckButton";
-            this.CheckButton.Size = new System.Drawing.Size(106, 36);
-            this.CheckButton.TabIndex = 1;
-            this.CheckButton.Text = "Check";
-            this.CheckButton.UseVisualStyleBackColor = true;
-            this.CheckButton.Click += new System.EventHandler(this.CheckButton_Click);
+            this.checkButton.Location = new System.Drawing.Point(75, 77);
+            this.checkButton.Name = "checkButton";
+            this.checkButton.Size = new System.Drawing.Size(106, 36);
+            this.checkButton.TabIndex = 1;
+            this.checkButton.Text = "Check";
+            this.checkButton.UseVisualStyleBackColor = true;
+            this.checkButton.Click += new System.EventHandler(this.CheckButton_Click);
             // 
-            // CancelButton
+            // cancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(225, 77);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(115, 36);
-            this.CancelButton.TabIndex = 2;
-            this.CancelButton.Text = "Cancel";
-            this.CancelButton.UseVisualStyleBackColor = true;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            this.cancelButton.Location = new System.Drawing.Point(225, 77);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(115, 36);
+            this.cancelButton.TabIndex = 2;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // AttendanceCheckerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 134);
-            this.Controls.Add(this.CancelButton);
-            this.Controls.Add(this.CheckButton);
-            this.Controls.Add(this.IdTextBox);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.checkButton);
+            this.Controls.Add(this.idTextBox);
             this.Name = "AttendanceCheckerForm";
             this.Text = "Attendance Checker";
             this.ResumeLayout(false);
@@ -78,8 +78,8 @@
 
         #endregion
 
-        private TextBox IdTextBox;
-        private Button CheckButton;
-        private Button CancelButton;
+        private TextBox idTextBox;
+        private Button checkButton;
+        private Button cancelButton;
     }
 }

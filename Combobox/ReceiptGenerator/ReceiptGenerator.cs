@@ -23,26 +23,26 @@ namespace CodeChum
             List<string> ItemsToBuy = new();
             double total = 0;
 
-            if (ShoesCheckBox.Checked) 
+            if (shoesCheckBox.Checked) 
             {
                 ItemsToBuy.Add("Shoes");
                 total += shoesPrice; 
             }
-            if (PantsCheckBox.Checked)
+            if (pantsCheckBox.Checked)
             {
                 ItemsToBuy.Add("Pants");
                 total += pantsPrice;
             }
-            if (ShirtCheckBox.Checked)
+            if (shirtCheckBox.Checked)
             {
                 ItemsToBuy.Add("Shirt");
                 total += shirtPrice;
             }
 
-            if (DefaultRadioButton.Checked && total > 300) { total *= 0.95; }
-            else if (SpecialRadioButton.Checked) { total *= 0.85; }
+            if (defaultRadioButton.Checked && total > 300) { total *= 0.95; }
+            else if (specialRadioButton.Checked) { total *= 0.85; }
 
-            string paymentMethod = (string)PaymentMethodComboBox.SelectedItem;
+            string paymentMethod = (string)paymentMethodComboBox.SelectedItem;
 
             string items = "";
 
@@ -63,7 +63,7 @@ namespace CodeChum
                 "Payment Method: " + paymentMethod + "\n" +
                 "Total Cost: Php " + total.ToString("F");
 
-            ReceiptLabel.Text = receiptText;
+            receiptLabel.Text = receiptText;
         }
     }
 }

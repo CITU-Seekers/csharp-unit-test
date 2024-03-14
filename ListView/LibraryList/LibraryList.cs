@@ -19,20 +19,20 @@ namespace CodeChum
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            string author = AuthorTextBox.Text;
-            string title = TitleTextBox.Text;
-            string isbn = IsbnTextBox.Text;
-            DateTime date = DatePublishedDateTimePicker.Value;
+            string author = authorTextBox.Text;
+            string title = titleTextBox.Text;
+            string isbn = isbnTextBox.Text;
+            DateTime date = datePublishedDateTimePicker.Value;
 
             string[] row = { isbn, title, author, date.ToString() };
-            BookListView.Items.Add(new ListViewItem(row));
+            bookListView.Items.Add(new ListViewItem(row));
         }
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem item in BookListView.SelectedItems)
+            foreach (ListViewItem item in bookListView.SelectedItems)
             {
-                BookListView.Items.Remove(item);
+                bookListView.Items.Remove(item);
             }
         }
     }

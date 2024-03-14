@@ -28,45 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TextBox = new System.Windows.Forms.TextBox();
-            this.DisplayTextButton = new System.Windows.Forms.Button();
-            this.Label = new System.Windows.Forms.Label();
+            this.inputTextBox = new System.Windows.Forms.TextBox();
+            this.displayTextButton = new System.Windows.Forms.Button();
+            this.displayLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // TextBox
+            // inputTextBox
             // 
-            this.TextBox.Location = new System.Drawing.Point(41, 106);
-            this.TextBox.Name = "TextBox";
-            this.TextBox.Size = new System.Drawing.Size(202, 27);
-            this.TextBox.TabIndex = 0;
+            this.inputTextBox.Location = new System.Drawing.Point(41, 106);
+            this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.Size = new System.Drawing.Size(202, 27);
+            this.inputTextBox.TabIndex = 0;
             // 
-            // DisplayTextButton
+            // displayTextButton
             // 
-            this.DisplayTextButton.Location = new System.Drawing.Point(248, 106);
-            this.DisplayTextButton.Name = "DisplayTextButton";
-            this.DisplayTextButton.Size = new System.Drawing.Size(84, 25);
-            this.DisplayTextButton.TabIndex = 1;
-            this.DisplayTextButton.Text = "Display";
-            this.DisplayTextButton.UseVisualStyleBackColor = true;
-            this.DisplayTextButton.Click += new System.EventHandler(this.DisplayTextButton_Click);
+            this.displayTextButton.Location = new System.Drawing.Point(248, 106);
+            this.displayTextButton.Name = "displayTextButton";
+            this.displayTextButton.Size = new System.Drawing.Size(84, 25);
+            this.displayTextButton.TabIndex = 1;
+            this.displayTextButton.Text = "Display";
+            this.displayTextButton.UseVisualStyleBackColor = true;
+            this.displayTextButton.Click += new System.EventHandler(this.DisplayTextButton_Click);
             // 
-            // Label
+            // displayLabel
             // 
-            this.Label.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label.Location = new System.Drawing.Point(41, 41);
-            this.Label.Name = "Label";
-            this.Label.Size = new System.Drawing.Size(291, 48);
-            this.Label.TabIndex = 2;
-            this.Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.displayLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.displayLabel.Location = new System.Drawing.Point(41, 41);
+            this.displayLabel.Name = "displayLabel";
+            this.displayLabel.Size = new System.Drawing.Size(291, 48);
+            this.displayLabel.TabIndex = 2;
+            this.displayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TextDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 176);
-            this.Controls.Add(this.Label);
-            this.Controls.Add(this.DisplayTextButton);
-            this.Controls.Add(this.TextBox);
+            this.Controls.Add(this.displayLabel);
+            this.Controls.Add(this.displayTextButton);
+            this.Controls.Add(this.inputTextBox);
             this.Name = "TextDisplay";
             this.Text = "Text Display";
             this.ResumeLayout(false);
@@ -76,8 +76,8 @@
 
         #endregion
 
-        private TextBox TextBox;
-        private Button DisplayTextButton;
-        private Label Label;
+        private TextBox inputTextBox;
+        private Button displayTextButton;
+        private Label displayLabel;
     }
 }

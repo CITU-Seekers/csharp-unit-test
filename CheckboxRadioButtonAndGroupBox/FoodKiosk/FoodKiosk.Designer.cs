@@ -28,94 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TotalCostLabel = new System.Windows.Forms.Label();
-            this.OrderButton = new System.Windows.Forms.Button();
-            this.FiveRadioButton = new System.Windows.Forms.RadioButton();
-            this.TenRadioButton = new System.Windows.Forms.RadioButton();
-            this.TeaCheckBox = new System.Windows.Forms.CheckBox();
-            this.BurgerCheckBox = new System.Windows.Forms.CheckBox();
-            this.PizzaCheckBox = new System.Windows.Forms.CheckBox();
+            this.totalCostLabel = new System.Windows.Forms.Label();
+            this.orderButton = new System.Windows.Forms.Button();
+            this.fiveRadioButton = new System.Windows.Forms.RadioButton();
+            this.tenRadioButton = new System.Windows.Forms.RadioButton();
+            this.teaCheckBox = new System.Windows.Forms.CheckBox();
+            this.burgerCheckBox = new System.Windows.Forms.CheckBox();
+            this.pizzaCheckBox = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.NoneRadioButton = new System.Windows.Forms.RadioButton();
+            this.noneRadioButton = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // TotalCostLabel
+            // totalCostLabel
             // 
-            this.TotalCostLabel.AutoSize = true;
-            this.TotalCostLabel.Location = new System.Drawing.Point(158, 165);
-            this.TotalCostLabel.Name = "TotalCostLabel";
-            this.TotalCostLabel.Size = new System.Drawing.Size(49, 20);
-            this.TotalCostLabel.TabIndex = 13;
-            this.TotalCostLabel.Text = "Total: ";
-            this.TotalCostLabel.Click += new System.EventHandler(this.TotalCostLabel_Click);
+            this.totalCostLabel.AutoSize = true;
+            this.totalCostLabel.Location = new System.Drawing.Point(158, 165);
+            this.totalCostLabel.Name = "totalCostLabel";
+            this.totalCostLabel.Size = new System.Drawing.Size(49, 20);
+            this.totalCostLabel.TabIndex = 13;
+            this.totalCostLabel.Text = "Total: ";
+            this.totalCostLabel.Click += new System.EventHandler(this.TotalCostLabel_Click);
             // 
-            // OrderButton
+            // orderButton
             // 
-            this.OrderButton.Location = new System.Drawing.Point(29, 163);
-            this.OrderButton.Name = "OrderButton";
-            this.OrderButton.Size = new System.Drawing.Size(100, 25);
-            this.OrderButton.TabIndex = 12;
-            this.OrderButton.Text = "Order";
-            this.OrderButton.UseVisualStyleBackColor = true;
-            this.OrderButton.Click += new System.EventHandler(this.OrderButton_Click);
+            this.orderButton.Location = new System.Drawing.Point(29, 163);
+            this.orderButton.Name = "orderButton";
+            this.orderButton.Size = new System.Drawing.Size(100, 25);
+            this.orderButton.TabIndex = 12;
+            this.orderButton.Text = "Order";
+            this.orderButton.UseVisualStyleBackColor = true;
+            this.orderButton.Click += new System.EventHandler(this.OrderButton_Click);
             // 
-            // FiveRadioButton
+            // fiveRadioButton
             // 
-            this.FiveRadioButton.AutoSize = true;
-            this.FiveRadioButton.Location = new System.Drawing.Point(182, 80);
-            this.FiveRadioButton.Name = "FiveRadioButton";
-            this.FiveRadioButton.Size = new System.Drawing.Size(112, 24);
-            this.FiveRadioButton.TabIndex = 11;
-            this.FiveRadioButton.TabStop = true;
-            this.FiveRadioButton.Text = "5% Discount";
-            this.FiveRadioButton.UseVisualStyleBackColor = true;
-            this.FiveRadioButton.CheckedChanged += new System.EventHandler(this.FiveRadioButton_CheckedChanged);
+            this.fiveRadioButton.AutoSize = true;
+            this.fiveRadioButton.Location = new System.Drawing.Point(182, 80);
+            this.fiveRadioButton.Name = "fiveRadioButton";
+            this.fiveRadioButton.Size = new System.Drawing.Size(112, 24);
+            this.fiveRadioButton.TabIndex = 11;
+            this.fiveRadioButton.TabStop = true;
+            this.fiveRadioButton.Text = "5% Discount";
+            this.fiveRadioButton.UseVisualStyleBackColor = true;
+            this.fiveRadioButton.CheckedChanged += new System.EventHandler(this.FiveRadioButton_CheckedChanged);
             // 
-            // TenRadioButton
+            // tenRadioButton
             // 
-            this.TenRadioButton.AutoSize = true;
-            this.TenRadioButton.Location = new System.Drawing.Point(182, 109);
-            this.TenRadioButton.Name = "TenRadioButton";
-            this.TenRadioButton.Size = new System.Drawing.Size(120, 24);
-            this.TenRadioButton.TabIndex = 10;
-            this.TenRadioButton.TabStop = true;
-            this.TenRadioButton.Text = "10% Discount";
-            this.TenRadioButton.UseVisualStyleBackColor = true;
-            this.TenRadioButton.CheckedChanged += new System.EventHandler(this.TenRadioButton_CheckedChanged);
+            this.tenRadioButton.AutoSize = true;
+            this.tenRadioButton.Location = new System.Drawing.Point(182, 109);
+            this.tenRadioButton.Name = "tenRadioButton";
+            this.tenRadioButton.Size = new System.Drawing.Size(120, 24);
+            this.tenRadioButton.TabIndex = 10;
+            this.tenRadioButton.TabStop = true;
+            this.tenRadioButton.Text = "10% Discount";
+            this.tenRadioButton.UseVisualStyleBackColor = true;
+            this.tenRadioButton.CheckedChanged += new System.EventHandler(this.TenRadioButton_CheckedChanged);
             // 
-            // TeaCheckBox
+            // teaCheckBox
             // 
-            this.TeaCheckBox.AutoSize = true;
-            this.TeaCheckBox.Location = new System.Drawing.Point(27, 110);
-            this.TeaCheckBox.Name = "TeaCheckBox";
-            this.TeaCheckBox.Size = new System.Drawing.Size(115, 24);
-            this.TeaCheckBox.TabIndex = 9;
-            this.TeaCheckBox.Text = "Tea – Php 50";
-            this.TeaCheckBox.UseVisualStyleBackColor = true;
-            this.TeaCheckBox.CheckedChanged += new System.EventHandler(this.TeaCheckBox_CheckedChanged);
+            this.teaCheckBox.AutoSize = true;
+            this.teaCheckBox.Location = new System.Drawing.Point(27, 110);
+            this.teaCheckBox.Name = "teaCheckBox";
+            this.teaCheckBox.Size = new System.Drawing.Size(115, 24);
+            this.teaCheckBox.TabIndex = 9;
+            this.teaCheckBox.Text = "Tea – Php 50";
+            this.teaCheckBox.UseVisualStyleBackColor = true;
+            this.teaCheckBox.CheckedChanged += new System.EventHandler(this.TeaCheckBox_CheckedChanged);
             // 
-            // BurgerCheckBox
+            // burgerCheckBox
             // 
-            this.BurgerCheckBox.AutoSize = true;
-            this.BurgerCheckBox.Location = new System.Drawing.Point(27, 81);
-            this.BurgerCheckBox.Name = "BurgerCheckBox";
-            this.BurgerCheckBox.Size = new System.Drawing.Size(136, 24);
-            this.BurgerCheckBox.TabIndex = 8;
-            this.BurgerCheckBox.Text = "Burger – Php 80";
-            this.BurgerCheckBox.UseVisualStyleBackColor = true;
-            this.BurgerCheckBox.CheckedChanged += new System.EventHandler(this.BurgerCheckBox_CheckedChanged);
+            this.burgerCheckBox.AutoSize = true;
+            this.burgerCheckBox.Location = new System.Drawing.Point(27, 81);
+            this.burgerCheckBox.Name = "burgerCheckBox";
+            this.burgerCheckBox.Size = new System.Drawing.Size(136, 24);
+            this.burgerCheckBox.TabIndex = 8;
+            this.burgerCheckBox.Text = "Burger – Php 80";
+            this.burgerCheckBox.UseVisualStyleBackColor = true;
+            this.burgerCheckBox.CheckedChanged += new System.EventHandler(this.BurgerCheckBox_CheckedChanged);
             // 
-            // PizzaCheckBox
+            // pizzaCheckBox
             // 
-            this.PizzaCheckBox.AutoSize = true;
-            this.PizzaCheckBox.Location = new System.Drawing.Point(27, 52);
-            this.PizzaCheckBox.Name = "PizzaCheckBox";
-            this.PizzaCheckBox.Size = new System.Drawing.Size(134, 24);
-            this.PizzaCheckBox.TabIndex = 7;
-            this.PizzaCheckBox.Text = "Pizza – Php 100";
-            this.PizzaCheckBox.UseVisualStyleBackColor = true;
-            this.PizzaCheckBox.CheckedChanged += new System.EventHandler(this.PizzaCheckBox_CheckedChanged);
+            this.pizzaCheckBox.AutoSize = true;
+            this.pizzaCheckBox.Location = new System.Drawing.Point(27, 52);
+            this.pizzaCheckBox.Name = "pizzaCheckBox";
+            this.pizzaCheckBox.Size = new System.Drawing.Size(134, 24);
+            this.pizzaCheckBox.TabIndex = 7;
+            this.pizzaCheckBox.Text = "Pizza – Php 100";
+            this.pizzaCheckBox.UseVisualStyleBackColor = true;
+            this.pizzaCheckBox.CheckedChanged += new System.EventHandler(this.PizzaCheckBox_CheckedChanged);
             // 
             // label1
             // 
@@ -137,32 +137,32 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "Discounts";
             // 
-            // NoneRadioButton
+            // noneRadioButton
             // 
-            this.NoneRadioButton.AutoSize = true;
-            this.NoneRadioButton.Location = new System.Drawing.Point(182, 50);
-            this.NoneRadioButton.Name = "NoneRadioButton";
-            this.NoneRadioButton.Size = new System.Drawing.Size(66, 24);
-            this.NoneRadioButton.TabIndex = 16;
-            this.NoneRadioButton.TabStop = true;
-            this.NoneRadioButton.Text = "None";
-            this.NoneRadioButton.UseVisualStyleBackColor = true;
+            this.noneRadioButton.AutoSize = true;
+            this.noneRadioButton.Location = new System.Drawing.Point(182, 50);
+            this.noneRadioButton.Name = "noneRadioButton";
+            this.noneRadioButton.Size = new System.Drawing.Size(66, 24);
+            this.noneRadioButton.TabIndex = 16;
+            this.noneRadioButton.TabStop = true;
+            this.noneRadioButton.Text = "None";
+            this.noneRadioButton.UseVisualStyleBackColor = true;
             // 
             // FoodKiosk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 233);
-            this.Controls.Add(this.NoneRadioButton);
+            this.Controls.Add(this.noneRadioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TotalCostLabel);
-            this.Controls.Add(this.OrderButton);
-            this.Controls.Add(this.FiveRadioButton);
-            this.Controls.Add(this.TenRadioButton);
-            this.Controls.Add(this.TeaCheckBox);
-            this.Controls.Add(this.BurgerCheckBox);
-            this.Controls.Add(this.PizzaCheckBox);
+            this.Controls.Add(this.totalCostLabel);
+            this.Controls.Add(this.orderButton);
+            this.Controls.Add(this.fiveRadioButton);
+            this.Controls.Add(this.tenRadioButton);
+            this.Controls.Add(this.teaCheckBox);
+            this.Controls.Add(this.burgerCheckBox);
+            this.Controls.Add(this.pizzaCheckBox);
             this.Name = "FoodKiosk";
             this.Text = "FoodKiosk";
             this.ResumeLayout(false);
@@ -172,15 +172,15 @@
 
         #endregion
 
-        private Label TotalCostLabel;
-        private Button OrderButton;
-        private RadioButton FiveRadioButton;
-        private RadioButton TenRadioButton;
-        private CheckBox TeaCheckBox;
-        private CheckBox BurgerCheckBox;
-        private CheckBox PizzaCheckBox;
+        private Label totalCostLabel;
+        private Button orderButton;
+        private RadioButton fiveRadioButton;
+        private RadioButton tenRadioButton;
+        private CheckBox teaCheckBox;
+        private CheckBox burgerCheckBox;
+        private CheckBox pizzaCheckBox;
         private Label label1;
         private Label label2;
-        private RadioButton NoneRadioButton;
+        private RadioButton noneRadioButton;
     }
 }

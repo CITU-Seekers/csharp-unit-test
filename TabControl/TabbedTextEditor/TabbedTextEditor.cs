@@ -19,40 +19,40 @@ namespace CodeChum
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            if (FileNameTextBox.Text.Equals(string.Empty))
+            if (fileNameTextBox.Text.Equals(string.Empty))
             {
                 return;
             }
             TabPage newTabPage = new TabPage();
-            newTabPage.Name = FileNameTextBox.Text + "TabPage";
-            newTabPage.Text = FileNameTextBox.Text;
+            newTabPage.Name = fileNameTextBox.Text + "TabPage";
+            newTabPage.Text = fileNameTextBox.Text;
             newTabPage.Size = new System.Drawing.Size(796, 352);
             newTabPage.BackColor = Color.White;
             RichTextBox newRichTextBox = new RichTextBox();
             newRichTextBox.Location = new System.Drawing.Point(33, 44);
             newRichTextBox.Size = new System.Drawing.Size(641, 188);
-            newRichTextBox.Name = FileNameTextBox.Text + "RichTextBox";
+            newRichTextBox.Name = fileNameTextBox.Text + "RichTextBox";
             newTabPage.Size = new System.Drawing.Size(796, 352);
             newTabPage.Controls.Add(newRichTextBox);
-            EditorTabControl.TabPages.Add(newTabPage);
+            editorTabControl.TabPages.Add(newTabPage);
         }
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            var tab = EditorTabControl.SelectedTab;
-            EditorTabControl.SelectedTab = EditorTabControl.TabPages[EditorTabControl.SelectedIndex - 1];
-            EditorTabControl.TabPages.Remove(tab);
+            var tab = editorTabControl.SelectedTab;
+            editorTabControl.SelectedTab = editorTabControl.TabPages[editorTabControl.SelectedIndex - 1];
+            editorTabControl.TabPages.Remove(tab);
         }
 
         private void EditorTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (EditorTabControl.SelectedTab == MainTabPage)
+            if (editorTabControl.SelectedTab == mainTabPage)
             {
-                DeleteButton.Enabled = false;
+                deleteButton.Enabled = false;
             }
             else
             {
-                DeleteButton.Enabled = true;
+                deleteButton.Enabled = true;
             }
         }
     }

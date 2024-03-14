@@ -28,52 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MonthCalendar = new System.Windows.Forms.MonthCalendar();
-            this.HolidaysLabel = new System.Windows.Forms.Label();
-            this.DisplayHolidaysButton = new System.Windows.Forms.Button();
+            this.holidaysMonthCalendar = new System.Windows.Forms.MonthCalendar();
+            this.holidaysLabel = new System.Windows.Forms.Label();
+            this.displayHolidaysButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // MonthCalendar
+            // holidaysMonthCalendar
             // 
-            this.MonthCalendar.BoldedDates = new System.DateTime[] {
+            this.holidaysMonthCalendar.BoldedDates = new System.DateTime[] {
         new System.DateTime(2022, 12, 25, 0, 0, 0, 0),
         new System.DateTime(2022, 12, 30, 0, 0, 0, 0),
         new System.DateTime(2023, 1, 1, 0, 0, 0, 0),
         new System.DateTime(2023, 1, 22, 0, 0, 0, 0)};
-            this.MonthCalendar.Location = new System.Drawing.Point(34, 34);
-            this.MonthCalendar.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.MonthCalendar.Name = "MonthCalendar";
-            this.MonthCalendar.TabIndex = 0;
+            this.holidaysMonthCalendar.Location = new System.Drawing.Point(34, 34);
+            this.holidaysMonthCalendar.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.holidaysMonthCalendar.Name = "holidaysMonthCalendar";
+            this.holidaysMonthCalendar.TabIndex = 0;
             // 
-            // HolidaysLabel
+            // holidaysLabel
             // 
-            this.HolidaysLabel.AutoSize = true;
-            this.HolidaysLabel.Location = new System.Drawing.Point(34, 298);
-            this.HolidaysLabel.MaximumSize = new System.Drawing.Size(200, 200);
-            this.HolidaysLabel.MinimumSize = new System.Drawing.Size(280, 50);
-            this.HolidaysLabel.Name = "HolidaysLabel";
-            this.HolidaysLabel.Size = new System.Drawing.Size(280, 50);
-            this.HolidaysLabel.TabIndex = 1;
-            this.HolidaysLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.holidaysLabel.AutoSize = true;
+            this.holidaysLabel.Location = new System.Drawing.Point(34, 298);
+            this.holidaysLabel.MaximumSize = new System.Drawing.Size(200, 200);
+            this.holidaysLabel.MinimumSize = new System.Drawing.Size(280, 50);
+            this.holidaysLabel.Name = "holidaysLabel";
+            this.holidaysLabel.Size = new System.Drawing.Size(280, 50);
+            this.holidaysLabel.TabIndex = 1;
+            this.holidaysLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // DisplayHolidaysButton
+            // displayHolidaysButton
             // 
-            this.DisplayHolidaysButton.Location = new System.Drawing.Point(104, 252);
-            this.DisplayHolidaysButton.Name = "DisplayHolidaysButton";
-            this.DisplayHolidaysButton.Size = new System.Drawing.Size(130, 25);
-            this.DisplayHolidaysButton.TabIndex = 2;
-            this.DisplayHolidaysButton.Text = "Show Holidays";
-            this.DisplayHolidaysButton.UseVisualStyleBackColor = true;
-            this.DisplayHolidaysButton.Click += new System.EventHandler(this.DisplayHolidaysButton_Click);
+            this.displayHolidaysButton.Location = new System.Drawing.Point(104, 252);
+            this.displayHolidaysButton.Name = "displayHolidaysButton";
+            this.displayHolidaysButton.Size = new System.Drawing.Size(130, 25);
+            this.displayHolidaysButton.TabIndex = 2;
+            this.displayHolidaysButton.Text = "Show Holidays";
+            this.displayHolidaysButton.UseVisualStyleBackColor = true;
+            this.displayHolidaysButton.Click += new System.EventHandler(this.DisplayHolidaysButton_Click);
             // 
             // Holidays
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 422);
-            this.Controls.Add(this.DisplayHolidaysButton);
-            this.Controls.Add(this.HolidaysLabel);
-            this.Controls.Add(this.MonthCalendar);
+            this.Controls.Add(this.displayHolidaysButton);
+            this.Controls.Add(this.holidaysLabel);
+            this.Controls.Add(this.holidaysMonthCalendar);
             this.Name = "Holidays";
             this.Text = "Holidays";
             this.ResumeLayout(false);
@@ -83,8 +83,8 @@
 
         #endregion
 
-        private System.Windows.Forms.MonthCalendar MonthCalendar;
-        private Label HolidaysLabel;
-        private Button DisplayHolidaysButton;
+        private System.Windows.Forms.MonthCalendar holidaysMonthCalendar;
+        private Label holidaysLabel;
+        private Button displayHolidaysButton;
     }
 }

@@ -28,99 +28,99 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GenerateButton = new System.Windows.Forms.Button();
-            this.DefaultRadioButton = new System.Windows.Forms.RadioButton();
-            this.SpecialRadioButton = new System.Windows.Forms.RadioButton();
-            this.ShirtCheckBox = new System.Windows.Forms.CheckBox();
-            this.PantsCheckBox = new System.Windows.Forms.CheckBox();
-            this.ShoesCheckBox = new System.Windows.Forms.CheckBox();
-            this.PaymentMethodComboBox = new System.Windows.Forms.ComboBox();
-            this.ReceiptLabel = new System.Windows.Forms.Label();
+            this.generateButton = new System.Windows.Forms.Button();
+            this.defaultRadioButton = new System.Windows.Forms.RadioButton();
+            this.specialRadioButton = new System.Windows.Forms.RadioButton();
+            this.shirtCheckBox = new System.Windows.Forms.CheckBox();
+            this.pantsCheckBox = new System.Windows.Forms.CheckBox();
+            this.shoesCheckBox = new System.Windows.Forms.CheckBox();
+            this.paymentMethodComboBox = new System.Windows.Forms.ComboBox();
+            this.receiptLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // GenerateButton
+            // generateButton
             // 
-            this.GenerateButton.Location = new System.Drawing.Point(108, 173);
-            this.GenerateButton.Name = "GenerateButton";
-            this.GenerateButton.Size = new System.Drawing.Size(112, 33);
-            this.GenerateButton.TabIndex = 19;
-            this.GenerateButton.Text = "Generate";
-            this.GenerateButton.UseVisualStyleBackColor = true;
-            this.GenerateButton.Click += new System.EventHandler(this.GenerateButton_Click);
+            this.generateButton.Location = new System.Drawing.Point(108, 173);
+            this.generateButton.Name = "generateButton";
+            this.generateButton.Size = new System.Drawing.Size(112, 33);
+            this.generateButton.TabIndex = 19;
+            this.generateButton.Text = "Generate";
+            this.generateButton.UseVisualStyleBackColor = true;
+            this.generateButton.Click += new System.EventHandler(this.GenerateButton_Click);
             // 
-            // DefaultRadioButton
+            // defaultRadioButton
             // 
-            this.DefaultRadioButton.AutoSize = true;
-            this.DefaultRadioButton.Location = new System.Drawing.Point(203, 40);
-            this.DefaultRadioButton.Name = "DefaultRadioButton";
-            this.DefaultRadioButton.Size = new System.Drawing.Size(79, 24);
-            this.DefaultRadioButton.TabIndex = 18;
-            this.DefaultRadioButton.TabStop = true;
-            this.DefaultRadioButton.Text = "Default";
-            this.DefaultRadioButton.UseVisualStyleBackColor = true;
+            this.defaultRadioButton.AutoSize = true;
+            this.defaultRadioButton.Location = new System.Drawing.Point(203, 40);
+            this.defaultRadioButton.Name = "defaultRadioButton";
+            this.defaultRadioButton.Size = new System.Drawing.Size(79, 24);
+            this.defaultRadioButton.TabIndex = 18;
+            this.defaultRadioButton.TabStop = true;
+            this.defaultRadioButton.Text = "Default";
+            this.defaultRadioButton.UseVisualStyleBackColor = true;
             // 
-            // SpecialRadioButton
+            // specialRadioButton
             // 
-            this.SpecialRadioButton.AutoSize = true;
-            this.SpecialRadioButton.Location = new System.Drawing.Point(203, 68);
-            this.SpecialRadioButton.Name = "SpecialRadioButton";
-            this.SpecialRadioButton.Size = new System.Drawing.Size(78, 24);
-            this.SpecialRadioButton.TabIndex = 17;
-            this.SpecialRadioButton.TabStop = true;
-            this.SpecialRadioButton.Text = "Special";
-            this.SpecialRadioButton.UseVisualStyleBackColor = true;
+            this.specialRadioButton.AutoSize = true;
+            this.specialRadioButton.Location = new System.Drawing.Point(203, 68);
+            this.specialRadioButton.Name = "specialRadioButton";
+            this.specialRadioButton.Size = new System.Drawing.Size(78, 24);
+            this.specialRadioButton.TabIndex = 17;
+            this.specialRadioButton.TabStop = true;
+            this.specialRadioButton.Text = "Special";
+            this.specialRadioButton.UseVisualStyleBackColor = true;
             // 
-            // ShirtCheckBox
+            // shirtCheckBox
             // 
-            this.ShirtCheckBox.AutoSize = true;
-            this.ShirtCheckBox.Location = new System.Drawing.Point(24, 97);
-            this.ShirtCheckBox.Name = "ShirtCheckBox";
-            this.ShirtCheckBox.Size = new System.Drawing.Size(130, 24);
-            this.ShirtCheckBox.TabIndex = 16;
-            this.ShirtCheckBox.Text = "Shirt – Php 120";
-            this.ShirtCheckBox.UseVisualStyleBackColor = true;
+            this.shirtCheckBox.AutoSize = true;
+            this.shirtCheckBox.Location = new System.Drawing.Point(24, 97);
+            this.shirtCheckBox.Name = "shirtCheckBox";
+            this.shirtCheckBox.Size = new System.Drawing.Size(130, 24);
+            this.shirtCheckBox.TabIndex = 16;
+            this.shirtCheckBox.Text = "Shirt – Php 120";
+            this.shirtCheckBox.UseVisualStyleBackColor = true;
             // 
-            // PantsCheckBox
+            // pantsCheckBox
             // 
-            this.PantsCheckBox.AutoSize = true;
-            this.PantsCheckBox.Location = new System.Drawing.Point(24, 69);
-            this.PantsCheckBox.Name = "PantsCheckBox";
-            this.PantsCheckBox.Size = new System.Drawing.Size(134, 24);
-            this.PantsCheckBox.TabIndex = 15;
-            this.PantsCheckBox.Text = "Pants – Php 150";
-            this.PantsCheckBox.UseVisualStyleBackColor = true;
+            this.pantsCheckBox.AutoSize = true;
+            this.pantsCheckBox.Location = new System.Drawing.Point(24, 69);
+            this.pantsCheckBox.Name = "pantsCheckBox";
+            this.pantsCheckBox.Size = new System.Drawing.Size(134, 24);
+            this.pantsCheckBox.TabIndex = 15;
+            this.pantsCheckBox.Text = "Pants – Php 150";
+            this.pantsCheckBox.UseVisualStyleBackColor = true;
             // 
-            // ShoesCheckBox
+            // shoesCheckBox
             // 
-            this.ShoesCheckBox.AutoSize = true;
-            this.ShoesCheckBox.Location = new System.Drawing.Point(24, 40);
-            this.ShoesCheckBox.Name = "ShoesCheckBox";
-            this.ShoesCheckBox.Size = new System.Drawing.Size(139, 24);
-            this.ShoesCheckBox.TabIndex = 14;
-            this.ShoesCheckBox.Text = "Shoes – Php 200";
-            this.ShoesCheckBox.UseVisualStyleBackColor = true;
+            this.shoesCheckBox.AutoSize = true;
+            this.shoesCheckBox.Location = new System.Drawing.Point(24, 40);
+            this.shoesCheckBox.Name = "shoesCheckBox";
+            this.shoesCheckBox.Size = new System.Drawing.Size(139, 24);
+            this.shoesCheckBox.TabIndex = 14;
+            this.shoesCheckBox.Text = "Shoes – Php 200";
+            this.shoesCheckBox.UseVisualStyleBackColor = true;
             // 
-            // PaymentMethodComboBox
+            // paymentMethodComboBox
             // 
-            this.PaymentMethodComboBox.FormattingEnabled = true;
-            this.PaymentMethodComboBox.Items.AddRange(new object[] {
+            this.paymentMethodComboBox.FormattingEnabled = true;
+            this.paymentMethodComboBox.Items.AddRange(new object[] {
             "Cash",
             "Credit Card",
             "Debit Card"});
-            this.PaymentMethodComboBox.Location = new System.Drawing.Point(160, 128);
-            this.PaymentMethodComboBox.Name = "PaymentMethodComboBox";
-            this.PaymentMethodComboBox.Size = new System.Drawing.Size(143, 28);
-            this.PaymentMethodComboBox.TabIndex = 21;
+            this.paymentMethodComboBox.Location = new System.Drawing.Point(160, 128);
+            this.paymentMethodComboBox.Name = "paymentMethodComboBox";
+            this.paymentMethodComboBox.Size = new System.Drawing.Size(143, 28);
+            this.paymentMethodComboBox.TabIndex = 21;
             // 
-            // ReceiptLabel
+            // receiptLabel
             // 
-            this.ReceiptLabel.Location = new System.Drawing.Point(24, 219);
-            this.ReceiptLabel.Name = "ReceiptLabel";
-            this.ReceiptLabel.Size = new System.Drawing.Size(279, 86);
-            this.ReceiptLabel.TabIndex = 22;
+            this.receiptLabel.Location = new System.Drawing.Point(24, 219);
+            this.receiptLabel.Name = "receiptLabel";
+            this.receiptLabel.Size = new System.Drawing.Size(279, 86);
+            this.receiptLabel.TabIndex = 22;
             // 
             // label1
             // 
@@ -160,14 +160,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ReceiptLabel);
-            this.Controls.Add(this.PaymentMethodComboBox);
-            this.Controls.Add(this.GenerateButton);
-            this.Controls.Add(this.DefaultRadioButton);
-            this.Controls.Add(this.SpecialRadioButton);
-            this.Controls.Add(this.ShirtCheckBox);
-            this.Controls.Add(this.PantsCheckBox);
-            this.Controls.Add(this.ShoesCheckBox);
+            this.Controls.Add(this.receiptLabel);
+            this.Controls.Add(this.paymentMethodComboBox);
+            this.Controls.Add(this.generateButton);
+            this.Controls.Add(this.defaultRadioButton);
+            this.Controls.Add(this.specialRadioButton);
+            this.Controls.Add(this.shirtCheckBox);
+            this.Controls.Add(this.pantsCheckBox);
+            this.Controls.Add(this.shoesCheckBox);
             this.Name = "ReceiptGenerator";
             this.Text = "Receipt Generator";
             this.ResumeLayout(false);
@@ -176,14 +176,14 @@
         }
 
         #endregion
-        private Button GenerateButton;
-        private RadioButton DefaultRadioButton;
-        private RadioButton SpecialRadioButton;
-        private CheckBox ShirtCheckBox;
-        private CheckBox PantsCheckBox;
-        private CheckBox ShoesCheckBox;
-        private System.Windows.Forms.ComboBox PaymentMethodComboBox;
-        private Label ReceiptLabel;
+        private Button generateButton;
+        private RadioButton defaultRadioButton;
+        private RadioButton specialRadioButton;
+        private CheckBox shirtCheckBox;
+        private CheckBox pantsCheckBox;
+        private CheckBox shoesCheckBox;
+        private System.Windows.Forms.ComboBox paymentMethodComboBox;
+        private Label receiptLabel;
         private Label label1;
         private Label label2;
         private Label label3;

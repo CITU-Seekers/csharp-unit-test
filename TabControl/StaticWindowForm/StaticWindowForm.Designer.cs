@@ -28,161 +28,170 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TabControl = new System.Windows.Forms.TabControl();
-            this.HomeTabPage = new System.Windows.Forms.TabPage();
-            this.SloganLabel = new System.Windows.Forms.Label();
-            this.CompanyNameLabel = new System.Windows.Forms.Label();
-            this.RegisterTabPage = new System.Windows.Forms.TabPage();
-            this.RegisterButton = new System.Windows.Forms.Button();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.EmailTextBox = new System.Windows.Forms.TextBox();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.AboutTabPage = new System.Windows.Forms.TabPage();
-            this.AboutLabel = new System.Windows.Forms.Label();
-            this.TabControl.SuspendLayout();
-            this.HomeTabPage.SuspendLayout();
-            this.RegisterTabPage.SuspendLayout();
-            this.AboutTabPage.SuspendLayout();
-            this.SuspendLayout();
+            mainTabControl = new TabControl();
+            homeTabPage = new TabPage();
+            sloganLabel = new Label();
+            companyNameLabel = new Label();
+            registerTabPage = new TabPage();
+            registerButton = new Button();
+            passwordTextBox = new TextBox();
+            emailTextBox = new TextBox();
+            nameTextBox = new TextBox();
+            aboutTabPage = new TabPage();
+            aboutLabel = new Label();
+            mainTabControl.SuspendLayout();
+            homeTabPage.SuspendLayout();
+            registerTabPage.SuspendLayout();
+            aboutTabPage.SuspendLayout();
+            SuspendLayout();
             // 
-            // TabControl
+            // mainTabControl
             // 
-            this.TabControl.Controls.Add(this.HomeTabPage);
-            this.TabControl.Controls.Add(this.RegisterTabPage);
-            this.TabControl.Controls.Add(this.AboutTabPage);
-            this.TabControl.Location = new System.Drawing.Point(4, 2);
-            this.TabControl.Name = "TabControl";
-            this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(684, 361);
-            this.TabControl.TabIndex = 0;
+            mainTabControl.Controls.Add(homeTabPage);
+            mainTabControl.Controls.Add(registerTabPage);
+            mainTabControl.Controls.Add(aboutTabPage);
+            mainTabControl.Location = new Point(4, 2);
+            mainTabControl.Margin = new Padding(3, 2, 3, 2);
+            mainTabControl.Name = "mainTabControl";
+            mainTabControl.SelectedIndex = 0;
+            mainTabControl.Size = new Size(598, 271);
+            mainTabControl.TabIndex = 0;
             // 
-            // HomeTabPage
+            // homeTabPage
             // 
-            this.HomeTabPage.Controls.Add(this.SloganLabel);
-            this.HomeTabPage.Controls.Add(this.CompanyNameLabel);
-            this.HomeTabPage.Location = new System.Drawing.Point(4, 29);
-            this.HomeTabPage.Name = "HomeTabPage";
-            this.HomeTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.HomeTabPage.Size = new System.Drawing.Size(676, 328);
-            this.HomeTabPage.TabIndex = 0;
-            this.HomeTabPage.Text = "Home";
-            this.HomeTabPage.UseVisualStyleBackColor = true;
+            homeTabPage.Controls.Add(sloganLabel);
+            homeTabPage.Controls.Add(companyNameLabel);
+            homeTabPage.Location = new Point(4, 24);
+            homeTabPage.Margin = new Padding(3, 2, 3, 2);
+            homeTabPage.Name = "homeTabPage";
+            homeTabPage.Padding = new Padding(3, 2, 3, 2);
+            homeTabPage.Size = new Size(590, 243);
+            homeTabPage.TabIndex = 0;
+            homeTabPage.Text = "Home";
+            homeTabPage.UseVisualStyleBackColor = true;
+            homeTabPage.Click += HomeTabPage_Click;
             // 
-            // SloganLabel
+            // sloganLabel
             // 
-            this.SloganLabel.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SloganLabel.Location = new System.Drawing.Point(124, 157);
-            this.SloganLabel.Name = "SloganLabel";
-            this.SloganLabel.Size = new System.Drawing.Size(364, 83);
-            this.SloganLabel.TabIndex = 1;
-            this.SloganLabel.Text = "Best of the best";
-            this.SloganLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            sloganLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            sloganLabel.Location = new Point(108, 118);
+            sloganLabel.Name = "sloganLabel";
+            sloganLabel.Size = new Size(318, 62);
+            sloganLabel.TabIndex = 1;
+            sloganLabel.Text = "Best of the best";
+            sloganLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // CompanyNameLabel
+            // companyNameLabel
             // 
-            this.CompanyNameLabel.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CompanyNameLabel.Location = new System.Drawing.Point(133, 52);
-            this.CompanyNameLabel.Name = "CompanyNameLabel";
-            this.CompanyNameLabel.Size = new System.Drawing.Size(364, 83);
-            this.CompanyNameLabel.TabIndex = 0;
-            this.CompanyNameLabel.Text = "Company X";
-            this.CompanyNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            companyNameLabel.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold, GraphicsUnit.Point);
+            companyNameLabel.Location = new Point(116, 39);
+            companyNameLabel.Name = "companyNameLabel";
+            companyNameLabel.Size = new Size(318, 62);
+            companyNameLabel.TabIndex = 0;
+            companyNameLabel.Text = "Company X";
+            companyNameLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // RegisterTabPage
+            // registerTabPage
             // 
-            this.RegisterTabPage.Controls.Add(this.RegisterButton);
-            this.RegisterTabPage.Controls.Add(this.PasswordTextBox);
-            this.RegisterTabPage.Controls.Add(this.EmailTextBox);
-            this.RegisterTabPage.Controls.Add(this.NameTextBox);
-            this.RegisterTabPage.Location = new System.Drawing.Point(4, 29);
-            this.RegisterTabPage.Name = "RegisterTabPage";
-            this.RegisterTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.RegisterTabPage.Size = new System.Drawing.Size(676, 328);
-            this.RegisterTabPage.TabIndex = 1;
-            this.RegisterTabPage.Text = "Register";
-            this.RegisterTabPage.UseVisualStyleBackColor = true;
+            registerTabPage.Controls.Add(registerButton);
+            registerTabPage.Controls.Add(passwordTextBox);
+            registerTabPage.Controls.Add(emailTextBox);
+            registerTabPage.Controls.Add(nameTextBox);
+            registerTabPage.Location = new Point(4, 24);
+            registerTabPage.Margin = new Padding(3, 2, 3, 2);
+            registerTabPage.Name = "registerTabPage";
+            registerTabPage.Padding = new Padding(3, 2, 3, 2);
+            registerTabPage.Size = new Size(590, 243);
+            registerTabPage.TabIndex = 1;
+            registerTabPage.Text = "Register";
+            registerTabPage.UseVisualStyleBackColor = true;
             // 
-            // RegisterButton
+            // registerButton
             // 
-            this.RegisterButton.Location = new System.Drawing.Point(263, 213);
-            this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(127, 33);
-            this.RegisterButton.TabIndex = 3;
-            this.RegisterButton.Text = "Register ";
-            this.RegisterButton.UseVisualStyleBackColor = true;
+            registerButton.Location = new Point(230, 160);
+            registerButton.Margin = new Padding(3, 2, 3, 2);
+            registerButton.Name = "registerButton";
+            registerButton.Size = new Size(111, 25);
+            registerButton.TabIndex = 3;
+            registerButton.Text = "Register ";
+            registerButton.UseVisualStyleBackColor = true;
             // 
-            // PasswordTextBox
+            // passwordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(150, 161);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PlaceholderText = "Password";
-            this.PasswordTextBox.Size = new System.Drawing.Size(360, 27);
-            this.PasswordTextBox.TabIndex = 2;
+            passwordTextBox.Location = new Point(131, 121);
+            passwordTextBox.Margin = new Padding(3, 2, 3, 2);
+            passwordTextBox.Name = "passwordTextBox";
+            passwordTextBox.PlaceholderText = "Password";
+            passwordTextBox.Size = new Size(316, 23);
+            passwordTextBox.TabIndex = 2;
             // 
-            // EmailTextBox
+            // emailTextBox
             // 
-            this.EmailTextBox.Location = new System.Drawing.Point(150, 111);
-            this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.PlaceholderText = "Email";
-            this.EmailTextBox.Size = new System.Drawing.Size(360, 27);
-            this.EmailTextBox.TabIndex = 1;
+            emailTextBox.Location = new Point(131, 83);
+            emailTextBox.Margin = new Padding(3, 2, 3, 2);
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.PlaceholderText = "Email";
+            emailTextBox.Size = new Size(316, 23);
+            emailTextBox.TabIndex = 1;
             // 
-            // NameTextBox
+            // nameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(150, 69);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.PlaceholderText = "Name";
-            this.NameTextBox.Size = new System.Drawing.Size(360, 27);
-            this.NameTextBox.TabIndex = 0;
+            nameTextBox.Location = new Point(131, 52);
+            nameTextBox.Margin = new Padding(3, 2, 3, 2);
+            nameTextBox.Name = "nameTextBox";
+            nameTextBox.PlaceholderText = "Name";
+            nameTextBox.Size = new Size(316, 23);
+            nameTextBox.TabIndex = 0;
             // 
-            // AboutTabPage
+            // aboutTabPage
             // 
-            this.AboutTabPage.Controls.Add(this.AboutLabel);
-            this.AboutTabPage.Location = new System.Drawing.Point(4, 29);
-            this.AboutTabPage.Name = "AboutTabPage";
-            this.AboutTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.AboutTabPage.Size = new System.Drawing.Size(676, 328);
-            this.AboutTabPage.TabIndex = 2;
-            this.AboutTabPage.Text = "About";
-            this.AboutTabPage.UseVisualStyleBackColor = true;
+            aboutTabPage.Controls.Add(aboutLabel);
+            aboutTabPage.Location = new Point(4, 24);
+            aboutTabPage.Margin = new Padding(3, 2, 3, 2);
+            aboutTabPage.Name = "aboutTabPage";
+            aboutTabPage.Padding = new Padding(3, 2, 3, 2);
+            aboutTabPage.Size = new Size(590, 243);
+            aboutTabPage.TabIndex = 2;
+            aboutTabPage.Text = "About";
+            aboutTabPage.UseVisualStyleBackColor = true;
             // 
-            // AboutLabel
+            // aboutLabel
             // 
-            this.AboutLabel.Location = new System.Drawing.Point(196, 110);
-            this.AboutLabel.Name = "AboutLabel";
-            this.AboutLabel.Size = new System.Drawing.Size(272, 85);
-            this.AboutLabel.TabIndex = 0;
-            this.AboutLabel.Text = "Company X is a company dedicated in helping our clients be connected.";
+            aboutLabel.Location = new Point(172, 82);
+            aboutLabel.Name = "aboutLabel";
+            aboutLabel.Size = new Size(238, 64);
+            aboutLabel.TabIndex = 0;
+            aboutLabel.Text = "Company X is a company dedicated in helping our clients be connected.";
             // 
             // StaticWindowForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(689, 367);
-            this.Controls.Add(this.TabControl);
-            this.Name = "StaticWindowForm";
-            this.Text = "Company X";
-            this.TabControl.ResumeLayout(false);
-            this.HomeTabPage.ResumeLayout(false);
-            this.RegisterTabPage.ResumeLayout(false);
-            this.RegisterTabPage.PerformLayout();
-            this.AboutTabPage.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(603, 275);
+            Controls.Add(mainTabControl);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "StaticWindowForm";
+            Text = "Company X";
+            mainTabControl.ResumeLayout(false);
+            homeTabPage.ResumeLayout(false);
+            registerTabPage.ResumeLayout(false);
+            registerTabPage.PerformLayout();
+            aboutTabPage.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
 
-        private TabControl TabControl;
-        private TabPage HomeTabPage;
-        private Label SloganLabel;
-        private Label CompanyNameLabel;
-        private TabPage RegisterTabPage;
-        private TabPage AboutTabPage;
-        private Button RegisterButton;
-        private TextBox PasswordTextBox;
-        private TextBox EmailTextBox;
-        private TextBox NameTextBox;
-        private Label AboutLabel;
+        private TabControl mainTabControl;
+        private TabPage homeTabPage;
+        private Label sloganLabel;
+        private Label companyNameLabel;
+        private TabPage registerTabPage;
+        private TabPage aboutTabPage;
+        private Button registerButton;
+        private TextBox passwordTextBox;
+        private TextBox emailTextBox;
+        private TextBox nameTextBox;
+        private Label aboutLabel;
     }
 }

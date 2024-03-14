@@ -15,33 +15,33 @@ namespace CodeChum
         public ToolStripTextEditor2()
         {
             InitializeComponent();
-            FontComboBox.SelectedIndex = 0;
-            FontSizeComboBox.SelectedIndex = 0;
+            fontComboBox.SelectedIndex = 0;
+            fontSizeComboBox.SelectedIndex = 0;
         }
 
         public void onColorButtonClick(object sender, EventArgs e)
         {
             ToolStripButton button = sender as ToolStripButton;
 
-            if (button.Name.Equals("BlackButton"))
+            if (button.Name.Equals("blackButton"))
             {
-                MainRichTextBox.ForeColor = Color.Black;
+                mainRichTextBox.ForeColor = Color.Black;
             }
-            else if (button.Name.Equals("BlueButton"))
+            else if (button.Name.Equals("blueButton"))
             {
-                MainRichTextBox.ForeColor = Color.Blue;
+                mainRichTextBox.ForeColor = Color.Blue;
             }
-            else if (button.Name.Equals("GreenButton"))
+            else if (button.Name.Equals("greenButton"))
             {
-                MainRichTextBox.ForeColor = Color.Green;
+                mainRichTextBox.ForeColor = Color.Green;
             }
-            else if (button.Name.Equals("RedButton"))
+            else if (button.Name.Equals("redButton"))
             {
-                MainRichTextBox.ForeColor = Color.Red;
+                mainRichTextBox.ForeColor = Color.Red;
             }
-            else if (button.Name.Equals("YellowButton"))
+            else if (button.Name.Equals("yellowButton"))
             {
-                MainRichTextBox.ForeColor = Color.Yellow;
+                mainRichTextBox.ForeColor = Color.Yellow;
             }
         }
 
@@ -49,14 +49,14 @@ namespace CodeChum
         {
             ToolStripButton button = sender as ToolStripButton;
 
-            if (button.Name.Equals("ReplaceAllButton"))
+            if (button.Name.Equals("replaceAllButton"))
             {
-                String newString = MainRichTextBox.Text.Replace(FindTextBox.Text, ReplaceAllTextBox.Text);
-                MainRichTextBox.Text = newString;
+                String newString = mainRichTextBox.Text.Replace(findTextBox.Text, replaceAllTextBox.Text);
+                mainRichTextBox.Text = newString;
             }
             else
             {
-                ColorToolStrip.Visible = !ColorToolStrip.Visible;
+                colorToolStrip.Visible = !colorToolStrip.Visible;
             }
         }
 
@@ -64,21 +64,26 @@ namespace CodeChum
         {
             ToolStripComboBox comboBox = sender as ToolStripComboBox;
 
-            if (FontSizeComboBox.SelectedItem is not null && FontComboBox.SelectedItem is not null)
+            if (fontSizeComboBox.SelectedItem is not null && fontComboBox.SelectedItem is not null)
             {
-                if (comboBox.Name.Equals("FontComboBox"))
+                if (comboBox.Name.Equals("fontComboBox"))
                 {
-                    int fontSize = int.Parse((string)FontSizeComboBox.SelectedItem);
+                    int fontSize = int.Parse((string)fontSizeComboBox.SelectedItem);
                     Font newFont = new Font((string)comboBox.SelectedItem, fontSize);
-                    MainRichTextBox.Font = newFont;
+                    mainRichTextBox.Font = newFont;
                 }
                 else
                 {
                     int fontSize = int.Parse((string)comboBox.SelectedItem);
-                    Font newFont = new Font((string)FontComboBox.SelectedItem, fontSize);
-                    MainRichTextBox.Font = newFont;
+                    Font newFont = new Font((string)fontComboBox.SelectedItem, fontSize);
+                    mainRichTextBox.Font = newFont;
                 }
             }
+        }
+
+        private void toolStripLabel2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

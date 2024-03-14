@@ -21,8 +21,8 @@ namespace CodeChum
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            RegisteredName = NameTextBox.Text;
-            RegisteredEmail = EmailTextBox.Text;
+            RegisteredName = nameTextBox.Text;
+            RegisteredEmail = emailTextBox.Text;
 
             this.Close();
         }

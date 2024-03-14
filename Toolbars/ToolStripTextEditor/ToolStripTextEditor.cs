@@ -17,8 +17,8 @@ namespace CodeChum
         public ToolStripTextEditor()
         {
             InitializeComponent();
-            FontComboBox.SelectedIndex = 0;
-            FontSizeComboBox.SelectedIndex = 0;
+            fontComboBox.SelectedIndex = 0;
+            fontSizeComboBox.SelectedIndex = 0;
         }
 
         private FontStyle getFontStyle()
@@ -45,20 +45,21 @@ namespace CodeChum
         {
             ToolStripComboBox comboBox = sender as ToolStripComboBox;
 
-            if (FontSizeComboBox.SelectedItem is not null && FontComboBox.SelectedItem is not null) {
+            if (fontSizeComboBox.SelectedItem is not null && fontComboBox.SelectedItem is not null)
+            {
                 FontStyle fontStyle = getFontStyle();
 
-                if (comboBox.Name.Equals("FontComboBox"))
+                if (comboBox.Name.Equals("fontComboBox"))
                 {
-                    int fontSize = int.Parse((string)FontSizeComboBox.SelectedItem);
+                    int fontSize = int.Parse((string)fontSizeComboBox.SelectedItem);
                     Font newFont = new Font((string)comboBox.SelectedItem, fontSize, fontStyle);
-                    MainRichTextBox.Font = newFont;
+                    mainRichTextBox.Font = newFont;
                 }
                 else
                 {
                     int fontSize = int.Parse((string)comboBox.SelectedItem);
-                    Font newFont = new Font((string)FontComboBox.SelectedItem, fontSize, fontStyle);
-                    MainRichTextBox.Font = newFont;
+                    Font newFont = new Font((string)fontComboBox.SelectedItem, fontSize, fontStyle);
+                    mainRichTextBox.Font = newFont;
                 }
             }
         }
@@ -67,11 +68,11 @@ namespace CodeChum
         {
             ToolStripButton button = sender as ToolStripButton;
 
-            if(button.Name.Equals("UnderlineButton"))
+            if (button.Name.Equals("underlineButton"))
             {
                 isUnderlined = !isUnderlined;
             }
-            else if (button.Name.Equals("BoldButton"))
+            else if (button.Name.Equals("boldButton"))
             {
                 isBold = !isBold;
             }
@@ -82,9 +83,14 @@ namespace CodeChum
 
             FontStyle fontStyle = getFontStyle();
 
-            int fontSize = int.Parse((string)FontSizeComboBox.SelectedItem);
-            Font newFont = new Font((string)FontComboBox.SelectedItem, fontSize, fontStyle);
-            MainRichTextBox.Font = newFont;
+            int fontSize = int.Parse((string)fontSizeComboBox.SelectedItem);
+            Font newFont = new Font((string)fontComboBox.SelectedItem, fontSize, fontStyle);
+            mainRichTextBox.Font = newFont;
+        }
+
+        private void FontComboBox_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

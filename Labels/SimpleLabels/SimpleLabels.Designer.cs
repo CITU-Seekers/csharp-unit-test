@@ -28,61 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Label1 = new System.Windows.Forms.Label();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.Label3 = new System.Windows.Forms.Label();
-            this.Label4 = new System.Windows.Forms.Label();
+            this.helloWorldLabel = new System.Windows.Forms.Label();
+            this.programmingLabel = new System.Windows.Forms.Label();
+            this.codechumLabel = new System.Windows.Forms.Label();
+            this.csharpLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Label1
+            // helloWorldLabel
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label1.Location = new System.Drawing.Point(86, 23);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(172, 38);
-            this.Label1.TabIndex = 0;
-            this.Label1.Text = "Hello World!";
+            this.helloWorldLabel.AutoSize = true;
+            this.helloWorldLabel.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.helloWorldLabel.Location = new System.Drawing.Point(86, 23);
+            this.helloWorldLabel.Name = "helloWorldLabel";
+            this.helloWorldLabel.Size = new System.Drawing.Size(172, 38);
+            this.helloWorldLabel.TabIndex = 0;
+            this.helloWorldLabel.Text = "Hello World!";
             // 
-            // Label2
+            // programmingLabel
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label2.Location = new System.Drawing.Point(49, 72);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(260, 38);
-            this.Label2.TabIndex = 1;
-            this.Label2.Text = "I love programming";
+            this.programmingLabel.AutoSize = true;
+            this.programmingLabel.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.programmingLabel.Location = new System.Drawing.Point(49, 72);
+            this.programmingLabel.Name = "programmingLabel";
+            this.programmingLabel.Size = new System.Drawing.Size(260, 38);
+            this.programmingLabel.TabIndex = 1;
+            this.programmingLabel.Text = "I love programming";
             // 
-            // Label3
+            // codechumLabel
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label3.Location = new System.Drawing.Point(73, 125);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(228, 38);
-            this.Label3.TabIndex = 2;
-            this.Label3.Text = "I love CodeChum";
+            this.codechumLabel.AutoSize = true;
+            this.codechumLabel.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.codechumLabel.Location = new System.Drawing.Point(73, 125);
+            this.codechumLabel.Name = "codechumLabel";
+            this.codechumLabel.Size = new System.Drawing.Size(228, 38);
+            this.codechumLabel.TabIndex = 2;
+            this.codechumLabel.Text = "I love CodeChum";
             // 
-            // Label4
+            // csharpLabel
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label4.Location = new System.Drawing.Point(113, 173);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(125, 38);
-            this.Label4.TabIndex = 3;
-            this.Label4.Text = "I love C#";
+            this.csharpLabel.AutoSize = true;
+            this.csharpLabel.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.csharpLabel.Location = new System.Drawing.Point(113, 173);
+            this.csharpLabel.Name = "csharpLabel";
+            this.csharpLabel.Size = new System.Drawing.Size(125, 38);
+            this.csharpLabel.TabIndex = 3;
+            this.csharpLabel.Text = "I love C#";
             // 
             // SimpleLabels
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 234);
-            this.Controls.Add(this.Label4);
-            this.Controls.Add(this.Label3);
-            this.Controls.Add(this.Label2);
-            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.csharpLabel);
+            this.Controls.Add(this.codechumLabel);
+            this.Controls.Add(this.programmingLabel);
+            this.Controls.Add(this.helloWorldLabel);
             this.Name = "SimpleLabels";
             this.Text = "Simple Labels";
             this.ResumeLayout(false);
@@ -92,9 +92,9 @@
 
         #endregion
 
-        private Label Label1;
-        private Label Label2;
-        private Label Label3;
-        private Label Label4;
+        private Label helloWorldLabel;
+        private Label programmingLabel;
+        private Label codechumLabel;
+        private Label csharpLabel;
     }
 }

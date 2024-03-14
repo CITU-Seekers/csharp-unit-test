@@ -28,50 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.HourNumericControl = new System.Windows.Forms.NumericUpDown();
-            this.MinuteNumericControl = new System.Windows.Forms.NumericUpDown();
-            this.TwelveHourLabel = new System.Windows.Forms.Label();
+            this.hourNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.minuteNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.twelveHourLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.HourNumericControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MinuteNumericControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hourNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minuteNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
-            // HourNumericControl
+            // hourNumericUpDown
             // 
-            this.HourNumericControl.Location = new System.Drawing.Point(189, 37);
-            this.HourNumericControl.Maximum = new decimal(new int[] {
+            this.hourNumericUpDown.Location = new System.Drawing.Point(189, 37);
+            this.hourNumericUpDown.Maximum = new decimal(new int[] {
             23,
             0,
             0,
             0});
-            this.HourNumericControl.Name = "HourNumericControl";
-            this.HourNumericControl.Size = new System.Drawing.Size(71, 27);
-            this.HourNumericControl.TabIndex = 0;
-            this.HourNumericControl.ValueChanged += new System.EventHandler(this.HourNumericControl_ValueChanged);
+            this.hourNumericUpDown.Name = "hourNumericUpDown";
+            this.hourNumericUpDown.Size = new System.Drawing.Size(71, 27);
+            this.hourNumericUpDown.TabIndex = 0;
+            this.hourNumericUpDown.ValueChanged += new System.EventHandler(this.HourNumericControl_ValueChanged);
             // 
-            // MinuteNumericControl
+            // minuteNumericUpDown
             // 
-            this.MinuteNumericControl.Location = new System.Drawing.Point(266, 37);
-            this.MinuteNumericControl.Maximum = new decimal(new int[] {
+            this.minuteNumericUpDown.Location = new System.Drawing.Point(266, 37);
+            this.minuteNumericUpDown.Maximum = new decimal(new int[] {
             59,
             0,
             0,
             0});
-            this.MinuteNumericControl.Name = "MinuteNumericControl";
-            this.MinuteNumericControl.Size = new System.Drawing.Size(69, 27);
-            this.MinuteNumericControl.TabIndex = 1;
-            this.MinuteNumericControl.ValueChanged += new System.EventHandler(this.MinuteNumericControl_ValueChanged);
+            this.minuteNumericUpDown.Name = "minuteNumericUpDown";
+            this.minuteNumericUpDown.Size = new System.Drawing.Size(69, 27);
+            this.minuteNumericUpDown.TabIndex = 1;
+            this.minuteNumericUpDown.ValueChanged += new System.EventHandler(this.MinuteNumericControl_ValueChanged);
             // 
-            // TwelveHourLabel
+            // twelveHourLabel
             // 
-            this.TwelveHourLabel.AutoSize = true;
-            this.TwelveHourLabel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TwelveHourLabel.Location = new System.Drawing.Point(189, 77);
-            this.TwelveHourLabel.Name = "TwelveHourLabel";
-            this.TwelveHourLabel.Size = new System.Drawing.Size(89, 25);
-            this.TwelveHourLabel.TabIndex = 2;
-            this.TwelveHourLabel.Text = "12:00 AM";
+            this.twelveHourLabel.AutoSize = true;
+            this.twelveHourLabel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.twelveHourLabel.Location = new System.Drawing.Point(189, 77);
+            this.twelveHourLabel.Name = "twelveHourLabel";
+            this.twelveHourLabel.Size = new System.Drawing.Size(89, 25);
+            this.twelveHourLabel.TabIndex = 2;
+            this.twelveHourLabel.Text = "12:00 AM";
             // 
             // label1
             // 
@@ -100,13 +100,13 @@
             this.ClientSize = new System.Drawing.Size(373, 124);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TwelveHourLabel);
-            this.Controls.Add(this.MinuteNumericControl);
-            this.Controls.Add(this.HourNumericControl);
+            this.Controls.Add(this.twelveHourLabel);
+            this.Controls.Add(this.minuteNumericUpDown);
+            this.Controls.Add(this.hourNumericUpDown);
             this.Name = "TimeConverter";
             this.Text = "Time Converter";
-            ((System.ComponentModel.ISupportInitialize)(this.HourNumericControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MinuteNumericControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hourNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minuteNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,9 +114,9 @@
 
         #endregion
 
-        private NumericUpDown HourNumericControl;
-        private NumericUpDown MinuteNumericControl;
-        private Label TwelveHourLabel;
+        private NumericUpDown hourNumericUpDown;
+        private NumericUpDown minuteNumericUpDown;
+        private Label twelveHourLabel;
         private Label label1;
         private Label label2;
     }
