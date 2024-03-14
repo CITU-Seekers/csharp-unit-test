@@ -41,22 +41,22 @@
 
         [Fact]
         // Description: Should show holidays for the month of December in `holidaysLabel` on `displayHolidaysButton` click.
-            public void ShouldShowHolidaysOnDecember()
-            {
-                holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("12/01/2022", "MM/dd/yyyy", null);
-                string textToCompare = "December 25, 2022 - Christmas\nDecember 30, 2022 - Rizal Day";
+        public void ShouldShowHolidaysOnDecember()
+        {
+            holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("01/12/2022", "dd/MM/yyyy", null);
+            string textToCompare = "December 25, 2022 - Christmas\nDecember 30, 2022 - Rizal Day";
 
-                displayHolidaysButton.Select();
-                displayHolidaysButton.PerformClick();
+            displayHolidaysButton.Select();
+            displayHolidaysButton.PerformClick();
 
-                Assert.Equal(textToCompare, holidaysLabel.Text);
-            }
+            Assert.Equal(textToCompare, holidaysLabel.Text);
+        }
 
         [Fact]
         // Description: Should show holidays for the month of January in `holidaysLabel` on `displayHolidaysButton` click.
         public void ShouldShowHolidaysOnJanuary()
         {
-            holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("01/30/2023", "MM/dd/yyyy", null);
+            holidaysMonthCalendar.SelectionStart = DateTime.ParseExact("30/01/2023", "dd/MM/yyyy", null);
             string textToCompare = "January 1, 2023 - New Year's Day\nJanuary 22, 2023 - Lunar New Year";
 
             displayHolidaysButton.Select();
