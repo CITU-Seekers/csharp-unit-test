@@ -20,7 +20,7 @@
 
         [Fact]
         // Description: Should have a text value of "Hello World!" in `textDisplayLabel`.
-        public void ShouldHaveCorrectTextOntextDisplayLabel()
+        public void ShouldHaveCorrectTextOnTextDisplayLabel()
         {
             string expected = "Hello World!";
 
