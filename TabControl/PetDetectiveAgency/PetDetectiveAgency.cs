@@ -15,10 +15,10 @@
         private void CreateButton_Click(object sender, EventArgs e)
         {
             // Get values from textboxes
-            PetName = txtPetName.Text;
-            PetType = txtPetType.Text;
-            Clues = txtClues.Text;
-            Statements = txtStatements.Text;
+            PetName = petNameTextBox.Text;
+            PetType = petTypeTextBox.Text;
+            Clues = cluesTextBox.Text;
+            Statements = statementsTextBox.Text;
 
             // Create a new tab page with all the information from the textboxes and put it in labels
             TabPage newPage = new TabPage();
@@ -29,28 +29,28 @@
             Label petNameLabel = new Label();
             petNameLabel.Name = "PetNameLabel";
             petNameLabel.Text = "Name: " + PetName;
-            petNameLabel.Location = txtPetName.Location;
+            petNameLabel.Location = petNameTextBox.Location;
             petNameLabel.AutoSize = true;
             newPage.Controls.Add(petNameLabel);
 
             Label petTypeLabel = new Label();
             petTypeLabel.Name = "PetTypeLabel";
             petTypeLabel.Text = "Pet Type: " + PetType;
-            petTypeLabel.Location = txtPetType.Location;
+            petTypeLabel.Location = petTypeTextBox.Location;
             petTypeLabel.AutoSize = true;
             newPage.Controls.Add(petTypeLabel);
 
             Label cluesLabel = new Label();
             cluesLabel.Name = "CluesLabel";
             cluesLabel.Text = "Clues: \r\n" + Clues;
-            cluesLabel.Location = txtClues.Location;
+            cluesLabel.Location = cluesTextBox.Location;
             cluesLabel.AutoSize = true;
             newPage.Controls.Add(cluesLabel);
 
             Label statementsLabel = new Label();
             statementsLabel.Name = "StatementsLabel";
             statementsLabel.Text = "Statements: \r\n" + Statements;
-            statementsLabel.Location = txtStatements.Location;
+            statementsLabel.Location = statementsTextBox.Location;
             statementsLabel.AutoSize = true;
             newPage.Controls.Add(statementsLabel);
 
@@ -64,16 +64,16 @@
 
             //Create a button named CaseSolved and add it to the new tab page and this button will close the tab page
             Button caseSolvedButton = new Button();
-            caseSolvedButton.Name = "CaseSolvedButton";
+            caseSolvedButton.Name = "caseSolvedButton";
             caseSolvedButton.Text = "Case Solved";
-            caseSolvedButton.Location = CreateButton.Location;
+            caseSolvedButton.Location = createButton.Location;
             caseSolvedButton.AutoSize = true;
-            caseSolvedButton.Click += (s, args) => MainTabControl.TabPages.Remove(newPage);
+            caseSolvedButton.Click += (s, args) => mainTabControl.TabPages.Remove(newPage);
             newPage.Controls.Add(caseSolvedButton);
 
 
             // Add the newPage to the TabControl
-            MainTabControl.TabPages.Add(newPage);
+            mainTabControl.TabPages.Add(newPage);
         }
     }
 }

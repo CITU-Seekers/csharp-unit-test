@@ -15,47 +15,47 @@ namespace CodeChum
         public Orchestra()
         {
             InitializeComponent();
-            lblMessage.Text = "Welcome to the orchestra!";
+            messageLabel.Text = "Welcome to the orchestra!";
         }
 
         private void btnViolins_Click(object sender, EventArgs e)
         {
-            btnCellos.BackColor = Color.White;
-            btnDrums.BackColor = Color.White;
-            btnTrumpets.BackColor = Color.White;
+            celloButton.BackColor = Color.White;
+            drumButton.BackColor = Color.White;
+            trumpetButton.BackColor = Color.White;
 
-            btnViolins.BackColor = Color.Yellow;
-            lblMessage.Text = "Violins are playing!";
+            violinButton.BackColor = Color.Yellow;
+            messageLabel.Text = "Violins are playing!";
         }
 
         private void btnCellos_Click(object sender, EventArgs e)
         {
-            btnViolins.BackColor = Color.White;
-            btnDrums.BackColor = Color.White;
-            btnTrumpets.BackColor = Color.White;
+            violinButton.BackColor = Color.White;
+            drumButton.BackColor = Color.White;
+            trumpetButton.BackColor = Color.White;
 
-            btnCellos.BackColor = Color.Yellow;
-            lblMessage.Text = "Cellos are playing!";
+            celloButton.BackColor = Color.Yellow;
+            messageLabel.Text = "Cellos are playing!";
         }
 
         private void btnTrumpets_Click(object sender, EventArgs e)
         {
-            btnViolins.BackColor = Color.White;
-            btnDrums.BackColor = Color.White;
-            btnCellos.BackColor = Color.White;
+            violinButton.BackColor = Color.White;
+            drumButton.BackColor = Color.White;
+            celloButton.BackColor = Color.White;
 
-            btnTrumpets.BackColor = Color.Yellow;
-            lblMessage.Text = "Trumpets are playing!";
+            trumpetButton.BackColor = Color.Yellow;
+            messageLabel.Text = "Trumpets are playing!";
         }
 
         private void btnDrums_Click(object sender, EventArgs e)
         {
-            btnViolins.BackColor = Color.White;
-            btnCellos.BackColor = Color.White;
-            btnTrumpets.BackColor = Color.White;
+            violinButton.BackColor = Color.White;
+            celloButton.BackColor = Color.White;
+            trumpetButton.BackColor = Color.White;
 
-            btnDrums.BackColor = Color.Yellow;
-            lblMessage.Text = "Drums are playing!";
+            drumButton.BackColor = Color.Yellow;
+            messageLabel.Text = "Drums are playing!";
         }
     }
 }

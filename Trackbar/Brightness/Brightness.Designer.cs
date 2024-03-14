@@ -28,54 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            BrightnessTrackBar = new TrackBar();
-            lblColor = new Label();
-            lblBrightness = new Label();
-            ((System.ComponentModel.ISupportInitialize)BrightnessTrackBar).BeginInit();
+            brightnessTrackBar = new TrackBar();
+            colorLabel = new Label();
+            brightnessLabel = new Label();
+            ((System.ComponentModel.ISupportInitialize)brightnessTrackBar).BeginInit();
             SuspendLayout();
             // 
-            // BrightnessTrackBar
+            // brightnessTrackBar
             // 
-            BrightnessTrackBar.Location = new Point(116, 132);
-            BrightnessTrackBar.Name = "BrightnessTrackBar";
-            BrightnessTrackBar.Size = new Size(291, 45);
-            BrightnessTrackBar.TabIndex = 0;
-            BrightnessTrackBar.Scroll += BrightnessTrackBar_Scroll;
+            brightnessTrackBar.Location = new Point(116, 132);
+            brightnessTrackBar.Name = "brightnessTrackBar";
+            brightnessTrackBar.Size = new Size(291, 45);
+            brightnessTrackBar.TabIndex = 0;
+            brightnessTrackBar.Scroll += BrightnessTrackBar_Scroll;
             // 
             // lblColor
             // 
-            lblColor.BackColor = Color.Transparent;
-            lblColor.Location = new Point(116, 50);
-            lblColor.Name = "lblColor";
-            lblColor.Size = new Size(291, 47);
-            lblColor.TabIndex = 1;
+            colorLabel.BackColor = Color.Transparent;
+            colorLabel.Location = new Point(116, 50);
+            colorLabel.Name = "colorLabel";
+            colorLabel.Size = new Size(291, 47);
+            colorLabel.TabIndex = 1;
             // 
             // lblBrightness
             // 
-            lblBrightness.Location = new Point(116, 180);
-            lblBrightness.Name = "lblBrightness";
-            lblBrightness.Size = new Size(291, 47);
-            lblBrightness.TabIndex = 2;
+            brightnessLabel.Location = new Point(116, 180);
+            brightnessLabel.Name = "brightnessLabel";
+            brightnessLabel.Size = new Size(291, 47);
+            brightnessLabel.TabIndex = 2;
             // 
             // Brightness
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(555, 308);
-            Controls.Add(lblBrightness);
-            Controls.Add(lblColor);
-            Controls.Add(BrightnessTrackBar);
+            Controls.Add(brightnessLabel);
+            Controls.Add(colorLabel);
+            Controls.Add(brightnessTrackBar);
             Name = "Brightness";
             Text = "Brightness";
-            ((System.ComponentModel.ISupportInitialize)BrightnessTrackBar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)brightnessTrackBar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TrackBar BrightnessTrackBar;
-        private Label lblColor;
-        private Label lblBrightness;
+        private TrackBar brightnessTrackBar;
+        private Label colorLabel;
+        private Label brightnessLabel;
     }
 }

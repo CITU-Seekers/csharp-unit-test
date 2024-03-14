@@ -32,82 +32,82 @@ namespace CodeChum
         }
         private void FirstButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(firstButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(FirstButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void SecondButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(secondButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(SecondButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void ThirdButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(thirdButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(ThirdButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void FourthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(fourthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(FourthButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void FifthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(fifthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(FifthButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
 
             }
         }
 
         private void SixthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(sixthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(SixthButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void SeventhButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(seventhButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(SeventhButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void EighthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(eighthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(EighthButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void NinthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(ninthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(NinthButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
 
         private void TenthButton_Click(object sender, EventArgs e)
         {
-            if (IsSpyNumber(Convert.ToInt32(tenthButton.Text)))
+            if (IsSpyNumber(Convert.ToInt32(TenthButton.Text)))
             {
-                MessageBoxWrapper3.Show("Spy found!");
+                MessageBox.Show("Spy found!");
             }
         }
     }

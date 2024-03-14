@@ -23,55 +23,58 @@ namespace CodeChum.Tests
     public class DrawingCanvasAppTest
     {
         DrawingCanvasApp? form;
-        PictureBox? CanvasBox;
-        ToolStrip? DrawingToolStrip;
-        ToolStripButton? PencilButton, LineButton, RectangleButton, EllipseButton, ClearButton;
-        ToolStripComboBox? ColorComboBox;
+        PictureBox? pictureBox;
+        ToolStrip? drawingToolStrip;
+        ToolStripButton? pencilToolStripButton, lineToolStripButton, rectangleToolStripButton, ellipseToolStripButton, clearToolStripButton;
+        ToolStripComboBox? colorToolStripComboBox;
 
         public DrawingCanvasAppTest()
         {
             form = new DrawingCanvasApp();
             form.Show();
-            CanvasBox = (PictureBox)TestUtils.GetControlNamed(form, "CanvasBox", true);
-            DrawingToolStrip = (ToolStrip)TestUtils.GetControlNamed(form, "DrawingToolStrip", true);
+            pictureBox = (PictureBox)TestUtils.GetControlNamed(form, "pictureBox", true);
+            drawingToolStrip = (ToolStrip)TestUtils.GetControlNamed(form, "drawingToolStrip", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `pictureBox` and `drawingToolStrip`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(CanvasBox);
-            Assert.NotNull(DrawingToolStrip);
+            Assert.NotNull(pictureBox);
+            Assert.NotNull(drawingToolStrip);
         }
 
         [Fact]
-        public void ShouldHaveAllDrawingToolStripControls()
+        // Description: Should have all the drawing tools `pencilToolStripButton`, `lineToolStripButton`, `rectangleToolStripButton`, `ellipseToolStripButton`, `clearToolStripButton`, and `colorToolStripComboBox`.
+        public void ShouldHaveAlldrawingToolStripControls()
         {
-            PencilButton = DrawingToolStrip.Items["PencilButton"] as ToolStripButton;
-            LineButton = DrawingToolStrip.Items["LineButton"] as ToolStripButton;
-            RectangleButton = DrawingToolStrip.Items["RectangleButton"] as ToolStripButton;
-            EllipseButton = DrawingToolStrip.Items["EllipseButton"] as ToolStripButton;
-            ClearButton = DrawingToolStrip.Items["ClearButton"] as ToolStripButton;
-            ColorComboBox = DrawingToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            pencilToolStripButton = drawingToolStrip.Items["pencilToolStripButton"] as ToolStripButton;
+            lineToolStripButton = drawingToolStrip.Items["lineToolStripButton"] as ToolStripButton;
+            rectangleToolStripButton = drawingToolStrip.Items["rectangleToolStripButton"] as ToolStripButton;
+            ellipseToolStripButton = drawingToolStrip.Items["ellipseToolStripButton"] as ToolStripButton;
+            clearToolStripButton = drawingToolStrip.Items["clearToolStripButton"] as ToolStripButton;
+            colorToolStripComboBox = drawingToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            Assert.NotNull(PencilButton);
-            Assert.NotNull(LineButton);
-            Assert.NotNull(RectangleButton);
-            Assert.NotNull(EllipseButton);
-            Assert.NotNull(ClearButton);
-            Assert.NotNull(ColorComboBox);
+            Assert.NotNull(pencilToolStripButton);
+            Assert.NotNull(lineToolStripButton);
+            Assert.NotNull(rectangleToolStripButton);
+            Assert.NotNull(ellipseToolStripButton);
+            Assert.NotNull(clearToolStripButton);
+            Assert.NotNull(colorToolStripComboBox);
         }
 
         [Fact]
+        // Description: Should draw a line on the canvas with the color red when the `pencilToolStripButton` is clicked and the `colorToolStripComboBox` is set to red.
         public void ShouldDrawPencil()
         {
-            PencilButton = DrawingToolStrip.Items["PencilButton"] as ToolStripButton;
-            ColorComboBox = DrawingToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            pencilToolStripButton = drawingToolStrip.Items["pencilToolStripButton"] as ToolStripButton;
+            colorToolStripComboBox = drawingToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            PencilButton.PerformClick();
-            ColorComboBox.SelectedIndex = 0;
+            pencilToolStripButton.PerformClick();
+            colorToolStripComboBox.SelectedIndex = 0;
 
             // Create a bitmap to simulate the canvas
-            using (Bitmap bitmap = new Bitmap(CanvasBox.Width, CanvasBox.Height))
+            using (Bitmap bitmap = new Bitmap(pictureBox.Width, pictureBox.Height))
             {
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {
@@ -88,16 +91,17 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should draw a line on the canvas with the color red when the `lineToolStripButton` is clicked and the `colorToolStripComboBox` is set to red.
         public void ShouldDrawLine()
         {
-            LineButton = DrawingToolStrip.Items["LineButton"] as ToolStripButton;
-            ColorComboBox = DrawingToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            lineToolStripButton = drawingToolStrip.Items["lineToolStripButton"] as ToolStripButton;
+            colorToolStripComboBox = drawingToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            LineButton.PerformClick();
-            ColorComboBox.SelectedIndex = 0;
+            lineToolStripButton.PerformClick();
+            colorToolStripComboBox.SelectedIndex = 0;
 
             // Create a bitmap to simulate the canvas
-            using (Bitmap bitmap = new Bitmap(CanvasBox.Width, CanvasBox.Height))
+            using (Bitmap bitmap = new Bitmap(pictureBox.Width, pictureBox.Height))
             {
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {
@@ -114,16 +118,17 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should draw a rectangle on the canvas with the color red when the `rectangleToolStripButton` is clicked and the `colorToolStripComboBox` is set to red.
         public void ShouldDrawRectangle()
         {
-            RectangleButton = DrawingToolStrip.Items["RectangleButton"] as ToolStripButton;
-            ColorComboBox = DrawingToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            rectangleToolStripButton = drawingToolStrip.Items["rectangleToolStripButton"] as ToolStripButton;
+            colorToolStripComboBox = drawingToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            RectangleButton.PerformClick();
-            ColorComboBox.SelectedIndex = 0;
+            rectangleToolStripButton.PerformClick();
+            colorToolStripComboBox.SelectedIndex = 0;
 
             // Create a bitmap to simulate the canvas
-            using (Bitmap bitmap = new Bitmap(CanvasBox.Width, CanvasBox.Height))
+            using (Bitmap bitmap = new Bitmap(pictureBox.Width, pictureBox.Height))
             {
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {
@@ -146,16 +151,17 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should draw an ellipse on the canvas with the color red when the `ellipseToolStripButton` is clicked and the `colorToolStripComboBox` is set to red.
         public void ShouldDrawEllipse()
         {
-            EllipseButton = DrawingToolStrip.Items["EllipseButton"] as ToolStripButton;
-            ColorComboBox = DrawingToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            ellipseToolStripButton = drawingToolStrip.Items["ellipseToolStripButton"] as ToolStripButton;
+            colorToolStripComboBox = drawingToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            EllipseButton.PerformClick();
-            ColorComboBox.SelectedIndex = 0;
+            ellipseToolStripButton.PerformClick();
+            colorToolStripComboBox.SelectedIndex = 0;
 
             // Create a bitmap to simulate the canvas
-            using (Bitmap bitmap = new Bitmap(CanvasBox.Width, CanvasBox.Height))
+            using (Bitmap bitmap = new Bitmap(pictureBox.Width, pictureBox.Height))
             {
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {
@@ -169,13 +175,14 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should clear the canvas when the `clearToolStripButton` is clicked.
         public void ShouldClearCanvas()
         {
-            ClearButton = DrawingToolStrip.Items["ClearButton"] as ToolStripButton;
+            clearToolStripButton = drawingToolStrip.Items["clearToolStripButton"] as ToolStripButton;
 
-            ClearButton.PerformClick();
+            clearToolStripButton.PerformClick();
 
-            using (Bitmap bitmap = new Bitmap(CanvasBox.Width, CanvasBox.Height))
+            using (Bitmap bitmap = new Bitmap(pictureBox.Width, pictureBox.Height))
             {
                 // Check if the bitmap does not contains the color red or any color other than white
                 Assert.DoesNotContain(Color.Red.ToArgb(), bitmap.GetPixels());
@@ -188,14 +195,15 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change the pen color to green when the `colorToolStripComboBox` is set to green and a line is drawn on the canvas.
         public void ShouldChangePenColor()
         {
-            ColorComboBox = DrawingToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            colorToolStripComboBox = drawingToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            ColorComboBox.SelectedIndex = 1;
+            colorToolStripComboBox.SelectedIndex = 1;
 
             // Create a bitmap to simulate the canvas
-            using (Bitmap bitmap = new Bitmap(CanvasBox.Width, CanvasBox.Height))
+            using (Bitmap bitmap = new Bitmap(pictureBox.Width, pictureBox.Height))
             {
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {

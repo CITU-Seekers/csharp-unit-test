@@ -24,10 +24,10 @@ namespace CodeChum
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            ClassName = txtClassName.Text;
-            ClassSchedule = cboSched.SelectedItem.ToString();
-            ClassCode = txtClassCode.Text;
-            ClassDescription = txtClassDesc.Text;
+            ClassName = classNameTextBox.Text;
+            ClassSchedule = scheduleComboBox.SelectedItem.ToString();
+            ClassCode = classCodeTextBox.Text;
+            ClassDescription = classDescriptionRichTextBox.Text;
 
             this.Close();
         }

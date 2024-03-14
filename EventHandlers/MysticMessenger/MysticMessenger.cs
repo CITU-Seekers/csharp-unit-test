@@ -20,17 +20,17 @@ namespace CodeChum
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string message = textBox1.Text;
+            string message = messageTextBox.Text;
             string translated = new string(message.Reverse().ToArray());
-            lblMessage.Text = translated;
+            messageLabel.Text = translated;
 
-            button1.BackColor = Color.Red;
-            button1.ForeColor = Color.White;
+            windButton.BackColor = Color.Red;
+            windButton.ForeColor = Color.White;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string message = lblMessage.Text; // Get text from the previous step
+            string message = messageLabel.Text; // Get text from the previous step
             StringBuilder translated = new StringBuilder();
 
             foreach (char c in message)
@@ -58,14 +58,14 @@ namespace CodeChum
 
                 translated.Append(translatedChar);
             }
-            button2.BackColor = Color.Red;
-            button2.ForeColor = Color.White;
-            lblMessage.Text = translated.ToString();
+            moonglowButton.BackColor = Color.Red;
+            moonglowButton.ForeColor = Color.White;
+            messageLabel.Text = translated.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string message = lblMessage.Text; // Get text from the previous step
+            string message = messageLabel.Text; // Get text from the previous step
             string translated = "";
 
             foreach (char c in message)
@@ -73,9 +73,9 @@ namespace CodeChum
                 translated += char.IsLetter(c) ? char.ToUpper(c) : c;
             }
 
-            button3.BackColor = Color.Red;
-            button3.ForeColor = Color.White;
-            lblMessage.Text = translated;
+            twilightButton.BackColor = Color.Red;
+            twilightButton.ForeColor = Color.White;
+            messageLabel.Text = translated;
         }
     }
 }

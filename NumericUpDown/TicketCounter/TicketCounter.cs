@@ -19,18 +19,18 @@ namespace CodeChum
         public TicketCounter()
         {
             InitializeComponent();
-            lblTotal.Text = $"Total Cost: $0.00";
+            totalLabel.Text = $"Total Cost: $0.00";
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            int zooTickets = (int)numericUpDownZoo.Value;
-            int rollerCoasterTickets = (int)numericUpDownRollerCoaster.Value;
-            int waterSlideTickets = (int)numericUpDownWaterSlide.Value;
+            int zooTickets = (int)zooNumericUpDown.Value;
+            int rollerCoasterTickets = (int)rollerCoasterNumericUpDown.Value;
+            int waterSlideTickets = (int)waterSlideNumericUpDown.Value;
 
             decimal totalCost = (zooTickets * ZooPrice) + (rollerCoasterTickets * RollerCoasterPrice) + (waterSlideTickets * WaterSlidePrice);
 
-            lblTotal.Text = $"Total Cost: ${totalCost:N2}";
+            totalLabel.Text = $"Total Cost: ${totalCost:N2}";
         }
     }
 }

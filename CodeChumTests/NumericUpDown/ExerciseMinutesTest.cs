@@ -3,46 +3,49 @@
     public class ExerciseMinutesTest
     {
         ExerciseMinutes? form;
-        NumericUpDown? walking;
-        NumericUpDown? running;
-        NumericUpDown? cycling;
-        Label? total;
+        NumericUpDown? walkingNumericUpDown;
+        NumericUpDown? runningNumericUpDown;
+        NumericUpDown? cyclingNumericUpDown;
+        Label? totalLabel;
 
         public ExerciseMinutesTest()
         {
             form = new ExerciseMinutes();
             form.Visible = true;
-            walking = (NumericUpDown)TestUtils.GetControlNamed(form, "numericUpDownWalking", true);
-            running = (NumericUpDown)TestUtils.GetControlNamed(form, "numericUpDownRunning", true);
-            cycling = (NumericUpDown)TestUtils.GetControlNamed(form, "numericUpDownCycling", true);
-            total = (Label)TestUtils.GetControlNamed(form, "lblTotal", true);
+            walkingNumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "walkingNumericUpDown", true);
+            runningNumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "runningNumericUpDown", true);
+            cyclingNumericUpDown = (NumericUpDown)TestUtils.GetControlNamed(form, "cyclingNumericUpDown", true);
+            totalLabel = (Label)TestUtils.GetControlNamed(form, "totalLabel", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `walkingNumericUpDown`, `runningNumericUpDown`, `cyclingNumericUpDown`, and `totalLabel`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(walking);
-            Assert.NotNull(running);
-            Assert.NotNull(cycling);
-            Assert.NotNull(total);
+            Assert.NotNull(walkingNumericUpDown);
+            Assert.NotNull(runningNumericUpDown);
+            Assert.NotNull(cyclingNumericUpDown);
+            Assert.NotNull(totalLabel);
         }
 
         [Fact]
+        // Description: Should have text "Total Exercise Minutes: 0 min" in `totalLabel` when the form is loaded and `0` is set to `walkingNumericUpDown`, `runningNumericUpDown`, and `cyclingNumericUpDown`.
         public void ShouldHaveInitialValues()
         {
-            Assert.Equal(0, walking!.Value);
-            Assert.Equal(0, running!.Value);
-            Assert.Equal(0, cycling!.Value);
-            Assert.Equal("Total Exercise Minutes: 0 min", total!.Text);
+            Assert.Equal(0, walkingNumericUpDown!.Value);
+            Assert.Equal(0, runningNumericUpDown!.Value);
+            Assert.Equal(0, cyclingNumericUpDown!.Value);
+            Assert.Equal("Total Exercise Minutes: 0 min", totalLabel!.Text);
         }
 
         [Fact]
+        // Description: Should have text "Total Exercise Minutes: 60 min" in `totalLabel` when `walkingNumericUpDown` is set to `10`, `runningNumericUpDown` is set to `20`, and `cyclingNumericUpDown` is set to `30`.
         public void ShouldUpdateTotalMinutes()
         {
-            walking!.Value = 10;
-            running!.Value = 20;
-            cycling!.Value = 30;
-            Assert.Equal("Total Exercise Minutes: 60 min", total!.Text);
+            walkingNumericUpDown!.Value = 10;
+            runningNumericUpDown!.Value = 20;
+            cyclingNumericUpDown!.Value = 30;
+            Assert.Equal("Total Exercise Minutes: 60 min", totalLabel!.Text);
         }
     }
 }

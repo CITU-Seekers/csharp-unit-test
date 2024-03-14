@@ -18,28 +18,33 @@ namespace CodeChum
             this.BackColor = Color.White;
         }
 
-        private void toggleDarkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        public void ToggleDarkMode()
         {
             //Toggle dark mode
             if (this.BackColor == Color.White)
             {
                 this.BackColor = Color.Black;
                 this.ForeColor = Color.White;
-                TextBox.BackColor = Color.Gray;
-                TextBox.ForeColor = Color.White;
-                MainMenuStrip.BackColor = Color.Gray;
-                MainMenuStrip.ForeColor = Color.White;
+                richTextBox.BackColor = Color.Gray;
+                richTextBox.ForeColor = Color.White;
+                mainMenuStrip.BackColor = Color.Gray;
+                mainMenuStrip.ForeColor = Color.White;
 
             }
             else
             {
                 this.BackColor = Color.White;
                 this.ForeColor = Color.Black;
-                TextBox.BackColor = Color.White;
-                TextBox.ForeColor = Color.Black;
-                MainMenuStrip.BackColor = Color.White;
-                MainMenuStrip.ForeColor = Color.Black;
+                richTextBox.BackColor = Color.White;
+                richTextBox.ForeColor = Color.Black;
+                mainMenuStrip.BackColor = Color.White;
+                mainMenuStrip.ForeColor = Color.Black;
             }
+        }
+
+        private void toggleDarkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToggleDarkMode();
         }
     }
 }

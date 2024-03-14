@@ -34,47 +34,47 @@ namespace CodeChum
             double totalPrice = 0;
 
             // Calculate total cost based on selected toppings
-            if (PepperoniCheckBox.Checked)
+            if (pepperoniCheckBox.Checked)
             {
                 totalPrice += PepperoniPrice;
             }
-            if (MushroomCheckBox.Checked)
+            if (mushroomCheckBox.Checked)
             {
                 totalPrice += MushroomPrice;
             }
-            if (OnionCheckBox.Checked)
+            if (onionCheckBox.Checked)
             {
                 totalPrice += OnionPrice;
             }
-            if (BaconCheckBox.Checked)
+            if (baconCheckBox.Checked)
             {
                 totalPrice += BaconPrice;
             }
-            if (ExtraCheeseCheckBox.Checked)
+            if (extraCheeseCheckBox.Checked)
             {
                 totalPrice += ExtraCheesePrice;
             }
 
             // Calculate total cost based on selected crust type
-            if (ThinCrustRadioButton.Checked)
+            if (thinCrustRadioButton.Checked)
             {
                 totalPrice += ThinCrustPrice;
             }
-            else if (HandTossedRadioButton.Checked)
+            else if (handTossedRadioButton.Checked)
             {
                 totalPrice += HandTossedPrice;
             }
-            else if (DeepDishRadioButton.Checked)
+            else if (deepDishRadioButton.Checked)
             {
                 totalPrice += DeepDishPrice;
             }
 
-            int pizzaNum = int.Parse(PizzaNum.Text);
+            int pizzaNum = int.Parse(this.pizzaTextBox.Text);
 
             totalPrice *= pizzaNum;
 
             // Display the total cost in a label or perform further actions
-            lblTotal.Text = $"Total Cost: {totalPrice:C}";
+            totalLabel.Text = $"Total Cost: {totalPrice:C}";
         }
     }
 }

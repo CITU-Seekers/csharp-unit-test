@@ -30,57 +30,57 @@ namespace CodeChum
         /// </summary>
         private void InitializeComponent()
         {
-            Panel1 = new Panel();
-            StartButton = new Button();
+            panel1 = new Panel();
+            startButton = new Button();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            Panel2 = new Panel();
+            panel2 = new Panel();
             radioButton5 = new RadioButton();
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
-            ToPanel3Button = new Button();
-            BackToPanel1Button = new Button();
+            toPanel3Button = new Button();
+            backToPanel1Button = new Button();
             label2 = new Label();
-            Panel3 = new Panel();
-            ToPanel4Button = new Button();
-            BackToPanel2Button = new Button();
+            panel3 = new Panel();
+            toPanel4Button = new Button();
+            backToPanel2Button = new Button();
             label4 = new Label();
             trackBar1 = new TrackBar();
             label3 = new Label();
-            Panel4 = new Panel();
-            ExitButton = new Button();
+            panel4 = new Panel();
+            exitButton = new Button();
             label5 = new Label();
             pictureBox2 = new PictureBox();
-            Panel1.SuspendLayout();
+            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            Panel2.SuspendLayout();
-            Panel3.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
-            Panel4.SuspendLayout();
+            panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // Panel1
+            // panel1
             // 
-            Panel1.Controls.Add(StartButton);
-            Panel1.Controls.Add(label1);
-            Panel1.Controls.Add(pictureBox1);
-            Panel1.Location = new Point(22, 25);
-            Panel1.Name = "Panel1";
-            Panel1.Size = new Size(334, 273);
-            Panel1.TabIndex = 0;
+            panel1.Controls.Add(startButton);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(22, 25);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(334, 273);
+            panel1.TabIndex = 0;
             // 
-            // StartButton
+            // startButton
             // 
-            StartButton.Location = new Point(118, 232);
-            StartButton.Name = "StartButton";
-            StartButton.Size = new Size(75, 23);
-            StartButton.TabIndex = 2;
-            StartButton.Text = "Start";
-            StartButton.UseVisualStyleBackColor = true;
-            StartButton.Click += StartButton_Click;
+            startButton.Location = new Point(118, 232);
+            startButton.Name = "startButton";
+            startButton.Size = new Size(75, 23);
+            startButton.TabIndex = 2;
+            startButton.Text = "Start";
+            startButton.UseVisualStyleBackColor = true;
+            startButton.Click += StartButton_Click;
             // 
             // label1
             // 
@@ -101,20 +101,20 @@ namespace CodeChum
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // Panel2
+            // panel2
             // 
-            Panel2.Controls.Add(radioButton5);
-            Panel2.Controls.Add(radioButton4);
-            Panel2.Controls.Add(radioButton3);
-            Panel2.Controls.Add(radioButton2);
-            Panel2.Controls.Add(radioButton1);
-            Panel2.Controls.Add(ToPanel3Button);
-            Panel2.Controls.Add(BackToPanel1Button);
-            Panel2.Controls.Add(label2);
-            Panel2.Location = new Point(362, 25);
-            Panel2.Name = "Panel2";
-            Panel2.Size = new Size(334, 273);
-            Panel2.TabIndex = 1;
+            panel2.Controls.Add(radioButton5);
+            panel2.Controls.Add(radioButton4);
+            panel2.Controls.Add(radioButton3);
+            panel2.Controls.Add(radioButton2);
+            panel2.Controls.Add(radioButton1);
+            panel2.Controls.Add(toPanel3Button);
+            panel2.Controls.Add(backToPanel1Button);
+            panel2.Controls.Add(label2);
+            panel2.Location = new Point(362, 25);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(334, 273);
+            panel2.TabIndex = 1;
             // 
             // radioButton5
             // 
@@ -171,25 +171,25 @@ namespace CodeChum
             radioButton1.Text = "Very Satisfied";
             radioButton1.UseVisualStyleBackColor = true;
             // 
-            // ToPanel3Button
+            // toPanel3Button
             // 
-            ToPanel3Button.Location = new Point(155, 232);
-            ToPanel3Button.Name = "ToPanel3Button";
-            ToPanel3Button.Size = new Size(75, 23);
-            ToPanel3Button.TabIndex = 2;
-            ToPanel3Button.Text = "Next";
-            ToPanel3Button.UseVisualStyleBackColor = true;
-            ToPanel3Button.Click += ToPanel3Button_Click;
+            toPanel3Button.Location = new Point(155, 232);
+            toPanel3Button.Name = "toPanel3Button";
+            toPanel3Button.Size = new Size(75, 23);
+            toPanel3Button.TabIndex = 2;
+            toPanel3Button.Text = "Next";
+            toPanel3Button.UseVisualStyleBackColor = true;
+            toPanel3Button.Click += ToPanel3Button_Click;
             // 
-            // BackToPanel1Button
+            // backToPanel1Button
             // 
-            BackToPanel1Button.Location = new Point(74, 232);
-            BackToPanel1Button.Name = "BackToPanel1Button";
-            BackToPanel1Button.Size = new Size(75, 23);
-            BackToPanel1Button.TabIndex = 2;
-            BackToPanel1Button.Text = "Back";
-            BackToPanel1Button.UseVisualStyleBackColor = true;
-            BackToPanel1Button.Click += BackToPanel1_Click;
+            backToPanel1Button.Location = new Point(74, 232);
+            backToPanel1Button.Name = "backToPanel1Button";
+            backToPanel1Button.Size = new Size(75, 23);
+            backToPanel1Button.TabIndex = 2;
+            backToPanel1Button.Text = "Back";
+            backToPanel1Button.UseVisualStyleBackColor = true;
+            backToPanel1Button.Click += BackToPanel1_Click;
             // 
             // label2
             // 
@@ -200,37 +200,37 @@ namespace CodeChum
             label2.TabIndex = 1;
             label2.Text = "How would you rate your overall satisfaction with our product/service?";
             // 
-            // Panel3
+            // panel3
             // 
-            Panel3.Controls.Add(ToPanel4Button);
-            Panel3.Controls.Add(BackToPanel2Button);
-            Panel3.Controls.Add(label4);
-            Panel3.Controls.Add(trackBar1);
-            Panel3.Controls.Add(label3);
-            Panel3.Location = new Point(702, 25);
-            Panel3.Name = "Panel3";
-            Panel3.Size = new Size(334, 273);
-            Panel3.TabIndex = 2;
+            panel3.Controls.Add(toPanel4Button);
+            panel3.Controls.Add(backToPanel2Button);
+            panel3.Controls.Add(label4);
+            panel3.Controls.Add(trackBar1);
+            panel3.Controls.Add(label3);
+            panel3.Location = new Point(702, 25);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(334, 273);
+            panel3.TabIndex = 2;
             // 
-            // ToPanel4Button
+            // toPanel4Button
             // 
-            ToPanel4Button.Location = new Point(165, 232);
-            ToPanel4Button.Name = "ToPanel4Button";
-            ToPanel4Button.Size = new Size(75, 23);
-            ToPanel4Button.TabIndex = 5;
-            ToPanel4Button.Text = "Next";
-            ToPanel4Button.UseVisualStyleBackColor = true;
-            ToPanel4Button.Click += ToPanel4Button_Click;
+            toPanel4Button.Location = new Point(165, 232);
+            toPanel4Button.Name = "toPanel4Button";
+            toPanel4Button.Size = new Size(75, 23);
+            toPanel4Button.TabIndex = 5;
+            toPanel4Button.Text = "Next";
+            toPanel4Button.UseVisualStyleBackColor = true;
+            toPanel4Button.Click += ToPanel4Button_Click;
             // 
-            // BackToPanel2Button
+            // backToPanel2Button
             // 
-            BackToPanel2Button.Location = new Point(84, 232);
-            BackToPanel2Button.Name = "BackToPanel2Button";
-            BackToPanel2Button.Size = new Size(75, 23);
-            BackToPanel2Button.TabIndex = 6;
-            BackToPanel2Button.Text = "Back";
-            BackToPanel2Button.UseVisualStyleBackColor = true;
-            BackToPanel2Button.Click += BackToPanel2Button_Click;
+            backToPanel2Button.Location = new Point(84, 232);
+            backToPanel2Button.Name = "backToPanel2Button";
+            backToPanel2Button.Size = new Size(75, 23);
+            backToPanel2Button.TabIndex = 6;
+            backToPanel2Button.Text = "Back";
+            backToPanel2Button.UseVisualStyleBackColor = true;
+            backToPanel2Button.Click += BackToPanel2Button_Click;
             // 
             // label4
             // 
@@ -259,25 +259,25 @@ namespace CodeChum
             label3.TabIndex = 1;
             label3.Text = "On a scale from 1 to 10, how likely are you to recommend our product/service to a friend or colleague?";
             // 
-            // Panel4
+            // panel4
             // 
-            Panel4.Controls.Add(ExitButton);
-            Panel4.Controls.Add(label5);
-            Panel4.Controls.Add(pictureBox2);
-            Panel4.Location = new Point(1042, 25);
-            Panel4.Name = "Panel4";
-            Panel4.Size = new Size(334, 273);
-            Panel4.TabIndex = 3;
+            panel4.Controls.Add(exitButton);
+            panel4.Controls.Add(label5);
+            panel4.Controls.Add(pictureBox2);
+            panel4.Location = new Point(1042, 25);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(334, 273);
+            panel4.TabIndex = 3;
             // 
-            // ExitButton
+            // exitButton
             // 
-            ExitButton.Location = new Point(131, 232);
-            ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(75, 23);
-            ExitButton.TabIndex = 2;
-            ExitButton.Text = "Exit";
-            ExitButton.UseVisualStyleBackColor = true;
-            ExitButton.Click += ExitButton_Click;
+            exitButton.Location = new Point(131, 232);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(75, 23);
+            exitButton.TabIndex = 2;
+            exitButton.Text = "Exit";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += ExitButton_Click;
             // 
             // label5
             // 
@@ -302,49 +302,49 @@ namespace CodeChum
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(363, 308);
-            Controls.Add(Panel4);
-            Controls.Add(Panel3);
-            Controls.Add(Panel2);
-            Controls.Add(Panel1);
+            ClientSize = new Size(367, 312);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             Name = "SimpleSurvey";
             Text = "SimpleSurvey";
-            Panel1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            Panel2.ResumeLayout(false);
-            Panel2.PerformLayout();
-            Panel3.ResumeLayout(false);
-            Panel3.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
-            Panel4.ResumeLayout(false);
+            panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel Panel1;
+        private Panel panel1;
         private PictureBox pictureBox1;
-        private Button StartButton;
+        private Button startButton;
         private Label label1;
-        private Panel Panel2;
-        private Button BackToPanel1Button;
+        private Panel panel2;
+        private Button backToPanel1Button;
         private Label label2;
         private RadioButton radioButton5;
         private RadioButton radioButton4;
         private RadioButton radioButton3;
         private RadioButton radioButton2;
         private RadioButton radioButton1;
-        private Panel Panel3;
+        private Panel panel3;
         private Label label3;
         private TrackBar trackBar1;
         private Label label4;
-        private Panel Panel4;
-        private Button ExitButton;
+        private Panel panel4;
+        private Button exitButton;
         private Label label5;
         private PictureBox pictureBox2;
-        private Button ToPanel3Button;
-        private Button ToPanel4Button;
-        private Button BackToPanel2Button;
+        private Button toPanel3Button;
+        private Button toPanel4Button;
+        private Button backToPanel2Button;
     }
 }

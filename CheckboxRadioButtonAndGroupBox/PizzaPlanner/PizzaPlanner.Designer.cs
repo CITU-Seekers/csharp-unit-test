@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            ExtraCheeseCheckBox = new CheckBox();
-            BaconCheckBox = new CheckBox();
-            OnionCheckBox = new CheckBox();
-            MushroomCheckBox = new CheckBox();
-            PepperoniCheckBox = new CheckBox();
+            extraCheeseCheckBox = new CheckBox();
+            baconCheckBox = new CheckBox();
+            onionCheckBox = new CheckBox();
+            mushroomCheckBox = new CheckBox();
+            pepperoniCheckBox = new CheckBox();
             groupBox2 = new GroupBox();
-            DeepDishRadioButton = new RadioButton();
-            HandTossedRadioButton = new RadioButton();
-            ThinCrustRadioButton = new RadioButton();
-            btnOrder = new Button();
-            lblTotal = new Label();
-            PizzaNum = new TextBox();
+            deepDishRadioButton = new RadioButton();
+            handTossedRadioButton = new RadioButton();
+            thinCrustRadioButton = new RadioButton();
+            orderButton = new Button();
+            totalLabel = new Label();
+            pizzaTextBox = new TextBox();
             label1 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -48,11 +48,11 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(ExtraCheeseCheckBox);
-            groupBox1.Controls.Add(BaconCheckBox);
-            groupBox1.Controls.Add(OnionCheckBox);
-            groupBox1.Controls.Add(MushroomCheckBox);
-            groupBox1.Controls.Add(PepperoniCheckBox);
+            groupBox1.Controls.Add(extraCheeseCheckBox);
+            groupBox1.Controls.Add(baconCheckBox);
+            groupBox1.Controls.Add(onionCheckBox);
+            groupBox1.Controls.Add(mushroomCheckBox);
+            groupBox1.Controls.Add(pepperoniCheckBox);
             groupBox1.Location = new Point(126, 68);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(211, 201);
@@ -60,66 +60,66 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Toppings";
             // 
-            // ExtraCheeseCheckBox
+            // extraCheeseCheckBox
             // 
-            ExtraCheeseCheckBox.AutoSize = true;
-            ExtraCheeseCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            ExtraCheeseCheckBox.Location = new Point(49, 153);
-            ExtraCheeseCheckBox.Name = "ExtraCheeseCheckBox";
-            ExtraCheeseCheckBox.Size = new Size(106, 23);
-            ExtraCheeseCheckBox.TabIndex = 4;
-            ExtraCheeseCheckBox.Text = "Extra Cheese";
-            ExtraCheeseCheckBox.UseVisualStyleBackColor = true;
+            extraCheeseCheckBox.AutoSize = true;
+            extraCheeseCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            extraCheeseCheckBox.Location = new Point(49, 153);
+            extraCheeseCheckBox.Name = "extraCheeseCheckBox";
+            extraCheeseCheckBox.Size = new Size(106, 23);
+            extraCheeseCheckBox.TabIndex = 4;
+            extraCheeseCheckBox.Text = "Extra Cheese";
+            extraCheeseCheckBox.UseVisualStyleBackColor = true;
             // 
-            // BaconCheckBox
+            // baconCheckBox
             // 
-            BaconCheckBox.AutoSize = true;
-            BaconCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            BaconCheckBox.Location = new Point(49, 124);
-            BaconCheckBox.Name = "BaconCheckBox";
-            BaconCheckBox.Size = new Size(65, 23);
-            BaconCheckBox.TabIndex = 3;
-            BaconCheckBox.Text = "Bacon";
-            BaconCheckBox.UseVisualStyleBackColor = true;
+            baconCheckBox.AutoSize = true;
+            baconCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            baconCheckBox.Location = new Point(49, 124);
+            baconCheckBox.Name = "baconCheckBox";
+            baconCheckBox.Size = new Size(65, 23);
+            baconCheckBox.TabIndex = 3;
+            baconCheckBox.Text = "Bacon";
+            baconCheckBox.UseVisualStyleBackColor = true;
             // 
-            // OnionCheckBox
+            // onionCheckBox
             // 
-            OnionCheckBox.AutoSize = true;
-            OnionCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            OnionCheckBox.Location = new Point(49, 95);
-            OnionCheckBox.Name = "OnionCheckBox";
-            OnionCheckBox.Size = new Size(72, 23);
-            OnionCheckBox.TabIndex = 2;
-            OnionCheckBox.Text = "Onions";
-            OnionCheckBox.UseVisualStyleBackColor = true;
+            onionCheckBox.AutoSize = true;
+            onionCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            onionCheckBox.Location = new Point(49, 95);
+            onionCheckBox.Name = "onionCheckBox";
+            onionCheckBox.Size = new Size(72, 23);
+            onionCheckBox.TabIndex = 2;
+            onionCheckBox.Text = "Onions";
+            onionCheckBox.UseVisualStyleBackColor = true;
             // 
-            // MushroomCheckBox
+            // mushroomCheckBox
             // 
-            MushroomCheckBox.AutoSize = true;
-            MushroomCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            MushroomCheckBox.Location = new Point(49, 66);
-            MushroomCheckBox.Name = "MushroomCheckBox";
-            MushroomCheckBox.Size = new Size(102, 23);
-            MushroomCheckBox.TabIndex = 1;
-            MushroomCheckBox.Text = "Mushrooms";
-            MushroomCheckBox.UseVisualStyleBackColor = true;
+            mushroomCheckBox.AutoSize = true;
+            mushroomCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            mushroomCheckBox.Location = new Point(49, 66);
+            mushroomCheckBox.Name = "mushroomCheckBox";
+            mushroomCheckBox.Size = new Size(102, 23);
+            mushroomCheckBox.TabIndex = 1;
+            mushroomCheckBox.Text = "Mushrooms";
+            mushroomCheckBox.UseVisualStyleBackColor = true;
             // 
-            // PepperoniCheckBox
+            // pepperoniCheckBox
             // 
-            PepperoniCheckBox.AutoSize = true;
-            PepperoniCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            PepperoniCheckBox.Location = new Point(49, 37);
-            PepperoniCheckBox.Name = "PepperoniCheckBox";
-            PepperoniCheckBox.Size = new Size(89, 23);
-            PepperoniCheckBox.TabIndex = 0;
-            PepperoniCheckBox.Text = "Pepperoni";
-            PepperoniCheckBox.UseVisualStyleBackColor = true;
+            pepperoniCheckBox.AutoSize = true;
+            pepperoniCheckBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            pepperoniCheckBox.Location = new Point(49, 37);
+            pepperoniCheckBox.Name = "pepperoniCheckBox";
+            pepperoniCheckBox.Size = new Size(89, 23);
+            pepperoniCheckBox.TabIndex = 0;
+            pepperoniCheckBox.Text = "Pepperoni";
+            pepperoniCheckBox.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(DeepDishRadioButton);
-            groupBox2.Controls.Add(HandTossedRadioButton);
-            groupBox2.Controls.Add(ThinCrustRadioButton);
+            groupBox2.Controls.Add(deepDishRadioButton);
+            groupBox2.Controls.Add(handTossedRadioButton);
+            groupBox2.Controls.Add(thinCrustRadioButton);
             groupBox2.Location = new Point(423, 68);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(211, 201);
@@ -127,69 +127,69 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Crust Types";
             // 
-            // DeepDishRadioButton
+            // deepDishRadioButton
             // 
-            DeepDishRadioButton.AutoSize = true;
-            DeepDishRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            DeepDishRadioButton.Location = new Point(57, 107);
-            DeepDishRadioButton.Name = "DeepDishRadioButton";
-            DeepDishRadioButton.Size = new Size(90, 23);
-            DeepDishRadioButton.TabIndex = 2;
-            DeepDishRadioButton.TabStop = true;
-            DeepDishRadioButton.Text = "Deep Dish";
-            DeepDishRadioButton.UseVisualStyleBackColor = true;
+            deepDishRadioButton.AutoSize = true;
+            deepDishRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            deepDishRadioButton.Location = new Point(57, 107);
+            deepDishRadioButton.Name = "deepDishRadioButton";
+            deepDishRadioButton.Size = new Size(90, 23);
+            deepDishRadioButton.TabIndex = 2;
+            deepDishRadioButton.TabStop = true;
+            deepDishRadioButton.Text = "Deep Dish";
+            deepDishRadioButton.UseVisualStyleBackColor = true;
             // 
-            // HandTossedRadioButton
+            // handTossedRadioButton
             // 
-            HandTossedRadioButton.AutoSize = true;
-            HandTossedRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            HandTossedRadioButton.Location = new Point(57, 78);
-            HandTossedRadioButton.Name = "HandTossedRadioButton";
-            HandTossedRadioButton.Size = new Size(107, 23);
-            HandTossedRadioButton.TabIndex = 1;
-            HandTossedRadioButton.TabStop = true;
-            HandTossedRadioButton.Text = "Hand-Tossed";
-            HandTossedRadioButton.UseVisualStyleBackColor = true;
+            handTossedRadioButton.AutoSize = true;
+            handTossedRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            handTossedRadioButton.Location = new Point(57, 78);
+            handTossedRadioButton.Name = "handTossedRadioButton";
+            handTossedRadioButton.Size = new Size(107, 23);
+            handTossedRadioButton.TabIndex = 1;
+            handTossedRadioButton.TabStop = true;
+            handTossedRadioButton.Text = "Hand-Tossed";
+            handTossedRadioButton.UseVisualStyleBackColor = true;
             // 
-            // ThinCrustRadioButton
+            // thinCrustRadioButton
             // 
-            ThinCrustRadioButton.AutoSize = true;
-            ThinCrustRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            ThinCrustRadioButton.Location = new Point(57, 49);
-            ThinCrustRadioButton.Name = "ThinCrustRadioButton";
-            ThinCrustRadioButton.Size = new Size(90, 23);
-            ThinCrustRadioButton.TabIndex = 0;
-            ThinCrustRadioButton.TabStop = true;
-            ThinCrustRadioButton.Text = "Thin Crust";
-            ThinCrustRadioButton.UseVisualStyleBackColor = true;
+            thinCrustRadioButton.AutoSize = true;
+            thinCrustRadioButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            thinCrustRadioButton.Location = new Point(57, 49);
+            thinCrustRadioButton.Name = "thinCrustRadioButton";
+            thinCrustRadioButton.Size = new Size(90, 23);
+            thinCrustRadioButton.TabIndex = 0;
+            thinCrustRadioButton.TabStop = true;
+            thinCrustRadioButton.Text = "Thin Crust";
+            thinCrustRadioButton.UseVisualStyleBackColor = true;
             // 
-            // btnOrder
+            // orderButton
             // 
-            btnOrder.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            btnOrder.Location = new Point(314, 336);
-            btnOrder.Name = "btnOrder";
-            btnOrder.Size = new Size(104, 35);
-            btnOrder.TabIndex = 2;
-            btnOrder.Text = "Order";
-            btnOrder.UseVisualStyleBackColor = true;
-            btnOrder.Click += btnOrder_Click;
+            orderButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            orderButton.Location = new Point(314, 336);
+            orderButton.Name = "orderButton";
+            orderButton.Size = new Size(104, 35);
+            orderButton.TabIndex = 2;
+            orderButton.Text = "Order";
+            orderButton.UseVisualStyleBackColor = true;
+            orderButton.Click += btnOrder_Click;
             // 
-            // lblTotal
+            // totalLabel
             // 
-            lblTotal.AutoSize = true;
-            lblTotal.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblTotal.Location = new Point(292, 398);
-            lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(82, 20);
-            lblTotal.TabIndex = 3;
-            lblTotal.Text = "Total Cost: ";
+            totalLabel.AutoSize = true;
+            totalLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            totalLabel.Location = new Point(292, 398);
+            totalLabel.Name = "totalLabel";
+            totalLabel.Size = new Size(82, 20);
+            totalLabel.TabIndex = 3;
+            totalLabel.Text = "Total Cost: ";
             // 
-            // PizzaNum
+            // pizzaTextBox
             // 
-            PizzaNum.Location = new Point(363, 290);
-            PizzaNum.Name = "PizzaNum";
-            PizzaNum.Size = new Size(100, 23);
-            PizzaNum.TabIndex = 4;
+            pizzaTextBox.Location = new Point(363, 290);
+            pizzaTextBox.Name = "pizzaTextBox";
+            pizzaTextBox.Size = new Size(100, 23);
+            pizzaTextBox.TabIndex = 4;
             // 
             // label1
             // 
@@ -207,9 +207,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 534);
             Controls.Add(label1);
-            Controls.Add(PizzaNum);
-            Controls.Add(lblTotal);
-            Controls.Add(btnOrder);
+            Controls.Add(pizzaTextBox);
+            Controls.Add(totalLabel);
+            Controls.Add(orderButton);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "PizzaPlanner";
@@ -225,18 +225,18 @@
         #endregion
 
         private GroupBox groupBox1;
-        private CheckBox PepperoniCheckBox;
+        private CheckBox pepperoniCheckBox;
         private GroupBox groupBox2;
-        private CheckBox ExtraCheeseCheckBox;
-        private CheckBox BaconCheckBox;
-        private CheckBox OnionCheckBox;
-        private CheckBox MushroomCheckBox;
-        private RadioButton DeepDishRadioButton;
-        private RadioButton HandTossedRadioButton;
-        private RadioButton ThinCrustRadioButton;
-        private Button btnOrder;
-        private Label lblTotal;
-        private TextBox PizzaNum;
+        private CheckBox extraCheeseCheckBox;
+        private CheckBox baconCheckBox;
+        private CheckBox onionCheckBox;
+        private CheckBox mushroomCheckBox;
+        private RadioButton deepDishRadioButton;
+        private RadioButton handTossedRadioButton;
+        private RadioButton thinCrustRadioButton;
+        private Button orderButton;
+        private Label totalLabel;
+        private TextBox pizzaTextBox;
         private Label label1;
     }
 }

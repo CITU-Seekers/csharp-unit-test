@@ -18,7 +18,7 @@ namespace CodeChum
         public DownloadManager()
         {
             InitializeComponent();
-            progressBar.Minimum = 0;
+            downloadProgressBar.Minimum = 0;
 
             // Initialize and add checkboxes to the list
             checkBoxes = new List<System.Windows.Forms.CheckBox>
@@ -60,14 +60,14 @@ namespace CodeChum
             }
 
             // Set the maximum value of the progress bar
-            progressBar.Maximum = max;
+            downloadProgressBar.Maximum = max;
         }
 
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
             // Disable the start button to prevent multiple starts
-            btnDownload.Enabled = false;
+            downloadButton.Enabled = false;
             ProgressTimer.Start();
         }
 
@@ -75,9 +75,9 @@ namespace CodeChum
         {
             // Stop the download and reset progress
             ProgressTimer.Stop();
-            progressBar.Value = 0;
+            downloadProgressBar.Value = 0;
             // Enable the start button
-            btnDownload.Enabled = true;
+            downloadButton.Enabled = true;
 
             //uncheck all the checkboxes
             foreach (var checkBox in checkBoxes)
@@ -89,16 +89,16 @@ namespace CodeChum
         private void ProgressTimer_Tick(object sender, EventArgs e)
         {
             // Update the progress bar value based on your download logic
-            if (progressBar.Value < progressBar.Maximum)
+            if (downloadProgressBar.Value < downloadProgressBar.Maximum)
             {
-                progressBar.Value += 10; // Increment by 10 for simulation
+                downloadProgressBar.Value += 10; // Increment by 10 for simulation
             }
             else
             {
                 // Download completed, stop the timer
                 ProgressTimer.Stop();
                 // Enable the start button
-                btnDownload.Enabled = true;
+                downloadButton.Enabled = true;
             }
         }
     }

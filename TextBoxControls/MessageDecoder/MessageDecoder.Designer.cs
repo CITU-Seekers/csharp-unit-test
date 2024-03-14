@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            btnDecode = new Button();
+            encodeTextBox = new TextBox();
+            decodeButton = new Button();
             label2 = new Label();
-            DisplayMessage = new Label();
+            displayMessageLabel = new Label();
             SuspendLayout();
             // 
             // label1
@@ -44,23 +44,23 @@
             label1.TabIndex = 0;
             label1.Text = "Encode Message";
             // 
-            // textBox1
+            // encodeTextBox
             // 
-            textBox1.Location = new Point(62, 63);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(217, 23);
-            textBox1.TabIndex = 1;
+            encodeTextBox.Location = new Point(62, 63);
+            encodeTextBox.Multiline = true;
+            encodeTextBox.Name = "encodeTextBox";
+            encodeTextBox.Size = new Size(217, 23);
+            encodeTextBox.TabIndex = 1;
             // 
-            // btnDecode
+            // decodeButton
             // 
-            btnDecode.Location = new Point(272, 113);
-            btnDecode.Name = "btnDecode";
-            btnDecode.Size = new Size(75, 23);
-            btnDecode.TabIndex = 2;
-            btnDecode.Text = "Decode";
-            btnDecode.UseVisualStyleBackColor = true;
-            btnDecode.Click += btnDecode_Click;
+            decodeButton.Location = new Point(272, 113);
+            decodeButton.Name = "decodeButton";
+            decodeButton.Size = new Size(75, 23);
+            decodeButton.TabIndex = 2;
+            decodeButton.Text = "Decode";
+            decodeButton.UseVisualStyleBackColor = true;
+            decodeButton.Click += btnDecode_Click;
             // 
             // label2
             // 
@@ -71,28 +71,28 @@
             label2.TabIndex = 3;
             label2.Text = "Decoded Message";
             // 
-            // DisplayMessage
+            // displayMessageLabel
             // 
-            DisplayMessage.AutoSize = true;
-            DisplayMessage.BorderStyle = BorderStyle.Fixed3D;
-            DisplayMessage.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            DisplayMessage.Location = new Point(363, 63);
-            DisplayMessage.MinimumSize = new Size(173, 24);
-            DisplayMessage.Name = "DisplayMessage";
-            DisplayMessage.Size = new Size(173, 24);
-            DisplayMessage.TabIndex = 4;
+            displayMessageLabel.AutoSize = true;
+            displayMessageLabel.BorderStyle = BorderStyle.Fixed3D;
+            displayMessageLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            displayMessageLabel.Location = new Point(363, 63);
+            displayMessageLabel.MinimumSize = new Size(173, 24);
+            displayMessageLabel.Name = "displayMessageLabel";
+            displayMessageLabel.Size = new Size(173, 24);
+            displayMessageLabel.TabIndex = 4;
             // 
-            // Decoder
+            // MessageDecoder
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(617, 177);
-            Controls.Add(DisplayMessage);
+            Controls.Add(displayMessageLabel);
             Controls.Add(label2);
-            Controls.Add(btnDecode);
-            Controls.Add(textBox1);
+            Controls.Add(decodeButton);
+            Controls.Add(encodeTextBox);
             Controls.Add(label1);
-            Name = "Decoder";
+            Name = "MessageDecoder";
             Text = "Decoder";
             ResumeLayout(false);
             PerformLayout();
@@ -101,9 +101,9 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private Button btnDecode;
+        private TextBox encodeTextBox;
+        private Button decodeButton;
         private Label label2;
-        private Label DisplayMessage;
+        private Label displayMessageLabel;
     }
 }

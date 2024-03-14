@@ -3,124 +3,133 @@
     public class SimpleWordAppTest
     {
         SimpleWordApp? form;
-        RichTextBox? MainRichTextBox;
-        ToolStrip? WordToolStrip;
-        ToolStripComboBox? FontComboBox, ColorComboBox;
-        ToolStripTextBox? FontSizeTextBox;
-        ToolStripButton? NewButton, SaveButton, PrintButton;
-        StatusStrip? StatusStrip;
-        ToolStripStatusLabel? StatusLabel;
+        RichTextBox? mainRichTextBox;
+        ToolStrip? wordToolStrip;
+        ToolStripComboBox? fontToolStripComboBox, colorToolStripComboBox;
+        ToolStripTextBox? fontSizeToolStripTextBox;
+        ToolStripButton? newToolStripButton, saveToolStripButton, printToolStripButton;
+        StatusStrip? statusStrip;
+        ToolStripStatusLabel? toolStripStatusLabel;
 
         public SimpleWordAppTest()
         {
             form = new SimpleWordApp();
             form.Show();
-            MainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "MainRichTextBox", true);
-            WordToolStrip = (ToolStrip)TestUtils.GetControlNamed(form, "WordToolStrip", true);
-            StatusStrip = (StatusStrip)TestUtils.GetControlNamed(form, "StatusStrip", true);
+            mainRichTextBox = (RichTextBox)TestUtils.GetControlNamed(form, "mainRichTextBox", true);
+            wordToolStrip = (ToolStrip)TestUtils.GetControlNamed(form, "wordToolStrip", true);
+            statusStrip = (StatusStrip)TestUtils.GetControlNamed(form, "statusStrip", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `mainRichTextBox`, `wordToolStrip`, and `statusStrip`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(MainRichTextBox);
-            Assert.NotNull(WordToolStrip);
-            Assert.NotNull(StatusStrip);
+            Assert.NotNull(mainRichTextBox);
+            Assert.NotNull(wordToolStrip);
+            Assert.NotNull(statusStrip);
         }
 
         [Fact]
+        // Description: Should have all the ToolStripItems `fontToolStripComboBox`, `colorToolStripComboBox`, `fontSizeToolStripTextBox`, `newToolStripButton`, `saveToolStripButton`, `printToolStripButton`, and `toolStripStatusLabel`.
         public void ShouldHaveAllToolStripItems()
         {
-            FontComboBox = WordToolStrip.Items["FontComboBox"] as ToolStripComboBox;
-            ColorComboBox = WordToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
-            FontSizeTextBox = WordToolStrip.Items["FontSizeTextBox"] as ToolStripTextBox;
-            NewButton = WordToolStrip.Items["NewButton"] as ToolStripButton;
-            SaveButton = WordToolStrip.Items["SaveButton"] as ToolStripButton;
-            PrintButton = WordToolStrip.Items["PrintButton"] as ToolStripButton;
-            StatusLabel = StatusStrip.Items["StatusLabel"] as ToolStripStatusLabel;
+            fontToolStripComboBox = wordToolStrip.Items["fontToolStripComboBox"] as ToolStripComboBox;
+            colorToolStripComboBox = wordToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
+            fontSizeToolStripTextBox = wordToolStrip.Items["fontSizeToolStripTextBox"] as ToolStripTextBox;
+            newToolStripButton = wordToolStrip.Items["newToolStripButton"] as ToolStripButton;
+            saveToolStripButton = wordToolStrip.Items["saveToolStripButton"] as ToolStripButton;
+            printToolStripButton = wordToolStrip.Items["printToolStripButton"] as ToolStripButton;
+            toolStripStatusLabel = statusStrip.Items["toolStripStatusLabel"] as ToolStripStatusLabel;
 
-            Assert.NotNull(FontComboBox);
-            Assert.NotNull(ColorComboBox);
-            Assert.NotNull(FontSizeTextBox);
-            Assert.NotNull(NewButton);
-            Assert.NotNull(SaveButton);
-            Assert.NotNull(PrintButton);
-            Assert.NotNull(StatusLabel);
+            Assert.NotNull(fontToolStripComboBox);
+            Assert.NotNull(colorToolStripComboBox);
+            Assert.NotNull(fontSizeToolStripTextBox);
+            Assert.NotNull(newToolStripButton);
+            Assert.NotNull(saveToolStripButton);
+            Assert.NotNull(printToolStripButton);
+            Assert.NotNull(toolStripStatusLabel);
         }
 
         [Fact]
-        public void ShouldHaveStatusLabelMessageOnNewButtonClick()
+        // Description: Should have text "New File Created" in `toolStripStatusLabel` when the `newToolStripButton` is clicked.
+        public void ShouldHavetoolStripStatusLabelMessageOnnewToolStripButtonClick()
         {
-            NewButton = WordToolStrip.Items["NewButton"] as ToolStripButton;
-            StatusLabel = StatusStrip.Items["StatusLabel"] as ToolStripStatusLabel;
+            newToolStripButton = wordToolStrip.Items["newToolStripButton"] as ToolStripButton;
+            toolStripStatusLabel = statusStrip.Items["toolStripStatusLabel"] as ToolStripStatusLabel;
 
-            NewButton?.PerformClick();
-            Assert.Equal("New File Created", StatusLabel?.Text);
+            newToolStripButton?.PerformClick();
+            Assert.Equal("New File Created", toolStripStatusLabel?.Text);
         }
 
         [Fact]
-        public void ShouldHaveStatusLabelMessageOnSaveButtonClick()
+        // Description: Should have text "File Saved" in `toolStripStatusLabel` when the `saveToolStripButton` is clicked.
+        public void ShouldHavetoolStripStatusLabelMessageOnsaveToolStripButtonClick()
         {
-            SaveButton = WordToolStrip.Items["SaveButton"] as ToolStripButton;
-            StatusLabel = StatusStrip.Items["StatusLabel"] as ToolStripStatusLabel;
+            saveToolStripButton = wordToolStrip.Items["saveToolStripButton"] as ToolStripButton;
+            toolStripStatusLabel = statusStrip.Items["toolStripStatusLabel"] as ToolStripStatusLabel;
 
-            SaveButton?.PerformClick();
-            Assert.Equal("File Saved", StatusLabel?.Text);
+            saveToolStripButton?.PerformClick();
+            Assert.Equal("File Saved", toolStripStatusLabel?.Text);
         }
 
         [Fact]
-        public void ShouldHaveStatusLabelMessageOnPrintButtonClick()
+        // Description: Should have text "Printing..." in `toolStripStatusLabel` when the `printToolStripButton` is clicked.
+        public void ShouldHavetoolStripStatusLabelMessageOnprintToolStripButtonClick()
         {
-            PrintButton = WordToolStrip.Items["PrintButton"] as ToolStripButton;
-            StatusLabel = StatusStrip.Items["StatusLabel"] as ToolStripStatusLabel;
+            printToolStripButton = wordToolStrip.Items["printToolStripButton"] as ToolStripButton;
+            toolStripStatusLabel = statusStrip.Items["toolStripStatusLabel"] as ToolStripStatusLabel;
 
-            PrintButton?.PerformClick();
-            Assert.Equal("Printing...", StatusLabel?.Text);
+            printToolStripButton?.PerformClick();
+            Assert.Equal("Printing...", toolStripStatusLabel?.Text);
         }
 
         [Fact]
+        // Description: Should have text "Word Count: 2" in `toolStripStatusLabel` when the `mainRichTextBox` text is changed.
         public void ShouldHaveWordCountOnRichTextBoxTextChange()
         {
-            StatusLabel = StatusStrip.Items["StatusLabel"] as ToolStripStatusLabel;
+            toolStripStatusLabel = statusStrip.Items["toolStripStatusLabel"] as ToolStripStatusLabel;
 
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(10));
-                Assert.Equal("Word Count: 2", StatusLabel?.Text);
+                Assert.Equal("Word Count: 2", toolStripStatusLabel?.Text);
             });
 
-            MainRichTextBox.Text = "Hello World";
+            mainRichTextBox.Text = "Hello World";
             registerTask.Wait();            
         }
 
         [Fact]
-        public void ShouldChangeFontOnFontComboBoxSelectedIndexChanged()
+        // Description: Should have font "Times New Roman" in `mainRichTextBox` when the `fontToolStripComboBox` is changed.
+        public void ShouldChangeFontOnfontToolStripComboBoxSelectedIndexChanged()
         {
-            FontComboBox = WordToolStrip.Items["FontComboBox"] as ToolStripComboBox;
+            fontToolStripComboBox = wordToolStrip.Items["fontToolStripComboBox"] as ToolStripComboBox;
 
-            FontComboBox.SelectedIndex = 1;
+            fontToolStripComboBox.SelectedIndex = 1;
             Task.Delay(TimeSpan.FromSeconds(5));
-            Assert.Equal("Times New Roman", MainRichTextBox?.Font.FontFamily.Name);
+            Assert.Equal("Times New Roman", mainRichTextBox?.Font.FontFamily.Name);
         }
 
         [Fact]
-        public void ShouldChangeColorOnColorComboBoxSelectedIndexChanged()
+        // Description: Should have color "Red" in `mainRichTextBox` when the `colorToolStripComboBox` is changed.
+        public void ShouldChangeColorOncolorToolStripComboBoxSelectedIndexChanged()
         {
-            ColorComboBox = WordToolStrip.Items["ColorComboBox"] as ToolStripComboBox;
+            colorToolStripComboBox = wordToolStrip.Items["colorToolStripComboBox"] as ToolStripComboBox;
 
-            ColorComboBox.SelectedIndex = 1;
+            colorToolStripComboBox.SelectedIndex = 1;
             Task.Delay(TimeSpan.FromSeconds(5));
-            Assert.Equal("Red", MainRichTextBox?.ForeColor.Name);
+            Assert.Equal("Red", mainRichTextBox?.ForeColor.Name);
         }
 
         [Fact]
-        public void ShouldChangeFontSizeOnFontSizeTextBoxTextChanged()
+        // Description: Should have font size "14" in `mainRichTextBox` when the `fontSizeToolStripTextBox` is changed.
+        public void ShouldChangeFontSizeOnfontSizeToolStripTextBoxTextChanged()
         {
-            FontSizeTextBox = WordToolStrip.Items["FontSizeTextBox"] as ToolStripTextBox;
+            fontSizeToolStripTextBox = wordToolStrip.Items["fontSizeToolStripTextBox"] as ToolStripTextBox;
 
-            FontSizeTextBox.Text = "14";
+            fontSizeToolStripTextBox.Text = "14";
             Task.Delay(TimeSpan.FromSeconds(5));
-            Assert.Equal(14, MainRichTextBox?.Font.Size);
+            Assert.Equal(14, mainRichTextBox?.Font.Size);
         }
     }
 }

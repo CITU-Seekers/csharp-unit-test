@@ -28,185 +28,185 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TreeNode treeNode1 = new TreeNode("Sample");
-            TreeNode treeNode2 = new TreeNode("Landscape");
-            TreeNode treeNode3 = new TreeNode("Pictures", new TreeNode[] { treeNode1, treeNode2 });
-            TreeNode treeNode4 = new TreeNode("Valorant - Haven Ace");
-            TreeNode treeNode5 = new TreeNode("Videos", new TreeNode[] { treeNode4 });
-            TreeNode treeNode6 = new TreeNode("CS123 - Assignment");
-            TreeNode treeNode7 = new TreeNode("Documents", new TreeNode[] { treeNode6 });
-            TreeNode treeNode8 = new TreeNode("C:", new TreeNode[] { treeNode3, treeNode5, treeNode7 });
-            TreeNode treeNode9 = new TreeNode("Valhalla");
-            TreeNode treeNode10 = new TreeNode("GTA6");
-            TreeNode treeNode11 = new TreeNode("Games", new TreeNode[] { treeNode9, treeNode10 });
-            TreeNode treeNode12 = new TreeNode("Project1");
-            TreeNode treeNode13 = new TreeNode("Work", new TreeNode[] { treeNode12 });
-            TreeNode treeNode14 = new TreeNode("D:", new TreeNode[] { treeNode11, treeNode13 });
-            MainTreeView = new System.Windows.Forms.TreeView();
-            MainMenuStrip = new MenuStrip();
-            FileToolStrip = new ToolStripMenuItem();
-            NewMenuItem = new ToolStripMenuItem();
-            OpenMenuItem = new ToolStripMenuItem();
-            ExitMenuItem = new ToolStripMenuItem();
-            txtFileName = new TextBox();
-            SearchButton = new Button();
-            MessageLabel = new Label();
-            FilePathLabel = new Label();
-            RenameButton = new Button();
-            MainMenuStrip.SuspendLayout();
+            TreeNode treeNode15 = new TreeNode("Sample");
+            TreeNode treeNode16 = new TreeNode("Landscape");
+            TreeNode treeNode17 = new TreeNode("Pictures", new TreeNode[] { treeNode15, treeNode16 });
+            TreeNode treeNode18 = new TreeNode("Valorant - Haven Ace");
+            TreeNode treeNode19 = new TreeNode("Videos", new TreeNode[] { treeNode18 });
+            TreeNode treeNode20 = new TreeNode("CS123 - Assignment");
+            TreeNode treeNode21 = new TreeNode("Documents", new TreeNode[] { treeNode20 });
+            TreeNode treeNode22 = new TreeNode("C:", new TreeNode[] { treeNode17, treeNode19, treeNode21 });
+            TreeNode treeNode23 = new TreeNode("Valhalla");
+            TreeNode treeNode24 = new TreeNode("GTA6");
+            TreeNode treeNode25 = new TreeNode("Games", new TreeNode[] { treeNode23, treeNode24 });
+            TreeNode treeNode26 = new TreeNode("Project1");
+            TreeNode treeNode27 = new TreeNode("Work", new TreeNode[] { treeNode26 });
+            TreeNode treeNode28 = new TreeNode("D:", new TreeNode[] { treeNode25, treeNode27 });
+            mainTreeView = new TreeView();
+            mainMenuStrip = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            newToolStripMenuItem = new ToolStripMenuItem();
+            openToolStripMenuItem = new ToolStripMenuItem();
+            exitToolStripMenuItem = new ToolStripMenuItem();
+            fileNameTextBox = new TextBox();
+            searchButton = new Button();
+            messageLabel = new Label();
+            filePathLabel = new Label();
+            renameButton = new Button();
+            mainMenuStrip.SuspendLayout();
             SuspendLayout();
             // 
-            // MainTreeView
+            // mainTreeView
             // 
-            MainTreeView.Location = new Point(23, 29);
-            MainTreeView.Name = "MainTreeView";
-            treeNode1.Name = "SamplePic";
-            treeNode1.Text = "Sample";
-            treeNode2.Name = "LandscapePic";
-            treeNode2.Text = "Landscape";
-            treeNode3.Name = "PicturesFolder";
-            treeNode3.Text = "Pictures";
-            treeNode4.Name = "ValorantVid";
-            treeNode4.Text = "Valorant - Haven Ace";
-            treeNode5.Name = "VideosFolder";
-            treeNode5.Text = "Videos";
-            treeNode6.Name = "CS123Doc";
-            treeNode6.Text = "CS123 - Assignment";
-            treeNode7.Name = "DocumentsFolder";
-            treeNode7.Text = "Documents";
-            treeNode8.Name = "CDrive";
-            treeNode8.Text = "C:";
-            treeNode9.Name = "ValhallaGame";
-            treeNode9.Text = "Valhalla";
-            treeNode10.Name = "GTA6Game";
-            treeNode10.Text = "GTA6";
-            treeNode11.Name = "GamesFolder";
-            treeNode11.Text = "Games";
-            treeNode12.Name = "Project1Work";
-            treeNode12.Text = "Project1";
-            treeNode13.Name = "WorkFolder";
-            treeNode13.Text = "Work";
-            treeNode14.Name = "DDrive";
-            treeNode14.Text = "D:";
-            MainTreeView.Nodes.AddRange(new TreeNode[] { treeNode8, treeNode14 });
-            MainTreeView.Size = new Size(242, 210);
-            MainTreeView.TabIndex = 0;
-            MainTreeView.AfterSelect += MainTreeView_AfterSelect;
+            mainTreeView.Location = new Point(23, 29);
+            mainTreeView.Name = "mainTreeView";
+            treeNode15.Name = "SamplePic";
+            treeNode15.Text = "Sample";
+            treeNode16.Name = "LandscapePic";
+            treeNode16.Text = "Landscape";
+            treeNode17.Name = "PicturesFolder";
+            treeNode17.Text = "Pictures";
+            treeNode18.Name = "ValorantVid";
+            treeNode18.Text = "Valorant - Haven Ace";
+            treeNode19.Name = "VideosFolder";
+            treeNode19.Text = "Videos";
+            treeNode20.Name = "CS123Doc";
+            treeNode20.Text = "CS123 - Assignment";
+            treeNode21.Name = "DocumentsFolder";
+            treeNode21.Text = "Documents";
+            treeNode22.Name = "CDrive";
+            treeNode22.Text = "C:";
+            treeNode23.Name = "ValhallaGame";
+            treeNode23.Text = "Valhalla";
+            treeNode24.Name = "GTA6Game";
+            treeNode24.Text = "GTA6";
+            treeNode25.Name = "GamesFolder";
+            treeNode25.Text = "Games";
+            treeNode26.Name = "Project1Work";
+            treeNode26.Text = "Project1";
+            treeNode27.Name = "WorkFolder";
+            treeNode27.Text = "Work";
+            treeNode28.Name = "DDrive";
+            treeNode28.Text = "D:";
+            mainTreeView.Nodes.AddRange(new TreeNode[] { treeNode22, treeNode28 });
+            mainTreeView.Size = new Size(242, 210);
+            mainTreeView.TabIndex = 0;
+            mainTreeView.AfterSelect += MainTreeView_AfterSelect;
             // 
             // MainMenuStrip
             // 
-            MainMenuStrip.Items.AddRange(new ToolStripItem[] { FileToolStrip });
-            MainMenuStrip.Location = new Point(0, 0);
-            MainMenuStrip.Name = "MainMenuStrip";
-            MainMenuStrip.Size = new Size(538, 24);
-            MainMenuStrip.TabIndex = 1;
-            MainMenuStrip.Text = "menuStrip1";
+            mainMenuStrip.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+            mainMenuStrip.Location = new Point(0, 0);
+            mainMenuStrip.Name = "mainMenuStrip";
+            mainMenuStrip.Size = new Size(538, 24);
+            mainMenuStrip.TabIndex = 1;
+            mainMenuStrip.Text = "menuStrip1";
             // 
-            // FileToolStrip
+            // fileToolStripMenuItem
             // 
-            FileToolStrip.DropDownItems.AddRange(new ToolStripItem[] { NewMenuItem, OpenMenuItem, ExitMenuItem });
-            FileToolStrip.Name = "FileToolStrip";
-            FileToolStrip.Size = new Size(37, 20);
-            FileToolStrip.Text = "File";
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newToolStripMenuItem, openToolStripMenuItem, exitToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Text = "File";
             // 
-            // NewMenuItem
+            // newToolStripMenuItem
             // 
-            NewMenuItem.Name = "NewMenuItem";
-            NewMenuItem.Size = new Size(103, 22);
-            NewMenuItem.Text = "New";
-            NewMenuItem.Click += NewMenuItem_Click;
+            newToolStripMenuItem.Name = "newToolStripMenuItem";
+            newToolStripMenuItem.Size = new Size(180, 22);
+            newToolStripMenuItem.Text = "New";
+            newToolStripMenuItem.Click += NewMenuItem_Click;
             // 
-            // OpenMenuItem
+            // openToolStripMenuItem
             // 
-            OpenMenuItem.Name = "OpenMenuItem";
-            OpenMenuItem.Size = new Size(103, 22);
-            OpenMenuItem.Text = "Open";
-            OpenMenuItem.Click += OpenMenuItem_Click;
+            openToolStripMenuItem.Name = "openToolStripMenuItem";
+            openToolStripMenuItem.Size = new Size(180, 22);
+            openToolStripMenuItem.Text = "Open";
+            openToolStripMenuItem.Click += OpenMenuItem_Click;
             // 
-            // ExitMenuItem
+            // exitToolStripMenuItem
             // 
-            ExitMenuItem.Name = "ExitMenuItem";
-            ExitMenuItem.Size = new Size(103, 22);
-            ExitMenuItem.Text = "Exit";
-            ExitMenuItem.Click += ExitMenuItem_Click;
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(180, 22);
+            exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += ExitMenuItem_Click;
             // 
-            // txtFileName
+            // fileNameTextBox
             // 
-            txtFileName.Location = new Point(316, 100);
-            txtFileName.Name = "txtFileName";
-            txtFileName.Size = new Size(182, 23);
-            txtFileName.TabIndex = 2;
+            fileNameTextBox.Location = new Point(316, 100);
+            fileNameTextBox.Name = "fileNameTextBox";
+            fileNameTextBox.Size = new Size(182, 23);
+            fileNameTextBox.TabIndex = 2;
             // 
-            // SearchButton
+            // searchButton
             // 
-            SearchButton.Location = new Point(423, 142);
-            SearchButton.Name = "SearchButton";
-            SearchButton.Size = new Size(75, 23);
-            SearchButton.TabIndex = 3;
-            SearchButton.Text = "Search";
-            SearchButton.UseVisualStyleBackColor = true;
-            SearchButton.Click += SearchButton_Click;
+            searchButton.Location = new Point(423, 142);
+            searchButton.Name = "searchButton";
+            searchButton.Size = new Size(75, 23);
+            searchButton.TabIndex = 3;
+            searchButton.Text = "Search";
+            searchButton.UseVisualStyleBackColor = true;
+            searchButton.Click += SearchButton_Click;
             // 
             // MessageLabel
             // 
-            MessageLabel.AutoSize = true;
-            MessageLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            MessageLabel.ForeColor = SystemColors.Highlight;
-            MessageLabel.Location = new Point(315, 51);
-            MessageLabel.Name = "MessageLabel";
-            MessageLabel.Size = new Size(0, 20);
-            MessageLabel.TabIndex = 4;
+            messageLabel.AutoSize = true;
+            messageLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            messageLabel.ForeColor = SystemColors.Highlight;
+            messageLabel.Location = new Point(315, 51);
+            messageLabel.Name = "messageLabel";
+            messageLabel.Size = new Size(0, 20);
+            messageLabel.TabIndex = 4;
             // 
             // FilePathLabel
             // 
-            FilePathLabel.AutoSize = true;
-            FilePathLabel.Location = new Point(315, 215);
-            FilePathLabel.Name = "FilePathLabel";
-            FilePathLabel.Size = new Size(0, 15);
-            FilePathLabel.TabIndex = 5;
+            filePathLabel.AutoSize = true;
+            filePathLabel.Location = new Point(315, 215);
+            filePathLabel.Name = "filePathLabel";
+            filePathLabel.Size = new Size(0, 15);
+            filePathLabel.TabIndex = 5;
             // 
-            // RenameButton
+            // renameButton
             // 
-            RenameButton.Location = new Point(315, 142);
-            RenameButton.Name = "RenameButton";
-            RenameButton.Size = new Size(75, 23);
-            RenameButton.TabIndex = 6;
-            RenameButton.Text = "Rename";
-            RenameButton.UseVisualStyleBackColor = true;
-            RenameButton.Click += RenameButton_Click;
+            renameButton.Location = new Point(315, 142);
+            renameButton.Name = "renameButton";
+            renameButton.Size = new Size(75, 23);
+            renameButton.TabIndex = 6;
+            renameButton.Text = "Rename";
+            renameButton.UseVisualStyleBackColor = true;
+            renameButton.Click += RenameButton_Click;
             // 
             // FileExplorer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(538, 265);
-            Controls.Add(RenameButton);
-            Controls.Add(FilePathLabel);
-            Controls.Add(MessageLabel);
-            Controls.Add(SearchButton);
-            Controls.Add(txtFileName);
-            Controls.Add(MainTreeView);
-            Controls.Add(MainMenuStrip);
+            Controls.Add(renameButton);
+            Controls.Add(filePathLabel);
+            Controls.Add(messageLabel);
+            Controls.Add(searchButton);
+            Controls.Add(fileNameTextBox);
+            Controls.Add(mainTreeView);
+            Controls.Add(mainMenuStrip);
             Name = "FileExplorer";
             Text = "FileExplorer";
-            MainMenuStrip.ResumeLayout(false);
-            MainMenuStrip.PerformLayout();
+            mainMenuStrip.ResumeLayout(false);
+            mainMenuStrip.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.TreeView MainTreeView;
-        private MenuStrip MainMenuStrip;
-        private ToolStripMenuItem FileToolStrip;
-        private ToolStripMenuItem NewMenuItem;
-        private ToolStripMenuItem OpenMenuItem;
-        private ToolStripMenuItem ExitMenuItem;
-        private TextBox txtFileName;
-        private Button SearchButton;
-        private Label MessageLabel;
-        private Label FilePathLabel;
-        private Button RenameButton;
+        private System.Windows.Forms.TreeView mainTreeView;
+        private MenuStrip mainMenuStrip;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem newToolStripMenuItem;
+        private ToolStripMenuItem openToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem;
+        private TextBox fileNameTextBox;
+        private Button searchButton;
+        private Label messageLabel;
+        private Label filePathLabel;
+        private Button renameButton;
     }
 }

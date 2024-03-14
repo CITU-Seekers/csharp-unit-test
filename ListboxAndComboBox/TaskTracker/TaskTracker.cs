@@ -19,20 +19,20 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            ToDoList.Items.Add(TaskName.Text);
-            TaskName.Text = "";
+            toDoListBox.Items.Add(taskNameTextBox.Text);
+            taskNameTextBox.Text = "";
         }
 
         private void btnDone_Click(object sender, EventArgs e)
         {
-            FinishedList.Items.Add(ToDoList.SelectedItem);
-            ToDoList.Items.Remove(ToDoList.SelectedItem);
+            finishedListBox.Items.Add(toDoListBox.SelectedItem);
+            toDoListBox.Items.Remove(toDoListBox.SelectedItem);
         }
 
         private void btnRevert_Click(object sender, EventArgs e)
         {
-            ToDoList.Items.Add(FinishedList.SelectedItem);
-            FinishedList.Items.Remove(FinishedList.SelectedItem);
+            toDoListBox.Items.Add(finishedListBox.SelectedItem);
+            finishedListBox.Items.Remove(finishedListBox.SelectedItem);
         }
     }
 }

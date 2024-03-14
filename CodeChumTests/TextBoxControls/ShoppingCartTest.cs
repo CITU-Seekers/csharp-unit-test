@@ -3,75 +3,72 @@
     public class ShoppingCartTest
     {
         ShoppingCart? form;
-        Label? totalPrice;
+        Label? totalPriceLabel;
         Button? calculateButton;
-        TextBox? textBox1;
+        TextBox? itemTextBox;
 
         public ShoppingCartTest()
         {
             form = new ShoppingCart();
-            form.Visible = true;
-            textBox1 = (TextBox)TestUtils.GetControlNamed(form, "textBox1", true);
-            totalPrice = (Label)TestUtils.GetControlNamed(form, "TotalPrice", true);
-            calculateButton = (Button)TestUtils.GetControlNamed(form, "btnCalculate", true);
+            form.Show();
+
+            itemTextBox = (TextBox)TestUtils.GetControlNamed(form, "itemTextBox", true);
+            totalPriceLabel = (Label)TestUtils.GetControlNamed(form, "totalPriceLabel", true);
+            calculateButton = (Button)TestUtils.GetControlNamed(form, "calculateButton", true);
         }
 
         [Fact]
-        public void ShouldCalculateTotal()
+        // Description: Should have all the controls `itemTextBox`, `totalPrice`, and `calculateButton`.
+        public void ShouldHaveAllControls()
         {
-            textBox1.Text = "1, 2, 3";
-            calculateButton.PerformClick();
-            Assert.Equal("6", totalPrice.Text);
-        }
-
-        [Fact]
-        public void ShouldCalculateTotalWithNewLines()
-        {
-            textBox1.Text = "1\n2\n3";
-            calculateButton.PerformClick();
-            Assert.Equal("6", totalPrice.Text);
-        }
-
-        [Fact]
-        public void ShouldCalculateTotalWithSpaces()
-        {
-            textBox1.Text = "1 2 3";
-            calculateButton.PerformClick();
-            Assert.Equal("6", totalPrice.Text);
-        }
-
-        [Fact]
-        public void ShouldCalculateTotalWithCommas()
-        {
-            textBox1.Text = "1,2,3";
-            calculateButton.PerformClick();
-            Assert.Equal("6", totalPrice.Text);
-        }
-
-        [Fact]
-        public void ShouldCalculateTotalWithMixedDelimiters()
-        {
-            textBox1.Text = "1, 2\n3 4";
-            calculateButton.PerformClick();
-            Assert.Equal("10", totalPrice.Text);
-        }
-
-        [Fact]
-        public void HasCalculateButton()
-        {
+            Assert.NotNull(itemTextBox);
+            Assert.NotNull(totalPriceLabel);
             Assert.NotNull(calculateButton);
         }
 
         [Fact]
-        public void HasTextBox()
+        // Description: Should calculate the total when the `calculateButton` is clicked.
+        public void ShouldCalculateTotal()
         {
-            Assert.NotNull(textBox1);
+            itemTextBox.Text = "1, 2, 3";
+            calculateButton.PerformClick();
+            Assert.Equal("6", totalPriceLabel.Text);
         }
 
         [Fact]
-        public void HasTotalPrice()
+        // Description: Should calculate the total with new lines in `itemTextBox` when the `calculateButton` is clicked.
+        public void ShouldCalculateTotalWithNewLines()
         {
-            Assert.NotNull(totalPrice);
+            itemTextBox.Text = "1\n2\n3";
+            calculateButton.PerformClick();
+            Assert.Equal("6", totalPriceLabel.Text);
+        }
+
+        [Fact]
+        // Description: Should calculate the total with spaces in `itemTextBox` when the `calculateButton` is clicked.
+        public void ShouldCalculateTotalWithSpaces()
+        {
+            itemTextBox.Text = "1 2 3";
+            calculateButton.PerformClick();
+            Assert.Equal("6", totalPriceLabel.Text);
+        }
+
+        [Fact]
+        // Description: Should calculate the total with commas in `itemTextBox` when the `calculateButton` is clicked.
+        public void ShouldCalculateTotalWithCommas()
+        {
+            itemTextBox.Text = "1,2,3";
+            calculateButton.PerformClick();
+            Assert.Equal("6", totalPriceLabel.Text);
+        }
+
+        [Fact]
+        // Description: Should calculate the total with mixed delimiters in `itemTextBox` when the `calculateButton` is clicked.
+        public void ShouldCalculateTotalWithMixedDelimiters()
+        {
+            itemTextBox.Text = "1, 2\n3 4";
+            calculateButton.PerformClick();
+            Assert.Equal("10", totalPriceLabel.Text);
         }
     }
 }

@@ -19,8 +19,8 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string taskDescription = $"{TaskName.Text} - {DatePicker.Value.ToLongDateString()}";
-            lblToDoList.Text += "\n" + taskDescription;
+            string taskDescription = $"{taskTextBox.Text} - {dateTimePicker.Value.ToLongDateString()}";
+            toDoListLabel.Text += "\n" + taskDescription;
         }
     }
 }

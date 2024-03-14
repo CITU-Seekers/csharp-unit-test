@@ -19,18 +19,18 @@ namespace CodeChum
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
-            if (decimal.TryParse(textBox1.Text, out decimal celsiusTemperature))
+            if (decimal.TryParse(celsiusTextBox.Text, out decimal celsiusTemperature))
             {
                 // Convert Celsius to Fahrenheit using the formula
                 decimal fahrenheitTemperature = (celsiusTemperature * 9 / 5) + 32;
 
                 // Display the result
-                lblFahrenheit.Text = $"{fahrenheitTemperature:F2} °F";
+                fahrenheitLabel.Text = $"{fahrenheitTemperature:F2} °F";
             }
             else
             {
                 // Display an error message for invalid input
-                lblFahrenheit.Text = "Invalid input. Please enter a valid temperature in Celsius.";
+                fahrenheitLabel.Text = "Invalid input. Please enter a valid temperature in Celsius.";
             }
         }
     }

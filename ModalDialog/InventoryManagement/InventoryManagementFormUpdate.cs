@@ -25,20 +25,20 @@ namespace CodeChum
 
         public void InitializeValues()
         {
-            txtItemName.Text = Update_ItemName;
-            cboItemType.SelectedItem = Update_ItemType;
-            txtItemID.Text = Update_ItemID;
-            numericItemStock.Value = Convert.ToInt32(Update_ItemStock);
-            txtItemPrice.Text = Update_ItemPrice;
+            itemNameTextBox.Text = Update_ItemName;
+            itemTypeComboBox.SelectedItem = Update_ItemType;
+            itemIDTextBox.Text = Update_ItemID;
+            itemStockNumericUpDown.Value = Convert.ToInt32(Update_ItemStock);
+            itemPriceTextBox.Text = Update_ItemPrice;
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            Update_ItemName = txtItemName.Text;
-            Update_ItemType = cboItemType.SelectedItem.ToString();
-            Update_ItemID = txtItemID.Text;
-            Update_ItemStock = numericItemStock.Value.ToString();
-            Update_ItemPrice = txtItemPrice.Text;
+            Update_ItemName = itemNameTextBox.Text;
+            Update_ItemType = itemTypeComboBox.SelectedItem.ToString();
+            Update_ItemID = itemIDTextBox.Text;
+            Update_ItemStock = itemStockNumericUpDown.Value.ToString();
+            Update_ItemPrice = itemPriceTextBox.Text;
 
             this.Close();
         }

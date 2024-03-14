@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ItemList = new ListView();
+            itemsListView = new ListView();
             ItemType = new ColumnHeader();
             ItemID = new ColumnHeader();
             ItemName = new ColumnHeader();
             ItemStock = new ColumnHeader();
             ItemPrice = new ColumnHeader();
-            btnAddItem = new Button();
-            btnUpdateItem = new Button();
-            btnDeleteItem = new Button();
+            addItemButton = new Button();
+            updateItemButton = new Button();
+            deleteItemButton = new Button();
             SuspendLayout();
             // 
             // ItemList
             // 
-            ItemList.Columns.AddRange(new ColumnHeader[] { ItemType, ItemID, ItemName, ItemStock, ItemPrice });
-            ItemList.Location = new Point(34, 24);
-            ItemList.Name = "ItemList";
-            ItemList.Size = new Size(472, 190);
-            ItemList.TabIndex = 0;
-            ItemList.UseCompatibleStateImageBehavior = false;
-            ItemList.View = View.Details;
+            itemsListView.Columns.AddRange(new ColumnHeader[] { ItemType, ItemID, ItemName, ItemStock, ItemPrice });
+            itemsListView.Location = new Point(34, 24);
+            itemsListView.Name = "itemsListView";
+            itemsListView.Size = new Size(472, 190);
+            itemsListView.TabIndex = 0;
+            itemsListView.UseCompatibleStateImageBehavior = false;
+            itemsListView.View = View.Details;
             // 
             // ItemType
             // 
@@ -75,43 +75,43 @@
             // 
             // btnAddItem
             // 
-            btnAddItem.Location = new Point(51, 229);
-            btnAddItem.Name = "btnAddItem";
-            btnAddItem.Size = new Size(85, 28);
-            btnAddItem.TabIndex = 1;
-            btnAddItem.Text = "Add Item";
-            btnAddItem.UseVisualStyleBackColor = true;
-            btnAddItem.Click += btnAddItem_Click;
+            addItemButton.Location = new Point(51, 229);
+            addItemButton.Name = "addItemButton";
+            addItemButton.Size = new Size(85, 28);
+            addItemButton.TabIndex = 1;
+            addItemButton.Text = "Add Item";
+            addItemButton.UseVisualStyleBackColor = true;
+            addItemButton.Click += btnAddItem_Click;
             // 
             // btnUpdateItem
             // 
-            btnUpdateItem.Location = new Point(224, 229);
-            btnUpdateItem.Name = "btnUpdateItem";
-            btnUpdateItem.Size = new Size(85, 28);
-            btnUpdateItem.TabIndex = 2;
-            btnUpdateItem.Text = "Update Item";
-            btnUpdateItem.UseVisualStyleBackColor = true;
-            btnUpdateItem.Click += btnUpdateItem_Click;
+            updateItemButton.Location = new Point(224, 229);
+            updateItemButton.Name = "updateItemButton";
+            updateItemButton.Size = new Size(85, 28);
+            updateItemButton.TabIndex = 2;
+            updateItemButton.Text = "Update Item";
+            updateItemButton.UseVisualStyleBackColor = true;
+            updateItemButton.Click += btnUpdateItem_Click;
             // 
             // btnDeleteItem
             // 
-            btnDeleteItem.Location = new Point(406, 229);
-            btnDeleteItem.Name = "btnDeleteItem";
-            btnDeleteItem.Size = new Size(85, 28);
-            btnDeleteItem.TabIndex = 3;
-            btnDeleteItem.Text = "Delete Item";
-            btnDeleteItem.UseVisualStyleBackColor = true;
-            btnDeleteItem.Click += btnDeleteItem_Click;
+            deleteItemButton.Location = new Point(406, 229);
+            deleteItemButton.Name = "deleteItemButton";
+            deleteItemButton.Size = new Size(85, 28);
+            deleteItemButton.TabIndex = 3;
+            deleteItemButton.Text = "Delete Item";
+            deleteItemButton.UseVisualStyleBackColor = true;
+            deleteItemButton.Click += btnDeleteItem_Click;
             // 
             // InventoryManagementApp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(538, 296);
-            Controls.Add(btnDeleteItem);
-            Controls.Add(btnUpdateItem);
-            Controls.Add(btnAddItem);
-            Controls.Add(ItemList);
+            Controls.Add(deleteItemButton);
+            Controls.Add(updateItemButton);
+            Controls.Add(addItemButton);
+            Controls.Add(itemsListView);
             Name = "InventoryManagementApp";
             Text = "InventoryManagementApp";
             ResumeLayout(false);
@@ -119,10 +119,10 @@
 
         #endregion
 
-        private ListView ItemList;
-        private Button btnAddItem;
-        private Button btnUpdateItem;
-        private Button btnDeleteItem;
+        private ListView itemsListView;
+        private Button addItemButton;
+        private Button updateItemButton;
+        private Button deleteItemButton;
         private ColumnHeader ItemType;
         private ColumnHeader ItemID;
         private ColumnHeader ItemName;

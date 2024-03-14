@@ -34,16 +34,16 @@ namespace CodeChum
         public void ApplyLabelStyles()
         {
             // Style the title label
-            lblTitle.Font = new Font(lblTitle.Font, FontStyle.Bold);
-            lblTitle.Font = new Font(lblTitle.Font.FontFamily, 18, FontStyle.Bold);
-            lblTitle.ForeColor = Color.DarkBlue;
+            titleLabel.Font = new Font(titleLabel.Font, FontStyle.Bold);
+            titleLabel.Font = new Font(titleLabel.Font.FontFamily, 18, FontStyle.Bold);
+            titleLabel.ForeColor = Color.DarkBlue;
 
             // Style the author label
-            lblAuthor.Font = new Font(lblAuthor.Font, FontStyle.Italic);
-            lblAuthor.ForeColor = Color.Gray;
+            authorLabel.Font = new Font(authorLabel.Font, FontStyle.Italic);
+            authorLabel.ForeColor = Color.Gray;
 
             // Style the content label
-            lblContent.Font = new Font(lblContent.Font.FontFamily, 14);
+            contentLabel.Font = new Font(contentLabel.Font.FontFamily, 14);
             // Add additional styling as needed
         }
     }

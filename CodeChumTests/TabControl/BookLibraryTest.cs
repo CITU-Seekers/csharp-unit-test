@@ -3,147 +3,153 @@
     public class BookLibraryTest
     {
         BookLibrary? form;
-        ListView? BookList;
-        TextBox? txtTitle, txtAuthor, txtGenre;
-        DateTimePicker? PubDate;
-        ComboBox? cboStatus;
-        Button? AddButton, UpdateButton, DeleteButton, ViewButton;
-        TabControl? MainTabControl;
+        ListView? bookListView;
+        TextBox? titleTextBox, authorTextBox, genreTextBox;
+        DateTimePicker? publishedDateDateTimePicker;
+        ComboBox? statusComboBox;
+        Button? addButton, updateButton, deleteButton, viewButton;
+        TabControl? mainTabControl;
 
         public BookLibraryTest()
         {
             form = new BookLibrary();
             form.Show();
-            BookList = (ListView)TestUtils.GetControlNamed(form, "BookList", true);
-            txtTitle = (TextBox)TestUtils.GetControlNamed(form, "txtTitle", true);
-            txtAuthor = (TextBox)TestUtils.GetControlNamed(form, "txtAuthor", true);
-            txtGenre = (TextBox)TestUtils.GetControlNamed(form, "txtGenre", true);
-            PubDate = (DateTimePicker)TestUtils.GetControlNamed(form, "PubDate", true);
-            cboStatus = (ComboBox)TestUtils.GetControlNamed(form, "cboStatus", true);
-            AddButton = (Button)TestUtils.GetControlNamed(form, "AddButton", true);
-            UpdateButton = (Button)TestUtils.GetControlNamed(form, "UpdateButton", true);
-            DeleteButton = (Button)TestUtils.GetControlNamed(form, "DeleteButton", true);
-            ViewButton = (Button)TestUtils.GetControlNamed(form, "ViewButton", true);
-            MainTabControl = (TabControl)TestUtils.GetControlNamed(form, "MainTabControl", true);
+            bookListView = (ListView)TestUtils.GetControlNamed(form, "bookListView", true);
+            titleTextBox = (TextBox)TestUtils.GetControlNamed(form, "titleTextBox", true);
+            authorTextBox = (TextBox)TestUtils.GetControlNamed(form, "authorTextBox", true);
+            genreTextBox = (TextBox)TestUtils.GetControlNamed(form, "genreTextBox", true);
+            publishedDateDateTimePicker = (DateTimePicker)TestUtils.GetControlNamed(form, "publishedDateDateTimePicker", true);
+            statusComboBox = (ComboBox)TestUtils.GetControlNamed(form, "statusComboBox", true);
+            addButton = (Button)TestUtils.GetControlNamed(form, "addButton", true);
+            updateButton = (Button)TestUtils.GetControlNamed(form, "updateButton", true);
+            deleteButton = (Button)TestUtils.GetControlNamed(form, "deleteButton", true);
+            viewButton = (Button)TestUtils.GetControlNamed(form, "viewButton", true);
+            mainTabControl = (TabControl)TestUtils.GetControlNamed(form, "mainTabControl", true);
         }
 
         [Fact]
+        // Description: Should have all the controls `bookListView`, `titleTextBox`, `authorTextBox`, `genreTextBox`, `publishedDateDateTimePicker`, `statusComboBox`, `addButton`, `updateButton`, `deleteButton`, `viewButton`, and `mainTabControl`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(BookList);
-            Assert.NotNull(txtTitle);
-            Assert.NotNull(txtAuthor);
-            Assert.NotNull(txtGenre);
-            Assert.NotNull(PubDate);
-            Assert.NotNull(cboStatus);
-            Assert.NotNull(AddButton);
-            Assert.NotNull(UpdateButton);
-            Assert.NotNull(DeleteButton);
-            Assert.NotNull(ViewButton);
-            Assert.NotNull(MainTabControl);
+            Assert.NotNull(bookListView);
+            Assert.NotNull(titleTextBox);
+            Assert.NotNull(authorTextBox);
+            Assert.NotNull(genreTextBox);
+            Assert.NotNull(publishedDateDateTimePicker);
+            Assert.NotNull(statusComboBox);
+            Assert.NotNull(addButton);
+            Assert.NotNull(updateButton);
+            Assert.NotNull(deleteButton);
+            Assert.NotNull(viewButton);
+            Assert.NotNull(mainTabControl);
         }
 
         [Fact]
+        // Description: Should add a book to the `bookListView` when the `addButton` is clicked.
         public void ShouldAddBook()
         {
-            txtTitle.Text = "The Hobbit";
-            txtAuthor.Text = "J.R.R. Tolkien";
-            txtGenre.Text = "Fantasy";
-            PubDate.Value = new DateTime(1937, 9, 21);
-            cboStatus.SelectedIndex = 0;
-            AddButton.PerformClick();
+            titleTextBox.Text = "The Hobbit";
+            authorTextBox.Text = "J.R.R. Tolkien";
+            genreTextBox.Text = "Fantasy";
+            publishedDateDateTimePicker.Value = new DateTime(1937, 9, 21);
+            statusComboBox.SelectedIndex = 0;
+            addButton.PerformClick();
 
-            Assert.Equal(1, BookList.Items.Count);
-            Assert.Equal("The Hobbit", BookList.Items[0].SubItems[0].Text);
-            Assert.Equal("J.R.R. Tolkien", BookList.Items[0].SubItems[1].Text);
-            Assert.Equal("Fantasy", BookList.Items[0].SubItems[2].Text);
-            Assert.Equal("1937", BookList.Items[0].SubItems[3].Text);
-            Assert.Equal("Available", BookList.Items[0].SubItems[4].Text);
+            Assert.Equal(1, bookListView.Items.Count);
+            Assert.Equal("The Hobbit", bookListView.Items[0].SubItems[0].Text);
+            Assert.Equal("J.R.R. Tolkien", bookListView.Items[0].SubItems[1].Text);
+            Assert.Equal("Fantasy", bookListView.Items[0].SubItems[2].Text);
+            Assert.Equal("1937", bookListView.Items[0].SubItems[3].Text);
+            Assert.Equal("Available", bookListView.Items[0].SubItems[4].Text);
         }
 
         [Fact]
+        // Description: Should update a book in the `bookListView` when the `updateButton` is clicked.
         public void ShouldUpdateBook()
         {
-            txtTitle.Text = "The Hobbit";
-            txtAuthor.Text = "J.R.R. Tolkien";
-            txtGenre.Text = "Fantasy";
-            PubDate.Value = new DateTime(1937, 9, 21);
-            cboStatus.SelectedIndex = 0;
-            AddButton.PerformClick();
+            titleTextBox.Text = "The Hobbit";
+            authorTextBox.Text = "J.R.R. Tolkien";
+            genreTextBox.Text = "Fantasy";
+            publishedDateDateTimePicker.Value = new DateTime(1937, 9, 21);
+            statusComboBox.SelectedIndex = 0;
+            addButton.PerformClick();
 
-            BookList.Items[0].Selected = true;
-            txtTitle.Text = "The Lord of the Rings";
-            txtAuthor.Text = "J.R.R. Tolkien";
-            txtGenre.Text = "Fantasy";
-            PubDate.Value = new DateTime(1954, 7, 29);
-            cboStatus.SelectedIndex = 0;
-            UpdateButton.PerformClick();
+            bookListView.Items[0].Selected = true;
+            titleTextBox.Text = "The Lord of the Rings";
+            authorTextBox.Text = "J.R.R. Tolkien";
+            genreTextBox.Text = "Fantasy";
+            publishedDateDateTimePicker.Value = new DateTime(1954, 7, 29);
+            statusComboBox.SelectedIndex = 0;
+            updateButton.PerformClick();
 
-            Assert.Equal(1, BookList.Items.Count);
-            Assert.Equal("The Lord of the Rings", BookList.Items[0].SubItems[0].Text);
-            Assert.Equal("J.R.R. Tolkien", BookList.Items[0].SubItems[1].Text);
-            Assert.Equal("Fantasy", BookList.Items[0].SubItems[2].Text);
-            Assert.Equal("1954", BookList.Items[0].SubItems[3].Text);
-            Assert.Equal("Available", BookList.Items[0].SubItems[4].Text);
+            Assert.Equal(1, bookListView.Items.Count);
+            Assert.Equal("The Lord of the Rings", bookListView.Items[0].SubItems[0].Text);
+            Assert.Equal("J.R.R. Tolkien", bookListView.Items[0].SubItems[1].Text);
+            Assert.Equal("Fantasy", bookListView.Items[0].SubItems[2].Text);
+            Assert.Equal("1954", bookListView.Items[0].SubItems[3].Text);
+            Assert.Equal("Available", bookListView.Items[0].SubItems[4].Text);
         }
 
         [Fact]
+        // Description: Should delete a book from the `bookListView` when the `deleteButton` is clicked.
         public void ShouldDeleteBook()
         {
-            txtTitle.Text = "The Hobbit";
-            txtAuthor.Text = "J.R.R. Tolkien";
-            txtGenre.Text = "Fantasy";
-            PubDate.Value = new DateTime(1937, 9, 21);
-            cboStatus.SelectedIndex = 0;
-            AddButton.PerformClick();
+            titleTextBox.Text = "The Hobbit";
+            authorTextBox.Text = "J.R.R. Tolkien";
+            genreTextBox.Text = "Fantasy";
+            publishedDateDateTimePicker.Value = new DateTime(1937, 9, 21);
+            statusComboBox.SelectedIndex = 0;
+            addButton.PerformClick();
 
-            BookList.Items[0].Selected = true;
-            DeleteButton.PerformClick();
+            bookListView.Items[0].Selected = true;
+            deleteButton.PerformClick();
 
-            Assert.Equal(0, BookList.Items.Count);
+            Assert.Equal(0, bookListView.Items.Count);
         }
 
         [Fact]
+        // Description: Should view a book in a new tab when the `viewButton` is clicked.
         public void ShouldViewBookOnNewTab()
         {
-            txtTitle.Text = "The Hobbit";
-            txtAuthor.Text = "J.R.R. Tolkien";
-            txtGenre.Text = "Fantasy";
-            PubDate.Value = new DateTime(1937, 9, 21);
-            cboStatus.SelectedIndex = 0;
-            AddButton.PerformClick();
+            titleTextBox.Text = "The Hobbit";
+            authorTextBox.Text = "J.R.R. Tolkien";
+            genreTextBox.Text = "Fantasy";
+            publishedDateDateTimePicker.Value = new DateTime(1937, 9, 21);
+            statusComboBox.SelectedIndex = 0;
+            addButton.PerformClick();
 
-            BookList.Items[0].Selected = true;
-            ViewButton.PerformClick();
+            bookListView.Items[0].Selected = true;
+            viewButton.PerformClick();
 
-            Assert.Equal(2, MainTabControl.TabPages.Count);
-            Assert.Equal("The Hobbit", MainTabControl.TabPages[1].Text);
-            Assert.Equal("Title: The Hobbit", MainTabControl.TabPages[1].Controls["lblTitle"].Text);
-            Assert.Equal("Author: J.R.R. Tolkien", MainTabControl.TabPages[1].Controls["lblAuthor"].Text);
-            Assert.Equal("Genre: Fantasy", MainTabControl.TabPages[1].Controls["lblGenre"].Text);
-            Assert.Equal("Publication Date: Tuesday, 21 September 1937", MainTabControl.TabPages[1].Controls["lblPubDate"].Text);
-            Assert.Equal("Status: Available", MainTabControl.TabPages[1].Controls["lblStatus"].Text);
+            Assert.Equal(2, mainTabControl.TabPages.Count);
+            Assert.Equal("The Hobbit", mainTabControl.TabPages[1].Text);
+            Assert.Equal("Title: The Hobbit", mainTabControl.TabPages[1].Controls["lblTitle"].Text);
+            Assert.Equal("Author: J.R.R. Tolkien", mainTabControl.TabPages[1].Controls["lblAuthor"].Text);
+            Assert.Equal("Genre: Fantasy", mainTabControl.TabPages[1].Controls["lblGenre"].Text);
+            Assert.Equal("Publication Date: Tuesday, September 21, 1937", mainTabControl.TabPages[1].Controls["lblPubDate"].Text);
+            Assert.Equal("Status: Available", mainTabControl.TabPages[1].Controls["lblStatus"].Text);
         }
 
         [Fact]
+        // Description: Should exit the tab when the `ExitButton` is clicked.
         public void ShouldExitTab()
         {
-            txtTitle.Text = "The Hobbit";
-            txtAuthor.Text = "J.R.R. Tolkien";
-            txtGenre.Text = "Fantasy";
-            PubDate.Value = new DateTime(1937, 9, 21);
-            cboStatus.SelectedIndex = 0;
-            AddButton.PerformClick();
+            titleTextBox.Text = "The Hobbit";
+            authorTextBox.Text = "J.R.R. Tolkien";
+            genreTextBox.Text = "Fantasy";
+            publishedDateDateTimePicker.Value = new DateTime(1937, 9, 21);
+            statusComboBox.SelectedIndex = 0;
+            addButton.PerformClick();
 
-            BookList.Items[0].Selected = true;
-            ViewButton.PerformClick();
+            bookListView.Items[0].Selected = true;
+            viewButton.PerformClick();
 
             //Navigate to the new tab
-            MainTabControl.SelectedIndex = 1;
-            Button ExitButton = (Button)TestUtils.GetControlNamed(MainTabControl.TabPages[1], "ExitButton", true);
-            ExitButton.PerformClick();
+            mainTabControl.SelectedIndex = 1;
+            Button exitButton = (Button)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "exitButton", true);
+            exitButton.PerformClick();
 
-            Assert.Equal(1, MainTabControl.TabPages.Count);
+            Assert.Equal(1, mainTabControl.TabPages.Count);
         }
 
     }

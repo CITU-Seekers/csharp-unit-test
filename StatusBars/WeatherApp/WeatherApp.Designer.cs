@@ -28,57 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            StatusStrip = new StatusStrip();
-            WeatherStatus = new ToolStripStatusLabel();
-            btnGenerate = new Button();
-            StatusStrip.SuspendLayout();
+            statusStrip = new StatusStrip();
+            weatherStatusLabel = new ToolStripStatusLabel();
+            generateButton = new Button();
+            statusStrip.SuspendLayout();
             SuspendLayout();
             // 
-            // StatusStrip
+            // statusStrip
             // 
-            StatusStrip.Items.AddRange(new ToolStripItem[] { WeatherStatus });
-            StatusStrip.Location = new Point(0, 230);
-            StatusStrip.Name = "StatusStrip";
-            StatusStrip.Size = new Size(465, 22);
-            StatusStrip.TabIndex = 0;
-            StatusStrip.Text = "statusStrip1";
+            statusStrip.Items.AddRange(new ToolStripItem[] { weatherStatusLabel });
+            statusStrip.Location = new Point(0, 230);
+            statusStrip.Name = "statusStrip";
+            statusStrip.Size = new Size(465, 22);
+            statusStrip.TabIndex = 0;
+            statusStrip.Text = "statusStrip1";
             // 
-            // WeatherStatus
+            // weatherStatusLabel
             // 
-            WeatherStatus.Name = "WeatherStatus";
-            WeatherStatus.Size = new Size(83, 17);
-            WeatherStatus.Text = "WeatherStatus";
+            weatherStatusLabel.Name = "weatherStatusLabel";
+            weatherStatusLabel.Size = new Size(83, 17);
+            weatherStatusLabel.Text = "WeatherStatus";
             // 
-            // btnGenerate
+            // generateButton
             // 
-            btnGenerate.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnGenerate.Location = new Point(104, 89);
-            btnGenerate.Name = "btnGenerate";
-            btnGenerate.Size = new Size(234, 41);
-            btnGenerate.TabIndex = 1;
-            btnGenerate.Text = "Generate Weather Condition";
-            btnGenerate.UseVisualStyleBackColor = true;
-            btnGenerate.Click += btnGenerate_Click;
+            generateButton.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            generateButton.Location = new Point(104, 89);
+            generateButton.Name = "generateButton";
+            generateButton.Size = new Size(234, 41);
+            generateButton.TabIndex = 1;
+            generateButton.Text = "Generate Weather Condition";
+            generateButton.UseVisualStyleBackColor = true;
+            generateButton.Click += btnGenerate_Click;
             // 
             // WeatherApp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(465, 252);
-            Controls.Add(btnGenerate);
-            Controls.Add(StatusStrip);
+            Controls.Add(generateButton);
+            Controls.Add(statusStrip);
             Name = "WeatherApp";
             Text = "WeatherApp";
-            StatusStrip.ResumeLayout(false);
-            StatusStrip.PerformLayout();
+            statusStrip.ResumeLayout(false);
+            statusStrip.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private StatusStrip StatusStrip;
-        private ToolStripStatusLabel WeatherStatus;
-        private Button btnGenerate;
+        private StatusStrip statusStrip;
+        private ToolStripStatusLabel weatherStatusLabel;
+        private Button generateButton;
     }
 }

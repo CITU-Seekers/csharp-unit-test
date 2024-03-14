@@ -21,15 +21,15 @@ namespace CodeChum
         {
             //Create a new node under the selected node
             TreeNode newNode = new TreeNode("New File");
-            MainTreeView.SelectedNode.Nodes.Add(newNode);
-            MainTreeView.SelectedNode = newNode;
+            mainTreeView.SelectedNode.Nodes.Add(newNode);
+            mainTreeView.SelectedNode = newNode;
         }
 
         private void OpenMenuItem_Click(object sender, EventArgs e)
         {
             //Get the name of the selected node
-            string selectedNode = MainTreeView.SelectedNode.Text;
-            MessageLabel.Text = $"Opening {selectedNode}";
+            string selectedNode = mainTreeView.SelectedNode.Text;
+            messageLabel.Text = $"Opening {selectedNode}";
         }
 
         private void ExitMenuItem_Click(object sender, EventArgs e)
@@ -40,23 +40,23 @@ namespace CodeChum
         private void RenameButton_Click(object sender, EventArgs e)
         {
             //Rename the selected node with the text in the textbox
-            MainTreeView.SelectedNode.Text = txtFileName.Text;
+            mainTreeView.SelectedNode.Text = fileNameTextBox.Text;
         }
 
         private void SearchButton_Click(object sender, EventArgs e)
         {
             // Clear the selected node and file path label
-            MainTreeView.SelectedNode = null;
-            FilePathLabel.Text = "";
+            mainTreeView.SelectedNode = null;
+            filePathLabel.Text = "";
 
             // Search for the files containing the text in the textbox and highlight the first file found
-            string searchText = txtFileName.Text.ToLower(); // Convert to lowercase for case-insensitive search
-            SearchNode(MainTreeView.Nodes, searchText);
+            string searchText = fileNameTextBox.Text.ToLower(); // Convert to lowercase for case-insensitive search
+            SearchNode(mainTreeView.Nodes, searchText);
         }
 
         private void MainTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            FilePathLabel.Text = MainTreeView.SelectedNode.FullPath;
+            filePathLabel.Text = mainTreeView.SelectedNode.FullPath;
         }
 
         private bool SearchNode(TreeNodeCollection nodes, string searchText)
@@ -67,8 +67,8 @@ namespace CodeChum
                 if (node.Text.ToLower().Contains(searchText))
                 {
                     // Highlight the node and set it as selected
-                    MainTreeView.SelectedNode = node;
-                    FilePathLabel.Text = MainTreeView.SelectedNode.FullPath;
+                    mainTreeView.SelectedNode = node;
+                    filePathLabel.Text = mainTreeView.SelectedNode.FullPath;
                     return true; // File found
                 }
 
