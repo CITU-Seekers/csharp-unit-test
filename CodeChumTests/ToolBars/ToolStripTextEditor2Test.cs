@@ -22,6 +22,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `editorToolStrip`, `colorToolStrip`, and `mainRichTextBox`.
         public void ShouldHaveAllControls()
         {
            Assert.NotNull(editorToolStrip);
@@ -30,6 +31,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `fontComboBox`, `fontSizeComboBox`, `findTextBox`, `replaceAllTextBox`, `replaceAllButton`, and `openColorsToolStripButton` in `editorToolStrip`.
         public void ShouldHaveAllToolStripControlsForEditorToolStrip()
         {
             fontComboBox = editorToolStrip.Items["fontComboBox"] as ToolStripComboBox;
@@ -48,12 +50,14 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should not show `colorToolStrip` by default.
         public void ShouldNotShowColorToolStripByDefault()
         {
             Assert.False(colorToolStrip.Visible, "The colorToolStrip should not be visible by default.");
         }
 
         [Fact]
+        // Description: Should have all the controls `blackButton`, `blueButton`, `greenButton`, `redButton`, and `yellowButton` in `colorToolStrip`.
         public void ShouldHaveAllToolStripControlsForColorToolStrip()
         {
             String[] colorButtons = {
@@ -73,6 +77,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should open `colorToolStrip` when it is closed on `openColorsToolStripButton` click. Otherwise, the tool strip should be closed.
         public void ShouldOpenOrCloseColorToolStripOnColorButtonClick()
         {
             openColorsToolStripButton = editorToolStrip.Items["openColorsToolStripButton"] as ToolStripButton;
@@ -87,6 +92,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change font family of `mainRichTextBox` when selected item in the `fontComboBox` changes.
         public void ShouldBeAbleToChangeFontFamily()
         {
             fontComboBox = editorToolStrip.Items["fontComboBox"] as ToolStripComboBox;
@@ -106,6 +112,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change font size of `mainRichTextBox` when selected item in the `fontSizeComboBox` changes.
         public void ShouldBeAbleToChangeFontSize()
         {
             fontSizeComboBox = editorToolStrip.Items["fontSizeComboBox"] as ToolStripComboBox;
@@ -125,6 +132,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should replace all text in `mainRichTextBox` based on the text in `findTextBox` and `replaceAllTextBox` when `replaceAllButton` is clicked.
         public void ShouldBeAbleToReplaceAllTextInTextBox()
         {
             findTextBox = editorToolStrip.Items["findTextBox"] as ToolStripTextBox;
@@ -142,6 +150,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change fore color of `mainRichTextBox` based on the color button clicked in `colorToolStrip`.
         public void ShouldBeAbleToChangeForeColorOfTextBox()
         {
             String[] colorButtons = {

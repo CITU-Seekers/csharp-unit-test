@@ -43,6 +43,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `firstButton`, `secondButton`, `thirdButton`, `fourthButton`, `fifthButton`, `sixthButton`, `seventhButton`, `eighthButton`, `ninthButton`, and `tenthButton`.
         public void ShouldHaveAllControls()
         {
             foreach (Button btn in buttons)
@@ -52,6 +53,7 @@
         }
 
         [Fact]
+        // Description: Should show message dialog "Spy found!" when a spy button is clicked.
         public async void ShouldShowMessageDialogOnSpy()
         {
             foreach (Button btn in buttons)

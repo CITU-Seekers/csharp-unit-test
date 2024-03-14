@@ -22,6 +22,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `bookListView`, `authorTextBox`, `titleTextBox`, `isbnTextBox`, `datePublishedDateTimePicker`, `addButton`, and `removeButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(bookListView);
@@ -34,6 +35,7 @@
         }
 
         [Fact]
+        // Description: Should be able to add an entry to the `bookListView` when the `addButton` is clicked.
         public void ShouldBeAbleToAddEntry()
         {
             string author = "TestAuthor";
@@ -58,6 +60,7 @@
         }
 
         [Fact]
+        // Description: Should be able to remove an entry from the `bookListView` when the `removeButton` is clicked.
         public void ShouldBeAbleToRemoveEntry()
         {
             string author = "TestAuthor";

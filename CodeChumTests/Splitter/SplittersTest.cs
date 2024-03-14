@@ -21,6 +21,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `topPanel`, `bottomPanel`, `leftPanel`, `rightPanel`, `centerPanel`, `topSplitter`, `bottomSplitter`, `leftSplitter`, and `rightSplitter`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(topPanel);
@@ -35,6 +36,7 @@
         }
 
         [Fact]
+        // Description: Should correctly dock all controls as specified in the instructions.
         public void ShouldBeDockedProperly()
         {
             Assert.Equal(DockStyle.Top, topPanel.Dock);

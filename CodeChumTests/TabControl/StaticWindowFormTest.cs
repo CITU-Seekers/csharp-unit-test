@@ -26,6 +26,7 @@
         }
 
         [Fact]
+        // Description: Should have a tab control named `mainTabControl` and its tab pages `homeTabPage`, `registerTabPage`, and `aboutTabPage`.
         public void ShouldHaveTabControlAndAllItsPages()
         {
             Assert.NotNull(mainTabControl);
@@ -35,6 +36,7 @@
         }
 
         [Fact]
+        // Description: Should have all controls in `homeTabPage` including `companyNameLabel` and `sloganLabel`.
         public void ShouldHaveAllControlsInHomeTabPage()
         {
             Assert.NotNull(companyNameLabel);
@@ -42,6 +44,7 @@
         }
 
         [Fact]
+        // Description: Should have all controls in `registerTabPage` including `nameTextBox`, `emailTextBox`, `passwordTextBox`, and `registerButton`.
         public void ShouldHaveAllControlsInRegisterTabPage()
         {
             Assert.NotNull(nameTextBox);
@@ -51,12 +54,14 @@
         }
 
         [Fact]
+        // Description: Should have all controls in `aboutTabPage` including `aboutLabel`.
         public void ShouldHaveAllControlsInAboutTabPage()
         {
             Assert.NotNull(aboutLabel);
         }
 
         [Fact]
+        // Description: Should have the correct `companyNameLabel` and `sloganLabel` contents in `homeTabPage`.
         public void ShouldHaveCorrectLabelContentsInHomePage()
         {
             string expectedHome = "Company X";
@@ -66,6 +71,7 @@
         }
 
         [Fact]
+        // Description: Should have the correct `aboutLabel` contents in `aboutTabPage`.
         public void ShouldHaveCorrectLabelContentsInAboutPage()
         {
             string expectedAbout = "Company X is a company dedicated in helping " +

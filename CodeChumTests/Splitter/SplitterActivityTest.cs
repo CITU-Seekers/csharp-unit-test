@@ -15,6 +15,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `mainSplitter`, `normalTextBox`, and `capitalizedTextBox`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(mainSplitter);
@@ -23,12 +24,14 @@
         }
 
         [Fact]
+        // Description: Should dock the `mainSplitter` in the left.
         public void ShouldDockTheMainSplitterCorrectly()
         {
             Assert.Equal(DockStyle.Left, mainSplitter.Dock);
         }
 
         [Fact]
+        // Description: Should show uppercase text characters to the `capitalizedTextBox`.
         public void ShouldShowUppercaseTextOnNonEditableTextBox()
         {
             string test = "abcdef";

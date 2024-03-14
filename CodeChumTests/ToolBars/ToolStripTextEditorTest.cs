@@ -20,6 +20,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `editorToolStrip` and `mainRichTextBox`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(editorToolStrip);
@@ -27,6 +28,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `fontComboBox`, `fontSizeComboBox`, `underlineButton`, `boldButton`, and `italicButton` in `editorToolStrip`.
         public void ShouldHaveAllToolStripControls()
         {
             fontComboBox = editorToolStrip.Items["fontComboBox"] as ToolStripComboBox;
@@ -43,6 +45,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change font family of `mainRichTextBox` when selected item in the `fontComboBox` changes.
         public void ShouldBeAbleToChangeFontFamily()
         {
             fontComboBox = editorToolStrip.Items["fontComboBox"] as ToolStripComboBox;
@@ -62,6 +65,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change font size of `mainRichTextBox` when selected item in the `fontSizeComboBox` changes.
         public void ShouldBeAbleToChangeFontSize()
         {
             fontSizeComboBox = editorToolStrip.Items["fontSizeComboBox"] as ToolStripComboBox;
@@ -81,6 +85,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should be able to toggle bold font style of `mainRichTextBox` on `boldButton` click.
         public void ShouldBeAbleToToggleBoldFontStyle()
         {
             boldButton = editorToolStrip.Items["boldButton"] as ToolStripButton;
@@ -93,6 +98,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should be able to toggle underline font style of `mainRichTextBox` on `underlineButton` click.
         public void ShouldBeAbleToToggleUnderlineFontStyle()
         {
             underlineButton = editorToolStrip.Items["underlineButton"] as ToolStripButton;
@@ -105,6 +111,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should be able to toggle italic font style of `mainRichTextBox` on `italicButton` click.
         public void ShouldBeAbleToToggleItalicFontStyle()
         {
             italicButton = editorToolStrip.Items["italicButton"] as ToolStripButton;
@@ -117,6 +124,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should be able to toggle multiple font styles of `mainRichTextBox` on `underlineButton`, `boldButton`, and `italicButton` click.
         public void ShouldBeAbleToToggleMultipleFontStyles()
         {
             underlineButton = editorToolStrip.Items["underlineButton"] as ToolStripButton;

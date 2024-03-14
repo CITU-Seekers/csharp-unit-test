@@ -35,6 +35,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `bookListView`, `authorTextBox`, `titleTextBox`, `isbnTextBox`, `genreGroupBox`, `actionCheckBox`, `adventureCheckBox`, `fantasyCheckBox`, `horrorCheckBox`, `romanceCheckBox`, `sciFiCheckBox`, `tragedyCheckBox`, `ratingNumericControl`, `datePublishedDateTimePicker`, `addButton`, `removeButton`, and `updateButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(bookListView);
@@ -57,6 +58,7 @@
         }
 
         [Fact]
+        // Description: Should add entry to the `bookListView` on click of `addButton`.
         public void ShouldAddEntryOnClickAddButton()
         {
             string author = "TestAuthor";
@@ -85,6 +87,7 @@
         }
 
         [Fact]
+        // Description: Should remove entry from the `bookListView` on click of `removeButton`.
         public void ShouldRemoveEntryOnClickRemoveButton()
         {
             string author = "TestAuthor";
@@ -108,6 +111,7 @@
         }
 
         [Fact]
+        // Description: Should populate the appropriate controls with the values from the selected entry from the `bookListView`.
         public void ShouldShowValuesOnControlsOnEntrySelect()
         {
             string author = "TestAuthor";
@@ -123,7 +127,9 @@
             ratingNumericControl.Value = rating;
             datePublishedDateTimePicker.Value = createdDateTime;
             actionCheckBox.Checked = true;
+
             addButton.PerformClick();
+
             authorTextBox.Text = "";
             titleTextBox.Text = "";
             isbnTextBox.Text = "";
@@ -140,6 +146,7 @@
         }
 
         [Fact]
+        // Description: Should update entry in the `bookListView` on click of `updateButton`.
         public void ShouldUpdateEntryOnClickUpdateButton()
         {
             string author = "TestAuthor";

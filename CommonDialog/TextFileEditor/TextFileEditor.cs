@@ -17,26 +17,26 @@ namespace CodeChum
         public TextFileEditor()
         {
             InitializeComponent();
-            EditorOpenFileDialog = new OpenFileDialog();
-            EditorSaveFileDialog = new SaveFileDialog();
+            editorOpenFileDialog = new OpenFileDialog();
+            editorSaveFileDialog = new SaveFileDialog();
         }
 
-        public OpenFileDialog EditorOpenFileDialog { get; set; }
-        public SaveFileDialog EditorSaveFileDialog { get; set; }
+        public OpenFileDialog editorOpenFileDialog { get; set; }
+        public SaveFileDialog editorSaveFileDialog { get; set; }
 
         private void SaveFileButton_Click(object sender, EventArgs e)
         {
             /*Task.Run(() =>
             {
-                EditorSaveFileDialog.ShowDialog();
+                editorSaveFileDialog.ShowDialog();
             });*/
-            EditorSaveFileDialog.ShowDialog();
+            editorSaveFileDialog.ShowDialog();
 
-            if (EditorSaveFileDialog.FileName.Length > 0)
+            if (editorSaveFileDialog.FileName.Length > 0)
             {
                 try
                 {
-                    using (Stream fs = EditorSaveFileDialog.OpenFile())
+                    using (Stream fs = editorSaveFileDialog.OpenFile())
                     {
                         Byte[] helloWorld = new UTF8Encoding(true).GetBytes(mainRichTextBox.Text);
                         fs.Write(helloWorld, 0, helloWorld.Length);
@@ -51,12 +51,12 @@ namespace CodeChum
 
         private void OpenFileButton_Click(object sender, EventArgs e)
         {
-            // Task.Run(() => EditorOpenFileDialog.ShowDialog());
-            EditorOpenFileDialog.ShowDialog();
+            // Task.Run(() => editorOpenFileDialog.ShowDialog());
+            editorOpenFileDialog.ShowDialog();
 
-            if (EditorOpenFileDialog.FileName.Length > 0)
+            if (editorOpenFileDialog.FileName.Length > 0)
             {
-                String fileName = EditorOpenFileDialog.FileName;
+                String fileName = editorOpenFileDialog.FileName;
                 mainRichTextBox.Text = System.IO.File.ReadAllText(fileName);
             }
         }

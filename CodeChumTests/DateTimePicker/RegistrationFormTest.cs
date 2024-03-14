@@ -21,6 +21,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `nameTextBox`, `emailTextBox`, `addressTextBox`, `birthDatePicker`, `registrationLabel`, and `registerButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(nameTextBox);
@@ -32,6 +33,7 @@
         }
 
         [Fact]
+        // Description: Should not register when text boxes are empty on click of `registerButton`.
         public void ShouldNotRegisterWhenTextBoxesAreEmpty()
         {
             registerButton.PerformClick();
@@ -40,6 +42,7 @@
         }
 
         [Fact]
+        // Description: Should not register when text boxes are not complete on click of `registerButton`.
         public void ShouldNotRegisterWhenTextBoxesAreNotComplete()
         {
             string test = "TestString";
@@ -51,6 +54,7 @@
         }
 
         [Fact]
+        // Description: Should register when text boxes are complete and display correct details in `registrationLabel` on click of `registerButton`.
         public void ShouldRegisterWhenTextBoxesAreComplete()
         {
             string testName = "TestName";

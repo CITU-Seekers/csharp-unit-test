@@ -27,6 +27,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls for the main form `registrationButton`, `checkerButton`, `exitButton`, and `form.AttendanceCheckerForm`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(registrationButton);
@@ -35,6 +36,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls for the attendance checker form `idTextBox`, `checkButton`, and `cancelButton`.
         public void ShouldHaveAllControlsInAttendanceCheckerForm()
         {
             checkerModal = new AttendanceCheckerForm();
@@ -50,6 +52,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls for the employee checker form `idTextBox`, `nameTextBox`, `registerButton`, and `cancelButton`.
         public void ShouldHaveAllControlsInEmployeeRegistrationForm()
         {
             registrationModal = new EmployeeRegistrationForm();
@@ -67,6 +70,7 @@
         }
 
         [Fact]
+        // Description: Should open attendance checker form on `checkerButton` click.
         public void ShouldBeAbleToOpenAttendanceCheckerForm()
         {
             Boolean isModalShown = false;
@@ -85,6 +89,7 @@
         }
 
         [Fact]
+        // Description: Should open employee registration form on `registrationButton` click.
         public void ShouldBeAbleToOpenEmployeeRegistrationForm()
         {
             Boolean isModalShown = false;
@@ -103,6 +108,7 @@
         }
 
         [Fact]
+        // Description: Should close the attendance checker form on `cancelButton` click.
         public void ShouldBeAbleToCloseAttendanceCheckerForm()
         {
             Boolean isModalShown = false;
@@ -125,6 +131,7 @@
         }
 
         [Fact]
+        // Description: Should close the employee registration form on `cancelButton` click.
         public void ShouldBeAbleToCloseEmployeeRegistrationForm()
         {
             Boolean isModalShown = false;
@@ -147,6 +154,7 @@
         }
 
         [Fact]
+        // Description: Should register employee in the registration modal form on `registerButton` click.
         public void ShouldBeAbleToRegisterInRegistrationModal()
         {
             registrationModal = new EmployeeRegistrationForm();
@@ -166,6 +174,7 @@
         }
 
         [Fact]
+        // Description: Should check attendance of registered employee in the attendance checker modal form on `checkButton` click.
         public void ShouldBeAbleToCheckRegisteredEmployeeInCheckerModal()
         {
             EmployeeList.Employees.Add(2, new Employee(2, "Jane Doe"));
@@ -185,6 +194,7 @@
         }
 
         [Fact]
+        // Description: Should display correct message box when checking an employee who's record has already been recorded.
         public void ShouldBeAbleToDisplayCorrectMessageBoxForAlreadyRegisteredEmployees()
         {
             EmployeeList.Employees.Add(3, new Employee(3, "Jane Doe"));
@@ -205,6 +215,7 @@
         }
 
         [Fact]
+        // Description: Should display correct message box for not registered employees in the attendance checker modal form.
         public void ShouldBeAbleToDisplayCorrectMessageBoxForInvalidEmployee()
         {
             checkerModal = new AttendanceCheckerForm();
@@ -222,6 +233,7 @@
         }
 
         [Fact]
+        // Description: Should do the whole process of registering and checking attendance correctly.
         public void ShouldBeAbleToPerformRegisterAndAttendanceCorrectly()
         {
             var registerTask = Task.Factory.StartNew(async () =>
@@ -267,6 +279,7 @@
         }
 
         [Fact]
+        // Description: Should close the main form on `exitButton` click.
         public void ShouldBeAbleToCloseFormOnExitButtonClick()
         {
             exitButton.PerformClick();

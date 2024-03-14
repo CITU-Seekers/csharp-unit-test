@@ -22,6 +22,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `nameTextBox`, `emailTextBox`, `satisfactionNumericControl`, `yesRadioButton`, `noRadioButton`, and `submitButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(nameTextBox);
@@ -33,6 +34,7 @@
         }
 
         [Fact]
+        // Description: Should show invalid message box when at least one text box is empty on click `submitButton`.
         public void ShouldShowInvalidMessageBoxOnClickSubmitButtonWithEmptyTextBox()
         {
             submitButton.PerformClick();
@@ -44,6 +46,7 @@
         }
 
         [Fact]
+        // Description: Should show success message when all controls have values on click `submitButton`.
         public void ShouldShowSuccessMessageOnClickSubmitButtonThenYes()
         {
             nameTextBox.Text = "Test";

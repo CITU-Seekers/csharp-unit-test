@@ -20,6 +20,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `mainRichTextBox`, `toStartButton`, and `toEndButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(mainRichTextBox);
@@ -28,6 +29,7 @@
         }
 
         [Fact]
+        // Description: Should have the `editorStatusStrip` along with its items `textLengthProgressBar` and `caretPositionStatusLabel`.
         public void ShouldHaveStatusStripAndAllStatusStripItems()
         {
             Assert.NotNull(editorStatusStrip);
@@ -40,6 +42,7 @@
         }
 
         [Fact]
+        // Description: Should have correct starting values for `textLengthProgressBar` and `caretPositionStatusLabel`.
         public void ShouldHaveCorrectStartingValuesForStatusStrip()
         {
             Assert.NotNull(editorStatusStrip);
@@ -52,6 +55,7 @@
         }
 
         [Fact]
+        // Description: Should update the `caretPositionStatusLabel` whenever the selection in `mainRichTextBox` changes.
         public void ShouldUpdateCaretPositionAsSelectionChanges()
         {
             Assert.NotNull(editorStatusStrip);
@@ -68,6 +72,7 @@
         }
 
         [Fact]
+        // Description: Should set the `caretPositionStatusLabel` back to the starting point when the `toStartButton` is clicked.
         public void ShouldBeAbleToSetCaretBackToTheStartAndUpdateStatus()
         {
             Assert.NotNull(editorStatusStrip);
@@ -80,6 +85,7 @@
         }
 
         [Fact]
+        // Description: Should set the `caretPositionStatusLabel` to the end when the `toEndButton` is clicked.
         public void ShouldBeAbleToSetCaretToTheEndAndUpdateStatus()
         {
             Assert.NotNull(editorStatusStrip);
@@ -92,6 +98,7 @@
         }
 
         [Fact]
+        // Description: Should update the `textLengthProgressBar` as the user types in the `mainRichTextBox`.
         public void ShouldUpdateProgressBarAsUserTypes()
         {
             Assert.NotNull(editorStatusStrip);
