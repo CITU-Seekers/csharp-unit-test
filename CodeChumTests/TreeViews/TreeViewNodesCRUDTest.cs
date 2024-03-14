@@ -23,6 +23,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `mainTreeView`, `nameTextBox`, `mainNodeCheckBox`, `addNodeButton`, `removeNodeButton`, `updateNodeButton`, and `pathLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(mainTreeView);
@@ -35,6 +36,7 @@
         }
 
         [Fact]
+        // Description: Should create a node at the top level if there are no existing nodes on `addNoteButton` click.
         public void ShouldAddNewNodeWithText()
         {
             string test = "test";
@@ -46,6 +48,7 @@
         }
 
         [Fact]
+        // Description: Should create a node at the top level if the `mainNodeCheckBox` is checked on `addNoteButton` click.
         public void ShouldAddNewNodeOnTopIfCheckBoxIsToggled()
         {
             string test = "test";
@@ -61,6 +64,7 @@
         }
 
         [Fact]
+        // Description: Should add a child node on the selected node on `addNodeButton` click.
         public void ShouldAddChildNodeOnSelectedNode()
         {
             string test = "test";
@@ -76,6 +80,7 @@
         }
 
         [Fact]
+        // Description: Should remove the selected node on `removeNodeButton` click.
         public void ShouldRemoveSelectedNode()
         {
             string test = "test";
@@ -89,6 +94,7 @@
         }
 
         [Fact]
+        // Description: Should remove the selected child node on `removeNodeButton` click.
         public void ShouldRemoveSelectedChildNode()
         {
             string test = "test";
@@ -104,6 +110,7 @@
         }
 
         [Fact]
+        // Description: Should update the name of the selected node on `updateNodeButton` click.
         public void ShouldUpdateSelectedNode()
         {
             string test = "test";
@@ -119,6 +126,7 @@
         }
 
         [Fact]
+        // Description: Should display full path of the selected top level nodes in the `pathLabel`.
         public void ShouldUpdatePathLabelOnSelect()
         {
             string test = "test";
@@ -130,6 +138,7 @@
         }
 
         [Fact]
+        // Description: Should display full path of the selected child nodes in the `pathLabel`.
         public void ShouldUpdatePathLabelForChildNodes()
         {
             string test = "test";

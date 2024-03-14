@@ -18,6 +18,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `mainRichTextBox`, `colorButton`, and `fontButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(mainRichTextBox);
@@ -26,20 +27,22 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change the fore color of the `mainRichTextBox` when a color is selected from the color dialog
         public void ShouldChangeTextColorOnColorButtonClickAndColorDialogSelect()
         {
-            form.EditorColorDialog.Color = Color.Red;
+            form.editorColorDialog.Color = Color.Red;
             colorButton.PerformClick();
 
             Assert.Equal(Color.Red, mainRichTextBox.ForeColor);
         }
 
         [Fact]
+        // Description: Should change the font of the `mainRichTextBox` when a font is selected from the font dialog
         public void ShouldChangeFontOnFontButtonClickAndFontDialogSelect()
         {
             Font expectedFont = new Font(new FontFamily("Arial"), 34, FontStyle.Bold);
 
-            form.EditorFontDialog.Font = expectedFont;
+            form.editorFontDialog.Font = expectedFont;
             fontButton.PerformClick();
 
             Assert.Equal(expectedFont, mainRichTextBox.Font);

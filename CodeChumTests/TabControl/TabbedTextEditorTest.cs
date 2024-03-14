@@ -22,6 +22,7 @@
         }
 
         [Fact]
+        // Description: Should have all the default controls `editorTabControl`, `mainTabPage`, `mainRichTextBox`, `fileNameTextBox`, `addButton`, and `deleteButton`.
         public void ShouldHaveAllDefaultControls()
         {
             Assert.NotNull(editorTabControl);
@@ -33,6 +34,7 @@
         }
 
         [Fact]
+        // Description: Should add a new `TabPage` with correct text and name that is cascaded in the `editorTabControl` on click of `addButton`.
         public void ShouldAddTabPageOnAddButtonClick()
         {
             fileNameTextBox.Text = "Test";
@@ -45,6 +47,7 @@
         }
 
         [Fact]
+        // Description: Should create a new `RichTextBox` with a correct name on a new tab page on click of `addButton`.
         public void ShouldCreateRichTextBoxOnNewTabPage()
         {
             fileNameTextBox.Text = "Test";
@@ -61,6 +64,7 @@
         }
 
         [Fact]
+        // Description: Should delete a tab page and then set the current selected index and tab to the left of the deleted tab page on click of `deleteButton`.
         public void ShouldDeleteTabAndMoveLeftOnDeleteButtonClick()
         {
             fileNameTextBox.Text = "Test0";
