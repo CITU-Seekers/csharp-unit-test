@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            btnConvert = new Button();
-            lblFahrenheit = new Label();
+            celsiusTextBox = new TextBox();
+            convertButton = new Button();
+            fahrenheitLabel = new Label();
             label2 = new Label();
             SuspendLayout();
             // 
@@ -44,34 +44,34 @@
             label1.TabIndex = 0;
             label1.Text = "Celcius (°C)";
             // 
-            // textBox1
+            // celsiusTextBox
             // 
-            textBox1.Location = new Point(108, 80);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(173, 23);
-            textBox1.TabIndex = 2;
+            celsiusTextBox.Location = new Point(108, 80);
+            celsiusTextBox.Multiline = true;
+            celsiusTextBox.Name = "celsiusTextBox";
+            celsiusTextBox.Size = new Size(173, 23);
+            celsiusTextBox.TabIndex = 2;
             // 
-            // btnConvert
+            // convertButton
             // 
-            btnConvert.Location = new Point(152, 134);
-            btnConvert.Name = "btnConvert";
-            btnConvert.Size = new Size(75, 23);
-            btnConvert.TabIndex = 3;
-            btnConvert.Text = "Convert";
-            btnConvert.UseVisualStyleBackColor = true;
-            btnConvert.Click += btnConvert_Click;
+            convertButton.Location = new Point(152, 134);
+            convertButton.Name = "convertButton";
+            convertButton.Size = new Size(75, 23);
+            convertButton.TabIndex = 3;
+            convertButton.Text = "Convert";
+            convertButton.UseVisualStyleBackColor = true;
+            convertButton.Click += btnConvert_Click;
             // 
-            // lblFahrenheit
+            // fahrenheitLabel
             // 
-            lblFahrenheit.AutoSize = true;
-            lblFahrenheit.BorderStyle = BorderStyle.Fixed3D;
-            lblFahrenheit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblFahrenheit.Location = new Point(108, 196);
-            lblFahrenheit.MinimumSize = new Size(173, 24);
-            lblFahrenheit.Name = "lblFahrenheit";
-            lblFahrenheit.Size = new Size(173, 24);
-            lblFahrenheit.TabIndex = 6;
+            fahrenheitLabel.AutoSize = true;
+            fahrenheitLabel.BorderStyle = BorderStyle.Fixed3D;
+            fahrenheitLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            fahrenheitLabel.Location = new Point(108, 196);
+            fahrenheitLabel.MinimumSize = new Size(173, 24);
+            fahrenheitLabel.Name = "fahrenheitLabel";
+            fahrenheitLabel.Size = new Size(173, 24);
+            fahrenheitLabel.TabIndex = 6;
             // 
             // label2
             // 
@@ -87,10 +87,10 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(395, 308);
-            Controls.Add(lblFahrenheit);
+            Controls.Add(fahrenheitLabel);
             Controls.Add(label2);
-            Controls.Add(btnConvert);
-            Controls.Add(textBox1);
+            Controls.Add(convertButton);
+            Controls.Add(celsiusTextBox);
             Controls.Add(label1);
             Name = "TemperatureConverter";
             Text = "TemperatureConverter";
@@ -101,9 +101,9 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private Button btnConvert;
-        private Label lblFahrenheit;
+        private TextBox celsiusTextBox;
+        private Button convertButton;
+        private Label fahrenheitLabel;
         private Label label2;
     }
 }

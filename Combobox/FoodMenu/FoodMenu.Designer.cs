@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new System.Windows.Forms.ComboBox();
+            comboBox1 = new ComboBox();
             groupBox1 = new GroupBox();
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
-            btnAdd = new Button();
+            addButton = new Button();
             label1 = new Label();
             label2 = new Label();
             textBox1 = new TextBox();
-            lblOrderSummary = new Label();
-            lblError = new Label();
+            orderSummaryLabel = new Label();
+            errorLabel = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -98,16 +98,16 @@
             radioButton1.TabStop = true;
             radioButton1.UseVisualStyleBackColor = true;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAdd.Location = new Point(386, 304);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(93, 34);
-            btnAdd.TabIndex = 2;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            addButton.Location = new Point(386, 304);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(93, 34);
+            addButton.TabIndex = 2;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
             // label1
             // 
@@ -136,33 +136,33 @@
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 6;
             // 
-            // lblOrderSummary
+            // labelOrderSummary
             // 
-            lblOrderSummary.AutoSize = true;
-            lblOrderSummary.Location = new Point(266, 386);
-            lblOrderSummary.Name = "lblOrderSummary";
-            lblOrderSummary.Size = new Size(0, 15);
-            lblOrderSummary.TabIndex = 7;
+            orderSummaryLabel.AutoSize = true;
+            orderSummaryLabel.Location = new Point(266, 386);
+            orderSummaryLabel.Name = "orderSummaryLabel";
+            orderSummaryLabel.Size = new Size(0, 15);
+            orderSummaryLabel.TabIndex = 7;
             // 
-            // lblError
+            // labelError
             // 
-            lblError.AutoSize = true;
-            lblError.Location = new Point(266, 468);
-            lblError.Name = "lblError";
-            lblError.Size = new Size(0, 15);
-            lblError.TabIndex = 8;
+            errorLabel.AutoSize = true;
+            errorLabel.Location = new Point(266, 468);
+            errorLabel.Name = "errorLabel";
+            errorLabel.Size = new Size(0, 15);
+            errorLabel.TabIndex = 8;
             // 
             // FoodMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 543);
-            Controls.Add(lblError);
-            Controls.Add(lblOrderSummary);
+            Controls.Add(errorLabel);
+            Controls.Add(orderSummaryLabel);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(btnAdd);
+            Controls.Add(addButton);
             Controls.Add(groupBox1);
             Controls.Add(comboBox1);
             Name = "FoodMenu";
@@ -177,14 +177,14 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private GroupBox groupBox1;
-        private Button btnAdd;
+        private Button addButton;
         private Label label1;
         private Label label2;
         private TextBox textBox1;
         private RadioButton radioButton1;
         private RadioButton radioButton3;
         private RadioButton radioButton2;
-        private Label lblOrderSummary;
-        private Label lblError;
+        private Label orderSummaryLabel;
+        private Label errorLabel;
     }
 }

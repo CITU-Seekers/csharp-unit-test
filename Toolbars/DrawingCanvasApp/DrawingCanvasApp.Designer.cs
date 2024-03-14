@@ -29,120 +29,120 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DrawingCanvasApp));
-            DrawingToolStrip = new ToolStrip();
-            LineButton = new ToolStripButton();
-            PencilButton = new ToolStripButton();
-            RectangleButton = new ToolStripButton();
-            EllipseButton = new ToolStripButton();
-            ClearButton = new ToolStripButton();
-            ColorComboBox = new ToolStripComboBox();
-            CanvasBox = new PictureBox();
-            DrawingToolStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)CanvasBox).BeginInit();
+            drawingToolStrip = new ToolStrip();
+            lineToolStripButton = new ToolStripButton();
+            pencilToolStripButton = new ToolStripButton();
+            rectangleToolStripButton = new ToolStripButton();
+            ellipseToolStripButton = new ToolStripButton();
+            clearToolStripButton = new ToolStripButton();
+            colorToolStripComboBox = new ToolStripComboBox();
+            pictureBox = new PictureBox();
+            drawingToolStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
             SuspendLayout();
             // 
-            // DrawingToolStrip
+            // drawingToolStrip
             // 
-            DrawingToolStrip.Items.AddRange(new ToolStripItem[] { LineButton, PencilButton, RectangleButton, EllipseButton, ClearButton, ColorComboBox });
-            DrawingToolStrip.Location = new Point(0, 0);
-            DrawingToolStrip.Name = "DrawingToolStrip";
-            DrawingToolStrip.Size = new Size(800, 25);
-            DrawingToolStrip.TabIndex = 0;
-            DrawingToolStrip.Text = "toolStrip1";
+            drawingToolStrip.Items.AddRange(new ToolStripItem[] { lineToolStripButton, pencilToolStripButton, rectangleToolStripButton, ellipseToolStripButton, clearToolStripButton, colorToolStripComboBox });
+            drawingToolStrip.Location = new Point(0, 0);
+            drawingToolStrip.Name = "drawingToolStrip";
+            drawingToolStrip.Size = new Size(800, 25);
+            drawingToolStrip.TabIndex = 0;
+            drawingToolStrip.Text = "toolStrip1";
             // 
-            // LineButton
+            // lineToolStripButton
             // 
-            LineButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            LineButton.Image = (Image)resources.GetObject("LineButton.Image");
-            LineButton.ImageTransparentColor = Color.Magenta;
-            LineButton.Name = "LineButton";
-            LineButton.Size = new Size(33, 22);
-            LineButton.Text = "Line";
+            lineToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            lineToolStripButton.Image = (Image)resources.GetObject("lineToolStripButton.Image");
+            lineToolStripButton.ImageTransparentColor = Color.Magenta;
+            lineToolStripButton.Name = "lineToolStripButton";
+            lineToolStripButton.Size = new Size(33, 22);
+            lineToolStripButton.Text = "Line";
             // 
-            // PencilButton
+            // pencilToolStripButton
             // 
-            PencilButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            PencilButton.Image = (Image)resources.GetObject("PencilButton.Image");
-            PencilButton.ImageTransparentColor = Color.Magenta;
-            PencilButton.Name = "PencilButton";
-            PencilButton.Size = new Size(43, 22);
-            PencilButton.Text = "Pencil";
+            pencilToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            pencilToolStripButton.Image = (Image)resources.GetObject("pencilToolStripButton.Image");
+            pencilToolStripButton.ImageTransparentColor = Color.Magenta;
+            pencilToolStripButton.Name = "pencilToolStripButton";
+            pencilToolStripButton.Size = new Size(43, 22);
+            pencilToolStripButton.Text = "Pencil";
             // 
-            // RectangleButton
+            // rectangleToolStripButton
             // 
-            RectangleButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            RectangleButton.Image = (Image)resources.GetObject("RectangleButton.Image");
-            RectangleButton.ImageTransparentColor = Color.Magenta;
-            RectangleButton.Name = "RectangleButton";
-            RectangleButton.Size = new Size(63, 22);
-            RectangleButton.Text = "Rectangle";
+            rectangleToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            rectangleToolStripButton.Image = (Image)resources.GetObject("rectangleToolStripButton.Image");
+            rectangleToolStripButton.ImageTransparentColor = Color.Magenta;
+            rectangleToolStripButton.Name = "rectangleToolStripButton";
+            rectangleToolStripButton.Size = new Size(63, 22);
+            rectangleToolStripButton.Text = "Rectangle";
             // 
-            // EllipseButton
+            // ellipseToolStripButton
             // 
-            EllipseButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            EllipseButton.Image = (Image)resources.GetObject("EllipseButton.Image");
-            EllipseButton.ImageTransparentColor = Color.Magenta;
-            EllipseButton.Name = "EllipseButton";
-            EllipseButton.Size = new Size(44, 22);
-            EllipseButton.Text = "Ellipse";
+            ellipseToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            ellipseToolStripButton.Image = (Image)resources.GetObject("ellipseToolStripButton.Image");
+            ellipseToolStripButton.ImageTransparentColor = Color.Magenta;
+            ellipseToolStripButton.Name = "ellipseToolStripButton";
+            ellipseToolStripButton.Size = new Size(44, 22);
+            ellipseToolStripButton.Text = "Ellipse";
             // 
             // ClearButton
             // 
-            ClearButton.Alignment = ToolStripItemAlignment.Right;
-            ClearButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            ClearButton.Image = (Image)resources.GetObject("ClearButton.Image");
-            ClearButton.ImageTransparentColor = Color.Magenta;
-            ClearButton.Name = "ClearButton";
-            ClearButton.Size = new Size(38, 22);
-            ClearButton.Text = "Clear";
+            clearToolStripButton.Alignment = ToolStripItemAlignment.Right;
+            clearToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            clearToolStripButton.Image = (Image)resources.GetObject("ClearButton.Image");
+            clearToolStripButton.ImageTransparentColor = Color.Magenta;
+            clearToolStripButton.Name = "clearToolStripButton";
+            clearToolStripButton.Size = new Size(38, 22);
+            clearToolStripButton.Text = "Clear";
             // 
             // ColorComboBox
             // 
-            ColorComboBox.Alignment = ToolStripItemAlignment.Right;
-            ColorComboBox.Items.AddRange(new object[] { "Red", "Green", "Orange", "Yellow", "Blue", "Black", "White" });
-            ColorComboBox.Name = "ColorComboBox";
-            ColorComboBox.Size = new Size(75, 25);
-            ColorComboBox.Text = "Color";
-            ColorComboBox.Click += SelectColor;
+            colorToolStripComboBox.Alignment = ToolStripItemAlignment.Right;
+            colorToolStripComboBox.Items.AddRange(new object[] { "Red", "Green", "Orange", "Yellow", "Blue", "Black", "White" });
+            colorToolStripComboBox.Name = "colorToolStripComboBox";
+            colorToolStripComboBox.Size = new Size(75, 25);
+            colorToolStripComboBox.Text = "Color";
+            colorToolStripComboBox.Click += SelectColor;
             // 
-            // CanvasBox
+            // pictureBox
             // 
-            CanvasBox.BackColor = Color.White;
-            CanvasBox.Location = new Point(33, 47);
-            CanvasBox.Name = "CanvasBox";
-            CanvasBox.Size = new Size(728, 369);
-            CanvasBox.TabIndex = 1;
-            CanvasBox.TabStop = false;
-            CanvasBox.Paint += CanvasBox_Paint;
-            CanvasBox.MouseDown += CanvasBox_MouseDown;
-            CanvasBox.MouseMove += CanvasBox_MouseMove;
-            CanvasBox.MouseUp += CanvasBox_MouseUp;
+            pictureBox.BackColor = Color.White;
+            pictureBox.Location = new Point(33, 47);
+            pictureBox.Name = "pictureBox";
+            pictureBox.Size = new Size(728, 369);
+            pictureBox.TabIndex = 1;
+            pictureBox.TabStop = false;
+            pictureBox.Paint += CanvasBox_Paint;
+            pictureBox.MouseDown += CanvasBox_MouseDown;
+            pictureBox.MouseMove += CanvasBox_MouseMove;
+            pictureBox.MouseUp += CanvasBox_MouseUp;
             // 
             // DrawingCanvasApp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(CanvasBox);
-            Controls.Add(DrawingToolStrip);
+            Controls.Add(pictureBox);
+            Controls.Add(drawingToolStrip);
             Name = "DrawingCanvasApp";
             Text = "DrawingCanvasApp";
-            DrawingToolStrip.ResumeLayout(false);
-            DrawingToolStrip.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)CanvasBox).EndInit();
+            drawingToolStrip.ResumeLayout(false);
+            drawingToolStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private ToolStrip DrawingToolStrip;
-        private ToolStripButton LineButton;
-        private ToolStripButton PencilButton;
-        private PictureBox CanvasBox;
-        private ToolStripButton RectangleButton;
-        private ToolStripButton EllipseButton;
-        private ToolStripButton ClearButton;
-        private ToolStripComboBox ColorComboBox;
+        private ToolStrip drawingToolStrip;
+        private ToolStripButton lineToolStripButton;
+        private ToolStripButton pencilToolStripButton;
+        private PictureBox pictureBox;
+        private ToolStripButton rectangleToolStripButton;
+        private ToolStripButton ellipseToolStripButton;
+        private ToolStripButton clearToolStripButton;
+        private ToolStripComboBox colorToolStripComboBox;
     }
 }

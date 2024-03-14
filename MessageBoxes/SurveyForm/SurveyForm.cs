@@ -19,28 +19,23 @@ namespace CodeChum
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            if (nameTextBox.TextLength == 0 ||
-                emailTextBox.TextLength == 0 ||
+            if (nameTextBox.TextLength == 0 || 
+                emailTextBox.TextLength == 0 || 
                 (!yesRadioButton.Checked && !noRadioButton.Checked))
             {
-                MessageBoxWrapper2.Show("You need to fill up all fields", "Invalid", MessageBoxButtons.OK);
+                MessageBox.Show("You need to fill up all fields", "Invalid", MessageBoxButtons.OK);
             }
             else
             {
                 if (DialogResult.Yes == MessageBox.Show("Once you press 'Yes' your response will be recorded. Continue?", "Are you sure?", MessageBoxButtons.YesNo))
                 {
-                    MessageBoxWrapper2.Show("Response Recorded", "Success", MessageBoxButtons.OK);
+                    MessageBox.Show("Response Recorded", "Success", MessageBoxButtons.OK);
                 }
                 else
                 {
                     return;
                 }
             }
-        }
-
-        private void SurveyForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

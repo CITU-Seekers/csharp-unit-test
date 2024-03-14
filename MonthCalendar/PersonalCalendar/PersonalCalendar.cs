@@ -24,12 +24,12 @@ namespace CodeChum
         {
             if (eventNameTextBox.Text.Length != 0)
             {
-                DateTime date = DateTime.ParseExact(personalMonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
-             
-                
-                string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month) 
+                // Use the DateTime object directly
+                DateTime date = personalMonthCalendar.SelectionRange.Start;
+
+                string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month)
                     + " " + date.Day + ", " + date.Year;
-                
+
                 events.AddEvent(dateString, eventNameTextBox.Text);
                 eventLabel.Text = events.RetrieveEvent(dateString);
             }
@@ -37,11 +37,11 @@ namespace CodeChum
 
         private void RetrieveEventButton_Click(object sender, EventArgs e)
         {
-            DateTime date = DateTime.ParseExact(personalMonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
-            string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month)
-                   + " " + date.Day + ", " + date.Year;
+            DateTime date = personalMonthCalendar.SelectionRange.Start;
+            string dateString = DateTimeFormatInfo.CurrentInfo.GetMonthName(date.Month) + " " + date.Day + ", " + date.Year;
 
             eventLabel.Text = events.RetrieveEvent(dateString);
         }
+
     }
 }

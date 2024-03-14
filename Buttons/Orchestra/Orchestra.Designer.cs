@@ -28,72 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnViolins = new Button();
-            btnCellos = new Button();
-            btnTrumpets = new Button();
-            btnDrums = new Button();
-            lblMessage = new Label();
+            violinButton = new Button();
+            celloButton = new Button();
+            trumpetButton = new Button();
+            drumButton = new Button();
+            messageLabel = new Label();
             SuspendLayout();
             // 
-            // btnViolins
+            // violinButton
             // 
-            btnViolins.Location = new Point(117, 140);
-            btnViolins.Name = "btnViolins";
-            btnViolins.Size = new Size(112, 42);
-            btnViolins.TabIndex = 0;
-            btnViolins.Text = "Violins";
-            btnViolins.UseVisualStyleBackColor = true;
-            btnViolins.Click += btnViolins_Click;
+            violinButton.Location = new Point(117, 140);
+            violinButton.Name = "violinButton";
+            violinButton.Size = new Size(112, 42);
+            violinButton.TabIndex = 0;
+            violinButton.Text = "Violins";
+            violinButton.UseVisualStyleBackColor = true;
+            violinButton.Click += btnViolins_Click;
             // 
-            // btnCellos
+            // celloButton
             // 
-            btnCellos.Location = new Point(265, 140);
-            btnCellos.Name = "btnCellos";
-            btnCellos.Size = new Size(100, 42);
-            btnCellos.TabIndex = 1;
-            btnCellos.Text = "Cellos";
-            btnCellos.UseVisualStyleBackColor = true;
-            btnCellos.Click += btnCellos_Click;
+            celloButton.Location = new Point(265, 140);
+            celloButton.Name = "celloButton";
+            celloButton.Size = new Size(100, 42);
+            celloButton.TabIndex = 1;
+            celloButton.Text = "Cellos";
+            celloButton.UseVisualStyleBackColor = true;
+            celloButton.Click += btnCellos_Click;
             // 
-            // btnTrumpets
+            // trumpetButton
             // 
-            btnTrumpets.Location = new Point(411, 140);
-            btnTrumpets.Name = "btnTrumpets";
-            btnTrumpets.Size = new Size(100, 42);
-            btnTrumpets.TabIndex = 2;
-            btnTrumpets.Text = "Trumpets";
-            btnTrumpets.UseVisualStyleBackColor = true;
-            btnTrumpets.Click += btnTrumpets_Click;
+            trumpetButton.Location = new Point(411, 140);
+            trumpetButton.Name = "trumpetButton";
+            trumpetButton.Size = new Size(100, 42);
+            trumpetButton.TabIndex = 2;
+            trumpetButton.Text = "Trumpets";
+            trumpetButton.UseVisualStyleBackColor = true;
+            trumpetButton.Click += btnTrumpets_Click;
             // 
-            // btnDrums
+            // drumButton
             // 
-            btnDrums.Location = new Point(557, 140);
-            btnDrums.Name = "btnDrums";
-            btnDrums.Size = new Size(100, 42);
-            btnDrums.TabIndex = 3;
-            btnDrums.Text = "Drums";
-            btnDrums.UseVisualStyleBackColor = true;
-            btnDrums.Click += btnDrums_Click;
+            drumButton.Location = new Point(557, 140);
+            drumButton.Name = "drumButton";
+            drumButton.Size = new Size(100, 42);
+            drumButton.TabIndex = 3;
+            drumButton.Text = "Drums";
+            drumButton.UseVisualStyleBackColor = true;
+            drumButton.Click += btnDrums_Click;
             // 
-            // lblMessage
+            // messageLabel
             // 
-            lblMessage.AutoSize = true;
-            lblMessage.Location = new Point(327, 246);
-            lblMessage.Name = "lblMessage";
-            lblMessage.Size = new Size(38, 15);
-            lblMessage.TabIndex = 4;
-            lblMessage.Text = "label1";
+            messageLabel.AutoSize = true;
+            messageLabel.Location = new Point(327, 246);
+            messageLabel.Name = "messageLabel";
+            messageLabel.Size = new Size(38, 15);
+            messageLabel.TabIndex = 4;
+            messageLabel.Text = "label1";
             // 
             // Orchestra
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(lblMessage);
-            Controls.Add(btnDrums);
-            Controls.Add(btnTrumpets);
-            Controls.Add(btnCellos);
-            Controls.Add(btnViolins);
+            Controls.Add(messageLabel);
+            Controls.Add(drumButton);
+            Controls.Add(trumpetButton);
+            Controls.Add(celloButton);
+            Controls.Add(violinButton);
             Name = "Orchestra";
             Text = "Orchestra";
             ResumeLayout(false);
@@ -102,10 +102,10 @@
 
         #endregion
 
-        private Button btnViolins;
-        private Button btnCellos;
-        private Button btnTrumpets;
-        private Button btnDrums;
-        private Label lblMessage;
+        private Button violinButton;
+        private Button celloButton;
+        private Button trumpetButton;
+        private Button drumButton;
+        private Label messageLabel;
     }
 }

@@ -3,68 +3,62 @@
     public class TemperatureConverterTest
     {
         TemperatureConverter? form;
-        TextBox? textBox1;
-        Label? lblFahrenheit;
-        Button? btnConvert;
+        TextBox? celsiusTextBox;
+        Label? fahrenheitLabel;
+        Button? convertButton;
 
         public TemperatureConverterTest()
         {
             form = new TemperatureConverter();
             form.Visible = true;
-            textBox1 = (TextBox)TestUtils.GetControlNamed(form, "textBox1", true);
-            lblFahrenheit = (Label)TestUtils.GetControlNamed(form, "lblFahrenheit", true);
-            btnConvert = (Button)TestUtils.GetControlNamed(form, "btnConvert", true);
+            celsiusTextBox = (TextBox)TestUtils.GetControlNamed(form, "celsiusTextBox", true);
+            fahrenheitLabel = (Label)TestUtils.GetControlNamed(form, "fahrenheitLabel", true);
+            convertButton = (Button)TestUtils.GetControlNamed(form, "convertButton", true);
         }
 
         [Fact]
+        // Description: Should have all controls `celsiusTextBox`, `fahrenheitLabel`, and `convertButton`.
+        public void ShouldHaveAllControls()
+        {
+            Assert.NotNull(celsiusTextBox);
+            Assert.NotNull(fahrenheitLabel);
+            Assert.NotNull(convertButton);
+        }
+
+        [Fact]
+        // Description: Should convert 0°C to 32°F when `celsiusTextBox` is set to "0" and `convertButton` is clicked.
         public void ShouldConvertCelsiusToFahrenheit()
         {
-            textBox1.Text = "0";
-            btnConvert.PerformClick();
-            Assert.Equal("32.00 °F", lblFahrenheit.Text);
+            celsiusTextBox.Text = "0";
+            convertButton.PerformClick();
+            Assert.Equal("32.00 °F", fahrenheitLabel.Text);
         }
 
         [Fact]
+        // Description: Should convert -40°C to -40°F when `celsiusTextBox` is set to "-40" and `convertButton` is clicked.
         public void ShouldConvertNegativeCelsiusToFahrenheit()
         {
-            textBox1.Text = "-40";
-            btnConvert.PerformClick();
-            Assert.Equal("-40.00 °F", lblFahrenheit.Text);
+            celsiusTextBox.Text = "-40";
+            convertButton.PerformClick();
+            Assert.Equal("-40.00 °F", fahrenheitLabel.Text);
         }
 
         [Fact]
+        // Description: Should convert 100.5°C to 212.90°F when `celsiusTextBox` is set to "100.5" and `convertButton` is clicked.
         public void ShouldConvertDecimalCelsiusToFahrenheit()
         {
-            textBox1.Text = "100.5";
-            btnConvert.PerformClick();
-            Assert.Equal("212.90 °F", lblFahrenheit.Text);
+            celsiusTextBox.Text = "100.5";
+            convertButton.PerformClick();
+            Assert.Equal("212.90 °F", fahrenheitLabel.Text);
         }
 
         [Fact]
+        // Description: Should display error message "Invalid input. Please enter a valid temperature in Celsius." when `celsiusTextBox` is set to "abc" and `convertButton` is clicked.
         public void ShouldDisplayErrorMessageForInvalidInput()
         {
-            textBox1.Text = "abc";
-            btnConvert.PerformClick();
-            Assert.Equal("Invalid input. Please enter a valid temperature in Celsius.", lblFahrenheit.Text);
+            celsiusTextBox.Text = "abc";
+            convertButton.PerformClick();
+            Assert.Equal("Invalid input. Please enter a valid temperature in Celsius.", fahrenheitLabel.Text);
         }
-
-        [Fact]
-        public void HasLabelFahrenheit()
-        {
-            Assert.NotNull(lblFahrenheit);
-        }
-
-        [Fact]
-        public void HasTextBox1()
-        {
-            Assert.NotNull(textBox1);
-        }
-
-        [Fact]
-        public void HasConvertButton()
-        {
-            Assert.NotNull(btnConvert);
-        }
-
     }
 }

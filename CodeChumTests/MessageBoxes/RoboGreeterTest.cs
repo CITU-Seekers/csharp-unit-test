@@ -3,41 +3,49 @@
     public class RoboGreeterTest
     {
         RoboGreeter? form;
-        TextBox? greeterName;
-        Button? btnGreet;
-        Button? btnFarewell;
+        TextBox? greeterNameTextBox;
+        Button? greetButton;
+        Button? farewellButton;
 
         public RoboGreeterTest()
         {
             form = new RoboGreeter();
             form.Show();
-            greeterName = (TextBox)TestUtils.GetControlNamed(form, "GreeterName", true);
-            btnGreet = (Button)TestUtils.GetControlNamed(form, "btnGreet", true);
-            btnFarewell = (Button)TestUtils.GetControlNamed(form, "btnFarewell", true);
+            greeterNameTextBox = (TextBox)TestUtils.GetControlNamed(form, "greeterNameTextBox", true);
+            greetButton = (Button)TestUtils.GetControlNamed(form, "greetButton", true);
+            farewellButton = (Button)TestUtils.GetControlNamed(form, "farewellButton", true);
         }
 
         [Fact]
+        // Description: Should have all controls `greeterNameTextBox`, `greetButton`, and `farewellButton`.
         public void ShouldHaveAllControls()
         {
-            Assert.NotNull(greeterName);
-            Assert.NotNull(btnGreet);
-            Assert.NotNull(btnFarewell);
+            Assert.NotNull(greeterNameTextBox);
+            Assert.NotNull(greetButton);
+            Assert.NotNull(farewellButton);
         }
 
         [Fact]
+        // Description: Should display message "Hello, Robo! Welcome to CodeVille!" in a message box when greeterNameTextBox is "Robo" and `greetButton` is clicked.
         public void ShouldDisplayMessageWhenGreetButtonClick()
         {
-            btnGreet.PerformClick();
+            greeterNameTextBox.Text = "Robo";
 
-            Assert.True(form.isMessageBoxClosed);
+            greetButton.PerformClick();
+            MessageBoxWrapper.CloseMessageBox();
+
+            Assert.True(MessageBoxWrapper.IsOpened);
+            Assert.Equal("Hello, Robo! Welcome to CodeVille!", MessageBoxWrapper.Message);
         }
         
         [Fact]
+        // Description: Should display message "Goodbye! Come back soon to CodeVille." in a message box when `farewellButton` is clicked.
         public void ShouldDisplayMessageWhenFarewellButtonClick()
         {
-            btnFarewell.PerformClick();
+            farewellButton.PerformClick();
+            MessageBoxWrapper.CloseMessageBox();
 
-            Assert.True(form.isMessageBoxClosed);
+            Assert.Equal("Goodbye! Come back soon to CodeVille.", MessageBoxWrapper.Message);
         }
     }
 }

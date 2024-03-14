@@ -23,10 +23,10 @@ namespace CodeChum
         {
             CreationModal.ShowDialog();
 
-            lblClassName.Text = CreationModal.ClassName;
-            lblClassSched.Text = CreationModal.ClassSchedule;
-            lblClassCode.Text = CreationModal.ClassCode;
-            lblClassDesc.Text = CreationModal.ClassDescription;
+            classNameLabel.Text = CreationModal.ClassName;
+            classScheduleLabel.Text = CreationModal.ClassSchedule;
+            classCodeLabel.Text = CreationModal.ClassCode;
+            classDescriptionLabel.Text = CreationModal.ClassDescription;
         }
     }
 }

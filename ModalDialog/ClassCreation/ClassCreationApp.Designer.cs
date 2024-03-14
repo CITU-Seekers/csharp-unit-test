@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblClassCode = new Label();
-            lblClassSched = new Label();
-            lblClassName = new Label();
-            btnCreate = new Button();
-            lblClassDesc = new Label();
+            classCodeLabel = new Label();
+            classScheduleLabel = new Label();
+            classNameLabel = new Label();
+            createButton = new Button();
+            classDescriptionLabel = new Label();
             label6 = new Label();
             label4 = new Label();
             label3 = new Label();
@@ -41,49 +41,49 @@
             // 
             // lblClassCode
             // 
-            lblClassCode.AutoSize = true;
-            lblClassCode.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblClassCode.Location = new Point(124, 98);
-            lblClassCode.Name = "lblClassCode";
-            lblClassCode.Size = new Size(0, 21);
-            lblClassCode.TabIndex = 20;
+            classCodeLabel.AutoSize = true;
+            classCodeLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            classCodeLabel.Location = new Point(124, 98);
+            classCodeLabel.Name = "classCodeLabel";
+            classCodeLabel.Size = new Size(0, 21);
+            classCodeLabel.TabIndex = 20;
             // 
             // lblClassSched
             // 
-            lblClassSched.AutoSize = true;
-            lblClassSched.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblClassSched.Location = new Point(111, 66);
-            lblClassSched.Name = "lblClassSched";
-            lblClassSched.Size = new Size(0, 21);
-            lblClassSched.TabIndex = 19;
+            classScheduleLabel.AutoSize = true;
+            classScheduleLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            classScheduleLabel.Location = new Point(111, 66);
+            classScheduleLabel.Name = "classScheduleLabel";
+            classScheduleLabel.Size = new Size(0, 21);
+            classScheduleLabel.TabIndex = 19;
             // 
             // lblClassName
             // 
-            lblClassName.AutoSize = true;
-            lblClassName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblClassName.Location = new Point(90, 36);
-            lblClassName.Name = "lblClassName";
-            lblClassName.Size = new Size(0, 21);
-            lblClassName.TabIndex = 18;
+            classNameLabel.AutoSize = true;
+            classNameLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            classNameLabel.Location = new Point(90, 36);
+            classNameLabel.Name = "classNameLabel";
+            classNameLabel.Size = new Size(0, 21);
+            classNameLabel.TabIndex = 18;
             // 
-            // btnCreate
+            // createButton
             // 
-            btnCreate.Location = new Point(151, 276);
-            btnCreate.Name = "btnCreate";
-            btnCreate.Size = new Size(75, 23);
-            btnCreate.TabIndex = 17;
-            btnCreate.Text = "Create ";
-            btnCreate.UseVisualStyleBackColor = true;
-            btnCreate.Click += btnCreate_Click;
+            createButton.Location = new Point(151, 276);
+            createButton.Name = "createButton";
+            createButton.Size = new Size(75, 23);
+            createButton.TabIndex = 17;
+            createButton.Text = "Create ";
+            createButton.UseVisualStyleBackColor = true;
+            createButton.Click += btnCreate_Click;
             // 
             // lblClassDesc
             // 
-            lblClassDesc.AutoSize = true;
-            lblClassDesc.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblClassDesc.Location = new Point(66, 163);
-            lblClassDesc.Name = "lblClassDesc";
-            lblClassDesc.Size = new Size(0, 21);
-            lblClassDesc.TabIndex = 16;
+            classDescriptionLabel.AutoSize = true;
+            classDescriptionLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            classDescriptionLabel.Location = new Point(66, 163);
+            classDescriptionLabel.Name = "classDescriptionLabel";
+            classDescriptionLabel.Size = new Size(0, 21);
+            classDescriptionLabel.TabIndex = 16;
             // 
             // label6
             // 
@@ -130,11 +130,11 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(406, 341);
-            Controls.Add(lblClassCode);
-            Controls.Add(lblClassSched);
-            Controls.Add(lblClassName);
-            Controls.Add(btnCreate);
-            Controls.Add(lblClassDesc);
+            Controls.Add(classCodeLabel);
+            Controls.Add(classScheduleLabel);
+            Controls.Add(classNameLabel);
+            Controls.Add(createButton);
+            Controls.Add(classDescriptionLabel);
             Controls.Add(label6);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -147,11 +147,11 @@
 
         #endregion
 
-        private Label lblClassCode;
-        private Label lblClassSched;
-        private Label lblClassName;
-        private Button btnCreate;
-        private Label lblClassDesc;
+        private Label classCodeLabel;
+        private Label classScheduleLabel;
+        private Label classNameLabel;
+        private Button createButton;
+        private Label classDescriptionLabel;
         private Label label6;
         private Label label4;
         private Label label3;

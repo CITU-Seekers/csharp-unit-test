@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawingCanvasApp", "Toolbar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWordApp", "Toolbars\SimpleWordApp\SimpleWordApp.csproj", "{992DC9AA-CA60-4CB9-9687-7F51F33B11B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DragDrop", "TreeViews\DragDrop\DragDrop.csproj", "{76CA9494-9115-4039-98F5-08073DE98003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoTrees", "TreeViews\DragDrop\TwoTrees.csproj", "{76CA9494-9115-4039-98F5-08073DE98003}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileExplorer", "TreeViews\FileExplorer\FileExplorer.csproj", "{28BFD067-A20E-458D-A699-77FCD941A9CD}"
 EndProject

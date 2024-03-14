@@ -30,36 +30,36 @@ namespace CodeChum
         /// </summary>
         private void InitializeComponent()
         {
-            MainTabControl = new TabControl();
+            mainTabControl = new TabControl();
             tabPage1 = new TabPage();
-            CreateButton = new Button();
+            createButton = new Button();
             pictureBox1 = new PictureBox();
-            txtStatements = new TextBox();
-            txtClues = new TextBox();
-            txtPetType = new TextBox();
-            txtPetName = new TextBox();
-            MainTabControl.SuspendLayout();
+            statementsTextBox = new TextBox();
+            cluesTextBox = new TextBox();
+            petTypeTextBox = new TextBox();
+            petNameTextBox = new TextBox();
+            mainTabControl.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // MainTabControl
+            // mainTabControl
             // 
-            MainTabControl.Controls.Add(tabPage1);
-            MainTabControl.Location = new Point(12, 12);
-            MainTabControl.Name = "MainTabControl";
-            MainTabControl.SelectedIndex = 0;
-            MainTabControl.Size = new Size(651, 395);
-            MainTabControl.TabIndex = 0;
+            mainTabControl.Controls.Add(tabPage1);
+            mainTabControl.Location = new Point(12, 12);
+            mainTabControl.Name = "mainTabControl";
+            mainTabControl.SelectedIndex = 0;
+            mainTabControl.Size = new Size(651, 395);
+            mainTabControl.TabIndex = 0;
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(CreateButton);
+            tabPage1.Controls.Add(createButton);
             tabPage1.Controls.Add(pictureBox1);
-            tabPage1.Controls.Add(txtStatements);
-            tabPage1.Controls.Add(txtClues);
-            tabPage1.Controls.Add(txtPetType);
-            tabPage1.Controls.Add(txtPetName);
+            tabPage1.Controls.Add(statementsTextBox);
+            tabPage1.Controls.Add(cluesTextBox);
+            tabPage1.Controls.Add(petTypeTextBox);
+            tabPage1.Controls.Add(petNameTextBox);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -68,15 +68,15 @@ namespace CodeChum
             tabPage1.Text = "Form";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // CreateButton
+            // createButton
             // 
-            CreateButton.Location = new Point(426, 298);
-            CreateButton.Name = "CreateButton";
-            CreateButton.Size = new Size(83, 28);
-            CreateButton.TabIndex = 5;
-            CreateButton.Text = "Create File";
-            CreateButton.UseVisualStyleBackColor = true;
-            CreateButton.Click += CreateButton_Click;
+            createButton.Location = new Point(426, 298);
+            createButton.Name = "createButton";
+            createButton.Size = new Size(83, 28);
+            createButton.TabIndex = 5;
+            createButton.Text = "Create File";
+            createButton.UseVisualStyleBackColor = true;
+            createButton.Click += CreateButton_Click;
             // 
             // pictureBox1
             // 
@@ -88,49 +88,49 @@ namespace CodeChum
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
-            // txtStatements
+            // statementsTextBox
             // 
-            txtStatements.Location = new Point(64, 227);
-            txtStatements.Multiline = true;
-            txtStatements.Name = "txtStatements";
-            txtStatements.PlaceholderText = "Witness Statements";
-            txtStatements.Size = new Size(239, 99);
-            txtStatements.TabIndex = 3;
+            statementsTextBox.Location = new Point(64, 227);
+            statementsTextBox.Multiline = true;
+            statementsTextBox.Name = "statementsTextBox";
+            statementsTextBox.PlaceholderText = "Witness Statements";
+            statementsTextBox.Size = new Size(239, 99);
+            statementsTextBox.TabIndex = 3;
             // 
-            // txtClues
+            // cluesTextBox
             // 
-            txtClues.Location = new Point(64, 122);
-            txtClues.Multiline = true;
-            txtClues.Name = "txtClues";
-            txtClues.PlaceholderText = "Clues Gathered";
-            txtClues.Size = new Size(239, 99);
-            txtClues.TabIndex = 2;
+            cluesTextBox.Location = new Point(64, 122);
+            cluesTextBox.Multiline = true;
+            cluesTextBox.Name = "cluesTextBox";
+            cluesTextBox.PlaceholderText = "Clues Gathered";
+            cluesTextBox.Size = new Size(239, 99);
+            cluesTextBox.TabIndex = 2;
             // 
-            // txtPetType
+            // petTypeTextBox
             // 
-            txtPetType.Location = new Point(64, 81);
-            txtPetType.Name = "txtPetType";
-            txtPetType.PlaceholderText = "Pet Type";
-            txtPetType.Size = new Size(239, 23);
-            txtPetType.TabIndex = 1;
+            petTypeTextBox.Location = new Point(64, 81);
+            petTypeTextBox.Name = "petTypeTextBox";
+            petTypeTextBox.PlaceholderText = "Pet Type";
+            petTypeTextBox.Size = new Size(239, 23);
+            petTypeTextBox.TabIndex = 1;
             // 
-            // txtPetName
+            // petNameTextBox
             // 
-            txtPetName.Location = new Point(64, 42);
-            txtPetName.Name = "txtPetName";
-            txtPetName.PlaceholderText = "Pet Name";
-            txtPetName.Size = new Size(239, 23);
-            txtPetName.TabIndex = 0;
+            petNameTextBox.Location = new Point(64, 42);
+            petNameTextBox.Name = "petNameTextBox";
+            petNameTextBox.PlaceholderText = "Pet Name";
+            petNameTextBox.Size = new Size(239, 23);
+            petNameTextBox.TabIndex = 0;
             // 
             // PetDetectiveAgency
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(693, 429);
-            Controls.Add(MainTabControl);
+            Controls.Add(mainTabControl);
             Name = "PetDetectiveAgency";
             Text = "PetDetectiveAgency";
-            MainTabControl.ResumeLayout(false);
+            mainTabControl.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -139,13 +139,13 @@ namespace CodeChum
 
         #endregion
 
-        private TabControl MainTabControl;
+        private TabControl mainTabControl;
         private TabPage tabPage1;
-        private TextBox txtPetName;
-        private TextBox txtClues;
-        private TextBox txtPetType;
-        private Button CreateButton;
+        private TextBox petNameTextBox;
+        private TextBox cluesTextBox;
+        private TextBox petTypeTextBox;
+        private Button createButton;
         private PictureBox pictureBox1;
-        private TextBox txtStatements;
+        private TextBox statementsTextBox;
     }
 }

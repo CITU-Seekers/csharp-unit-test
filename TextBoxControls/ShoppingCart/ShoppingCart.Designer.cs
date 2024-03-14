@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            btnCalculate = new Button();
-            TotalPrice = new Label();
+            itemTextBox = new TextBox();
+            calculateButton = new Button();
+            totalPriceLabel = new Label();
             label2 = new Label();
             SuspendLayout();
             // 
@@ -44,34 +44,34 @@
             label1.TabIndex = 0;
             label1.Text = "Enter Item prices:";
             // 
-            // textBox1
+            // itemTextBox
             // 
-            textBox1.Location = new Point(114, 68);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(161, 277);
-            textBox1.TabIndex = 1;
+            itemTextBox.Location = new Point(114, 68);
+            itemTextBox.Multiline = true;
+            itemTextBox.Name = "itemTextBox";
+            itemTextBox.Size = new Size(161, 277);
+            itemTextBox.TabIndex = 1;
             // 
-            // btnCalculate
+            // calculateButton
             // 
-            btnCalculate.Location = new Point(133, 361);
-            btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(119, 29);
-            btnCalculate.TabIndex = 2;
-            btnCalculate.Text = "Calculate";
-            btnCalculate.UseVisualStyleBackColor = true;
-            btnCalculate.Click += btnCalculate_Click;
+            calculateButton.Location = new Point(133, 361);
+            calculateButton.Name = "calculateButton";
+            calculateButton.Size = new Size(119, 29);
+            calculateButton.TabIndex = 2;
+            calculateButton.Text = "Calculate";
+            calculateButton.UseVisualStyleBackColor = true;
+            calculateButton.Click += btnCalculate_Click;
             // 
-            // TotalPrice
+            // totalPriceLabel
             // 
-            TotalPrice.AutoSize = true;
-            TotalPrice.BorderStyle = BorderStyle.Fixed3D;
-            TotalPrice.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TotalPrice.Location = new Point(114, 433);
-            TotalPrice.MinimumSize = new Size(173, 24);
-            TotalPrice.Name = "TotalPrice";
-            TotalPrice.Size = new Size(173, 24);
-            TotalPrice.TabIndex = 5;
+            totalPriceLabel.AutoSize = true;
+            totalPriceLabel.BorderStyle = BorderStyle.Fixed3D;
+            totalPriceLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            totalPriceLabel.Location = new Point(114, 433);
+            totalPriceLabel.MinimumSize = new Size(173, 24);
+            totalPriceLabel.Name = "totalPriceLabel";
+            totalPriceLabel.Size = new Size(173, 24);
+            totalPriceLabel.TabIndex = 5;
             // 
             // label2
             // 
@@ -88,9 +88,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(426, 499);
             Controls.Add(label2);
-            Controls.Add(TotalPrice);
-            Controls.Add(btnCalculate);
-            Controls.Add(textBox1);
+            Controls.Add(totalPriceLabel);
+            Controls.Add(calculateButton);
+            Controls.Add(itemTextBox);
             Controls.Add(label1);
             Name = "ShoppingCart";
             Text = "ShoppingCart";
@@ -101,9 +101,9 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private Button btnCalculate;
-        private Label TotalPrice;
+        private TextBox itemTextBox;
+        private Button calculateButton;
+        private Label totalPriceLabel;
         private Label label2;
     }
 }

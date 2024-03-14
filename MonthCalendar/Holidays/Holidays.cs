@@ -19,8 +19,8 @@ namespace CodeChum
 
         private void DisplayHolidaysButton_Click(object sender, EventArgs e)
         {
-            DateTime date = DateTime.ParseExact(holidaysMonthCalendar.SelectionRange.Start.ToShortDateString(), "dd/MM/yyyy", null);
-            
+            DateTime date = holidaysMonthCalendar.SelectionRange.Start;
+
             if (date.Month == 12 && date.Year == 2022)
             {
                 holidaysLabel.Text = "December 25, 2022 - Christmas\nDecember 30, 2022 - Rizal Day";
@@ -34,5 +34,6 @@ namespace CodeChum
                 holidaysLabel.Text = "";
             }
         }
+
     }
 }

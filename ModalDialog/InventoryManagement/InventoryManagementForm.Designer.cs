@@ -28,103 +28,103 @@
         /// </summary>
         private void InitializeComponent()
         {
-            cboItemType = new System.Windows.Forms.ComboBox();
-            txtItemID = new TextBox();
-            txtItemName = new TextBox();
-            txtItemPrice = new TextBox();
-            numericItemStock = new NumericUpDown();
-            btnAdd = new Button();
-            btnCancel = new Button();
-            ((System.ComponentModel.ISupportInitialize)numericItemStock).BeginInit();
+            itemTypeComboBox = new System.Windows.Forms.ComboBox();
+            itemIDTextBox = new TextBox();
+            itemNameTextBox = new TextBox();
+            itemPriceTextBox = new TextBox();
+            itemStockNumericUpDown = new NumericUpDown();
+            addButton = new Button();
+            cancelButton = new Button();
+            ((System.ComponentModel.ISupportInitialize)itemStockNumericUpDown).BeginInit();
             SuspendLayout();
             // 
             // cboItemType
             // 
-            cboItemType.FormattingEnabled = true;
-            cboItemType.Items.AddRange(new object[] { "Food", "Beverage" });
-            cboItemType.Location = new Point(33, 27);
-            cboItemType.Name = "cboItemType";
-            cboItemType.Size = new Size(121, 23);
-            cboItemType.TabIndex = 0;
+            itemTypeComboBox.FormattingEnabled = true;
+            itemTypeComboBox.Items.AddRange(new object[] { "Food", "Beverage" });
+            itemTypeComboBox.Location = new Point(33, 27);
+            itemTypeComboBox.Name = "itemTypeComboBox";
+            itemTypeComboBox.Size = new Size(121, 23);
+            itemTypeComboBox.TabIndex = 0;
             // 
             // txtItemID
             // 
-            txtItemID.Location = new Point(172, 27);
-            txtItemID.Name = "txtItemID";
-            txtItemID.PlaceholderText = "Item ID";
-            txtItemID.Size = new Size(139, 23);
-            txtItemID.TabIndex = 1;
+            itemIDTextBox.Location = new Point(172, 27);
+            itemIDTextBox.Name = "itemIDTextBox";
+            itemIDTextBox.PlaceholderText = "Item ID";
+            itemIDTextBox.Size = new Size(139, 23);
+            itemIDTextBox.TabIndex = 1;
             // 
             // txtItemName
             // 
-            txtItemName.Location = new Point(33, 68);
-            txtItemName.Name = "txtItemName";
-            txtItemName.PlaceholderText = "Item Name";
-            txtItemName.Size = new Size(278, 23);
-            txtItemName.TabIndex = 2;
+            itemNameTextBox.Location = new Point(33, 68);
+            itemNameTextBox.Name = "itemNameTextBox";
+            itemNameTextBox.PlaceholderText = "Item Name";
+            itemNameTextBox.Size = new Size(278, 23);
+            itemNameTextBox.TabIndex = 2;
             // 
             // txtItemPrice
             // 
-            txtItemPrice.Location = new Point(172, 97);
-            txtItemPrice.Name = "txtItemPrice";
-            txtItemPrice.PlaceholderText = "Item Price";
-            txtItemPrice.Size = new Size(139, 23);
-            txtItemPrice.TabIndex = 3;
+            itemPriceTextBox.Location = new Point(172, 97);
+            itemPriceTextBox.Name = "itemPriceTextBox";
+            itemPriceTextBox.PlaceholderText = "Item Price";
+            itemPriceTextBox.Size = new Size(139, 23);
+            itemPriceTextBox.TabIndex = 3;
             // 
             // numericItemStock
             // 
-            numericItemStock.Location = new Point(33, 98);
-            numericItemStock.Name = "numericItemStock";
-            numericItemStock.Size = new Size(120, 23);
-            numericItemStock.TabIndex = 4;
+            itemStockNumericUpDown.Location = new Point(33, 98);
+            itemStockNumericUpDown.Name = "itemStockNumericUpDown";
+            itemStockNumericUpDown.Size = new Size(120, 23);
+            itemStockNumericUpDown.TabIndex = 4;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(65, 144);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
-            btnAdd.TabIndex = 5;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Location = new Point(65, 144);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(75, 23);
+            addButton.TabIndex = 5;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
             // btnCancel
             // 
-            btnCancel.Location = new Point(199, 144);
-            btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(75, 23);
-            btnCancel.TabIndex = 6;
-            btnCancel.Text = "Cancel";
-            btnCancel.UseVisualStyleBackColor = true;
-            btnCancel.Click += btnCancel_Click;
+            cancelButton.Location = new Point(199, 144);
+            cancelButton.Name = "cancelButton";
+            cancelButton.Size = new Size(75, 23);
+            cancelButton.TabIndex = 6;
+            cancelButton.Text = "Cancel";
+            cancelButton.UseVisualStyleBackColor = true;
+            cancelButton.Click += btnCancel_Click;
             // 
             // InventoryManagementForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(352, 179);
-            Controls.Add(btnCancel);
-            Controls.Add(btnAdd);
-            Controls.Add(numericItemStock);
-            Controls.Add(txtItemPrice);
-            Controls.Add(txtItemName);
-            Controls.Add(txtItemID);
-            Controls.Add(cboItemType);
+            Controls.Add(cancelButton);
+            Controls.Add(addButton);
+            Controls.Add(itemStockNumericUpDown);
+            Controls.Add(itemPriceTextBox);
+            Controls.Add(itemNameTextBox);
+            Controls.Add(itemIDTextBox);
+            Controls.Add(itemTypeComboBox);
             Name = "InventoryManagementForm";
             Text = "InventoryManagementForm";
-            ((System.ComponentModel.ISupportInitialize)numericItemStock).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemStockNumericUpDown).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cboItemType;
-        private TextBox txtItemID;
-        private TextBox txtItemName;
-        private TextBox txtItemPrice;
-        private NumericUpDown numericItemStock;
-        private Button btnAdd;
-        private Button btnCancel;
+        private System.Windows.Forms.ComboBox itemTypeComboBox;
+        private TextBox itemIDTextBox;
+        private TextBox itemNameTextBox;
+        private TextBox itemPriceTextBox;
+        private NumericUpDown itemStockNumericUpDown;
+        private Button addButton;
+        private Button cancelButton;
     }
 }

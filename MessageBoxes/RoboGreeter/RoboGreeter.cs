@@ -19,9 +19,9 @@ namespace CodeChum
             InitializeComponent();
         }
 
-        private void btnGreet_Click(object sender, EventArgs e)
+        private async void btnGreet_Click(object sender, EventArgs e)
         {
-            string userName = GreeterName.Text.Trim();
+            string userName = greeterNameTextBox.Text.Trim();
 
             if (string.IsNullOrEmpty(userName))
             {

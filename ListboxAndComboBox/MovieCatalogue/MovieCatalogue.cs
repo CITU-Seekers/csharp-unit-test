@@ -19,20 +19,20 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string name = MovieName.Text;
+            string name = movieNameTextBox.Text;
 
-            int selectedIndex = cboGenre.SelectedIndex;
+            int selectedIndex = genreComboBox.SelectedIndex;
 
             switch (selectedIndex)
             {
                 case 0:
-                    ComedyList.Items.Add(name);
+                    comedyListBox.Items.Add(name);
                     break;
                 case 1:
-                    HorrorList.Items.Add(name);
+                    horrorListBox.Items.Add(name);
                     break;
                 case 2:
-                    ActionList.Items.Add(name);
+                    actionListBox.Items.Add(name);
                     break;
                 default:
                     break;

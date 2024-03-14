@@ -25,7 +25,7 @@ namespace CodeChum
             string effect = GetSelectedEffect(groupBox3);
             string potionName = textBox1.Text;
 
-            lblDescription.Text = " Base Ingredients: " + ingredients +
+            descriptionLabel.Text = " Base Ingredients: " + ingredients +
                                   "\n together with the enhancements: " + enhancements +
                                   "\n with the effect of: " + effect +
                                   "\n Potion name: " + potionName;

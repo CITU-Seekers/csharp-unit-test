@@ -28,39 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            numericUpDownZoo = new NumericUpDown();
-            numericUpDownRollerCoaster = new NumericUpDown();
-            numericUpDownWaterSlide = new NumericUpDown();
+            zooNumericUpDown = new NumericUpDown();
+            rollerCoasterNumericUpDown = new NumericUpDown();
+            waterSlideNumericUpDown = new NumericUpDown();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            lblTotal = new Label();
-            btnCalculate = new Button();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownZoo).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownRollerCoaster).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownWaterSlide).BeginInit();
+            totalLabel = new Label();
+            calculateButton = new Button();
+            ((System.ComponentModel.ISupportInitialize)zooNumericUpDown).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)rollerCoasterNumericUpDown).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)waterSlideNumericUpDown).BeginInit();
             SuspendLayout();
             // 
-            // numericUpDownZoo
+            // zooNumericUpDown
             // 
-            numericUpDownZoo.Location = new Point(169, 44);
-            numericUpDownZoo.Name = "numericUpDownZoo";
-            numericUpDownZoo.Size = new Size(120, 23);
-            numericUpDownZoo.TabIndex = 0;
+            zooNumericUpDown.Location = new Point(169, 44);
+            zooNumericUpDown.Name = "zooNumericUpDown";
+            zooNumericUpDown.Size = new Size(120, 23);
+            zooNumericUpDown.TabIndex = 0;
             // 
-            // numericUpDownRollerCoaster
+            // rollerCoasterNumericUpDown
             // 
-            numericUpDownRollerCoaster.Location = new Point(169, 86);
-            numericUpDownRollerCoaster.Name = "numericUpDownRollerCoaster";
-            numericUpDownRollerCoaster.Size = new Size(120, 23);
-            numericUpDownRollerCoaster.TabIndex = 1;
+            rollerCoasterNumericUpDown.Location = new Point(169, 86);
+            rollerCoasterNumericUpDown.Name = "rollerCoasterNumericUpDown";
+            rollerCoasterNumericUpDown.Size = new Size(120, 23);
+            rollerCoasterNumericUpDown.TabIndex = 1;
             // 
-            // numericUpDownWaterSlide
+            // waterSlideNumericUpDown
             // 
-            numericUpDownWaterSlide.Location = new Point(169, 128);
-            numericUpDownWaterSlide.Name = "numericUpDownWaterSlide";
-            numericUpDownWaterSlide.Size = new Size(120, 23);
-            numericUpDownWaterSlide.TabIndex = 2;
+            waterSlideNumericUpDown.Location = new Point(169, 128);
+            waterSlideNumericUpDown.Name = "waterSlideNumericUpDown";
+            waterSlideNumericUpDown.Size = new Size(120, 23);
+            waterSlideNumericUpDown.TabIndex = 2;
             // 
             // label1
             // 
@@ -94,53 +94,53 @@
             // 
             // lblTotal
             // 
-            lblTotal.AutoSize = true;
-            lblTotal.Location = new Point(169, 209);
-            lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(0, 15);
-            lblTotal.TabIndex = 6;
+            totalLabel.AutoSize = true;
+            totalLabel.Location = new Point(169, 209);
+            totalLabel.Name = "totalLabel";
+            totalLabel.Size = new Size(0, 15);
+            totalLabel.TabIndex = 6;
             // 
-            // btnCalculate
+            // calculateButton
             // 
-            btnCalculate.Location = new Point(183, 167);
-            btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(75, 23);
-            btnCalculate.TabIndex = 7;
-            btnCalculate.Text = "Calculate";
-            btnCalculate.UseVisualStyleBackColor = true;
-            btnCalculate.Click += btnCalculate_Click;
+            calculateButton.Location = new Point(183, 167);
+            calculateButton.Name = "calculateButton";
+            calculateButton.Size = new Size(75, 23);
+            calculateButton.TabIndex = 7;
+            calculateButton.Text = "Calculate";
+            calculateButton.UseVisualStyleBackColor = true;
+            calculateButton.Click += btnCalculate_Click;
             // 
             // TicketCounter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(410, 280);
-            Controls.Add(btnCalculate);
-            Controls.Add(lblTotal);
+            Controls.Add(calculateButton);
+            Controls.Add(totalLabel);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(numericUpDownWaterSlide);
-            Controls.Add(numericUpDownRollerCoaster);
-            Controls.Add(numericUpDownZoo);
+            Controls.Add(waterSlideNumericUpDown);
+            Controls.Add(rollerCoasterNumericUpDown);
+            Controls.Add(zooNumericUpDown);
             Name = "TicketCounter";
             Text = "TicketCounter";
-            ((System.ComponentModel.ISupportInitialize)numericUpDownZoo).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownRollerCoaster).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownWaterSlide).EndInit();
+            ((System.ComponentModel.ISupportInitialize)zooNumericUpDown).EndInit();
+            ((System.ComponentModel.ISupportInitialize)rollerCoasterNumericUpDown).EndInit();
+            ((System.ComponentModel.ISupportInitialize)waterSlideNumericUpDown).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private NumericUpDown numericUpDownZoo;
-        private NumericUpDown numericUpDownRollerCoaster;
-        private NumericUpDown numericUpDownWaterSlide;
+        private NumericUpDown zooNumericUpDown;
+        private NumericUpDown rollerCoasterNumericUpDown;
+        private NumericUpDown waterSlideNumericUpDown;
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label lblTotal;
-        private Button btnCalculate;
+        private Label totalLabel;
+        private Button calculateButton;
     }
 }

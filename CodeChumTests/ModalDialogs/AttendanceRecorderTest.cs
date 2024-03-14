@@ -73,7 +73,7 @@
         // Description: Should open attendance checker form on `checkerButton` click.
         public void ShouldBeAbleToOpenAttendanceCheckerForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -92,7 +92,7 @@
         // Description: Should open employee registration form on `registrationButton` click.
         public void ShouldBeAbleToOpenEmployeeRegistrationForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -111,7 +111,7 @@
         // Description: Should close the attendance checker form on `cancelButton` click.
         public void ShouldBeAbleToCloseAttendanceCheckerForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));
@@ -134,7 +134,7 @@
         // Description: Should close the employee registration form on `cancelButton` click.
         public void ShouldBeAbleToCloseEmployeeRegistrationForm()
         {
-            Boolean isModalShown = false;
+            bool isModalShown = false;
             var registerTask = Task.Factory.StartNew(async () =>
             {
                 await Task.Delay(TimeSpan.FromSeconds(3));

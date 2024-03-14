@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ToDoList = new System.Windows.Forms.ListBox();
-            FinishedList = new System.Windows.Forms.ListBox();
+            toDoListBox = new ListBox();
+            finishedListBox = new ListBox();
             label1 = new Label();
             label2 = new Label();
-            btnDone = new Button();
-            btnAdd = new Button();
-            TaskName = new TextBox();
-            btnRevert = new Button();
+            doneButton = new Button();
+            addButton = new Button();
+            taskNameTextBox = new TextBox();
+            revertButton = new Button();
             SuspendLayout();
             // 
-            // ToDoList
+            // toDoListBox
             // 
-            ToDoList.FormattingEnabled = true;
-            ToDoList.ItemHeight = 15;
-            ToDoList.Location = new Point(121, 51);
-            ToDoList.Name = "ToDoList";
-            ToDoList.Size = new Size(194, 229);
-            ToDoList.TabIndex = 0;
+            toDoListBox.FormattingEnabled = true;
+            toDoListBox.ItemHeight = 15;
+            toDoListBox.Location = new Point(121, 51);
+            toDoListBox.Name = "toDoListBox";
+            toDoListBox.Size = new Size(194, 229);
+            toDoListBox.TabIndex = 0;
             // 
-            // FinishedList
+            // finishedListBox
             // 
-            FinishedList.FormattingEnabled = true;
-            FinishedList.ItemHeight = 15;
-            FinishedList.Location = new Point(424, 51);
-            FinishedList.Name = "FinishedList";
-            FinishedList.Size = new Size(194, 229);
-            FinishedList.TabIndex = 1;
+            finishedListBox.FormattingEnabled = true;
+            finishedListBox.ItemHeight = 15;
+            finishedListBox.Location = new Point(424, 51);
+            finishedListBox.Name = "finishedListBox";
+            finishedListBox.Size = new Size(194, 229);
+            finishedListBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -76,56 +76,56 @@
             label2.TabIndex = 3;
             label2.Text = "Finished:";
             // 
-            // btnDone
+            // doneButton
             // 
-            btnDone.Location = new Point(334, 147);
-            btnDone.Name = "btnDone";
-            btnDone.Size = new Size(75, 23);
-            btnDone.TabIndex = 4;
-            btnDone.Text = "Done";
-            btnDone.UseVisualStyleBackColor = true;
-            btnDone.Click += btnDone_Click;
+            doneButton.Location = new Point(334, 147);
+            doneButton.Name = "doneButton";
+            doneButton.Size = new Size(75, 23);
+            doneButton.TabIndex = 4;
+            doneButton.Text = "Done";
+            doneButton.UseVisualStyleBackColor = true;
+            doneButton.Click += btnDone_Click;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Location = new Point(260, 295);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(57, 23);
-            btnAdd.TabIndex = 7;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Location = new Point(260, 295);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(57, 23);
+            addButton.TabIndex = 7;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
-            // TaskName
+            // taskNameTextBox
             // 
-            TaskName.Location = new Point(121, 295);
-            TaskName.Name = "TaskName";
-            TaskName.Size = new Size(133, 23);
-            TaskName.TabIndex = 6;
+            taskNameTextBox.Location = new Point(121, 295);
+            taskNameTextBox.Name = "taskNameTextBox";
+            taskNameTextBox.Size = new Size(133, 23);
+            taskNameTextBox.TabIndex = 6;
             // 
-            // btnRevert
+            // revertButton
             // 
-            btnRevert.Location = new Point(480, 295);
-            btnRevert.Name = "btnRevert";
-            btnRevert.Size = new Size(75, 23);
-            btnRevert.TabIndex = 8;
-            btnRevert.Text = "Revert";
-            btnRevert.UseVisualStyleBackColor = true;
-            btnRevert.Click += btnRevert_Click;
+            revertButton.Location = new Point(480, 295);
+            revertButton.Name = "revertButton";
+            revertButton.Size = new Size(75, 23);
+            revertButton.TabIndex = 8;
+            revertButton.Text = "Revert";
+            revertButton.UseVisualStyleBackColor = true;
+            revertButton.Click += btnRevert_Click;
             // 
             // TaskTracker
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnRevert);
-            Controls.Add(btnAdd);
-            Controls.Add(TaskName);
-            Controls.Add(btnDone);
+            Controls.Add(revertButton);
+            Controls.Add(addButton);
+            Controls.Add(taskNameTextBox);
+            Controls.Add(doneButton);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(FinishedList);
-            Controls.Add(ToDoList);
+            Controls.Add(finishedListBox);
+            Controls.Add(toDoListBox);
             Name = "TaskTracker";
             Text = "TaskTracker";
             ResumeLayout(false);
@@ -134,13 +134,13 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox ToDoList;
-        private System.Windows.Forms.ListBox FinishedList;
+        private System.Windows.Forms.ListBox toDoListBox;
+        private System.Windows.Forms.ListBox finishedListBox;
         private Label label1;
         private Label label2;
-        private Button btnDone;
-        private Button btnAdd;
-        private TextBox TaskName;
-        private Button btnRevert;
+        private Button doneButton;
+        private Button addButton;
+        private TextBox taskNameTextBox;
+        private Button revertButton;
     }
 }

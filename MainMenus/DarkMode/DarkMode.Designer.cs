@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            MainMenuStrip = new MenuStrip();
+            mainMenuStrip = new MenuStrip();
             viewToolStripMenuItem = new ToolStripMenuItem();
             toggleDarkModeToolStripMenuItem = new ToolStripMenuItem();
-            TextBox = new RichTextBox();
-            MainMenuStrip.SuspendLayout();
+            richTextBox = new RichTextBox();
+            mainMenuStrip.SuspendLayout();
             SuspendLayout();
             // 
-            // MainMenuStrip
+            // mainMenuStrip
             // 
-            MainMenuStrip.Items.AddRange(new ToolStripItem[] { viewToolStripMenuItem });
-            MainMenuStrip.Location = new Point(0, 0);
-            MainMenuStrip.Name = "MainMenuStrip";
-            MainMenuStrip.Size = new Size(452, 24);
-            MainMenuStrip.TabIndex = 0;
-            MainMenuStrip.Text = "menuStrip1";
+            mainMenuStrip.Items.AddRange(new ToolStripItem[] { viewToolStripMenuItem });
+            mainMenuStrip.Location = new Point(0, 0);
+            mainMenuStrip.Name = "mainMenuStrip";
+            mainMenuStrip.Size = new Size(452, 24);
+            mainMenuStrip.TabIndex = 0;
+            mainMenuStrip.Text = "menuStrip1";
             // 
             // viewToolStripMenuItem
             // 
@@ -54,38 +54,38 @@
             // toggleDarkModeToolStripMenuItem
             // 
             toggleDarkModeToolStripMenuItem.Name = "toggleDarkModeToolStripMenuItem";
-            toggleDarkModeToolStripMenuItem.Size = new Size(170, 22);
+            toggleDarkModeToolStripMenuItem.Size = new Size(180, 22);
             toggleDarkModeToolStripMenuItem.Text = "Toggle Dark Mode";
             toggleDarkModeToolStripMenuItem.Click += toggleDarkModeToolStripMenuItem_Click;
             // 
-            // TextBox
+            // richTextBox
             // 
-            TextBox.Location = new Point(48, 50);
-            TextBox.Name = "TextBox";
-            TextBox.Size = new Size(346, 202);
-            TextBox.TabIndex = 1;
-            TextBox.Text = "";
+            richTextBox.Location = new Point(48, 50);
+            richTextBox.Name = "richTextBox";
+            richTextBox.Size = new Size(346, 202);
+            richTextBox.TabIndex = 1;
+            richTextBox.Text = "";
             // 
             // DarkMode
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(452, 312);
-            Controls.Add(TextBox);
-            Controls.Add(MainMenuStrip);
+            Controls.Add(richTextBox);
+            Controls.Add(mainMenuStrip);
             Name = "DarkMode";
             Text = "DarkMode";
-            MainMenuStrip.ResumeLayout(false);
-            MainMenuStrip.PerformLayout();
+            mainMenuStrip.ResumeLayout(false);
+            mainMenuStrip.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private MenuStrip MainMenuStrip;
+        private MenuStrip mainMenuStrip;
         private ToolStripMenuItem viewToolStripMenuItem;
         private ToolStripMenuItem toggleDarkModeToolStripMenuItem;
-        private RichTextBox TextBox;
+        private RichTextBox richTextBox;
     }
 }

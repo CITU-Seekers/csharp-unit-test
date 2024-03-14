@@ -19,46 +19,46 @@ namespace CodeChum
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            ToDoList.Items.Add(TaskName.Text);
-            TaskName.Text = "";
+            toDoListBox.Items.Add(taskNameTextBox.Text);
+            taskNameTextBox.Text = "";
             SetProgress();
         }
 
         private void toProgress_Click(object sender, EventArgs e)
         {
-            InProgressList.Items.Add(ToDoList.SelectedItem);
-            ToDoList.Items.Remove(ToDoList.SelectedItem);
+            inProgressListBox.Items.Add(toDoListBox.SelectedItem);
+            toDoListBox.Items.Remove(toDoListBox.SelectedItem);
             SetProgress();
         }
 
         private void backtoTODO_Click(object sender, EventArgs e)
         {
-            ToDoList.Items.Add(InProgressList.SelectedItem);
-            InProgressList.Items.Remove(InProgressList.SelectedItem);
+            toDoListBox.Items.Add(inProgressListBox.SelectedItem);
+            inProgressListBox.Items.Remove(inProgressListBox.SelectedItem);
             SetProgress();
         }
 
         private void toFinished_Click(object sender, EventArgs e)
         {
-            FinishedList.Items.Add(InProgressList.SelectedItem);
-            InProgressList.Items.Remove(InProgressList.SelectedItem);
+            finishedListBox.Items.Add(inProgressListBox.SelectedItem);
+            inProgressListBox.Items.Remove(inProgressListBox.SelectedItem);
             SetProgress();
         }
 
         private void backtoProgress_Click(object sender, EventArgs e)
         {
-            InProgressList.Items.Add(FinishedList.SelectedItem);
-            FinishedList.Items.Remove(FinishedList.SelectedItem);
+            inProgressListBox.Items.Add(finishedListBox.SelectedItem);
+            finishedListBox.Items.Remove(finishedListBox.SelectedItem);
             SetProgress();
         }
 
         private void SetProgress()
         {
-            int totalTasks = ToDoList.Items.Count + InProgressList.Items.Count + FinishedList.Items.Count;
-            int finishedTasks = FinishedList.Items.Count;
+            int totalTasks = toDoListBox.Items.Count + inProgressListBox.Items.Count + finishedListBox.Items.Count;
+            int finishedTasks = finishedListBox.Items.Count;
             int progress = (int)Math.Round((double)finishedTasks / totalTasks * 100);
-            ProgressBar.Value = progress;
-            ProgressLabel.Text = $"Progress: {finishedTasks} / {totalTasks}";
+            progressBar.Value = progress;
+            progressLabel.Text = $"Progress: {finishedTasks} / {totalTasks}";
         }
     }
 }

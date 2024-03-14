@@ -15,9 +15,9 @@ namespace CodeChum
         public ExerciseMinutes()
         {
             InitializeComponent();
-            numericUpDownWalking.ValueChanged += UpdateTotalMinutesLabel;
-            numericUpDownRunning.ValueChanged += UpdateTotalMinutesLabel;
-            numericUpDownCycling.ValueChanged += UpdateTotalMinutesLabel;
+            walkingNumericUpDown.ValueChanged += UpdateTotalMinutesLabel;
+            runningNumericUpDown.ValueChanged += UpdateTotalMinutesLabel;
+            cyclingNumericUpDown.ValueChanged += UpdateTotalMinutesLabel;
 
             // Initialize the total minutes label
             UpdateTotalMinutesLabel(null, null);
@@ -25,13 +25,13 @@ namespace CodeChum
 
         private void UpdateTotalMinutesLabel(object sender, EventArgs e)
         {
-            int walkingMinutes = (int)numericUpDownWalking.Value;
-            int runningMinutes = (int)numericUpDownRunning.Value;
-            int cyclingMinutes = (int)numericUpDownCycling.Value;
+            int walkingMinutes = (int)walkingNumericUpDown.Value;
+            int runningMinutes = (int)runningNumericUpDown.Value;
+            int cyclingMinutes = (int)cyclingNumericUpDown.Value;
 
             int totalMinutes = walkingMinutes + runningMinutes + cyclingMinutes;
 
-            lblTotal.Text = $"Total Exercise Minutes: {totalMinutes} min";
+            totalLabel.Text = $"Total Exercise Minutes: {totalMinutes} min";
         }
 
     }

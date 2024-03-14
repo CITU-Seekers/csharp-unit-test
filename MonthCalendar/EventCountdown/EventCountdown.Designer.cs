@@ -29,59 +29,59 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            MonthCalendar = new MonthCalendar();
-            btnAdd = new Button();
-            EventName = new TextBox();
-            lblCountdown = new Label();
-            CountdownTimer = new System.Windows.Forms.Timer(components);
+            monthCalendar = new MonthCalendar();
+            addButton = new Button();
+            eventNameTextBox = new TextBox();
+            countdownLabel = new Label();
+            countdownTimer = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
-            // MonthCalendar
+            // monthCalendar
             // 
-            MonthCalendar.Location = new Point(54, 36);
-            MonthCalendar.Name = "MonthCalendar";
-            MonthCalendar.TabIndex = 0;
+            monthCalendar.Location = new Point(54, 36);
+            monthCalendar.Name = "monthCalendar";
+            monthCalendar.TabIndex = 0;
             // 
-            // btnAdd
+            // addButton
             // 
-            btnAdd.Location = new Point(206, 210);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
-            btnAdd.TabIndex = 6;
-            btnAdd.Text = "Add Event";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            addButton.Location = new Point(206, 210);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(75, 23);
+            addButton.TabIndex = 6;
+            addButton.Text = "Add Event";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += btnAdd_Click;
             // 
-            // EventName
+            // eventNameTextBox
             // 
-            EventName.Location = new Point(54, 210);
-            EventName.Multiline = true;
-            EventName.Name = "EventName";
-            EventName.Size = new Size(136, 23);
-            EventName.TabIndex = 4;
+            eventNameTextBox.Location = new Point(54, 210);
+            eventNameTextBox.Multiline = true;
+            eventNameTextBox.Name = "eventNameTextBox";
+            eventNameTextBox.Size = new Size(136, 23);
+            eventNameTextBox.TabIndex = 4;
             // 
             // lblCountdown
             // 
-            lblCountdown.AutoSize = true;
-            lblCountdown.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCountdown.Location = new Point(54, 249);
-            lblCountdown.Name = "lblCountdown";
-            lblCountdown.Size = new Size(0, 20);
-            lblCountdown.TabIndex = 7;
+            countdownLabel.AutoSize = true;
+            countdownLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            countdownLabel.Location = new Point(54, 249);
+            countdownLabel.Name = "countdownLabel";
+            countdownLabel.Size = new Size(0, 20);
+            countdownLabel.TabIndex = 7;
             // 
             // CountdownTimer
             // 
-            CountdownTimer.Tick += CountdownTimer_Tick;
+            countdownTimer.Tick += CountdownTimer_Tick;
             // 
             // EventCountdown
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(358, 354);
-            Controls.Add(lblCountdown);
-            Controls.Add(btnAdd);
-            Controls.Add(EventName);
-            Controls.Add(MonthCalendar);
+            Controls.Add(countdownLabel);
+            Controls.Add(addButton);
+            Controls.Add(eventNameTextBox);
+            Controls.Add(monthCalendar);
             Name = "EventCountdown";
             Text = "EventCountdown";
             ResumeLayout(false);
@@ -90,10 +90,10 @@
 
         #endregion
 
-        private MonthCalendar MonthCalendar;
-        private Button btnAdd;
-        private TextBox EventName;
-        private Label lblCountdown;
-        private System.Windows.Forms.Timer CountdownTimer;
+        private MonthCalendar monthCalendar;
+        private Button addButton;
+        private TextBox eventNameTextBox;
+        private Label countdownLabel;
+        private System.Windows.Forms.Timer countdownTimer;
     }
 }

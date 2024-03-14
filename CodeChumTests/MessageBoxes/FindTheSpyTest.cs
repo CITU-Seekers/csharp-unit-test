@@ -62,15 +62,15 @@
 
                 if (IsSpyNumber(Convert.ToInt32(btn.Text)))
                 {
-                    Assert.True(MessageBoxWrapper3.IsOpened, $"The Message Box should open on button with text of {btn.Text}.");
-                    Assert.Equal("Spy found!", MessageBoxWrapper3.Message);
+                    Assert.True(MessageBoxWrapper.IsOpened, $"The Message Box should open on button with text of {btn.Text}.");
+                    Assert.Equal("Spy found!", MessageBoxWrapper.Message);
                 }
                 else
                 {
-                    Assert.False(MessageBoxWrapper3.IsOpened, $"The Message Box should not open on button with text of {btn.Text}.");
+                    Assert.False(MessageBoxWrapper.IsOpened, $"The Message Box should not open on button with text of {btn.Text}.");
                 }
 
-                MessageBoxWrapper3.IsOpened = false;
+                MessageBoxWrapper.IsOpened = false;
             }
         }
     }

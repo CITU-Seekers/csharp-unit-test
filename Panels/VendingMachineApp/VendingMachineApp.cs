@@ -17,18 +17,18 @@ namespace CodeChum
         public VendingMachineApp()
         {
             InitializeComponent();
-            QuantityUpDown.ValueChanged += QuantityUpDown_ValueChanged;
-            QuantityUpDown.Value = 1;
+            quantityNumericUpDown.ValueChanged += QuantityUpDown_ValueChanged;
+            quantityNumericUpDown.Value = 1;
         }
 
         private void FoodRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             //Display the food options from the vending machine in the listbox
-            if (FoodRadioButton.Checked)
+            if (foodRadioButton.Checked)
             {
-                BevRadioButton.Checked = false;
+                beverageRadioButton.Checked = false;
 
-                ItemList.Items.Clear();
+                itemListBox.Items.Clear();
                 DisplayFoodItems();
             }
         }
@@ -36,11 +36,11 @@ namespace CodeChum
         private void BevRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             //Display the beverage options from the vending machine in the listbox
-            if (BevRadioButton.Checked)
+            if (beverageRadioButton.Checked)
             {
-                FoodRadioButton.Checked = false;
+                foodRadioButton.Checked = false;
 
-                ItemList.Items.Clear();
+                itemListBox.Items.Clear();
                 DisplayBeverageItems();
             }
         }
@@ -69,23 +69,23 @@ namespace CodeChum
 
         private void AddItemWithPrice(string itemName, double price)
         {
-            ItemList.Items.Add($"{itemName} - ${price:F2}");
+            itemListBox.Items.Add($"{itemName} - ${price:F2}");
         }
 
         private void QuantityUpDown_ValueChanged(object sender, EventArgs e)
         {
             // Calculate the total cost based on the selected item's price and quantity
-            int quantity = (int)QuantityUpDown.Value;
+            int quantity = (int)quantityNumericUpDown.Value;
             totalPrice = selectedPrice * quantity;
 
             // Display the total cost in the TotalLabel
-            TotalLabel.Text = $"Total: ${totalPrice:F2}";
+            totalLabel.Text = $"Total: ${totalPrice:F2}";
         }
 
         private void ItemList_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Extract the price from the selected item's text and update the selectedPrice variable
-            string selectedItemText = ItemList.SelectedItem?.ToString();
+            string selectedItemText = itemListBox.SelectedItem?.ToString();
             if (selectedItemText != null && selectedItemText.Contains("$"))
             {
                 selectedPrice = double.Parse(selectedItemText.Split('$')[1]);
@@ -95,87 +95,87 @@ namespace CodeChum
                 selectedPrice = 0.0;
             }
 
-            int quantity = (int)QuantityUpDown.Value;
+            int quantity = (int)quantityNumericUpDown.Value;
             totalPrice = selectedPrice * quantity;
 
             // Display the total cost in the TotalLabel
-            TotalLabel.Text = $"Total: ${totalPrice:F2}";
+            totalLabel.Text = $"Total: ${totalPrice:F2}";
         }
 
         private void ToPanel2Button_Click(object sender, EventArgs e)
         {
             // Set the location of Panel2 to match the location of Panel1
-            Panel2.Location = Panel1.Location;
+            panel2.Location = panel1.Location;
 
             // Make Panel2 visible and hide Panel1
-            Panel2.Visible = true;
-            Panel1.Visible = false;
+            panel2.Visible = true;
+            panel1.Visible = false;
         }
 
         private void ToPanel3Button_Click(object sender, EventArgs e)
         {
-            if (CashRadioButton.Checked)
+            if (cashRadioButton.Checked)
             {
                 // Set the location of Panel3 to match the location of Panel1
-                Panel3Cash.Location = Panel1.Location;
+                cashPanel3.Location = panel1.Location;
 
                 // Make Panel3 visible and hide Panel1
-                Panel3Cash.Visible = true;
-                Panel2.Visible = false;
+                cashPanel3.Visible = true;
+                panel2.Visible = false;
             }
-            else if (CardRadioButton.Checked)
+            else if (cardRadioButton.Checked)
             {
                 // Set the location of Panel3 to match the location of Panel2
-                Panel3Card.Location = Panel2.Location;
+                cardPanel3.Location = panel2.Location;
 
                 // Make Panel3 visible and hide Panel2
-                Panel3Card.Visible = true;
-                Panel2.Visible = false;
+                cardPanel3.Visible = true;
+                panel2.Visible = false;
             }
         }
 
         private void BackToPanel1Button_Click(object sender, EventArgs e)
         {
-            Panel2.Visible = false;
-            Panel1.Visible = true;
+            panel2.Visible = false;
+            panel1.Visible = true;
         }
 
         private void ToPanel4Button1_Click(object sender, EventArgs e)
         {
             //Compare the totalPrice with CashTextBox.Text
-            double cash = double.Parse(CashTextBox.Text);
+            double cash = double.Parse(cashTextBox.Text);
             if (cash >= totalPrice)
             {
                 // Set the location of Panel4 to match the location of Panel3
-                Panel4.Location = Panel3Cash.Location;
+                panel4.Location = cashPanel3.Location;
 
                 // Make Panel4 visible and hide Panel3
-                Panel4.Visible = true;
-                Panel3Cash.Visible = false;
+                panel4.Visible = true;
+                cashPanel3.Visible = false;
             }
             else
             {
-                ErrorLabel.Text = "Insufficient funds!";
+                errorLabel.Text = "Insufficient funds!";
             }
         }
 
         private void BackToPanel2Button1_Click(object sender, EventArgs e)
         {
-            Panel3Cash.Visible = false;
-            Panel2.Visible = true;
+            cashPanel3.Visible = false;
+            panel2.Visible = true;
         }
 
         private void BackToPanel2Button2_Click(object sender, EventArgs e)
         {
-            Panel3Card.Visible = false;
-            Panel2.Visible = true;
+            cardPanel3.Visible = false;
+            panel2.Visible = true;
         }
 
         private void ToPanel4Button2_Click(object sender, EventArgs e)
         {
-            Panel4.Location = Panel3Card.Location;
-            Panel4.Visible = true;
-            Panel3Card.Visible = false;
+            panel4.Location = cardPanel3.Location;
+            panel4.Visible = true;
+            cardPanel3.Visible = false;
         }
 
         private void ExitButton_Click(object sender, EventArgs e)

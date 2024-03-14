@@ -138,7 +138,6 @@
             Controls.Add(nameTextBox);
             Name = "SurveyForm";
             Text = "Survey Form";
-            Load += SurveyForm_Load;
             ((System.ComponentModel.ISupportInitialize)satisfactionNumericControl).EndInit();
             ResumeLayout(false);
             PerformLayout();

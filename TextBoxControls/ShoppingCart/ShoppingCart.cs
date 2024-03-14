@@ -19,16 +19,16 @@ namespace CodeChum
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            string input = textBox1.Text;
+            string input = itemTextBox.Text;
 
             if (!string.IsNullOrEmpty(input))
             {
                 decimal totalCost = CalculateTotal(input);
-                TotalPrice.Text = totalCost.ToString();
+                totalPriceLabel.Text = totalCost.ToString();
             }
             else
             {
-                TotalPrice.Text = "Please enter item prices.";
+                totalPriceLabel.Text = "Please enter item prices.";
             }
         }
 

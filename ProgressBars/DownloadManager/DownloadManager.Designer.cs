@@ -35,9 +35,9 @@
             checkBox3 = new CheckBox();
             checkBox2 = new CheckBox();
             checkBox1 = new CheckBox();
-            btnDownload = new Button();
-            btnCancel = new Button();
-            progressBar = new ProgressBar();
+            downloadButton = new Button();
+            cancelButton = new Button();
+            downloadProgressBar = new ProgressBar();
             ProgressTimer = new System.Windows.Forms.Timer(components);
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -111,32 +111,32 @@
             checkBox1.Text = "Games";
             checkBox1.UseVisualStyleBackColor = true;
             // 
-            // btnDownload
+            // downloadButton
             // 
-            btnDownload.Location = new Point(91, 311);
-            btnDownload.Name = "btnDownload";
-            btnDownload.Size = new Size(75, 23);
-            btnDownload.TabIndex = 1;
-            btnDownload.Text = "Download";
-            btnDownload.UseVisualStyleBackColor = true;
-            btnDownload.Click += btnDownload_Click;
+            downloadButton.Location = new Point(91, 311);
+            downloadButton.Name = "downloadButton";
+            downloadButton.Size = new Size(75, 23);
+            downloadButton.TabIndex = 1;
+            downloadButton.Text = "Download";
+            downloadButton.UseVisualStyleBackColor = true;
+            downloadButton.Click += btnDownload_Click;
             // 
-            // btnCancel
+            // cancelButton
             // 
-            btnCancel.Location = new Point(246, 311);
-            btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(75, 23);
-            btnCancel.TabIndex = 2;
-            btnCancel.Text = "Cancel";
-            btnCancel.UseVisualStyleBackColor = true;
-            btnCancel.Click += btnCancel_Click;
+            cancelButton.Location = new Point(246, 311);
+            cancelButton.Name = "cancelButton";
+            cancelButton.Size = new Size(75, 23);
+            cancelButton.TabIndex = 2;
+            cancelButton.Text = "Cancel";
+            cancelButton.UseVisualStyleBackColor = true;
+            cancelButton.Click += btnCancel_Click;
             // 
-            // progressBar
+            // downloadProgressBar
             // 
-            progressBar.Location = new Point(-1, 1);
-            progressBar.Name = "progressBar";
-            progressBar.Size = new Size(432, 23);
-            progressBar.TabIndex = 3;
+            downloadProgressBar.Location = new Point(-1, 1);
+            downloadProgressBar.Name = "downloadProgressBar";
+            downloadProgressBar.Size = new Size(432, 23);
+            downloadProgressBar.TabIndex = 3;
             // 
             // ProgressTimer
             // 
@@ -147,9 +147,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(430, 369);
-            Controls.Add(progressBar);
-            Controls.Add(btnCancel);
-            Controls.Add(btnDownload);
+            Controls.Add(downloadProgressBar);
+            Controls.Add(cancelButton);
+            Controls.Add(downloadButton);
             Controls.Add(groupBox1);
             Name = "DownloadManager";
             Text = "DownloadManager";
@@ -166,9 +166,9 @@
         private CheckBox checkBox3;
         private CheckBox checkBox2;
         private CheckBox checkBox1;
-        private Button btnDownload;
-        private Button btnCancel;
-        private ProgressBar progressBar;
+        private Button downloadButton;
+        private Button cancelButton;
+        private ProgressBar downloadProgressBar;
         private System.Windows.Forms.Timer ProgressTimer;
     }
 }

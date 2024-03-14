@@ -97,7 +97,7 @@ namespace CodeChum
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            MessageBoxWrapper.Show("Thank you for taking part in the survey");
+            MessageBox.Show("Thank you for taking part in the survey");
         }
     }
 }
