@@ -17,6 +17,7 @@
         }
 
         [Fact]
+        // Description: Should have a MenuStrip named `mainMenuStrip` along with its items `fileMenuItem`, `newMenuItem`, `openMenuItem`, `saveMenuItem`, and `exitMenuItem`.
         public void ShouldHaveMainMenuStripAndItsMenuItems()
         {
             Assert.NotNull(mainMenuStrip);
@@ -36,12 +37,14 @@
         }
 
         [Fact]
+        // Description: Should have a Label named `statusLabel`.
         public void ShouldHaveStatusLabel()
         {
             Assert.NotNull(statusLabel);
         }
 
         [Fact]
+        // Description: Should display "Creating new file..." in `statusLabel` when `newMenuItem` is clicked.
         public void ShouldDisplayCorrectMessageOnNewMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -53,6 +56,7 @@
         }
 
         [Fact]
+        // Description: Should display "Opening file..." in `statusLabel` when `openMenuItem` is clicked.
         public void ShouldDisplayCorrectMessageOnOpenMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -64,6 +68,7 @@
         }
 
         [Fact]
+        // Description: Should display "Saving file..." in `statusLabel` when `saveMenuItem` is clicked.
         public void ShouldDisplayCorrectMessageOnSaveMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -75,6 +80,7 @@
         }
 
         [Fact]
+        // Description: Should close the form when `exitMenuItem` is clicked.
         public void ShouldExitOnExitMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;

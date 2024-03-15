@@ -18,6 +18,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls for the main form app `nameLabel`, `emailLabel`, `openRegistrationModalButton`, and `form.RegisterModal`.
         public void ShouldHaveAllControlsForRegistrationFormApp()
         {
             Assert.NotNull(nameLabel);
@@ -27,6 +28,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls for the register modal `nameTextBox`, `emailTextBox`, `registerButton`, and `cancelButton`.
         public void ShouldHaveAllControlsForRegistrationModal()
         {
             modal = new RegistrationModal();
@@ -43,6 +45,7 @@
         }
 
         [Fact]
+        // Description: Should open the register modal when the `openRegistrationModalButton` is clicked.
         public void ShouldBeAbleToOpenRegisterModal()
         {
             Boolean isRegisterModalShown = false;
@@ -61,6 +64,7 @@
         }
 
         [Fact]
+        // Description: Should close the register modal when the `cancelButton` is clicked.
         public void ShouldBeAbleToCloseRegisterModal()
         {
             Boolean isRegisterModalShown = false;
@@ -83,6 +87,7 @@
         }
 
         [Fact]
+        // Description: Should display the name and email from the regsiter modal in `nameLabel` and `emailLabel` of the main form when the `registerButton` is clicked.
         public void ShouldBeAbleToRegisterInModalOnRegisterClick()
         {
             var registerTask = Task.Factory.StartNew(async () =>

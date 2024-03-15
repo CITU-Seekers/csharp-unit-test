@@ -21,6 +21,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have a MenuStrip named `mainMenuStrip` and Label named `statusLabel`.
         public void ShouldHaveMainMenuStripAndLabel()
         {
             Assert.NotNull(mainMenuStrip);
@@ -28,6 +29,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have a menu item of `mainMenuStrip` named `fileMenuItem` along with its sub items `newMenuItem`, `openMenuItem`, `saveMenuItem`, and `exitMenuItem`.
         public void ShouldHaveFileMenuItemAndItsMenuItems()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -44,6 +46,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have a menu item of `mainMenuStrip` named `formatMenuItem` along with its sub items `fontColorMenuItem`, `redMenuItem`, `greenMenuItem`, and `blueMenuItem`.
         public void ShouldHaveFormatMenuItemAndItsMenuItems()
         {
             formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
@@ -60,6 +63,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should display "Creating new file..." in `statusLabel` when `newMenuItem` is clicked.
         public void ShouldDisplayCorrectMessageOnNewMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -71,6 +75,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should display "Opening file..." in `statusLabel` when `openMenuItem` is clicked.
         public void ShouldDisplayCorrectMessageOnOpenMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -82,6 +87,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should display "Saving file..." in `statusLabel` when `saveMenuItem` is clicked.
         public void ShouldDisplayCorrectMessageOnSaveMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -93,6 +99,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should close the form when `exitMenuItem` is clicked.
         public void ShouldExitOnExitMenuClick()
         {
             fileMenuItem = mainMenuStrip.Items["fileMenuItem"] as ToolStripMenuItem;
@@ -104,6 +111,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change fore color of `statusLabel` to red when `redMenuItem` is clicked.
         public void ShouldChangeColorOnRedMenuClick()
         {
             formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
@@ -116,6 +124,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change fore color of `statusLabel` to green when `greenMenuItem` is clicked.
         public void ShouldChangeColorOnGreenMenuClick()
         {
             formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;
@@ -128,6 +137,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should change fore color of `statusLabel` to blue when `blueMenuItem` is clicked.
         public void ShouldChangeColorOnBlueMenuClick()
         {
             formatMenuItem = mainMenuStrip.Items["formatMenuItem"] as ToolStripMenuItem;

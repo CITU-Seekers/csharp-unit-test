@@ -16,6 +16,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `exactDateTimePicker` and `dateLabel`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(exactDateTimePicker);
@@ -23,6 +24,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should display the selected date with the correct format in `dateLabel`.
         public void ShouldChangeOnDateChange()
         {
             DateTime date = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);

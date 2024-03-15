@@ -15,29 +15,29 @@ namespace CodeChum
         public ColorFontEditor()
         {
             InitializeComponent();
-            EditorFontDialog = new FontDialog();
-            EditorColorDialog = new ColorDialog();
+            editorFontDialog = new FontDialog();
+            editorColorDialog = new ColorDialog();
         }
 
-        public FontDialog EditorFontDialog { get; set; }
-        public ColorDialog EditorColorDialog { get; set; }
+        public FontDialog editorFontDialog { get; set; }
+        public ColorDialog editorColorDialog { get; set; }
 
         private void FontButton_Click(object sender, EventArgs e)
         {
             Task.Run(() => {
-                EditorFontDialog.ShowDialog();
+                editorFontDialog.ShowDialog();
             });
 
-            mainRichTextBox.Font = EditorFontDialog.Font;
+            mainRichTextBox.Font = editorFontDialog.Font;
         }
 
         private void ColorButton_Click(object sender, EventArgs e)
         {
             Task.Run(() => {
-                EditorColorDialog.ShowDialog();
+                editorColorDialog.ShowDialog();
             });
 
-            mainRichTextBox.ForeColor = EditorColorDialog.Color;
+            mainRichTextBox.ForeColor = editorColorDialog.Color;
 
         }
     }

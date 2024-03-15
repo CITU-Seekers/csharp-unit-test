@@ -27,6 +27,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `firstPanel`, `secondPanel`, `thirdPanel`, `nameTextBox`, `ageTextBox`, `nameLabel`, `ageLabel`, `quoteRichTextBox`, `quoteDisplayRichTextBox`, `prevButton`, and `nextButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(firstPanel);
@@ -43,6 +44,7 @@
         }
 
         [Fact]
+        // Description: Should have proper starting visibilities for panels and enabled states for buttons.
         public void ShouldHaveProperStartingVisibilityPanelsAndEnabledButtons()
         {
             Assert.True(firstPanel.Visible);
@@ -52,6 +54,7 @@
         }
 
         [Fact]
+        // Description: Should enable/disable buttons and display panels according to `prevButton` and `nextButton` clicks.
         public void ShouldProperlyEnableDisableButtonsAndDisplayPanels()
         {
             nextButton.PerformClick();
@@ -84,6 +87,7 @@
         }
 
         [Fact]
+        // Description: Should show input values from first and second page to the last page.
         public void ShouldShowTextOnLastPanel()
         {
             nameTextBox.Text = "Test";

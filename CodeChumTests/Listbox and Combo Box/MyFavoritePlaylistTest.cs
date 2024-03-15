@@ -20,6 +20,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `regularListBox`, `favoritesListBox`, `musicTextBox`, `addButton`, `removeButton`, and `addToFavoritesButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(regularListBox);
@@ -31,6 +32,7 @@
         }
 
         [Fact]
+        // Description: Should add music from `musicTextBox` to `regularListBox` on `addButton` click.
         public void ShouldAddTextBoxOnAddButtonClick()
         {
             string test = "MusicTest";
@@ -42,6 +44,7 @@
         }
 
         [Fact]
+        // Description: Should remove selected music from `regularListBox` on `removeButton` click.
         public void ShouldRemoveMusicSelectedFromListBox()
         {
             string musicName0 = "Take a Break";
@@ -56,6 +59,7 @@
         }
 
         [Fact]
+        // Description: Should add selected music from `regularListBox` to `favoritesListBox` on `addToFavoritesButton` click.
         public void ShouldTransferToFavoritesOnTransferButtonClick()
         {
             string test = "MusicTest";
@@ -69,6 +73,7 @@
         }
 
         [Fact]
+        // Description: Should remove selected music from `regularListBox` at the same time from `favoritesListBox` if it exists on `removeButton` click.
         public void shouldDeleteFromBothLists()
         {
             string musicName0 = "Take a Break";

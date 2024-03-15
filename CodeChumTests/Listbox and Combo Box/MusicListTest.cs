@@ -18,6 +18,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `musicListBox`, `musicTextBox`, `addButton`, and `removeButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(musicListBox);
@@ -27,6 +28,7 @@
         }
 
         [Fact]
+        // Description: Should add music from `musicTextBox` to `musicListBox` on `addButton` click.
         public void ShouldAddMusicFromTextBoxToListBox()
         {
             string musicName = "Take a Break";
@@ -37,6 +39,7 @@
         }
 
         [Fact]
+        // Description: Should remove selected music from `musicListBox` on `removeButton` click.
         public void ShouldRemoveMusicSelectedFromListBox()
         {
             string musicName0 = "Take a Break";

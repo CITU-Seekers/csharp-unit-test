@@ -1,4 +1,6 @@
-﻿namespace CodeChum.Tests
+﻿using System.Xml.Linq;
+
+namespace CodeChum.Tests
 {
     public class TreeViewNodesTests
     {
@@ -20,6 +22,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `mainTreeView`, `nameTextBox`, `mainNodeCheckBox`, `addNodeButton`, and `removeNodeButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(mainTreeView);
@@ -30,6 +33,7 @@
         }
 
         [Fact]
+        // Description: Should create a node at the top level if there are no existing nodes on `addNoteButton` click.
         public void ShouldAddNewNodeWithText()
         {
             string test = "test";
@@ -41,6 +45,7 @@
         }
 
         [Fact]
+        // Description: Should create a node at the top level if the `mainNodeCheckBox` is checked on `addNoteButton` click.
         public void ShouldAddNewNodeOnTopIfCheckBoxIsToggled()
         {
             string test = "test";
@@ -56,6 +61,7 @@
         }
 
         [Fact]
+        // Description: Should create a child node on the selected node on `addNoteButton` click.
         public void ShouldAddChildNodeOnSelectedNode()
         {
             string test = "test";
@@ -71,6 +77,7 @@
         }
 
         [Fact]
+        // Description: Should remove the selected node on `removeNodeButton` click.
         public void ShouldRemoveSelectedNode()
         {
             string test = "test";
@@ -83,6 +90,7 @@
         }
 
         [Fact]
+        // Description: Should remove the selected child node on `removeNodeButton` click.
         public void ShouldRemoveSelectedChildNode()
         {
             string test = "test";

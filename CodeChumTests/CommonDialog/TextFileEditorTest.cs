@@ -42,6 +42,7 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should have all the controls `mainRichTextBox`, `openFileButton`, and `saveFileButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(mainRichTextBox);
@@ -50,12 +51,13 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should save the text in the `mainRichTextBox` to a file when the `saveFileButton` is clicked.
         public void ShouldSaveFileOnSaveFileButtonClick()
         {
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
             string expectedFileName = path + "\\sample_create.txt";
 
-            form.EditorSaveFileDialog.FileName = expectedFileName;
+            form.editorSaveFileDialog.FileName = expectedFileName;
             mainRichTextBox.Text = "Hello World";
 
             saveFileButton.PerformClick();
@@ -78,17 +80,18 @@ namespace CodeChum.Tests
         }
 
         [Fact]
+        // Description: Should open a file and display its content in the `mainRichTextBox` when the `openFileButton` is clicked.
         public void ShouldOpenFileOnOpenFileButtonClick()
         {
             createFile();
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            form.EditorOpenFileDialog.FileName = path + "\\sample_open.txt";
+            form.editorOpenFileDialog.FileName = path + "\\sample_open.txt";
 
             openFileButton.PerformClick();
 
             Assert.Equal("Hello World", mainRichTextBox.Text);
 
-            File.Delete(form.EditorOpenFileDialog.FileName);
+            File.Delete(form.editorOpenFileDialog.FileName);
         }
     }
 }

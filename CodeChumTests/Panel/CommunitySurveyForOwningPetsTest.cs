@@ -25,6 +25,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `respondentPanel`, `petDetailsPanel`, `respondentNameTextBox`, `petNameTextBox`, `petTypeTextBox`, `yesRadioButton`, `noRadioButton`, `happyLevelsNumericControl`, and `submitButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(respondentPanel);
@@ -39,6 +40,7 @@
         }
 
         [Fact]
+        // Description: Should only show `petDetailsPanel` when option "Yes" is chosen for owning a pet.
         public void ShouldOnlyShowPetDetailsPanelOnYesRadioButton()
         {
             bool beforeState = petDetailsPanel.Visible;
@@ -50,12 +52,14 @@
         }
 
         [Fact]
+        // Description: Should disable `submitButton` when pet owner name text box is empty.
         public void ShouldDisableButtonOnEmptyTextBox()
         {
             Assert.False(submitButton.Enabled, "The submit button should be disabled.");
         }
 
         [Fact]
+        // Description: Should enable `submitButton` when pet owner name text box is filled and option "No" is chosen for owning a pet.
         public void ShouldEnableButtonOnFilledTextBoxNoPet()
         {
             string test = "Test";
@@ -67,6 +71,7 @@
         }
 
         [Fact]
+        // Description: Should disable `submitButton` if at least one text box in the `PetDetailsPanel` is empty.
         public void ShouldDisableButtonOnEmptyTextBoxOnPetPanel()
         {
             string test = "Test";
@@ -78,6 +83,7 @@
         }
 
         [Fact]
+        // Description: Should have correct min and max values for `happyLevelsNumericControl`.
         public void ShouldHaveCorrectMinAndMaxHappyLevels()
         {
             Assert.Equal(1, happyLevelsNumericControl.Minimum);
@@ -85,6 +91,7 @@
         }
 
         [Fact]
+        // Description: Should enable `submitButton` when all text boxes in the `petDetailsPanel` are filled.
         public void ShouldEnableButtonOnFilledTextBoxYesPet()
         {
             string test = "Test";
@@ -99,6 +106,7 @@
         }
 
         [Fact]
+        // Description: Should show message box when `submitButton` is clicked.
         public void ShouldShowMessageBoxOnClickSubmit()
         {
             string test = "Test";

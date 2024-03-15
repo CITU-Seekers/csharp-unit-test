@@ -24,6 +24,7 @@
         }
 
         [Fact]
+        // Description: Should have all the controls `nameTextBox`, `emailTextBox`, `addressTextBox`, `birthDatePicker`, `registrationLabel`, and `registerButton`.
         public void ShouldHaveAllControls()
         {
             Assert.NotNull(nameTextBox);
@@ -35,6 +36,7 @@
         }
 
         [Fact]
+        // Description: Should have the `registrationStatusStrip` along with its label `registrationStatusLabel`.
         public void ShouldHaveStatusStripAlongWithItsLabel()
         {
             Assert.NotNull(registrationStatusStrip);
@@ -44,6 +46,7 @@
         }
 
         [Fact]
+        // Description: Should not register when text boxes are empty on `registerButton` click.
         public void ShouldNotRegisterWhenTextBoxesAreEmpty()
         {
             registerButton.PerformClick();
@@ -52,6 +55,7 @@
         }
 
         [Fact]
+        // Description: Should not register when at least one text box is empty on `registerButton` click.
         public void ShouldNotRegisterWhenTextBoxesAreNotComplete()
         {
             string test = "TestString";
@@ -63,6 +67,7 @@
         }
 
         [Fact]
+        // Description : Should register when text boxes are complete and display the details in `registrationLabel` on `registerButton` click.
         public void ShouldRegisterWhenTextBoxesAreComplete()
         {
             string testName = "TestName";
@@ -83,6 +88,7 @@
         }
 
         [Fact]
+        // Description: Should display the correct status message in `registrationStatusLabel` when `nameTextBox` is updated.
         public void ShouldUpdateStatusWhenNameIsUpdated()
         {
             string inputValue = "TestName";
@@ -96,6 +102,7 @@
         }
 
         [Fact]
+        // Description: Should display the correct status message in `registrationStatusLabel` when `emailTextBox` is updated.
         public void ShouldUpdateStatusWhenEmailIsUpdated()
         {
             string inputValue = "TestEmail@email.com";
@@ -109,6 +116,7 @@
         }
 
         [Fact]
+        // Description: Should display the correct status message in `registrationStatusLabel` when `addressTextBox` is updated.
         public void ShouldUpdateStatusWhenAddressIsUpdated()
         {
             string inputValue = "somewhere";
@@ -122,6 +130,7 @@
         }
 
         [Fact]
+        // Description: Should display the correct status message in `registrationStatusLabel` when `birthDatePicker` is updated.
         public void ShouldUpdateStatusWhenDatePickerIsUpdated()
         {
             birthDatePicker.Value = DateTime.Now;
