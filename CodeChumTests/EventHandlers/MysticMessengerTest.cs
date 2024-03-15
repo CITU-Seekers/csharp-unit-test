@@ -41,7 +41,7 @@
         }
 
         [Fact]
-        // Description: Should translate the vowels in the message "Hello" in `messageTextBox` to "0ll3H" in `messageLabel` when `moonglowButton` is clicked.
+        // Description: Should translate the vowels in the message "Hello" in `messageTextBox` to "0ll3H" in `messageLabel` when `windButton` is clicked then `moonglowButton` is clicked.
         public void ShouldTranslateTheVowels()
         {
             messageTextBox.Text = "Hello";
@@ -51,7 +51,7 @@
         }
 
         [Fact]
-        // Description: Should translate the message "Hello" in `messageTextBox` to "0LL3H" in `messageLabel` when `twilightButton` is clicked.
+        // Description: Should translate the message "Hello" in `messageTextBox` to "0LL3H" in `messageLabel` when `windButton`, `moonglowButton`, and `twilightButton` are clicked.
         public void ShouldTranslateToUppercaseMessage ()
         {
             messageTextBox.Text = "Hello";
@@ -65,11 +65,11 @@
         // Description: Should translate the message in `messageTextBox` properly in `messageLabel` when all buttons are clicked.
         public void ShouldTranslateProperlyWhenButtonsAreAllClicked ()
         {
-            messageTextBox.Text = "Hello";
+            messageTextBox.Text = "test";
             windButton.PerformClick();
             moonglowButton.PerformClick();
             twilightButton.PerformClick();
-            Assert.Equal("0LL3H", messageLabel.Text);
+            Assert.Equal("TS3T", messageLabel.Text);
         }
     }
 }
