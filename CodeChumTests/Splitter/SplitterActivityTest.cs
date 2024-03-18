@@ -32,7 +32,7 @@
 
         [Fact]
         // Description: Should show uppercase text characters to the `capitalizedTextBox`.
-        public void ShouldShowUppercaseTextOnNonEditableTextBox()
+        public void ShouldShowUppercaseTextOnTextBox()
         {
             string test = "abcdef";
             string expected = test.ToUpper();
