@@ -43,10 +43,10 @@
 
             Assert.Equal(2, mainTabControl.TabCount);
             Assert.Equal("Test", mainTabControl.TabPages[1].Text);
-            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "PetNameLabel", true));
-            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "PetTypeLabel", true));
-            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "CluesLabel", true));
-            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "StatementsLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "petNameLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "petTypeLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "cluesLabel", true));
+            Assert.NotNull((Label)TestUtils.GetControlNamed(mainTabControl.TabPages[1], "statementsLabel", true));
         }
 
         [Fact]
