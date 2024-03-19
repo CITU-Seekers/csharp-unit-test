@@ -113,12 +113,12 @@ namespace CodeChum
                 lblStatus.Font = new Font("Arial", 12);
 
                 //Set the control names
-                lblTitle.Name = "lblTitle";
-                lblAuthor.Name = "lblAuthor";
-                lblGenre.Name = "lblGenre";
-                lblPubDate.Name = "lblPubDate";
-                lblStatus.Name = "lblStatus";
-                exitButton.Name = "exitButton";
+                lblTitle.Name = "titleLabel";
+                lblAuthor.Name = "authorLabel";
+                lblGenre.Name = "genreLabel";
+                lblPubDate.Name = "pubDateLabel";
+                lblStatus.Name = "statusLabel";
+                exitButton.Name = "exitButtonLabel";
 
                 exitButton.Click += (s, args) => mainTabControl.TabPages.Remove(newTab);
 

@@ -123,11 +123,11 @@
 
             Assert.Equal(2, mainTabControl.TabPages.Count);
             Assert.Equal("The Hobbit", mainTabControl.TabPages[1].Text);
-            Assert.Equal("Title: The Hobbit", mainTabControl.TabPages[1].Controls["lblTitle"].Text);
-            Assert.Equal("Author: J.R.R. Tolkien", mainTabControl.TabPages[1].Controls["lblAuthor"].Text);
-            Assert.Equal("Genre: Fantasy", mainTabControl.TabPages[1].Controls["lblGenre"].Text);
-            Assert.Equal("Publication Date: Tuesday, September 21, 1937", mainTabControl.TabPages[1].Controls["lblPubDate"].Text);
-            Assert.Equal("Status: Available", mainTabControl.TabPages[1].Controls["lblStatus"].Text);
+            Assert.Equal("Title: The Hobbit", mainTabControl.TabPages[1].Controls["titleLabel"].Text);
+            Assert.Equal("Author: J.R.R. Tolkien", mainTabControl.TabPages[1].Controls["authorLabel"].Text);
+            Assert.Equal("Genre: Fantasy", mainTabControl.TabPages[1].Controls["genreLabel"].Text);
+            Assert.Equal("Publication Date: Tuesday, September 21, 1937", mainTabControl.TabPages[1].Controls["pubDateLabel"].Text);
+            Assert.Equal("Status: Available", mainTabControl.TabPages[1].Controls["statusLabel"].Text);
         }
 
         [Fact]

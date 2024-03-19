@@ -27,28 +27,28 @@
 
             // Create labels for the information
             Label petNameLabel = new Label();
-            petNameLabel.Name = "PetNameLabel";
+            petNameLabel.Name = "petNameLabel";
             petNameLabel.Text = "Name: " + PetName;
             petNameLabel.Location = petNameTextBox.Location;
             petNameLabel.AutoSize = true;
             newPage.Controls.Add(petNameLabel);
 
             Label petTypeLabel = new Label();
-            petTypeLabel.Name = "PetTypeLabel";
+            petTypeLabel.Name = "petTypeLabel";
             petTypeLabel.Text = "Pet Type: " + PetType;
             petTypeLabel.Location = petTypeTextBox.Location;
             petTypeLabel.AutoSize = true;
             newPage.Controls.Add(petTypeLabel);
 
             Label cluesLabel = new Label();
-            cluesLabel.Name = "CluesLabel";
+            cluesLabel.Name = "cluesLabel";
             cluesLabel.Text = "Clues: \r\n" + Clues;
             cluesLabel.Location = cluesTextBox.Location;
             cluesLabel.AutoSize = true;
             newPage.Controls.Add(cluesLabel);
 
             Label statementsLabel = new Label();
-            statementsLabel.Name = "StatementsLabel";
+            statementsLabel.Name = "statementsLabel";
             statementsLabel.Text = "Statements: \r\n" + Statements;
             statementsLabel.Location = statementsTextBox.Location;
             statementsLabel.AutoSize = true;
