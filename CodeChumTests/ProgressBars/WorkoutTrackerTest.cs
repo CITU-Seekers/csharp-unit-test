@@ -52,6 +52,23 @@ namespace CodeChum.Tests
             Assert.NotEqual(0, progressBar.Value);
         }
 
+        [Fact] 
+        // Description: Should finish workout when `finishButton` is clicked.
+        public void ShouldFinishWorkout()
+        {
+            durationNumericUpDown.Value = 5;
+            progressBar.Maximum = (int)durationNumericUpDown.Value;
+            workoutComboBox.SelectedIndex = 0;
+
+            // Act
+            startButton.PerformClick();
+            wait(5000);
+            finishButton.PerformClick();
+
+            // Assert
+            Assert.Equal(0, progressBar.Value);
+        }
+
         public void wait(int milliseconds)
         {
             var timer = new Timer();
