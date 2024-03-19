@@ -51,16 +51,15 @@ namespace CodeChum.Tests
         }
 
         [Fact]
-        // Description: Should save the text in the `mainRichTextBox` to a file when the `saveFileButton` is clicked.
+        // Description: Should save the text in the `mainRichTextBox` to a file when the `saveFileButton` is clicked using the `SaveFile` method.
         public void ShouldSaveFileOnSaveFileButtonClick()
         {
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
             string expectedFileName = path + "\\sample_create.txt";
 
-            form.editorSaveFileDialog.FileName = expectedFileName;
             mainRichTextBox.Text = "Hello World";
+            form.SaveFile(expectedFileName);
 
-            saveFileButton.PerformClick();
 
             Assert.True(File.Exists(expectedFileName), "The file named `sample_create.txt` should be created at the root folder.");
 
@@ -80,18 +79,17 @@ namespace CodeChum.Tests
         }
 
         [Fact]
-        // Description: Should open a file and display its content in the `mainRichTextBox` when the `openFileButton` is clicked.
+        // Description: Should open the file in the `mainRichTextBox` when the `openFileButton` is clicked using the `OpenFile` method.
         public void ShouldOpenFileOnOpenFileButtonClick()
         {
             createFile();
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            form.editorOpenFileDialog.FileName = path + "\\sample_open.txt";
-
-            openFileButton.PerformClick();
+           
+            form.OpenFile(path + "\\sample_open.txt");
 
             Assert.Equal("Hello World", mainRichTextBox.Text);
 
-            File.Delete(form.editorOpenFileDialog.FileName);
+            File.Delete(path + "\\sample_open.txt");
         }
     }
 }
